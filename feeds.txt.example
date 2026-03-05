@@ -1,0 +1,4 @@
+# 每行一个 RSS URL，支持以 # 开头的注释行
+# 例如：
+# https://example.com/rss.xml
+# https://another-site.com/feed

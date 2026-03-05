@@ -1,0 +1,38 @@
+{
+  "source": "fallback:https://www.dailybit.cc/feeds",
+  "count": 8,
+  "feeds": [
+    {
+      "name": "Hacker News",
+      "rss_url": "https://hnrss.org/frontpage"
+    },
+    {
+      "name": "Dev.to",
+      "rss_url": "https://dev.to/feed"
+    },
+    {
+      "name": "GitHub Blog",
+      "rss_url": "https://github.blog/feed/"
+    },
+    {
+      "name": "Smashing Magazine",
+      "rss_url": "https://www.smashingmagazine.com/feed/"
+    },
+    {
+      "name": "CSS-Tricks",
+      "rss_url": "https://css-tricks.com/feed/"
+    },
+    {
+      "name": "InfoQ",
+      "rss_url": "https://www.infoq.com/feed/"
+    },
+    {
+      "name": "Martin Fowler",
+      "rss_url": "https://martinfowler.com/feed.atom"
+    },
+    {
+      "name": "The Pragmatic Engineer",
+      "rss_url": "https://newsletter.pragmaticengineer.com/feed"
+    }
+  ]
+}

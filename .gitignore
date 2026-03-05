@@ -1,0 +1,7 @@
+.venv/
+output/
+logs/
+feeds.txt
+__pycache__/
+*.pyc
+*.db

@@ -1,0 +1,9 @@
+name,rss_url
+Hacker News,https://hnrss.org/frontpage
+Dev.to,https://dev.to/feed
+GitHub Blog,https://github.blog/feed/
+Smashing Magazine,https://www.smashingmagazine.com/feed/
+CSS-Tricks,https://css-tricks.com/feed/
+InfoQ,https://www.infoq.com/feed/
+Martin Fowler,https://martinfowler.com/feed.atom
+The Pragmatic Engineer,https://newsletter.pragmaticengineer.com/feed
