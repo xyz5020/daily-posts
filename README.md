@@ -45,7 +45,10 @@ python scripts/run_full_pipeline.py \
   --skip-ai-if-no-key \
   --pretty \
   --feed-link "https://<YOUR_GH_USERNAME>.github.io/daily-posts/" \
-  --feed-self-link "https://<YOUR_GH_USERNAME>.github.io/daily-posts/daily_tech_feed.xml"
+  --feed-self-link "https://<YOUR_GH_USERNAME>.github.io/daily-posts/post.xml" \
+  --feed-output "post.xml" \
+  --publish-path "post.xml" \
+  --skip-opml
 ```
 
 产物默认位置：
@@ -54,10 +57,7 @@ python scripts/run_full_pipeline.py \
 - `feeds.txt`（由步骤1结果自动生成）
 - `output/YYYY-MM-DD.json`
 - `output/YYYY-MM-DD.enriched.json`
-- `output/daily_tech_feed.xml`
-- `output/daily_tech_feed.opml`
-- `daily_tech_feed.xml`（步骤5发布复制）
-- `daily_tech_feed.opml`（步骤5发布复制，可在 NetNewsWire 中 Import）
+- `post.xml`（仓库根目录，GitHub Pages 直接订阅）
 
 说明：
 - 如果未设置 `OPENAI_API_KEY`，加 `--skip-ai-if-no-key` 会自动跳过 AI 步骤并继续产出 RSS。
@@ -188,59 +188,47 @@ crontab -e
 0 8 * * * /Users/xuying/playground/daily-posts/.venv/bin/python /Users/xuying/playground/daily-posts/scripts/run_daily_pipeline.py --feeds-file /Users/xuying/playground/daily-posts/feeds.txt --provider none --output-dir /Users/xuying/playground/daily-posts/output --log-dir /Users/xuying/playground/daily-posts/logs >> /Users/xuying/playground/daily-posts/logs/cron.log 2>&1
 ```
 
-## 自动化方案（post.xml + iCloud + NetNewsWire）
+## GitHub Actions 定时发布（推荐）
 
-本仓库已提供 `launchd` 自动化文件：
-- `scripts/update_post_xml.sh`：每日执行 full pipeline，生成 `post.xml`，同步到 iCloud，并自动提交推送到 GitHub。
-- `launchd/com.xuying.daily-posts.update.plist`：macOS LaunchAgent，默认每天 08:00 执行一次。
-- `scripts/install_launch_agent.sh`：安装并加载 LaunchAgent 到 `~/Library/LaunchAgents`。
+工作流文件：
+- `.github/workflows/update-post-rss.yml`
 
-安装/更新 LaunchAgent：
+触发方式：
+- 每天 `08:00`（Asia/Shanghai）自动执行（cron 为 `0 0 * * *` UTC）。
+- 支持手动触发（`workflow_dispatch`）。
 
-```bash
-cd /Users/xuying/playground/daily-posts
-./scripts/install_launch_agent.sh
+工作流会自动执行：
+- 运行 `run_full_pipeline.py` 生成 `post.xml`
+- 自动提交并推送 `post.xml` 到 `main`
+- GitHub Pages 从仓库发布该文件
+
+首次启用步骤：
+1. 确认仓库已开启 **GitHub Pages**（`Settings -> Pages`，Source 设为 `Deploy from a branch`，分支 `main` / `/root`）。
+2. 在 GitHub Actions 页面启用并手动运行一次 `Update post.xml RSS`。
+3. 生成成功后访问：
+
+```text
+https://xyz5020.github.io/daily-posts/post.xml
 ```
 
-立即手动触发一次：
+如果你之前启用了本地 `launchd` 自动更新，可停用避免重复发布：
 
 ```bash
-launchctl kickstart -k gui/$(id -u)/com.xuying.daily-posts.update
+launchctl bootout gui/$(id -u)/com.xuying.daily-posts.update || true
 ```
-
-关键产物路径：
-- 仓库 RSS：`/Users/xuying/playground/daily-posts/post.xml`
-- iCloud 同步副本：`/Users/xuying/Library/Mobile Documents/com~apple~CloudDocs/daily-posts/post.xml`
-- LaunchAgent 配置：`/Users/xuying/Library/LaunchAgents/com.xuying.daily-posts.update.plist`
-
-日志路径：
-- `logs/update_post_xml_*.log`（脚本运行明细）
-- `logs/launchd.update_post_xml.out.log`
-- `logs/launchd.update_post_xml.err.log`
 
 ## 发布到 GitHub Pages（RSS + OPML）
 
-如果使用 `run_full_pipeline.py` 且未 `--skip-publish-copy`，仓库根目录会生成/更新：
-- `daily_tech_feed.xml`（RSS，用于直接订阅 URL）
-- `daily_tech_feed.opml`（OPML，用于 NetNewsWire 的 Import）
-
-提交并推送：
-
-```bash
-git add daily_tech_feed.xml daily_tech_feed.opml
-git commit -m "chore: update daily tech rss feed"
-git push
-```
+推荐使用 GitHub Actions 自动更新并发布 `post.xml`，无需手动 commit/push。
 
 典型订阅地址：
 
 ```text
-https://<YOUR_GH_USERNAME>.github.io/daily-posts/daily_tech_feed.xml
+https://<YOUR_GH_USERNAME>.github.io/daily-posts/post.xml
 ```
 
 NetNewsWire 使用建议：
 - 直接订阅：在 NetNewsWire 添加上面的 RSS URL。
-- 文件导入：使用 `daily_tech_feed.opml`（Import 入口只接受 OPML，不接受 RSS XML）。
 - 当前自动化推荐订阅地址：`https://xyz5020.github.io/daily-posts/post.xml`（iPhone 与 MacBook 共用同一地址）。
 
 ## 常见问题
