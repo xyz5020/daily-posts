@@ -168,26 +168,6 @@ python tests/test_regression.py
 - `run_daily_pipeline.py` 空结果场景（前一天日期，应产出 0 条）
 - `run_full_pipeline.py` 本地 1~5 全链路（含步骤5发布复制）
 
-## 定时任务（cron 示例）
-
-创建日志目录：
-
-```bash
-mkdir -p /Users/xuying/playground/daily-posts/logs
-```
-
-编辑 crontab：
-
-```bash
-crontab -e
-```
-
-示例：每天 08:00 运行每日流程（`provider=none`）
-
-```cron
-0 8 * * * /Users/xuying/playground/daily-posts/.venv/bin/python /Users/xuying/playground/daily-posts/scripts/run_daily_pipeline.py --feeds-file /Users/xuying/playground/daily-posts/feeds.txt --provider none --output-dir /Users/xuying/playground/daily-posts/output --log-dir /Users/xuying/playground/daily-posts/logs >> /Users/xuying/playground/daily-posts/logs/cron.log 2>&1
-```
-
 ## GitHub Actions 定时发布（推荐）
 
 工作流文件：
@@ -209,12 +189,6 @@ crontab -e
 
 ```text
 https://xyz5020.github.io/daily-posts/post.xml
-```
-
-如果你之前启用了本地 `launchd` 自动更新，可停用避免重复发布：
-
-```bash
-launchctl bootout gui/$(id -u)/com.xuying.daily-posts.update || true
 ```
 
 ## 发布到 GitHub Pages（RSS + OPML）
