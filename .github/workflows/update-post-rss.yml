@@ -16,6 +16,8 @@ concurrency:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
 
     steps:
       - name: Checkout
@@ -51,6 +53,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if ! grep -q "<item>" post.xml; then
+            echo "post.xml has no <item>, skip commit to keep previous feed content"
+            exit 0
+          fi
 
           git add post.xml
           if git diff --cached --quiet -- post.xml; then
