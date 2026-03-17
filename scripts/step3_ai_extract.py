@@ -25,6 +25,10 @@ DEEPSEEK_DEFAULT_BASE_URL = "https://api.deepseek.com"
 DEFAULT_PROVIDER = "openai"
 DEFAULT_OPENAI_MODEL = "gpt-4.1-mini"
 DEFAULT_DEEPSEEK_MODEL = "deepseek-chat"
+BASE_SYSTEM_PROMPT = (
+    "You generate high-quality article metadata for indexing. "
+    "Always return valid JSON object."
+)
 PRICING_PER_1M_TOKENS = {
     "gpt-4.1-mini": {"input": 0.40, "output": 1.60},
     "gpt-4o-mini": {"input": 0.15, "output": 0.60},
@@ -116,6 +120,12 @@ def parse_args() -> argparse.Namespace:
         "--model",
         default=DEFAULT_OPENAI_MODEL,
         help=f"OpenAI/DeepSeek model name. Default: {DEFAULT_OPENAI_MODEL}",
+    )
+    parser.add_argument(
+        "--skill-file",
+        type=Path,
+        default=None,
+        help="Optional skill markdown file injected into OpenAI/DeepSeek system prompt",
     )
     parser.add_argument(
         "--deepseek-base-url",
@@ -302,6 +312,38 @@ def resolve_deepseek_chat_url(base_url: str) -> str:
     return f"{normalized}/chat/completions"
 
 
+def resolve_skill_file_path(skill_file: Path | None) -> Path | None:
+    if skill_file is None:
+        return None
+    candidate = skill_file.expanduser()
+    if not candidate.is_absolute():
+        return (Path.cwd() / candidate).resolve()
+    return candidate
+
+
+def load_skill_instructions(skill_file: Path | None) -> tuple[str, Path | None]:
+    resolved = resolve_skill_file_path(skill_file)
+    if resolved is None:
+        return "", None
+    if not resolved.exists():
+        raise FileNotFoundError(f"Skill file not found: {resolved}")
+    if not resolved.is_file():
+        raise RuntimeError(f"Skill path is not a file: {resolved}")
+    return resolved.read_text(encoding="utf-8").strip(), resolved
+
+
+def build_system_prompt(skill_instructions: str) -> str:
+    if not skill_instructions:
+        return BASE_SYSTEM_PROMPT
+    return (
+        f"{BASE_SYSTEM_PROMPT}\n\n"
+        "Follow the additional SKILL instructions below while preserving output schema.\n"
+        "[SKILL INSTRUCTIONS BEGIN]\n"
+        f"{skill_instructions}\n"
+        "[SKILL INSTRUCTIONS END]"
+    )
+
+
 def _backoff_seconds(attempt: int, base_seconds: float) -> float:
     jitter = random.uniform(0.0, 0.2)
     return base_seconds * (2 ** (attempt - 1)) + jitter
@@ -313,6 +355,7 @@ def call_chat_completions_with_retries(
     provider_name: str,
     api_key: str,
     model: str,
+    system_prompt: str,
     content: str,
     max_retries: int,
     retry_base_seconds: float,
@@ -323,10 +366,7 @@ def call_chat_completions_with_retries(
         "messages": [
             {
                 "role": "system",
-                "content": (
-                    "You generate high-quality article metadata for indexing. "
-                    "Always return valid JSON object."
-                ),
+                "content": system_prompt,
             },
             {
                 "role": "user",
@@ -436,6 +476,7 @@ def generate_with_openai(
     *,
     api_key: str,
     model: str,
+    system_prompt: str,
     content: str,
     max_retries: int,
     retry_base_seconds: float,
@@ -446,6 +487,7 @@ def generate_with_openai(
         provider_name="OpenAI",
         api_key=api_key,
         model=model,
+        system_prompt=system_prompt,
         content=content,
         max_retries=max_retries,
         retry_base_seconds=retry_base_seconds,
@@ -458,6 +500,7 @@ def generate_with_deepseek(
     api_key: str,
     base_url: str,
     model: str,
+    system_prompt: str,
     content: str,
     max_retries: int,
     retry_base_seconds: float,
@@ -468,6 +511,7 @@ def generate_with_deepseek(
         provider_name="DeepSeek",
         api_key=api_key,
         model=model,
+        system_prompt=system_prompt,
         content=content,
         max_retries=max_retries,
         retry_base_seconds=retry_base_seconds,
@@ -517,6 +561,7 @@ def enrich_articles(
     api_key: str | None,
     model: str,
     hf_model: str,
+    system_prompt: str,
     deepseek_base_url: str,
     max_input_chars: int,
     sleep_seconds: float,
@@ -570,6 +615,7 @@ def enrich_articles(
                     api_key=api_key,
                     base_url=deepseek_base_url,
                     model=model,
+                    system_prompt=system_prompt,
                     content=clipped_content,
                     max_retries=max_retries,
                     retry_base_seconds=retry_base_seconds,
@@ -586,6 +632,7 @@ def enrich_articles(
                 summary, tags, prompt_tokens, completion_tokens = generate_with_openai(
                     api_key=api_key,
                     model=model,
+                    system_prompt=system_prompt,
                     content=clipped_content,
                     max_retries=max_retries,
                     retry_base_seconds=retry_base_seconds,
@@ -669,6 +716,18 @@ def main() -> int:
     output_path = Path(args.output)
     stats_path = ensure_stats_output_path(output_path, args.stats_output)
     resolved_model = resolve_provider_model(args.provider, args.model, args.hf_model)
+    try:
+        skill_instructions, resolved_skill_file = load_skill_instructions(args.skill_file)
+    except Exception as err:  # noqa: BLE001
+        logger.error("Failed to load --skill-file: %s", err)
+        return 1
+    system_prompt = build_system_prompt(skill_instructions)
+    if resolved_skill_file is not None:
+        logger.info(
+            "Loaded skill instructions from %s (%s chars)",
+            resolved_skill_file,
+            len(skill_instructions),
+        )
 
     input_path = Path(args.input)
     if not input_path.exists():
@@ -721,6 +780,7 @@ def main() -> int:
             api_key=api_key,
             model=resolved_model,
             hf_model=args.hf_model,
+            system_prompt=system_prompt,
             deepseek_base_url=args.deepseek_base_url,
             max_input_chars=args.max_input_chars,
             sleep_seconds=args.sleep_seconds,
