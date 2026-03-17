@@ -9,7 +9,7 @@
 1. `run_full_pipeline.py`（步骤 1~5，推荐）
 - 步骤1：抓取博客 RSS 源（支持 fallback）
 - 步骤2：拉取当天文章并输出原始 JSON
-- 步骤3：AI 摘要与标签增强（支持 `openai` / `hf-local` / `none`）
+- 步骤3：AI 摘要与标签增强（支持 `openai` / `deepseek` / `hf-local` / `none`）
 - 步骤4：生成 RSS XML + OPML（NetNewsWire 导入）
 - 步骤5：复制 RSS/OPML 到发布路径（默认仓库根目录）
 
@@ -28,10 +28,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-可选（OpenAI 模式需要）：
+可选（云端大模型模式需要）：
 
 ```bash
 export OPENAI_API_KEY="your_api_key"
+export DEEPSEEK_API_KEY="your_deepseek_api_key"
 ```
 
 ## 快速开始
@@ -60,8 +61,25 @@ python scripts/run_full_pipeline.py \
 - `post.xml`（仓库根目录，GitHub Pages 直接订阅）
 
 说明：
-- 如果未设置 `OPENAI_API_KEY`，加 `--skip-ai-if-no-key` 会自动跳过 AI 步骤并继续产出 RSS。
+- 如果 provider 为 `openai` 或 `deepseek` 且未设置对应 API Key，加 `--skip-ai-if-no-key` 会自动跳过 AI 步骤并继续产出 RSS。
+- 生成 `post.xml` 时默认仅写入摘要（不嵌入全文 `content:encoded`），阅读器列表会更干净；如需恢复全文模式，加 `--include-full-content`。
 - 如果不需要步骤5复制，可加 `--skip-publish-copy`。
+
+DeepSeek 生成 `post.xml` 示例（摘要模式，默认）：
+
+```bash
+source .venv/bin/activate
+python scripts/run_full_pipeline.py \
+  --provider deepseek \
+  --model deepseek-chat \
+  --allow-fallback \
+  --pretty \
+  --feed-link "https://<YOUR_GH_USERNAME>.github.io/daily-posts/" \
+  --feed-self-link "https://<YOUR_GH_USERNAME>.github.io/daily-posts/post.xml" \
+  --feed-output "post.xml" \
+  --publish-path "post.xml" \
+  --skip-opml
+```
 
 ### 方案B：跑每日 JSON Feed 流程（步骤 2~4）
 
@@ -92,8 +110,20 @@ python scripts/run_daily_pipeline.py \
 
 `--provider` 说明：
 - `openai`：调用 OpenAI 生成摘要和标签（需要 `OPENAI_API_KEY`）
+- `deepseek`：调用 DeepSeek Chat Completions 生成摘要和标签（需要 `DEEPSEEK_API_KEY`，可用 `--deepseek-base-url` 自定义网关）
 - `hf-local`：本地 transformers summarization pipeline
 - `none`：不调用 AI，输出空摘要/标签或保留回退行为
+
+DeepSeek 示例（步骤 2~4）：
+
+```bash
+source .venv/bin/activate
+python scripts/run_daily_pipeline.py \
+  --feeds-file feeds.txt \
+  --provider deepseek \
+  --model deepseek-chat \
+  --feed-title "Daily Tech Posts"
+```
 
 ## 脚本清单
 
@@ -209,6 +239,9 @@ NetNewsWire 使用建议：
 
 - `Missing OPENAI_API_KEY environment variable.`
   - 使用 OpenAI provider 时必须设置 API Key；或改用 `--provider none`；或在 full pipeline 中使用 `--skip-ai-if-no-key`。
+
+- `Missing DEEPSEEK_API_KEY environment variable.`
+  - 使用 DeepSeek provider 时必须设置 API Key；或改用 `--provider none`；或在 full pipeline 中使用 `--skip-ai-if-no-key`。
 
 - 步骤1来源不可达
   - 使用 `run_full_pipeline.py --allow-fallback`，脚本会使用内置官方 feed 列表继续执行。

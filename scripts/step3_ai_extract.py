@@ -21,7 +21,10 @@ from typing import Any
 
 
 OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions"
+DEEPSEEK_DEFAULT_BASE_URL = "https://api.deepseek.com"
 DEFAULT_PROVIDER = "openai"
+DEFAULT_OPENAI_MODEL = "gpt-4.1-mini"
+DEFAULT_DEEPSEEK_MODEL = "deepseek-chat"
 PRICING_PER_1M_TOKENS = {
     "gpt-4.1-mini": {"input": 0.40, "output": 1.60},
     "gpt-4o-mini": {"input": 0.15, "output": 0.60},
@@ -105,14 +108,19 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", required=True, help="Output JSON file path.")
     parser.add_argument(
         "--provider",
-        choices=("openai", "hf-local", "none"),
+        choices=("openai", "deepseek", "hf-local", "none"),
         default=DEFAULT_PROVIDER,
         help="AI provider. Default: openai",
     )
     parser.add_argument(
         "--model",
-        default="gpt-4.1-mini",
-        help="OpenAI model name. Default: gpt-4.1-mini",
+        default=DEFAULT_OPENAI_MODEL,
+        help=f"OpenAI/DeepSeek model name. Default: {DEFAULT_OPENAI_MODEL}",
+    )
+    parser.add_argument(
+        "--deepseek-base-url",
+        default=os.getenv("DEEPSEEK_BASE_URL", DEEPSEEK_DEFAULT_BASE_URL),
+        help="DeepSeek API base URL. Default: env DEEPSEEK_BASE_URL or https://api.deepseek.com",
     )
     parser.add_argument(
         "--hf-model",
@@ -268,23 +276,68 @@ def estimate_cost_usd(model: str, prompt_tokens: int, completion_tokens: int) ->
     ) / 1_000_000.0
 
 
+def resolve_provider_model(provider: str, model: str, hf_model: str) -> str:
+    if provider == "hf-local":
+        return hf_model
+    if provider == "none":
+        return "none"
+    if provider == "deepseek" and model == DEFAULT_OPENAI_MODEL:
+        return DEFAULT_DEEPSEEK_MODEL
+    return model
+
+
+def resolve_provider_api_key(provider: str) -> str | None:
+    if provider == "openai":
+        return os.getenv("OPENAI_API_KEY")
+    if provider == "deepseek":
+        return os.getenv("DEEPSEEK_API_KEY") or os.getenv("OPENAI_API_KEY")
+    return None
+
+
+def resolve_deepseek_chat_url(base_url: str) -> str:
+    normalized = base_url.strip() or DEEPSEEK_DEFAULT_BASE_URL
+    normalized = normalized.rstrip("/")
+    if normalized.endswith("/chat/completions"):
+        return normalized
+    return f"{normalized}/chat/completions"
+
+
 def _backoff_seconds(attempt: int, base_seconds: float) -> float:
     jitter = random.uniform(0.0, 0.2)
     return base_seconds * (2 ** (attempt - 1)) + jitter
 
 
-def call_openai_with_retries(
+def call_chat_completions_with_retries(
     *,
+    api_url: str,
+    provider_name: str,
     api_key: str,
     model: str,
-    messages: list[dict[str, str]],
+    content: str,
     max_retries: int,
     retry_base_seconds: float,
     logger: logging.Logger,
-) -> dict[str, Any]:
+) -> tuple[str, list[str], int, int]:
     payload = {
         "model": model,
-        "messages": messages,
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "You generate high-quality article metadata for indexing. "
+                    "Always return valid JSON object."
+                ),
+            },
+            {
+                "role": "user",
+                "content": (
+                    "Read the following article and return strict JSON with exactly two keys:\n"
+                    "summary: concise factual summary around 100 words.\n"
+                    "tags: 5-10 tags as a JSON array of short strings.\n\n"
+                    f"{content}"
+                ),
+            },
+        ],
         "temperature": 0.2,
         "response_format": {"type": "json_object"},
     }
@@ -292,7 +345,7 @@ def call_openai_with_retries(
     last_error: Exception | None = None
     for attempt in range(1, max_retries + 1):
         req = urllib.request.Request(
-            OPENAI_CHAT_COMPLETIONS_URL,
+            api_url,
             data=json.dumps(payload).encode("utf-8"),
             headers={
                 "Authorization": f"Bearer {api_key}",
@@ -302,19 +355,56 @@ def call_openai_with_retries(
         )
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
-                return json.loads(resp.read().decode("utf-8"))
+                response_data = json.loads(resp.read().decode("utf-8"))
+                try:
+                    content_text = response_data["choices"][0]["message"]["content"].strip()
+                except (KeyError, IndexError, AttributeError) as err:
+                    raise RuntimeError(f"Unexpected {provider_name} response: {response_data}") from err
+
+                parsed_payload = parse_json_payload(content_text)
+                summary = str(parsed_payload.get("summary") or "").strip()
+                raw_tags = parsed_payload.get("tags")
+                if isinstance(raw_tags, list):
+                    tags = parse_tags(", ".join(str(item) for item in raw_tags))
+                else:
+                    tags = parse_tags(str(raw_tags or ""))
+
+                usage = response_data.get("usage") if isinstance(response_data, dict) else {}
+                prompt_tokens = int((usage or {}).get("prompt_tokens", 0))
+                completion_tokens = int((usage or {}).get("completion_tokens", 0))
+
+                if not summary:
+                    summary = content[:500].strip()
+                if not tags:
+                    tags = extract_tags_from_content(content, limit=10)
+                return summary, tags[:10], prompt_tokens, completion_tokens
         except urllib.error.HTTPError as err:
             details = err.read().decode("utf-8", errors="ignore")
             lowered = details.lower()
-            if "insufficient_quota" in lowered:
+            if (
+                "insufficient_quota" in lowered
+                or "insufficient balance" in lowered
+                or "余额不足" in details
+            ):
                 raise QuotaExceededError(
-                    f"OpenAI quota exceeded. Please check billing/quota. details={details}"
+                    f"{provider_name} quota exceeded. Please check billing/quota. details={details}"
                 ) from err
+
+            if err.code == 400 and "response_format" in lowered:
+                logger.warning(
+                    "%s response_format unsupported for model=%s, retrying without response_format",
+                    provider_name,
+                    model,
+                )
+                payload.pop("response_format", None)
+                last_error = err
+                continue
 
             if err.code in (408, 429, 500, 502, 503, 504):
                 wait_seconds = _backoff_seconds(attempt, retry_base_seconds)
                 logger.warning(
-                    "OpenAI API transient error (attempt %s/%s): HTTP %s, retrying in %.2fs",
+                    "%s API transient error (attempt %s/%s): HTTP %s, retrying in %.2fs",
+                    provider_name,
                     attempt,
                     max_retries,
                     err.code,
@@ -324,12 +414,13 @@ def call_openai_with_retries(
                 last_error = err
                 continue
             raise RuntimeError(
-                f"OpenAI API request failed: HTTP {err.code} - {details}"
+                f"{provider_name} API request failed: HTTP {err.code} - {details}"
             ) from err
         except urllib.error.URLError as err:
             wait_seconds = _backoff_seconds(attempt, retry_base_seconds)
             logger.warning(
-                "OpenAI API network error (attempt %s/%s): %s, retrying in %.2fs",
+                "%s API network error (attempt %s/%s): %s, retrying in %.2fs",
+                provider_name,
                 attempt,
                 max_retries,
                 err,
@@ -338,7 +429,7 @@ def call_openai_with_retries(
             time.sleep(wait_seconds)
             last_error = err
 
-    raise RuntimeError(f"OpenAI API failed after {max_retries} attempts: {last_error}")
+    raise RuntimeError(f"{provider_name} API failed after {max_retries} attempts: {last_error}")
 
 
 def generate_with_openai(
@@ -350,54 +441,38 @@ def generate_with_openai(
     retry_base_seconds: float,
     logger: logging.Logger,
 ) -> tuple[str, list[str], int, int]:
-    user_prompt = (
-        "Read the following article and return strict JSON with exactly two keys:\n"
-        "summary: concise factual summary around 100 words.\n"
-        "tags: 5-10 tags as a JSON array of short strings.\n\n"
-        f"{content}"
-    )
-    response_data = call_openai_with_retries(
+    return call_chat_completions_with_retries(
+        api_url=OPENAI_CHAT_COMPLETIONS_URL,
+        provider_name="OpenAI",
         api_key=api_key,
         model=model,
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "You generate high-quality article metadata for indexing. "
-                    "Always return valid JSON object."
-                ),
-            },
-            {"role": "user", "content": user_prompt},
-        ],
+        content=content,
         max_retries=max_retries,
         retry_base_seconds=retry_base_seconds,
         logger=logger,
     )
 
-    try:
-        content_text = response_data["choices"][0]["message"]["content"].strip()
-    except (KeyError, IndexError, AttributeError) as err:
-        raise RuntimeError(f"Unexpected OpenAI response: {response_data}") from err
 
-    payload = parse_json_payload(content_text)
-    summary = str(payload.get("summary") or "").strip()
-    raw_tags = payload.get("tags")
-    if isinstance(raw_tags, list):
-        tags = parse_tags(", ".join(str(item) for item in raw_tags))
-    else:
-        tags = parse_tags(str(raw_tags or ""))
-
-    usage = response_data.get("usage") if isinstance(response_data, dict) else {}
-    prompt_tokens = int((usage or {}).get("prompt_tokens", 0))
-    completion_tokens = int((usage or {}).get("completion_tokens", 0))
-
-    if not summary:
-        summary = content[:500].strip()
-    if not tags:
-        tags = extract_tags_from_content(content, limit=10)
-
-    return summary, tags[:10], prompt_tokens, completion_tokens
-
+def generate_with_deepseek(
+    *,
+    api_key: str,
+    base_url: str,
+    model: str,
+    content: str,
+    max_retries: int,
+    retry_base_seconds: float,
+    logger: logging.Logger,
+) -> tuple[str, list[str], int, int]:
+    return call_chat_completions_with_retries(
+        api_url=resolve_deepseek_chat_url(base_url),
+        provider_name="DeepSeek",
+        api_key=api_key,
+        model=model,
+        content=content,
+        max_retries=max_retries,
+        retry_base_seconds=retry_base_seconds,
+        logger=logger,
+    )
 
 def build_hf_summarizer(model_name: str):
     try:
@@ -442,6 +517,7 @@ def enrich_articles(
     api_key: str | None,
     model: str,
     hf_model: str,
+    deepseek_base_url: str,
     max_input_chars: int,
     sleep_seconds: float,
     max_retries: int,
@@ -487,6 +563,23 @@ def enrich_articles(
                 summary, tags = generate_with_hf_local(clipped_content, hf_summarizer)
                 prompt_tokens = 0
                 completion_tokens = 0
+            elif provider == "deepseek":
+                if not api_key:
+                    raise RuntimeError("Missing DEEPSEEK_API_KEY environment variable.")
+                summary, tags, prompt_tokens, completion_tokens = generate_with_deepseek(
+                    api_key=api_key,
+                    base_url=deepseek_base_url,
+                    model=model,
+                    content=clipped_content,
+                    max_retries=max_retries,
+                    retry_base_seconds=retry_base_seconds,
+                    logger=logger,
+                )
+                usage.add(
+                    prompt_tokens=prompt_tokens,
+                    completion_tokens=completion_tokens,
+                    model=model,
+                )
             else:
                 if not api_key:
                     raise RuntimeError("Missing OPENAI_API_KEY environment variable.")
@@ -558,7 +651,7 @@ def enrich_articles(
     stats = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "provider": provider,
-        "model": model if provider == "openai" else hf_model if provider == "hf-local" else "none",
+        "model": resolve_provider_model(provider, model, hf_model),
         "total_articles": total,
         "processed_articles": processed,
         "success_articles": success,
@@ -575,16 +668,20 @@ def main() -> int:
     logger = configure_logging(args.log_file)
     output_path = Path(args.output)
     stats_path = ensure_stats_output_path(output_path, args.stats_output)
+    resolved_model = resolve_provider_model(args.provider, args.model, args.hf_model)
 
     input_path = Path(args.input)
     if not input_path.exists():
         logger.error("Input file not found: %s", input_path)
         return 1
 
-    if args.provider == "openai":
-        api_key = os.getenv("OPENAI_API_KEY")
+    if args.provider in ("openai", "deepseek"):
+        api_key = resolve_provider_api_key(args.provider)
         if not api_key:
-            logger.error("Missing OPENAI_API_KEY environment variable.")
+            if args.provider == "openai":
+                logger.error("Missing OPENAI_API_KEY environment variable.")
+            else:
+                logger.error("Missing DEEPSEEK_API_KEY environment variable.")
             return 1
     else:
         api_key = None
@@ -604,7 +701,7 @@ def main() -> int:
             {
                 "generated_at": datetime.now(timezone.utc).isoformat(),
                 "provider": args.provider,
-                "model": args.model if args.provider == "openai" else args.hf_model if args.provider == "hf-local" else "none",
+                "model": resolved_model,
                 "total_articles": 0,
                 "processed_articles": 0,
                 "success_articles": 0,
@@ -622,8 +719,9 @@ def main() -> int:
             articles=articles,
             provider=args.provider,
             api_key=api_key,
-            model=args.model,
+            model=resolved_model,
             hf_model=args.hf_model,
+            deepseek_base_url=args.deepseek_base_url,
             max_input_chars=args.max_input_chars,
             sleep_seconds=args.sleep_seconds,
             max_retries=args.max_retries,

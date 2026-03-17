@@ -35,10 +35,12 @@ jobs:
 
       - name: Generate post.xml
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           python scripts/run_full_pipeline.py \
             --feeds-opml blogs.opml \
+            --provider deepseek \
+            --model deepseek-chat \
             --allow-fallback \
             --skip-ai-if-no-key \
             --pretty \

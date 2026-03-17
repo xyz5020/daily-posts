@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -16,6 +17,9 @@ DEFAULT_FEEDS_FILE = BASE_DIR / "feeds.txt"
 DEFAULT_OUTPUT_DIR = BASE_DIR / "output"
 DEFAULT_LOG_DIR = BASE_DIR / "logs"
 DEFAULT_DB_PATH = BASE_DIR / "data" / "history.db"
+DEFAULT_OPENAI_MODEL = "gpt-4.1-mini"
+DEFAULT_DEEPSEEK_MODEL = "deepseek-chat"
+DEFAULT_DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 
 
 def parse_args() -> argparse.Namespace:
@@ -30,11 +34,16 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--provider",
-        choices=("openai", "hf-local", "none"),
+        choices=("openai", "deepseek", "hf-local", "none"),
         default="openai",
         help="AI provider for step 3",
     )
-    parser.add_argument("--model", default="gpt-4.1-mini", help="OpenAI model")
+    parser.add_argument("--model", default=DEFAULT_OPENAI_MODEL, help="OpenAI/DeepSeek model")
+    parser.add_argument(
+        "--deepseek-base-url",
+        default=os.getenv("DEEPSEEK_BASE_URL", DEFAULT_DEEPSEEK_BASE_URL),
+        help="DeepSeek API base URL",
+    )
     parser.add_argument("--hf-model", default="sshleifer/distilbart-cnn-12-6", help="HF model name")
     parser.add_argument("--db-path", type=Path, default=DEFAULT_DB_PATH, help="SQLite path for dedupe")
     parser.add_argument("--timeout", type=int, default=20, help="Fetch HTTP timeout")
@@ -94,6 +103,16 @@ def resolve_target_date(raw_target_date: str | None) -> str:
     return datetime.now(timezone.utc).date().isoformat()
 
 
+def resolve_provider_model(provider: str, model: str, hf_model: str) -> str:
+    if provider == "hf-local":
+        return hf_model
+    if provider == "none":
+        return "none"
+    if provider == "deepseek" and model == DEFAULT_OPENAI_MODEL:
+        return DEFAULT_DEEPSEEK_MODEL
+    return model
+
+
 def main() -> int:
     args = parse_args()
     try:
@@ -150,7 +169,9 @@ def main() -> int:
         "--provider",
         args.provider,
         "--model",
-        args.model,
+        resolve_provider_model(args.provider, args.model, args.hf_model),
+        "--deepseek-base-url",
+        args.deepseek_base_url,
         "--hf-model",
         args.hf_model,
         "--max-retries",
@@ -192,7 +213,7 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "target_date": target_date,
         "provider": args.provider,
-        "model": args.model if args.provider == "openai" else args.hf_model if args.provider == "hf-local" else "none",
+        "model": resolve_provider_model(args.provider, args.model, args.hf_model),
         "outputs": {
             "fetch": str(fetch_output),
             "enriched": str(ai_output),

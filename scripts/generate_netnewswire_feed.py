@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import sys
 from dataclasses import dataclass
@@ -137,6 +138,22 @@ def _format_description(article: Article) -> str:
     return "\n\n".join(lines) if lines else "暂无摘要"
 
 
+def _build_guid(article: Article) -> str:
+    normalized_tags = ",".join(sorted({tag.strip() for tag in article.tags if tag.strip()}))
+    payload = "\n".join(
+        (
+            article.url.strip(),
+            article.title.strip(),
+            article.summary.strip(),
+            (article.content or "").strip(),
+            normalized_tags,
+            article.published_at.isoformat(),
+        )
+    )
+    digest = hashlib.sha256(payload.encode("utf-8")).hexdigest()[:16]
+    return f"{article.url}#sha256:{digest}"
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", required=True, help="Path to summarized article JSON")
@@ -185,6 +202,11 @@ def parse_args() -> argparse.Namespace:
         "--opml-feed-url",
         default="",
         help="Feed URL used in OPML outline xmlUrl (default: --feed-self-link or local RSS file URI)",
+    )
+    parser.add_argument(
+        "--include-full-content",
+        action="store_true",
+        help="Include article full content in RSS <content:encoded>. Default is summary-only.",
     )
     return parser.parse_args()
 
@@ -259,13 +281,13 @@ def main() -> int:
         entry = fg.add_entry()
         entry.title(f"{article.title} 摘要")
         entry.link(href=article.url)
-        entry.guid(article.url, permalink=True)
+        entry.guid(_build_guid(article), permalink=False)
         entry.pubDate(format_datetime(article.published_at))
 
         description = _format_description(article)
         entry.description(description)
 
-        if article.content:
+        if args.include_full_content and article.content:
             entry.content(article.content, type="html")
 
         for tag in article.tags:

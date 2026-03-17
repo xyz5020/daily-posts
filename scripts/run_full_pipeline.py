@@ -33,6 +33,9 @@ DEFAULT_FEED_OUTPUT = DEFAULT_OUTPUT_DIR / "daily_tech_feed.xml"
 DEFAULT_OPML_OUTPUT = DEFAULT_OUTPUT_DIR / "daily_tech_feed.opml"
 DEFAULT_PUBLISH_PATH = BASE_DIR / "daily_tech_feed.xml"
 DEFAULT_OPML_PUBLISH_PATH = BASE_DIR / "daily_tech_feed.opml"
+DEFAULT_OPENAI_MODEL = "gpt-4.1-mini"
+DEFAULT_DEEPSEEK_MODEL = "deepseek-chat"
+DEFAULT_DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 
 LIST_CANDIDATE_KEYS = ("articles", "items", "entries", "results", "data", "posts")
 
@@ -64,13 +67,29 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Step 3 output JSON path (default: output/YYYY-MM-DD.enriched.json)",
     )
-    parser.add_argument("--model", default="gpt-4.1-mini", help="Step 3 OpenAI model name")
+    parser.add_argument(
+        "--provider",
+        choices=("openai", "deepseek", "hf-local", "none"),
+        default="openai",
+        help="Step 3 AI provider",
+    )
+    parser.add_argument("--model", default=DEFAULT_OPENAI_MODEL, help="Step 3 OpenAI/DeepSeek model name")
+    parser.add_argument(
+        "--hf-model",
+        default="sshleifer/distilbart-cnn-12-6",
+        help="Step 3 local Hugging Face model name when provider=hf-local",
+    )
+    parser.add_argument(
+        "--deepseek-base-url",
+        default=os.getenv("DEEPSEEK_BASE_URL", DEFAULT_DEEPSEEK_BASE_URL),
+        help="Step 3 DeepSeek API base URL",
+    )
     parser.add_argument("--max-input-chars", type=int, default=12000, help="Step 3 max input characters per article")
     parser.add_argument("--sleep-seconds", type=float, default=0.3, help="Step 3 sleep between API calls")
     parser.add_argument(
         "--skip-ai-if-no-key",
         action="store_true",
-        help="If OPENAI_API_KEY is missing, skip Step 3 and continue",
+        help="If provider API key is missing (OpenAI/DeepSeek), skip Step 3 and continue",
     )
     parser.add_argument("--feed-output", type=Path, default=DEFAULT_FEED_OUTPUT, help="Step 4 RSS XML output path")
     parser.add_argument("--feed-title", default="Daily Tech 摘要", help="Step 4 feed title")
@@ -81,6 +100,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--opml-output", type=Path, default=DEFAULT_OPML_OUTPUT, help="Step 4 OPML output path")
     parser.add_argument("--opml-title", default="Daily Tech Feed Subscriptions", help="Step 4 OPML title")
     parser.add_argument("--opml-feed-url", default="", help="Step 4 OPML xmlUrl override (default uses feed-self-link)")
+    parser.add_argument(
+        "--include-full-content",
+        action="store_true",
+        help="Step 4 include full article content in RSS content:encoded (default summary-only)",
+    )
     parser.add_argument("--skip-opml", action="store_true", help="Skip Step 4 OPML generation")
     parser.add_argument("--skip-publish-copy", action="store_true", help="Skip Step 5 copy to publish path")
     parser.add_argument("--publish-path", type=Path, default=DEFAULT_PUBLISH_PATH, help="Step 5 publish file path")
@@ -216,6 +240,24 @@ def count_records(json_path: Path) -> int:
     return 0
 
 
+def resolve_provider_model(provider: str, model: str, hf_model: str) -> str:
+    if provider == "hf-local":
+        return hf_model
+    if provider == "none":
+        return "none"
+    if provider == "deepseek" and model == DEFAULT_OPENAI_MODEL:
+        return DEFAULT_DEEPSEEK_MODEL
+    return model
+
+
+def resolve_provider_api_key(provider: str) -> str | None:
+    if provider == "openai":
+        return os.getenv("OPENAI_API_KEY")
+    if provider == "deepseek":
+        return os.getenv("DEEPSEEK_API_KEY") or os.getenv("OPENAI_API_KEY")
+    return None
+
+
 def check_required_dependencies(python_bin: str) -> None:
     check_cmd = [
         python_bin,
@@ -301,15 +343,19 @@ def main() -> int:
         if enriched_output is None:
             enriched_output = output_dir / f"{raw_articles_path.stem}.enriched.json"
 
+        resolved_model = resolve_provider_model(args.provider, args.model, args.hf_model)
+        provider_api_key = resolve_provider_api_key(args.provider)
+        needs_api_key = args.provider in ("openai", "deepseek")
         record_count = count_records(raw_articles_path)
         if record_count == 0:
             enriched_output.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(raw_articles_path, enriched_output)
             print(f"[step3] no articles today, copied {raw_articles_path} -> {enriched_output}")
-        elif not os.getenv("OPENAI_API_KEY") and args.skip_ai_if_no_key:
+        elif needs_api_key and not provider_api_key and args.skip_ai_if_no_key:
             enriched_output.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(raw_articles_path, enriched_output)
-            print("[step3] OPENAI_API_KEY missing, skipped AI extraction by --skip-ai-if-no-key")
+            missing_key_name = "OPENAI_API_KEY" if args.provider == "openai" else "DEEPSEEK_API_KEY"
+            print(f"[step3] {missing_key_name} missing, skipped AI extraction by --skip-ai-if-no-key")
         else:
             step3_cmd = [
                 args.python_bin,
@@ -318,8 +364,14 @@ def main() -> int:
                 str(raw_articles_path),
                 "--output",
                 str(enriched_output),
+                "--provider",
+                args.provider,
                 "--model",
-                args.model,
+                resolved_model,
+                "--hf-model",
+                args.hf_model,
+                "--deepseek-base-url",
+                args.deepseek_base_url,
                 "--max-input-chars",
                 str(args.max_input_chars),
                 "--sleep-seconds",
@@ -343,6 +395,8 @@ def main() -> int:
             "--max-items",
             str(args.max_items),
         ]
+        if args.include_full_content:
+            step4_cmd.append("--include-full-content")
         if args.feed_self_link:
             step4_cmd.extend(["--feed-self-link", args.feed_self_link])
         if not args.skip_opml:

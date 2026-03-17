@@ -113,6 +113,12 @@ def rss_item_count(path: Path) -> int:
     return len(root.findall("./channel/item"))
 
 
+def rss_has_content_encoded(path: Path) -> bool:
+    root = ET.fromstring(path.read_text(encoding="utf-8"))
+    ns = {"content": "http://purl.org/rss/1.0/modules/content/"}
+    return root.find("./channel/item/content:encoded", ns) is not None
+
+
 def read_opml_outline_attrs(path: Path) -> dict[str, str]:
     root = ET.fromstring(path.read_text(encoding="utf-8"))
     if root.tag != "opml":
@@ -324,6 +330,7 @@ class RegressionPipelineTests(unittest.TestCase):
             self.assertEqual(len(raw_items), 1, "expected one raw article")
             self.assertEqual(len(enriched_items), 1, "expected one enriched article")
             self.assertEqual(rss_item_count(feed_output), 1, "expected one RSS item")
+            self.assertFalse(rss_has_content_encoded(feed_output), "summary-only RSS should not include full content")
             opml_outline = read_opml_outline_attrs(opml_output)
             self.assertEqual(opml_outline.get("type"), "rss", "OPML outline type mismatch")
             self.assertEqual(
