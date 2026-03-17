@@ -8,25 +8,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Mar 2026 06:17:56 +0000</lastBuildDate>
-    <pubDate>Tue, 17 Mar 2026 06:17:56 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2026 06:57:49 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Mar 2026 06:57:49 +0000</pubDate>
     <item>
       <title>★ Apple Exclaves and the Secure Design of the MacBook Neo’s On-Screen Camera Indicator 摘要</title>
       <link>https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator</link>
-      <description>The article discusses camera indicator lights on Apple devices, comparing dedicated hardware indicators (like on MacBook Pros) with on-display software indicators (like on MacBook Neo and iPhones). Initially, hardware indicators were presumed more secure, but Apple's implementation uses secure exclaves in A18 Pro/M4 chips to make on-display indicators equally secure. These exclaves run on isolated systems that directly control display hardware, preventing even kernel-level exploits from activating cameras without visible indicators.
+      <description>The article discusses camera indicator lights on Apple devices, comparing dedicated hardware indicators (like on MacBook Pros) with on-display software indicators (like on MacBook Neo and iPhones). Initially, hardware indicators seem more secure, but Apple's implementation uses secure exclaves in A18 Pro/M4 chips to make on-display indicators equally secure. These exclaves run in isolated environments, preventing even kernel-level exploits from activating the camera without displaying the indicator. The design also covers microphone indicators, offering broader security than camera-only hardware lights.
 
-标签: Apple, camera security, MacBook Neo, secure exclaves, hardware indicators, software indicators, privacy, A18 Pro, Apple Silicon, platform security</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator#sha256:c47f11f734275b1e</guid>
+标签: Apple, camera indicator, security, MacBook Neo, secure exclave, hardware vs software, privacy, A18 Pro, on-display indicator, kernel security</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator#sha256:aaea885716aadafa</guid>
       <category>Apple</category>
-      <category>camera security</category>
+      <category>camera indicator</category>
+      <category>security</category>
       <category>MacBook Neo</category>
-      <category>secure exclaves</category>
-      <category>hardware indicators</category>
-      <category>software indicators</category>
+      <category>secure exclave</category>
+      <category>hardware vs software</category>
       <category>privacy</category>
       <category>A18 Pro</category>
-      <category>Apple Silicon</category>
-      <category>platform security</category>
+      <category>on-display indicator</category>
+      <category>kernel security</category>
       <pubDate>Mon, 16 Mar 2026 17:27:58 +0000</pubDate>
     </item>
     <item>
@@ -34,8 +34,8 @@
       <link>https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/</link>
       <description>Apple announced AirPods Max 2, featuring improved Active Noise Cancellation, enhanced sound quality, and new intelligent features powered by the H2 chip. Key additions include Adaptive Audio, Conversation Awareness, Voice Isolation, Live Translation, studio-quality audio recording, and camera remote functionality. Available in five colors starting March 25, with availability beginning early next month. The Digital Crown can now function as a camera shutter button for paired devices.
 
-标签: AirPods Max 2, Apple, headphones, audio technology, noise cancellation, H2 chip, wireless audio, product launch, consumer electronics, audio recording</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/#sha256:f7c0ce87da6beab8</guid>
+标签: AirPods Max 2, Apple, headphones, audio technology, noise cancellation, H2 chip, wireless audio, product announcement, consumer electronics, audio recording</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/#sha256:495365536c0bd776</guid>
       <category>AirPods Max 2</category>
       <category>Apple</category>
       <category>headphones</category>
@@ -43,7 +43,7 @@
       <category>noise cancellation</category>
       <category>H2 chip</category>
       <category>wireless audio</category>
-      <category>product launch</category>
+      <category>product announcement</category>
       <category>consumer electronics</category>
       <category>audio recording</category>
       <pubDate>Mon, 16 Mar 2026 17:57:39 +0000</pubDate>
@@ -51,45 +51,45 @@
     <item>
       <title>‘The Last Quiet Thing’ 摘要</title>
       <link>https://www.terrygodier.com/the-last-quiet-thing</link>
-      <description>The article references a design essay by Terry Godier discussing attention and design principles, using a functional Casio watch as an example. It includes a link to the essay and a separate link to another piece titled 'The Last Quiet Thing' with a star icon, suggesting editorial endorsement or importance.
+      <description>The article references a design essay by Terry Godier discussing attention and design principles, specifically noting a Casio device that displays actual time with functional buttons. It includes a link to the essay and a separate link to another piece titled 'The Last Quiet Thing' with a star icon indicating importance or bookmarking.
 
-标签: design, attention, Terry Godier, essay, Casio, functionality, Daring Fireball, technology, user experience</description>
-      <guid isPermaLink="false">https://www.terrygodier.com/the-last-quiet-thing#sha256:8451752e934f37e7</guid>
+标签: design, attention, Terry Godier, essay, Casio, functionality, technology, user interface</description>
+      <guid isPermaLink="false">https://www.terrygodier.com/the-last-quiet-thing#sha256:d6760f57dc8a041d</guid>
       <category>design</category>
       <category>attention</category>
       <category>Terry Godier</category>
       <category>essay</category>
       <category>Casio</category>
       <category>functionality</category>
-      <category>Daring Fireball</category>
       <category>technology</category>
-      <category>user experience</category>
+      <category>user interface</category>
       <pubDate>Mon, 16 Mar 2026 17:58:00 +0000</pubDate>
     </item>
     <item>
       <title>Updates OpenTK: alerts voor antwoorden op kamervragen, betere kamerstukdossiers en meer! 摘要</title>
       <link>https://berthub.eu/articles/posts/updates-opentk-maart-2026/</link>
-      <description>OpenTK has enhanced its feature that creates clickable links between parliamentary documents. Previously implemented for references between documents, it now also makes document and case numbers (like 2026D09757 or 2026Z04244) clickable. This improvement follows positive feedback on the initial functionality. The announcement is from the OpenTK newsletter, which users can subscribe to for updates on new developments.
+      <description>OpenTK has enhanced its feature that creates clickable links between parliamentary documents. Previously implemented for references between documents, it now also makes document and case numbers (like 2026D09757 or 2026Z04244) clickable. This update follows positive feedback about the initial linking functionality. The announcement is from the OpenTK newsletter, which readers can subscribe to for updates on new developments.
 
-标签: OpenTK, parliamentary documents, clickable links, document numbers, case numbers, feature enhancement, newsletter, user feedback</description>
-      <guid isPermaLink="false">https://berthub.eu/articles/posts/updates-opentk-maart-2026/#sha256:3ee549f8c1eb9984</guid>
+标签: OpenTK, parliamentary documents, clickable links, document numbers, case numbers, newsletter, feature update, government transparency, digital tools</description>
+      <guid isPermaLink="false">https://berthub.eu/articles/posts/updates-opentk-maart-2026/#sha256:633e0e834628dd4d</guid>
       <category>OpenTK</category>
       <category>parliamentary documents</category>
       <category>clickable links</category>
       <category>document numbers</category>
       <category>case numbers</category>
-      <category>feature enhancement</category>
       <category>newsletter</category>
-      <category>user feedback</category>
+      <category>feature update</category>
+      <category>government transparency</category>
+      <category>digital tools</category>
       <pubDate>Mon, 16 Mar 2026 19:40:09 +0000</pubDate>
     </item>
     <item>
       <title>Coding agents for data analysis 摘要</title>
       <link>https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything</link>
-      <description>This article describes a NICAR 2026 workshop titled 'Coding agents for data analysis,' aimed at data journalists. The three-hour session demonstrated using AI tools like Claude Code and OpenAI Codex for data exploration, cleaning, and analysis. It covered practical exercises with Python, SQLite, and Datasette, including creating visualizations and scraping data. A highlight was generating an interactive heat map of tree data using Leaflet. The workshop used GitHub Codespaces and cost $23 in Codex tokens, with materials designed to be useful beyond attendees.
+      <description>This article describes a NICAR 2026 workshop titled 'Coding agents for data analysis,' aimed at data journalists. The workshop demonstrated using AI coding agents like Claude Code and OpenAI Codex for data exploration, cleaning, and visualization. It covered practical exercises with Python, SQLite, and Datasette, including creating interactive visualizations such as a heat map for tree data. The handout is designed to be useful for both attendees and others interested in data analysis with AI tools.
 
-标签: data-journalism, coding-agents, generative-ai, python, datasette, sqlite, visualization, workshop, claude-code, openai-codex</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything#sha256:81c35e97486b0a3c</guid>
+标签: data-journalism, coding-agents, generative-ai, python, datasette, sqlite, visualization, claude-code, openai-codex, workshop</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything#sha256:27d263b9f2ee48cb</guid>
       <category>data-journalism</category>
       <category>coding-agents</category>
       <category>generative-ai</category>
@@ -97,25 +97,25 @@
       <category>datasette</category>
       <category>sqlite</category>
       <category>visualization</category>
-      <category>workshop</category>
       <category>claude-code</category>
       <category>openai-codex</category>
+      <category>workshop</category>
       <pubDate>Mon, 16 Mar 2026 20:12:32 +0000</pubDate>
     </item>
     <item>
       <title>Quoting Guilherme Rambo 摘要</title>
       <link>https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything</link>
-      <description>The MacBook Neo's software-based camera indicator light operates in the secure enclave of the chip, making it nearly as secure as a hardware indicator. This design ensures that even kernel-level exploits cannot activate the camera without the light appearing on screen, as it runs in a privileged environment separate from the kernel and directly renders the light onto the screen hardware.
+      <description>The MacBook Neo's camera indicator light is software-based but runs in the secure enclave of the chip, making it nearly as secure as a hardware indicator. This design ensures that even kernel-level exploits cannot activate the camera without the light appearing on screen, as it operates in a privileged environment separate from the kernel and directly renders the light onto the screen hardware.
 
-标签: Apple, MacBook Neo, camera indicator, secure enclave, privacy, hardware security, kernel-level exploit, software security, John Gruber</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything#sha256:7880ba74fc2f2ef1</guid>
+标签: Apple, MacBook Neo, camera indicator, secure enclave, privacy, hardware security, kernel exploit, software security, John Gruber</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything#sha256:5656c2692b583332</guid>
       <category>Apple</category>
       <category>MacBook Neo</category>
       <category>camera indicator</category>
       <category>secure enclave</category>
       <category>privacy</category>
       <category>hardware security</category>
-      <category>kernel-level exploit</category>
+      <category>kernel exploit</category>
       <category>software security</category>
       <category>John Gruber</category>
       <pubDate>Mon, 16 Mar 2026 20:34:13 +0000</pubDate>
@@ -123,27 +123,29 @@
     <item>
       <title>Quoting A member of Anthropic’s alignment-science team 摘要</title>
       <link>https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything</link>
-      <description>The article discusses a blackmail exercise conducted by Anthropic's alignment-science team to demonstrate AI misalignment risks to policymakers. The exercise aimed to create visceral, tangible results that make the abstract concept of misalignment risk salient and understandable for those unfamiliar with it, highlighting practical concerns in AI safety and ethics.
+      <description>The article discusses a blackmail exercise conducted by Anthropic's alignment-science team to demonstrate AI misalignment risks to policymakers. The exercise aimed to create visceral, tangible examples that make the abstract concept of AI misalignment salient for those unfamiliar with it, highlighting practical concerns about AI safety and governance.
 
-标签: AI ethics, Anthropic, AI alignment, AI safety, misalignment risk, policy, generative AI, AI governance</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything#sha256:002df7ed777aadf6</guid>
+标签: AI ethics, Anthropic, AI alignment, AI safety, AI governance, AI misalignment, AI policy, AI risk, Generative AI, LLMs</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything#sha256:31a5aded6ad5db9a</guid>
       <category>AI ethics</category>
       <category>Anthropic</category>
       <category>AI alignment</category>
       <category>AI safety</category>
-      <category>misalignment risk</category>
-      <category>policy</category>
-      <category>generative AI</category>
       <category>AI governance</category>
+      <category>AI misalignment</category>
+      <category>AI policy</category>
+      <category>AI risk</category>
+      <category>Generative AI</category>
+      <category>LLMs</category>
       <pubDate>Mon, 16 Mar 2026 21:38:55 +0000</pubDate>
     </item>
     <item>
       <title>Use subagents and custom agents in Codex 摘要</title>
       <link>https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything</link>
-      <description>OpenAI Codex has released subagents in general availability, featuring default agents like 'explorer', 'worker', and 'default' for parallel task execution. Users can define custom agents via TOML files with specific models and instructions, enabling workflows like debugging and code fixes. The subagents pattern is widely adopted across platforms including Claude Code, Gemini CLI, Mistral Vibe, and tools like VS Code and Cursor.
+      <description>OpenAI Codex has released subagents in general availability, featuring default agents like 'explorer', 'worker', and 'default' for parallel task execution. Users can define custom agents as TOML files with specific models, including gpt-5.3-codex-spark for speed. The subagents pattern is widely supported across platforms such as Claude Code, Gemini CLI, Mistral Vibe, and Visual Studio Code, enabling collaborative coding tasks like debugging and fixing issues.
 
 标签: OpenAI Codex, subagents, coding agents, AI development, parallel processing, custom agents, TOML configuration, generative AI, LLMs, agentic engineering</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything#sha256:9fe3ee592b4e01e0</guid>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything#sha256:16fbbb799c4a8bd0</guid>
       <category>OpenAI Codex</category>
       <category>subagents</category>
       <category>coding agents</category>
@@ -159,20 +161,19 @@
     <item>
       <title>Introducing Mistral Small 4 摘要</title>
       <link>https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything</link>
-      <description>Mistral released Mistral Small 4, a new 119B parameter Apache 2 licensed model that combines reasoning, multimodal, and coding capabilities from their previous flagship models. It supports reasoning effort settings and is available on Hugging Face (242GB). The article includes a test generating an SVG of a pelican riding a bicycle and notes an API limitation for setting reasoning effort. Mistral also released Leanstral, a model tuned for the Lean 4 programming language.
+      <description>Mistral released Mistral Small 4, a 119B parameter Apache 2 licensed model that combines reasoning, multimodal, and coding capabilities. It supports reasoning effort settings and is available on Hugging Face. The article includes a test generating an SVG image and notes an API limitation. Mistral also announced Leanstral, a model tuned for the Lean 4 language.
 
-标签: Mistral, AI, LLM, generative-ai, model-release, open-source, multimodal, reasoning, coding, Hugging Face</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything#sha256:4cabd0d5054d4704</guid>
+标签: Mistral, AI, LLM, generative-ai, model-release, multimodal, reasoning, coding, open-source</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything#sha256:ff4281fbb6c26e15</guid>
       <category>Mistral</category>
       <category>AI</category>
       <category>LLM</category>
       <category>generative-ai</category>
       <category>model-release</category>
-      <category>open-source</category>
       <category>multimodal</category>
       <category>reasoning</category>
       <category>coding</category>
-      <category>Hugging Face</category>
+      <category>open-source</category>
       <pubDate>Mon, 16 Mar 2026 23:41:17 +0000</pubDate>
     </item>
     <item>
@@ -180,55 +181,37 @@
       <link>https://www.mux.com/video-api?utm_campaign=fireball&amp;utm_source=DF</link>
       <description>Mux provides video infrastructure and APIs for developers to integrate video into websites, platforms, and AI workflows. It offers features like transcripts, clips, and storyboards for summarization, translation, content moderation, and tagging. Mux also maintains Video.js, the popular open-source video player, with version 10 currently in beta. The service is used by companies like Patreon, Substack, and Synthesia, and offers a free trial with promotional credits.
 
-标签: video infrastructure, API, Video.js, open source, AI workflows, transcripts, content moderation, developer tools, video player, beta release</description>
-      <guid isPermaLink="false">https://www.mux.com/video-api?utm_campaign=fireball&amp;utm_source=DF#sha256:8d9885dd63adbada</guid>
+标签: video infrastructure, API, Video.js, developer tools, AI workflows, content moderation, open source, video player, transcripts, scalability</description>
+      <guid isPermaLink="false">https://www.mux.com/video-api?utm_campaign=fireball&amp;utm_source=DF#sha256:e962e2f7d4758114</guid>
       <category>video infrastructure</category>
       <category>API</category>
       <category>Video.js</category>
-      <category>open source</category>
-      <category>AI workflows</category>
-      <category>transcripts</category>
-      <category>content moderation</category>
       <category>developer tools</category>
+      <category>AI workflows</category>
+      <category>content moderation</category>
+      <category>open source</category>
       <category>video player</category>
-      <category>beta release</category>
+      <category>transcripts</category>
+      <category>scalability</category>
       <pubDate>Mon, 16 Mar 2026 23:47:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cleaning old GPG RPM keys that your Fedora install is keeping around 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/linux/FedoraCleaningOldGpgRPMKeys</link>
-      <description>The article discusses managing GPG keys in the RPM database on Fedora systems. It explains how to list keys using an rpm command and introduces tools like the DNF5 expired PGP keys plugin and the clean-rpm-gpg-pubkey command to remove obsolete or expired keys. It also covers edge cases, such as re-issued keys from repositories like Google Chrome, which require manual removal using rpm -e, and notes that removed keys can be re-imported automatically when needed.
-
-标签: RPM, GPG keys, Fedora, DNF, system administration, package management, key cleanup, repository management, security, Linux</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/linux/FedoraCleaningOldGpgRPMKeys#sha256:9c724806f6bade39</guid>
-      <category>RPM</category>
-      <category>GPG keys</category>
-      <category>Fedora</category>
-      <category>DNF</category>
-      <category>system administration</category>
-      <category>package management</category>
-      <category>key cleanup</category>
-      <category>repository management</category>
-      <category>security</category>
-      <category>Linux</category>
-      <pubDate>Tue, 17 Mar 2026 01:56:30 +0000</pubDate>
     </item>
     <item>
       <title>Weekly Update 495 摘要</title>
       <link>https://www.troyhunt.com/weekly-update-495/</link>
-      <description>The article discusses the evolution of Have I Been Pwned (HIBP) from a simple website with a database to a complex platform using serverless functions, edge computing, and new data storage. It highlights continuous code improvements that enhance speed, sustainability, and cost-effectiveness, often unseen by the public. The author mentions a major update detailed in a weekly video, emphasizing how incremental changes contribute to the platform's ongoing development.
+      <description>The article discusses the evolution of Have I Been Pwned (HIBP), a service for checking if email addresses have been compromised in data breaches. It started as a simple website with a database of over 150 million email addresses but has since evolved to include serverless functions, edge computing, new data storage, and improved query mechanisms. The platform is continuously updated with significant code changes, often behind the scenes, to enhance speed, sustainability, and cost-effectiveness, as highlighted in a recent video update.
 
-标签: HIBP, cybersecurity, serverless, edge computing, data storage, platform evolution, cost-effectiveness, weekly update, Troy Hunt</description>
-      <guid isPermaLink="false">https://www.troyhunt.com/weekly-update-495/#sha256:a8daa6401bde40b5</guid>
-      <category>HIBP</category>
-      <category>cybersecurity</category>
-      <category>serverless</category>
+标签: Have I Been Pwned, data breaches, email security, serverless computing, edge computing, platform evolution, cybersecurity, Troy Hunt, weekly update, cost optimization</description>
+      <guid isPermaLink="false">https://www.troyhunt.com/weekly-update-495/#sha256:252cba6cc8967dbf</guid>
+      <category>Have I Been Pwned</category>
+      <category>data breaches</category>
+      <category>email security</category>
+      <category>serverless computing</category>
       <category>edge computing</category>
-      <category>data storage</category>
       <category>platform evolution</category>
-      <category>cost-effectiveness</category>
-      <category>weekly update</category>
+      <category>cybersecurity</category>
       <category>Troy Hunt</category>
+      <category>weekly update</category>
+      <category>cost optimization</category>
       <pubDate>Tue, 17 Mar 2026 02:55:31 +0000</pubDate>
     </item>
     <item>
@@ -236,17 +219,17 @@
       <link>https://oldvcr.blogspot.com/2026/03/hedley-davis-has-died.html</link>
       <description>The article discusses an obscure but influential Commodore employee during the Amiga era, highlighting his work on devices like the Amiga 3000, Amiga 2024 monitor, and the 1987 prototype SX-500—an Amiga 500 in a portable SX-64 case. He later contributed to the Xbox and Xbox 360, taught at the University of Delaware in retirement, and recently passed away at age 68.
 
-标签: Commodore, Amiga, SX-500 prototype, Xbox 360, retro computing, video game consoles, obituary, engineering, PowerPC, University of Delaware</description>
-      <guid isPermaLink="false">https://oldvcr.blogspot.com/2026/03/hedley-davis-has-died.html#sha256:b3304561f9d603ee</guid>
+标签: Commodore, Amiga, SX-500 prototype, Xbox 360, retro computing, obituary, hardware engineer, PowerPC, video game consoles, University of Delaware</description>
+      <guid isPermaLink="false">https://oldvcr.blogspot.com/2026/03/hedley-davis-has-died.html#sha256:746ac21a8e0061dd</guid>
       <category>Commodore</category>
       <category>Amiga</category>
       <category>SX-500 prototype</category>
       <category>Xbox 360</category>
       <category>retro computing</category>
-      <category>video game consoles</category>
       <category>obituary</category>
-      <category>engineering</category>
+      <category>hardware engineer</category>
       <category>PowerPC</category>
+      <category>video game consoles</category>
       <category>University of Delaware</category>
       <pubDate>Tue, 17 Mar 2026 05:20:00 +0000</pubDate>
     </item>
