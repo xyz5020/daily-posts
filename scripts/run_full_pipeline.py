@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import re
@@ -13,6 +14,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Sequence
+from xml.etree import ElementTree as ET
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -46,6 +48,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--blog-json", type=Path, default=DEFAULT_BLOG_JSON, help="Step 1 JSON output path")
     parser.add_argument("--blog-csv", type=Path, default=DEFAULT_BLOG_CSV, help="Step 1 CSV output path")
     parser.add_argument("--feeds-file", type=Path, default=DEFAULT_FEEDS_FILE, help="Step 2 feeds.txt path")
+    parser.add_argument(
+        "--feeds-opml",
+        type=Path,
+        default=None,
+        help="Use OPML xmlUrl subscriptions as feed source and skip Step 1 web fetch",
+    )
     parser.add_argument("--max-feeds", type=int, default=0, help="Limit feed count written into feeds.txt (0 = all)")
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR, help="Step 2/3/4 output directory")
     parser.add_argument("--fetch-timeout", type=int, default=20, help="Step 2 request timeout in seconds")
@@ -131,6 +139,59 @@ def write_feeds_txt(urls: list[str], output_path: Path) -> None:
     output_path.write_text("\n".join(urls) + "\n", encoding="utf-8")
 
 
+def load_feed_rows_from_opml(opml_path: Path, max_feeds: int) -> list[dict[str, str]]:
+    if not opml_path.exists():
+        raise FileNotFoundError(f"OPML file not found: {opml_path}")
+
+    try:
+        root = ET.parse(opml_path).getroot()
+    except ET.ParseError as exc:
+        raise RuntimeError(f"Invalid OPML format: {opml_path} ({exc})") from exc
+
+    rows: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for outline in root.findall(".//outline"):
+        rss_url = str(
+            outline.attrib.get("xmlUrl")
+            or outline.attrib.get("xmlurl")
+            or outline.attrib.get("url")
+            or ""
+        ).strip()
+        if not rss_url:
+            continue
+
+        key = rss_url.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+
+        name = str(outline.attrib.get("title") or outline.attrib.get("text") or "").strip() or rss_url
+        rows.append({"name": name, "rss_url": rss_url})
+        if max_feeds > 0 and len(rows) >= max_feeds:
+            break
+
+    if not rows:
+        raise RuntimeError(f"No feed xmlUrl entries found in OPML: {opml_path}")
+    return rows
+
+
+def write_feed_catalog(blog_json: Path, blog_csv: Path, rows: list[dict[str, str]], source_tag: str) -> None:
+    blog_json.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "source": source_tag,
+        "count": len(rows),
+        "feeds": rows,
+    }
+    blog_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    blog_csv.parent.mkdir(parents=True, exist_ok=True)
+    with blog_csv.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["name", "rss_url"])
+        for row in rows:
+            writer.writerow([row["name"], row["rss_url"]])
+
+
 def detect_step2_output(result: subprocess.CompletedProcess[str], fallback: Path) -> Path:
     combined = f"{result.stdout}\n{result.stderr}"
     match = re.search(r"output=([^\s]+\.json)", combined)
@@ -185,25 +246,36 @@ def main() -> int:
     try:
         check_required_dependencies(args.python_bin)
 
-        step1_cmd = [
-            args.python_bin,
-            str(STEP1_SCRIPT),
-            "--url",
-            args.source_url,
-            "--json-out",
-            str(blog_json),
-            "--csv-out",
-            str(blog_csv),
-            "--timeout",
-            str(args.step1_timeout),
-        ]
-        if args.allow_fallback:
-            step1_cmd.append("--allow-fallback")
-        run_step("step1", step1_cmd)
+        if args.feeds_opml is not None:
+            opml_path = args.feeds_opml.expanduser()
+            if not opml_path.is_absolute():
+                opml_path = (Path.cwd() / opml_path).resolve()
+            rows = load_feed_rows_from_opml(opml_path, max_feeds=args.max_feeds)
+            write_feed_catalog(blog_json, blog_csv, rows, source_tag=f"opml:{opml_path}")
+            urls = [row["rss_url"] for row in rows]
+            write_feeds_txt(urls, feeds_file)
+            print(f"[step1] loaded {len(rows)} feeds from OPML: {opml_path}")
+            print(f"[step2] wrote {len(urls)} urls to {feeds_file}")
+        else:
+            step1_cmd = [
+                args.python_bin,
+                str(STEP1_SCRIPT),
+                "--url",
+                args.source_url,
+                "--json-out",
+                str(blog_json),
+                "--csv-out",
+                str(blog_csv),
+                "--timeout",
+                str(args.step1_timeout),
+            ]
+            if args.allow_fallback:
+                step1_cmd.append("--allow-fallback")
+            run_step("step1", step1_cmd)
 
-        urls = load_feed_urls(blog_json, max_feeds=args.max_feeds)
-        write_feeds_txt(urls, feeds_file)
-        print(f"[step2] wrote {len(urls)} urls to {feeds_file}")
+            urls = load_feed_urls(blog_json, max_feeds=args.max_feeds)
+            write_feeds_txt(urls, feeds_file)
+            print(f"[step2] wrote {len(urls)} urls to {feeds_file}")
 
         step2_cmd = [
             args.python_bin,

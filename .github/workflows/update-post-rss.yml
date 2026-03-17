@@ -2,8 +2,8 @@ name: Update post.xml RSS
 
 on:
   schedule:
-    # 00:00 UTC = 08:00 Asia/Shanghai
-    - cron: "0 0 * * *"
+    # 23:00 UTC = 07:00 Asia/Shanghai (next day)
+    - cron: "0 23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,6 +38,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python scripts/run_full_pipeline.py \
+            --feeds-opml blogs.opml \
             --allow-fallback \
             --skip-ai-if-no-key \
             --pretty \
