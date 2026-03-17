@@ -8,235 +8,121 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Mar 2026 15:11:44 +0800</lastBuildDate>
-    <pubDate>Tue, 17 Mar 2026 15:11:44 +0800</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2026 07:17:31 +0800</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2026 07:17:31 +0800</pubDate>
     <item>
-      <title>★ Apple Exclaves and the Secure Design of the MacBook Neo’s On-Screen Camera Indicator 摘要</title>
-      <link>https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator</link>
-      <description>The article discusses the security of camera indicator lights on Apple devices, comparing dedicated hardware indicators (like those on MacBook Pros) with on-display software-rendered indicators (like on the MacBook Neo and iPhones). Initially, hardware indicators were presumed more secure due to direct physical connection to the camera, preventing software from disabling them. However, Apple's implementation uses secure exclaves—isolated real-time operating systems within the A18 Pro chip—to render the indicator directly to the screen hardware, making it nearly as secure as hardware. This design ensures that even kernel-level exploits cannot activate the camera without the indicator appearing, and also covers microphone indicators, enhancing privacy.
+      <title>Quoting Tim Schilling 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything</link>
+      <description>The article argues that using LLMs to contribute to Django or open-source projects without understanding the context, tickets, solutions, or PR feedback harms the community. It emphasizes that open-source contribution is a communal, human endeavor, and relying on LLMs as a primary vehicle rather than a complementary tool demoralizes reviewers and removes humanity from the experience. The author urges contributors to invest genuine time and understanding rather than just generating tokens.
 
-标签: Apple, security, hardware, privacy, camera, MacBook, iOS, technology, software, chip-design</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator#sha256:a188e8c710e836d9</guid>
-      <category>Apple</category>
-      <category>security</category>
-      <category>hardware</category>
-      <category>privacy</category>
-      <category>camera</category>
-      <category>MacBook</category>
-      <category>iOS</category>
-      <category>technology</category>
-      <category>software</category>
-      <category>chip-design</category>
-      <pubDate>Tue, 17 Mar 2026 01:27:58 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Introduces AirPods Max 2 摘要</title>
-      <link>https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/</link>
-      <description>Apple has announced AirPods Max 2, featuring enhanced Active Noise Cancellation, improved sound quality, and new intelligent capabilities powered by the H2 chip. Key additions include Adaptive Audio, Conversation Awareness, Voice Isolation, Live Translation, studio-quality audio recording, and a camera remote function via the Digital Crown button. Available in five colors starting March 25, with no changes to the Smart Case. A comparison page details differences from the original Max and AirPods Pro 3.
-
-标签: Apple, AirPods Max 2, audio, headphones, consumer electronics, noise cancellation, H2 chip, product launch, March 2026, wireless</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/#sha256:f0992a6e473589d4</guid>
-      <category>Apple</category>
-      <category>AirPods Max 2</category>
-      <category>audio</category>
-      <category>headphones</category>
-      <category>consumer electronics</category>
-      <category>noise cancellation</category>
-      <category>H2 chip</category>
-      <category>product launch</category>
-      <category>March 2026</category>
-      <category>wireless</category>
-      <pubDate>Tue, 17 Mar 2026 01:57:39 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘The Last Quiet Thing’ 摘要</title>
-      <link>https://www.terrygodier.com/the-last-quiet-thing</link>
-      <description>Terry Godier's essay discusses design and attention, using a Casio watch as an example that not only displays the actual time but also has functional buttons, highlighting the importance of practical and unobtrusive design in technology.
-
-标签: design, attention, technology, essay, Casio, functionality, user experience, minimalism, hardware, aesthetics</description>
-      <guid isPermaLink="false">https://www.terrygodier.com/the-last-quiet-thing#sha256:8004d25dfe671035</guid>
-      <category>design</category>
-      <category>attention</category>
-      <category>technology</category>
-      <category>essay</category>
-      <category>Casio</category>
-      <category>functionality</category>
-      <category>user experience</category>
-      <category>minimalism</category>
-      <category>hardware</category>
-      <category>aesthetics</category>
-      <pubDate>Tue, 17 Mar 2026 01:58:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Updates OpenTK: alerts voor antwoorden op kamervragen, betere kamerstukdossiers en meer! 摘要</title>
-      <link>https://berthub.eu/articles/posts/updates-opentk-maart-2026/</link>
-      <description>The article announces an enhancement to OpenTK, a platform for accessing Dutch parliamentary documents. Following previous improvements that made references between parliamentary documents clickable, the new update extends this functionality to document and case numbers (e.g., 2026D09757 or 2026Z04244), making them clickable as well. This feature has received positive feedback from users. The article is adapted from an OpenTK newsletter and encourages readers to subscribe for updates on the latest developments.
-
-标签: government, parliamentary documents, OpenTK, accessibility, feature update, newsletter, public sector, digital tools, Netherlands, user feedback</description>
-      <guid isPermaLink="false">https://berthub.eu/articles/posts/updates-opentk-maart-2026/#sha256:3afda69f14394530</guid>
-      <category>government</category>
-      <category>parliamentary documents</category>
-      <category>OpenTK</category>
-      <category>accessibility</category>
-      <category>feature update</category>
-      <category>newsletter</category>
-      <category>public sector</category>
-      <category>digital tools</category>
-      <category>Netherlands</category>
-      <category>user feedback</category>
-      <pubDate>Tue, 17 Mar 2026 03:40:09 +0800</pubDate>
-    </item>
-    <item>
-      <title>Coding agents for data analysis 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything</link>
-      <description>This article presents a workshop handout from NICAR 2026 titled 'Coding agents for data analysis,' aimed at data journalists. It demonstrates using AI coding agents like Claude Code and OpenAI Codex to explore, analyze, clean, and visualize data with Python, SQLite, and Datasette. Key exercises include querying databases, creating interactive visualizations (e.g., a heat map with Leaflet), and scraping data. The workshop used GitHub Codespaces and cost $23 in Codex tokens, with materials designed to be accessible beyond attendees.
-
-标签: AI, data-journalism, coding-agents, Python, SQLite, visualization, workshop, generative-AI, data-analysis, Claude-Code</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything#sha256:32f3b397e81df723</guid>
-      <category>AI</category>
-      <category>data-journalism</category>
-      <category>coding-agents</category>
-      <category>Python</category>
-      <category>SQLite</category>
-      <category>visualization</category>
-      <category>workshop</category>
+标签: AI-ethics, open-source, generative-AI, AI, Django, LLMs, community, software-development, human-collaboration, code-review</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything#sha256:a84beeb16404f0d7</guid>
+      <category>AI-ethics</category>
+      <category>open-source</category>
       <category>generative-AI</category>
-      <category>data-analysis</category>
-      <category>Claude-Code</category>
-      <pubDate>Tue, 17 Mar 2026 04:12:32 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Guilherme Rambo 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything</link>
-      <description>The MacBook Neo's software-based camera indicator light operates within the secure enclave of the chip, making it nearly as secure as a hardware indicator. This design ensures that even a kernel-level exploit cannot activate the camera without the light appearing on screen, as it runs in a privileged environment separate from the kernel and directly blits the light onto the screen hardware.
-
-标签: hardware, apple, privacy, security, macbook, camera, enclave, kernel, exploit, indicator</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything#sha256:206fb468d254b02f</guid>
-      <category>hardware</category>
-      <category>apple</category>
-      <category>privacy</category>
-      <category>security</category>
-      <category>macbook</category>
-      <category>camera</category>
-      <category>enclave</category>
-      <category>kernel</category>
-      <category>exploit</category>
-      <category>indicator</category>
-      <pubDate>Tue, 17 Mar 2026 04:34:13 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting A member of Anthropic’s alignment-science team 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything</link>
-      <description>The article discusses a blackmail exercise conducted by Anthropic's alignment-science team to illustrate AI misalignment risks to policymakers. The exercise aimed to create visceral, tangible examples that make the abstract concept of AI safety risks salient and understandable for those unfamiliar with the issue, highlighting practical concerns in AI ethics and governance.
-
-标签: AI, AI/ethics, AI/LLM, AI/alignment, AI/safety, Anthropic, policy, governance, risk, misalignment</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything#sha256:b18e03601bbf40c4</guid>
       <category>AI</category>
-      <category>AI/ethics</category>
-      <category>AI/LLM</category>
-      <category>AI/alignment</category>
-      <category>AI/safety</category>
-      <category>Anthropic</category>
-      <category>policy</category>
-      <category>governance</category>
-      <category>risk</category>
-      <category>misalignment</category>
-      <pubDate>Tue, 17 Mar 2026 05:38:55 +0800</pubDate>
-    </item>
-    <item>
-      <title>Use subagents and custom agents in Codex 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything</link>
-      <description>OpenAI Codex has released subagents in general availability, allowing users to define custom agents as TOML files with specific instructions and model assignments, including high-speed options like gpt-5.3-codex-spark. Subagents, such as 'explorer', 'worker', and 'default', enable parallel task execution and collaborative problem-solving, as demonstrated in debugging scenarios. This feature aligns with broader industry trends, with similar implementations in Claude Code, Gemini CLI, Mistral Vibe, and other platforms like Visual Studio Code and Cursor, highlighting widespread adoption of agentic engineering in coding tools.
-
-标签: AI, OpenAI, Codex, subagents, coding-agents, agentic-engineering, LLMs, generative-AI, parallel-agents, TOML</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything#sha256:a306abdf89576f87</guid>
-      <category>AI</category>
-      <category>OpenAI</category>
-      <category>Codex</category>
-      <category>subagents</category>
-      <category>coding-agents</category>
-      <category>agentic-engineering</category>
+      <category>Django</category>
       <category>LLMs</category>
-      <category>generative-AI</category>
-      <category>parallel-agents</category>
-      <category>TOML</category>
-      <pubDate>Tue, 17 Mar 2026 07:03:56 +0800</pubDate>
+      <category>community</category>
+      <category>software-development</category>
+      <category>human-collaboration</category>
+      <category>code-review</category>
+      <pubDate>Wed, 18 Mar 2026 00:13:37 +0800</pubDate>
     </item>
     <item>
-      <title>Introducing Mistral Small 4 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything</link>
-      <description>Mistral released Mistral Small 4, a 119B parameter Apache 2 licensed Mixture-of-Experts model that unifies reasoning, multimodal, and coding capabilities. It supports reasoning effort settings and is available on Hugging Face. The article includes a test generating an SVG and mentions Leanstral, a model tuned for Lean 4 language.
+      <title>Why Are We Still Doing This? 摘要</title>
+      <link>https://www.wheresyoured.at/why-are-we-still-doing-this/</link>
+      <description>The article critiques the AI industry's hype and financial claims, arguing that AI boosters should stop using future-tense language to describe current capabilities. It highlights financial discrepancies at Anthropic and OpenAI, noting Anthropic's $5 billion lifetime revenue against $10 billion in compute costs and questioning OpenAI's reported revenue growth. The author challenges comparisons to Uber, emphasizing that AI companies' subscription-based models differ fundamentally from Uber's transaction-based business. The piece calls for more critical scrutiny of AI economics and proof of profitability.
 
-标签: AI, LLM, Mistral, generative-I, open-source, model-release, multimodal, coding, reasoning, Hugging Face</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything#sha256:6fde9f068e2e338a</guid>
+标签: AI, business, finance, critique, hype, Anthropic, OpenAI, Uber, economics, subscription</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/why-are-we-still-doing-this/#sha256:3233325b1a7a960b</guid>
+      <category>AI</category>
+      <category>business</category>
+      <category>finance</category>
+      <category>critique</category>
+      <category>hype</category>
+      <category>Anthropic</category>
+      <category>OpenAI</category>
+      <category>Uber</category>
+      <category>economics</category>
+      <category>subscription</category>
+      <pubDate>Wed, 18 Mar 2026 00:36:40 +0800</pubDate>
+    </item>
+    <item>
+      <title>You Might Debate It — If You Could See It 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/opacity-of-generative-tools/</link>
+      <description>The article discusses how design guidelines that might spark debate if proposed explicitly within a team are often implicitly embedded in LLMs (like Codex) used for generating outputs. It highlights the opacity of such baked-in instructions in generative tools, raising concerns about unknowingly adopting someone else's design philosophy when offloading creative work. The author reflects on the tension between explicit team consensus and the hidden influence of AI tools on craft.
+
+标签: design, AI, LLM, guidelines, opacity, generative tools, craft, ethics, frontend, team collaboration</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/opacity-of-generative-tools/#sha256:dc0479e359fbdc31</guid>
+      <category>design</category>
       <category>AI</category>
       <category>LLM</category>
-      <category>Mistral</category>
-      <category>generative-I</category>
-      <category>open-source</category>
-      <category>model-release</category>
-      <category>multimodal</category>
-      <category>coding</category>
-      <category>reasoning</category>
-      <category>Hugging Face</category>
-      <pubDate>Tue, 17 Mar 2026 07:41:17 +0800</pubDate>
+      <category>guidelines</category>
+      <category>opacity</category>
+      <category>generative tools</category>
+      <category>craft</category>
+      <category>ethics</category>
+      <category>frontend</category>
+      <category>team collaboration</category>
+      <pubDate>Wed, 18 Mar 2026 03:00:00 +0800</pubDate>
     </item>
     <item>
-      <title>[Sponsor] Mux — Video API for Developers 摘要</title>
-      <link>https://www.mux.com/video-api?utm_campaign=fireball&amp;utm_source=DF</link>
-      <description>Mux is a video infrastructure platform that enables developers to integrate and scale video into websites, platforms, and AI workflows. It provides tools like transcripts, clips, and storyboards for features such as summarization, translation, content moderation, and tagging. Mux also maintains Video.js, the web's most popular open-source video player, with version 10 being a complete architectural rebuild currently in beta. Trusted by companies like Patreon, Substack, and Synthesia, Mux offers a free tier and a promotional code for additional credit.
+      <title>Fox Sports to Broadcast U.S.-Venezuela World Baseball Classic Final in Immersive 3D — But Not on Vision Pro 摘要</title>
+      <link>https://x.com/mlbonfox/status/2033902946174271992?s=46</link>
+      <description>Fox Sports is broadcasting the World Baseball Classic Final in an immersive 3D experience exclusively through the Fox Sports XR app for the Galaxy XR headset powered by Android XR, as announced on Twitter/X. Notably, this immersive broadcast is not available on Apple's Vision Pro headset. The standard Fox Sports app remains native only to iOS devices (iPhone, iPad), Apple TV, and Apple Watch, highlighting a platform-specific approach to extended reality (XR) content.
 
-标签: video, API, infrastructure, developer tools, open source, AI, transcription, content moderation, scalability, web development</description>
-      <guid isPermaLink="false">https://www.mux.com/video-api?utm_campaign=fireball&amp;utm_source=DF#sha256:c88dfa502a5e7877</guid>
-      <category>video</category>
-      <category>API</category>
-      <category>infrastructure</category>
-      <category>developer tools</category>
-      <category>open source</category>
+标签: XR, immersive, broadcast, sports, Android XR, Galaxy XR, Apple Vision Pro, platform-exclusive, Fox Sports, 3D</description>
+      <guid isPermaLink="false">https://x.com/mlbonfox/status/2033902946174271992?s=46#sha256:e9b788640772a30d</guid>
+      <category>XR</category>
+      <category>immersive</category>
+      <category>broadcast</category>
+      <category>sports</category>
+      <category>Android XR</category>
+      <category>Galaxy XR</category>
+      <category>Apple Vision Pro</category>
+      <category>platform-exclusive</category>
+      <category>Fox Sports</category>
+      <category>3D</category>
+      <pubDate>Wed, 18 Mar 2026 03:26:12 +0800</pubDate>
+    </item>
+    <item>
+      <title>GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything</link>
+      <description>OpenAI has introduced GPT-5.4 mini and nano models, expanding the GPT-5.4 family released two weeks ago. Benchmarks show GPT-5.4 nano outperforms the previous GPT-5 mini at maximum reasoning effort, while the new mini is twice as fast. Pricing is competitive, with GPT-5.4 nano at $0.20 per million input tokens, cheaper than Google's Gemini 3.1 Flash-Lite. The article includes a practical example using GPT-5.4 nano for image description, costing 0.069 cents for 2,751 input and 112 output tokens, and demonstrates model comparisons through AI-generated art of pelicans riding bicycles across different reasoning effort levels.
+
+标签: AI, OpenAI, GPT-5.4, LLM, pricing, benchmarks, image-description, generative-AI, model-comparison, vision-LLMs</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything#sha256:191c64ff9c1f1cce</guid>
       <category>AI</category>
-      <category>transcription</category>
-      <category>content moderation</category>
-      <category>scalability</category>
-      <category>web development</category>
-      <pubDate>Tue, 17 Mar 2026 07:47:24 +0800</pubDate>
+      <category>OpenAI</category>
+      <category>GPT-5.4</category>
+      <category>LLM</category>
+      <category>pricing</category>
+      <category>benchmarks</category>
+      <category>image-description</category>
+      <category>generative-AI</category>
+      <category>model-comparison</category>
+      <category>vision-LLMs</category>
+      <pubDate>Wed, 18 Mar 2026 03:39:17 +0800</pubDate>
     </item>
     <item>
-      <title>Weekly Update 495 摘要</title>
-      <link>https://www.troyhunt.com/weekly-update-495/</link>
-      <description>This article discusses the evolution of Have I Been Pwned (HIBP), a service for checking if email addresses have been compromised in data breaches. Initially a simple website with a database of over 150 million email addresses, it has grown to include serverless functions, edge computing, new data storage systems, and improved query mechanisms. The platform continuously evolves with weekly code updates, often unseen publicly, to enhance speed, sustainability, and cost-effectiveness. A major update highlighted in a video aims to further optimize performance.
+      <title>Quoting Ken Jin 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything</link>
+      <description>The CPython JIT for Python 3.15 has achieved its performance targets ahead of schedule, showing an 11-12% speed improvement over the tail calling interpreter on macOS AArch64 and a 5-6% improvement over the standard interpreter on x86_64 Linux.
 
-标签: security, data breaches, serverless, edge computing, database, web development, cost optimization, platform evolution, email security, HIBP</description>
-      <guid isPermaLink="false">https://www.troyhunt.com/weekly-update-495/#sha256:302be2e82f202496</guid>
-      <category>security</category>
-      <category>data breaches</category>
-      <category>serverless</category>
-      <category>edge computing</category>
-      <category>database</category>
-      <category>web development</category>
-      <category>cost optimization</category>
-      <category>platform evolution</category>
-      <category>email security</category>
-      <category>HIBP</category>
-      <pubDate>Tue, 17 Mar 2026 10:55:31 +0800</pubDate>
-    </item>
-    <item>
-      <title>Hedley Davis has died 摘要</title>
-      <link>https://oldvcr.blogspot.com/2026/03/hedley-davis-has-died.html</link>
-      <description>The article commemorates a lesser-known Commodore employee who was influential during the Amiga era. He worked on devices like the Amiga 3000 and Amiga 2024 monitor, but his most notable project was the 1987 prototype SX-500, an Amiga 500 fitted into a portable SX-64 case with a 5-inch color screen. Later, he contributed to the Xbox and Xbox 360 consoles. He taught at the University of Delaware in retirement and recently passed away at age 68.
-
-标签: Commodore, Amiga, retro-computing, prototype, hardware, gaming, obituary, tech-history, Xbox, SX-500</description>
-      <guid isPermaLink="false">https://oldvcr.blogspot.com/2026/03/hedley-davis-has-died.html#sha256:6400a83a760d5422</guid>
-      <category>Commodore</category>
-      <category>Amiga</category>
-      <category>retro-computing</category>
-      <category>prototype</category>
-      <category>hardware</category>
-      <category>gaming</category>
-      <category>obituary</category>
-      <category>tech-history</category>
-      <category>Xbox</category>
-      <category>SX-500</category>
-      <pubDate>Tue, 17 Mar 2026 13:20:00 +0800</pubDate>
+标签: Python, CPython, JIT, performance, macOS, AArch64, x86_64, Linux, programming, interpreter</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything#sha256:6da60308a2d89018</guid>
+      <category>Python</category>
+      <category>CPython</category>
+      <category>JIT</category>
+      <category>performance</category>
+      <category>macOS</category>
+      <category>AArch64</category>
+      <category>x86_64</category>
+      <category>Linux</category>
+      <category>programming</category>
+      <category>interpreter</category>
+      <pubDate>Wed, 18 Mar 2026 05:48:26 +0800</pubDate>
     </item>
   </channel>
 </rss>
