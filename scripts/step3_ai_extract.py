@@ -20,6 +20,7 @@ from pathlib import Path
 from typing import Any
 
 
+BASE_DIR = Path(__file__).resolve().parents[1]
 OPENAI_CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions"
 DEEPSEEK_DEFAULT_BASE_URL = "https://api.deepseek.com"
 DEFAULT_PROVIDER = "openai"
@@ -69,6 +70,19 @@ STOPWORDS = {
 
 class QuotaExceededError(RuntimeError):
     """Raised when API quota is exhausted."""
+
+
+def detect_default_skill_file() -> Path | None:
+    candidates = (
+        Path.cwd() / "skill.md",
+        Path.cwd() / "SKILL.md",
+        BASE_DIR / "skill.md",
+        BASE_DIR / "SKILL.md",
+    )
+    for candidate in candidates:
+        if candidate.is_file():
+            return candidate
+    return None
 
 
 @dataclass
@@ -124,8 +138,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--skill-file",
         type=Path,
-        default=None,
-        help="Optional skill markdown file injected into OpenAI/DeepSeek system prompt",
+        default=detect_default_skill_file(),
+        help=(
+            "Skill markdown file injected into OpenAI/DeepSeek system prompt. "
+            "Default: auto-detect ./skill.md or ./SKILL.md"
+        ),
     )
     parser.add_argument(
         "--deepseek-base-url",

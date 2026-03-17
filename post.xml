@@ -8,8 +8,8 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 17 Mar 2026 06:57:49 +0000</lastBuildDate>
-    <pubDate>Tue, 17 Mar 2026 06:57:49 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2026 14:57:49 +0800</lastBuildDate>
+    <pubDate>Tue, 17 Mar 2026 14:57:49 +0800</pubDate>
     <item>
       <title>★ Apple Exclaves and the Secure Design of the MacBook Neo’s On-Screen Camera Indicator 摘要</title>
       <link>https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator</link>
@@ -27,7 +27,7 @@
       <category>A18 Pro</category>
       <category>on-display indicator</category>
       <category>kernel security</category>
-      <pubDate>Mon, 16 Mar 2026 17:27:58 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 01:27:58 +0800</pubDate>
     </item>
     <item>
       <title>Apple Introduces AirPods Max 2 摘要</title>
@@ -46,7 +46,7 @@
       <category>product announcement</category>
       <category>consumer electronics</category>
       <category>audio recording</category>
-      <pubDate>Mon, 16 Mar 2026 17:57:39 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 01:57:39 +0800</pubDate>
     </item>
     <item>
       <title>‘The Last Quiet Thing’ 摘要</title>
@@ -63,7 +63,7 @@
       <category>functionality</category>
       <category>technology</category>
       <category>user interface</category>
-      <pubDate>Mon, 16 Mar 2026 17:58:00 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 01:58:00 +0800</pubDate>
     </item>
     <item>
       <title>Updates OpenTK: alerts voor antwoorden op kamervragen, betere kamerstukdossiers en meer! 摘要</title>
@@ -81,7 +81,7 @@
       <category>feature update</category>
       <category>government transparency</category>
       <category>digital tools</category>
-      <pubDate>Mon, 16 Mar 2026 19:40:09 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 03:40:09 +0800</pubDate>
     </item>
     <item>
       <title>Coding agents for data analysis 摘要</title>
@@ -100,7 +100,7 @@
       <category>claude-code</category>
       <category>openai-codex</category>
       <category>workshop</category>
-      <pubDate>Mon, 16 Mar 2026 20:12:32 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 04:12:32 +0800</pubDate>
     </item>
     <item>
       <title>Quoting Guilherme Rambo 摘要</title>
@@ -118,7 +118,7 @@
       <category>kernel exploit</category>
       <category>software security</category>
       <category>John Gruber</category>
-      <pubDate>Mon, 16 Mar 2026 20:34:13 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 04:34:13 +0800</pubDate>
     </item>
     <item>
       <title>Quoting A member of Anthropic’s alignment-science team 摘要</title>
@@ -137,7 +137,7 @@
       <category>AI risk</category>
       <category>Generative AI</category>
       <category>LLMs</category>
-      <pubDate>Mon, 16 Mar 2026 21:38:55 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 05:38:55 +0800</pubDate>
     </item>
     <item>
       <title>Use subagents and custom agents in Codex 摘要</title>
@@ -156,7 +156,7 @@
       <category>generative AI</category>
       <category>LLMs</category>
       <category>agentic engineering</category>
-      <pubDate>Mon, 16 Mar 2026 23:03:56 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 07:03:56 +0800</pubDate>
     </item>
     <item>
       <title>Introducing Mistral Small 4 摘要</title>
@@ -174,7 +174,7 @@
       <category>reasoning</category>
       <category>coding</category>
       <category>open-source</category>
-      <pubDate>Mon, 16 Mar 2026 23:41:17 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 07:41:17 +0800</pubDate>
     </item>
     <item>
       <title>[Sponsor] Mux — Video API for Developers 摘要</title>
@@ -193,7 +193,7 @@
       <category>video player</category>
       <category>transcripts</category>
       <category>scalability</category>
-      <pubDate>Mon, 16 Mar 2026 23:47:24 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 07:47:24 +0800</pubDate>
     </item>
     <item>
       <title>Weekly Update 495 摘要</title>
@@ -212,7 +212,7 @@
       <category>Troy Hunt</category>
       <category>weekly update</category>
       <category>cost optimization</category>
-      <pubDate>Tue, 17 Mar 2026 02:55:31 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 10:55:31 +0800</pubDate>
     </item>
     <item>
       <title>Hedley Davis has died 摘要</title>
@@ -231,7 +231,7 @@
       <category>PowerPC</category>
       <category>video game consoles</category>
       <category>University of Delaware</category>
-      <pubDate>Tue, 17 Mar 2026 05:20:00 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2026 13:20:00 +0800</pubDate>
     </item>
   </channel>
 </rss>

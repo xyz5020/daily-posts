@@ -119,6 +119,19 @@ def rss_has_content_encoded(path: Path) -> bool:
     return root.find("./channel/item/content:encoded", ns) is not None
 
 
+def rss_channel_date(path: Path, tag: str) -> str:
+    root = ET.fromstring(path.read_text(encoding="utf-8"))
+    value = root.findtext(f"./channel/{tag}")
+    if value is None:
+        raise AssertionError(f"missing channel {tag}")
+    return value
+
+
+def rss_item_pub_dates(path: Path) -> list[str]:
+    root = ET.fromstring(path.read_text(encoding="utf-8"))
+    return [item.findtext("pubDate", default="") for item in root.findall("./channel/item")]
+
+
 def read_opml_outline_attrs(path: Path) -> dict[str, str]:
     root = ET.fromstring(path.read_text(encoding="utf-8"))
     if root.tag != "opml":
@@ -338,6 +351,21 @@ class RegressionPipelineTests(unittest.TestCase):
                 "https://example.com/daily_tech_feed.xml",
                 "OPML xmlUrl mismatch",
             )
+            channel_pub_date = rss_channel_date(feed_output, "pubDate")
+            channel_last_build_date = rss_channel_date(feed_output, "lastBuildDate")
+            self.assertTrue(
+                channel_pub_date.endswith("+0800"),
+                f"channel pubDate should use Asia/Shanghai offset: {channel_pub_date}",
+            )
+            self.assertTrue(
+                channel_last_build_date.endswith("+0800"),
+                f"channel lastBuildDate should use Asia/Shanghai offset: {channel_last_build_date}",
+            )
+            for item_pub_date in rss_item_pub_dates(feed_output):
+                self.assertTrue(
+                    item_pub_date.endswith("+0800"),
+                    f"item pubDate should use Asia/Shanghai offset: {item_pub_date}",
+                )
             self.assertEqual(feed_output.read_text(encoding="utf-8"), publish_path.read_text(encoding="utf-8"))
             self.assertEqual(opml_output.read_text(encoding="utf-8"), opml_publish_path.read_text(encoding="utf-8"))
 

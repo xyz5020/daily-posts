@@ -13,6 +13,7 @@ from email.utils import format_datetime
 from pathlib import Path
 from typing import Any
 import xml.etree.ElementTree as ET
+from zoneinfo import ZoneInfo
 
 LIST_CANDIDATE_KEYS = ("articles", "items", "entries", "results", "data", "posts")
 TITLE_KEYS = ("title", "headline", "name")
@@ -21,6 +22,7 @@ SUMMARY_KEYS = ("summary", "description", "abstract", "excerpt")
 CONTENT_KEYS = ("content", "full_content", "body", "text")
 DATE_KEYS = ("published", "published_at", "pub_date", "date", "created_at", "updated_at")
 TAG_KEYS = ("tags", "tag_list", "labels", "keywords")
+SHANGHAI_TZ = ZoneInfo("Asia/Shanghai")
 
 
 @dataclass
@@ -73,6 +75,12 @@ def _parse_datetime(raw: Any) -> datetime:
             except ValueError:
                 pass
     return datetime.now(tz=UTC)
+
+
+def _as_shanghai(dt: datetime) -> datetime:
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=UTC)
+    return dt.astimezone(SHANGHAI_TZ)
 
 
 def _resolve_records(payload: Any) -> list[dict[str, Any]]:
@@ -222,7 +230,7 @@ def _write_opml(
     opml = ET.Element("opml", attrib={"version": "2.0"})
     head = ET.SubElement(opml, "head")
     ET.SubElement(head, "title").text = opml_title
-    ET.SubElement(head, "dateCreated").text = format_datetime(datetime.now(tz=UTC))
+    ET.SubElement(head, "dateCreated").text = format_datetime(datetime.now(tz=SHANGHAI_TZ))
 
     body = ET.SubElement(opml, "body")
     outline_attrs = {
@@ -273,7 +281,7 @@ def main() -> int:
     if args.feed_self_link:
         fg.link(href=args.feed_self_link, rel="self")
 
-    now = datetime.now(tz=UTC)
+    now = datetime.now(tz=SHANGHAI_TZ)
     fg.pubDate(format_datetime(now))
     fg.lastBuildDate(format_datetime(now))
 
@@ -282,7 +290,7 @@ def main() -> int:
         entry.title(f"{article.title} 摘要")
         entry.link(href=article.url)
         entry.guid(_build_guid(article), permalink=False)
-        entry.pubDate(format_datetime(article.published_at))
+        entry.pubDate(format_datetime(_as_shanghai(article.published_at)))
 
         description = _format_description(article)
         entry.description(description)
