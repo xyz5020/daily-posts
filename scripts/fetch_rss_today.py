@@ -367,6 +367,12 @@ def main() -> int:
         parse_failures += failures
         all_items.extend(items)
 
+    # Guardrail: if every feed failed to fetch, stop early to avoid publishing an empty RSS
+    # caused by transient DNS/network errors.
+    if feed_urls and feed_failures == len(feed_urls):
+        logger.error("所有 feed 拉取失败（%s/%s），终止本次流程以避免发布空 RSS。", feed_failures, len(feed_urls))
+        return 2
+
     duplicates = 0
     if args.db_path is not None:
         try:

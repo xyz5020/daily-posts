@@ -242,6 +242,10 @@ NetNewsWire 使用建议：
 - 当天文章数为 0
   - 属于正常场景，流程仍会产出空列表的 `.json/.enriched.json/.feed.json` 或 0 条目的 RSS XML。
 
+- 所有源都拉取失败（例如 DNS/网络异常）
+  - 现在流程会直接失败并停止发布，以避免把 `post.xml` 覆盖成空 feed。
+  - 优先检查 GitHub Actions 日志里的 `feed_failures`、`NameResolutionError`、`SSL` 错误。
+
 - 去重需求
   - 在抓取时传 `--db-path data/history.db`，通过 SQLite 记录历史文章键，避免重复处理。
 
