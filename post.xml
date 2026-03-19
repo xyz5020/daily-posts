@@ -8,119 +8,159 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Mar 2026 07:15:23 +0800</lastBuildDate>
-    <pubDate>Thu, 19 Mar 2026 07:15:23 +0800</pubDate>
+    <lastBuildDate>Fri, 20 Mar 2026 07:15:00 +0800</lastBuildDate>
+    <pubDate>Fri, 20 Mar 2026 07:15:00 +0800</pubDate>
     <item>
-      <title>Snowflake Cortex AI Escapes Sandbox and Executes Malware 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything</link>
-      <description>A PromptArmor report details a security vulnerability in Snowflake's Cortex Agent, where a prompt injection attack allowed malicious code execution. The attack began when a user asked the agent to review a GitHub repository with a hidden prompt injection in the README, causing the agent to run a command using process substitution to download and execute malware. Snowflake had listed 'cat' commands as safe without guarding against this technique, highlighting flaws in allow-list-based security for AI agents. The incident underscores the risks of prompt injection and the need for more robust sandboxing approaches.
+      <title>Thoughts on OpenAI acquiring Astral and uv/ruff/ty 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything</link>
+      <description>OpenAI is acquiring Astral, the company behind key Python tools uv, ruff, and ty. Astral's team will join OpenAI's Codex team, with both companies committing to continue supporting these open-source projects. The acquisition aims to enhance Codex's capabilities in software development, leveraging Astral's engineering expertise. Concerns include potential impacts on the Python ecosystem, competitive dynamics with Anthropic's acquisition of Bun, and the forking strategy as a fallback if maintenance falters. The deal highlights the growing importance of coding agents and infrastructure in AI-driven development.
 
-标签: security, AI, prompt-injection, sandboxing, vulnerability, Snowflake, Cortex-Agent, malware, generative-AI, LLMs</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything#sha256:24632efa9cca71f3</guid>
-      <category>security</category>
-      <category>AI</category>
-      <category>prompt-injection</category>
-      <category>sandboxing</category>
-      <category>vulnerability</category>
-      <category>Snowflake</category>
-      <category>Cortex-Agent</category>
-      <category>malware</category>
-      <category>generative-AI</category>
-      <category>LLMs</category>
-      <pubDate>Thu, 19 Mar 2026 01:43:49 +0800</pubDate>
+标签: OpenAI, Astral, Python, uv, ruff, ty, acquisition, open-source, Codex, coding-agents</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything#sha256:50879a475316a797</guid>
+      <category>OpenAI</category>
+      <category>Astral</category>
+      <category>Python</category>
+      <category>uv</category>
+      <category>ruff</category>
+      <category>ty</category>
+      <category>acquisition</category>
+      <category>open-source</category>
+      <category>Codex</category>
+      <category>coding-agents</category>
+      <pubDate>Fri, 20 Mar 2026 00:45:15 +0800</pubDate>
     </item>
     <item>
-      <title>David Zaslav Set to Receive Up to $887 Million if Paramount Acquisition of Warner Bros Closes 摘要</title>
-      <link>https://finance.yahoo.com/news/warner-bros-discovery-ceo-david-zaslav-set-to-receive-up-to-887-million-if-paramount-deal-closes-144501826.html</link>
-      <description>Warner Bros. CEO David Zaslav is set to receive up to $887 million if Paramount's $110 billion acquisition of Warner Bros. closes. The package includes $517.2 million in equity, $34.2 million in cash, $44.2 million in health coverage reimbursement benefits (later corrected to $44,195), and $335.4 million in tax reimbursements. The deal, agreed at $31 per share, has sparked criticism over executive compensation, with commentators noting Zaslav's tenure saw HBO's logo redesigned five times and the company lose 50% of its value.
+      <title>★ AppleScript: ‘Save MarsEdit Document to Text File’ 摘要</title>
+      <link>https://daringfireball.net/2026/03/applescript_save_marsedit_document_to_text_file</link>
+      <description>The author wrote an AppleScript to save MarsEdit blog drafts as text files, addressing a long-standing workflow issue. The script adds a 'Save as Text File...' feature via FastScripts, prompting for a filename and location, and exports document fields like Title, Tags, and Excerpt into a formatted text file. This helped clean up 29 old drafts, moving them from MarsEdit's local library to Dropbox for better organization and future editing in BBEdit.
 
-标签: business, mergers-acquisitions, executive-compensation, media, Warner-Bros, Paramount, corporate-governance, finance, controversy, CEO-pay</description>
-      <guid isPermaLink="false">https://finance.yahoo.com/news/warner-bros-discovery-ceo-david-zaslav-set-to-receive-up-to-887-million-if-paramount-deal-closes-144501826.html#sha256:b96d28612d1a3322</guid>
-      <category>business</category>
-      <category>mergers-acquisitions</category>
-      <category>executive-compensation</category>
-      <category>media</category>
-      <category>Warner-Bros</category>
-      <category>Paramount</category>
-      <category>corporate-governance</category>
-      <category>finance</category>
-      <category>controversy</category>
-      <category>CEO-pay</category>
-      <pubDate>Thu, 19 Mar 2026 02:30:16 +0800</pubDate>
+标签: AppleScript, MarsEdit, blogging, workflow, automation, Mac, text files, productivity, FastScripts, BBEdit</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/03/applescript_save_marsedit_document_to_text_file#sha256:f9c9440316d9d823</guid>
+      <category>AppleScript</category>
+      <category>MarsEdit</category>
+      <category>blogging</category>
+      <category>workflow</category>
+      <category>automation</category>
+      <category>Mac</category>
+      <category>text files</category>
+      <category>productivity</category>
+      <category>FastScripts</category>
+      <category>BBEdit</category>
+      <pubDate>Fri, 20 Mar 2026 00:46:37 +0800</pubDate>
     </item>
     <item>
-      <title>Meta Is Dropping VR Support From Horizon Worlds 摘要</title>
-      <link>https://www.uploadvr.com/meta-horizon-worlds-dropping-vr-support/</link>
-      <description>Meta is discontinuing VR support for Horizon Worlds, transitioning it to a flatscreen-only experience accessible via web and smartphones. The VR app will be delisted from the Quest store by March 31, 2026, removing key first-party worlds like Horizon Central and Events Arena from VR access. By June 15, 2026, the app will be completely removed from Quest headsets, ending all VR accessibility for Horizon Worlds. This move aligns with Meta's broader shift away from its metaverse-focused strategy, as previously noted by industry commentators.
+      <title>Hacker News Discussion on Shubham Bose’s ‘The 49MB Web Page’ 摘要</title>
+      <link>https://news.ycombinator.com/item?id=47390945</link>
+      <description>The author argues that supporting JavaScript in web browsers was a fundamental mistake, as it transformed web pages from documents into embedded programs. This shift enabled issues like massive 49 MB pages, pervasive surveillance tracking, and intrusive user experiences (e.g., popovers that obstruct reading), which publishers would never allow in print editions. JavaScript's invisibility makes such problematic practices seem acceptable, contrasting with the visible nature of text and media.
 
-标签: Meta, VR, Horizon Worlds, metaverse, Quest, flatscreen, mobile, web, strategy shift, gaming</description>
-      <guid isPermaLink="false">https://www.uploadvr.com/meta-horizon-worlds-dropping-vr-support/#sha256:b2c273d5435ad62d</guid>
-      <category>Meta</category>
-      <category>VR</category>
-      <category>Horizon Worlds</category>
-      <category>metaverse</category>
-      <category>Quest</category>
-      <category>flatscreen</category>
-      <category>mobile</category>
+标签: web, JavaScript, browsers, privacy, surveillance, web development, user experience, controversial opinions, technology critique, publishing</description>
+      <guid isPermaLink="false">https://news.ycombinator.com/item?id=47390945#sha256:6ea63085d09f850a</guid>
       <category>web</category>
-      <category>strategy shift</category>
-      <category>gaming</category>
-      <pubDate>Thu, 19 Mar 2026 02:53:10 +0800</pubDate>
+      <category>JavaScript</category>
+      <category>browsers</category>
+      <category>privacy</category>
+      <category>surveillance</category>
+      <category>web development</category>
+      <category>user experience</category>
+      <category>controversial opinions</category>
+      <category>technology critique</category>
+      <category>publishing</category>
+      <pubDate>Fri, 20 Mar 2026 01:31:15 +0800</pubDate>
     </item>
     <item>
-      <title>Jony Ive on Redesigning the Christie’s Rostrum 摘要</title>
-      <link>https://www.youtube.com/watch?v=HLXDxx06_EM</link>
-      <description>Christie's commissioned Jony Ive and his design firm LoveFrom to create a new auction rostrum, which is described as an exceptionally beautiful piece of furniture. The article highlights the collaboration between the prestigious auction house and the renowned designer, noting the aesthetic appeal of the result despite potential for criticism.
+      <title>Google’s New Sideloading Restrictions for Android Include a 24-Hour Waiting Period 摘要</title>
+      <link>https://www.androidauthority.com/google-android-sideloading-unverified-apps-new-rules-3650343/</link>
+      <description>Google is implementing new sideloading restrictions on Android that will make installing apps outside the Play Store significantly more difficult. The new rules include a mandatory 24-hour waiting period before users can install apps from unverified developers, which Google describes as a "high-friction process." This follows previous warnings from Google executives about tightening sideloading controls. The changes are part of Google's broader Android developer verification program aimed at increasing security, though critics argue they reduce platform openness. Notably, Epic Games CEO Tim Sweeney has agreed to deem Google's Android practices "procompetitive" until 2032 as part of a legal settlement.
 
-标签: design, furniture, Jony Ive, LoveFrom, Christie's, auction, collaboration, luxury, innovation, craftsmanship</description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=HLXDxx06_EM#sha256:cd0b07ee49e6f787</guid>
-      <category>design</category>
-      <category>furniture</category>
-      <category>Jony Ive</category>
-      <category>LoveFrom</category>
-      <category>Christie's</category>
-      <category>auction</category>
-      <category>collaboration</category>
-      <category>luxury</category>
-      <category>innovation</category>
-      <category>craftsmanship</category>
-      <pubDate>Thu, 19 Mar 2026 05:25:50 +0800</pubDate>
+标签: Android, Google, sideloading, mobile, app stores, security, Play Store, developer verification, platform restrictions, Epic Games</description>
+      <guid isPermaLink="false">https://www.androidauthority.com/google-android-sideloading-unverified-apps-new-rules-3650343/#sha256:d059f105c63c875f</guid>
+      <category>Android</category>
+      <category>Google</category>
+      <category>sideloading</category>
+      <category>mobile</category>
+      <category>app stores</category>
+      <category>security</category>
+      <category>Play Store</category>
+      <category>developer verification</category>
+      <category>platform restrictions</category>
+      <category>Epic Games</category>
+      <pubDate>Fri, 20 Mar 2026 03:03:22 +0800</pubDate>
     </item>
     <item>
-      <title>How to Identify Your Apple Keyboard Layout by Country or Region 摘要</title>
-      <link>https://support.apple.com/en-us/102743</link>
-      <description>This article discusses Apple's recent changes to U.S. MacBook keyboard key cap labels, referencing a support page that provides guidance on identifying Apple keyboard layouts by country or region. The piece highlights this as a notable detail in the context of Apple's hardware design updates.
+      <title>The Day Mark Simonson Discovered Type Design 摘要</title>
+      <link>https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/</link>
+      <description>Mark Simonson recounts discovering a copy of U&amp;lc magazine in a graphics classroom, published by ITC (International Typeface Corporation) with design and editing by the legendary Herb Lubalin. He was struck by the beautiful typography and design, describing it as a "motherlode" for an aspiring typophile. This experience inspired him to decide that he wanted to design typefaces someday.
 
-标签: Apple, MacBook, keyboard, hardware, design, UI, tech, support</description>
-      <guid isPermaLink="false">https://support.apple.com/en-us/102743#sha256:6259c2f9c806b7b0</guid>
-      <category>Apple</category>
-      <category>MacBook</category>
-      <category>keyboard</category>
-      <category>hardware</category>
-      <category>design</category>
-      <category>UI</category>
-      <category>tech</category>
-      <category>support</category>
-      <pubDate>Thu, 19 Mar 2026 05:29:03 +0800</pubDate>
+标签: typography, typeface design, Herb Lubalin, U&amp;lc magazine, ITC, graphic design, inspiration, Mark Simonson, design history, typophile</description>
+      <guid isPermaLink="false">https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/#sha256:9af45db23bb65183</guid>
+      <category>typography</category>
+      <category>typeface design</category>
+      <category>Herb Lubalin</category>
+      <category>U&amp;lc magazine</category>
+      <category>ITC</category>
+      <category>graphic design</category>
+      <category>inspiration</category>
+      <category>Mark Simonson</category>
+      <category>design history</category>
+      <category>typophile</category>
+      <pubDate>Fri, 20 Mar 2026 03:15:59 +0800</pubDate>
     </item>
     <item>
-      <title>The Talk Show: ‘The Pogue Feature’ 摘要</title>
-      <link>https://daringfireball.net/thetalkshow/2026/03/18/ep-443</link>
-      <description>This article is an episode of The Talk Show podcast featuring special guest David Pogue discussing his new book 'Apple: The First 50 Years', which provides a comprehensive history of Apple's first five decades. The episode includes sponsored messages from Notion, Squarespace, and Factor, offering promotional codes for their services.
+      <title>‘Everyone but Trump Understands What He’s Done’ 摘要</title>
+      <link>https://www.theatlantic.com/ideas/2026/03/trump-iran-war-allies/686423/?gift=aQyUJR7AIw1mJWdQ6Ed6yGfvOucd9Oa8W54yMDTtr2I</link>
+      <description>The article discusses the geopolitical and economic consequences of former President Donald Trump's foreign policy actions, particularly regarding U.S. alliances and the Iran conflict. It highlights Trump's history of mocking and insulting European allies, undermining NATO support, and ridiculing countries like Canada and the U.K., which has strained international relations. Simultaneously, the Iran war has disrupted global oil supplies, with prices potentially soaring from around $60 to $150–200 per barrel, leading to predictions of sustained high gasoline costs in the U.S. and broader economic turmoil. The piece critiques these developments as a self-inflicted crisis, using the phrase 'hoist with his own petard' to describe the situation.
 
-标签: Apple, podcast, David Pogue, book, history, technology, sponsored content, The Talk Show, business, media</description>
-      <guid isPermaLink="false">https://daringfireball.net/thetalkshow/2026/03/18/ep-443#sha256:9d20278784e93d8a</guid>
-      <category>Apple</category>
-      <category>podcast</category>
-      <category>David Pogue</category>
-      <category>book</category>
-      <category>history</category>
-      <category>technology</category>
-      <category>sponsored content</category>
-      <category>The Talk Show</category>
-      <category>business</category>
-      <category>media</category>
-      <pubDate>Thu, 19 Mar 2026 05:57:13 +0800</pubDate>
+标签: geopolitics, foreign policy, oil prices, international relations, economic impact, Trump administration, Iran conflict, NATO, energy crisis, global economy</description>
+      <guid isPermaLink="false">https://www.theatlantic.com/ideas/2026/03/trump-iran-war-allies/686423/?gift=aQyUJR7AIw1mJWdQ6Ed6yGfvOucd9Oa8W54yMDTtr2I#sha256:6f43d9d8acee6310</guid>
+      <category>geopolitics</category>
+      <category>foreign policy</category>
+      <category>oil prices</category>
+      <category>international relations</category>
+      <category>economic impact</category>
+      <category>Trump administration</category>
+      <category>Iran conflict</category>
+      <category>NATO</category>
+      <category>energy crisis</category>
+      <category>global economy</category>
+      <pubDate>Fri, 20 Mar 2026 04:09:27 +0800</pubDate>
+    </item>
+    <item>
+      <title>Actual Headline in the Actual New York Times: ‘Trump Jokes About Pearl Harbor in Meeting With Japan’s Leader’ 摘要</title>
+      <link>https://www.nytimes.com/2026/03/19/us/politics/trump-japan-pearl-harbor-oval-office-takaichi.html?unlocked_article_code=1.UVA.zau0.UZ5WnBjtPHot</link>
+      <description>In a meeting with Japan's leader, former President Trump was asked why Japan and other allies weren't notified in advance of a U.S.-Israeli assault on Iran. He responded by referencing the surprise attack on Pearl Harbor, saying, 'We didn't tell anybody about it because we wanted surprise. Who knows better about surprise than Japan, OK? Why didn't you tell me about Pearl Harbor, OK? Right?' The remark drew laughter from officials and journalists present. The article notes this as an example of Trump's increasingly erratic behavior amid concerns about his mental state.
+
+标签: politics, diplomacy, Trump, Japan, Iran, Pearl Harbor, surprise attack, international relations, controversy, humor</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/03/19/us/politics/trump-japan-pearl-harbor-oval-office-takaichi.html?unlocked_article_code=1.UVA.zau0.UZ5WnBjtPHot#sha256:d1616bce793121b2</guid>
+      <category>politics</category>
+      <category>diplomacy</category>
+      <category>Trump</category>
+      <category>Japan</category>
+      <category>Iran</category>
+      <category>Pearl Harbor</category>
+      <category>surprise attack</category>
+      <category>international relations</category>
+      <category>controversy</category>
+      <category>humor</category>
+      <pubDate>Fri, 20 Mar 2026 05:01:52 +0800</pubDate>
+    </item>
+    <item>
+      <title>StopTheMadness Pro and StopTheScript Extensions for Safari 摘要</title>
+      <link>https://mastodon.social/@lapcatsoftware/116252960395480568</link>
+      <description>This article discusses browser extensions that enhance user experience by blocking unwanted web content. StopTheMadness Pro for Safari prevents autoplaying videos and hides 'Sign in with Google' prompts, while StopTheScript disables JavaScript on selected sites to improve readability, such as on The Guardian. For Chrome/Chromium, Quick JavaScript Switcher offers a free toolbar toggle for JavaScript, with a donation option. The author notes that disabling JavaScript often removes undesirable elements without loss of essential functionality, and humorously mentions OnlyAds, an extension that hides everything except ads. These tools are presented as solutions to common web frustrations.
+
+标签: browser extensions, Safari, Chrome, JavaScript, user experience, ad blocking, web development, privacy, productivity, web design</description>
+      <guid isPermaLink="false">https://mastodon.social/@lapcatsoftware/116252960395480568#sha256:35525c9e9cc08b0a</guid>
+      <category>browser extensions</category>
+      <category>Safari</category>
+      <category>Chrome</category>
+      <category>JavaScript</category>
+      <category>user experience</category>
+      <category>ad blocking</category>
+      <category>web development</category>
+      <category>privacy</category>
+      <category>productivity</category>
+      <category>web design</category>
+      <pubDate>Fri, 20 Mar 2026 05:09:32 +0800</pubDate>
     </item>
   </channel>
 </rss>
