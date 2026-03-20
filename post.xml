@@ -8,159 +8,178 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 20 Mar 2026 07:15:00 +0800</lastBuildDate>
-    <pubDate>Fri, 20 Mar 2026 07:15:00 +0800</pubDate>
+    <lastBuildDate>Sat, 21 Mar 2026 07:14:31 +0800</lastBuildDate>
+    <pubDate>Sat, 21 Mar 2026 07:14:31 +0800</pubDate>
     <item>
-      <title>Thoughts on OpenAI acquiring Astral and uv/ruff/ty 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything</link>
-      <description>OpenAI is acquiring Astral, the company behind key Python tools uv, ruff, and ty. Astral's team will join OpenAI's Codex team, with both companies committing to continue supporting these open-source projects. The acquisition aims to enhance Codex's capabilities in software development, leveraging Astral's engineering expertise. Concerns include potential impacts on the Python ecosystem, competitive dynamics with Anthropic's acquisition of Bun, and the forking strategy as a fallback if maintenance falters. The deal highlights the growing importance of coding agents and infrastructure in AI-driven development.
+      <title>Terence Tao – Kepler, Newton, and the true nature of mathematical discovery 摘要</title>
+      <link>https://www.dwarkesh.com/p/terence-tao</link>
+      <description>The article discusses Johannes Kepler's discovery of planetary motion laws, highlighting his iterative process of testing hypotheses against Tycho Brahe's precise observational data. It draws parallels between Kepler's method and modern AI, suggesting that AI could similarly generate and test numerous hypotheses if paired with high-quality verification data. The piece emphasizes that scientific progress often relies on empirical verification over long timescales, as seen when Kepler's initial geometric theories were disproven, leading to the elliptical orbit model. It also notes that while AI may accelerate hypothesis generation, the deeper understanding and theoretical integration, as demonstrated by Newton's later work, remain human-driven challenges.
 
-标签: OpenAI, Astral, Python, uv, ruff, ty, acquisition, open-source, Codex, coding-agents</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything#sha256:50879a475316a797</guid>
-      <category>OpenAI</category>
-      <category>Astral</category>
+标签: AI, scientific discovery, history of science, Kepler, planetary motion, hypothesis testing, data verification, LLM, empirical research, astronomy</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/terence-tao#sha256:b12836068083b2b1</guid>
+      <category>AI</category>
+      <category>scientific discovery</category>
+      <category>history of science</category>
+      <category>Kepler</category>
+      <category>planetary motion</category>
+      <category>hypothesis testing</category>
+      <category>data verification</category>
+      <category>LLM</category>
+      <category>empirical research</category>
+      <category>astronomy</category>
+      <pubDate>Sat, 21 Mar 2026 00:00:55 +0800</pubDate>
+    </item>
+    <item>
+      <title>Premium: The Hater's Guide To Adobe 摘要</title>
+      <link>https://www.wheresyoured.at/hatersguide-adobe/</link>
+      <description>The article criticizes Adobe's business practices, highlighting its monopolistic position in design software and abusive subscription model. It details deceptive tactics like hidden early termination fees (50% of remaining balance), complex cancellation processes, and misleading monthly billing for annual contracts. The DOJ's $150 million settlement is deemed ineffective, as Adobe's subscription revenue continues to grow ($22.9 billion in 2025) without meaningful changes. Adobe is accused of rent-seeking, exploiting creatives, and relying on dark patterns to trap users, with its growth driven by acquisitions rather than innovation.
+
+标签: Adobe, subscription, dark-patterns, business-ethics, monopoly, DOJ, software-industry, consumer-rights, rent-seeking, Creative-Cloud</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/hatersguide-adobe/#sha256:098e781de764b6c4</guid>
+      <category>Adobe</category>
+      <category>subscription</category>
+      <category>dark-patterns</category>
+      <category>business-ethics</category>
+      <category>monopoly</category>
+      <category>DOJ</category>
+      <category>software-industry</category>
+      <category>consumer-rights</category>
+      <category>rent-seeking</category>
+      <category>Creative-Cloud</category>
+      <pubDate>Sat, 21 Mar 2026 00:25:42 +0800</pubDate>
+    </item>
+    <item>
+      <title>Bluesky Raised $100M a Year Ago but for Some Reason Only Disclosed It Now 摘要</title>
+      <link>https://bsky.social/about/blog/03-19-2026-series-b</link>
+      <description>In April 2025, Bluesky raised $100 million in Series B funding led by Bain Capital Crypto, but only disclosed it 11 months later in March 2026. Founder Jay Graber transitioned to Chief Innovation Officer around the same time. The article discusses Bluesky's stalled growth, questioning the unusual delay in announcing the funding. It notes that while such delays might be uncommon, Bluesky's transparency about the closing date is actually more open than many venture-backed companies, and the situation is likely not alarming given unique circumstances post-2024 election.
+
+标签: Bluesky, funding, Series B, venture capital, social media, startup, transparency, growth, AT Protocol, open social</description>
+      <guid isPermaLink="false">https://bsky.social/about/blog/03-19-2026-series-b#sha256:937777dd447cd13f</guid>
+      <category>Bluesky</category>
+      <category>funding</category>
+      <category>Series B</category>
+      <category>venture capital</category>
+      <category>social media</category>
+      <category>startup</category>
+      <category>transparency</category>
+      <category>growth</category>
+      <category>AT Protocol</category>
+      <category>open social</category>
+      <pubDate>Sat, 21 Mar 2026 00:46:01 +0800</pubDate>
+    </item>
+    <item>
+      <title>Embedded regex flags 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/03/20/embedded-regex-flags/</link>
+      <description>The article discusses the challenges of using regular expressions, focusing on syntax variations and environmental complexities. It highlights embedded regex modifiers like (?i) for case-insensitivity, which embed intentions directly into the regex for cross-environment use. A specific debugging example is given where a Python script failed due to global embedded modifiers not at the regex beginning, causing issues from Python 3.11 onward. The solution involved switching from re.findall() to regex.findall() for better Perl compatibility without editing lengthy regex patterns.
+
+标签: regular expressions, regex, Python, debugging, programming, syntax, compatibility, Perl, embedded modifiers, software development</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/03/20/embedded-regex-flags/#sha256:d73e5425c8f2dfd1</guid>
+      <category>regular expressions</category>
+      <category>regex</category>
       <category>Python</category>
-      <category>uv</category>
-      <category>ruff</category>
-      <category>ty</category>
-      <category>acquisition</category>
-      <category>open-source</category>
-      <category>Codex</category>
-      <category>coding-agents</category>
-      <pubDate>Fri, 20 Mar 2026 00:45:15 +0800</pubDate>
+      <category>debugging</category>
+      <category>programming</category>
+      <category>syntax</category>
+      <category>compatibility</category>
+      <category>Perl</category>
+      <category>embedded modifiers</category>
+      <category>software development</category>
+      <pubDate>Sat, 21 Mar 2026 00:58:42 +0800</pubDate>
     </item>
     <item>
-      <title>★ AppleScript: ‘Save MarsEdit Document to Text File’ 摘要</title>
-      <link>https://daringfireball.net/2026/03/applescript_save_marsedit_document_to_text_file</link>
-      <description>The author wrote an AppleScript to save MarsEdit blog drafts as text files, addressing a long-standing workflow issue. The script adds a 'Save as Text File...' feature via FastScripts, prompting for a filename and location, and exports document fields like Title, Tags, and Excerpt into a formatted text file. This helped clean up 29 old drafts, moving them from MarsEdit's local library to Dropbox for better organization and future editing in BBEdit.
+      <title>The Mystery of Rennes-le-Château, Part 2: Secret Codes and Hidden Messages 摘要</title>
+      <link>https://www.filfre.net/2026/03/the-mystery-of-rennes-le-chateau-part-2-secret-codes-and-hidden-messages/</link>
+      <description>This article explores the evolution of the Rennes-le-Château mystery, focusing on Gérard de Sède's 1967 book that popularized the story and introduced secret codes. It details two alleged Latin documents found in the church, which contain hidden messages like 'SION' and 'Rex Mundi', linking the treasure to Templar and Cathar myths. The analysis reveals inconsistencies, such as the documents matching a 1889 Bible edition, casting doubt on their authenticity. The piece frames the conspiracy theories as a gamified puzzle, akin to adventure games, rather than historical fact.
 
-标签: AppleScript, MarsEdit, blogging, workflow, automation, Mac, text files, productivity, FastScripts, BBEdit</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/03/applescript_save_marsedit_document_to_text_file#sha256:f9c9440316d9d823</guid>
-      <category>AppleScript</category>
-      <category>MarsEdit</category>
-      <category>blogging</category>
-      <category>workflow</category>
+标签: history, conspiracy-theories, mystery, Rennes-le-Château, secret-codes, Gérard-de-Sède, treasure-hunt, document-analysis, puzzles, historical-fiction</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/03/the-mystery-of-rennes-le-chateau-part-2-secret-codes-and-hidden-messages/#sha256:d8a180d4a0dde435</guid>
+      <category>history</category>
+      <category>conspiracy-theories</category>
+      <category>mystery</category>
+      <category>Rennes-le-Château</category>
+      <category>secret-codes</category>
+      <category>Gérard-de-Sède</category>
+      <category>treasure-hunt</category>
+      <category>document-analysis</category>
+      <category>puzzles</category>
+      <category>historical-fiction</category>
+      <pubDate>Sat, 21 Mar 2026 02:09:52 +0800</pubDate>
+    </item>
+    <item>
+      <title>Re: People Are Not Friction 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/re-people-arent-friction/</link>
+      <description>Dave Rupert critiques the AI-driven mindset that views people as friction to be automated away, highlighting how different tech disciplines (designers, engineers, frontend/backend) each believe AI makes others' roles obsolete. He references Paul Ford's insight that no discipline matters without others, warning that AI promotes the illusion that 'everyone else's job is easy except yours.' The article argues people and cross-disciplinary collaboration are essential for great products, urging decision-makers to value teamwork over automation.
+
+标签: AI, collaboration, workplace culture, design, engineering, automation, teamwork, technology ethics, human-centered design, interdisciplinary</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/re-people-arent-friction/#sha256:8b9e4e3b7a938d09</guid>
+      <category>AI</category>
+      <category>collaboration</category>
+      <category>workplace culture</category>
+      <category>design</category>
+      <category>engineering</category>
       <category>automation</category>
-      <category>Mac</category>
-      <category>text files</category>
-      <category>productivity</category>
-      <category>FastScripts</category>
-      <category>BBEdit</category>
-      <pubDate>Fri, 20 Mar 2026 00:46:37 +0800</pubDate>
+      <category>teamwork</category>
+      <category>technology ethics</category>
+      <category>human-centered design</category>
+      <category>interdisciplinary</category>
+      <pubDate>Sat, 21 Mar 2026 03:00:00 +0800</pubDate>
     </item>
     <item>
-      <title>Hacker News Discussion on Shubham Bose’s ‘The 49MB Web Page’ 摘要</title>
-      <link>https://news.ycombinator.com/item?id=47390945</link>
-      <description>The author argues that supporting JavaScript in web browsers was a fundamental mistake, as it transformed web pages from documents into embedded programs. This shift enabled issues like massive 49 MB pages, pervasive surveillance tracking, and intrusive user experiences (e.g., popovers that obstruct reading), which publishers would never allow in print editions. JavaScript's invisibility makes such problematic practices seem acceptable, contrasting with the visible nature of text and media.
+      <title>Quoting Kimi.ai @Kimi_Moonshot 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything</link>
+      <description>Kimi.ai congratulates the Cursor AI team on launching Composer 2, which is built on the Kimi-k2.5 model foundation. The integration showcases effective use through Cursor's continued pretraining and high-compute reinforcement learning (RL) training, supported by an open model ecosystem. The partnership involves Fireworks AI hosting the RL and inference platform for authorized commercial access.
 
-标签: web, JavaScript, browsers, privacy, surveillance, web development, user experience, controversial opinions, technology critique, publishing</description>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=47390945#sha256:6ea63085d09f850a</guid>
-      <category>web</category>
-      <category>JavaScript</category>
-      <category>browsers</category>
-      <category>privacy</category>
-      <category>surveillance</category>
-      <category>web development</category>
-      <category>user experience</category>
-      <category>controversial opinions</category>
-      <category>technology critique</category>
-      <category>publishing</category>
-      <pubDate>Fri, 20 Mar 2026 01:31:15 +0800</pubDate>
+标签: AI, LLM, Cursor, Kimi, generative-ai, partnership, reinforcement-learning, open-ecosystem, commercial, inference</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything#sha256:26fe527c09853237</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>Cursor</category>
+      <category>Kimi</category>
+      <category>generative-ai</category>
+      <category>partnership</category>
+      <category>reinforcement-learning</category>
+      <category>open-ecosystem</category>
+      <category>commercial</category>
+      <category>inference</category>
+      <pubDate>Sat, 21 Mar 2026 04:29:23 +0800</pubDate>
     </item>
     <item>
-      <title>Google’s New Sideloading Restrictions for Android Include a 24-Hour Waiting Period 摘要</title>
-      <link>https://www.androidauthority.com/google-android-sideloading-unverified-apps-new-rules-3650343/</link>
-      <description>Google is implementing new sideloading restrictions on Android that will make installing apps outside the Play Store significantly more difficult. The new rules include a mandatory 24-hour waiting period before users can install apps from unverified developers, which Google describes as a "high-friction process." This follows previous warnings from Google executives about tightening sideloading controls. The changes are part of Google's broader Android developer verification program aimed at increasing security, though critics argue they reduce platform openness. Notably, Epic Games CEO Tim Sweeney has agreed to deem Google's Android practices "procompetitive" until 2032 as part of a legal settlement.
+      <title>Perhaps Bluesky’s Revelation of an 11-Month Ago $100 Million Investment Was, in Fact, an Act of Transparency 摘要</title>
+      <link>https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j</link>
+      <description>The article discusses Bluesky's announcement of a $100 million funding round that closed 11 months prior, clarifying that such delayed announcements are common in venture capital, but Bluesky's transparency in revealing the actual closing date is unusual and commendable compared to typical industry practices where dates are often omitted.
 
-标签: Android, Google, sideloading, mobile, app stores, security, Play Store, developer verification, platform restrictions, Epic Games</description>
-      <guid isPermaLink="false">https://www.androidauthority.com/google-android-sideloading-unverified-apps-new-rules-3650343/#sha256:d059f105c63c875f</guid>
-      <category>Android</category>
+标签: Bluesky, funding, venture capital, transparency, startup, investment, announcement, business, social media, finance</description>
+      <guid isPermaLink="false">https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j#sha256:c758721253320118</guid>
+      <category>Bluesky</category>
+      <category>funding</category>
+      <category>venture capital</category>
+      <category>transparency</category>
+      <category>startup</category>
+      <category>investment</category>
+      <category>announcement</category>
+      <category>business</category>
+      <category>social media</category>
+      <category>finance</category>
+      <pubDate>Sat, 21 Mar 2026 04:49:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>Google Search Is Now Using AI to Rewrite Headlines 摘要</title>
+      <link>https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&amp;utm_medium=gift-link</link>
+      <description>Google is experimenting with AI to rewrite headlines in search results, replacing original headlines from publishers like The Verge with AI-generated versions that sometimes change meaning. The company describes this as a 'small' and 'narrow' experiment not yet approved for full launch, but multiple examples show altered headlines without clear indication of the change. This follows similar AI headline rewriting in Google Discover and affects both news and other websites.
+
+标签: AI, Google, search, headlines, news, experiment, publishing, ethics, technology, media</description>
+      <guid isPermaLink="false">https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&amp;utm_medium=gift-link#sha256:a5f5cd505aa52049</guid>
+      <category>AI</category>
       <category>Google</category>
-      <category>sideloading</category>
-      <category>mobile</category>
-      <category>app stores</category>
-      <category>security</category>
-      <category>Play Store</category>
-      <category>developer verification</category>
-      <category>platform restrictions</category>
-      <category>Epic Games</category>
-      <pubDate>Fri, 20 Mar 2026 03:03:22 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Day Mark Simonson Discovered Type Design 摘要</title>
-      <link>https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/</link>
-      <description>Mark Simonson recounts discovering a copy of U&amp;lc magazine in a graphics classroom, published by ITC (International Typeface Corporation) with design and editing by the legendary Herb Lubalin. He was struck by the beautiful typography and design, describing it as a "motherlode" for an aspiring typophile. This experience inspired him to decide that he wanted to design typefaces someday.
-
-标签: typography, typeface design, Herb Lubalin, U&amp;lc magazine, ITC, graphic design, inspiration, Mark Simonson, design history, typophile</description>
-      <guid isPermaLink="false">https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/#sha256:9af45db23bb65183</guid>
-      <category>typography</category>
-      <category>typeface design</category>
-      <category>Herb Lubalin</category>
-      <category>U&amp;lc magazine</category>
-      <category>ITC</category>
-      <category>graphic design</category>
-      <category>inspiration</category>
-      <category>Mark Simonson</category>
-      <category>design history</category>
-      <category>typophile</category>
-      <pubDate>Fri, 20 Mar 2026 03:15:59 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘Everyone but Trump Understands What He’s Done’ 摘要</title>
-      <link>https://www.theatlantic.com/ideas/2026/03/trump-iran-war-allies/686423/?gift=aQyUJR7AIw1mJWdQ6Ed6yGfvOucd9Oa8W54yMDTtr2I</link>
-      <description>The article discusses the geopolitical and economic consequences of former President Donald Trump's foreign policy actions, particularly regarding U.S. alliances and the Iran conflict. It highlights Trump's history of mocking and insulting European allies, undermining NATO support, and ridiculing countries like Canada and the U.K., which has strained international relations. Simultaneously, the Iran war has disrupted global oil supplies, with prices potentially soaring from around $60 to $150–200 per barrel, leading to predictions of sustained high gasoline costs in the U.S. and broader economic turmoil. The piece critiques these developments as a self-inflicted crisis, using the phrase 'hoist with his own petard' to describe the situation.
-
-标签: geopolitics, foreign policy, oil prices, international relations, economic impact, Trump administration, Iran conflict, NATO, energy crisis, global economy</description>
-      <guid isPermaLink="false">https://www.theatlantic.com/ideas/2026/03/trump-iran-war-allies/686423/?gift=aQyUJR7AIw1mJWdQ6Ed6yGfvOucd9Oa8W54yMDTtr2I#sha256:6f43d9d8acee6310</guid>
-      <category>geopolitics</category>
-      <category>foreign policy</category>
-      <category>oil prices</category>
-      <category>international relations</category>
-      <category>economic impact</category>
-      <category>Trump administration</category>
-      <category>Iran conflict</category>
-      <category>NATO</category>
-      <category>energy crisis</category>
-      <category>global economy</category>
-      <pubDate>Fri, 20 Mar 2026 04:09:27 +0800</pubDate>
-    </item>
-    <item>
-      <title>Actual Headline in the Actual New York Times: ‘Trump Jokes About Pearl Harbor in Meeting With Japan’s Leader’ 摘要</title>
-      <link>https://www.nytimes.com/2026/03/19/us/politics/trump-japan-pearl-harbor-oval-office-takaichi.html?unlocked_article_code=1.UVA.zau0.UZ5WnBjtPHot</link>
-      <description>In a meeting with Japan's leader, former President Trump was asked why Japan and other allies weren't notified in advance of a U.S.-Israeli assault on Iran. He responded by referencing the surprise attack on Pearl Harbor, saying, 'We didn't tell anybody about it because we wanted surprise. Who knows better about surprise than Japan, OK? Why didn't you tell me about Pearl Harbor, OK? Right?' The remark drew laughter from officials and journalists present. The article notes this as an example of Trump's increasingly erratic behavior amid concerns about his mental state.
-
-标签: politics, diplomacy, Trump, Japan, Iran, Pearl Harbor, surprise attack, international relations, controversy, humor</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/03/19/us/politics/trump-japan-pearl-harbor-oval-office-takaichi.html?unlocked_article_code=1.UVA.zau0.UZ5WnBjtPHot#sha256:d1616bce793121b2</guid>
-      <category>politics</category>
-      <category>diplomacy</category>
-      <category>Trump</category>
-      <category>Japan</category>
-      <category>Iran</category>
-      <category>Pearl Harbor</category>
-      <category>surprise attack</category>
-      <category>international relations</category>
-      <category>controversy</category>
-      <category>humor</category>
-      <pubDate>Fri, 20 Mar 2026 05:01:52 +0800</pubDate>
-    </item>
-    <item>
-      <title>StopTheMadness Pro and StopTheScript Extensions for Safari 摘要</title>
-      <link>https://mastodon.social/@lapcatsoftware/116252960395480568</link>
-      <description>This article discusses browser extensions that enhance user experience by blocking unwanted web content. StopTheMadness Pro for Safari prevents autoplaying videos and hides 'Sign in with Google' prompts, while StopTheScript disables JavaScript on selected sites to improve readability, such as on The Guardian. For Chrome/Chromium, Quick JavaScript Switcher offers a free toolbar toggle for JavaScript, with a donation option. The author notes that disabling JavaScript often removes undesirable elements without loss of essential functionality, and humorously mentions OnlyAds, an extension that hides everything except ads. These tools are presented as solutions to common web frustrations.
-
-标签: browser extensions, Safari, Chrome, JavaScript, user experience, ad blocking, web development, privacy, productivity, web design</description>
-      <guid isPermaLink="false">https://mastodon.social/@lapcatsoftware/116252960395480568#sha256:35525c9e9cc08b0a</guid>
-      <category>browser extensions</category>
-      <category>Safari</category>
-      <category>Chrome</category>
-      <category>JavaScript</category>
-      <category>user experience</category>
-      <category>ad blocking</category>
-      <category>web development</category>
-      <category>privacy</category>
-      <category>productivity</category>
-      <category>web design</category>
-      <pubDate>Fri, 20 Mar 2026 05:09:32 +0800</pubDate>
+      <category>search</category>
+      <category>headlines</category>
+      <category>news</category>
+      <category>experiment</category>
+      <category>publishing</category>
+      <category>ethics</category>
+      <category>technology</category>
+      <category>media</category>
+      <pubDate>Sat, 21 Mar 2026 05:00:09 +0800</pubDate>
     </item>
   </channel>
 </rss>
