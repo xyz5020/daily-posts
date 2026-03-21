@@ -8,178 +8,45 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Mar 2026 07:14:31 +0800</lastBuildDate>
-    <pubDate>Sat, 21 Mar 2026 07:14:31 +0800</pubDate>
+    <lastBuildDate>Sun, 22 Mar 2026 07:11:56 +0800</lastBuildDate>
+    <pubDate>Sun, 22 Mar 2026 07:11:56 +0800</pubDate>
     <item>
-      <title>Terence Tao – Kepler, Newton, and the true nature of mathematical discovery 摘要</title>
-      <link>https://www.dwarkesh.com/p/terence-tao</link>
-      <description>The article discusses Johannes Kepler's discovery of planetary motion laws, highlighting his iterative process of testing hypotheses against Tycho Brahe's precise observational data. It draws parallels between Kepler's method and modern AI, suggesting that AI could similarly generate and test numerous hypotheses if paired with high-quality verification data. The piece emphasizes that scientific progress often relies on empirical verification over long timescales, as seen when Kepler's initial geometric theories were disproven, leading to the elliptical orbit model. It also notes that while AI may accelerate hypothesis generation, the deeper understanding and theoretical integration, as demonstrated by Newton's later work, remain human-driven challenges.
+      <title>A traditional path to getting lingering duplicate systems 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/LingeringDuplicateSystemsII</link>
+      <description>The article discusses how duplicate systems persist in IT environments, using a disk space tracking example. An initial basic system is built with limitations, then a better second system is developed but often has its own constraints or is only partially implemented. Both systems coexist because the old one works and replacing it fully is risky or requires extra effort. Cleanup to remove the old system becomes low priority unless it consumes resources or needs ongoing maintenance, and dependencies on the old system's features can be hard to identify, making removal difficult.
 
-标签: AI, scientific discovery, history of science, Kepler, planetary motion, hypothesis testing, data verification, LLM, empirical research, astronomy</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/terence-tao#sha256:b12836068083b2b1</guid>
+标签: sysadmin, duplicate systems, system migration, legacy systems, technical debt, second-system effect, IT operations, risk management, cleanup, dependencies</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/sysadmin/LingeringDuplicateSystemsII#sha256:aac875f0a5e2ae1b</guid>
+      <category>sysadmin</category>
+      <category>duplicate systems</category>
+      <category>system migration</category>
+      <category>legacy systems</category>
+      <category>technical debt</category>
+      <category>second-system effect</category>
+      <category>IT operations</category>
+      <category>risk management</category>
+      <category>cleanup</category>
+      <category>dependencies</category>
+      <pubDate>Sun, 22 Mar 2026 04:36:31 +0800</pubDate>
+    </item>
+    <item>
+      <title>Using Git with coding agents 摘要</title>
+      <link>https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything</link>
+      <description>This article explains how coding agents leverage Git for version control, enabling developers to focus on high-level goals rather than memorizing commands. It covers Git essentials like repositories, commits, branches, and remotes, and provides practical prompts for agents to perform tasks such as starting repos, committing changes, reviewing history, integrating updates, resolving conflicts, recovering lost code, and using advanced tools like git bisect. The article also discusses rewriting history for cleaner project narratives and extracting code into new repositories while preserving commit history, highlighting how agents enhance Git workflows by handling complex operations efficiently.
+
+标签: Git, coding-agents, version-control, AI, agentic-engineering, software-development, automation, productivity, LLMs, collaboration</description>
+      <guid isPermaLink="false">https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything#sha256:43dd8cba5ab6a09b</guid>
+      <category>Git</category>
+      <category>coding-agents</category>
+      <category>version-control</category>
       <category>AI</category>
-      <category>scientific discovery</category>
-      <category>history of science</category>
-      <category>Kepler</category>
-      <category>planetary motion</category>
-      <category>hypothesis testing</category>
-      <category>data verification</category>
-      <category>LLM</category>
-      <category>empirical research</category>
-      <category>astronomy</category>
-      <pubDate>Sat, 21 Mar 2026 00:00:55 +0800</pubDate>
-    </item>
-    <item>
-      <title>Premium: The Hater's Guide To Adobe 摘要</title>
-      <link>https://www.wheresyoured.at/hatersguide-adobe/</link>
-      <description>The article criticizes Adobe's business practices, highlighting its monopolistic position in design software and abusive subscription model. It details deceptive tactics like hidden early termination fees (50% of remaining balance), complex cancellation processes, and misleading monthly billing for annual contracts. The DOJ's $150 million settlement is deemed ineffective, as Adobe's subscription revenue continues to grow ($22.9 billion in 2025) without meaningful changes. Adobe is accused of rent-seeking, exploiting creatives, and relying on dark patterns to trap users, with its growth driven by acquisitions rather than innovation.
-
-标签: Adobe, subscription, dark-patterns, business-ethics, monopoly, DOJ, software-industry, consumer-rights, rent-seeking, Creative-Cloud</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/hatersguide-adobe/#sha256:098e781de764b6c4</guid>
-      <category>Adobe</category>
-      <category>subscription</category>
-      <category>dark-patterns</category>
-      <category>business-ethics</category>
-      <category>monopoly</category>
-      <category>DOJ</category>
-      <category>software-industry</category>
-      <category>consumer-rights</category>
-      <category>rent-seeking</category>
-      <category>Creative-Cloud</category>
-      <pubDate>Sat, 21 Mar 2026 00:25:42 +0800</pubDate>
-    </item>
-    <item>
-      <title>Bluesky Raised $100M a Year Ago but for Some Reason Only Disclosed It Now 摘要</title>
-      <link>https://bsky.social/about/blog/03-19-2026-series-b</link>
-      <description>In April 2025, Bluesky raised $100 million in Series B funding led by Bain Capital Crypto, but only disclosed it 11 months later in March 2026. Founder Jay Graber transitioned to Chief Innovation Officer around the same time. The article discusses Bluesky's stalled growth, questioning the unusual delay in announcing the funding. It notes that while such delays might be uncommon, Bluesky's transparency about the closing date is actually more open than many venture-backed companies, and the situation is likely not alarming given unique circumstances post-2024 election.
-
-标签: Bluesky, funding, Series B, venture capital, social media, startup, transparency, growth, AT Protocol, open social</description>
-      <guid isPermaLink="false">https://bsky.social/about/blog/03-19-2026-series-b#sha256:937777dd447cd13f</guid>
-      <category>Bluesky</category>
-      <category>funding</category>
-      <category>Series B</category>
-      <category>venture capital</category>
-      <category>social media</category>
-      <category>startup</category>
-      <category>transparency</category>
-      <category>growth</category>
-      <category>AT Protocol</category>
-      <category>open social</category>
-      <pubDate>Sat, 21 Mar 2026 00:46:01 +0800</pubDate>
-    </item>
-    <item>
-      <title>Embedded regex flags 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/03/20/embedded-regex-flags/</link>
-      <description>The article discusses the challenges of using regular expressions, focusing on syntax variations and environmental complexities. It highlights embedded regex modifiers like (?i) for case-insensitivity, which embed intentions directly into the regex for cross-environment use. A specific debugging example is given where a Python script failed due to global embedded modifiers not at the regex beginning, causing issues from Python 3.11 onward. The solution involved switching from re.findall() to regex.findall() for better Perl compatibility without editing lengthy regex patterns.
-
-标签: regular expressions, regex, Python, debugging, programming, syntax, compatibility, Perl, embedded modifiers, software development</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/03/20/embedded-regex-flags/#sha256:d73e5425c8f2dfd1</guid>
-      <category>regular expressions</category>
-      <category>regex</category>
-      <category>Python</category>
-      <category>debugging</category>
-      <category>programming</category>
-      <category>syntax</category>
-      <category>compatibility</category>
-      <category>Perl</category>
-      <category>embedded modifiers</category>
-      <category>software development</category>
-      <pubDate>Sat, 21 Mar 2026 00:58:42 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Mystery of Rennes-le-Château, Part 2: Secret Codes and Hidden Messages 摘要</title>
-      <link>https://www.filfre.net/2026/03/the-mystery-of-rennes-le-chateau-part-2-secret-codes-and-hidden-messages/</link>
-      <description>This article explores the evolution of the Rennes-le-Château mystery, focusing on Gérard de Sède's 1967 book that popularized the story and introduced secret codes. It details two alleged Latin documents found in the church, which contain hidden messages like 'SION' and 'Rex Mundi', linking the treasure to Templar and Cathar myths. The analysis reveals inconsistencies, such as the documents matching a 1889 Bible edition, casting doubt on their authenticity. The piece frames the conspiracy theories as a gamified puzzle, akin to adventure games, rather than historical fact.
-
-标签: history, conspiracy-theories, mystery, Rennes-le-Château, secret-codes, Gérard-de-Sède, treasure-hunt, document-analysis, puzzles, historical-fiction</description>
-      <guid isPermaLink="false">https://www.filfre.net/2026/03/the-mystery-of-rennes-le-chateau-part-2-secret-codes-and-hidden-messages/#sha256:d8a180d4a0dde435</guid>
-      <category>history</category>
-      <category>conspiracy-theories</category>
-      <category>mystery</category>
-      <category>Rennes-le-Château</category>
-      <category>secret-codes</category>
-      <category>Gérard-de-Sède</category>
-      <category>treasure-hunt</category>
-      <category>document-analysis</category>
-      <category>puzzles</category>
-      <category>historical-fiction</category>
-      <pubDate>Sat, 21 Mar 2026 02:09:52 +0800</pubDate>
-    </item>
-    <item>
-      <title>Re: People Are Not Friction 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/re-people-arent-friction/</link>
-      <description>Dave Rupert critiques the AI-driven mindset that views people as friction to be automated away, highlighting how different tech disciplines (designers, engineers, frontend/backend) each believe AI makes others' roles obsolete. He references Paul Ford's insight that no discipline matters without others, warning that AI promotes the illusion that 'everyone else's job is easy except yours.' The article argues people and cross-disciplinary collaboration are essential for great products, urging decision-makers to value teamwork over automation.
-
-标签: AI, collaboration, workplace culture, design, engineering, automation, teamwork, technology ethics, human-centered design, interdisciplinary</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/re-people-arent-friction/#sha256:8b9e4e3b7a938d09</guid>
-      <category>AI</category>
-      <category>collaboration</category>
-      <category>workplace culture</category>
-      <category>design</category>
-      <category>engineering</category>
+      <category>agentic-engineering</category>
+      <category>software-development</category>
       <category>automation</category>
-      <category>teamwork</category>
-      <category>technology ethics</category>
-      <category>human-centered design</category>
-      <category>interdisciplinary</category>
-      <pubDate>Sat, 21 Mar 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Kimi.ai @Kimi_Moonshot 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything</link>
-      <description>Kimi.ai congratulates the Cursor AI team on launching Composer 2, which is built on the Kimi-k2.5 model foundation. The integration showcases effective use through Cursor's continued pretraining and high-compute reinforcement learning (RL) training, supported by an open model ecosystem. The partnership involves Fireworks AI hosting the RL and inference platform for authorized commercial access.
-
-标签: AI, LLM, Cursor, Kimi, generative-ai, partnership, reinforcement-learning, open-ecosystem, commercial, inference</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything#sha256:26fe527c09853237</guid>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>Cursor</category>
-      <category>Kimi</category>
-      <category>generative-ai</category>
-      <category>partnership</category>
-      <category>reinforcement-learning</category>
-      <category>open-ecosystem</category>
-      <category>commercial</category>
-      <category>inference</category>
-      <pubDate>Sat, 21 Mar 2026 04:29:23 +0800</pubDate>
-    </item>
-    <item>
-      <title>Perhaps Bluesky’s Revelation of an 11-Month Ago $100 Million Investment Was, in Fact, an Act of Transparency 摘要</title>
-      <link>https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j</link>
-      <description>The article discusses Bluesky's announcement of a $100 million funding round that closed 11 months prior, clarifying that such delayed announcements are common in venture capital, but Bluesky's transparency in revealing the actual closing date is unusual and commendable compared to typical industry practices where dates are often omitted.
-
-标签: Bluesky, funding, venture capital, transparency, startup, investment, announcement, business, social media, finance</description>
-      <guid isPermaLink="false">https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j#sha256:c758721253320118</guid>
-      <category>Bluesky</category>
-      <category>funding</category>
-      <category>venture capital</category>
-      <category>transparency</category>
-      <category>startup</category>
-      <category>investment</category>
-      <category>announcement</category>
-      <category>business</category>
-      <category>social media</category>
-      <category>finance</category>
-      <pubDate>Sat, 21 Mar 2026 04:49:07 +0800</pubDate>
-    </item>
-    <item>
-      <title>Google Search Is Now Using AI to Rewrite Headlines 摘要</title>
-      <link>https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&amp;utm_medium=gift-link</link>
-      <description>Google is experimenting with AI to rewrite headlines in search results, replacing original headlines from publishers like The Verge with AI-generated versions that sometimes change meaning. The company describes this as a 'small' and 'narrow' experiment not yet approved for full launch, but multiple examples show altered headlines without clear indication of the change. This follows similar AI headline rewriting in Google Discover and affects both news and other websites.
-
-标签: AI, Google, search, headlines, news, experiment, publishing, ethics, technology, media</description>
-      <guid isPermaLink="false">https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&amp;utm_medium=gift-link#sha256:a5f5cd505aa52049</guid>
-      <category>AI</category>
-      <category>Google</category>
-      <category>search</category>
-      <category>headlines</category>
-      <category>news</category>
-      <category>experiment</category>
-      <category>publishing</category>
-      <category>ethics</category>
-      <category>technology</category>
-      <category>media</category>
-      <pubDate>Sat, 21 Mar 2026 05:00:09 +0800</pubDate>
+      <category>productivity</category>
+      <category>LLMs</category>
+      <category>collaboration</category>
+      <pubDate>Sun, 22 Mar 2026 06:08:24 +0800</pubDate>
     </item>
   </channel>
 </rss>
