@@ -8,64 +8,102 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2026 07:13:47 +0800</lastBuildDate>
-    <pubDate>Mon, 23 Mar 2026 07:13:47 +0800</pubDate>
+    <lastBuildDate>Tue, 24 Mar 2026 07:15:55 +0800</lastBuildDate>
+    <pubDate>Tue, 24 Mar 2026 07:15:55 +0800</pubDate>
     <item>
-      <title>Half a Gigabyte of Ads 摘要</title>
-      <link>https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/</link>
-      <description>A PC Gamer article highlights a web page that initially loads 37MB and downloads nearly half a gigabyte of ads within five minutes, described as irresponsible and unprofessional. The author suggests browsers should implement default caps on page loads, such as 5MB, and require explicit consent for additional content to protect users from excessive data usage and poor performance.
+      <title>The HTML Review: Issue 05 摘要</title>
+      <link>https://thehtml.review/05/</link>
+      <description>The author expresses frustration with modern web design, contrasting it with the artistic integrity of native app developers. They reference recent critiques of web bloat and link to The HTML Review's latest issue, suggesting a longing for simpler, more purposeful web development akin to traditional craftsmanship.
 
-标签: web, performance, ads, browsers, data usage, user experience, web development, privacy, content delivery, internet</description>
-      <guid isPermaLink="false">https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/#sha256:ee65f548a0ca7e4d</guid>
+标签: web design, frustration, native apps, artistic integrity, HTML Review, web bloat, development, craftsmanship, critique, simplicity</description>
+      <guid isPermaLink="false">https://thehtml.review/05/#sha256:6cb397e647b4420f</guid>
+      <category>web design</category>
+      <category>frustration</category>
+      <category>native apps</category>
+      <category>artistic integrity</category>
+      <category>HTML Review</category>
+      <category>web bloat</category>
+      <category>development</category>
+      <category>craftsmanship</category>
+      <category>critique</category>
+      <category>simplicity</category>
+      <pubDate>Tue, 24 Mar 2026 01:40:05 +0800</pubDate>
+    </item>
+    <item>
+      <title>From the DF Archive, a Decade Ago: ‘The Industry Is Fucked Up’ 摘要</title>
+      <link>https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads</link>
+      <description>This article references a 2015 post by Rene Ritchie from iMore, which detailed how the site was serving increasingly poor and reader-hostile ads. It notes that the state of web advertising has seen little improvement over the past decade, and iMore, once a highly regarded site, is now defunct. The piece highlights the persistent issues in the web ad industry and the decline of a once-great publication.
+
+标签: web, advertising, media, blogging, industry, decline, reader-experience, publishing, digital-media, history</description>
+      <guid isPermaLink="false">https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads#sha256:1767f47ed128d5b7</guid>
       <category>web</category>
-      <category>performance</category>
-      <category>ads</category>
-      <category>browsers</category>
-      <category>data usage</category>
-      <category>user experience</category>
-      <category>web development</category>
-      <category>privacy</category>
-      <category>content delivery</category>
-      <category>internet</category>
-      <pubDate>Mon, 23 Mar 2026 00:41:09 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘Good, I’m Glad He’s Dead.’ 摘要</title>
-      <link>https://truthsocial.com/@realDonaldTrump/116268334535345382</link>
-      <description>The article discusses a blog post attributed to former U.S. President Donald Trump, where he expresses satisfaction over the death of Robert Mueller, calling it good and stating Mueller can no longer hurt innocent people. The author interprets this as a sign of declining mental faculties in the elderly, leading to loss of propriety and confusion, such as feeling the need to sign messages. The piece sarcastically suggests bookmarking Trump's post for future reference when he dies, implying others might similarly celebrate his passing.
-
-标签: politics, Donald Trump, Robert Mueller, blog, controversy, social commentary, dementia, death, U.S. politics, media</description>
-      <guid isPermaLink="false">https://truthsocial.com/@realDonaldTrump/116268334535345382#sha256:02053e4e11705fea</guid>
-      <category>politics</category>
-      <category>Donald Trump</category>
-      <category>Robert Mueller</category>
-      <category>blog</category>
-      <category>controversy</category>
-      <category>social commentary</category>
-      <category>dementia</category>
-      <category>death</category>
-      <category>U.S. politics</category>
+      <category>advertising</category>
       <category>media</category>
-      <pubDate>Mon, 23 Mar 2026 01:18:10 +0800</pubDate>
+      <category>blogging</category>
+      <category>industry</category>
+      <category>decline</category>
+      <category>reader-experience</category>
+      <category>publishing</category>
+      <category>digital-media</category>
+      <category>history</category>
+      <pubDate>Tue, 24 Mar 2026 02:09:32 +0800</pubDate>
     </item>
     <item>
-      <title>Mux — Video API for Developers 摘要</title>
-      <link>https://www.mux.com/?utm_campaign=fireball&amp;utm_source=DF</link>
-      <description>Mux is a video infrastructure platform that enables developers to integrate and scale video capabilities into websites, platforms, and AI workflows. It provides tools like transcripts, clips, and storyboards for applications such as summarization, translation, content moderation, and tagging. Mux also maintains Video.js, the web's most popular open-source video player, with version 10 being a complete architectural rebuild currently in beta. Trusted by companies like Patreon, Substack, and Synthesia, Mux offers a free tier and a promotional code for additional credit.
+      <title>WWDC 2026: June 8–12 摘要</title>
+      <link>https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/</link>
+      <description>Apple's WWDC 2026 will take place from June 8 to 12, starting with a keynote and Platforms State of the Union. The online conference includes over 100 video sessions, interactive labs, and appointments for developers to connect with Apple engineers. It will be accessible via the Apple Developer app, website, YouTube, and for the first time, on Bilibili in China. A lottery system is available for in-person keynote attendance.
 
-标签: video, infrastructure, API, developers, open-source, AI, transcripts, content-moderation, scalability, web-development</description>
-      <guid isPermaLink="false">https://www.mux.com/?utm_campaign=fireball&amp;utm_source=DF#sha256:9c884d81411f8d77</guid>
-      <category>video</category>
-      <category>infrastructure</category>
-      <category>API</category>
-      <category>developers</category>
-      <category>open-source</category>
+标签: Apple, WWDC, developer conference, keynote, online event, Bilibili, software development, tech announcement, Apple Developer, China</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/#sha256:aaefb4d240c9ecb5</guid>
+      <category>Apple</category>
+      <category>WWDC</category>
+      <category>developer conference</category>
+      <category>keynote</category>
+      <category>online event</category>
+      <category>Bilibili</category>
+      <category>software development</category>
+      <category>tech announcement</category>
+      <category>Apple Developer</category>
+      <category>China</category>
+      <pubDate>Tue, 24 Mar 2026 02:20:04 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting David Abram 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything</link>
+      <description>The author argues that LLMs cannot replace the core craft of software development, which involves understanding complex systems, debugging, architectural design, and making strategic decisions. While AI can assist with code generation and boilerplate, it lacks context, true understanding, and the ability to choose what to build. The real value of a developer lies in knowing what should exist and why, a responsibility that remains human.
+
+标签: careers, AI, LLM, software development, programming, AI-assisted programming, generative AI, craft, decision-making, architecture</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything#sha256:df6dae51473080c0</guid>
+      <category>careers</category>
       <category>AI</category>
-      <category>transcripts</category>
-      <category>content-moderation</category>
-      <category>scalability</category>
-      <category>web-development</category>
-      <pubDate>Mon, 23 Mar 2026 01:35:00 +0800</pubDate>
+      <category>LLM</category>
+      <category>software development</category>
+      <category>programming</category>
+      <category>AI-assisted programming</category>
+      <category>generative AI</category>
+      <category>craft</category>
+      <category>decision-making</category>
+      <category>architecture</category>
+      <pubDate>Tue, 24 Mar 2026 02:56:18 +0800</pubDate>
+    </item>
+    <item>
+      <title>Gasoline Prices Around the World 摘要</title>
+      <link>https://www.globalpetrolprices.com/gasoline_prices/</link>
+      <description>The article highlights a single-purpose website that displays gasoline prices around the world, noting the author's surprise at the high cost of gas in Hong Kong. It references a link to DaringFireball's coverage of global fuel prices, emphasizing the utility of focused, niche websites for specific data.
+
+标签: gasoline, prices, Hong Kong, single-purpose website, data visualization, global, fuel, economics, niche, DaringFireball</description>
+      <guid isPermaLink="false">https://www.globalpetrolprices.com/gasoline_prices/#sha256:ccebefc2d861d8ab</guid>
+      <category>gasoline</category>
+      <category>prices</category>
+      <category>Hong Kong</category>
+      <category>single-purpose website</category>
+      <category>data visualization</category>
+      <category>global</category>
+      <category>fuel</category>
+      <category>economics</category>
+      <category>niche</category>
+      <category>DaringFireball</category>
+      <pubDate>Tue, 24 Mar 2026 04:48:18 +0800</pubDate>
     </item>
   </channel>
 </rss>
