@@ -8,102 +8,157 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Mar 2026 07:15:55 +0800</lastBuildDate>
-    <pubDate>Tue, 24 Mar 2026 07:15:55 +0800</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2026 07:16:36 +0800</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2026 07:16:36 +0800</pubDate>
     <item>
-      <title>The HTML Review: Issue 05 摘要</title>
-      <link>https://thehtml.review/05/</link>
-      <description>The author expresses frustration with modern web design, contrasting it with the artistic integrity of native app developers. They reference recent critiques of web bloat and link to The HTML Review's latest issue, suggesting a longing for simpler, more purposeful web development akin to traditional craftsmanship.
+      <title>Using FireWire on a Raspberry Pi 摘要</title>
+      <link>https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/</link>
+      <description>The article discusses the discontinuation of FireWire (IEEE 1394) support in macOS 26 Tahoe and explores alternatives for legacy FireWire equipment, such as hard drives, DV cameras, and A/V gear. It highlights the author's use of a Canon GL1 DV camera with FireWire connectivity, which can interface with older Macs like the Power Mac G4 MDD or modern Macs (running macOS &lt; 26) via adapters, enabling digital video transfer to applications like Final Cut Pro.
 
-标签: web design, frustration, native apps, artistic integrity, HTML Review, web bloat, development, craftsmanship, critique, simplicity</description>
-      <guid isPermaLink="false">https://thehtml.review/05/#sha256:6cb397e647b4420f</guid>
-      <category>web design</category>
-      <category>frustration</category>
-      <category>native apps</category>
-      <category>artistic integrity</category>
-      <category>HTML Review</category>
-      <category>web bloat</category>
-      <category>development</category>
-      <category>craftsmanship</category>
-      <category>critique</category>
-      <category>simplicity</category>
-      <pubDate>Tue, 24 Mar 2026 01:40:05 +0800</pubDate>
-    </item>
-    <item>
-      <title>From the DF Archive, a Decade Ago: ‘The Industry Is Fucked Up’ 摘要</title>
-      <link>https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads</link>
-      <description>This article references a 2015 post by Rene Ritchie from iMore, which detailed how the site was serving increasingly poor and reader-hostile ads. It notes that the state of web advertising has seen little improvement over the past decade, and iMore, once a highly regarded site, is now defunct. The piece highlights the persistent issues in the web ad industry and the decline of a once-great publication.
-
-标签: web, advertising, media, blogging, industry, decline, reader-experience, publishing, digital-media, history</description>
-      <guid isPermaLink="false">https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads#sha256:1767f47ed128d5b7</guid>
-      <category>web</category>
-      <category>advertising</category>
-      <category>media</category>
-      <category>blogging</category>
-      <category>industry</category>
-      <category>decline</category>
-      <category>reader-experience</category>
-      <category>publishing</category>
-      <category>digital-media</category>
-      <category>history</category>
-      <pubDate>Tue, 24 Mar 2026 02:09:32 +0800</pubDate>
-    </item>
-    <item>
-      <title>WWDC 2026: June 8–12 摘要</title>
-      <link>https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/</link>
-      <description>Apple's WWDC 2026 will take place from June 8 to 12, starting with a keynote and Platforms State of the Union. The online conference includes over 100 video sessions, interactive labs, and appointments for developers to connect with Apple engineers. It will be accessible via the Apple Developer app, website, YouTube, and for the first time, on Bilibili in China. A lottery system is available for in-person keynote attendance.
-
-标签: Apple, WWDC, developer conference, keynote, online event, Bilibili, software development, tech announcement, Apple Developer, China</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/#sha256:aaefb4d240c9ecb5</guid>
+标签: hardware, legacy-technology, FireWire, macOS, video-editing, DV-camera, Apple, retro-computing, data-transfer, adapters</description>
+      <guid isPermaLink="false">https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/#sha256:4fc9e336cbeaf16d</guid>
+      <category>hardware</category>
+      <category>legacy-technology</category>
+      <category>FireWire</category>
+      <category>macOS</category>
+      <category>video-editing</category>
+      <category>DV-camera</category>
       <category>Apple</category>
-      <category>WWDC</category>
-      <category>developer conference</category>
-      <category>keynote</category>
-      <category>online event</category>
-      <category>Bilibili</category>
-      <category>software development</category>
-      <category>tech announcement</category>
-      <category>Apple Developer</category>
-      <category>China</category>
-      <pubDate>Tue, 24 Mar 2026 02:20:04 +0800</pubDate>
+      <category>retro-computing</category>
+      <category>data-transfer</category>
+      <category>adapters</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0800</pubDate>
     </item>
     <item>
-      <title>Quoting David Abram 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything</link>
-      <description>The author argues that LLMs cannot replace the core craft of software development, which involves understanding complex systems, debugging, architectural design, and making strategic decisions. While AI can assist with code generation and boilerplate, it lacks context, true understanding, and the ability to choose what to build. The real value of a developer lies in knowing what should exist and why, a responsibility that remains human.
+      <title>The AI Industry Is Lying To You 摘要</title>
+      <link>https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/</link>
+      <description>The article critiques the AI bubble's reliance on speculative data center expansion, highlighting that only 33% of announced US data center capacity (241 GW) is under active development, with many projects in vague planning stages. It notes a 50% drop in new capacity additions in Q4 2025 and points to power shortages, as 58% of data centers rely on 'wires-only' utilities without guaranteed generation. Estimates suggest only about 3 GW of IT load capacity actually came online in 2025, far below announced figures, raising doubts about the feasibility of sustaining AI growth given infrastructure and financial constraints.
 
-标签: careers, AI, LLM, software development, programming, AI-assisted programming, generative AI, craft, decision-making, architecture</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything#sha256:df6dae51473080c0</guid>
-      <category>careers</category>
+标签: AI, data centers, infrastructure, energy, bubble, speculation, NVIDIA, power shortage, economics, technology trends</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/#sha256:2a42fc67f1744986</guid>
+      <category>AI</category>
+      <category>data centers</category>
+      <category>infrastructure</category>
+      <category>energy</category>
+      <category>bubble</category>
+      <category>speculation</category>
+      <category>NVIDIA</category>
+      <category>power shortage</category>
+      <category>economics</category>
+      <category>technology trends</category>
+      <pubDate>Wed, 25 Mar 2026 01:25:52 +0800</pubDate>
+    </item>
+    <item>
+      <title>Code as a Tool of Process 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/code-as-process/</link>
+      <description>The article argues that writing code is a valuable process that sharpens thinking and reveals important details, similar to how iterative writing improves drafts. Using AI to generate code bypasses this refinement process, potentially missing crucial nuances and creating ambiguous implementations that lead to bugs. The author compares traditional coding to mining gold with pickaxes (discovering intact nuggets through careful work) versus using dynamite (generating fragmented dust quickly but losing quality). The key point is that tools like code generation come with inherent trade-offs in process quality versus speed.
+
+标签: programming, AI, code-generation, software-development, process, learning, productivity, trade-offs, metaphor, thinking</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/code-as-process/#sha256:c5f14fe96b569f30</guid>
+      <category>programming</category>
+      <category>AI</category>
+      <category>code-generation</category>
+      <category>software-development</category>
+      <category>process</category>
+      <category>learning</category>
+      <category>productivity</category>
+      <category>trade-offs</category>
+      <category>metaphor</category>
+      <category>thinking</category>
+      <pubDate>Wed, 25 Mar 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ What to Do About Those Menu Item Icons in MacOS 26 Tahoe 摘要</title>
+      <link>https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe</link>
+      <description>A hidden macOS Tahoe preference, NSMenuEnableActionImages, can disable menu icons but works inconsistently across Apple's apps. AppKit apps like Finder and Notes mostly comply, while Catalyst/UIKit/SwiftUI apps like Messages often ignore it. Safari shows partial compliance, with only a few icons hidden. Third-party apps like NetNewsWire and Rogue Amoeba's suite have removed icons to reduce clutter. The article argues icons should be used sparingly, only when they add clarity, to avoid visual noise and maintain effectiveness.
+
+标签: macOS, UI/UX, Apple, menu icons, Tahoe, AppKit, Catalyst, third-party apps, visual clutter, user preference</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe#sha256:87837497a0e46fbc</guid>
+      <category>macOS</category>
+      <category>UI/UX</category>
+      <category>Apple</category>
+      <category>menu icons</category>
+      <category>Tahoe</category>
+      <category>AppKit</category>
+      <category>Catalyst</category>
+      <category>third-party apps</category>
+      <category>visual clutter</category>
+      <category>user preference</category>
+      <pubDate>Wed, 25 Mar 2026 03:36:58 +0800</pubDate>
+    </item>
+    <item>
+      <title>Writing an LLM from scratch, part 32g -- Interventions: weight tying 摘要</title>
+      <link>https://www.gilesthomas.com/2026/03/llm-from-scratch-32g-interventions-weight-tying</link>
+      <description>The article discusses weight tying in large language models (LLMs), a technique that reduces parameter count by sharing weights between the input embedding and output projection layers. It explains that while weight tying can make models smaller and faster to train, it may limit flexibility by enforcing the same embedding space for input and output, potentially harming performance. The author tests this on a small 163M-parameter model based on Sebastian Raschka's code, noting that older techniques like QKV bias have helped, and explores whether weight tying could also be beneficial despite being out of fashion in modern LLMs. The post includes a code example from GPT-2 illustrating the embedding and linear layers involved.
+
+标签: AI, LLM, machine learning, deep learning, weight tying, model architecture, GPT-2, parameter efficiency, neural networks, PyTorch</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/03/llm-from-scratch-32g-interventions-weight-tying#sha256:2b9b8a6c9d7c31f6</guid>
       <category>AI</category>
       <category>LLM</category>
-      <category>software development</category>
-      <category>programming</category>
-      <category>AI-assisted programming</category>
-      <category>generative AI</category>
-      <category>craft</category>
-      <category>decision-making</category>
-      <category>architecture</category>
-      <pubDate>Tue, 24 Mar 2026 02:56:18 +0800</pubDate>
+      <category>machine learning</category>
+      <category>deep learning</category>
+      <category>weight tying</category>
+      <category>model architecture</category>
+      <category>GPT-2</category>
+      <category>parameter efficiency</category>
+      <category>neural networks</category>
+      <category>PyTorch</category>
+      <pubDate>Wed, 25 Mar 2026 03:50:00 +0800</pubDate>
     </item>
     <item>
-      <title>Gasoline Prices Around the World 摘要</title>
-      <link>https://www.globalpetrolprices.com/gasoline_prices/</link>
-      <description>The article highlights a single-purpose website that displays gasoline prices around the world, noting the author's surprise at the high cost of gas in Hong Kong. It references a link to DaringFireball's coverage of global fuel prices, emphasizing the utility of focused, niche websites for specific data.
+      <title>Quoting Christopher Mims 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything</link>
+      <description>Technology columnist Christopher Mims criticizes the trend of granting AI systems complete control over personal computers and lives, comparing it to the perceived foolishness of celebrity endorsements for digital assets like Bored Ape NFTs. He suggests this approach will be viewed as naive in hindsight, drawing a parallel to Jimmy Fallon's public display of his Bored Ape picture as an example of misguided enthusiasm.
 
-标签: gasoline, prices, Hong Kong, single-purpose website, data visualization, global, fuel, economics, niche, DaringFireball</description>
-      <guid isPermaLink="false">https://www.globalpetrolprices.com/gasoline_prices/#sha256:ccebefc2d861d8ab</guid>
-      <category>gasoline</category>
-      <category>prices</category>
-      <category>Hong Kong</category>
-      <category>single-purpose website</category>
-      <category>data visualization</category>
-      <category>global</category>
-      <category>fuel</category>
-      <category>economics</category>
-      <category>niche</category>
-      <category>DaringFireball</category>
-      <pubDate>Tue, 24 Mar 2026 04:48:18 +0800</pubDate>
+标签: AI, security, technology, ethics, privacy, criticism, futurism, social commentary</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything#sha256:d0a2b3c5fa040f76</guid>
+      <category>AI</category>
+      <category>security</category>
+      <category>technology</category>
+      <category>ethics</category>
+      <category>privacy</category>
+      <category>criticism</category>
+      <category>futurism</category>
+      <category>social commentary</category>
+      <pubDate>Wed, 25 Mar 2026 04:35:52 +0800</pubDate>
+    </item>
+    <item>
+      <title>Package Managers Need to Cool Down 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything</link>
+      <description>The article discusses dependency cooldowns, a security practice to delay installing updated dependencies for a few days to detect potential supply chain attacks, inspired by a recent LiteLLM incident. It reviews support across major package managers: pnpm 10.16 introduced minimumReleaseAge, Yarn 4.10.0 added npmMinimalAgeGate, Bun 1.3 has minimumReleaseAge, Deno 2.6 includes --minimum-dependency-age, uv 0.9.17 enhanced --exclude-newer, pip 26.0 offers --uploaded-prior-to, and npm 11.10.0 added min-release-age. Pip currently supports only absolute dates, with a workaround using cron to update configs.
+
+标签: package-managers, dependency-cooldowns, security, supply-chain, npm, pip, python, javascript, devops, tools</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything#sha256:c1bc1c950249ba38</guid>
+      <category>package-managers</category>
+      <category>dependency-cooldowns</category>
+      <category>security</category>
+      <category>supply-chain</category>
+      <category>npm</category>
+      <category>pip</category>
+      <category>python</category>
+      <category>javascript</category>
+      <category>devops</category>
+      <category>tools</category>
+      <pubDate>Wed, 25 Mar 2026 05:11:38 +0800</pubDate>
+    </item>
+    <item>
+      <title>Following Google’s Lead With Pixel Phones, Samsung Announces AirDrop Support With Galaxy S26 Phones 摘要</title>
+      <link>https://news.samsung.com/us/samsung-airdrop-quick-share-galaxy-s26-series/</link>
+      <description>Samsung is adding AirDrop support to its Galaxy S26 series via Quick Share, starting rollout on March 23 from Korea to regions including Europe, North America, and Asia. This likely uses Google's reverse-engineered AirDrop implementation, previously announced for Pixel phones, with security details provided. Apple has not commented, potentially unable to block it without breaking existing AirDrop compatibility, raising the irony that AirDrop might become a de facto standard while FaceTime, despite being announced as one in 2010, has not.
+
+标签: mobile, hardware, Samsung, AirDrop, Quick Share, Android, interoperability, technology standards, security, Google</description>
+      <guid isPermaLink="false">https://news.samsung.com/us/samsung-airdrop-quick-share-galaxy-s26-series/#sha256:86023ff75382a99f</guid>
+      <category>mobile</category>
+      <category>hardware</category>
+      <category>Samsung</category>
+      <category>AirDrop</category>
+      <category>Quick Share</category>
+      <category>Android</category>
+      <category>interoperability</category>
+      <category>technology standards</category>
+      <category>security</category>
+      <category>Google</category>
+      <pubDate>Wed, 25 Mar 2026 05:39:04 +0800</pubDate>
     </item>
   </channel>
 </rss>
