@@ -8,157 +8,100 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 25 Mar 2026 07:16:36 +0800</lastBuildDate>
-    <pubDate>Wed, 25 Mar 2026 07:16:36 +0800</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2026 07:18:06 +0800</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2026 07:18:06 +0800</pubDate>
     <item>
-      <title>Using FireWire on a Raspberry Pi 摘要</title>
-      <link>https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/</link>
-      <description>The article discusses the discontinuation of FireWire (IEEE 1394) support in macOS 26 Tahoe and explores alternatives for legacy FireWire equipment, such as hard drives, DV cameras, and A/V gear. It highlights the author's use of a Canon GL1 DV camera with FireWire connectivity, which can interface with older Macs like the Power Mac G4 MDD or modern Macs (running macOS &lt; 26) via adapters, enabling digital video transfer to applications like Final Cut Pro.
+      <title>LiteLLM Hack: Were You One of the 47,000? 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything</link>
+      <description>Daniel Hnyk analyzed the BigQuery PyPI dataset to quantify the impact of the LiteLLM supply chain attack. During the 46-minute window when malicious versions 1.82.7 and 1.82.8 were live, they were downloaded 46,996 times. Additionally, 2,337 packages depended on LiteLLM, with 88% not using version pinning that could have prevented the exploit.
 
-标签: hardware, legacy-technology, FireWire, macOS, video-editing, DV-camera, Apple, retro-computing, data-transfer, adapters</description>
-      <guid isPermaLink="false">https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/#sha256:4fc9e336cbeaf16d</guid>
-      <category>hardware</category>
-      <category>legacy-technology</category>
-      <category>FireWire</category>
-      <category>macOS</category>
-      <category>video-editing</category>
-      <category>DV-camera</category>
-      <category>Apple</category>
-      <category>retro-computing</category>
-      <category>data-transfer</category>
-      <category>adapters</category>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>The AI Industry Is Lying To You 摘要</title>
-      <link>https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/</link>
-      <description>The article critiques the AI bubble's reliance on speculative data center expansion, highlighting that only 33% of announced US data center capacity (241 GW) is under active development, with many projects in vague planning stages. It notes a 50% drop in new capacity additions in Q4 2025 and points to power shortages, as 58% of data centers rely on 'wires-only' utilities without guaranteed generation. Estimates suggest only about 3 GW of IT load capacity actually came online in 2025, far below announced figures, raising doubts about the feasibility of sustaining AI growth given infrastructure and financial constraints.
-
-标签: AI, data centers, infrastructure, energy, bubble, speculation, NVIDIA, power shortage, economics, technology trends</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/the-ai-industry-is-lying-to-you/#sha256:2a42fc67f1744986</guid>
-      <category>AI</category>
-      <category>data centers</category>
-      <category>infrastructure</category>
-      <category>energy</category>
-      <category>bubble</category>
-      <category>speculation</category>
-      <category>NVIDIA</category>
-      <category>power shortage</category>
-      <category>economics</category>
-      <category>technology trends</category>
-      <pubDate>Wed, 25 Mar 2026 01:25:52 +0800</pubDate>
-    </item>
-    <item>
-      <title>Code as a Tool of Process 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/code-as-process/</link>
-      <description>The article argues that writing code is a valuable process that sharpens thinking and reveals important details, similar to how iterative writing improves drafts. Using AI to generate code bypasses this refinement process, potentially missing crucial nuances and creating ambiguous implementations that lead to bugs. The author compares traditional coding to mining gold with pickaxes (discovering intact nuggets through careful work) versus using dynamite (generating fragmented dust quickly but losing quality). The key point is that tools like code generation come with inherent trade-offs in process quality versus speed.
-
-标签: programming, AI, code-generation, software-development, process, learning, productivity, trade-offs, metaphor, thinking</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/code-as-process/#sha256:c5f14fe96b569f30</guid>
-      <category>programming</category>
-      <category>AI</category>
-      <category>code-generation</category>
-      <category>software-development</category>
-      <category>process</category>
-      <category>learning</category>
-      <category>productivity</category>
-      <category>trade-offs</category>
-      <category>metaphor</category>
-      <category>thinking</category>
-      <pubDate>Wed, 25 Mar 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>★ What to Do About Those Menu Item Icons in MacOS 26 Tahoe 摘要</title>
-      <link>https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe</link>
-      <description>A hidden macOS Tahoe preference, NSMenuEnableActionImages, can disable menu icons but works inconsistently across Apple's apps. AppKit apps like Finder and Notes mostly comply, while Catalyst/UIKit/SwiftUI apps like Messages often ignore it. Safari shows partial compliance, with only a few icons hidden. Third-party apps like NetNewsWire and Rogue Amoeba's suite have removed icons to reduce clutter. The article argues icons should be used sparingly, only when they add clarity, to avoid visual noise and maintain effectiveness.
-
-标签: macOS, UI/UX, Apple, menu icons, Tahoe, AppKit, Catalyst, third-party apps, visual clutter, user preference</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe#sha256:87837497a0e46fbc</guid>
-      <category>macOS</category>
-      <category>UI/UX</category>
-      <category>Apple</category>
-      <category>menu icons</category>
-      <category>Tahoe</category>
-      <category>AppKit</category>
-      <category>Catalyst</category>
-      <category>third-party apps</category>
-      <category>visual clutter</category>
-      <category>user preference</category>
-      <pubDate>Wed, 25 Mar 2026 03:36:58 +0800</pubDate>
-    </item>
-    <item>
-      <title>Writing an LLM from scratch, part 32g -- Interventions: weight tying 摘要</title>
-      <link>https://www.gilesthomas.com/2026/03/llm-from-scratch-32g-interventions-weight-tying</link>
-      <description>The article discusses weight tying in large language models (LLMs), a technique that reduces parameter count by sharing weights between the input embedding and output projection layers. It explains that while weight tying can make models smaller and faster to train, it may limit flexibility by enforcing the same embedding space for input and output, potentially harming performance. The author tests this on a small 163M-parameter model based on Sebastian Raschka's code, noting that older techniques like QKV bias have helped, and explores whether weight tying could also be beneficial despite being out of fashion in modern LLMs. The post includes a code example from GPT-2 illustrating the embedding and linear layers involved.
-
-标签: AI, LLM, machine learning, deep learning, weight tying, model architecture, GPT-2, parameter efficiency, neural networks, PyTorch</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/03/llm-from-scratch-32g-interventions-weight-tying#sha256:2b9b8a6c9d7c31f6</guid>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>machine learning</category>
-      <category>deep learning</category>
-      <category>weight tying</category>
-      <category>model architecture</category>
-      <category>GPT-2</category>
-      <category>parameter efficiency</category>
-      <category>neural networks</category>
-      <category>PyTorch</category>
-      <pubDate>Wed, 25 Mar 2026 03:50:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Christopher Mims 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything</link>
-      <description>Technology columnist Christopher Mims criticizes the trend of granting AI systems complete control over personal computers and lives, comparing it to the perceived foolishness of celebrity endorsements for digital assets like Bored Ape NFTs. He suggests this approach will be viewed as naive in hindsight, drawing a parallel to Jimmy Fallon's public display of his Bored Ape picture as an example of misguided enthusiasm.
-
-标签: AI, security, technology, ethics, privacy, criticism, futurism, social commentary</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything#sha256:d0a2b3c5fa040f76</guid>
-      <category>AI</category>
-      <category>security</category>
-      <category>technology</category>
-      <category>ethics</category>
-      <category>privacy</category>
-      <category>criticism</category>
-      <category>futurism</category>
-      <category>social commentary</category>
-      <pubDate>Wed, 25 Mar 2026 04:35:52 +0800</pubDate>
-    </item>
-    <item>
-      <title>Package Managers Need to Cool Down 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything</link>
-      <description>The article discusses dependency cooldowns, a security practice to delay installing updated dependencies for a few days to detect potential supply chain attacks, inspired by a recent LiteLLM incident. It reviews support across major package managers: pnpm 10.16 introduced minimumReleaseAge, Yarn 4.10.0 added npmMinimalAgeGate, Bun 1.3 has minimumReleaseAge, Deno 2.6 includes --minimum-dependency-age, uv 0.9.17 enhanced --exclude-newer, pip 26.0 offers --uploaded-prior-to, and npm 11.10.0 added min-release-age. Pip currently supports only absolute dates, with a workaround using cron to update configs.
-
-标签: package-managers, dependency-cooldowns, security, supply-chain, npm, pip, python, javascript, devops, tools</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything#sha256:c1bc1c950249ba38</guid>
-      <category>package-managers</category>
-      <category>dependency-cooldowns</category>
+标签: security, supply-chain, python, pypi, packaging, litellm, vulnerability, dependency-management, bigquery, open-source</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything#sha256:1a5a4759d6c4155c</guid>
       <category>security</category>
       <category>supply-chain</category>
-      <category>npm</category>
-      <category>pip</category>
       <category>python</category>
-      <category>javascript</category>
-      <category>devops</category>
-      <category>tools</category>
-      <pubDate>Wed, 25 Mar 2026 05:11:38 +0800</pubDate>
+      <category>pypi</category>
+      <category>packaging</category>
+      <category>litellm</category>
+      <category>vulnerability</category>
+      <category>dependency-management</category>
+      <category>bigquery</category>
+      <category>open-source</category>
+      <pubDate>Thu, 26 Mar 2026 01:21:04 +0800</pubDate>
     </item>
     <item>
-      <title>Following Google’s Lead With Pixel Phones, Samsung Announces AirDrop Support With Galaxy S26 Phones 摘要</title>
-      <link>https://news.samsung.com/us/samsung-airdrop-quick-share-galaxy-s26-series/</link>
-      <description>Samsung is adding AirDrop support to its Galaxy S26 series via Quick Share, starting rollout on March 23 from Korea to regions including Europe, North America, and Asia. This likely uses Google's reverse-engineered AirDrop implementation, previously announced for Pixel phones, with security details provided. Apple has not commented, potentially unable to block it without breaking existing AirDrop compatibility, raising the irony that AirDrop might become a de facto standard while FaceTime, despite being announced as one in 2010, has not.
+      <title>Improved Analytics in App Store Connect 摘要</title>
+      <link>https://developer.apple.com/news/?id=hh6v4b55</link>
+      <description>Apple has launched a major update to App Store Connect Analytics, featuring a redesigned user interface for easier app and game performance tracking while maintaining user privacy. Key changes include app-by-app organization instead of aggregate multi-app views, a new default three-month reporting period (though shorter periods remain available), and the deprecation of older Trends dashboards. Apple acknowledges developer feedback about the lack of cross-app reporting and has provided updated documentation.
 
-标签: mobile, hardware, Samsung, AirDrop, Quick Share, Android, interoperability, technology standards, security, Google</description>
-      <guid isPermaLink="false">https://news.samsung.com/us/samsung-airdrop-quick-share-galaxy-s26-series/#sha256:86023ff75382a99f</guid>
-      <category>mobile</category>
-      <category>hardware</category>
-      <category>Samsung</category>
-      <category>AirDrop</category>
-      <category>Quick Share</category>
-      <category>Android</category>
-      <category>interoperability</category>
-      <category>technology standards</category>
-      <category>security</category>
-      <category>Google</category>
-      <pubDate>Wed, 25 Mar 2026 05:39:04 +0800</pubDate>
+标签: Apple, App Store, Analytics, Developer Tools, Mobile Apps, Privacy, User Experience, Performance Tracking, Software Updates, iOS Development</description>
+      <guid isPermaLink="false">https://developer.apple.com/news/?id=hh6v4b55#sha256:6ce65a7ba19508c8</guid>
+      <category>Apple</category>
+      <category>App Store</category>
+      <category>Analytics</category>
+      <category>Developer Tools</category>
+      <category>Mobile Apps</category>
+      <category>Privacy</category>
+      <category>User Experience</category>
+      <category>Performance Tracking</category>
+      <category>Software Updates</category>
+      <category>iOS Development</category>
+      <pubDate>Thu, 26 Mar 2026 03:16:27 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘A List of Chain Restaurants Whose Names Contain Unusual Structures’ 摘要</title>
+      <link>https://onefoottsunami.com/2026/03/18/a-list-of-chain-restaurants-whose-names-contain-unusual-structures/</link>
+      <description>The article discusses ShowBiz Pizza Place, a 1980s rival to Chuck E. Cheese, known for its arcade games like the sit-down Star Wars and Spy Hunter. The author recalls childhood memories of the restaurant, noting its unique name with 'Place' and how some friends mistakenly called it 'ShowBiz Pizza Palace', comparing this to misnaming an iPod Touch as 'iTouch'. The piece reflects on the restaurant's atmosphere, describing it as dark and seedy rather than palatial.
+
+标签: restaurants, 1980s, arcade, nostalgia, ShowBiz Pizza Place, Chuck E. Cheese, gaming, childhood memories, pop culture, misnomers</description>
+      <guid isPermaLink="false">https://onefoottsunami.com/2026/03/18/a-list-of-chain-restaurants-whose-names-contain-unusual-structures/#sha256:803a48198ee321f7</guid>
+      <category>restaurants</category>
+      <category>1980s</category>
+      <category>arcade</category>
+      <category>nostalgia</category>
+      <category>ShowBiz Pizza Place</category>
+      <category>Chuck E. Cheese</category>
+      <category>gaming</category>
+      <category>childhood memories</category>
+      <category>pop culture</category>
+      <category>misnomers</category>
+      <pubDate>Thu, 26 Mar 2026 03:50:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>datasette-llm 0.1a1 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything</link>
+      <description>datasette-llm 0.1a1 is a base plugin that integrates LLM models into Datasette for use by other plugins like datasette-enrichments-llm. It introduces a new plugin hook, register_llm_purposes(), and a get_purposes() function to manage and retrieve purpose strings for model assignments. This allows centralized configuration of models for specific tasks, such as data enrichment or SQL query assistance, enabling plugins to request models by purpose and facilitating admin UI development for model-purpose mapping.
+
+标签: datasette, llm, plugins, release, python, ai, database, open-source, tooling, integration</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything#sha256:71b5fe97b4bb6a26</guid>
+      <category>datasette</category>
+      <category>llm</category>
+      <category>plugins</category>
+      <category>release</category>
+      <category>python</category>
+      <category>ai</category>
+      <category>database</category>
+      <category>open-source</category>
+      <category>tooling</category>
+      <category>integration</category>
+      <pubDate>Thu, 26 Mar 2026 05:24:31 +0800</pubDate>
+    </item>
+    <item>
+      <title>Thoughts on slowing the fuck down 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything</link>
+      <description>Mario Zechner, creator of the Pi agent framework, critiques the current trend in agentic engineering where developers prioritize speed over quality, leading to unsustainable complexity. He argues that while agents can generate code rapidly, this removes human oversight, allowing mistakes to compound quickly and creating unmanageable 'cognitive debt.' Zechner advocates for slowing down, setting limits on agent-generated code, and manually writing critical architectural components to maintain system integrity and thoughtful development.
+
+标签: AI, AI/LLM, AI/LLM/Agent, programming, tools, architecture, culture, business</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything#sha256:fe325327dc8346a2</guid>
+      <category>AI</category>
+      <category>AI/LLM</category>
+      <category>AI/LLM/Agent</category>
+      <category>programming</category>
+      <category>tools</category>
+      <category>architecture</category>
+      <category>culture</category>
+      <category>business</category>
+      <pubDate>Thu, 26 Mar 2026 05:47:17 +0800</pubDate>
     </item>
   </channel>
 </rss>
