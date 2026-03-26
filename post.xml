@@ -8,100 +8,223 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Mar 2026 07:18:06 +0800</lastBuildDate>
-    <pubDate>Thu, 26 Mar 2026 07:18:06 +0800</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2026 07:16:01 +0800</lastBuildDate>
+    <pubDate>Fri, 27 Mar 2026 07:16:01 +0800</pubDate>
     <item>
-      <title>LiteLLM Hack: Were You One of the 47,000? 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything</link>
-      <description>Daniel Hnyk analyzed the BigQuery PyPI dataset to quantify the impact of the LiteLLM supply chain attack. During the 46-minute window when malicious versions 1.82.7 and 1.82.8 were live, they were downloaded 46,996 times. Additionally, 2,337 packages depended on LiteLLM, with 88% not using version pinning that could have prevented the exploit.
+      <title>Quantization from the ground up 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything</link>
+      <description>Sam Rose's interactive essay explains quantization of Large Language Models, covering floating point representation, outlier values crucial for model quality, and accuracy impacts measured via perplexity and KL divergence. Tests on Qwen 3.5 9B show 16-bit to 8-bit quantization has minimal quality loss, while 4-bit retains about 90% accuracy.
 
-标签: security, supply-chain, python, pypi, packaging, litellm, vulnerability, dependency-management, bigquery, open-source</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything#sha256:1a5a4759d6c4155c</guid>
-      <category>security</category>
-      <category>supply-chain</category>
-      <category>python</category>
-      <category>pypi</category>
-      <category>packaging</category>
-      <category>litellm</category>
-      <category>vulnerability</category>
-      <category>dependency-management</category>
-      <category>bigquery</category>
-      <category>open-source</category>
-      <pubDate>Thu, 26 Mar 2026 01:21:04 +0800</pubDate>
-    </item>
-    <item>
-      <title>Improved Analytics in App Store Connect 摘要</title>
-      <link>https://developer.apple.com/news/?id=hh6v4b55</link>
-      <description>Apple has launched a major update to App Store Connect Analytics, featuring a redesigned user interface for easier app and game performance tracking while maintaining user privacy. Key changes include app-by-app organization instead of aggregate multi-app views, a new default three-month reporting period (though shorter periods remain available), and the deprecation of older Trends dashboards. Apple acknowledges developer feedback about the lack of cross-app reporting and has provided updated documentation.
-
-标签: Apple, App Store, Analytics, Developer Tools, Mobile Apps, Privacy, User Experience, Performance Tracking, Software Updates, iOS Development</description>
-      <guid isPermaLink="false">https://developer.apple.com/news/?id=hh6v4b55#sha256:6ce65a7ba19508c8</guid>
-      <category>Apple</category>
-      <category>App Store</category>
-      <category>Analytics</category>
-      <category>Developer Tools</category>
-      <category>Mobile Apps</category>
-      <category>Privacy</category>
-      <category>User Experience</category>
-      <category>Performance Tracking</category>
-      <category>Software Updates</category>
-      <category>iOS Development</category>
-      <pubDate>Thu, 26 Mar 2026 03:16:27 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘A List of Chain Restaurants Whose Names Contain Unusual Structures’ 摘要</title>
-      <link>https://onefoottsunami.com/2026/03/18/a-list-of-chain-restaurants-whose-names-contain-unusual-structures/</link>
-      <description>The article discusses ShowBiz Pizza Place, a 1980s rival to Chuck E. Cheese, known for its arcade games like the sit-down Star Wars and Spy Hunter. The author recalls childhood memories of the restaurant, noting its unique name with 'Place' and how some friends mistakenly called it 'ShowBiz Pizza Palace', comparing this to misnaming an iPod Touch as 'iTouch'. The piece reflects on the restaurant's atmosphere, describing it as dark and seedy rather than palatial.
-
-标签: restaurants, 1980s, arcade, nostalgia, ShowBiz Pizza Place, Chuck E. Cheese, gaming, childhood memories, pop culture, misnomers</description>
-      <guid isPermaLink="false">https://onefoottsunami.com/2026/03/18/a-list-of-chain-restaurants-whose-names-contain-unusual-structures/#sha256:803a48198ee321f7</guid>
-      <category>restaurants</category>
-      <category>1980s</category>
-      <category>arcade</category>
-      <category>nostalgia</category>
-      <category>ShowBiz Pizza Place</category>
-      <category>Chuck E. Cheese</category>
-      <category>gaming</category>
-      <category>childhood memories</category>
-      <category>pop culture</category>
-      <category>misnomers</category>
-      <pubDate>Thu, 26 Mar 2026 03:50:07 +0800</pubDate>
-    </item>
-    <item>
-      <title>datasette-llm 0.1a1 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything</link>
-      <description>datasette-llm 0.1a1 is a base plugin that integrates LLM models into Datasette for use by other plugins like datasette-enrichments-llm. It introduces a new plugin hook, register_llm_purposes(), and a get_purposes() function to manage and retrieve purpose strings for model assignments. This allows centralized configuration of models for specific tasks, such as data enrichment or SQL query assistance, enabling plugins to request models by purpose and facilitating admin UI development for model-purpose mapping.
-
-标签: datasette, llm, plugins, release, python, ai, database, open-source, tooling, integration</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything#sha256:71b5fe97b4bb6a26</guid>
-      <category>datasette</category>
-      <category>llm</category>
-      <category>plugins</category>
-      <category>release</category>
-      <category>python</category>
-      <category>ai</category>
-      <category>database</category>
-      <category>open-source</category>
-      <category>tooling</category>
-      <category>integration</category>
-      <pubDate>Thu, 26 Mar 2026 05:24:31 +0800</pubDate>
-    </item>
-    <item>
-      <title>Thoughts on slowing the fuck down 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything</link>
-      <description>Mario Zechner, creator of the Pi agent framework, critiques the current trend in agentic engineering where developers prioritize speed over quality, leading to unsustainable complexity. He argues that while agents can generate code rapidly, this removes human oversight, allowing mistakes to compound quickly and creating unmanageable 'cognitive debt.' Zechner advocates for slowing down, setting limits on agent-generated code, and manually writing critical architectural components to maintain system integrity and thoughtful development.
-
-标签: AI, AI/LLM, AI/LLM/Agent, programming, tools, architecture, culture, business</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything#sha256:fe325327dc8346a2</guid>
+标签: quantization, LLM, AI, machine learning, floating point, model optimization, perplexity, Qwen, computer science, interactive tutorial</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything#sha256:c9171cd1c5b424ed</guid>
+      <category>quantization</category>
+      <category>LLM</category>
       <category>AI</category>
-      <category>AI/LLM</category>
-      <category>AI/LLM/Agent</category>
-      <category>programming</category>
-      <category>tools</category>
-      <category>architecture</category>
-      <category>culture</category>
+      <category>machine learning</category>
+      <category>floating point</category>
+      <category>model optimization</category>
+      <category>perplexity</category>
+      <category>Qwen</category>
+      <category>computer science</category>
+      <category>interactive tutorial</category>
+      <pubDate>Fri, 27 Mar 2026 00:21:09 +0800</pubDate>
+    </item>
+    <item>
+      <title>Jennifer Daniel on the New ‘Distorted Face’ Emoji 摘要</title>
+      <link>https://jenniferdaniel.substack.com/p/new-emoji-distorted-face</link>
+      <description>Jennifer Daniel discusses the evolution of emoji, highlighting three recent additions: Melting Face (🫠) representing surrender, Dotted Line Face (🫥) symbolizing sublimation to escape conversations, and the newly proposed Distorted Face (U+1FAEA) depicting physical alteration by emotion. She notes that Apple only includes new emoji in current-year OS updates, so the 8 new emoji are in MacOS 26.4 but not MacOS 15.7.5, despite both being released this week.
+
+标签: emoji, design, technology, Apple, Unicode, operating systems, software updates, digital communication, user experience, trends</description>
+      <guid isPermaLink="false">https://jenniferdaniel.substack.com/p/new-emoji-distorted-face#sha256:4287db3abf175add</guid>
+      <category>emoji</category>
+      <category>design</category>
+      <category>technology</category>
+      <category>Apple</category>
+      <category>Unicode</category>
+      <category>operating systems</category>
+      <category>software updates</category>
+      <category>digital communication</category>
+      <category>user experience</category>
+      <category>trends</category>
+      <pubDate>Fri, 27 Mar 2026 00:43:34 +0800</pubDate>
+    </item>
+    <item>
+      <title>MacOS 26.4 Adds ‘Slow Charger’ Indicator for MacBooks 摘要</title>
+      <link>https://www.macrumors.com/2026/03/25/macos-tahoe-26-4-slow-charger-macbooks/</link>
+      <description>macOS Tahoe 26.4 introduces a 'Slow Charger' indicator that alerts MacBook users when their charging setup is underpowered. The warning appears in orange text in the battery status menu and settings, with an info button for details. Apple advises using a power adapter and cable that meet the minimum wattage for the MacBook model. This feature is particularly relevant in Europe, where MacBooks no longer include chargers, as users often mistakenly use low-wattage USB-C adapters, leading to battery drain even while plugged in.
+
+标签: macOS, MacBook, battery, charging, power adapter, hardware, Apple, software update, user experience, Europe</description>
+      <guid isPermaLink="false">https://www.macrumors.com/2026/03/25/macos-tahoe-26-4-slow-charger-macbooks/#sha256:ea7c25b0b8568d6a</guid>
+      <category>macOS</category>
+      <category>MacBook</category>
+      <category>battery</category>
+      <category>charging</category>
+      <category>power adapter</category>
+      <category>hardware</category>
+      <category>Apple</category>
+      <category>software update</category>
+      <category>user experience</category>
+      <category>Europe</category>
+      <pubDate>Fri, 27 Mar 2026 01:13:41 +0800</pubDate>
+    </item>
+    <item>
+      <title>Katie Notopoulos Bids Farewell to Sora: ‘You Were Too Beautiful and Stupid for This World’ 摘要</title>
+      <link>https://www.businessinsider.com/sora-openai-chatgpt-sam-altman-ai-shutting-down-farewell-why-2026-3</link>
+      <description>Katie Notopoulos reflects on the short-lived popularity of OpenAI's Sora video generation app, noting that while creating AI videos was initially fun, watching strangers' AI-generated content quickly became boring. She and her friends stopped using the app within weeks, and Meta's similar AI video app also failed to engage users. The article criticizes Sora as an expensive stunt that lacked staying power, highlighting OpenAI's recent struggles as a sign of broader organizational issues.
+
+标签: AI, OpenAI, Sora, video generation, social media, app failure, user engagement, Meta, business strategy, technology trends</description>
+      <guid isPermaLink="false">https://www.businessinsider.com/sora-openai-chatgpt-sam-altman-ai-shutting-down-farewell-why-2026-3#sha256:b0c455d1879e16d9</guid>
+      <category>AI</category>
+      <category>OpenAI</category>
+      <category>Sora</category>
+      <category>video generation</category>
+      <category>social media</category>
+      <category>app failure</category>
+      <category>user engagement</category>
+      <category>Meta</category>
+      <category>business strategy</category>
+      <category>technology trends</category>
+      <pubDate>Fri, 27 Mar 2026 01:24:53 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Information: ‘Apple Can “Distill” Google’s Big Gemini Model’ 摘要</title>
+      <link>https://www.theinformation.com/newsletters/ai-agenda/apple-can-distill-googles-big-gemini-model?rc=jfy0lk</link>
+      <description>Apple has secured extensive access to Google's Gemini AI model under their agreement, allowing Apple to use Gemini in its own data centers to create smaller, specialized models through distillation. This process transfers knowledge from the large Gemini model to smaller ones that can run faster on Apple devices. The deal goes beyond simple white-labeling, as Apple can operate these Gemini-based models in its Private Cloud Compute datacenters, indicating a deep integration.
+
+标签: AI, Apple, Google, Gemini, distillation, machine learning, cloud computing, technology partnership, mobile devices, data centers</description>
+      <guid isPermaLink="false">https://www.theinformation.com/newsletters/ai-agenda/apple-can-distill-googles-big-gemini-model?rc=jfy0lk#sha256:5c765795ec2d85ce</guid>
+      <category>AI</category>
+      <category>Apple</category>
+      <category>Google</category>
+      <category>Gemini</category>
+      <category>distillation</category>
+      <category>machine learning</category>
+      <category>cloud computing</category>
+      <category>technology partnership</category>
+      <category>mobile devices</category>
+      <category>data centers</category>
+      <pubDate>Fri, 27 Mar 2026 01:33:38 +0800</pubDate>
+    </item>
+    <item>
+      <title>NYT: ‘Melania Trump Appears With a Robot, Saying More Children Should Be Educated by Them’ 摘要</title>
+      <link>https://www.nytimes.com/2026/03/25/us/politics/melania-trump-robot.html?smid=nytcore-ios-share</link>
+      <description>The article references a video link showing someone speaking in a particular manner, suggesting an influence on their speech patterns. It also includes a link to a DaringFireball post discussing a New York Times report about Melania Trump appearing with a robot and advocating for more children to be educated by robots, highlighting a connection between public figures and technology in education.
+
+标签: technology, education, robotics, public figures, media, AI, speech patterns, news, social impact, innovation</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/03/25/us/politics/melania-trump-robot.html?smid=nytcore-ios-share#sha256:8cca655b14594c38</guid>
+      <category>technology</category>
+      <category>education</category>
+      <category>robotics</category>
+      <category>public figures</category>
+      <category>media</category>
+      <category>AI</category>
+      <category>speech patterns</category>
+      <category>news</category>
+      <category>social impact</category>
+      <category>innovation</category>
+      <pubDate>Fri, 27 Mar 2026 02:10:22 +0800</pubDate>
+    </item>
+    <item>
+      <title>Google Brags About Android Web Browser Benchmark Scores on Unnamed Devices; Gullible Reporters Fall for It 摘要</title>
+      <link>https://blog.chromium.org/2026/03/android-sets-new-record-for-mobile-web.html</link>
+      <description>Google's Chromium Blog announced that Android is now the fastest mobile platform for web browsing, based on benchmarks Speedometer 3.1 and LoadLine. The claim relies on tests of three unnamed Android flagship phones outperforming an unnamed competing platform (likely iPhone 17 Pro). However, the article criticizes the lack of transparency, as device names and software versions are undisclosed, making verification impossible. It notes that LoadLine, a Google-developed benchmark, is difficult to run on iOS, potentially skewing results. Several tech publications repeated Google's claims without questioning the methodology or anonymity of the devices.
+
+标签: Android, Chrome, benchmark, web performance, mobile, Google, iOS, transparency, tech journalism, Speedometer</description>
+      <guid isPermaLink="false">https://blog.chromium.org/2026/03/android-sets-new-record-for-mobile-web.html#sha256:e2a54f67e0148e8d</guid>
+      <category>Android</category>
+      <category>Chrome</category>
+      <category>benchmark</category>
+      <category>web performance</category>
+      <category>mobile</category>
+      <category>Google</category>
+      <category>iOS</category>
+      <category>transparency</category>
+      <category>tech journalism</category>
+      <category>Speedometer</category>
+      <pubDate>Fri, 27 Mar 2026 03:08:25 +0800</pubDate>
+    </item>
+    <item>
+      <title>Disney Drops Vaporware $1B Investment in OpenAI After Sora Got Axed 摘要</title>
+      <link>https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/</link>
+      <description>Disney has terminated its partnership with OpenAI, which included a planned $1 billion investment by Disney in the AI company. The decision follows OpenAI's exit from the video generation business and shift in priorities. Disney expressed appreciation for the collaboration and stated it will continue exploring AI platforms to engage fans while respecting intellectual property and creator rights.
+
+标签: AI, business, partnership, investment, media, entertainment, OpenAI, Disney, video generation, corporate strategy</description>
+      <guid isPermaLink="false">https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/#sha256:ae0778d2cf0d4cb6</guid>
+      <category>AI</category>
       <category>business</category>
-      <pubDate>Thu, 26 Mar 2026 05:47:17 +0800</pubDate>
+      <category>partnership</category>
+      <category>investment</category>
+      <category>media</category>
+      <category>entertainment</category>
+      <category>OpenAI</category>
+      <category>Disney</category>
+      <category>video generation</category>
+      <category>corporate strategy</category>
+      <pubDate>Fri, 27 Mar 2026 03:26:38 +0800</pubDate>
+    </item>
+    <item>
+      <title>You Can Jump Right to the Updates Screen in the App Store App on iOS 26.4 摘要</title>
+      <link>https://daringfireball.net/linked/2026/03/24/ios-264</link>
+      <description>The article discusses a user-friendly workaround for accessing the Updates screen in the App Store on iOS 26.4, where the default navigation path was recently made less convenient. It highlights two methods: long-pressing the App Store app icon on the Home Screen to access a contextual menu option for Updates, or creating a Shortcuts shortcut using the URL 'itms-apps://apps.apple.com/updates' to jump directly to the screen. The author prefers the long-press method for its simplicity.
+
+标签: iOS, App Store, updates, shortcuts, user experience, mobile, Apple, tips, navigation, productivity</description>
+      <guid isPermaLink="false">https://daringfireball.net/linked/2026/03/24/ios-264#sha256:5e584256fc29f6f0</guid>
+      <category>iOS</category>
+      <category>App Store</category>
+      <category>updates</category>
+      <category>shortcuts</category>
+      <category>user experience</category>
+      <category>mobile</category>
+      <category>Apple</category>
+      <category>tips</category>
+      <category>navigation</category>
+      <category>productivity</category>
+      <pubDate>Fri, 27 Mar 2026 03:35:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Lebesgue constants 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/03/26/lebesgue-constants/</link>
+      <description>This article explains Lebesgue constants in numerical interpolation, focusing on the constant λ that amplifies errors in tabulated values. It defines the Lebesgue function and constant based on interpolation nodes, provides asymptotic expressions for evenly spaced and Chebyshev-spaced grids, and illustrates with examples: for n=11 and n=29, evenly spaced grids amplify errors by factors of 155 and over 10 million, while Chebyshev spacing yields much lower factors of 2.58 and 3.17, highlighting its superiority for high-order interpolation.
+
+标签: numerical analysis, interpolation, Lebesgue constants, error analysis, Chebyshev polynomials, mathematics, computational methods, asymptotic expressions, grid spacing, high-order interpolation</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/03/26/lebesgue-constants/#sha256:df05f7127bdb0bdc</guid>
+      <category>numerical analysis</category>
+      <category>interpolation</category>
+      <category>Lebesgue constants</category>
+      <category>error analysis</category>
+      <category>Chebyshev polynomials</category>
+      <category>mathematics</category>
+      <category>computational methods</category>
+      <category>asymptotic expressions</category>
+      <category>grid spacing</category>
+      <category>high-order interpolation</category>
+      <pubDate>Fri, 27 Mar 2026 04:05:06 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Apple Charging Situation 摘要</title>
+      <link>https://randsinrepose.com/guides/apple-charging-guide.html</link>
+      <description>The article discusses Apple's charging ecosystem, referencing a Daring Fireball link about macOS 26.4 slow charger warnings and an information guide from Rands in Repose. It highlights issues with power adapters, particularly slow charging warnings in newer macOS versions, and provides useful insights into the broader Apple charging situation, including compatibility and user experience concerns.
+
+标签: Apple, macOS, charging, power adapters, hardware, user experience, technology, guides, Rands in Repose, Daring Fireball</description>
+      <guid isPermaLink="false">https://randsinrepose.com/guides/apple-charging-guide.html#sha256:856a711d7422f4b5</guid>
+      <category>Apple</category>
+      <category>macOS</category>
+      <category>charging</category>
+      <category>power adapters</category>
+      <category>hardware</category>
+      <category>user experience</category>
+      <category>technology</category>
+      <category>guides</category>
+      <category>Rands in Repose</category>
+      <category>Daring Fireball</category>
+      <pubDate>Fri, 27 Mar 2026 04:20:49 +0800</pubDate>
+    </item>
+    <item>
+      <title>Members Only: On Cathedral thinking 摘要</title>
+      <link>https://www.joanwestenberg.com/members-only-on-cathedral-thinking/</link>
+      <description>暂无摘要</description>
+      <guid isPermaLink="false">https://www.joanwestenberg.com/members-only-on-cathedral-thinking/#sha256:d768972f4c5400b8</guid>
+      <pubDate>Fri, 27 Mar 2026 06:54:35 +0800</pubDate>
     </item>
   </channel>
 </rss>
