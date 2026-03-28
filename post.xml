@@ -8,140 +8,26 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Mar 2026 07:16:55 +0800</lastBuildDate>
-    <pubDate>Sat, 28 Mar 2026 07:16:55 +0800</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2026 07:15:28 +0800</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2026 07:15:28 +0800</pubDate>
     <item>
-      <title>An AI Odyssey, Part 3: Lost Needle in the Haystack 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/03/27/an-ai-odyssey-part-3-lost-needle-in-the-haystack/</link>
-      <description>The author describes a frustrating experience with an AI shopping assistant on an e-commerce site. When seeking an obscure product question, the AI tool failed to provide useful information, while a simple keyword search across product reviews immediately yielded credible answers. This highlights a usability issue where multiple search mechanisms exist but only one is reliable, and suggests that retrieval-based AI approaches (like RAG) may underperform compared to basic keyword searches in practical scenarios. The post implies that despite capable models, ineffective integration can lead to customer dissatisfaction with AI tools.
+      <title>‘How Apple Became Apple: The Definitive Oral History of the Company’s Earliest Days’ 摘要</title>
+      <link>https://www.fastcompany.com/91514404/apple-founding-50th-anniversary-apple-1-apple-ii-jobs-wozniak?mvgt=E5Loo3fO74zl</link>
+      <description>This article discusses a Fast Company feature by Harry McCracken that provides an oral history of Apple's early days, highlighting the company's origins and renegade spirit. It includes an anecdote about Steve Jobs recruiting 14-year-old Chris Espinosa from a computer store to test BASIC for the Apple II, illustrating Apple's unconventional beginnings. The piece contrasts this early energy with the more restrained Tim Cook era, noting Apple's best moments come from that original innovative and rebellious ethos.
 
-标签: AI, usability, e-commerce, RAG, search, customer experience, product reviews, integration, retrieval, keyword search</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/03/27/an-ai-odyssey-part-3-lost-needle-in-the-haystack/#sha256:da55d0282c978c72</guid>
-      <category>AI</category>
-      <category>usability</category>
-      <category>e-commerce</category>
-      <category>RAG</category>
-      <category>search</category>
-      <category>customer experience</category>
-      <category>product reviews</category>
-      <category>integration</category>
-      <category>retrieval</category>
-      <category>keyword search</category>
-      <pubDate>Sat, 28 Mar 2026 00:06:18 +0800</pubDate>
-    </item>
-    <item>
-      <title>Premium: How Much Of The AI Bubble Is Real? 摘要</title>
-      <link>https://www.wheresyoured.at/premium-how-much-of-the-ai-bubble-is-real/</link>
-      <description>The article critically examines the reported but unverified $1 billion deal between Disney and OpenAI for Sora, highlighting that financial reports show no evidence of the investment or Sora integration. It reveals that OpenAI is discontinuing Sora, contradicting widespread media hype that portrayed it as a transformative threat to Hollywood. The author argues this reflects a pattern of AI industry hype cycles, citing other unfulfilled deals with NVIDIA and AMD, and criticizes media for spreading panic in the entertainment industry based on unsubstantiated claims.
-
-标签: AI, OpenAI, Sora, Disney, media, hype, investment, Hollywood, technology, criticism</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/premium-how-much-of-the-ai-bubble-is-real/#sha256:c51a2a401569ce1f</guid>
-      <category>AI</category>
-      <category>OpenAI</category>
-      <category>Sora</category>
-      <category>Disney</category>
-      <category>media</category>
-      <category>hype</category>
-      <category>investment</category>
-      <category>Hollywood</category>
-      <category>technology</category>
-      <category>criticism</category>
-      <pubDate>Sat, 28 Mar 2026 01:21:30 +0800</pubDate>
-    </item>
-    <item>
-      <title>This Week on The Analog Antiquarian 摘要</title>
-      <link>https://www.filfre.net/2026/03/this-week-on-the-analog-antiquarian-2/</link>
-      <description>This article, titled 'Epilogue: Infinity Embraced' from The Analog Antiquarian blog, reflects on the completion of a long-term project or series, likely related to historical computing, retro technology, or digital preservation. It discusses themes of legacy, the passage of time in tech, and the philosophical implications of preserving digital artifacts. The author shares personal insights and conclusions drawn from the journey, emphasizing the enduring impact of analog and early digital systems on modern technology and culture.
-
-标签: history, retro-computing, digital-preservation, legacy, philosophy, technology-culture, analog, blog-post, reflection, project-completion</description>
-      <guid isPermaLink="false">https://www.filfre.net/2026/03/this-week-on-the-analog-antiquarian-2/#sha256:3c25509abd954a8c</guid>
-      <category>history</category>
-      <category>retro-computing</category>
-      <category>digital-preservation</category>
-      <category>legacy</category>
-      <category>philosophy</category>
-      <category>technology-culture</category>
-      <category>analog</category>
-      <category>blog-post</category>
-      <category>reflection</category>
-      <category>project-completion</category>
-      <pubDate>Sat, 28 Mar 2026 01:23:28 +0800</pubDate>
-    </item>
-    <item>
-      <title>“Good Taste” Is Just Experience 摘要</title>
-      <link>https://terriblesoftware.org/2026/03/27/good-taste-is-just-experience/</link>
-      <description>The article critiques the common notion that 'taste' is the ultimate differentiator in the AI era, arguing it's a misleading term for experience-based pattern recognition. The author explains that taste, such as in engineering management or code review, develops through repeated practice—like hundreds of 1:1s or PR reviews—not as an innate gift. This framing harms junior developers by making a learnable skill seem binary and unattainable, whereas emphasizing 'reps' (repetitions) encourages growth through continuous effort and real-world exposure.
-
-标签: AI, career, software-engineering, experience, pattern-recognition, junior-developers, skill-development, management, code-review, professional-growth</description>
-      <guid isPermaLink="false">https://terriblesoftware.org/2026/03/27/good-taste-is-just-experience/#sha256:78119acfabb369a5</guid>
-      <category>AI</category>
-      <category>career</category>
-      <category>software-engineering</category>
-      <category>experience</category>
-      <category>pattern-recognition</category>
-      <category>junior-developers</category>
-      <category>skill-development</category>
-      <category>management</category>
-      <category>code-review</category>
-      <category>professional-growth</category>
-      <pubDate>Sat, 28 Mar 2026 03:35:32 +0800</pubDate>
-    </item>
-    <item>
-      <title>★ Apple Giveth, Apple Taketh Away 摘要</title>
-      <link>https://daringfireball.net/2026/03/apple_giveth_apple_taketh_away</link>
-      <description>The article discusses two macOS updates. First, macOS 26.4 fixed a hidden preference (NSMenuEnableActionImages) that now properly hides most menu item icons in Safari, reducing them from 16 to 5 out of 19 in the File menu, aligning with other Apple apps. Second, a bug in macOS 15 Sequoia that allowed blocking Tahoe upgrade prompts via device management profiles was fixed in macOS 15.7.5, but an alternative method using the Sequoia Public Beta program still blocks Tahoe updates without requiring beta installations.
-
-标签: macOS, Safari, software-update, UI-customization, Apple, beta-program, device-management, preferences, bug-fix, Tahoe</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/03/apple_giveth_apple_taketh_away#sha256:7ff8bf8a147ed5f7</guid>
-      <category>macOS</category>
-      <category>Safari</category>
-      <category>software-update</category>
-      <category>UI-customization</category>
+标签: Apple, history, Steve Jobs, oral history, technology, business, innovation, culture, computing, entrepreneurship</description>
+      <guid isPermaLink="false">https://www.fastcompany.com/91514404/apple-founding-50th-anniversary-apple-1-apple-ii-jobs-wozniak?mvgt=E5Loo3fO74zl#sha256:1b3fe4f0867adaf2</guid>
       <category>Apple</category>
-      <category>beta-program</category>
-      <category>device-management</category>
-      <category>preferences</category>
-      <category>bug-fix</category>
-      <category>Tahoe</category>
-      <pubDate>Sat, 28 Mar 2026 04:46:14 +0800</pubDate>
-    </item>
-    <item>
-      <title>Vibe coding SwiftUI apps is a lot of fun 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything</link>
-      <description>The author describes building two macOS system monitoring apps, Bandwidther and Gpuer, using AI-assisted 'vibe coding' with Claude Opus and GPT-5.4, without deep SwiftUI knowledge. Bandwidther tracks network bandwidth usage per app, while Gpuer monitors GPU and memory usage, both as menu bar apps. The author notes the apps are experimental and may have inaccuracies, but highlights the efficiency of single-file SwiftUI apps and AI's capability in generating functional UI code quickly.
-
-标签: macOS, AI, SwiftUI, vibe-coding, coding-agents, system-monitoring, Claude, LLMs, productivity, open-source</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything#sha256:435e738f2fc651a0</guid>
-      <category>macOS</category>
-      <category>AI</category>
-      <category>SwiftUI</category>
-      <category>vibe-coding</category>
-      <category>coding-agents</category>
-      <category>system-monitoring</category>
-      <category>Claude</category>
-      <category>LLMs</category>
-      <category>productivity</category>
-      <category>open-source</category>
-      <pubDate>Sat, 28 Mar 2026 04:59:53 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Richard Fontana 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything</link>
-      <description>Richard Fontana, co-author of LGPLv3, comments on the chardet relicensing debate, stating there is no basis to conclude that chardet 7.0.0 must be released under LGPL. He notes no one has identified copyrightable material from earlier versions in 7.0.0 or articulated a viable license violation theory. This relates to a broader discussion on open-source licensing and AI ethics.
-
-标签: open-source, licensing, LGPL, chardet, software, legal, copyright, AI-ethics, community, development</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything#sha256:99cc5ff153ea2e78</guid>
-      <category>open-source</category>
-      <category>licensing</category>
-      <category>LGPL</category>
-      <category>chardet</category>
-      <category>software</category>
-      <category>legal</category>
-      <category>copyright</category>
-      <category>AI-ethics</category>
-      <category>community</category>
-      <category>development</category>
-      <pubDate>Sat, 28 Mar 2026 05:11:17 +0800</pubDate>
+      <category>history</category>
+      <category>Steve Jobs</category>
+      <category>oral history</category>
+      <category>technology</category>
+      <category>business</category>
+      <category>innovation</category>
+      <category>culture</category>
+      <category>computing</category>
+      <category>entrepreneurship</category>
+      <pubDate>Sun, 29 Mar 2026 05:57:01 +0800</pubDate>
     </item>
   </channel>
 </rss>
