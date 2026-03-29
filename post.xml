@@ -8,26 +8,159 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 29 Mar 2026 07:15:28 +0800</lastBuildDate>
-    <pubDate>Sun, 29 Mar 2026 07:15:28 +0800</pubDate>
+    <lastBuildDate>Mon, 30 Mar 2026 07:16:19 +0800</lastBuildDate>
+    <pubDate>Mon, 30 Mar 2026 07:16:19 +0800</pubDate>
     <item>
-      <title>‘How Apple Became Apple: The Definitive Oral History of the Company’s Earliest Days’ 摘要</title>
-      <link>https://www.fastcompany.com/91514404/apple-founding-50th-anniversary-apple-1-apple-ii-jobs-wozniak?mvgt=E5Loo3fO74zl</link>
-      <description>This article discusses a Fast Company feature by Harry McCracken that provides an oral history of Apple's early days, highlighting the company's origins and renegade spirit. It includes an anecdote about Steve Jobs recruiting 14-year-old Chris Espinosa from a computer store to test BASIC for the Apple II, illustrating Apple's unconventional beginnings. The piece contrasts this early energy with the more restrained Tim Cook era, noting Apple's best moments come from that original innovative and rebellious ethos.
+      <title>The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history 摘要</title>
+      <link>http://www.righto.com/2026/03/ibm-4-pi-computer-history.html</link>
+      <description>The article details the IBM System/4 Pi family of computers, introduced around 1967 for avionics and space applications. It highlights the AP-101B model used in the Space Shuttle's first flight in 1981, with four primary computers and a backup. The family included models like the TC (Tactical Computer) for satellites and missiles, and the CP (Customized Processor) for real-time computing, featuring technologies such as TTL integrated circuits and magnetic core memory. These computers were pivotal in systems like Skylab, GPS development, and military aircraft, though historical information on them is scarce.
 
-标签: Apple, history, Steve Jobs, oral history, technology, business, innovation, culture, computing, entrepreneurship</description>
-      <guid isPermaLink="false">https://www.fastcompany.com/91514404/apple-founding-50th-anniversary-apple-1-apple-ii-jobs-wozniak?mvgt=E5Loo3fO74zl#sha256:1b3fe4f0867adaf2</guid>
+标签: IBM, System/4 Pi, Space Shuttle, Avionics, Historical Computing, Magnetic Core Memory, Skylab, Military Technology, Computer Architecture, NASA</description>
+      <guid isPermaLink="false">http://www.righto.com/2026/03/ibm-4-pi-computer-history.html#sha256:c282e96085e5711a</guid>
+      <category>IBM</category>
+      <category>System/4 Pi</category>
+      <category>Space Shuttle</category>
+      <category>Avionics</category>
+      <category>Historical Computing</category>
+      <category>Magnetic Core Memory</category>
+      <category>Skylab</category>
+      <category>Military Technology</category>
+      <category>Computer Architecture</category>
+      <category>NASA</category>
+      <pubDate>Mon, 30 Mar 2026 00:06:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Python Vulnerability Lookup 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything</link>
+      <description>Simon Willison created a Python vulnerability lookup tool using the OSV.dev open source vulnerability database's JSON API. The tool allows users to paste a pyproject.toml or requirements.txt file (or a GitHub repo name containing those) to retrieve a list of reported vulnerabilities. It was built with Claude Code as an HTML tool, leveraging the API's open CORS policy for web-based access.
+
+标签: tools, python, security, supply-chain, vulnerability, api, web-tool, open-source, devops, coding</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything#sha256:710b4a6823d7da45</guid>
+      <category>tools</category>
+      <category>python</category>
+      <category>security</category>
+      <category>supply-chain</category>
+      <category>vulnerability</category>
+      <category>api</category>
+      <category>web-tool</category>
+      <category>open-source</category>
+      <category>devops</category>
+      <category>coding</category>
+      <pubDate>Mon, 30 Mar 2026 02:46:16 +0800</pubDate>
+    </item>
+    <item>
+      <title>Pretext — Under the Hood 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything</link>
+      <description>Pretext is a tool developed by Simon Willison that explains the underlying mechanisms of other tools or systems. It provides detailed insights into how these tools operate, likely through analysis of their code, architecture, or functionality. The tool is accessible via a web interface and is documented on Willison's personal blog, where he shares notes and usage examples. This resource is useful for developers and tech enthusiasts seeking to understand the inner workings of various software tools.
+
+标签: tools, software, development, analysis, documentation, web-tool, simon-willison, tech-blog, explainer, open-source</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything#sha256:a1d16adc42efb74c</guid>
+      <category>tools</category>
+      <category>software</category>
+      <category>development</category>
+      <category>analysis</category>
+      <category>documentation</category>
+      <category>web-tool</category>
+      <category>simon-willison</category>
+      <category>tech-blog</category>
+      <category>explainer</category>
+      <category>open-source</category>
+      <pubDate>Mon, 30 Mar 2026 03:59:28 +0800</pubDate>
+    </item>
+    <item>
+      <title>Pretext 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/29/pretext/#atom-everything</link>
+      <description>Pretext is a new browser library by Cheng Lou that calculates the height of line-wrapped text without DOM interaction, using a two-step process: prepare() splits and measures text segments via an off-screen canvas, caching results; layout() then emulates browser word-wrapping to determine line count and height at a given width. This approach is significantly faster than traditional rendering methods, enabling advanced text effects. It's rigorously tested with large volumes of text, including multilingual documents, to ensure accuracy across browsers.
+
+标签: browsers, javascript, performance, text-rendering, frontend, library, react, testing, web-development, canvas</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/29/pretext/#atom-everything#sha256:c6d9d0640da85662</guid>
+      <category>browsers</category>
+      <category>javascript</category>
+      <category>performance</category>
+      <category>text-rendering</category>
+      <category>frontend</category>
+      <category>library</category>
+      <category>react</category>
+      <category>testing</category>
+      <category>web-development</category>
+      <category>canvas</category>
+      <pubDate>Mon, 30 Mar 2026 04:08:45 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Verge: ‘Rank the Best Apple Products From the Last 50 Years’ 摘要</title>
+      <link>https://www.theverge.com/cs/tech/900477/apple-50-anniversary-rank-products</link>
+      <description>The author expresses strong disagreement with a poll ranking the Extended Keyboard II at #47 among Apple products, implying the poll's results are flawed or misrepresentative of the product's true value or popularity.
+
+标签: Apple, keyboard, poll, ranking, criticism, hardware, opinion, tech, product, disagreement</description>
+      <guid isPermaLink="false">https://www.theverge.com/cs/tech/900477/apple-50-anniversary-rank-products#sha256:104fceeb2408278c</guid>
       <category>Apple</category>
-      <category>history</category>
-      <category>Steve Jobs</category>
-      <category>oral history</category>
-      <category>technology</category>
-      <category>business</category>
+      <category>keyboard</category>
+      <category>poll</category>
+      <category>ranking</category>
+      <category>criticism</category>
+      <category>hardware</category>
+      <category>opinion</category>
+      <category>tech</category>
+      <category>product</category>
+      <category>disagreement</category>
+      <pubDate>Mon, 30 Mar 2026 04:11:49 +0800</pubDate>
+    </item>
+    <item>
+      <title>Version History: ‘The Macintosh’ 摘要</title>
+      <link>https://www.theverge.com/podcast/903068/macintosh-1984-version-history</link>
+      <description>This article discusses the original Macintosh's lasting impact on computing, highlighting its foresight in simplifying computer use and integrating hardware and software design. It references a podcast episode where experts explore the device's development, corporate dynamics, evolution, marketing hype, and debate whether the computer itself or its commercial is its true iconic legacy.
+
+标签: Apple, Macintosh, computing history, hardware design, software design, corporate history, technology legacy, podcast, innovation, marketing</description>
+      <guid isPermaLink="false">https://www.theverge.com/podcast/903068/macintosh-1984-version-history#sha256:3fa30458e0db644d</guid>
+      <category>Apple</category>
+      <category>Macintosh</category>
+      <category>computing history</category>
+      <category>hardware design</category>
+      <category>software design</category>
+      <category>corporate history</category>
+      <category>technology legacy</category>
+      <category>podcast</category>
       <category>innovation</category>
-      <category>culture</category>
-      <category>computing</category>
-      <category>entrepreneurship</category>
-      <pubDate>Sun, 29 Mar 2026 05:57:01 +0800</pubDate>
+      <category>marketing</category>
+      <pubDate>Mon, 30 Mar 2026 04:48:36 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Talk Show: ‘You’re Going to Have the Niggles’ 摘要</title>
+      <link>https://daringfireball.net/thetalkshow/2026/03/29/ep-444</link>
+      <description>This article is a podcast episode from The Talk Show featuring Christina Warren discussing Apple's recent product announcements, including the iPhone 17e and MacBook Neo, while also noting the discontinuation of the Mac Pro. The episode includes sponsored messages from Squarespace and Sentry.
+
+标签: Apple, podcast, iPhone, MacBook, product announcements, technology, audio, sponsored content, consumer electronics, Mac Pro</description>
+      <guid isPermaLink="false">https://daringfireball.net/thetalkshow/2026/03/29/ep-444#sha256:691002fe8da12b1a</guid>
+      <category>Apple</category>
+      <category>podcast</category>
+      <category>iPhone</category>
+      <category>MacBook</category>
+      <category>product announcements</category>
+      <category>technology</category>
+      <category>audio</category>
+      <category>sponsored content</category>
+      <category>consumer electronics</category>
+      <category>Mac Pro</category>
+      <pubDate>Mon, 30 Mar 2026 04:49:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>WorkOS 摘要</title>
+      <link>https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link>
+      <description>WorkOS has launched a CLI tool that uses an AI agent powered by Claude to automate authentication integration. The tool analyzes a project's framework and writes complete auth code without requiring signup, setting up environments and keys for later account claiming. Beyond installation, it includes WorkOS Skills for expert coding assistance, commands like 'workos seed' for environment-as-code definition and 'workos doctor' for configuration fixes, and terminal-based management of users and organizations. The company also recently held a Spring 2026 Launch Week featuring custom UI and themes.
+
+标签: AI, CLI, authentication, developer-tools, automation, WorkOS, AI-agent, coding, framework, integration</description>
+      <guid isPermaLink="false">https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026#sha256:ccf5d56c564a0d20</guid>
+      <category>AI</category>
+      <category>CLI</category>
+      <category>authentication</category>
+      <category>developer-tools</category>
+      <category>automation</category>
+      <category>WorkOS</category>
+      <category>AI-agent</category>
+      <category>coding</category>
+      <category>framework</category>
+      <category>integration</category>
+      <pubDate>Mon, 30 Mar 2026 04:50:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
