@@ -8,159 +8,177 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 30 Mar 2026 07:16:19 +0800</lastBuildDate>
-    <pubDate>Mon, 30 Mar 2026 07:16:19 +0800</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2026 07:19:53 +0800</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2026 07:19:53 +0800</pubDate>
     <item>
-      <title>The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history 摘要</title>
-      <link>http://www.righto.com/2026/03/ibm-4-pi-computer-history.html</link>
-      <description>The article details the IBM System/4 Pi family of computers, introduced around 1967 for avionics and space applications. It highlights the AP-101B model used in the Space Shuttle's first flight in 1981, with four primary computers and a backup. The family included models like the TC (Tactical Computer) for satellites and missiles, and the CP (Customized Processor) for real-time computing, featuring technologies such as TTL integrated circuits and magnetic core memory. These computers were pivotal in systems like Skylab, GPS development, and military aircraft, though historical information on them is scarce.
+      <title>Macs of Unusual Size 摘要</title>
+      <link>https://scottknaster.substack.com/p/macs-of-unusual-size</link>
+      <description>Scott Knaster notes that the Big Mac is approximately 22 times larger than the little Mac, highlighting a significant size difference between the two products. This comparison is based on a link to an article titled 'Macs of Unusual Size' from Daring Fireball, dated March 30, 2026.
 
-标签: IBM, System/4 Pi, Space Shuttle, Avionics, Historical Computing, Magnetic Core Memory, Skylab, Military Technology, Computer Architecture, NASA</description>
-      <guid isPermaLink="false">http://www.righto.com/2026/03/ibm-4-pi-computer-history.html#sha256:c282e96085e5711a</guid>
-      <category>IBM</category>
-      <category>System/4 Pi</category>
-      <category>Space Shuttle</category>
-      <category>Avionics</category>
-      <category>Historical Computing</category>
-      <category>Magnetic Core Memory</category>
-      <category>Skylab</category>
-      <category>Military Technology</category>
-      <category>Computer Architecture</category>
-      <category>NASA</category>
-      <pubDate>Mon, 30 Mar 2026 00:06:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Python Vulnerability Lookup 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything</link>
-      <description>Simon Willison created a Python vulnerability lookup tool using the OSV.dev open source vulnerability database's JSON API. The tool allows users to paste a pyproject.toml or requirements.txt file (or a GitHub repo name containing those) to retrieve a list of reported vulnerabilities. It was built with Claude Code as an HTML tool, leveraging the API's open CORS policy for web-based access.
-
-标签: tools, python, security, supply-chain, vulnerability, api, web-tool, open-source, devops, coding</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything#sha256:710b4a6823d7da45</guid>
-      <category>tools</category>
-      <category>python</category>
-      <category>security</category>
-      <category>supply-chain</category>
-      <category>vulnerability</category>
-      <category>api</category>
-      <category>web-tool</category>
-      <category>open-source</category>
-      <category>devops</category>
-      <category>coding</category>
-      <pubDate>Mon, 30 Mar 2026 02:46:16 +0800</pubDate>
-    </item>
-    <item>
-      <title>Pretext — Under the Hood 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything</link>
-      <description>Pretext is a tool developed by Simon Willison that explains the underlying mechanisms of other tools or systems. It provides detailed insights into how these tools operate, likely through analysis of their code, architecture, or functionality. The tool is accessible via a web interface and is documented on Willison's personal blog, where he shares notes and usage examples. This resource is useful for developers and tech enthusiasts seeking to understand the inner workings of various software tools.
-
-标签: tools, software, development, analysis, documentation, web-tool, simon-willison, tech-blog, explainer, open-source</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything#sha256:a1d16adc42efb74c</guid>
-      <category>tools</category>
-      <category>software</category>
-      <category>development</category>
-      <category>analysis</category>
-      <category>documentation</category>
-      <category>web-tool</category>
-      <category>simon-willison</category>
-      <category>tech-blog</category>
-      <category>explainer</category>
-      <category>open-source</category>
-      <pubDate>Mon, 30 Mar 2026 03:59:28 +0800</pubDate>
-    </item>
-    <item>
-      <title>Pretext 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/29/pretext/#atom-everything</link>
-      <description>Pretext is a new browser library by Cheng Lou that calculates the height of line-wrapped text without DOM interaction, using a two-step process: prepare() splits and measures text segments via an off-screen canvas, caching results; layout() then emulates browser word-wrapping to determine line count and height at a given width. This approach is significantly faster than traditional rendering methods, enabling advanced text effects. It's rigorously tested with large volumes of text, including multilingual documents, to ensure accuracy across browsers.
-
-标签: browsers, javascript, performance, text-rendering, frontend, library, react, testing, web-development, canvas</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/29/pretext/#atom-everything#sha256:c6d9d0640da85662</guid>
-      <category>browsers</category>
-      <category>javascript</category>
-      <category>performance</category>
-      <category>text-rendering</category>
-      <category>frontend</category>
-      <category>library</category>
-      <category>react</category>
-      <category>testing</category>
-      <category>web-development</category>
-      <category>canvas</category>
-      <pubDate>Mon, 30 Mar 2026 04:08:45 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Verge: ‘Rank the Best Apple Products From the Last 50 Years’ 摘要</title>
-      <link>https://www.theverge.com/cs/tech/900477/apple-50-anniversary-rank-products</link>
-      <description>The author expresses strong disagreement with a poll ranking the Extended Keyboard II at #47 among Apple products, implying the poll's results are flawed or misrepresentative of the product's true value or popularity.
-
-标签: Apple, keyboard, poll, ranking, criticism, hardware, opinion, tech, product, disagreement</description>
-      <guid isPermaLink="false">https://www.theverge.com/cs/tech/900477/apple-50-anniversary-rank-products#sha256:104fceeb2408278c</guid>
-      <category>Apple</category>
-      <category>keyboard</category>
-      <category>poll</category>
-      <category>ranking</category>
-      <category>criticism</category>
+标签: hardware, Apple, Mac, size comparison, product design, tech news, consumer electronics, Daring Fireball, Scott Knaster</description>
+      <guid isPermaLink="false">https://scottknaster.substack.com/p/macs-of-unusual-size#sha256:a1ecef913a63f80f</guid>
       <category>hardware</category>
-      <category>opinion</category>
-      <category>tech</category>
-      <category>product</category>
-      <category>disagreement</category>
-      <pubDate>Mon, 30 Mar 2026 04:11:49 +0800</pubDate>
-    </item>
-    <item>
-      <title>Version History: ‘The Macintosh’ 摘要</title>
-      <link>https://www.theverge.com/podcast/903068/macintosh-1984-version-history</link>
-      <description>This article discusses the original Macintosh's lasting impact on computing, highlighting its foresight in simplifying computer use and integrating hardware and software design. It references a podcast episode where experts explore the device's development, corporate dynamics, evolution, marketing hype, and debate whether the computer itself or its commercial is its true iconic legacy.
-
-标签: Apple, Macintosh, computing history, hardware design, software design, corporate history, technology legacy, podcast, innovation, marketing</description>
-      <guid isPermaLink="false">https://www.theverge.com/podcast/903068/macintosh-1984-version-history#sha256:3fa30458e0db644d</guid>
       <category>Apple</category>
-      <category>Macintosh</category>
-      <category>computing history</category>
-      <category>hardware design</category>
-      <category>software design</category>
-      <category>corporate history</category>
-      <category>technology legacy</category>
-      <category>podcast</category>
-      <category>innovation</category>
-      <category>marketing</category>
-      <pubDate>Mon, 30 Mar 2026 04:48:36 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Talk Show: ‘You’re Going to Have the Niggles’ 摘要</title>
-      <link>https://daringfireball.net/thetalkshow/2026/03/29/ep-444</link>
-      <description>This article is a podcast episode from The Talk Show featuring Christina Warren discussing Apple's recent product announcements, including the iPhone 17e and MacBook Neo, while also noting the discontinuation of the Mac Pro. The episode includes sponsored messages from Squarespace and Sentry.
-
-标签: Apple, podcast, iPhone, MacBook, product announcements, technology, audio, sponsored content, consumer electronics, Mac Pro</description>
-      <guid isPermaLink="false">https://daringfireball.net/thetalkshow/2026/03/29/ep-444#sha256:691002fe8da12b1a</guid>
-      <category>Apple</category>
-      <category>podcast</category>
-      <category>iPhone</category>
-      <category>MacBook</category>
-      <category>product announcements</category>
-      <category>technology</category>
-      <category>audio</category>
-      <category>sponsored content</category>
+      <category>Mac</category>
+      <category>size comparison</category>
+      <category>product design</category>
+      <category>tech news</category>
       <category>consumer electronics</category>
-      <category>Mac Pro</category>
-      <pubDate>Mon, 30 Mar 2026 04:49:00 +0800</pubDate>
+      <category>Daring Fireball</category>
+      <category>Scott Knaster</category>
+      <pubDate>Tue, 31 Mar 2026 00:24:40 +0800</pubDate>
     </item>
     <item>
-      <title>WorkOS 摘要</title>
-      <link>https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026</link>
-      <description>WorkOS has launched a CLI tool that uses an AI agent powered by Claude to automate authentication integration. The tool analyzes a project's framework and writes complete auth code without requiring signup, setting up environments and keys for later account claiming. Beyond installation, it includes WorkOS Skills for expert coding assistance, commands like 'workos seed' for environment-as-code definition and 'workos doctor' for configuration fixes, and terminal-based management of users and organizations. The company also recently held a Spring 2026 Launch Week featuring custom UI and themes.
+      <title>‘The Brand Age’ 摘要</title>
+      <link>https://paulgraham.com/brandage.html</link>
+      <description>The article discusses Paul Graham's essay on the mechanical watch industry, where he argues that a world defined only by brand is 'weird and bad.' The author disagrees, stating that the mechanical watch market is currently vibrant and fun, particularly due to independent brands like Baltic and Halios, rather than high-end luxury Swiss brands. The author also extends Graham's argument to the smartphone industry, noting that it is dominated by a single brand with competitors copying it, which they describe as truly 'bad and weird.'
 
-标签: AI, CLI, authentication, developer-tools, automation, WorkOS, AI-agent, coding, framework, integration</description>
-      <guid isPermaLink="false">https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026#sha256:ccf5d56c564a0d20</guid>
+标签: brand, mechanical watches, Paul Graham, consumer markets, independent brands, smartphones, industry analysis, luxury goods, market trends, essay critique</description>
+      <guid isPermaLink="false">https://paulgraham.com/brandage.html#sha256:da978cc4d6d189f3</guid>
+      <category>brand</category>
+      <category>mechanical watches</category>
+      <category>Paul Graham</category>
+      <category>consumer markets</category>
+      <category>independent brands</category>
+      <category>smartphones</category>
+      <category>industry analysis</category>
+      <category>luxury goods</category>
+      <category>market trends</category>
+      <category>essay critique</category>
+      <pubDate>Tue, 31 Mar 2026 00:46:31 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Webs Digital Locks have Never had a Stronger Opponent 摘要</title>
+      <link>https://blog.pixelmelt.dev/the-webs-digital-locks/</link>
+      <description>The author benchmarks their JavaScript code protection against Claude, finding it takes 22 minutes and 170k tokens to crack a small sample. They argue LLMs are revolutionizing reverse engineering by drastically reducing the upfront effort, enabling tasks like deobfuscating code or extracting content from proprietary platforms in minutes instead of hours or days. This raises questions about the effectiveness of traditional protection schemes, as LLMs can handle minified, bundled, or obfuscated code with ease. The defense side struggles to keep up, as generating novel protections is harder to automate than offense, which only requires analyzing existing complexity.
+
+标签: JavaScript, code protection, reverse engineering, LLM, Claude, obfuscation, security, AI, web development, automation</description>
+      <guid isPermaLink="false">https://blog.pixelmelt.dev/the-webs-digital-locks/#sha256:7cfa25a370b2d821</guid>
+      <category>JavaScript</category>
+      <category>code protection</category>
+      <category>reverse engineering</category>
+      <category>LLM</category>
+      <category>Claude</category>
+      <category>obfuscation</category>
+      <category>security</category>
       <category>AI</category>
-      <category>CLI</category>
-      <category>authentication</category>
-      <category>developer-tools</category>
+      <category>web development</category>
       <category>automation</category>
-      <category>WorkOS</category>
-      <category>AI-agent</category>
-      <category>coding</category>
-      <category>framework</category>
-      <category>integration</category>
-      <pubDate>Mon, 30 Mar 2026 04:50:00 +0800</pubDate>
+      <pubDate>Tue, 31 Mar 2026 01:18:09 +0800</pubDate>
+    </item>
+    <item>
+      <title>Pluralistic: Market participation is exhausting (30 Mar 2026) 摘要</title>
+      <link>https://pluralistic.net/2026/03/30/players-of-games/</link>
+      <description>The article critiques the pervasive market ideology that frames all social interactions as competitive bargaining, arguing it's exhausting for those not inclined to constant haggling. It uses personal anecdotes about cognitive diversity—like hiring agents who enjoy negotiation—to highlight how society benefits from varied strengths. However, it warns against extending this logic to extremes, such as treating everything from kidneys to privacy as commodities, citing examples like Sheryl Sandberg and Donald Trump to illustrate the dangers of unchecked market thinking and 'revealed preferences' that justify exploitation.
+
+标签: economics, market ideology, neurodiversity, cybernetics, bargaining, revealed preferences, social critique, cognitive diversity, ethics, personal anecdotes</description>
+      <guid isPermaLink="false">https://pluralistic.net/2026/03/30/players-of-games/#sha256:8fa10f3626f50407</guid>
+      <category>economics</category>
+      <category>market ideology</category>
+      <category>neurodiversity</category>
+      <category>cybernetics</category>
+      <category>bargaining</category>
+      <category>revealed preferences</category>
+      <category>social critique</category>
+      <category>cognitive diversity</category>
+      <category>ethics</category>
+      <category>personal anecdotes</category>
+      <pubDate>Tue, 31 Mar 2026 01:27:20 +0800</pubDate>
+    </item>
+    <item>
+      <title>HIBP Mega Update: Passkeys, k-Anonymity Searches, Massive Speed Enhancements and a Bulk Domain Verification API 摘要</title>
+      <link>https://www.troyhunt.com/passkeys-k-anonymity-searches-massive-speed-enhancements-bulk-domain-verification-api/</link>
+      <description>Have I Been Pwned (HIBP) has evolved from a hobby project to a large-scale service processing billions of compromised records annually. The article announces major updates including new subscription plans (Core, Pro, High RPM, Enterprise) to better serve diverse users from individuals to enterprises. Key features introduced are support for MSPs to monitor third-party domains, automated domain verification via DNS and email APIs, auto-verification of subdomains for Pro users, and k-anonymity searches for enhanced privacy in email lookups. These enhancements aim to improve scalability, privacy, and usability for organizations and managed service providers.
+
+标签: security, data-breach, privacy, API, cybersecurity, domain-verification, k-anonymity, MSP, authentication, compliance</description>
+      <guid isPermaLink="false">https://www.troyhunt.com/passkeys-k-anonymity-searches-massive-speed-enhancements-bulk-domain-verification-api/#sha256:12eb8b13148da130</guid>
+      <category>security</category>
+      <category>data-breach</category>
+      <category>privacy</category>
+      <category>API</category>
+      <category>cybersecurity</category>
+      <category>domain-verification</category>
+      <category>k-anonymity</category>
+      <category>MSP</category>
+      <category>authentication</category>
+      <category>compliance</category>
+      <pubDate>Tue, 31 Mar 2026 02:42:30 +0800</pubDate>
+    </item>
+    <item>
+      <title>Continuous, Continuous, Continuous 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/continuous-continuous-continuous/</link>
+      <description>The article argues that traditional staged software development (design, coding, testing, integration, release) is ill-suited for today's fast-paced environment. It advocates for a continuous, iterative approach where these stages blur into micro feedback loops, enabling frequent updates and adaptation to changing requirements. This philosophy, central to code craft, emphasizes the ability to evolve software continuously in response to customer and world changes.
+
+标签: software development, continuous integration, agile, code craft, feedback loops, iterative development, DevOps, software engineering, collaboration, evolutionary design</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/continuous-continuous-continuous/#sha256:2d7f5791acfb0380</guid>
+      <category>software development</category>
+      <category>continuous integration</category>
+      <category>agile</category>
+      <category>code craft</category>
+      <category>feedback loops</category>
+      <category>iterative development</category>
+      <category>DevOps</category>
+      <category>software engineering</category>
+      <category>collaboration</category>
+      <category>evolutionary design</category>
+      <pubDate>Tue, 31 Mar 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>datasette-llm 0.1a3 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything</link>
+      <description>datasette-llm 0.1a3 introduces purpose-specific configuration, allowing users to restrict which LLMs are available for particular plugins. This feature addresses issue #3 and enhances control over model usage within the Datasette ecosystem.
+
+标签: datasette, llm, release, configuration, plugin, open-source, python, database, ai, tools</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything#sha256:3eea3743a8026882</guid>
+      <category>datasette</category>
+      <category>llm</category>
+      <category>release</category>
+      <category>configuration</category>
+      <category>plugin</category>
+      <category>open-source</category>
+      <category>python</category>
+      <category>database</category>
+      <category>ai</category>
+      <category>tools</category>
+      <pubDate>Tue, 31 Mar 2026 03:48:43 +0800</pubDate>
+    </item>
+    <item>
+      <title>[Sponsor] Material Security 摘要</title>
+      <link>https://material.security/lp-cloud-office-security?utm_source=third-party&amp;utm_medium=email&amp;utm_campaign=20260330-daringfireball</link>
+      <description>Material Security addresses the noise problem in security teams by unifying cloud workspace security for email, files, and accounts into a single platform. It augments native gaps in Google and Microsoft without enterprise bloat, enabling teams to focus on strategy rather than manual tasks like phishing remediation and file audits.
+
+标签: security, cloud, workspace, SecOps, email, files, accounts, Google, Microsoft, enterprise</description>
+      <guid isPermaLink="false">https://material.security/lp-cloud-office-security?utm_source=third-party&amp;utm_medium=email&amp;utm_campaign=20260330-daringfireball#sha256:0c95588e5e08915e</guid>
+      <category>security</category>
+      <category>cloud</category>
+      <category>workspace</category>
+      <category>SecOps</category>
+      <category>email</category>
+      <category>files</category>
+      <category>accounts</category>
+      <category>Google</category>
+      <category>Microsoft</category>
+      <category>enterprise</category>
+      <pubDate>Tue, 31 Mar 2026 05:23:19 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Georgi Gerganov 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything</link>
+      <description>Georgi Gerganov explains that local models often fail with coding agents due to issues in the software stack, not the models themselves. Problems include fragile harnesses, chat template intricacies, prompt construction errors, and inference bugs. The fragmented development across different components makes it difficult to create a stable, consolidated system, leading to subtle, hard-to-detect failures in the chain from task input to result.
+
+标签: local-llms, coding-agents, generative-ai, ai, llms, software-stack, inference, prompt-engineering, model-harness, fragility</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything#sha256:918a428459a0d75d</guid>
+      <category>local-llms</category>
+      <category>coding-agents</category>
+      <category>generative-ai</category>
+      <category>ai</category>
+      <category>llms</category>
+      <category>software-stack</category>
+      <category>inference</category>
+      <category>prompt-engineering</category>
+      <category>model-harness</category>
+      <category>fragility</category>
+      <pubDate>Tue, 31 Mar 2026 05:31:02 +0800</pubDate>
     </item>
   </channel>
 </rss>
