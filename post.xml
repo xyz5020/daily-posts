@@ -8,177 +8,195 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 31 Mar 2026 07:19:53 +0800</lastBuildDate>
-    <pubDate>Tue, 31 Mar 2026 07:19:53 +0800</pubDate>
+    <lastBuildDate>Wed, 01 Apr 2026 07:17:43 +0800</lastBuildDate>
+    <pubDate>Wed, 01 Apr 2026 07:17:43 +0800</pubDate>
     <item>
-      <title>Macs of Unusual Size 摘要</title>
-      <link>https://scottknaster.substack.com/p/macs-of-unusual-size</link>
-      <description>Scott Knaster notes that the Big Mac is approximately 22 times larger than the little Mac, highlighting a significant size difference between the two products. This comparison is based on a link to an article titled 'Macs of Unusual Size' from Daring Fireball, dated March 30, 2026.
+      <title>Infinite midwit 摘要</title>
+      <link>https://www.experimental-history.com/p/infinite-midwit</link>
+      <description>The author reflects on AI's evolution, noting initial fears of omnipotence have given way to viewing AI as an 'infinite midwit'—knowledgeable but lacking true subjective intelligence. AI excels in objective tasks like calculations and grammar but fails in subjective areas like writing, where it produces technically correct but soulless content. The piece argues that objective intelligence (measurable, testable) and subjective intelligence (intuitive, creative) are distinct, and AI's dominance in the former doesn't translate to the latter, leaving a persistent gap in capabilities like meaningful writing and human-like understanding.
 
-标签: hardware, Apple, Mac, size comparison, product design, tech news, consumer electronics, Daring Fireball, Scott Knaster</description>
-      <guid isPermaLink="false">https://scottknaster.substack.com/p/macs-of-unusual-size#sha256:a1ecef913a63f80f</guid>
-      <category>hardware</category>
-      <category>Apple</category>
-      <category>Mac</category>
-      <category>size comparison</category>
-      <category>product design</category>
-      <category>tech news</category>
-      <category>consumer electronics</category>
-      <category>Daring Fireball</category>
-      <category>Scott Knaster</category>
-      <pubDate>Tue, 31 Mar 2026 00:24:40 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘The Brand Age’ 摘要</title>
-      <link>https://paulgraham.com/brandage.html</link>
-      <description>The article discusses Paul Graham's essay on the mechanical watch industry, where he argues that a world defined only by brand is 'weird and bad.' The author disagrees, stating that the mechanical watch market is currently vibrant and fun, particularly due to independent brands like Baltic and Halios, rather than high-end luxury Swiss brands. The author also extends Graham's argument to the smartphone industry, noting that it is dominated by a single brand with competitors copying it, which they describe as truly 'bad and weird.'
-
-标签: brand, mechanical watches, Paul Graham, consumer markets, independent brands, smartphones, industry analysis, luxury goods, market trends, essay critique</description>
-      <guid isPermaLink="false">https://paulgraham.com/brandage.html#sha256:da978cc4d6d189f3</guid>
-      <category>brand</category>
-      <category>mechanical watches</category>
-      <category>Paul Graham</category>
-      <category>consumer markets</category>
-      <category>independent brands</category>
-      <category>smartphones</category>
-      <category>industry analysis</category>
-      <category>luxury goods</category>
-      <category>market trends</category>
-      <category>essay critique</category>
-      <pubDate>Tue, 31 Mar 2026 00:46:31 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Webs Digital Locks have Never had a Stronger Opponent 摘要</title>
-      <link>https://blog.pixelmelt.dev/the-webs-digital-locks/</link>
-      <description>The author benchmarks their JavaScript code protection against Claude, finding it takes 22 minutes and 170k tokens to crack a small sample. They argue LLMs are revolutionizing reverse engineering by drastically reducing the upfront effort, enabling tasks like deobfuscating code or extracting content from proprietary platforms in minutes instead of hours or days. This raises questions about the effectiveness of traditional protection schemes, as LLMs can handle minified, bundled, or obfuscated code with ease. The defense side struggles to keep up, as generating novel protections is harder to automate than offense, which only requires analyzing existing complexity.
-
-标签: JavaScript, code protection, reverse engineering, LLM, Claude, obfuscation, security, AI, web development, automation</description>
-      <guid isPermaLink="false">https://blog.pixelmelt.dev/the-webs-digital-locks/#sha256:7cfa25a370b2d821</guid>
-      <category>JavaScript</category>
-      <category>code protection</category>
-      <category>reverse engineering</category>
-      <category>LLM</category>
-      <category>Claude</category>
-      <category>obfuscation</category>
-      <category>security</category>
+标签: AI, LLM, writing, subjective intelligence, objective intelligence, technology critique, human-AI interaction, creativity, psychology, artificial general intelligence</description>
+      <guid isPermaLink="false">https://www.experimental-history.com/p/infinite-midwit#sha256:c4a34d21353f72e4</guid>
       <category>AI</category>
-      <category>web development</category>
-      <category>automation</category>
-      <pubDate>Tue, 31 Mar 2026 01:18:09 +0800</pubDate>
+      <category>LLM</category>
+      <category>writing</category>
+      <category>subjective intelligence</category>
+      <category>objective intelligence</category>
+      <category>technology critique</category>
+      <category>human-AI interaction</category>
+      <category>creativity</category>
+      <category>psychology</category>
+      <category>artificial general intelligence</category>
+      <pubDate>Wed, 01 Apr 2026 00:05:29 +0800</pubDate>
     </item>
     <item>
-      <title>Pluralistic: Market participation is exhausting (30 Mar 2026) 摘要</title>
-      <link>https://pluralistic.net/2026/03/30/players-of-games/</link>
-      <description>The article critiques the pervasive market ideology that frames all social interactions as competitive bargaining, arguing it's exhausting for those not inclined to constant haggling. It uses personal anecdotes about cognitive diversity—like hiring agents who enjoy negotiation—to highlight how society benefits from varied strengths. However, it warns against extending this logic to extremes, such as treating everything from kidneys to privacy as commodities, citing examples like Sheryl Sandberg and Donald Trump to illustrate the dangers of unchecked market thinking and 'revealed preferences' that justify exploitation.
+      <title>The Subprime AI Crisis Is Here 摘要</title>
+      <link>https://www.wheresyoured.at/the-subprime-ai-crisis-is-here/</link>
+      <description>The article draws parallels between the 2008 subprime mortgage crisis and current economic conditions, highlighting how adjustable-rate mortgages (ARMs) with teaser rates led to widespread defaults as rates reset higher. It debunks the myth that low-income borrowers were the primary cause, noting that middle and high-income households also heavily participated, driven by easy credit and flawed assumptions about perpetual housing price growth. The piece cites historical data, including denial rates for mortgages dropping and credit card debt rising, to illustrate how systemic overconfidence and misinformation fueled the bubble, with experts downplaying risks until the collapse.
 
-标签: economics, market ideology, neurodiversity, cybernetics, bargaining, revealed preferences, social critique, cognitive diversity, ethics, personal anecdotes</description>
-      <guid isPermaLink="false">https://pluralistic.net/2026/03/30/players-of-games/#sha256:8fa10f3626f50407</guid>
-      <category>economics</category>
-      <category>market ideology</category>
-      <category>neurodiversity</category>
-      <category>cybernetics</category>
-      <category>bargaining</category>
-      <category>revealed preferences</category>
-      <category>social critique</category>
-      <category>cognitive diversity</category>
-      <category>ethics</category>
-      <category>personal anecdotes</category>
-      <pubDate>Tue, 31 Mar 2026 01:27:20 +0800</pubDate>
+标签: finance, housing-market, subprime-mortgage-crisis, economic-history, adjustable-rate-mortgages, credit-debt, financial-bubbles, risk-analysis, economic-policy, market-speculation</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/the-subprime-ai-crisis-is-here/#sha256:fcd64154681d955f</guid>
+      <category>finance</category>
+      <category>housing-market</category>
+      <category>subprime-mortgage-crisis</category>
+      <category>economic-history</category>
+      <category>adjustable-rate-mortgages</category>
+      <category>credit-debt</category>
+      <category>financial-bubbles</category>
+      <category>risk-analysis</category>
+      <category>economic-policy</category>
+      <category>market-speculation</category>
+      <pubDate>Wed, 01 Apr 2026 00:18:11 +0800</pubDate>
     </item>
     <item>
-      <title>HIBP Mega Update: Passkeys, k-Anonymity Searches, Massive Speed Enhancements and a Bulk Domain Verification API 摘要</title>
-      <link>https://www.troyhunt.com/passkeys-k-anonymity-searches-massive-speed-enhancements-bulk-domain-verification-api/</link>
-      <description>Have I Been Pwned (HIBP) has evolved from a hobby project to a large-scale service processing billions of compromised records annually. The article announces major updates including new subscription plans (Core, Pro, High RPM, Enterprise) to better serve diverse users from individuals to enterprises. Key features introduced are support for MSPs to monitor third-party domains, automated domain verification via DNS and email APIs, auto-verification of subdomains for Pro users, and k-anonymity searches for enhanced privacy in email lookups. These enhancements aim to improve scalability, privacy, and usability for organizations and managed service providers.
+      <title>llm-echo 0.4 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything</link>
+      <description>The article announces the release of llm-echo version 0.4, a tool for interacting with language models. The key update in this release is that prompts now include populated 'input_tokens' and 'output_tokens' fields in the response, providing users with token usage metrics for better monitoring and cost management of LLM interactions.
 
-标签: security, data-breach, privacy, API, cybersecurity, domain-verification, k-anonymity, MSP, authentication, compliance</description>
-      <guid isPermaLink="false">https://www.troyhunt.com/passkeys-k-anonymity-searches-massive-speed-enhancements-bulk-domain-verification-api/#sha256:12eb8b13148da130</guid>
-      <category>security</category>
-      <category>data-breach</category>
-      <category>privacy</category>
-      <category>API</category>
-      <category>cybersecurity</category>
-      <category>domain-verification</category>
-      <category>k-anonymity</category>
-      <category>MSP</category>
-      <category>authentication</category>
-      <category>compliance</category>
-      <pubDate>Tue, 31 Mar 2026 02:42:30 +0800</pubDate>
+标签: release, llm, tool, update, tokens, monitoring, cost, language-model, open-source, github</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/31/llm-echo/#atom-everything#sha256:93831a623bd0d537</guid>
+      <category>release</category>
+      <category>llm</category>
+      <category>tool</category>
+      <category>update</category>
+      <category>tokens</category>
+      <category>monitoring</category>
+      <category>cost</category>
+      <category>language-model</category>
+      <category>open-source</category>
+      <category>github</category>
+      <pubDate>Wed, 01 Apr 2026 00:48:59 +0800</pubDate>
     </item>
     <item>
-      <title>Continuous, Continuous, Continuous 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/continuous-continuous-continuous/</link>
-      <description>The article argues that traditional staged software development (design, coding, testing, integration, release) is ill-suited for today's fast-paced environment. It advocates for a continuous, iterative approach where these stages blur into micro feedback loops, enabling frequent updates and adaptation to changing requirements. This philosophy, central to code craft, emphasizes the ability to evolve software continuously in response to customer and world changes.
+      <title>llm 0.30 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/31/llm/#atom-everything</link>
+      <description>The llm 0.30 release introduces a new optional model_aliases parameter for the register_models() plugin hook, allowing plugins with @hookimpl(trylast=True) to consider previously registered models, async models, and aliases from other plugins. Additionally, public classes and methods now include docstrings that are directly incorporated into the documentation.
 
-标签: software development, continuous integration, agile, code craft, feedback loops, iterative development, DevOps, software engineering, collaboration, evolutionary design</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/continuous-continuous-continuous/#sha256:2d7f5791acfb0380</guid>
-      <category>software development</category>
-      <category>continuous integration</category>
-      <category>agile</category>
-      <category>code craft</category>
-      <category>feedback loops</category>
-      <category>iterative development</category>
-      <category>DevOps</category>
-      <category>software engineering</category>
-      <category>collaboration</category>
-      <category>evolutionary design</category>
-      <pubDate>Tue, 31 Mar 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>datasette-llm 0.1a3 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything</link>
-      <description>datasette-llm 0.1a3 introduces purpose-specific configuration, allowing users to restrict which LLMs are available for particular plugins. This feature addresses issue #3 and enhances control over model usage within the Datasette ecosystem.
-
-标签: datasette, llm, release, configuration, plugin, open-source, python, database, ai, tools</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything#sha256:3eea3743a8026882</guid>
-      <category>datasette</category>
+标签: llm, release, plugin, documentation, model-aliases, python, AI-tools, software-update</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/31/llm/#atom-everything#sha256:7940b55621fe721d</guid>
       <category>llm</category>
       <category>release</category>
-      <category>configuration</category>
       <category>plugin</category>
-      <category>open-source</category>
+      <category>documentation</category>
+      <category>model-aliases</category>
       <category>python</category>
-      <category>database</category>
-      <category>ai</category>
-      <category>tools</category>
-      <pubDate>Tue, 31 Mar 2026 03:48:43 +0800</pubDate>
+      <category>AI-tools</category>
+      <category>software-update</category>
+      <pubDate>Wed, 01 Apr 2026 04:35:51 +0800</pubDate>
     </item>
     <item>
-      <title>[Sponsor] Material Security 摘要</title>
-      <link>https://material.security/lp-cloud-office-security?utm_source=third-party&amp;utm_medium=email&amp;utm_campaign=20260330-daringfireball</link>
-      <description>Material Security addresses the noise problem in security teams by unifying cloud workspace security for email, files, and accounts into a single platform. It augments native gaps in Google and Microsoft without enterprise bloat, enabling teams to focus on strategy rather than manual tasks like phishing remediation and file audits.
+      <title>llm-all-models-async 0.1 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything</link>
+      <description>Simon Willison released llm-all-models-async 0.1, a plugin that converts sync LLM models to async models using a thread pool. This was developed to enable sync-only plugins like llm-mrchatterbox to work with Datasette features requiring async models, such as datasette-enrichments-llm. The plugin required a new hook mechanism in LLM 0.30, which was recently shipped.
 
-标签: security, cloud, workspace, SecOps, email, files, accounts, Google, Microsoft, enterprise</description>
-      <guid isPermaLink="false">https://material.security/lp-cloud-office-security?utm_source=third-party&amp;utm_medium=email&amp;utm_campaign=20260330-daringfireball#sha256:0c95588e5e08915e</guid>
+标签: LLM, async, Python, plugin, Datasette, thread pool, model conversion, API, development, open source</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/31/llm-all-models-async/#atom-everything#sha256:a2ed175d350bf1da</guid>
+      <category>LLM</category>
+      <category>async</category>
+      <category>Python</category>
+      <category>plugin</category>
+      <category>Datasette</category>
+      <category>thread pool</category>
+      <category>model conversion</category>
+      <category>API</category>
+      <category>development</category>
+      <category>open source</category>
+      <pubDate>Wed, 01 Apr 2026 04:52:02 +0800</pubDate>
+    </item>
+    <item>
+      <title>datasette-llm 0.1a4 摘要</title>
+      <link>https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything</link>
+      <description>datasette-llm 0.1a4 introduces the ability to configure different API keys for models based on their purpose, such as using a dedicated key for enrichments with a specific model like gpt-5.4-mini. This release also includes llm-echo 0.3, an API key testing utility developed for testing this new feature.
+
+标签: datasette, llm, API keys, model configuration, enrichments, testing, release, open-source, tooling, AI integration</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/31/datasette-llm/#atom-everything#sha256:574561b6bf1405f1</guid>
+      <category>datasette</category>
+      <category>llm</category>
+      <category>API keys</category>
+      <category>model configuration</category>
+      <category>enrichments</category>
+      <category>testing</category>
+      <category>release</category>
+      <category>open-source</category>
+      <category>tooling</category>
+      <category>AI integration</category>
+      <pubDate>Wed, 01 Apr 2026 05:17:23 +0800</pubDate>
+    </item>
+    <item>
+      <title>RAM Is the New Bearer Bond 摘要</title>
+      <link>https://www.theatlantic.com/technology/2026/03/laptop-electronics-ram-ai-tax/686628/</link>
+      <description>A Costco in Florida now removes memory chips from display computers to prevent theft, as criminal groups target RAM shipments due to a global shortage. This situation is likened to heist films like 'Die Hard' and 'Heat,' which focused on bearer bonds, now obsolete in digital finance, making RAM a modern high-value target for theft.
+
+标签: RAM, theft, shortage, electronics, crime, supply chain, security, technology, business, trends</description>
+      <guid isPermaLink="false">https://www.theatlantic.com/technology/2026/03/laptop-electronics-ram-ai-tax/686628/#sha256:5f639e41c996644a</guid>
+      <category>RAM</category>
+      <category>theft</category>
+      <category>shortage</category>
+      <category>electronics</category>
+      <category>crime</category>
+      <category>supply chain</category>
       <category>security</category>
-      <category>cloud</category>
-      <category>workspace</category>
-      <category>SecOps</category>
-      <category>email</category>
-      <category>files</category>
-      <category>accounts</category>
-      <category>Google</category>
-      <category>Microsoft</category>
-      <category>enterprise</category>
-      <pubDate>Tue, 31 Mar 2026 05:23:19 +0800</pubDate>
+      <category>technology</category>
+      <category>business</category>
+      <category>trends</category>
+      <pubDate>Wed, 01 Apr 2026 05:36:35 +0800</pubDate>
     </item>
     <item>
-      <title>Quoting Georgi Gerganov 摘要</title>
-      <link>https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything</link>
-      <description>Georgi Gerganov explains that local models often fail with coding agents due to issues in the software stack, not the models themselves. Problems include fragile harnesses, chat template intricacies, prompt construction errors, and inference bugs. The fragmented development across different components makes it difficult to create a stable, consolidated system, leading to subtle, hard-to-detect failures in the chain from task input to result.
+      <title>Updating Ubuntu packages that you have local changes for with dgit 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/linux/DgitUpdatingDebsWithChanges</link>
+      <description>This article provides a practical guide for updating an Ubuntu package with local changes using dgit. The author details steps to safely integrate upstream updates while preserving custom modifications, including creating a backup branch, fetching updates with dgit, discarding the debian/changelog commit before rebasing, and regenerating the changelog. Key commands and troubleshooting tips are shared based on real experience, emphasizing repository management over source packages.
 
-标签: local-llms, coding-agents, generative-ai, ai, llms, software-stack, inference, prompt-engineering, model-harness, fragility</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything#sha256:918a428459a0d75d</guid>
-      <category>local-llms</category>
-      <category>coding-agents</category>
-      <category>generative-ai</category>
-      <category>ai</category>
-      <category>llms</category>
-      <category>software-stack</category>
-      <category>inference</category>
-      <category>prompt-engineering</category>
-      <category>model-harness</category>
-      <category>fragility</category>
-      <pubDate>Tue, 31 Mar 2026 05:31:02 +0800</pubDate>
+标签: Linux, Ubuntu, dgit, Git, package management, Debian, version control, system administration, open source, software development</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/linux/DgitUpdatingDebsWithChanges#sha256:3ab1d27c297fe3dd</guid>
+      <category>Linux</category>
+      <category>Ubuntu</category>
+      <category>dgit</category>
+      <category>Git</category>
+      <category>package management</category>
+      <category>Debian</category>
+      <category>version control</category>
+      <category>system administration</category>
+      <category>open source</category>
+      <category>software development</category>
+      <pubDate>Wed, 01 Apr 2026 06:07:16 +0800</pubDate>
+    </item>
+    <item>
+      <title>Business Insider Profiles Fidji Simo, OpenAI’s ‘CEO of Applications’ 摘要</title>
+      <link>https://www.businessinsider.com/fidji-simo-openai-product-research-profitability-profile-2026-3</link>
+      <description>Business Insider profiles Fidji Simo, OpenAI's 'CEO of Applications,' who oversees nearly two-thirds of the company. Simo describes having autonomy in her role, with Sam Altman deferring to her on matters he doesn't feel strongly about, while they debate others. As OpenAI approaches a potential IPO, Simo faces the challenge of making products profitable while reassuring staff that commercialization won't alter the research-driven mission. The company is projected to incur massive losses, with estimates ranging from $111 billion to $143 billion by 2030. Simo's background at Facebook, where she prioritized product revenue over quality, raises concerns about her approach at OpenAI, especially given the lack of network effects that protect social platforms like Facebook.
+
+标签: OpenAI, leadership, Fidji Simo, CEO, business strategy, IPO, profitability, AI industry, corporate governance, Facebook</description>
+      <guid isPermaLink="false">https://www.businessinsider.com/fidji-simo-openai-product-research-profitability-profile-2026-3#sha256:0562f1af45878624</guid>
+      <category>OpenAI</category>
+      <category>leadership</category>
+      <category>Fidji Simo</category>
+      <category>CEO</category>
+      <category>business strategy</category>
+      <category>IPO</category>
+      <category>profitability</category>
+      <category>AI industry</category>
+      <category>corporate governance</category>
+      <category>Facebook</category>
+      <pubDate>Wed, 01 Apr 2026 07:01:03 +0800</pubDate>
+    </item>
+    <item>
+      <title>My ramblings are available over gopher 摘要</title>
+      <link>https://maurycyz.com/misc/gopher/</link>
+      <description>The author criticizes the complexity of modern web protocols and advocates for Gopher as a simpler alternative. They explain Gopher's menu-based navigation, where links are plain text files with metadata stored in tab-separated lines, contrasting it with HTTP and Gemini. The author argues that Gopher's simplicity avoids the distractions of inline links and that Gemini is an unnecessary reinvention of HTTP without significant benefits. They highlight Gopher's historical interest and compatibility with tools like Lynx, while dismissing Gemini as a solution to emotional rather than technical problems.
+
+标签: web, protocols, gopher, simplicity, historical, navigation, HTTP, Gemini, text-based, links</description>
+      <guid isPermaLink="false">https://maurycyz.com/misc/gopher/#sha256:0fbd847aa201df3c</guid>
+      <category>web</category>
+      <category>protocols</category>
+      <category>gopher</category>
+      <category>simplicity</category>
+      <category>historical</category>
+      <category>navigation</category>
+      <category>HTTP</category>
+      <category>Gemini</category>
+      <category>text-based</category>
+      <category>links</category>
+      <pubDate>Wed, 01 Apr 2026 08:00:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
