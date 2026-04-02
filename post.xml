@@ -8,197 +8,216 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Apr 2026 07:20:36 +0800</lastBuildDate>
-    <pubDate>Thu, 02 Apr 2026 07:20:36 +0800</pubDate>
+    <lastBuildDate>Fri, 03 Apr 2026 07:17:58 +0800</lastBuildDate>
+    <pubDate>Fri, 03 Apr 2026 07:17:58 +0800</pubDate>
     <item>
-      <title>Apple Marks 50th Anniversary 摘要</title>
-      <link>https://www.apple.com/</link>
-      <description>Apple is celebrating its 50th anniversary with special animations and events. The homepage features a sketch animation of iconic products, and a VHS-style 'rewind' video highlights Apple's product history, though it's primarily accessible on iPhone via a hidden button. Additionally, Paul McCartney performed a concert at Apple Park for employees, symbolizing the resolution of past trademark disputes between Apple and The Beatles.
+      <title>Jason Snell on Covering Apple for 33 Years 摘要</title>
+      <link>https://www.macworld.com/article/3103792/thanks-for-the-wild-ride-apple-lets-keep-it-going.html</link>
+      <description>Jason Snell recalls joining MacUser magazine in 1993, where he found the Mac transformative for his work as a writer and editor in print and online media. However, he quickly realized that Apple at the time was disorganized, as evidenced by a copy editor asking about layoffs on his first day, highlighting the turbulent nature of the media industry.
 
-标签: Apple, anniversary, animation, video, product history, concert, trademark, design, marketing, technology</description>
-      <guid isPermaLink="false">https://www.apple.com/#sha256:2d89d91522585953</guid>
+标签: Apple, Mac, media, journalism, history, technology, workplace, layoffs, 1990s, personal experience</description>
+      <guid isPermaLink="false">https://www.macworld.com/article/3103792/thanks-for-the-wild-ride-apple-lets-keep-it-going.html#sha256:51d5277cd10ab255</guid>
       <category>Apple</category>
-      <category>anniversary</category>
-      <category>animation</category>
-      <category>video</category>
-      <category>product history</category>
-      <category>concert</category>
-      <category>trademark</category>
-      <category>design</category>
-      <category>marketing</category>
-      <category>technology</category>
-      <pubDate>Thu, 02 Apr 2026 00:39:34 +0800</pubDate>
-    </item>
-    <item>
-      <title>Hershey Says It Will Shift Back to Classic Recipe for All Reese’s Products After Criticism 摘要</title>
-      <link>https://apnews.com/article/hershey-reeses-chocolate-peanut-butter-cups-recipe-1c17247e190eb03952e1c197b6f872ce</link>
-      <description>Hershey announced it will revert to classic recipes for all Reese's products starting next year, following criticism from the grandson of Reese's founder over the company's shift to cheaper ingredients. The decision was prompted by public backlash, as highlighted in a linked article, with commentary suggesting that such corporate changes often face scrutiny and that consumers should consider alternatives like Trader Joe's.
-
-标签: Hershey, Reese's, recipe change, corporate decision, ingredient quality, consumer backlash, food industry, brand management, public relations, product reformulation</description>
-      <guid isPermaLink="false">https://apnews.com/article/hershey-reeses-chocolate-peanut-butter-cups-recipe-1c17247e190eb03952e1c197b6f872ce#sha256:407e7ed867f6c38e</guid>
-      <category>Hershey</category>
-      <category>Reese's</category>
-      <category>recipe change</category>
-      <category>corporate decision</category>
-      <category>ingredient quality</category>
-      <category>consumer backlash</category>
-      <category>food industry</category>
-      <category>brand management</category>
-      <category>public relations</category>
-      <category>product reformulation</category>
-      <pubDate>Thu, 02 Apr 2026 01:39:36 +0800</pubDate>
-    </item>
-    <item>
-      <title>April Cools Post: New York vs Chicago Pizza 摘要</title>
-      <link>https://buttondown.com/hillelwayne/archive/april-cools-post-new-york-vs-chicago-pizza/</link>
-      <description>The author discusses the Chicago vs New York pizza debate, arguing it's misguided. They note that Chicago deep dish pizza differs from stuffed pizza served by chains, with deep dish having crust, cheese, and tomato, while stuffed pizza adds an extra crust layer. The article highlights Chicago's food culture, particularly its reputation as a sausage city, and mentions related topics like April Cools submissions and comparisons to other foods like toasted ravioli.
-
-标签: food, pizza, Chicago, culture, debate, April Cools, cuisine, regional, blogging, humor</description>
-      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/april-cools-post-new-york-vs-chicago-pizza/#sha256:5f5c756eda1792f2</guid>
-      <category>food</category>
-      <category>pizza</category>
-      <category>Chicago</category>
-      <category>culture</category>
-      <category>debate</category>
-      <category>April Cools</category>
-      <category>cuisine</category>
-      <category>regional</category>
-      <category>blogging</category>
-      <category>humor</category>
-      <pubDate>Thu, 02 Apr 2026 01:53:29 +0800</pubDate>
-    </item>
-    <item>
-      <title>Inside Apple’s AirPods Max 2 and the H2 Chip Upgrade 摘要</title>
-      <link>https://www.techradar.com/audio/earbuds-airpods/only-limited-by-the-physics-inside-apples-airpods-max-2-and-the-h2-chip-upgrade</link>
-      <description>Apple's AirPods Max 2 achieves a 1.5× improvement in active noise cancellation (ANC) without changing any physical components, according to interviews with Apple executives Tim Millet and Eric Treski. The enhancement applies across all frequency bands, not just specific ranges, meaning better performance against both low and high-pitched sounds. This builds on the original AirPods Max's strong noise-blocking capabilities, marking a significant software-driven upgrade five years after the initial release.
-
-标签: Apple, AirPods Max 2, audio, noise cancellation, hardware, technology, product launch, consumer electronics, interview, H2 chip</description>
-      <guid isPermaLink="false">https://www.techradar.com/audio/earbuds-airpods/only-limited-by-the-physics-inside-apples-airpods-max-2-and-the-h2-chip-upgrade#sha256:a1e3ae88bd281e2b</guid>
-      <category>Apple</category>
-      <category>AirPods Max 2</category>
-      <category>audio</category>
-      <category>noise cancellation</category>
-      <category>hardware</category>
-      <category>technology</category>
-      <category>product launch</category>
-      <category>consumer electronics</category>
-      <category>interview</category>
-      <category>H2 chip</category>
-      <pubDate>Thu, 02 Apr 2026 02:45:54 +0800</pubDate>
-    </item>
-    <item>
-      <title>Ryan D’Agostino Profiles Tim Cook for Esquire on Apple’s 50th 摘要</title>
-      <link>https://www.esquire.com/news-politics/a70886045/apple-50th-anniversary/</link>
-      <description>This article discusses an Esquire profile of Tim Cook by Ryan D’Agostino, focusing on Cook's emotional reflections on Steve Jobs' death and his strategic engagement with the Trump administration. Cook describes his denial about Jobs' terminal illness despite the inevitability, recalling Jobs' refusal of conventional medicine. The profile also touches on D’Agostino's personal nostalgia for Apple computers, though with a minor historical inaccuracy. It highlights Cook's lengthy, candid response on Apple's political strategy, which Esquire published in full.
-
-标签: Apple, Tim Cook, Steve Jobs, leadership, corporate strategy, technology history, interview, business, biography, politics</description>
-      <guid isPermaLink="false">https://www.esquire.com/news-politics/a70886045/apple-50th-anniversary/#sha256:f64228abcd7af9f6</guid>
-      <category>Apple</category>
-      <category>Tim Cook</category>
-      <category>Steve Jobs</category>
-      <category>leadership</category>
-      <category>corporate strategy</category>
-      <category>technology history</category>
-      <category>interview</category>
-      <category>business</category>
-      <category>biography</category>
-      <category>politics</category>
-      <pubDate>Thu, 02 Apr 2026 03:34:11 +0800</pubDate>
-    </item>
-    <item>
-      <title>New Jersey, the Jackass State 摘要</title>
-      <link>https://x.com/NJGov/status/2039370966090854604</link>
-      <description>The article criticizes a social media post from the official New Jersey state account on April Fools' Day, claiming to lift the state's ban on self-service gasoline. It explains that New Jersey uniquely prohibits self-service gas statewide, requiring attendants who are often rude and slow, historically delaying change returns to discourage cash payments. The author expresses strong disdain for this policy, preferring to abandon a car rather than buy gas in New Jersey, and mocks the state for making a joke that highlights its own absurd regulation.
-
-标签: New Jersey, gasoline, self-service ban, April Fools' Day, social media, government, regulation, consumer experience, satire, policy criticism</description>
-      <guid isPermaLink="false">https://x.com/NJGov/status/2039370966090854604#sha256:937628d555311b0f</guid>
-      <category>New Jersey</category>
-      <category>gasoline</category>
-      <category>self-service ban</category>
-      <category>April Fools' Day</category>
-      <category>social media</category>
-      <category>government</category>
-      <category>regulation</category>
-      <category>consumer experience</category>
-      <category>satire</category>
-      <category>policy criticism</category>
-      <pubDate>Thu, 02 Apr 2026 03:59:43 +0800</pubDate>
-    </item>
-    <item>
-      <title>Ben Cohen of the WSJ Tours Apple’s Archive of Prototype Hardware 摘要</title>
-      <link>https://www.youtube.com/watch?v=74qPQt_5DdM</link>
-      <description>The article references a 7-minute video showcasing Apple's archive of prototype hardware, as reported by Ben Cohen of the Wall Street Journal. It highlights previously unseen items and advises against spoiling the surprises. The content is presented through a link to Daringfireball.net, which points to the original WSJ coverage.
-
-标签: Apple, hardware, prototypes, video, archive, WSJ, technology, design, history, news</description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=74qPQt_5DdM#sha256:3606b4414498b6a5</guid>
-      <category>Apple</category>
-      <category>hardware</category>
-      <category>prototypes</category>
-      <category>video</category>
-      <category>archive</category>
-      <category>WSJ</category>
-      <category>technology</category>
-      <category>design</category>
+      <category>Mac</category>
+      <category>media</category>
+      <category>journalism</category>
       <category>history</category>
-      <category>news</category>
-      <pubDate>Thu, 02 Apr 2026 04:10:41 +0800</pubDate>
+      <category>technology</category>
+      <category>workplace</category>
+      <category>layoffs</category>
+      <category>1990s</category>
+      <category>personal experience</category>
+      <pubDate>Fri, 03 Apr 2026 00:53:02 +0800</pubDate>
     </item>
     <item>
-      <title>More on Apple’s Fun ‘Rewind’ Video 摘要</title>
-      <link>https://hachyderm.io/@lexfri/116331181693278195</link>
-      <description>The article discusses Apple's 'rewind' video, noting that when played in reverse, it features the 'Think Different' ad music pitched up. It also covers Craig Hockenberry's pixel art fix for the '◀︎◀︎ REW' button, where he updated the modern '◀︎◀︎' symbols to match the bitmapped Chicago 12 font used for 'REW', sharing a before-and-after image of his interpretation.
+      <title>‘No, We’re Not Stupid. Our Dads Just Got Us Crummy Computers.’ 摘要</title>
+      <link>https://www.reddit.com/r/VintageApple/comments/bq4ucw/mcintosh_jr_vintage_apple_parody/</link>
+      <description>The article discusses a 1991 Saturday Night Live parody ad called 'McIntosh Jr.', which the author considers the best Apple parody ever. It highlights the ad's message about Apple's core purpose: creating computers that enable users to do their best work, akin to 'bicycles for the mind'. The author notes its relevance to Apple's 50th anniversary and shares links to watch the ad, including a low-resolution version on Reddit and a higher-quality one on Peacock.
 
-标签: Apple, video, design, pixel art, typography, advertising, music, retro, UI, fix</description>
-      <guid isPermaLink="false">https://hachyderm.io/@lexfri/116331181693278195#sha256:0fc4130d9ffc0bbe</guid>
+标签: Apple, parody, SNL, advertising, computers, history, culture, technology, media, humor</description>
+      <guid isPermaLink="false">https://www.reddit.com/r/VintageApple/comments/bq4ucw/mcintosh_jr_vintage_apple_parody/#sha256:f6e4280385915137</guid>
       <category>Apple</category>
-      <category>video</category>
-      <category>design</category>
-      <category>pixel art</category>
-      <category>typography</category>
+      <category>parody</category>
+      <category>SNL</category>
       <category>advertising</category>
-      <category>music</category>
-      <category>retro</category>
-      <category>UI</category>
-      <category>fix</category>
-      <pubDate>Thu, 02 Apr 2026 04:27:02 +0800</pubDate>
+      <category>computers</category>
+      <category>history</category>
+      <category>culture</category>
+      <category>technology</category>
+      <category>media</category>
+      <category>humor</category>
+      <pubDate>Fri, 03 Apr 2026 02:12:11 +0800</pubDate>
     </item>
     <item>
-      <title>DRAM pricing is killing the hobbyist SBC market 摘要</title>
-      <link>https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/</link>
-      <description>Raspberry Pi announced price increases for all models with LPDDR4 RAM, including a new 3GB RAM Pi 4 priced at $83.75. The 16GB Pi 5 now costs up to $299.99. The article also references a video discussing the current state of the high-end single-board computer market for hobbyists.
+      <title>llm-gemini 0.30 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything</link>
+      <description>The llm-gemini plugin version 0.30 has been released, adding support for three new models: gemini-3.1-flash-lite-preview, gemma-4-26b-a4b-it, and gemma-4-31b-it. This update expands the range of available models for users of the llm command-line tool, with the author providing additional notes on Gemma 4 models in a linked blog post.
 
-标签: Raspberry Pi, hardware, price increase, single-board computer, SBC, hobbyist, memory, LPDDR4, tech news, embedded systems</description>
-      <guid isPermaLink="false">https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/#sha256:4555f4913fe80179</guid>
-      <category>Raspberry Pi</category>
-      <category>hardware</category>
-      <category>price increase</category>
-      <category>single-board computer</category>
-      <category>SBC</category>
-      <category>hobbyist</category>
-      <category>memory</category>
-      <category>LPDDR4</category>
-      <category>tech news</category>
-      <category>embedded systems</category>
-      <pubDate>Thu, 02 Apr 2026 05:00:00 +0800</pubDate>
+标签: release, llm-gemini, gemini, gemma, AI, models, plugin, command-line, software-update, machine-learning</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything#sha256:9131a35e62a0552f</guid>
+      <category>release</category>
+      <category>llm-gemini</category>
+      <category>gemini</category>
+      <category>gemma</category>
+      <category>AI</category>
+      <category>models</category>
+      <category>plugin</category>
+      <category>command-line</category>
+      <category>software-update</category>
+      <category>machine-learning</category>
+      <pubDate>Fri, 03 Apr 2026 02:25:08 +0800</pubDate>
     </item>
     <item>
-      <title>13th Year of Blogging 摘要</title>
-      <link>https://idiallo.com/byte-size/blogging-year-13?src=feed</link>
-      <description>The author reflects on starting a blog on April Fools' Day 13 years ago, highlighting the unexpected challenges of writing and server maintenance, especially during viral traffic. They share lessons from user feedback, including a security vulnerability revealed in their own article, and emphasize the irreplaceable value of longevity in blogging. Unlike AI-generated content, a blog's enduring presence builds a unique voice, process, and personal growth over time, serving as a lasting record of career hurdles and connections.
+      <title>Gemma 4: Byte for byte, the most capable open models 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything</link>
+      <description>Google DeepMind released Gemma 4, a series of four new open-source vision-capable reasoning LLMs under Apache 2.0 license, including 2B, 4B, 31B, and a 26B-A4B Mixture-of-Experts model. The models emphasize high intelligence-per-parameter efficiency, with the smaller E2B and E4B models using Per-Layer Embeddings (PLE) to optimize for on-device deployment. Testing via LM Studio showed functional performance for most models, with quality improvements evident in tasks like generating SVG images of a pelican riding a bicycle. API access is available for the larger models through Google AI Studio.
 
-标签: blogging, longevity, personal-growth, server-maintenance, AI-content, writing, vulnerability, audience-engagement, side-projects, reflection</description>
-      <guid isPermaLink="false">https://idiallo.com/byte-size/blogging-year-13?src=feed#sha256:481f26108e414ae8</guid>
-      <category>blogging</category>
-      <category>longevity</category>
-      <category>personal-growth</category>
-      <category>server-maintenance</category>
-      <category>AI-content</category>
-      <category>writing</category>
-      <category>vulnerability</category>
-      <category>audience-engagement</category>
-      <category>side-projects</category>
-      <category>reflection</category>
-      <pubDate>Thu, 02 Apr 2026 06:15:39 +0800</pubDate>
+标签: AI, LLM, open-source, Google, vision-models, reasoning, local-LLMs, model-efficiency, generative-AI, Gemma</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything#sha256:b01eeb21ecc25385</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>open-source</category>
+      <category>Google</category>
+      <category>vision-models</category>
+      <category>reasoning</category>
+      <category>local-LLMs</category>
+      <category>model-efficiency</category>
+      <category>generative-AI</category>
+      <category>Gemma</category>
+      <pubDate>Fri, 03 Apr 2026 02:28:54 +0800</pubDate>
+    </item>
+    <item>
+      <title>Axios, Super Popular NPM Package, Was Compromised in Attack on the Module’s Maintainer 摘要</title>
+      <link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link>
+      <description>The article details a sophisticated supply chain attack on the popular npm package axios, specifically versions 1.14.1 and 0.30.4. The attack involved injecting a malicious dependency, plain-crypto-js@4.2.1, which executes a postinstall script to deploy a cross-platform remote access trojan. The malware contacts a command-and-control server, delivers OS-specific payloads, and self-destructs, leaving no trace. This precision attack, staged 18 hours in advance and executed within 39 minutes, is noted as one of the most operationally sophisticated against a top-10 npm package, with historical context linking to past incidents in the JavaScript ecosystem.
+
+标签: security, npm, supply-chain-attack, axios, malware, JavaScript, cybersecurity, open-source, dependency-management, devops</description>
+      <guid isPermaLink="false">https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan#sha256:e44ae2d5c25fa7c6</guid>
+      <category>security</category>
+      <category>npm</category>
+      <category>supply-chain-attack</category>
+      <category>axios</category>
+      <category>malware</category>
+      <category>JavaScript</category>
+      <category>cybersecurity</category>
+      <category>open-source</category>
+      <category>dependency-management</category>
+      <category>devops</category>
+      <pubDate>Fri, 03 Apr 2026 02:42:39 +0800</pubDate>
+    </item>
+    <item>
+      <title>OpenAI, Supposedly Tightening Its Focus on Its Core Products, Buys Tech-Industry Talk Show TBPN 摘要</title>
+      <link>https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn</link>
+      <description>OpenAI has acquired the tech-industry talk show TBPN to foster constructive dialogue about AI's societal impact and assist with the company's external communications and marketing, while TBPN will maintain editorial independence over its content and operations.
+
+标签: AI, business, media, acquisition, OpenAI, marketing, communications, editorial independence, tech industry, public relations</description>
+      <guid isPermaLink="false">https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn#sha256:f06f31dac4995427</guid>
+      <category>AI</category>
+      <category>business</category>
+      <category>media</category>
+      <category>acquisition</category>
+      <category>OpenAI</category>
+      <category>marketing</category>
+      <category>communications</category>
+      <category>editorial independence</category>
+      <category>tech industry</category>
+      <category>public relations</category>
+      <pubDate>Fri, 03 Apr 2026 02:58:50 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Blandness of Systematic Rules vs. The Delight of Localized Sensitivity 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/systemic-vs-localized/</link>
+      <description>The article discusses a 1997 ClarisWorks dialog with buttons labeled 'Never', 'Later', and 'Now', which violates the UX rule of making button text self-explanatory without context. While 'Never Register / Register Later / Register Now' would follow this rule, it loses the elegant terseness of the original design. The author explores the trade-off between adhering to systematic design rules and allowing localized, context-specific exceptions that can enhance delight and usability. They argue that rules provide consistency at scale but can stifle thoughtful, human-centered design, highlighting how automated decision-making in software often prioritizes scalability over nuanced, humane outcomes.
+
+标签: UX Design, User Interface, Design Rules, Software Development, Human-Computer Interaction, Trade-offs, Scalability, Consistency, Delight, Context</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/systemic-vs-localized/#sha256:fa63607d9c86046a</guid>
+      <category>UX Design</category>
+      <category>User Interface</category>
+      <category>Design Rules</category>
+      <category>Software Development</category>
+      <category>Human-Computer Interaction</category>
+      <category>Trade-offs</category>
+      <category>Scalability</category>
+      <category>Consistency</category>
+      <category>Delight</category>
+      <category>Context</category>
+      <pubDate>Fri, 03 Apr 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Artemis II Crew on Way to Moon 摘要</title>
+      <link>https://512pixels.net/2026/04/artemis-ii-crew-on-way-to-moon/</link>
+      <description>NASA's Artemis II mission crew—Reid Wiseman, Victor Glover, Christina Koch, and CSA astronaut Jeremy Hansen—is en route to the moon, marking the closest approach to a lunar return in 50 years. Despite criticism of the SLS rocket program's flaws, the mission represents a significant milestone in space exploration, with the crew scheduled to return in 10 days.
+
+标签: NASA, Artemis II, space exploration, moon mission, SLS rocket, astronauts, lunar return, space agency, crewed mission, spaceflight</description>
+      <guid isPermaLink="false">https://512pixels.net/2026/04/artemis-ii-crew-on-way-to-moon/#sha256:76c00ccfe46c7a78</guid>
+      <category>NASA</category>
+      <category>Artemis II</category>
+      <category>space exploration</category>
+      <category>moon mission</category>
+      <category>SLS rocket</category>
+      <category>astronauts</category>
+      <category>lunar return</category>
+      <category>space agency</category>
+      <category>crewed mission</category>
+      <category>spaceflight</category>
+      <pubDate>Fri, 03 Apr 2026 03:37:10 +0800</pubDate>
+    </item>
+    <item>
+      <title>John Buck on the Invention of QuickTime 摘要</title>
+      <link>https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k</link>
+      <description>The article recounts the invention of QuickTime at Apple in the early 1990s. Key figures like Steve Perlman, Gavin Miller, and others challenged the assumption that multimedia required expensive specialized hardware. During a lunchtime walk, Miller and Hoffert developed a software codec model that improved video quality and performance for small sizes. At WWDC 1990, Apple announced QuickTime without budget or staff, stunning attendees, but it shipped by WWDC 1991, teaching Apple that WWDC announcements must be delivered as promised.
+
+标签: Apple, QuickTime, multimedia, software codec, innovation, WWDC, history, technology, compression, anecdote</description>
+      <guid isPermaLink="false">https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k#sha256:b3cd4020609776e2</guid>
+      <category>Apple</category>
+      <category>QuickTime</category>
+      <category>multimedia</category>
+      <category>software codec</category>
+      <category>innovation</category>
+      <category>WWDC</category>
+      <category>history</category>
+      <category>technology</category>
+      <category>compression</category>
+      <category>anecdote</category>
+      <pubDate>Fri, 03 Apr 2026 04:12:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>Highlights from my conversation about agentic engineering on Lenny's Podcast 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything</link>
+      <description>Simon Willison discusses the AI inflection point in November 2025, where GPT 5.1 and Claude Opus 4.5 made coding agents reliable enough to produce working code consistently. He explores implications for software engineers as bellwethers, the rise of 'dark factories' with automated coding, the shift of bottlenecks to testing, and the mental exhaustion of managing multiple agents. Key themes include prototyping speed, responsible 'vibe coding', and challenges for other information workers like lawyers facing AI hallucinations.
+
+标签: AI, LLM, coding agents, software engineering, automation, productivity, prototyping, testing, career impact, future of work</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything#sha256:fbd9e877db5a97b2</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>coding agents</category>
+      <category>software engineering</category>
+      <category>automation</category>
+      <category>productivity</category>
+      <category>prototyping</category>
+      <category>testing</category>
+      <category>career impact</category>
+      <category>future of work</category>
+      <pubDate>Fri, 03 Apr 2026 04:40:47 +0800</pubDate>
+    </item>
+    <item>
+      <title>Automating starting Lambda Labs instances 摘要</title>
+      <link>https://www.gilesthomas.com/2026/04/automating-starting-lambda-instances</link>
+      <description>The author created a tool called lambda-manager to help secure GPU instances on Lambda Labs during high-demand periods. It includes commands to list available instance types, map friendly names to API identifiers, and automatically launch instances when they become available with Telegram notifications. The tool has been running for six hours without success, highlighting ongoing GPU scarcity.
+
+标签: cloud, GPU, automation, devops, Lambda Labs, AI training, tooling, agentic coding, resource management, monitoring</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/automating-starting-lambda-instances#sha256:66cdc18241c036e8</guid>
+      <category>cloud</category>
+      <category>GPU</category>
+      <category>automation</category>
+      <category>devops</category>
+      <category>Lambda Labs</category>
+      <category>AI training</category>
+      <category>tooling</category>
+      <category>agentic coding</category>
+      <category>resource management</category>
+      <category>monitoring</category>
+      <pubDate>Fri, 03 Apr 2026 07:30:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
