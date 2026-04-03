@@ -8,216 +8,177 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Apr 2026 07:17:58 +0800</lastBuildDate>
-    <pubDate>Fri, 03 Apr 2026 07:17:58 +0800</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2026 07:18:28 +0800</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2026 07:18:28 +0800</pubDate>
     <item>
-      <title>Jason Snell on Covering Apple for 33 Years 摘要</title>
-      <link>https://www.macworld.com/article/3103792/thanks-for-the-wild-ride-apple-lets-keep-it-going.html</link>
-      <description>Jason Snell recalls joining MacUser magazine in 1993, where he found the Mac transformative for his work as a writer and editor in print and online media. However, he quickly realized that Apple at the time was disorganized, as evidenced by a copy editor asking about layoffs on his first day, highlighting the turbulent nature of the media industry.
+      <title>Can JavaScript Escape a CSP Meta Tag Inside an Iframe? 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything</link>
+      <description>This research investigates whether JavaScript can bypass a Content Security Policy (CSP) meta tag within a sandboxed iframe, inspired by building a Claude Artifacts alternative. It finds that injecting a &lt;meta http-equiv="Content-Security-Policy"&gt; tag at the start of iframe content effectively enforces CSP, even if untrusted JavaScript attempts to manipulate it later, providing a method to apply CSP without needing a separate domain for file hosting.
 
-标签: Apple, Mac, media, journalism, history, technology, workplace, layoffs, 1990s, personal experience</description>
-      <guid isPermaLink="false">https://www.macworld.com/article/3103792/thanks-for-the-wild-ride-apple-lets-keep-it-going.html#sha256:51d5277cd10ab255</guid>
-      <category>Apple</category>
-      <category>Mac</category>
-      <category>media</category>
-      <category>journalism</category>
-      <category>history</category>
-      <category>technology</category>
-      <category>workplace</category>
-      <category>layoffs</category>
-      <category>1990s</category>
-      <category>personal experience</category>
-      <pubDate>Fri, 03 Apr 2026 00:53:02 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘No, We’re Not Stupid. Our Dads Just Got Us Crummy Computers.’ 摘要</title>
-      <link>https://www.reddit.com/r/VintageApple/comments/bq4ucw/mcintosh_jr_vintage_apple_parody/</link>
-      <description>The article discusses a 1991 Saturday Night Live parody ad called 'McIntosh Jr.', which the author considers the best Apple parody ever. It highlights the ad's message about Apple's core purpose: creating computers that enable users to do their best work, akin to 'bicycles for the mind'. The author notes its relevance to Apple's 50th anniversary and shares links to watch the ad, including a low-resolution version on Reddit and a higher-quality one on Peacock.
-
-标签: Apple, parody, SNL, advertising, computers, history, culture, technology, media, humor</description>
-      <guid isPermaLink="false">https://www.reddit.com/r/VintageApple/comments/bq4ucw/mcintosh_jr_vintage_apple_parody/#sha256:f6e4280385915137</guid>
-      <category>Apple</category>
-      <category>parody</category>
-      <category>SNL</category>
-      <category>advertising</category>
-      <category>computers</category>
-      <category>history</category>
-      <category>culture</category>
-      <category>technology</category>
-      <category>media</category>
-      <category>humor</category>
-      <pubDate>Fri, 03 Apr 2026 02:12:11 +0800</pubDate>
-    </item>
-    <item>
-      <title>llm-gemini 0.30 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything</link>
-      <description>The llm-gemini plugin version 0.30 has been released, adding support for three new models: gemini-3.1-flash-lite-preview, gemma-4-26b-a4b-it, and gemma-4-31b-it. This update expands the range of available models for users of the llm command-line tool, with the author providing additional notes on Gemma 4 models in a linked blog post.
-
-标签: release, llm-gemini, gemini, gemma, AI, models, plugin, command-line, software-update, machine-learning</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything#sha256:9131a35e62a0552f</guid>
-      <category>release</category>
-      <category>llm-gemini</category>
-      <category>gemini</category>
-      <category>gemma</category>
-      <category>AI</category>
-      <category>models</category>
-      <category>plugin</category>
-      <category>command-line</category>
-      <category>software-update</category>
-      <category>machine-learning</category>
-      <pubDate>Fri, 03 Apr 2026 02:25:08 +0800</pubDate>
-    </item>
-    <item>
-      <title>Gemma 4: Byte for byte, the most capable open models 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything</link>
-      <description>Google DeepMind released Gemma 4, a series of four new open-source vision-capable reasoning LLMs under Apache 2.0 license, including 2B, 4B, 31B, and a 26B-A4B Mixture-of-Experts model. The models emphasize high intelligence-per-parameter efficiency, with the smaller E2B and E4B models using Per-Layer Embeddings (PLE) to optimize for on-device deployment. Testing via LM Studio showed functional performance for most models, with quality improvements evident in tasks like generating SVG images of a pelican riding a bicycle. API access is available for the larger models through Google AI Studio.
-
-标签: AI, LLM, open-source, Google, vision-models, reasoning, local-LLMs, model-efficiency, generative-AI, Gemma</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything#sha256:b01eeb21ecc25385</guid>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>open-source</category>
-      <category>Google</category>
-      <category>vision-models</category>
-      <category>reasoning</category>
-      <category>local-LLMs</category>
-      <category>model-efficiency</category>
-      <category>generative-AI</category>
-      <category>Gemma</category>
-      <pubDate>Fri, 03 Apr 2026 02:28:54 +0800</pubDate>
-    </item>
-    <item>
-      <title>Axios, Super Popular NPM Package, Was Compromised in Attack on the Module’s Maintainer 摘要</title>
-      <link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link>
-      <description>The article details a sophisticated supply chain attack on the popular npm package axios, specifically versions 1.14.1 and 0.30.4. The attack involved injecting a malicious dependency, plain-crypto-js@4.2.1, which executes a postinstall script to deploy a cross-platform remote access trojan. The malware contacts a command-and-control server, delivers OS-specific payloads, and self-destructs, leaving no trace. This precision attack, staged 18 hours in advance and executed within 39 minutes, is noted as one of the most operationally sophisticated against a top-10 npm package, with historical context linking to past incidents in the JavaScript ecosystem.
-
-标签: security, npm, supply-chain-attack, axios, malware, JavaScript, cybersecurity, open-source, dependency-management, devops</description>
-      <guid isPermaLink="false">https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan#sha256:e44ae2d5c25fa7c6</guid>
+标签: security, web, javascript, content-security-policy, sandboxing, iframes, web-development, browser-security, frontend, research</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything#sha256:86f11abfa625647d</guid>
       <category>security</category>
-      <category>npm</category>
-      <category>supply-chain-attack</category>
-      <category>axios</category>
-      <category>malware</category>
-      <category>JavaScript</category>
-      <category>cybersecurity</category>
-      <category>open-source</category>
-      <category>dependency-management</category>
-      <category>devops</category>
-      <pubDate>Fri, 03 Apr 2026 02:42:39 +0800</pubDate>
+      <category>web</category>
+      <category>javascript</category>
+      <category>content-security-policy</category>
+      <category>sandboxing</category>
+      <category>iframes</category>
+      <category>web-development</category>
+      <category>browser-security</category>
+      <category>frontend</category>
+      <category>research</category>
+      <pubDate>Sat, 04 Apr 2026 00:05:00 +0800</pubDate>
     </item>
     <item>
-      <title>OpenAI, Supposedly Tightening Its Focus on Its Core Products, Buys Tech-Industry Talk Show TBPN 摘要</title>
-      <link>https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn</link>
-      <description>OpenAI has acquired the tech-industry talk show TBPN to foster constructive dialogue about AI's societal impact and assist with the company's external communications and marketing, while TBPN will maintain editorial independence over its content and operations.
+      <title>Roman moon, Greek moon 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/</link>
+      <description>The article explains the term 'perilune' used in the context of the Artemis II flight path, where it refers to the closest approach to the moon on the side opposite Earth. It discusses alternative terms like 'periselene', derived from Greek and Roman moon goddesses, and introduces general orbital terms such as 'periapsis' and 'apoapsis'. Specific examples include 'perigee'/'apogee' for Earth, 'perihelion'/'aphelion' for the Sun, and more obscure terms like 'perijove'/'apojove' for Jupiter and 'periareion'/'apoareion' for Mars, highlighting the linguistic origins and familiarity of these astronomical terms.
 
-标签: AI, business, media, acquisition, OpenAI, marketing, communications, editorial independence, tech industry, public relations</description>
-      <guid isPermaLink="false">https://www.wsj.com/cmo-today/openai-buys-tech-industry-talk-show-tbpn-484c01c5?st=RUVFWn#sha256:f06f31dac4995427</guid>
-      <category>AI</category>
-      <category>business</category>
-      <category>media</category>
-      <category>acquisition</category>
-      <category>OpenAI</category>
-      <category>marketing</category>
-      <category>communications</category>
-      <category>editorial independence</category>
-      <category>tech industry</category>
-      <category>public relations</category>
-      <pubDate>Fri, 03 Apr 2026 02:58:50 +0800</pubDate>
+标签: astronomy, space, orbital mechanics, terminology, Artemis, moon, Greek mythology, Roman mythology, science, education</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/#sha256:80903839418ed7ad</guid>
+      <category>astronomy</category>
+      <category>space</category>
+      <category>orbital mechanics</category>
+      <category>terminology</category>
+      <category>Artemis</category>
+      <category>moon</category>
+      <category>Greek mythology</category>
+      <category>Roman mythology</category>
+      <category>science</category>
+      <category>education</category>
+      <pubDate>Sat, 04 Apr 2026 00:31:54 +0800</pubDate>
     </item>
     <item>
-      <title>The Blandness of Systematic Rules vs. The Delight of Localized Sensitivity 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/systemic-vs-localized/</link>
-      <description>The article discusses a 1997 ClarisWorks dialog with buttons labeled 'Never', 'Later', and 'Now', which violates the UX rule of making button text self-explanatory without context. While 'Never Register / Register Later / Register Now' would follow this rule, it loses the elegant terseness of the original design. The author explores the trade-off between adhering to systematic design rules and allowing localized, context-specific exceptions that can enhance delight and usability. They argue that rules provide consistency at scale but can stifle thoughtful, human-centered design, highlighting how automated decision-making in software often prioritizes scalability over nuanced, humane outcomes.
+      <title>Apple Still Has Jessica Chastain’s ‘The Savant’ on Ice, Seven Months After It Was Set to Debut 摘要</title>
+      <link>https://www.macstories.net/news/coming-soon-whats-next-on-apple-tv-and-apple-arcade-in-april-2026/</link>
+      <description>John Voorhees reports on Apple's April 2026 content updates for Apple TV and Apple Arcade, highlighting the continued indefinite delay of Jessica Chastain's political thriller 'The Savant', originally scheduled for September 2025 but postponed 'at a later date' due to alleged cowardice. The article compares Apple's vague scheduling to Trump's infamous 'in two weeks' promises, noting the show remains shelved seven months after its planned debut.
 
-标签: UX Design, User Interface, Design Rules, Software Development, Human-Computer Interaction, Trade-offs, Scalability, Consistency, Delight, Context</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/systemic-vs-localized/#sha256:fa63607d9c86046a</guid>
-      <category>UX Design</category>
-      <category>User Interface</category>
-      <category>Design Rules</category>
-      <category>Software Development</category>
-      <category>Human-Computer Interaction</category>
-      <category>Trade-offs</category>
-      <category>Scalability</category>
-      <category>Consistency</category>
-      <category>Delight</category>
-      <category>Context</category>
-      <pubDate>Fri, 03 Apr 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Artemis II Crew on Way to Moon 摘要</title>
-      <link>https://512pixels.net/2026/04/artemis-ii-crew-on-way-to-moon/</link>
-      <description>NASA's Artemis II mission crew—Reid Wiseman, Victor Glover, Christina Koch, and CSA astronaut Jeremy Hansen—is en route to the moon, marking the closest approach to a lunar return in 50 years. Despite criticism of the SLS rocket program's flaws, the mission represents a significant milestone in space exploration, with the crew scheduled to return in 10 days.
-
-标签: NASA, Artemis II, space exploration, moon mission, SLS rocket, astronauts, lunar return, space agency, crewed mission, spaceflight</description>
-      <guid isPermaLink="false">https://512pixels.net/2026/04/artemis-ii-crew-on-way-to-moon/#sha256:76c00ccfe46c7a78</guid>
-      <category>NASA</category>
-      <category>Artemis II</category>
-      <category>space exploration</category>
-      <category>moon mission</category>
-      <category>SLS rocket</category>
-      <category>astronauts</category>
-      <category>lunar return</category>
-      <category>space agency</category>
-      <category>crewed mission</category>
-      <category>spaceflight</category>
-      <pubDate>Fri, 03 Apr 2026 03:37:10 +0800</pubDate>
-    </item>
-    <item>
-      <title>John Buck on the Invention of QuickTime 摘要</title>
-      <link>https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k</link>
-      <description>The article recounts the invention of QuickTime at Apple in the early 1990s. Key figures like Steve Perlman, Gavin Miller, and others challenged the assumption that multimedia required expensive specialized hardware. During a lunchtime walk, Miller and Hoffert developed a software codec model that improved video quality and performance for small sizes. At WWDC 1990, Apple announced QuickTime without budget or staff, stunning attendees, but it shipped by WWDC 1991, teaching Apple that WWDC announcements must be delivered as promised.
-
-标签: Apple, QuickTime, multimedia, software codec, innovation, WWDC, history, technology, compression, anecdote</description>
-      <guid isPermaLink="false">https://www.theverge.com/tech/902721/quicktime-history-apple?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IkcybHEzWGhZTVciLCJwIjoiL3RlY2gvOTAyNzIxL3F1aWNrdGltZS1oaXN0b3J5LWFwcGxlIiwiZXhwIjoxNzc1NTkyNzA0LCJpYXQiOjE3NzUxNjA3MDR9.p4nbje9XKl05Ybv3q31CyAQULuqAB-H9b8qfftSz12k#sha256:b3cd4020609776e2</guid>
+标签: Apple, Apple TV, Apple Arcade, streaming, content delay, Jessica Chastain, The Savant, entertainment, media, scheduling</description>
+      <guid isPermaLink="false">https://www.macstories.net/news/coming-soon-whats-next-on-apple-tv-and-apple-arcade-in-april-2026/#sha256:5b35a1773e144618</guid>
       <category>Apple</category>
-      <category>QuickTime</category>
-      <category>multimedia</category>
-      <category>software codec</category>
-      <category>innovation</category>
-      <category>WWDC</category>
-      <category>history</category>
-      <category>technology</category>
-      <category>compression</category>
-      <category>anecdote</category>
-      <pubDate>Fri, 03 Apr 2026 04:12:07 +0800</pubDate>
+      <category>Apple TV</category>
+      <category>Apple Arcade</category>
+      <category>streaming</category>
+      <category>content delay</category>
+      <category>Jessica Chastain</category>
+      <category>The Savant</category>
+      <category>entertainment</category>
+      <category>media</category>
+      <category>scheduling</category>
+      <pubDate>Sat, 04 Apr 2026 02:20:04 +0800</pubDate>
     </item>
     <item>
-      <title>Highlights from my conversation about agentic engineering on Lenny's Podcast 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything</link>
-      <description>Simon Willison discusses the AI inflection point in November 2025, where GPT 5.1 and Claude Opus 4.5 made coding agents reliable enough to produce working code consistently. He explores implications for software engineers as bellwethers, the rise of 'dark factories' with automated coding, the shift of bottlenecks to testing, and the mental exhaustion of managing multiple agents. Key themes include prototyping speed, responsible 'vibe coding', and challenges for other information workers like lawyers facing AI hallucinations.
+      <title>Apple Releases iOS 18 Security Updates for iOS 26 Holdouts 摘要</title>
+      <link>https://sixcolors.com/post/2026/04/apple-releases-ios-18-security-updates-for-ios-26-holdouts/</link>
+      <description>Apple has released iOS 18.7.7 security updates for devices capable of running iOS 26, addressing previous complaints about withholding patches. This move responds to serious security threats like DarkSword and Coruna. The author notes that while Apple supports staying a year behind on macOS, it doesn't on iOS, though the differences between iOS 18 and 26 feel minimal and not as drastic as macOS version changes.
 
-标签: AI, LLM, coding agents, software engineering, automation, productivity, prototyping, testing, career impact, future of work</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything#sha256:fbd9e877db5a97b2</guid>
+标签: Apple, iOS, security, updates, mobile, operating systems, technology, software, patches, user experience</description>
+      <guid isPermaLink="false">https://sixcolors.com/post/2026/04/apple-releases-ios-18-security-updates-for-ios-26-holdouts/#sha256:d6170780ff6eb867</guid>
+      <category>Apple</category>
+      <category>iOS</category>
+      <category>security</category>
+      <category>updates</category>
+      <category>mobile</category>
+      <category>operating systems</category>
+      <category>technology</category>
+      <category>software</category>
+      <category>patches</category>
+      <category>user experience</category>
+      <pubDate>Sat, 04 Apr 2026 03:28:36 +0800</pubDate>
+    </item>
+    <item>
+      <title>Premium: AI Isn't Too Big To Fail 摘要</title>
+      <link>https://www.wheresyoured.at/premium-ai-isnt-too-big-to-fail/</link>
+      <description>The article critiques the AI industry bubble, arguing that comparisons to past tech booms like the dot-com era or AWS are flawed and lack evidence. It highlights issues such as unproven profitability in AI inference, exaggerated data center construction claims (e.g., only 5GW of AI data centers are actually being built globally), and failures like the collapsed Poolside-CoreWeave deal. The author emphasizes that media and investors often avoid deep skepticism, perpetuating myths like 'AI is too big to fail,' while real-world signs—such as lack of buyer interest in OpenAI shares and layoffs at companies like Oracle—suggest underlying economic weaknesses. The piece calls for rigorous analysis over lazy tropes to prevent public misinformation and poor investment decisions.
+
+标签: AI, bubble, economics, critique, data-centers, investment, skepticism, tech-industry, profitability, mythbusting</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/premium-ai-isnt-too-big-to-fail/#sha256:ec7f263f795c04bf</guid>
+      <category>AI</category>
+      <category>bubble</category>
+      <category>economics</category>
+      <category>critique</category>
+      <category>data-centers</category>
+      <category>investment</category>
+      <category>skepticism</category>
+      <category>tech-industry</category>
+      <category>profitability</category>
+      <category>mythbusting</category>
+      <pubDate>Sat, 04 Apr 2026 05:11:26 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Greg Kroah-Hartman 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything</link>
+      <description>Linux kernel maintainer Greg Kroah-Hartman discusses the evolution of AI-generated security reports in open source projects. Initially, these reports were low-quality 'AI slop' that was obviously wrong and not concerning. However, about a month ago, there was a significant shift where AI-generated reports became high-quality and real, now being used effectively across all open source projects.
+
+标签: AI, security, Linux, open-source, generative-ai, LLMs, AI-security-research, kernel, maintenance, reports</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything#sha256:7fea4116f7ae5bd9</guid>
+      <category>AI</category>
+      <category>security</category>
+      <category>Linux</category>
+      <category>open-source</category>
+      <category>generative-ai</category>
+      <category>LLMs</category>
+      <category>AI-security-research</category>
+      <category>kernel</category>
+      <category>maintenance</category>
+      <category>reports</category>
+      <pubDate>Sat, 04 Apr 2026 05:44:41 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Daniel Stenberg 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything</link>
+      <description>Daniel Stenberg, lead developer of cURL, notes that AI's impact on open source security has shifted from generating low-quality content ("AI slop tsunami") to producing a high volume of security reports, many of which are valuable. He reports spending hours daily reviewing these reports, indicating the intensity and significance of this development in security practices.
+
+标签: AI, security, open-source, curl, generative-ai, LLMs, AI-security-research, security-reports, Daniel-Stenberg</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything#sha256:a10f00f55e169278</guid>
+      <category>AI</category>
+      <category>security</category>
+      <category>open-source</category>
+      <category>curl</category>
+      <category>generative-ai</category>
+      <category>LLMs</category>
+      <category>AI-security-research</category>
+      <category>security-reports</category>
+      <category>Daniel-Stenberg</category>
+      <pubDate>Sat, 04 Apr 2026 05:46:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Willy Tarreau 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything</link>
+      <description>Willy Tarreau reports a dramatic increase in kernel security vulnerability reports, rising from 2-3 per week two years ago to 5-10 per day currently, with a significant spike attributed to AI-generated reports. This surge has led to duplicate findings and necessitated additional maintainer support to handle the volume.
+
+标签: security, linux, kernel, vulnerability, AI, generative-ai, llms, maintenance, reports, open-source</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything#sha256:7e211746d9614ec1</guid>
+      <category>security</category>
+      <category>linux</category>
+      <category>kernel</category>
+      <category>vulnerability</category>
+      <category>AI</category>
+      <category>generative-ai</category>
+      <category>llms</category>
+      <category>maintenance</category>
+      <category>reports</category>
+      <category>open-source</category>
+      <pubDate>Sat, 04 Apr 2026 05:48:22 +0800</pubDate>
+    </item>
+    <item>
+      <title>Writing an LLM from scratch, part 32h -- Interventions: full fat float32 摘要</title>
+      <link>https://www.gilesthomas.com/2026/04/llm-from-scratch-32h-interventions-full-fat-float32</link>
+      <description>The author investigates the impact of disabling PyTorch optimizations—specifically Automated Mixed Precision (AMP) and lower-precision matrix multiplication—on training a GPT-2 small base model from scratch. They modify the training code to optionally turn off AMP, addressing issues like non-finite gradients by manually scanning parameters to skip optimizer steps when needed. To maintain consistent batch size, they use an 8x A100 80 GiB machine with more VRAM, automating instance acquisition due to scarcity. The goal is to test if these optimizations affect model quality without compromising training stability.
+
+标签: AI, LLM, PyTorch, training, optimization, AMP, gradients, hardware, code, experiment</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/llm-from-scratch-32h-interventions-full-fat-float32#sha256:d2b0bd2c6470108a</guid>
       <category>AI</category>
       <category>LLM</category>
-      <category>coding agents</category>
-      <category>software engineering</category>
-      <category>automation</category>
-      <category>productivity</category>
-      <category>prototyping</category>
-      <category>testing</category>
-      <category>career impact</category>
-      <category>future of work</category>
-      <pubDate>Fri, 03 Apr 2026 04:40:47 +0800</pubDate>
-    </item>
-    <item>
-      <title>Automating starting Lambda Labs instances 摘要</title>
-      <link>https://www.gilesthomas.com/2026/04/automating-starting-lambda-instances</link>
-      <description>The author created a tool called lambda-manager to help secure GPU instances on Lambda Labs during high-demand periods. It includes commands to list available instance types, map friendly names to API identifiers, and automatically launch instances when they become available with Telegram notifications. The tool has been running for six hours without success, highlighting ongoing GPU scarcity.
-
-标签: cloud, GPU, automation, devops, Lambda Labs, AI training, tooling, agentic coding, resource management, monitoring</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/automating-starting-lambda-instances#sha256:66cdc18241c036e8</guid>
-      <category>cloud</category>
-      <category>GPU</category>
-      <category>automation</category>
-      <category>devops</category>
-      <category>Lambda Labs</category>
-      <category>AI training</category>
-      <category>tooling</category>
-      <category>agentic coding</category>
-      <category>resource management</category>
-      <category>monitoring</category>
-      <pubDate>Fri, 03 Apr 2026 07:30:00 +0800</pubDate>
+      <category>PyTorch</category>
+      <category>training</category>
+      <category>optimization</category>
+      <category>AMP</category>
+      <category>gradients</category>
+      <category>hardware</category>
+      <category>code</category>
+      <category>experiment</category>
+      <pubDate>Sat, 04 Apr 2026 07:50:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
