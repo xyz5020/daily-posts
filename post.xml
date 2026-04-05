@@ -8,177 +8,83 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 04 Apr 2026 07:18:28 +0800</lastBuildDate>
-    <pubDate>Sat, 04 Apr 2026 07:18:28 +0800</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2026 07:16:24 +0800</lastBuildDate>
+    <pubDate>Mon, 06 Apr 2026 07:16:24 +0800</pubDate>
     <item>
-      <title>Can JavaScript Escape a CSP Meta Tag Inside an Iframe? 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything</link>
-      <description>This research investigates whether JavaScript can bypass a Content Security Policy (CSP) meta tag within a sandboxed iframe, inspired by building a Claude Artifacts alternative. It finds that injecting a &lt;meta http-equiv="Content-Security-Policy"&gt; tag at the start of iframe content effectively enforces CSP, even if untrusted JavaScript attempts to manipulate it later, providing a method to apply CSP without needing a separate domain for file hosting.
+      <title>An Easter Morning Message of Hope From the Winner of the FIFA Peace Prize 摘要</title>
+      <link>https://truthsocial.com/@realDonaldTrump/posts/116351998782539414</link>
+      <description>The article presents a provocative blog post attributed to former U.S. President Donald Trump, dated Tuesday, which aggressively threatens Iran regarding the Strait of Hormuz, using inflammatory language and invoking religious praise. It includes a response from the Iranian embassy in Japan, which condemns the post as uncivil, unintelligent, and indicative of fanaticism, expressing regret over the language and intentions. The content highlights diplomatic tensions and controversial rhetoric in international relations.
 
-标签: security, web, javascript, content-security-policy, sandboxing, iframes, web-development, browser-security, frontend, research</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything#sha256:86f11abfa625647d</guid>
-      <category>security</category>
-      <category>web</category>
-      <category>javascript</category>
-      <category>content-security-policy</category>
-      <category>sandboxing</category>
-      <category>iframes</category>
-      <category>web-development</category>
-      <category>browser-security</category>
-      <category>frontend</category>
-      <category>research</category>
-      <pubDate>Sat, 04 Apr 2026 00:05:00 +0800</pubDate>
+标签: politics, diplomacy, international relations, controversy, rhetoric, Iran, USA, social media, conflict, public statements</description>
+      <guid isPermaLink="false">https://truthsocial.com/@realDonaldTrump/posts/116351998782539414#sha256:7d06975ff4484abe</guid>
+      <category>politics</category>
+      <category>diplomacy</category>
+      <category>international relations</category>
+      <category>controversy</category>
+      <category>rhetoric</category>
+      <category>Iran</category>
+      <category>USA</category>
+      <category>social media</category>
+      <category>conflict</category>
+      <category>public statements</category>
+      <pubDate>Mon, 06 Apr 2026 00:01:59 +0800</pubDate>
     </item>
     <item>
-      <title>Roman moon, Greek moon 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/</link>
-      <description>The article explains the term 'perilune' used in the context of the Artemis II flight path, where it refers to the closest approach to the moon on the side opposite Earth. It discusses alternative terms like 'periselene', derived from Greek and Roman moon goddesses, and introduces general orbital terms such as 'periapsis' and 'apoapsis'. Specific examples include 'perigee'/'apogee' for Earth, 'perihelion'/'aphelion' for the Sun, and more obscure terms like 'perijove'/'apojove' for Jupiter and 'periareion'/'apoareion' for Mars, highlighting the linguistic origins and familiarity of these astronomical terms.
+      <title>Syntaqlite Playground 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything</link>
+      <description>Simon Willison introduces a new web playground for Syntaqlite, a tool that formats, parses, validates, and tokenizes SQLite SQL queries. The playground loads a Python library compiled to WebAssembly, allowing users to test SQL queries with features like error diagnostics and schema validation. It was inspired by Lalit Maganti's Syntaqlite project, which gained attention on Hacker News for its AI-assisted development. The article also notes that Syntaqlite has its own WebAssembly playground, which the author initially missed.
 
-标签: astronomy, space, orbital mechanics, terminology, Artemis, moon, Greek mythology, Roman mythology, science, education</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/03/roman-moon-greek-moon/#sha256:80903839418ed7ad</guid>
-      <category>astronomy</category>
-      <category>space</category>
-      <category>orbital mechanics</category>
-      <category>terminology</category>
-      <category>Artemis</category>
-      <category>moon</category>
-      <category>Greek mythology</category>
-      <category>Roman mythology</category>
-      <category>science</category>
-      <category>education</category>
-      <pubDate>Sat, 04 Apr 2026 00:31:54 +0800</pubDate>
+标签: SQL, SQLite, tools, AI-assisted-programming, WebAssembly, programming, database, validation, playground, agentic-engineering</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything#sha256:1b08160587b4251d</guid>
+      <category>SQL</category>
+      <category>SQLite</category>
+      <category>tools</category>
+      <category>AI-assisted-programming</category>
+      <category>WebAssembly</category>
+      <category>programming</category>
+      <category>database</category>
+      <category>validation</category>
+      <category>playground</category>
+      <category>agentic-engineering</category>
+      <pubDate>Mon, 06 Apr 2026 03:32:59 +0800</pubDate>
     </item>
     <item>
-      <title>Apple Still Has Jessica Chastain’s ‘The Savant’ on Ice, Seven Months After It Was Set to Debut 摘要</title>
-      <link>https://www.macstories.net/news/coming-soon-whats-next-on-apple-tv-and-apple-arcade-in-april-2026/</link>
-      <description>John Voorhees reports on Apple's April 2026 content updates for Apple TV and Apple Arcade, highlighting the continued indefinite delay of Jessica Chastain's political thriller 'The Savant', originally scheduled for September 2025 but postponed 'at a later date' due to alleged cowardice. The article compares Apple's vague scheduling to Trump's infamous 'in two weeks' promises, noting the show remains shelved seven months after its planned debut.
+      <title>Quoting Chengpeng Mou 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything</link>
+      <description>Analysis of anonymized U.S. ChatGPT data reveals significant healthcare-related usage patterns: approximately 2 million weekly messages concern health insurance, while around 600,000 weekly messages classified as healthcare originate from individuals in 'hospital deserts' (areas with a 30-minute drive to the nearest hospital). Notably, 70% of these messages occur outside standard clinic hours, highlighting ChatGPT's role in providing health information access during off-hours and in underserved regions.
 
-标签: Apple, Apple TV, Apple Arcade, streaming, content delay, Jessica Chastain, The Savant, entertainment, media, scheduling</description>
-      <guid isPermaLink="false">https://www.macstories.net/news/coming-soon-whats-next-on-apple-tv-and-apple-arcade-in-april-2026/#sha256:5b35a1773e144618</guid>
-      <category>Apple</category>
-      <category>Apple TV</category>
-      <category>Apple Arcade</category>
-      <category>streaming</category>
-      <category>content delay</category>
-      <category>Jessica Chastain</category>
-      <category>The Savant</category>
-      <category>entertainment</category>
-      <category>media</category>
-      <category>scheduling</category>
-      <pubDate>Sat, 04 Apr 2026 02:20:04 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Releases iOS 18 Security Updates for iOS 26 Holdouts 摘要</title>
-      <link>https://sixcolors.com/post/2026/04/apple-releases-ios-18-security-updates-for-ios-26-holdouts/</link>
-      <description>Apple has released iOS 18.7.7 security updates for devices capable of running iOS 26, addressing previous complaints about withholding patches. This move responds to serious security threats like DarkSword and Coruna. The author notes that while Apple supports staying a year behind on macOS, it doesn't on iOS, though the differences between iOS 18 and 26 feel minimal and not as drastic as macOS version changes.
-
-标签: Apple, iOS, security, updates, mobile, operating systems, technology, software, patches, user experience</description>
-      <guid isPermaLink="false">https://sixcolors.com/post/2026/04/apple-releases-ios-18-security-updates-for-ios-26-holdouts/#sha256:d6170780ff6eb867</guid>
-      <category>Apple</category>
-      <category>iOS</category>
-      <category>security</category>
-      <category>updates</category>
-      <category>mobile</category>
-      <category>operating systems</category>
-      <category>technology</category>
-      <category>software</category>
-      <category>patches</category>
-      <category>user experience</category>
-      <pubDate>Sat, 04 Apr 2026 03:28:36 +0800</pubDate>
-    </item>
-    <item>
-      <title>Premium: AI Isn't Too Big To Fail 摘要</title>
-      <link>https://www.wheresyoured.at/premium-ai-isnt-too-big-to-fail/</link>
-      <description>The article critiques the AI industry bubble, arguing that comparisons to past tech booms like the dot-com era or AWS are flawed and lack evidence. It highlights issues such as unproven profitability in AI inference, exaggerated data center construction claims (e.g., only 5GW of AI data centers are actually being built globally), and failures like the collapsed Poolside-CoreWeave deal. The author emphasizes that media and investors often avoid deep skepticism, perpetuating myths like 'AI is too big to fail,' while real-world signs—such as lack of buyer interest in OpenAI shares and layoffs at companies like Oracle—suggest underlying economic weaknesses. The piece calls for rigorous analysis over lazy tropes to prevent public misinformation and poor investment decisions.
-
-标签: AI, bubble, economics, critique, data-centers, investment, skepticism, tech-industry, profitability, mythbusting</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/premium-ai-isnt-too-big-to-fail/#sha256:ec7f263f795c04bf</guid>
+标签: AI, healthcare, ChatGPT, OpenAI, data analysis, health insurance, accessibility, LLMs, AI ethics, generative AI</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything#sha256:fc33e5d1903006a6</guid>
       <category>AI</category>
-      <category>bubble</category>
-      <category>economics</category>
-      <category>critique</category>
-      <category>data-centers</category>
-      <category>investment</category>
-      <category>skepticism</category>
-      <category>tech-industry</category>
-      <category>profitability</category>
-      <category>mythbusting</category>
-      <pubDate>Sat, 04 Apr 2026 05:11:26 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Greg Kroah-Hartman 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything</link>
-      <description>Linux kernel maintainer Greg Kroah-Hartman discusses the evolution of AI-generated security reports in open source projects. Initially, these reports were low-quality 'AI slop' that was obviously wrong and not concerning. However, about a month ago, there was a significant shift where AI-generated reports became high-quality and real, now being used effectively across all open source projects.
-
-标签: AI, security, Linux, open-source, generative-ai, LLMs, AI-security-research, kernel, maintenance, reports</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything#sha256:7fea4116f7ae5bd9</guid>
-      <category>AI</category>
-      <category>security</category>
-      <category>Linux</category>
-      <category>open-source</category>
-      <category>generative-ai</category>
+      <category>healthcare</category>
+      <category>ChatGPT</category>
+      <category>OpenAI</category>
+      <category>data analysis</category>
+      <category>health insurance</category>
+      <category>accessibility</category>
       <category>LLMs</category>
-      <category>AI-security-research</category>
-      <category>kernel</category>
-      <category>maintenance</category>
-      <category>reports</category>
-      <pubDate>Sat, 04 Apr 2026 05:44:41 +0800</pubDate>
+      <category>AI ethics</category>
+      <category>generative AI</category>
+      <pubDate>Mon, 06 Apr 2026 05:47:06 +0800</pubDate>
     </item>
     <item>
-      <title>Quoting Daniel Stenberg 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything</link>
-      <description>Daniel Stenberg, lead developer of cURL, notes that AI's impact on open source security has shifted from generating low-quality content ("AI slop tsunami") to producing a high volume of security reports, many of which are valuable. He reports spending hours daily reviewing these reports, indicating the intensity and significance of this development in security practices.
+      <title>HIPAA compliant AI 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/04/05/hipaa-compliant-ai/</link>
+      <description>The article argues that running AI locally on your own hardware is the most effective way to ensure HIPAA compliance when handling protected health information (PHI), as cloud-based services like ChatGPT, Gemini, and Claude often impose restrictive and expensive requirements, lack full compliance out-of-the-box, or exclude key features. It details how major providers only offer Business Associate Agreements (BAAs) under specific enterprise plans, with many services explicitly not covered, making local deployment with open-weight models on consumer hardware a practical and cost-effective alternative, especially for smaller companies facing diseconomies of scale in cloud compliance.
 
-标签: AI, security, open-source, curl, generative-ai, LLMs, AI-security-research, security-reports, Daniel-Stenberg</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything#sha256:a10f00f55e169278</guid>
+标签: AI, HIPAA, healthcare, compliance, cloud computing, data privacy, local deployment, PHI, BAA, enterprise AI</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/05/hipaa-compliant-ai/#sha256:a25cfaf13383f850</guid>
       <category>AI</category>
-      <category>security</category>
-      <category>open-source</category>
-      <category>curl</category>
-      <category>generative-ai</category>
-      <category>LLMs</category>
-      <category>AI-security-research</category>
-      <category>security-reports</category>
-      <category>Daniel-Stenberg</category>
-      <pubDate>Sat, 04 Apr 2026 05:46:07 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Willy Tarreau 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything</link>
-      <description>Willy Tarreau reports a dramatic increase in kernel security vulnerability reports, rising from 2-3 per week two years ago to 5-10 per day currently, with a significant spike attributed to AI-generated reports. This surge has led to duplicate findings and necessitated additional maintainer support to handle the volume.
-
-标签: security, linux, kernel, vulnerability, AI, generative-ai, llms, maintenance, reports, open-source</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything#sha256:7e211746d9614ec1</guid>
-      <category>security</category>
-      <category>linux</category>
-      <category>kernel</category>
-      <category>vulnerability</category>
-      <category>AI</category>
-      <category>generative-ai</category>
-      <category>llms</category>
-      <category>maintenance</category>
-      <category>reports</category>
-      <category>open-source</category>
-      <pubDate>Sat, 04 Apr 2026 05:48:22 +0800</pubDate>
-    </item>
-    <item>
-      <title>Writing an LLM from scratch, part 32h -- Interventions: full fat float32 摘要</title>
-      <link>https://www.gilesthomas.com/2026/04/llm-from-scratch-32h-interventions-full-fat-float32</link>
-      <description>The author investigates the impact of disabling PyTorch optimizations—specifically Automated Mixed Precision (AMP) and lower-precision matrix multiplication—on training a GPT-2 small base model from scratch. They modify the training code to optionally turn off AMP, addressing issues like non-finite gradients by manually scanning parameters to skip optimizer steps when needed. To maintain consistent batch size, they use an 8x A100 80 GiB machine with more VRAM, automating instance acquisition due to scarcity. The goal is to test if these optimizations affect model quality without compromising training stability.
-
-标签: AI, LLM, PyTorch, training, optimization, AMP, gradients, hardware, code, experiment</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/llm-from-scratch-32h-interventions-full-fat-float32#sha256:d2b0bd2c6470108a</guid>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>PyTorch</category>
-      <category>training</category>
-      <category>optimization</category>
-      <category>AMP</category>
-      <category>gradients</category>
-      <category>hardware</category>
-      <category>code</category>
-      <category>experiment</category>
-      <pubDate>Sat, 04 Apr 2026 07:50:00 +0800</pubDate>
+      <category>HIPAA</category>
+      <category>healthcare</category>
+      <category>compliance</category>
+      <category>cloud computing</category>
+      <category>data privacy</category>
+      <category>local deployment</category>
+      <category>PHI</category>
+      <category>BAA</category>
+      <category>enterprise AI</category>
+      <pubDate>Mon, 06 Apr 2026 07:04:46 +0800</pubDate>
     </item>
   </channel>
 </rss>
