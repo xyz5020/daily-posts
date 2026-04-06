@@ -8,83 +8,83 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 06 Apr 2026 07:16:24 +0800</lastBuildDate>
-    <pubDate>Mon, 06 Apr 2026 07:16:24 +0800</pubDate>
+    <lastBuildDate>Tue, 07 Apr 2026 07:20:06 +0800</lastBuildDate>
+    <pubDate>Tue, 07 Apr 2026 07:20:06 +0800</pubDate>
     <item>
-      <title>An Easter Morning Message of Hope From the Winner of the FIFA Peace Prize 摘要</title>
-      <link>https://truthsocial.com/@realDonaldTrump/posts/116351998782539414</link>
-      <description>The article presents a provocative blog post attributed to former U.S. President Donald Trump, dated Tuesday, which aggressively threatens Iran regarding the Strait of Hormuz, using inflammatory language and invoking religious praise. It includes a response from the Iranian embassy in Japan, which condemns the post as uncivil, unintelligent, and indicative of fanaticism, expressing regret over the language and intentions. The content highlights diplomatic tensions and controversial rhetoric in international relations.
+      <title>Little Finder Guy Stars in Nine New Videos on TikTok and YouTube 摘要</title>
+      <link>https://www.macrumors.com/2026/04/02/little-finder-guy-tiktok-youtube/</link>
+      <description>Apple has released nine Little Finder Guy videos this week on TikTok and YouTube, where the thumbnails form a mosaic on Apple's TikTok page. The author expresses hope to feature Little Finder Guy as a guest on The Talk Show Live From WWDC in June, while noting concerns about potentially jinxing negotiations.
 
-标签: politics, diplomacy, international relations, controversy, rhetoric, Iran, USA, social media, conflict, public statements</description>
-      <guid isPermaLink="false">https://truthsocial.com/@realDonaldTrump/posts/116351998782539414#sha256:7d06975ff4484abe</guid>
-      <category>politics</category>
-      <category>diplomacy</category>
-      <category>international relations</category>
-      <category>controversy</category>
-      <category>rhetoric</category>
-      <category>Iran</category>
-      <category>USA</category>
+标签: Apple, Little Finder Guy, TikTok, YouTube, WWDC, The Talk Show, marketing, videos, social media, tech news</description>
+      <guid isPermaLink="false">https://www.macrumors.com/2026/04/02/little-finder-guy-tiktok-youtube/#sha256:b224000aa2c3be4b</guid>
+      <category>Apple</category>
+      <category>Little Finder Guy</category>
+      <category>TikTok</category>
+      <category>YouTube</category>
+      <category>WWDC</category>
+      <category>The Talk Show</category>
+      <category>marketing</category>
+      <category>videos</category>
       <category>social media</category>
-      <category>conflict</category>
-      <category>public statements</category>
-      <pubDate>Mon, 06 Apr 2026 00:01:59 +0800</pubDate>
+      <category>tech news</category>
+      <pubDate>Tue, 07 Apr 2026 00:39:26 +0800</pubDate>
     </item>
     <item>
-      <title>Syntaqlite Playground 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything</link>
-      <description>Simon Willison introduces a new web playground for Syntaqlite, a tool that formats, parses, validates, and tokenizes SQLite SQL queries. The playground loads a Python library compiled to WebAssembly, allowing users to test SQL queries with features like error diagnostics and schema validation. It was inspired by Lalit Maganti's Syntaqlite project, which gained attention on Hacker News for its AI-assisted development. The article also notes that Syntaqlite has its own WebAssembly playground, which the author initially missed.
+      <title>Prototyping with LLMs 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/prototyping-with-llm/</link>
+      <description>The article discusses the temptation to immediately prototype with LLMs due to their ease of use, but warns this can lead to confusion about project goals. It suggests sketching as a faster, cheaper alternative that helps clarify ideas before committing resources. The author references a biblical parable about planning before building to emphasize the importance of upfront thinking in the design process.
 
-标签: SQL, SQLite, tools, AI-assisted-programming, WebAssembly, programming, database, validation, playground, agentic-engineering</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything#sha256:1b08160587b4251d</guid>
-      <category>SQL</category>
-      <category>SQLite</category>
-      <category>tools</category>
-      <category>AI-assisted-programming</category>
-      <category>WebAssembly</category>
-      <category>programming</category>
-      <category>database</category>
-      <category>validation</category>
-      <category>playground</category>
-      <category>agentic-engineering</category>
-      <pubDate>Mon, 06 Apr 2026 03:32:59 +0800</pubDate>
+标签: prototyping, LLM, design process, sketching, planning, productivity, AI tools, creative workflow, efficiency, project management</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/prototyping-with-llm/#sha256:2f13cc99e66e04c4</guid>
+      <category>prototyping</category>
+      <category>LLM</category>
+      <category>design process</category>
+      <category>sketching</category>
+      <category>planning</category>
+      <category>productivity</category>
+      <category>AI tools</category>
+      <category>creative workflow</category>
+      <category>efficiency</category>
+      <category>project management</category>
+      <pubDate>Tue, 07 Apr 2026 03:00:00 +0800</pubDate>
     </item>
     <item>
-      <title>Quoting Chengpeng Mou 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything</link>
-      <description>Analysis of anonymized U.S. ChatGPT data reveals significant healthcare-related usage patterns: approximately 2 million weekly messages concern health insurance, while around 600,000 weekly messages classified as healthcare originate from individuals in 'hospital deserts' (areas with a 30-minute drive to the nearest hospital). Notably, 70% of these messages occur outside standard clinic hours, highlighting ChatGPT's role in providing health information access during off-hours and in underserved regions.
+      <title>Anthropic Accidentally Leaked the Entire Claude Code CLI Source Code 摘要</title>
+      <link>https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/</link>
+      <description>Anthropic accidentally leaked the entire source code for Claude Code CLI (nearly 2,000 TypeScript files, over 512,000 lines) by including a source map file in version 2.1.88 of the npm package. Security researcher Chaofan Shou first disclosed the leak on X, leading to widespread forking on GitHub. Anthropic acknowledged it as a packaging error from human error, not a security breach, and stated no customer data or credentials were exposed. However, this incident undermines trust in Claude Code's ability to handle sensitive source code securely.
 
-标签: AI, healthcare, ChatGPT, OpenAI, data analysis, health insurance, accessibility, LLMs, AI ethics, generative AI</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything#sha256:fc33e5d1903006a6</guid>
+标签: security, AI, data-leak, Anthropic, Claude, npm, TypeScript, source-code, GitHub, packaging-error</description>
+      <guid isPermaLink="false">https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/#sha256:4399111c0e2ecc16</guid>
+      <category>security</category>
       <category>AI</category>
-      <category>healthcare</category>
-      <category>ChatGPT</category>
-      <category>OpenAI</category>
-      <category>data analysis</category>
-      <category>health insurance</category>
+      <category>data-leak</category>
+      <category>Anthropic</category>
+      <category>Claude</category>
+      <category>npm</category>
+      <category>TypeScript</category>
+      <category>source-code</category>
+      <category>GitHub</category>
+      <category>packaging-error</category>
+      <pubDate>Tue, 07 Apr 2026 03:04:54 +0800</pubDate>
+    </item>
+    <item>
+      <title>[Sponsor] Zed, a Font Superfamily 摘要</title>
+      <link>https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df</link>
+      <description>Zed is a type system designed for optimal readability, developed by testing with visually impaired patients at a French ophthalmology hospital where Zed Text outperformed Helvetica in reading speed across all groups. It features two optical versions (Text and Display), four variable axes, and supports 547 languages including endangered ones. The font is available directly from its designers.
+
+标签: typography, accessibility, font-design, readability, visual-impairment, multilingual, variable-fonts, design, user-testing, open-type</description>
+      <guid isPermaLink="false">https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df#sha256:3cc8dfa3e3fde495</guid>
+      <category>typography</category>
       <category>accessibility</category>
-      <category>LLMs</category>
-      <category>AI ethics</category>
-      <category>generative AI</category>
-      <pubDate>Mon, 06 Apr 2026 05:47:06 +0800</pubDate>
-    </item>
-    <item>
-      <title>HIPAA compliant AI 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/04/05/hipaa-compliant-ai/</link>
-      <description>The article argues that running AI locally on your own hardware is the most effective way to ensure HIPAA compliance when handling protected health information (PHI), as cloud-based services like ChatGPT, Gemini, and Claude often impose restrictive and expensive requirements, lack full compliance out-of-the-box, or exclude key features. It details how major providers only offer Business Associate Agreements (BAAs) under specific enterprise plans, with many services explicitly not covered, making local deployment with open-weight models on consumer hardware a practical and cost-effective alternative, especially for smaller companies facing diseconomies of scale in cloud compliance.
-
-标签: AI, HIPAA, healthcare, compliance, cloud computing, data privacy, local deployment, PHI, BAA, enterprise AI</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/05/hipaa-compliant-ai/#sha256:a25cfaf13383f850</guid>
-      <category>AI</category>
-      <category>HIPAA</category>
-      <category>healthcare</category>
-      <category>compliance</category>
-      <category>cloud computing</category>
-      <category>data privacy</category>
-      <category>local deployment</category>
-      <category>PHI</category>
-      <category>BAA</category>
-      <category>enterprise AI</category>
-      <pubDate>Mon, 06 Apr 2026 07:04:46 +0800</pubDate>
+      <category>font-design</category>
+      <category>readability</category>
+      <category>visual-impairment</category>
+      <category>multilingual</category>
+      <category>variable-fonts</category>
+      <category>design</category>
+      <category>user-testing</category>
+      <category>open-type</category>
+      <pubDate>Tue, 07 Apr 2026 03:15:05 +0800</pubDate>
     </item>
   </channel>
 </rss>
