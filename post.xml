@@ -8,83 +8,195 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 07 Apr 2026 07:20:06 +0800</lastBuildDate>
-    <pubDate>Tue, 07 Apr 2026 07:20:06 +0800</pubDate>
+    <lastBuildDate>Wed, 08 Apr 2026 07:20:53 +0800</lastBuildDate>
+    <pubDate>Wed, 08 Apr 2026 07:20:53 +0800</pubDate>
     <item>
-      <title>Little Finder Guy Stars in Nine New Videos on TikTok and YouTube 摘要</title>
-      <link>https://www.macrumors.com/2026/04/02/little-finder-guy-tiktok-youtube/</link>
-      <description>Apple has released nine Little Finder Guy videos this week on TikTok and YouTube, where the thumbnails form a mosaic on Apple's TikTok page. The author expresses hope to feature Little Finder Guy as a guest on The Talk Show Live From WWDC in June, while noting concerns about potentially jinxing negotiations.
+      <title>The Data Drop: Every iPhone 摘要</title>
+      <link>https://sheets.works/data-viz/every-iphone</link>
+      <description>Sheets.works, a consulting firm specializing in Google Sheets, has produced an impressive data visualization piece titled 'The Data Drop: Every iPhone'. The work showcases detailed iPhone data, likely including historical models, specifications, or market trends, presented through Google Sheets' capabilities. This demonstrates how specialized tools can be leveraged for sophisticated data presentation beyond typical spreadsheet use.
 
-标签: Apple, Little Finder Guy, TikTok, YouTube, WWDC, The Talk Show, marketing, videos, social media, tech news</description>
-      <guid isPermaLink="false">https://www.macrumors.com/2026/04/02/little-finder-guy-tiktok-youtube/#sha256:b224000aa2c3be4b</guid>
-      <category>Apple</category>
-      <category>Little Finder Guy</category>
-      <category>TikTok</category>
-      <category>YouTube</category>
-      <category>WWDC</category>
-      <category>The Talk Show</category>
-      <category>marketing</category>
-      <category>videos</category>
-      <category>social media</category>
-      <category>tech news</category>
-      <pubDate>Tue, 07 Apr 2026 00:39:26 +0800</pubDate>
-    </item>
-    <item>
-      <title>Prototyping with LLMs 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/prototyping-with-llm/</link>
-      <description>The article discusses the temptation to immediately prototype with LLMs due to their ease of use, but warns this can lead to confusion about project goals. It suggests sketching as a faster, cheaper alternative that helps clarify ideas before committing resources. The author references a biblical parable about planning before building to emphasize the importance of upfront thinking in the design process.
-
-标签: prototyping, LLM, design process, sketching, planning, productivity, AI tools, creative workflow, efficiency, project management</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/prototyping-with-llm/#sha256:2f13cc99e66e04c4</guid>
-      <category>prototyping</category>
-      <category>LLM</category>
-      <category>design process</category>
-      <category>sketching</category>
-      <category>planning</category>
-      <category>productivity</category>
-      <category>AI tools</category>
-      <category>creative workflow</category>
-      <category>efficiency</category>
-      <category>project management</category>
-      <pubDate>Tue, 07 Apr 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Accidentally Leaked the Entire Claude Code CLI Source Code 摘要</title>
-      <link>https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/</link>
-      <description>Anthropic accidentally leaked the entire source code for Claude Code CLI (nearly 2,000 TypeScript files, over 512,000 lines) by including a source map file in version 2.1.88 of the npm package. Security researcher Chaofan Shou first disclosed the leak on X, leading to widespread forking on GitHub. Anthropic acknowledged it as a packaging error from human error, not a security breach, and stated no customer data or credentials were exposed. However, this incident undermines trust in Claude Code's ability to handle sensitive source code securely.
-
-标签: security, AI, data-leak, Anthropic, Claude, npm, TypeScript, source-code, GitHub, packaging-error</description>
-      <guid isPermaLink="false">https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/#sha256:4399111c0e2ecc16</guid>
-      <category>security</category>
-      <category>AI</category>
-      <category>data-leak</category>
-      <category>Anthropic</category>
-      <category>Claude</category>
-      <category>npm</category>
-      <category>TypeScript</category>
-      <category>source-code</category>
-      <category>GitHub</category>
-      <category>packaging-error</category>
-      <pubDate>Tue, 07 Apr 2026 03:04:54 +0800</pubDate>
-    </item>
-    <item>
-      <title>[Sponsor] Zed, a Font Superfamily 摘要</title>
-      <link>https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df</link>
-      <description>Zed is a type system designed for optimal readability, developed by testing with visually impaired patients at a French ophthalmology hospital where Zed Text outperformed Helvetica in reading speed across all groups. It features two optical versions (Text and Display), four variable axes, and supports 547 languages including endangered ones. The font is available directly from its designers.
-
-标签: typography, accessibility, font-design, readability, visual-impairment, multilingual, variable-fonts, design, user-testing, open-type</description>
-      <guid isPermaLink="false">https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df#sha256:3cc8dfa3e3fde495</guid>
-      <category>typography</category>
-      <category>accessibility</category>
-      <category>font-design</category>
-      <category>readability</category>
-      <category>visual-impairment</category>
-      <category>multilingual</category>
-      <category>variable-fonts</category>
+标签: data-visualization, Google-Sheets, consulting, iPhone, data-analysis, tools, business, design</description>
+      <guid isPermaLink="false">https://sheets.works/data-viz/every-iphone#sha256:77c898c798683b5f</guid>
+      <category>data-visualization</category>
+      <category>Google-Sheets</category>
+      <category>consulting</category>
+      <category>iPhone</category>
+      <category>data-analysis</category>
+      <category>tools</category>
+      <category>business</category>
       <category>design</category>
-      <category>user-testing</category>
-      <category>open-type</category>
-      <pubDate>Tue, 07 Apr 2026 03:15:05 +0800</pubDate>
+      <pubDate>Wed, 08 Apr 2026 00:34:14 +0800</pubDate>
+    </item>
+    <item>
+      <title>Flighty Airports Meltdown Map 摘要</title>
+      <link>https://flighty.com/airports</link>
+      <description>Flighty Airports provides live data on major airport delay times across North America, accessible via web with a 'TV Mode' feature and a dedicated mobile app.
+
+标签: travel, airports, delays, real-time data, mobile app, web app, North America, flight tracking, TV mode, transportation</description>
+      <guid isPermaLink="false">https://flighty.com/airports#sha256:6ca5e71caaf36e86</guid>
+      <category>travel</category>
+      <category>airports</category>
+      <category>delays</category>
+      <category>real-time data</category>
+      <category>mobile app</category>
+      <category>web app</category>
+      <category>North America</category>
+      <category>flight tracking</category>
+      <category>TV mode</category>
+      <category>transportation</category>
+      <pubDate>Wed, 08 Apr 2026 00:44:06 +0800</pubDate>
+    </item>
+    <item>
+      <title>Om Malik and Ben Thompson on OpenAI Buying TBPN 摘要</title>
+      <link>https://om.co/2026/04/02/openai-masters-of-agitprop-2-0/</link>
+      <description>The article critiques OpenAI's acquisition of TBPN, a YouTube show, drawing parallels to Lenin's use of the newspaper Pravda for propaganda and organization. OpenAI CEO Fidji Simo justifies the $150 million purchase by claiming the company is driving a major technological shift, not following standard business practices. Ben Thompson questions OpenAI's strategic direction, comparing it to Twitter's chaotic growth and highlighting inconsistencies in its partnerships, advertising, and competition with firms like Anthropic and Google.
+
+标签: OpenAI, TBPN, acquisition, propaganda, business strategy, tech criticism, media, AI industry, leadership, competition</description>
+      <guid isPermaLink="false">https://om.co/2026/04/02/openai-masters-of-agitprop-2-0/#sha256:c4a9b782aee6067a</guid>
+      <category>OpenAI</category>
+      <category>TBPN</category>
+      <category>acquisition</category>
+      <category>propaganda</category>
+      <category>business strategy</category>
+      <category>tech criticism</category>
+      <category>media</category>
+      <category>AI industry</category>
+      <category>leadership</category>
+      <category>competition</category>
+      <pubDate>Wed, 08 Apr 2026 00:52:44 +0800</pubDate>
+    </item>
+    <item>
+      <title>Russia Hacked Routers to Steal Microsoft Office Tokens 摘要</title>
+      <link>https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/</link>
+      <description>Russian military intelligence group Forest Blizzard (APT28) exploited vulnerabilities in older SOHO routers to conduct a large-scale DNS hijacking campaign, compromising over 18,000 networks without deploying malware. By altering DNS settings, they intercepted OAuth authentication tokens from Microsoft Office users, bypassing multi-factor authentication to access accounts. The attack primarily targeted government agencies and email providers, highlighting risks from unpatched, end-of-life network devices.
+
+标签: security, cybersecurity, Russia, APT28, DNS hijacking, OAuth, Microsoft, router vulnerabilities, state-sponsored hacking, authentication tokens</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/#sha256:2a96fc83e779316c</guid>
+      <category>security</category>
+      <category>cybersecurity</category>
+      <category>Russia</category>
+      <category>APT28</category>
+      <category>DNS hijacking</category>
+      <category>OAuth</category>
+      <category>Microsoft</category>
+      <category>router vulnerabilities</category>
+      <category>state-sponsored hacking</category>
+      <category>authentication tokens</category>
+      <pubDate>Wed, 08 Apr 2026 01:02:44 +0800</pubDate>
+    </item>
+    <item>
+      <title>Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything</link>
+      <description>Anthropic has not publicly released its latest model, Claude Mythos, but is offering it to select partners through Project Glasswing due to its advanced cybersecurity capabilities. The model has demonstrated exceptional ability in autonomously developing complex exploits, chaining multiple vulnerabilities, and finding critical bugs in major systems like OpenBSD and Linux. This reflects a broader trend where AI models are significantly improving vulnerability research, leading to a surge in high-quality security reports. Anthropic's cautious approach aims to allow the industry time to prepare safeguards before wider deployment.
+
+标签: AI, security, cybersecurity, LLM, vulnerability-research, Anthropic, Claude-Mythos, Project-Glasswing, exploit-development, open-source-security</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything#sha256:227d9c971c3ab749</guid>
+      <category>AI</category>
+      <category>security</category>
+      <category>cybersecurity</category>
+      <category>LLM</category>
+      <category>vulnerability-research</category>
+      <category>Anthropic</category>
+      <category>Claude-Mythos</category>
+      <category>Project-Glasswing</category>
+      <category>exploit-development</category>
+      <category>open-source-security</category>
+      <pubDate>Wed, 08 Apr 2026 04:52:54 +0800</pubDate>
+    </item>
+    <item>
+      <title>Writing an LLM from scratch, part 32i -- Interventions: what is in the noise? 摘要</title>
+      <link>https://www.gilesthomas.com/2026/04/llm-from-scratch-32i-interventions-what-is-in-the-noise</link>
+      <description>The author trained a 163M-parameter GPT-2-style model from scratch on local hardware, initially achieving a loss of 3.944, higher than GPT-2-small's 3.500. To improve performance, they conducted multiple training runs on an 8x A100 setup, testing interventions like gradient clipping, removing dropout, adding attention bias, learning rate scheduling, weight decay adjustments, weight tying, and using float32 precision. Results showed small improvements (e.g., learning rate scheduling reduced loss by 2%), but some interventions like weight tying were negative. Additional tests confirmed that random seed changes significantly affect initial weights, causing loss variations up to 0.1, while training loop randomness has minimal impact, and deterministic settings can produce bit-wise identical models across runs.
+
+标签: AI, LLM, training, GPT-2, PyTorch, machine-learning, reproducibility, optimization, deep-learning, experimentation</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/llm-from-scratch-32i-interventions-what-is-in-the-noise#sha256:43f04afc3502d36a</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>training</category>
+      <category>GPT-2</category>
+      <category>PyTorch</category>
+      <category>machine-learning</category>
+      <category>reproducibility</category>
+      <category>optimization</category>
+      <category>deep-learning</category>
+      <category>experimentation</category>
+      <pubDate>Wed, 08 Apr 2026 05:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>GLM-5.1: Towards Long-Horizon Tasks 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything</link>
+      <description>Z.ai released GLM-5.1, a 754B parameter open-weight AI model available via OpenRouter. When prompted to generate an SVG of a pelican on a bicycle, it unexpectedly produced an HTML page with CSS animations, but the animation broke the SVG positioning. After a follow-up prompt, the model diagnosed the CSS transform conflict and provided a fixed version using SVG's animateTransform. The article highlights the model's advanced multimodal capabilities, creative output, and debugging skills, with examples including a detailed pelican animation and a possum on an e-scooter.
+
+标签: AI, LLM, generative-ai, multimodal, SVG, CSS, open-source, model-release, debugging, creativity</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything#sha256:cbc895b5451f22b2</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>generative-ai</category>
+      <category>multimodal</category>
+      <category>SVG</category>
+      <category>CSS</category>
+      <category>open-source</category>
+      <category>model-release</category>
+      <category>debugging</category>
+      <category>creativity</category>
+      <pubDate>Wed, 08 Apr 2026 05:25:14 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ OpenAI Announces $122 Billion Additional ‘Committed Capital’, and Announces Their ‘Superapp’ Plan for the Future 摘要</title>
+      <link>https://daringfireball.net/2026/04/openai_future</link>
+      <description>OpenAI recently announced a $122 billion funding round at an $852 billion valuation, comparable to major public companies like Samsung and Eli Lilly. However, the company projects massive losses of $111-143 billion from 2024-2029, raising doubts about its path to profitability. Critics argue OpenAI lacks a defensible moat, and its 'superapp' strategy merging products like ChatGPT and Atlas may complicate rather than simplify user experience. Executive shuffling, including Fidji Simo's medical leave, adds to concerns about strategic cohesion and the justification for its trillion-dollar valuation.
+
+标签: OpenAI, AI, funding, valuation, business strategy, profitability, superapp, leadership, tech criticism, market analysis</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/04/openai_future#sha256:3a9d1f1d48f0c5ca</guid>
+      <category>OpenAI</category>
+      <category>AI</category>
+      <category>funding</category>
+      <category>valuation</category>
+      <category>business strategy</category>
+      <category>profitability</category>
+      <category>superapp</category>
+      <category>leadership</category>
+      <category>tech criticism</category>
+      <category>market analysis</category>
+      <pubDate>Wed, 08 Apr 2026 06:07:08 +0800</pubDate>
+    </item>
+    <item>
+      <title>Sam Altman, in a Video Released by OpenAI, Apparently Thinks AGI Is Going to Hit Society Like a Once-a-Century Pandemic 摘要</title>
+      <link>https://x.com/OpenAINewsroom/status/2041618671236469200?s=20</link>
+      <description>The article critiques Sam Altman's recent statements, comparing his claim that OpenAI employees were focused on COVID weeks before the rest of the world to Donald Trump's false assertion that he predicted the 9/11 attacks. The author finds this comparison unsettling rather than reassuring, suggesting it highlights potential exaggeration or revisionism in Altman's narrative about AGI's societal impact.
+
+标签: AI, OpenAI, Sam Altman, AGI, COVID-19, criticism, comparison, society, pandemic, ethics</description>
+      <guid isPermaLink="false">https://x.com/OpenAINewsroom/status/2041618671236469200?s=20#sha256:76bce675f96c5d72</guid>
+      <category>AI</category>
+      <category>OpenAI</category>
+      <category>Sam Altman</category>
+      <category>AGI</category>
+      <category>COVID-19</category>
+      <category>criticism</category>
+      <category>comparison</category>
+      <category>society</category>
+      <category>pandemic</category>
+      <category>ethics</category>
+      <pubDate>Wed, 08 Apr 2026 06:23:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>Solar Eclipse From the Far Side of the Moon 摘要</title>
+      <link>https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon</link>
+      <description>The article highlights a stunning photograph from NASA's Artemis II mission showing the Moon eclipsing the Sun, described as one of the most breathtaking astronomical images ever seen. It encourages readers to follow NASA on Flickr for more space photography and includes a link to a related post on Daring Fireball about a solar eclipse from the far side of the Moon.
+
+标签: astronomy, NASA, Artemis II, space photography, solar eclipse, Moon, Flickr, astronomical images, space exploration, science</description>
+      <guid isPermaLink="false">https://kottke.org/26/04/solar-eclipse-far-side-of-the-moon#sha256:8b0763186f227fc9</guid>
+      <category>astronomy</category>
+      <category>NASA</category>
+      <category>Artemis II</category>
+      <category>space photography</category>
+      <category>solar eclipse</category>
+      <category>Moon</category>
+      <category>Flickr</category>
+      <category>astronomical images</category>
+      <category>space exploration</category>
+      <category>science</category>
+      <pubDate>Wed, 08 Apr 2026 06:23:27 +0800</pubDate>
     </item>
   </channel>
 </rss>
