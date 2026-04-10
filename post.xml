@@ -8,159 +8,83 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Apr 2026 07:23:30 +0800</lastBuildDate>
-    <pubDate>Fri, 10 Apr 2026 07:23:30 +0800</pubDate>
+    <lastBuildDate>Sat, 11 Apr 2026 07:18:55 +0800</lastBuildDate>
+    <pubDate>Sat, 11 Apr 2026 07:18:55 +0800</pubDate>
     <item>
-      <title>Lickspittle of the Week: Todd Blanche 摘要</title>
-      <link>https://politicalwire.com/2026/04/09/extra-bonus-quote-of-the-day-1022/</link>
-      <description>Acting Attorney General Todd Blanche expressed extreme loyalty to President Trump, stating it was 'the greatest honor of a lifetime' to work for him and that he would gratefully accept any reassignment. The article sarcastically suggests Blanche's subservient attitude resembles the phrase 'Thank you sir, may I have another' from a famous scene, implying blind obedience.
+      <title>Ed Bindels’s Apple Museum in Utrecht, Netherlands 摘要</title>
+      <link>https://applemuseum.nl/</link>
+      <description>A new Apple museum has opened in Utrecht, Netherlands, located about 30–40 minutes south of Amsterdam. The museum features a notable rainbow wall of iMacs, which is described as incredible. The article references Juli Clover as the source for this information.
 
-标签: politics, Trump administration, loyalty, satire, government, Attorney General, subservience, political commentary, humor, quotes</description>
-      <guid isPermaLink="false">https://politicalwire.com/2026/04/09/extra-bonus-quote-of-the-day-1022/#sha256:717128813e07445b</guid>
-      <category>politics</category>
-      <category>Trump administration</category>
-      <category>loyalty</category>
-      <category>satire</category>
-      <category>government</category>
-      <category>Attorney General</category>
-      <category>subservience</category>
-      <category>political commentary</category>
-      <category>humor</category>
-      <category>quotes</category>
-      <pubDate>Fri, 10 Apr 2026 01:10:48 +0800</pubDate>
-    </item>
-    <item>
-      <title>Random hexagon fractal 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/04/09/random-hexagon-fractal/</link>
-      <description>The article describes a method for generating a random fractal using a hexagon. It starts by selecting a random point inside the hexagon, then iteratively picks a random side to form a triangle with that point, updates the point to the triangle's center (e.g., barycenter or incenter), and plots it. Different definitions of 'center' produce distinct fractal images, such as using the centroid versus the incenter, leading to varied visual outcomes. This process relates to chaos games and fractal generation techniques.
-
-标签: fractal, geometry, random, hexagon, triangle, centroid, incenter, chaos game, mathematics, visualization</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/09/random-hexagon-fractal/#sha256:021d81a4c8f0a421</guid>
-      <category>fractal</category>
-      <category>geometry</category>
-      <category>random</category>
-      <category>hexagon</category>
-      <category>triangle</category>
-      <category>centroid</category>
-      <category>incenter</category>
-      <category>chaos game</category>
-      <category>mathematics</category>
-      <category>visualization</category>
-      <pubDate>Fri, 10 Apr 2026 01:25:08 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Great Pyramid of Giza and the Speed of Light 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/04/09/pyramid-speed-of-light/</link>
-      <description>A social media post claims the latitude of the Great Pyramid of Giza matches the speed of light. The speed of light is 299,792,458 m/s, and the latitude 29.9792458° N passes through the pyramid, with its center at 29.97917° N. This is a coincidence, as the meter was defined millennia after the pyramid's construction, making any ancient knowledge implausible.
-
-标签: coincidence, pyramid, speed of light, latitude, history, science, measurement, ancient Egypt, fact-checking, social media</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/09/pyramid-speed-of-light/#sha256:39bf95685386081e</guid>
-      <category>coincidence</category>
-      <category>pyramid</category>
-      <category>speed of light</category>
-      <category>latitude</category>
-      <category>history</category>
-      <category>science</category>
-      <category>measurement</category>
-      <category>ancient Egypt</category>
-      <category>fact-checking</category>
-      <category>social media</category>
-      <pubDate>Fri, 10 Apr 2026 01:54:21 +0800</pubDate>
-    </item>
-    <item>
-      <title>Fewer Computers, Fewer Problems: Going Local With Builds &amp; Deployments 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/fewer-computers-fewer-problems/</link>
-      <description>The author describes moving from cloud-based deployment (Netlify) to a local-first approach for personal websites, citing frustration with debugging remote builds. They restructured their notes site to build locally using a clean copy of the codebase, then deploy via Netlify CLI, eliminating reliance on external servers and ensuring builds work reliably on their machine.
-
-标签: devops, web development, local-first, deployment, personal websites, Netlify, build tools, automation, productivity, simplicity</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/fewer-computers-fewer-problems/#sha256:2c7a8047016f5833</guid>
-      <category>devops</category>
-      <category>web development</category>
-      <category>local-first</category>
-      <category>deployment</category>
-      <category>personal websites</category>
-      <category>Netlify</category>
-      <category>build tools</category>
-      <category>automation</category>
-      <category>productivity</category>
-      <category>simplicity</category>
-      <pubDate>Fri, 10 Apr 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Writing an LLM from scratch, part 32j -- Interventions: trying to train a better model in the cloud 摘要</title>
-      <link>https://www.gilesthomas.com/2026/04/llm-from-scratch-32j-interventions-trying-to-train-a-better-model-in-the-cloud</link>
-      <description>The author experiments with multiple training interventions on a 163M-parameter GPT-2-style model to reduce test loss from 3.944 to approach the original GPT-2's 3.500. After evaluating interventions like weight tying, weight decay, gradient clipping, QKV bias, dropout removal, and learning rate scheduling, they identify five promising ones: gradient clipping, QKV bias, weight decay adjustment, dropout removal, and learning rate changes. They conduct two training runs—one without QKV bias and one with all five interventions—finding that the run without QKV bias achieves a test loss of 3.577761, the best result so far but still above GPT-2's performance. The analysis highlights interactions between interventions, such as weight decay and learning rate, and considers noise effects.
-
-标签: AI, LLM, training, experiments, GPT-2, machine learning, model optimization, interventions, loss reduction, deep learning</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/llm-from-scratch-32j-interventions-trying-to-train-a-better-model-in-the-cloud#sha256:a110595ee46d8c87</guid>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>training</category>
-      <category>experiments</category>
-      <category>GPT-2</category>
-      <category>machine learning</category>
-      <category>model optimization</category>
-      <category>interventions</category>
-      <category>loss reduction</category>
-      <category>deep learning</category>
-      <pubDate>Fri, 10 Apr 2026 04:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Adobe Diddles With Your /etc/hosts File 摘要</title>
-      <link>https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/</link>
-      <description>Adobe Creative Cloud modifies users' hosts files to detect if the software is installed when visiting their website. Originally using localhost connections, Adobe switched to a DNS-based method after Chrome blocked local network access. This practice has been criticized as invasive and comparable to malware behavior, with multiple tech commentators expressing concern about Adobe's departure from best practices.
-
-标签: Adobe, Creative Cloud, privacy, security, hosts file, browser, Chrome, malware, software ethics, web development</description>
-      <guid isPermaLink="false">https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/#sha256:afa649daf21ca6e0</guid>
-      <category>Adobe</category>
-      <category>Creative Cloud</category>
-      <category>privacy</category>
-      <category>security</category>
-      <category>hosts file</category>
-      <category>browser</category>
-      <category>Chrome</category>
-      <category>malware</category>
-      <category>software ethics</category>
-      <category>web development</category>
-      <pubDate>Fri, 10 Apr 2026 04:35:30 +0800</pubDate>
-    </item>
-    <item>
-      <title>GitHub Repo Size 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything</link>
-      <description>This article introduces a web tool that displays GitHub repository sizes, which aren't shown in GitHub's user interface but are accessible via GitHub's CORS-friendly API. Users can paste a repository name into the tool to view its size, with an example provided for the datasette repository (8.1MB).
-
-标签: GitHub, API, CORS, web-tool, repository, developer-tools, size, datasette, open-source, utility</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything#sha256:398f3728309d74c6</guid>
-      <category>GitHub</category>
-      <category>API</category>
-      <category>CORS</category>
-      <category>web-tool</category>
-      <category>repository</category>
-      <category>developer-tools</category>
-      <category>size</category>
-      <category>datasette</category>
-      <category>open-source</category>
-      <category>utility</category>
-      <pubDate>Fri, 10 Apr 2026 05:31:50 +0800</pubDate>
-    </item>
-    <item>
-      <title>MacOS Seemingly Crashes After 49 Days of Uptime — a ‘Feature’ Perhaps Exclusive to Tahoe 摘要</title>
-      <link>https://sixcolors.com/link/2026/04/macs-crash-after-49-days-of-uptime/</link>
-      <description>A critical bug in macOS Tahoe's XNU kernel causes system freezes after exactly 49 days, 17 hours, 2 minutes, and 47 seconds of continuous uptime. The issue stems from a 32-bit unsigned integer overflow in the TCP timestamp clock, where milliseconds stored in a uint32_t variable overflow. While ICMP (ping) remains functional, most network operations fail, requiring a reboot. The bug appears new to macOS Tahoe, as code analysis shows recent changes in Apple's open-source kernel, and previous macOS versions like Sequoia supported much longer uptimes without issue.
-
-标签: macOS, kernel, bug, TCP, networking, XNU, uptime, integer-overflow, Apple, system-crash</description>
-      <guid isPermaLink="false">https://sixcolors.com/link/2026/04/macs-crash-after-49-days-of-uptime/#sha256:11215854aa2a3259</guid>
-      <category>macOS</category>
-      <category>kernel</category>
-      <category>bug</category>
-      <category>TCP</category>
-      <category>networking</category>
-      <category>XNU</category>
-      <category>uptime</category>
-      <category>integer-overflow</category>
+标签: Apple, museum, Utrecht, Netherlands, iMac, technology, design, history, exhibition, Europe</description>
+      <guid isPermaLink="false">https://applemuseum.nl/#sha256:c00fbb5850a1e5c8</guid>
       <category>Apple</category>
-      <category>system-crash</category>
-      <pubDate>Fri, 10 Apr 2026 06:14:13 +0800</pubDate>
+      <category>museum</category>
+      <category>Utrecht</category>
+      <category>Netherlands</category>
+      <category>iMac</category>
+      <category>technology</category>
+      <category>design</category>
+      <category>history</category>
+      <category>exhibition</category>
+      <category>Europe</category>
+      <pubDate>Sat, 11 Apr 2026 00:35:03 +0800</pubDate>
+    </item>
+    <item>
+      <title>Premium: The Hater's Guide to OpenAI 摘要</title>
+      <link>https://www.wheresyoured.at/hatersguide-openai/</link>
+      <description>The article criticizes Sam Altman and OpenAI for alleged deceptive practices, including misleading revenue reporting and unrealistic financial commitments. It claims OpenAI inflates revenue figures through creative accounting, such as counting free tokens as sales, and questions media complicity in uncritically reporting claims like a $600 billion compute spending target by 2030. The author argues OpenAI's business model is unsustainable, with costs potentially exceeding revenue, and draws parallels to past failures like FTX.
+
+标签: AI, business, ethics, media, finance, OpenAI, deception, reporting, startups, controversy</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/hatersguide-openai/#sha256:644564d10e1e91f1</guid>
+      <category>AI</category>
+      <category>business</category>
+      <category>ethics</category>
+      <category>media</category>
+      <category>finance</category>
+      <category>OpenAI</category>
+      <category>deception</category>
+      <category>reporting</category>
+      <category>startups</category>
+      <category>controversy</category>
+      <pubDate>Sat, 11 Apr 2026 00:57:30 +0800</pubDate>
+    </item>
+    <item>
+      <title>Kākāpō parrots 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything</link>
+      <description>Lenny shared a video clip from a longer podcast recording with Simon Willison, focusing on kākāpō parrots. The post includes an embedded video with a preview image and is tagged with 'kakapo'.
+
+标签: kakapo, parrots, podcast, wildlife, video, social media, nature, conservation, birds, Lenny</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything#sha256:a2fa4ab074ab846c</guid>
+      <category>kakapo</category>
+      <category>parrots</category>
+      <category>podcast</category>
+      <category>wildlife</category>
+      <category>video</category>
+      <category>social media</category>
+      <category>nature</category>
+      <category>conservation</category>
+      <category>birds</category>
+      <category>Lenny</category>
+      <pubDate>Sat, 11 Apr 2026 03:07:02 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ Let Us Learn to Show Our Friendship for a Man When He Is Alive and Not After He Is Dead 摘要</title>
+      <link>https://daringfireball.net/2026/04/when_he_is_alive_and_not_after_he_is_dead</link>
+      <description>A New Yorker profile investigates Sam Altman's trustworthiness, focusing on his 2023 OpenAI ouster and return. Key findings include colleagues describing him as having a 'sociopathic lack of concern for consequences' and Aaron Swartz warning he 'can never be trusted.' The article also details his ambiguous departure from Y Combinator, where Paul Graham reportedly said Altman had been 'lying to us all the time,' though Graham publicly denies firing him. It raises questions about Altman's hiring of Fidji Simo, who faced FTC fines at Instacart, and suggests internal power struggles at OpenAI.
+
+标签: Sam Altman, OpenAI, trustworthiness, leadership, AI ethics, corporate governance, Y Combinator, investigative journalism, business ethics, power dynamics</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/04/when_he_is_alive_and_not_after_he_is_dead#sha256:052407b56fbf8b3c</guid>
+      <category>Sam Altman</category>
+      <category>OpenAI</category>
+      <category>trustworthiness</category>
+      <category>leadership</category>
+      <category>AI ethics</category>
+      <category>corporate governance</category>
+      <category>Y Combinator</category>
+      <category>investigative journalism</category>
+      <category>business ethics</category>
+      <category>power dynamics</category>
+      <pubDate>Sat, 11 Apr 2026 05:29:46 +0800</pubDate>
     </item>
   </channel>
 </rss>
