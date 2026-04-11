@@ -8,83 +8,64 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Apr 2026 07:18:55 +0800</lastBuildDate>
-    <pubDate>Sat, 11 Apr 2026 07:18:55 +0800</pubDate>
+    <lastBuildDate>Sun, 12 Apr 2026 07:16:23 +0800</lastBuildDate>
+    <pubDate>Sun, 12 Apr 2026 07:16:23 +0800</pubDate>
     <item>
-      <title>Ed Bindels’s Apple Museum in Utrecht, Netherlands 摘要</title>
-      <link>https://applemuseum.nl/</link>
-      <description>A new Apple museum has opened in Utrecht, Netherlands, located about 30–40 minutes south of Amsterdam. The museum features a notable rainbow wall of iMacs, which is described as incredible. The article references Juli Clover as the source for this information.
+      <title>Pan American Luggage Labels 摘要</title>
+      <link>https://ellafreire.com/collections/pan-american-luggage-labels</link>
+      <description>The article features graphic designer Ella Freire's art pieces that recreate vintage Pan Am luggage tags, described as 'achingly gorgeous' with praise for their colors, typography, and shapes. It is shared via Dan Cederholm's Studio Notes and linked from Daringfireball.net, presenting it as a fun weekend design inspiration.
 
-标签: Apple, museum, Utrecht, Netherlands, iMac, technology, design, history, exhibition, Europe</description>
-      <guid isPermaLink="false">https://applemuseum.nl/#sha256:c00fbb5850a1e5c8</guid>
-      <category>Apple</category>
-      <category>museum</category>
-      <category>Utrecht</category>
-      <category>Netherlands</category>
-      <category>iMac</category>
-      <category>technology</category>
-      <category>design</category>
-      <category>history</category>
-      <category>exhibition</category>
-      <category>Europe</category>
-      <pubDate>Sat, 11 Apr 2026 00:35:03 +0800</pubDate>
+标签: graphic design, art, vintage, luggage tags, Pan Am, Ella Freire, typography, color, design inspiration, weekend fun</description>
+      <guid isPermaLink="false">https://ellafreire.com/collections/pan-american-luggage-labels#sha256:4c7612bf123aa0d5</guid>
+      <category>graphic design</category>
+      <category>art</category>
+      <category>vintage</category>
+      <category>luggage tags</category>
+      <category>Pan Am</category>
+      <category>Ella Freire</category>
+      <category>typography</category>
+      <category>color</category>
+      <category>design inspiration</category>
+      <category>weekend fun</category>
+      <pubDate>Sun, 12 Apr 2026 00:55:24 +0800</pubDate>
     </item>
     <item>
-      <title>Premium: The Hater's Guide to OpenAI 摘要</title>
-      <link>https://www.wheresyoured.at/hatersguide-openai/</link>
-      <description>The article criticizes Sam Altman and OpenAI for alleged deceptive practices, including misleading revenue reporting and unrealistic financial commitments. It claims OpenAI inflates revenue figures through creative accounting, such as counting free tokens as sales, and questions media complicity in uncritically reporting claims like a $600 billion compute spending target by 2030. The author argues OpenAI's business model is unsustainable, with costs potentially exceeding revenue, and draws parallels to past failures like FTX.
+      <title>SQLite Query Result Formatter Demo 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything</link>
+      <description>Simon Willison has created a demo tool called SQLite Query Result Formatter Demo, which provides a user interface for experimenting with different rendering options for SQL result tables. This tool utilizes the new Query Result Formatter library compiled to WebAssembly. It is related to his notes on SQLite 3.53.0, and the article is tagged with 'tools' and 'sqlite'.
 
-标签: AI, business, ethics, media, finance, OpenAI, deception, reporting, startups, controversy</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/hatersguide-openai/#sha256:644564d10e1e91f1</guid>
-      <category>AI</category>
-      <category>business</category>
-      <category>ethics</category>
-      <category>media</category>
-      <category>finance</category>
-      <category>OpenAI</category>
-      <category>deception</category>
-      <category>reporting</category>
-      <category>startups</category>
-      <category>controversy</category>
-      <pubDate>Sat, 11 Apr 2026 00:57:30 +0800</pubDate>
+标签: tools, sqlite, database, webassembly, demo, query, formatter, ui, playground, library</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything#sha256:4d0b8cbaff65e2d6</guid>
+      <category>tools</category>
+      <category>sqlite</category>
+      <category>database</category>
+      <category>webassembly</category>
+      <category>demo</category>
+      <category>query</category>
+      <category>formatter</category>
+      <category>ui</category>
+      <category>playground</category>
+      <category>library</category>
+      <pubDate>Sun, 12 Apr 2026 03:35:31 +0800</pubDate>
     </item>
     <item>
-      <title>Kākāpō parrots 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything</link>
-      <description>Lenny shared a video clip from a longer podcast recording with Simon Willison, focusing on kākāpō parrots. The post includes an embedded video with a preview image and is tagged with 'kakapo'.
+      <title>SQLite 3.53.0 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything</link>
+      <description>SQLite 3.53.0 is a major release following the withdrawal of version 3.52.0, featuring significant user-facing and internal improvements. Key updates include the ability for ALTER TABLE to add and remove NOT NULL and CHECK constraints, the addition of new json_array_insert() and jsonb functions, and substantial CLI mode enhancements with improved result formatting via the new Query Results Formatter library. A WebAssembly-based playground interface has been created to experiment with the formatter.
 
-标签: kakapo, parrots, podcast, wildlife, video, social media, nature, conservation, birds, Lenny</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything#sha256:a2fa4ab074ab846c</guid>
-      <category>kakapo</category>
-      <category>parrots</category>
-      <category>podcast</category>
-      <category>wildlife</category>
-      <category>video</category>
-      <category>social media</category>
-      <category>nature</category>
-      <category>conservation</category>
-      <category>birds</category>
-      <category>Lenny</category>
-      <pubDate>Sat, 11 Apr 2026 03:07:02 +0800</pubDate>
-    </item>
-    <item>
-      <title>★ Let Us Learn to Show Our Friendship for a Man When He Is Alive and Not After He Is Dead 摘要</title>
-      <link>https://daringfireball.net/2026/04/when_he_is_alive_and_not_after_he_is_dead</link>
-      <description>A New Yorker profile investigates Sam Altman's trustworthiness, focusing on his 2023 OpenAI ouster and return. Key findings include colleagues describing him as having a 'sociopathic lack of concern for consequences' and Aaron Swartz warning he 'can never be trusted.' The article also details his ambiguous departure from Y Combinator, where Paul Graham reportedly said Altman had been 'lying to us all the time,' though Graham publicly denies firing him. It raises questions about Altman's hiring of Fidji Simo, who faced FTC fines at Instacart, and suggests internal power struggles at OpenAI.
-
-标签: Sam Altman, OpenAI, trustworthiness, leadership, AI ethics, corporate governance, Y Combinator, investigative journalism, business ethics, power dynamics</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/04/when_he_is_alive_and_not_after_he_is_dead#sha256:052407b56fbf8b3c</guid>
-      <category>Sam Altman</category>
-      <category>OpenAI</category>
-      <category>trustworthiness</category>
-      <category>leadership</category>
-      <category>AI ethics</category>
-      <category>corporate governance</category>
-      <category>Y Combinator</category>
-      <category>investigative journalism</category>
-      <category>business ethics</category>
-      <category>power dynamics</category>
-      <pubDate>Sat, 11 Apr 2026 05:29:46 +0800</pubDate>
+标签: sqlite, database, sql, release, cli, json, constraints, webassembly, tools, development</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything#sha256:4016df396a6f699f</guid>
+      <category>sqlite</category>
+      <category>database</category>
+      <category>sql</category>
+      <category>release</category>
+      <category>cli</category>
+      <category>json</category>
+      <category>constraints</category>
+      <category>webassembly</category>
+      <category>tools</category>
+      <category>development</category>
+      <pubDate>Sun, 12 Apr 2026 03:56:53 +0800</pubDate>
     </item>
   </channel>
 </rss>
