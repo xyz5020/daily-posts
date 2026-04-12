@@ -8,64 +8,83 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 12 Apr 2026 07:16:23 +0800</lastBuildDate>
-    <pubDate>Sun, 12 Apr 2026 07:16:23 +0800</pubDate>
+    <lastBuildDate>Mon, 13 Apr 2026 07:17:37 +0800</lastBuildDate>
+    <pubDate>Mon, 13 Apr 2026 07:17:37 +0800</pubDate>
     <item>
-      <title>Pan American Luggage Labels 摘要</title>
-      <link>https://ellafreire.com/collections/pan-american-luggage-labels</link>
-      <description>The article features graphic designer Ella Freire's art pieces that recreate vintage Pan Am luggage tags, described as 'achingly gorgeous' with praise for their colors, typography, and shapes. It is shared via Dan Cederholm's Studio Notes and linked from Daringfireball.net, presenting it as a fun weekend design inspiration.
+      <title>Your AWS Certificate Makes You an AWS Salesman 摘要</title>
+      <link>https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed</link>
+      <description>The author describes their initial confusion with AWS's complex interface, noting that finding basic services like web hosting was difficult. They discovered EC2 through the Free Tier but highlight AWS's opaque pricing that requires third-party calculators. The article argues AWS's complexity creates a moat, making developers believe it's the only option, while simpler, cheaper alternatives like DigitalOcean or Linode exist and often suffice for most needs. It concludes that web hosting is more accessible than AWS suggests, with many affordable VPS options available.
 
-标签: graphic design, art, vintage, luggage tags, Pan Am, Ella Freire, typography, color, design inspiration, weekend fun</description>
-      <guid isPermaLink="false">https://ellafreire.com/collections/pan-american-luggage-labels#sha256:4c7612bf123aa0d5</guid>
+标签: AWS, cloud computing, web hosting, EC2, pricing, developer tools, VPS, DigitalOcean, Linode, Free Tier</description>
+      <guid isPermaLink="false">https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed#sha256:359a1a2b9a44db4d</guid>
+      <category>AWS</category>
+      <category>cloud computing</category>
+      <category>web hosting</category>
+      <category>EC2</category>
+      <category>pricing</category>
+      <category>developer tools</category>
+      <category>VPS</category>
+      <category>DigitalOcean</category>
+      <category>Linode</category>
+      <category>Free Tier</category>
+      <pubDate>Mon, 13 Apr 2026 01:25:33 +0800</pubDate>
+    </item>
+    <item>
+      <title>Golden Tickets 摘要</title>
+      <link>https://www.presentandcorrect.com/blogs/blog/golden-tickets</link>
+      <description>This article highlights a collection of vintage Milwaukee bus tickets from the late 1940s to early 1950s, featured on the Present &amp; Correct blog. It emphasizes the graphic design elements, noting the variety in colors and typography that still maintain a cohesive brand identity. The author reflects on the care and passion evident in the weekly designs, transforming mundane bus passes into exuberant expressions of fun, with a particular mention of the integration of hand-lettering and typefaces.
+
+标签: graphic design, vintage, typography, bus tickets, Milwaukee, 1940s, 1950s, branding, hand-lettering, design history</description>
+      <guid isPermaLink="false">https://www.presentandcorrect.com/blogs/blog/golden-tickets#sha256:72a250ff0d75d423</guid>
       <category>graphic design</category>
-      <category>art</category>
       <category>vintage</category>
-      <category>luggage tags</category>
-      <category>Pan Am</category>
-      <category>Ella Freire</category>
       <category>typography</category>
-      <category>color</category>
-      <category>design inspiration</category>
-      <category>weekend fun</category>
-      <pubDate>Sun, 12 Apr 2026 00:55:24 +0800</pubDate>
+      <category>bus tickets</category>
+      <category>Milwaukee</category>
+      <category>1940s</category>
+      <category>1950s</category>
+      <category>branding</category>
+      <category>hand-lettering</category>
+      <category>design history</category>
+      <pubDate>Mon, 13 Apr 2026 01:39:26 +0800</pubDate>
     </item>
     <item>
-      <title>SQLite Query Result Formatter Demo 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything</link>
-      <description>Simon Willison has created a demo tool called SQLite Query Result Formatter Demo, which provides a user interface for experimenting with different rendering options for SQL result tables. This tool utilizes the new Query Result Formatter library compiled to WebAssembly. It is related to his notes on SQLite 3.53.0, and the article is tagged with 'tools' and 'sqlite'.
+      <title>Viktor Orban Loses Election in Hungary, Concedes Defeat, Congratulates Opposition Winners 摘要</title>
+      <link>https://www.nytimes.com/2026/04/12/world/europe/hungary-election-orban-magyar.html</link>
+      <description>Viktor Orban has conceded defeat in Hungary's election, congratulating the opposition in a speech where he stated, 'The responsibility and opportunity to govern were not given to us.' He vowed, 'We are not giving up. Never, never, never.' The results pave the way for Peter Magyar, a former Orban loyalist and opposition leader, to become prime minister. Orban acknowledged the election results as 'understandable and clear' and 'painful for us but unequivocal.' The article contrasts Orban's concession with Donald Trump's refusal to concede the 2020 U.S. election.
 
-标签: tools, sqlite, database, webassembly, demo, query, formatter, ui, playground, library</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything#sha256:4d0b8cbaff65e2d6</guid>
-      <category>tools</category>
-      <category>sqlite</category>
-      <category>database</category>
-      <category>webassembly</category>
-      <category>demo</category>
-      <category>query</category>
-      <category>formatter</category>
-      <category>ui</category>
-      <category>playground</category>
-      <category>library</category>
-      <pubDate>Sun, 12 Apr 2026 03:35:31 +0800</pubDate>
+标签: politics, election, Hungary, Viktor Orban, concession, opposition, Peter Magyar, democracy, comparison, Donald Trump</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/04/12/world/europe/hungary-election-orban-magyar.html#sha256:b97552bb6c5a3c11</guid>
+      <category>politics</category>
+      <category>election</category>
+      <category>Hungary</category>
+      <category>Viktor Orban</category>
+      <category>concession</category>
+      <category>opposition</category>
+      <category>Peter Magyar</category>
+      <category>democracy</category>
+      <category>comparison</category>
+      <category>Donald Trump</category>
+      <pubDate>Mon, 13 Apr 2026 05:59:00 +0800</pubDate>
     </item>
     <item>
-      <title>SQLite 3.53.0 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything</link>
-      <description>SQLite 3.53.0 is a major release following the withdrawal of version 3.52.0, featuring significant user-facing and internal improvements. Key updates include the ability for ALTER TABLE to add and remove NOT NULL and CHECK constraints, the addition of new json_array_insert() and jsonb functions, and substantial CLI mode enhancements with improved result formatting via the new Query Results Formatter library. A WebAssembly-based playground interface has been created to experiment with the formatter.
+      <title>Zed — A Font Superfamily 摘要</title>
+      <link>https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df</link>
+      <description>Zed is a new font superfamily designed with accessibility as a core principle. Developed by Typotheque, it was tested with visually impaired patients at a French ophthalmology hospital and found to outperform Helvetica in reading speed across all groups. The font system includes two optical versions (Text and Display), four variable axes (width, weight, roundness, slant), support for 547 languages including endangered ones, Braille characters, and an icon font. Zed demonstrates that accessibility and aesthetic appeal can coexist, offering both practical functionality and beautiful design.
 
-标签: sqlite, database, sql, release, cli, json, constraints, webassembly, tools, development</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything#sha256:4016df396a6f699f</guid>
-      <category>sqlite</category>
-      <category>database</category>
-      <category>sql</category>
-      <category>release</category>
-      <category>cli</category>
-      <category>json</category>
-      <category>constraints</category>
-      <category>webassembly</category>
-      <category>tools</category>
-      <category>development</category>
-      <pubDate>Sun, 12 Apr 2026 03:56:53 +0800</pubDate>
+标签: typography, accessibility, font-design, user-experience, visual-design, inclusive-design, language-support, variable-fonts, design-systems, product-design</description>
+      <guid isPermaLink="false">https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df#sha256:8eff2f7505bacf72</guid>
+      <category>typography</category>
+      <category>accessibility</category>
+      <category>font-design</category>
+      <category>user-experience</category>
+      <category>visual-design</category>
+      <category>inclusive-design</category>
+      <category>language-support</category>
+      <category>variable-fonts</category>
+      <category>design-systems</category>
+      <category>product-design</category>
+      <pubDate>Mon, 13 Apr 2026 06:00:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
