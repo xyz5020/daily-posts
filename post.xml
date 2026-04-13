@@ -8,83 +8,140 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 13 Apr 2026 07:17:37 +0800</lastBuildDate>
-    <pubDate>Mon, 13 Apr 2026 07:17:37 +0800</pubDate>
+    <lastBuildDate>Tue, 14 Apr 2026 07:24:38 +0800</lastBuildDate>
+    <pubDate>Tue, 14 Apr 2026 07:24:38 +0800</pubDate>
     <item>
-      <title>Your AWS Certificate Makes You an AWS Salesman 摘要</title>
-      <link>https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed</link>
-      <description>The author describes their initial confusion with AWS's complex interface, noting that finding basic services like web hosting was difficult. They discovered EC2 through the Free Tier but highlight AWS's opaque pricing that requires third-party calculators. The article argues AWS's complexity creates a moat, making developers believe it's the only option, while simpler, cheaper alternatives like DigitalOcean or Linode exist and often suffice for most needs. It concludes that web hosting is more accessible than AWS suggests, with many affordable VPS options available.
+      <title>FT: ‘Meta Builds AI Version of Mark Zuckerberg to Interact With Staff’ 摘要</title>
+      <link>https://www.ft.com/content/02107c23-6c7a-4c19-b8e2-b45f4bb9ce5f</link>
+      <description>Meta is developing an AI version of Mark Zuckerberg to interact with employees, trained on his mannerisms, tone, public statements, and company strategies. The goal is to help employees feel more connected to the founder through conversations and feedback. This initiative has drawn comparisons to dystopian sci-fi and sparked criticism, such as skepticism about replicating his warmth or empathy.
 
-标签: AWS, cloud computing, web hosting, EC2, pricing, developer tools, VPS, DigitalOcean, Linode, Free Tier</description>
-      <guid isPermaLink="false">https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed#sha256:359a1a2b9a44db4d</guid>
-      <category>AWS</category>
-      <category>cloud computing</category>
-      <category>web hosting</category>
-      <category>EC2</category>
-      <category>pricing</category>
-      <category>developer tools</category>
-      <category>VPS</category>
-      <category>DigitalOcean</category>
-      <category>Linode</category>
-      <category>Free Tier</category>
-      <pubDate>Mon, 13 Apr 2026 01:25:33 +0800</pubDate>
+标签: AI, Meta, Mark Zuckerberg, corporate culture, employee engagement, dystopian, tech ethics, virtual assistant, leadership, news</description>
+      <guid isPermaLink="false">https://www.ft.com/content/02107c23-6c7a-4c19-b8e2-b45f4bb9ce5f#sha256:e372133d08eb48a6</guid>
+      <category>AI</category>
+      <category>Meta</category>
+      <category>Mark Zuckerberg</category>
+      <category>corporate culture</category>
+      <category>employee engagement</category>
+      <category>dystopian</category>
+      <category>tech ethics</category>
+      <category>virtual assistant</category>
+      <category>leadership</category>
+      <category>news</category>
+      <pubDate>Tue, 14 Apr 2026 00:56:46 +0800</pubDate>
     </item>
     <item>
-      <title>Golden Tickets 摘要</title>
-      <link>https://www.presentandcorrect.com/blogs/blog/golden-tickets</link>
-      <description>This article highlights a collection of vintage Milwaukee bus tickets from the late 1940s to early 1950s, featured on the Present &amp; Correct blog. It emphasizes the graphic design elements, noting the variety in colors and typography that still maintain a cohesive brand identity. The author reflects on the care and passion evident in the weekly designs, transforming mundane bus passes into exuberant expressions of fun, with a particular mention of the integration of hand-lettering and typefaces.
+      <title>MacOS Tip: Enable the Zoom ‘Peek’ Gesture 摘要</title>
+      <link>https://unsung.aresluna.org/testing-tip-enable-the-zoom-peek-gesture/</link>
+      <description>The article describes a built-in macOS accessibility feature that allows users to zoom the entire screen by holding Control and swiping with two fingers or using a scroll wheel. It highlights the tip to disable 'Smooth images' for clearer pixel visibility. The author learned about this from a friend at WWDC and emphasizes its usefulness for design details, recommending readers enable it and subscribe to Marcin Wichary's blog 'Unsung' for more nuanced insights.
 
-标签: graphic design, vintage, typography, bus tickets, Milwaukee, 1940s, 1950s, branding, hand-lettering, design history</description>
-      <guid isPermaLink="false">https://www.presentandcorrect.com/blogs/blog/golden-tickets#sha256:72a250ff0d75d423</guid>
-      <category>graphic design</category>
-      <category>vintage</category>
-      <category>typography</category>
-      <category>bus tickets</category>
-      <category>Milwaukee</category>
-      <category>1940s</category>
-      <category>1950s</category>
-      <category>branding</category>
-      <category>hand-lettering</category>
-      <category>design history</category>
-      <pubDate>Mon, 13 Apr 2026 01:39:26 +0800</pubDate>
-    </item>
-    <item>
-      <title>Viktor Orban Loses Election in Hungary, Concedes Defeat, Congratulates Opposition Winners 摘要</title>
-      <link>https://www.nytimes.com/2026/04/12/world/europe/hungary-election-orban-magyar.html</link>
-      <description>Viktor Orban has conceded defeat in Hungary's election, congratulating the opposition in a speech where he stated, 'The responsibility and opportunity to govern were not given to us.' He vowed, 'We are not giving up. Never, never, never.' The results pave the way for Peter Magyar, a former Orban loyalist and opposition leader, to become prime minister. Orban acknowledged the election results as 'understandable and clear' and 'painful for us but unequivocal.' The article contrasts Orban's concession with Donald Trump's refusal to concede the 2020 U.S. election.
-
-标签: politics, election, Hungary, Viktor Orban, concession, opposition, Peter Magyar, democracy, comparison, Donald Trump</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/04/12/world/europe/hungary-election-orban-magyar.html#sha256:b97552bb6c5a3c11</guid>
-      <category>politics</category>
-      <category>election</category>
-      <category>Hungary</category>
-      <category>Viktor Orban</category>
-      <category>concession</category>
-      <category>opposition</category>
-      <category>Peter Magyar</category>
-      <category>democracy</category>
-      <category>comparison</category>
-      <category>Donald Trump</category>
-      <pubDate>Mon, 13 Apr 2026 05:59:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Zed — A Font Superfamily 摘要</title>
-      <link>https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df</link>
-      <description>Zed is a new font superfamily designed with accessibility as a core principle. Developed by Typotheque, it was tested with visually impaired patients at a French ophthalmology hospital and found to outperform Helvetica in reading speed across all groups. The font system includes two optical versions (Text and Display), four variable axes (width, weight, roundness, slant), support for 547 languages including endangered ones, Braille characters, and an icon font. Zed demonstrates that accessibility and aesthetic appeal can coexist, offering both practical functionality and beautiful design.
-
-标签: typography, accessibility, font-design, user-experience, visual-design, inclusive-design, language-support, variable-fonts, design-systems, product-design</description>
-      <guid isPermaLink="false">https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df#sha256:8eff2f7505bacf72</guid>
-      <category>typography</category>
+标签: macOS, accessibility, tips, design, gestures, productivity, software, UI, blog, WWDC</description>
+      <guid isPermaLink="false">https://unsung.aresluna.org/testing-tip-enable-the-zoom-peek-gesture/#sha256:3e6a0588b2c6b862</guid>
+      <category>macOS</category>
       <category>accessibility</category>
-      <category>font-design</category>
-      <category>user-experience</category>
-      <category>visual-design</category>
-      <category>inclusive-design</category>
-      <category>language-support</category>
-      <category>variable-fonts</category>
-      <category>design-systems</category>
-      <category>product-design</category>
-      <pubDate>Mon, 13 Apr 2026 06:00:00 +0800</pubDate>
+      <category>tips</category>
+      <category>design</category>
+      <category>gestures</category>
+      <category>productivity</category>
+      <category>software</category>
+      <category>UI</category>
+      <category>blog</category>
+      <category>WWDC</category>
+      <pubDate>Tue, 14 Apr 2026 01:43:16 +0800</pubDate>
+    </item>
+    <item>
+      <title>Marcin Wichary Visits the Large Scale Systems Museum 摘要</title>
+      <link>https://flickr.com/photos/mwichary/albums/72177720332956990/</link>
+      <description>The article discusses Marcin Wichary's photos from the Large Scale Systems Museum, which the author discovered through Wichary's Flickr album and Mastodon thread. It highlights a particular image of a vintage keyboard with a "RE-START" key that has the word broken across two lines, noting its aesthetic appeal despite being technically incorrect. The author expresses a desire to visit the museum after seeing these photos.
+
+标签: museum, vintage, keyboard, photography, technology, design, Flickr, Mastodon, art, history</description>
+      <guid isPermaLink="false">https://flickr.com/photos/mwichary/albums/72177720332956990/#sha256:dede0e15237f2299</guid>
+      <category>museum</category>
+      <category>vintage</category>
+      <category>keyboard</category>
+      <category>photography</category>
+      <category>technology</category>
+      <category>design</category>
+      <category>Flickr</category>
+      <category>Mastodon</category>
+      <category>art</category>
+      <category>history</category>
+      <pubDate>Tue, 14 Apr 2026 03:09:13 +0800</pubDate>
+    </item>
+    <item>
+      <title>John Martellaro, RIP 摘要</title>
+      <link>https://geektells.com/john-martellaro-remembrance/</link>
+      <description>This article is a tribute to John Martellaro, a former U.S. Air Force Captain, NASA scientist, and Apple employee who became a prominent columnist for Mac publications like The Mac Observer. It highlights his notable columns, including a 2010 piece detailing Apple's strategy of controlled leaks to manage public expectations, exemplified by a pre-iPad leak that set a $1,000 price expectation (vs. the actual $500 launch price), and a 2011 prediction accurately foreseeing Apple's development of a 7-inch iPad, which materialized as the iPad Mini in 2012. The piece reflects on his legacy as a voice of reason in tech journalism.
+
+标签: obituary, Apple, tech journalism, controlled leaks, iPad, iPad Mini, marketing strategy, Mac, prediction, tribute</description>
+      <guid isPermaLink="false">https://geektells.com/john-martellaro-remembrance/#sha256:1d49ce152bcf29c8</guid>
+      <category>obituary</category>
+      <category>Apple</category>
+      <category>tech journalism</category>
+      <category>controlled leaks</category>
+      <category>iPad</category>
+      <category>iPad Mini</category>
+      <category>marketing strategy</category>
+      <category>Mac</category>
+      <category>prediction</category>
+      <category>tribute</category>
+      <pubDate>Tue, 14 Apr 2026 03:49:32 +0800</pubDate>
+    </item>
+    <item>
+      <title>Tahoe Nitpick of the Day: ‘Reduce Transparency’ Makes Layers Harder to See, Not Easier 摘要</title>
+      <link>https://mastodon.social/@tuomas_h/116397694769738857</link>
+      <description>Tuomas Hämäläinen critiques Mac OS 26.4's accessibility feature 'Reduce transparency', noting that enabling it paradoxically reduces contrast between UI elements and backgrounds, making buttons and sidebars blend with drop shadows due to a grey cast. The post also mentions Tahoe, described as Huawei's rushed imitation of what it should be, highlighting design flaws in both software and hardware interfaces.
+
+标签: accessibility, UI design, Mac OS, contrast, transparency, software critique, hardware design, Huawei, Tahoe, user experience</description>
+      <guid isPermaLink="false">https://mastodon.social/@tuomas_h/116397694769738857#sha256:ad446fb33e959b6f</guid>
+      <category>accessibility</category>
+      <category>UI design</category>
+      <category>Mac OS</category>
+      <category>contrast</category>
+      <category>transparency</category>
+      <category>software critique</category>
+      <category>hardware design</category>
+      <category>Huawei</category>
+      <category>Tahoe</category>
+      <category>user experience</category>
+      <pubDate>Tue, 14 Apr 2026 04:56:15 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Steve Yegge 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything</link>
+      <description>Steve Yegge critiques Google's AI adoption, comparing it to John Deere's slow uptake. He notes an industry-wide pattern: 20% are agentic power users, 20% outright refuse AI tools, and 60% still rely on basic chat tools like Cursor. Google mirrors this curve, with no external hires in over 18 months due to a hiring freeze, leaving the organization unaware of its mediocrity and lagging behind in engineering innovation.
+
+标签: AI, Google, industry-trends, engineering-culture, agentic-engineering, generative-AI, hiring-freeze, organizational-change, technology-adoption, critique</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything#sha256:3c37d95c30d2b27c</guid>
+      <category>AI</category>
+      <category>Google</category>
+      <category>industry-trends</category>
+      <category>engineering-culture</category>
+      <category>agentic-engineering</category>
+      <category>generative-AI</category>
+      <category>hiring-freeze</category>
+      <category>organizational-change</category>
+      <category>technology-adoption</category>
+      <category>critique</category>
+      <pubDate>Tue, 14 Apr 2026 04:59:45 +0800</pubDate>
+    </item>
+    <item>
+      <title>[Sponsor] WorkOS FGA: The Authorization Layer for AI Agents 摘要</title>
+      <link>https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026</link>
+      <description>The article discusses a key challenge in enterprise AI agent deployment: authorization. While authentication verifies an agent's identity, authorization defines its permissible actions and access scope (its "blast radius"). The author argues that successful enterprise AI solutions will prioritize safe, trustworthy authorization systems over feature richness. The piece promotes WorkOS Fine-Grained Authorization (FGA) as a solution for implementing resource-level permissions to control agent access securely.
+
+标签: AI, AI/Agent, security, enterprise, authentication, authorization, devops, cloud, compliance, access-control</description>
+      <guid isPermaLink="false">https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026#sha256:c0c925aac1ac2761</guid>
+      <category>AI</category>
+      <category>AI/Agent</category>
+      <category>security</category>
+      <category>enterprise</category>
+      <category>authentication</category>
+      <category>authorization</category>
+      <category>devops</category>
+      <category>cloud</category>
+      <category>compliance</category>
+      <category>access-control</category>
+      <pubDate>Tue, 14 Apr 2026 05:18:07 +0800</pubDate>
     </item>
   </channel>
 </rss>
