@@ -8,254 +8,159 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 15 Apr 2026 07:25:05 +0800</lastBuildDate>
-    <pubDate>Wed, 15 Apr 2026 07:25:05 +0800</pubDate>
+    <lastBuildDate>Thu, 16 Apr 2026 07:24:15 +0800</lastBuildDate>
+    <pubDate>Thu, 16 Apr 2026 07:24:15 +0800</pubDate>
     <item>
-      <title>Nothing ever dies. It merely becomes embarrassing. 摘要</title>
-      <link>https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes</link>
-      <description>The article discusses how psychological phenomena like power posing, ego depletion, growth mindset, and stereotype threat persist in research despite being widely debunked during the replication crisis. It argues that these ideas never truly die but become 'embarrassing,' drawing an analogy from the sci-fi universe of Halo where Spartan soldiers are listed as 'missing in action' rather than dead. The author critiques the scientific ideal of falsifiability, noting that in practice, theories often evade definitive disproof through endless debates and redefinitions, leading to absurd situations where experts disagree on whether effects are 'obviously alive' or 'obviously dead.'
+      <title>A sufficiently comprehensive spec is not (necessarily) code 摘要</title>
+      <link>https://buttondown.com/hillelwayne/archive/a-sufficiently-comprehensive-spec-is-not/</link>
+      <description>The article argues that a comprehensive specification is not equivalent to code, as a spec represents a set of possible implementations while code is a single instance within that set. It explains that specifications are abstractions of code, where more precise specs reduce the set of valid programs. The author contends that even with AI tools like Claude, programmers remain essential for writing formal specs, as non-programmers struggle with encoding specifications in formal languages. The distinction between spec and code is maintained as useful, with examples like test suites serving as encoded specifications.
 
-标签: psychology, replication crisis, scientific methodology, falsifiability, research bias, social sciences, philosophy of science, academic discourse, Halo analogy, debunked theories</description>
-      <guid isPermaLink="false">https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes#sha256:36396b7b054be6ba</guid>
-      <category>psychology</category>
-      <category>replication crisis</category>
-      <category>scientific methodology</category>
-      <category>falsifiability</category>
-      <category>research bias</category>
-      <category>social sciences</category>
-      <category>philosophy of science</category>
-      <category>academic discourse</category>
-      <category>Halo analogy</category>
-      <category>debunked theories</category>
-      <pubDate>Wed, 15 Apr 2026 00:16:42 +0800</pubDate>
-    </item>
-    <item>
-      <title>Richard Moss’s 2010 Interview With John Calhoun on the Origins of Glider 摘要</title>
-      <link>https://macscene.net/d/4678-interview-john-calhoun-on-the-origins-of-glider-part-1</link>
-      <description>This article references a 2010 interview by Richard Moss with John Calhoun, the creator of the Glider game series, which became iconic in Mac gaming during the 1990s. It discusses the origins and development of Glider, its dedicated fan base, and how it impacted Calhoun's career. The piece includes updated links to part 2 of the interview and a related feature story, noting that original links are outdated. Moss is also highlighted as the author of 'The Secret History of Mac Gaming,' which features a chapter on Calhoun and Glider.
-
-标签: gaming, Mac, history, interview, retro, development, software, culture, nostalgia, indie</description>
-      <guid isPermaLink="false">https://macscene.net/d/4678-interview-john-calhoun-on-the-origins-of-glider-part-1#sha256:6b627c0ac88f495e</guid>
-      <category>gaming</category>
-      <category>Mac</category>
-      <category>history</category>
-      <category>interview</category>
-      <category>retro</category>
-      <category>development</category>
-      <category>software</category>
-      <category>culture</category>
-      <category>nostalgia</category>
-      <category>indie</category>
-      <pubDate>Wed, 15 Apr 2026 00:20:23 +0800</pubDate>
-    </item>
-    <item>
-      <title>I Will Never Respect A Website 摘要</title>
-      <link>https://www.wheresyoured.at/i-will-never-respect-a-website/</link>
-      <description>The article critiques the hype around AI and LLMs, arguing that they are essentially just websites or apps performing mundane tasks like summarization and automation, not revolutionary 'agents'. It highlights that AI-generated content feels hollow and untrustworthy due to hallucinations, and questions the industry's deceptive marketing and inflated claims about future capabilities like AGI. The author emphasizes that truly useful technology should be described clearly, not in hyperbolic terms.
-
-标签: AI, LLM, critique, technology, marketing, hallucination, automation, business, ethics, software</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/i-will-never-respect-a-website/#sha256:406a97724ddd4767</guid>
+标签: specification, programming, abstraction, AI, code generation, software development, formal methods, program synthesis, testing, requirements</description>
+      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/a-sufficiently-comprehensive-spec-is-not/#sha256:eed6ead9c49ec955</guid>
+      <category>specification</category>
+      <category>programming</category>
+      <category>abstraction</category>
       <category>AI</category>
-      <category>LLM</category>
-      <category>critique</category>
-      <category>technology</category>
-      <category>marketing</category>
-      <category>hallucination</category>
-      <category>automation</category>
-      <category>business</category>
-      <category>ethics</category>
-      <category>software</category>
-      <pubDate>Wed, 15 Apr 2026 00:22:59 +0800</pubDate>
+      <category>code generation</category>
+      <category>software development</category>
+      <category>formal methods</category>
+      <category>program synthesis</category>
+      <category>testing</category>
+      <category>requirements</category>
+      <pubDate>Thu, 16 Apr 2026 00:18:02 +0800</pubDate>
     </item>
     <item>
-      <title>John Calhoun on Steve Lemay 摘要</title>
-      <link>https://news.ycombinator.com/item?id=47297653</link>
-      <description>John Calhoun recounts his experience working with designer Steve Lemay at Apple in the late 1990s, highlighting a debate over the Preview app's UI where Lemay insisted the drawer be on the right to prioritize content, which Calhoun initially opposed but respected due to Lemay's clear rationale. The article also notes Lemay's innovation of Safari's URL field doubling as a progress bar, which was initially criticized but later appreciated for its space efficiency. The piece reflects on how respectful disagreement and design evolution, such as the sidebar eventually moving left with split views, shape user experience.
+      <title>Gemini 3.1 Flash TTS 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything</link>
+      <description>Simon Willison introduces Gemini 3.1 Flash TTS, a new text-to-speech model from Google, and provides his personal notes on it. He includes a link to his detailed analysis and tags the article with 'gemini' and 'google'.
 
-标签: Apple, UI Design, Steve Lemay, John Calhoun, Preview App, Safari, Progress Bar, Design Debate, User Experience, Aqua UI</description>
-      <guid isPermaLink="false">https://news.ycombinator.com/item?id=47297653#sha256:8460a98a8e412dc6</guid>
-      <category>Apple</category>
-      <category>UI Design</category>
-      <category>Steve Lemay</category>
-      <category>John Calhoun</category>
-      <category>Preview App</category>
-      <category>Safari</category>
-      <category>Progress Bar</category>
-      <category>Design Debate</category>
-      <category>User Experience</category>
-      <category>Aqua UI</category>
-      <pubDate>Wed, 15 Apr 2026 03:26:25 +0800</pubDate>
-    </item>
-    <item>
-      <title>Amazon to Acquire Globalstar, Announces Agreement With Apple to Continue Service for iPhone and Apple Watch 摘要</title>
-      <link>https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple</link>
-      <description>Amazon has agreed to acquire Globalstar, enhancing its low Earth orbit satellite network, Amazon Leo, with direct-to-device services to extend cellular coverage beyond terrestrial networks. Concurrently, Amazon and Apple announced a partnership where Amazon Leo will power satellite services for iPhone and Apple Watch, including features like Emergency SOS via satellite. This collaboration positions Amazon and Apple as allies in challenging competitors like Starlink in the satellite internet market for smartphones.
-
-标签: Amazon, Globalstar, Apple, satellite, acquisition, direct-to-device, low Earth orbit, Emergency SOS, Starlink, smartphone</description>
-      <guid isPermaLink="false">https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple#sha256:dc407321d20e7dca</guid>
-      <category>Amazon</category>
-      <category>Globalstar</category>
-      <category>Apple</category>
-      <category>satellite</category>
-      <category>acquisition</category>
-      <category>direct-to-device</category>
-      <category>low Earth orbit</category>
-      <category>Emergency SOS</category>
-      <category>Starlink</category>
-      <category>smartphone</category>
-      <pubDate>Wed, 15 Apr 2026 03:34:29 +0800</pubDate>
-    </item>
-    <item>
-      <title>Cybersecurity Looks Like Proof of Work Now 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything</link>
-      <description>The UK's AI Safety Institute evaluated Claude Mythos Preview's cybersecurity capabilities, confirming its effectiveness at identifying vulnerabilities. The analysis reveals a direct correlation between token expenditure and security findings, creating an economic model where system hardening requires outspending potential attackers on token-based security reviews. This dynamic increases the value of open-source libraries, as security investments can be shared across all users, countering arguments that low-cost replacements diminish open-source appeal.
-
-标签: cybersecurity, AI, generative-ai, LLMs, open-source, security-research, economic-model, proof-of-work, vulnerability-assessment, token-economics</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything#sha256:c8286c8ca9a35bc9</guid>
-      <category>cybersecurity</category>
-      <category>AI</category>
-      <category>generative-ai</category>
-      <category>LLMs</category>
-      <category>open-source</category>
-      <category>security-research</category>
-      <category>economic-model</category>
-      <category>proof-of-work</category>
-      <category>vulnerability-assessment</category>
-      <category>token-economics</category>
-      <pubDate>Wed, 15 Apr 2026 03:41:48 +0800</pubDate>
-    </item>
-    <item>
-      <title>Google Will Finally Begin Punishing Sites for Back-Button Hijacking in June 摘要</title>
-      <link>https://developers.google.com/search/blog/2026/04/back-button-hijacking</link>
-      <description>Google announced on its Search Central Blog that it will expand its spam policies to explicitly prohibit 'back button hijacking,' a deceptive practice where websites interfere with browser navigation to prevent users from returning to the previous page. This violation, part of the 'malicious practices' policy, will lead to potential spam actions starting in June 2026. The move aims to prioritize user experience, as hijacking breaks expected browsing functionality and causes frustration. The article notes criticism for the delayed action, referencing a 15-year-old Reddit thread, and attributes the issue to JavaScript enabling such manipulative behaviors.
-
-标签: Google, search, spam policies, back button hijacking, user experience, web development, JavaScript, browser navigation, SEO, malicious practices</description>
-      <guid isPermaLink="false">https://developers.google.com/search/blog/2026/04/back-button-hijacking#sha256:0c84f24f8dc19342</guid>
+标签: Gemini, Google, TTS, text-to-speech, AI, speech synthesis, machine learning, technology, tools, Simon Willison</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything#sha256:9b726ba3ad0464fc</guid>
+      <category>Gemini</category>
       <category>Google</category>
-      <category>search</category>
-      <category>spam policies</category>
-      <category>back button hijacking</category>
-      <category>user experience</category>
-      <category>web development</category>
-      <category>JavaScript</category>
-      <category>browser navigation</category>
-      <category>SEO</category>
-      <category>malicious practices</category>
-      <pubDate>Wed, 15 Apr 2026 04:25:18 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Has Hidden the Pre-Creator-Studio Versions of Keynote, Numbers, and Pages in the Mac App Store 摘要</title>
-      <link>https://9to5mac.com/2026/04/13/apple-removes-old-pages-keynote-numbers-apps-for-macos/</link>
-      <description>Apple has removed the old iWork apps (Pages, Keynote, Numbers) from the Mac App Store, leaving only the new Creator Studio versions. This resolves a confusing rollout where both versions were previously available separately. The change unifies bundle identifiers across macOS and iOS, using the iOS format (e.g., com.apple.Numbers) instead of the old macOS format (com.apple.iWork.Numbers). Existing users can still re-download the old apps from their purchase history, but new users will only see the Creator Studio versions.
-
-标签: Apple, macOS, iOS, iWork, App Store, software update, bundle identifier, Creator Studio, Pages, Keynote</description>
-      <guid isPermaLink="false">https://9to5mac.com/2026/04/13/apple-removes-old-pages-keynote-numbers-apps-for-macos/#sha256:aca0e0c5d5160985</guid>
-      <category>Apple</category>
-      <category>macOS</category>
-      <category>iOS</category>
-      <category>iWork</category>
-      <category>App Store</category>
-      <category>software update</category>
-      <category>bundle identifier</category>
-      <category>Creator Studio</category>
-      <category>Pages</category>
-      <category>Keynote</category>
-      <pubDate>Wed, 15 Apr 2026 05:07:35 +0800</pubDate>
-    </item>
-    <item>
-      <title>Speaking of Tips 摘要</title>
-      <link>https://www.houstonchronicle.com/politics/texas/article/kristin-tips-out-texas-funeral-22206178.php</link>
-      <description>Kristin Tips, the presiding officer of the Texas Funeral Service Commission, has left the board. Appointed by Governor Greg Abbott in 2017 and elevated to presiding officer in May 2024, she ran San Antonio's Mission Park Funeral Chapels, Cemeteries &amp; Crematories with her husband, Dick Tips. Governor Abbott's office acknowledged her service and stated a replacement will be announced later. Tips did not comment on her departure.
-
-标签: Texas, Funeral Service Commission, Kristin Tips, Governor Abbott, board appointment, Mission Park, San Antonio, government, news, departure</description>
-      <guid isPermaLink="false">https://www.houstonchronicle.com/politics/texas/article/kristin-tips-out-texas-funeral-22206178.php#sha256:9f23a781d9740db9</guid>
-      <category>Texas</category>
-      <category>Funeral Service Commission</category>
-      <category>Kristin Tips</category>
-      <category>Governor Abbott</category>
-      <category>board appointment</category>
-      <category>Mission Park</category>
-      <category>San Antonio</category>
-      <category>government</category>
-      <category>news</category>
-      <category>departure</category>
-      <pubDate>Wed, 15 Apr 2026 05:19:29 +0800</pubDate>
-    </item>
-    <item>
-      <title>Trusted access for the next era of cyber defense 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything</link>
-      <description>OpenAI has introduced GPT-5.4-Cyber, a fine-tuned variant of GPT-5.4 designed for defensive cybersecurity use cases, positioning it as a response to Anthropic's Claude Mythos. The company is also expanding its Trusted Access for Cyber program, launched in February, which allows users to verify their identity via government ID to gain reduced-friction access to OpenAI models for cybersecurity work. However, access to the best security tools still requires an additional Google Form application, similar to Anthropic's Project Glasswing process. The announcement emphasizes OpenAI's existing cybersecurity efforts and aims to democratize access, though it avoids direct mention of Anthropic.
-
-标签: security, AI, OpenAI, generative-ai, LLM, cybersecurity, Anthropic, GPT-5.4, trusted-access, AI-security-research</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything#sha256:95912ec63a8c5fb5</guid>
-      <category>security</category>
+      <category>TTS</category>
+      <category>text-to-speech</category>
       <category>AI</category>
-      <category>OpenAI</category>
-      <category>generative-ai</category>
-      <category>LLM</category>
-      <category>cybersecurity</category>
-      <category>Anthropic</category>
-      <category>GPT-5.4</category>
-      <category>trusted-access</category>
-      <category>AI-security-research</category>
-      <pubDate>Wed, 15 Apr 2026 05:23:59 +0800</pubDate>
-    </item>
-    <item>
-      <title>On the Name of Apple’s Foldable iPhone 摘要</title>
-      <link>https://www.macrumors.com/2026/04/07/foldable-iphone-fold-iphone-ultra/</link>
-      <description>According to Chinese leaker Digital Chat Station, Apple's first foldable iPhone may be named 'iPhone Ultra' rather than 'iPhone Fold', with an expected price of $2,000-$2,500. The author argues that 'iPhone Fold' is a poor name because it merely describes function, while 'Ultra' conveys luxury and feeling. Chinese manufacturers are reportedly considering following Apple's lead with 'Ultra' branding for their own foldables, albeit at lower prices. The author suggests 'iPhone Duo' as an alternative wildcard name with historical precedent.
-
-标签: Apple, iPhone, foldable, smartphone, branding, rumor, leak, pricing, technology, hardware</description>
-      <guid isPermaLink="false">https://www.macrumors.com/2026/04/07/foldable-iphone-fold-iphone-ultra/#sha256:e04b0f57e36513ff</guid>
-      <category>Apple</category>
-      <category>iPhone</category>
-      <category>foldable</category>
-      <category>smartphone</category>
-      <category>branding</category>
-      <category>rumor</category>
-      <category>leak</category>
-      <category>pricing</category>
+      <category>speech synthesis</category>
+      <category>machine learning</category>
       <category>technology</category>
-      <category>hardware</category>
-      <pubDate>Wed, 15 Apr 2026 05:46:17 +0800</pubDate>
+      <category>tools</category>
+      <category>Simon Willison</category>
+      <pubDate>Thu, 16 Apr 2026 00:41:46 +0800</pubDate>
     </item>
     <item>
-      <title>Patch Tuesday, April 2026 Edition 摘要</title>
-      <link>https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/</link>
-      <description>Microsoft released patches for 167 security vulnerabilities, including a zero-day in SharePoint Server (CVE-2026-32201) and a publicly disclosed Windows Defender flaw called BlueHammer (CVE-2026-33825). Google Chrome fixed its fourth zero-day of 2026, and Adobe Reader issued an emergency update for an actively exploited remote code execution vulnerability. Experts note this is Microsoft's second-largest Patch Tuesday ever, with speculation that AI advancements like Anthropic's Project Glasswing may be driving increased vulnerability discovery. Users are advised to restart browsers regularly to ensure updates are installed.
+      <title>Gemini 3.1 Flash TTS 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything</link>
+      <description>Google released Gemini 3.1 Flash TTS, a new text-to-speech model accessible via the Gemini API using the model ID gemini-3.1-flash-tts-preview. It generates audio files based on detailed prompts that specify audio profiles, scenes, director's notes, and transcripts, allowing control over style, dynamics, pace, and accent. The article includes example prompts for accents like London, Newcastle, and Devon, and mentions a web UI built with Gemini 3.1 Pro for testing the model.
 
-标签: security, vulnerabilities, Microsoft, Windows, zero-day, patch, cybersecurity, updates, AI, browser</description>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/#sha256:d71285ddb733f47b</guid>
-      <category>security</category>
-      <category>vulnerabilities</category>
-      <category>Microsoft</category>
-      <category>Windows</category>
-      <category>zero-day</category>
-      <category>patch</category>
-      <category>cybersecurity</category>
-      <category>updates</category>
+标签: Google, text-to-speech, tools, AI, prompt-engineering, generative-AI, LLMs, Gemini, LLM-release, vibe-coding</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything#sha256:2299795f2b085f2c</guid>
+      <category>Google</category>
+      <category>text-to-speech</category>
+      <category>tools</category>
       <category>AI</category>
-      <category>browser</category>
-      <pubDate>Wed, 15 Apr 2026 05:47:59 +0800</pubDate>
+      <category>prompt-engineering</category>
+      <category>generative-AI</category>
+      <category>LLMs</category>
+      <category>Gemini</category>
+      <category>LLM-release</category>
+      <category>vibe-coding</category>
+      <pubDate>Thu, 16 Apr 2026 01:13:14 +0800</pubDate>
     </item>
     <item>
-      <title>Fraudulent Cryptocurrency App in Mac App Store Stole $9.5 Million From 50-Some Users 摘要</title>
-      <link>https://www.web3isgoinggreat.com/?id=fake-ledger-app</link>
-      <description>A fraudulent version of the Ledger cryptocurrency wallet app appeared on the Apple App Store, leading to losses of $9.5 million from about 50 users. Victims, including a musician who lost 5.9 BTC (~$445,000), entered their seed phrases into the malicious app, resulting in immediate wallet drainage. The legitimate Ledger Live Mac app is only available via direct download from Ledger's website, with an iPhone-only version on the App Store.
+      <title>Quoting John Gruber 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything</link>
+      <description>The article argues that Apple's key advantage lies not in App Store revenue but in having the best apps, which attract users to its platforms. However, this edge is diminishing as third-party software on Apple devices declines in quality. Fewer developers are motivated to create well-crafted, native apps exclusively for Apple's ecosystems due to reduced artistic or financial incentives.
 
-标签: cryptocurrency, security, scam, Apple App Store, Ledger, wallet, fraud, financial loss, malware, consumer protection</description>
-      <guid isPermaLink="false">https://www.web3isgoinggreat.com/?id=fake-ledger-app#sha256:f1e94b3a5fa47b9e</guid>
-      <category>cryptocurrency</category>
-      <category>security</category>
-      <category>scam</category>
-      <category>Apple App Store</category>
-      <category>Ledger</category>
-      <category>wallet</category>
-      <category>fraud</category>
-      <category>financial loss</category>
-      <category>malware</category>
-      <category>consumer protection</category>
-      <pubDate>Wed, 15 Apr 2026 06:06:18 +0800</pubDate>
+标签: Apple, App Store, iOS, Android, mobile apps, developer ecosystem, platform strategy, software quality, John Gruber, tech analysis</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything#sha256:6ec4e267227a99ee</guid>
+      <category>Apple</category>
+      <category>App Store</category>
+      <category>iOS</category>
+      <category>Android</category>
+      <category>mobile apps</category>
+      <category>developer ecosystem</category>
+      <category>platform strategy</category>
+      <category>software quality</category>
+      <category>John Gruber</category>
+      <category>tech analysis</category>
+      <pubDate>Thu, 16 Apr 2026 01:13:57 +0800</pubDate>
+    </item>
+    <item>
+      <title>Speed is Not Conducive to Wisdom 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/speed-not-conducive-to-wisdom/</link>
+      <description>The article critiques modern society's obsession with speed, arguing that it hinders wisdom. Speed allows people to avoid reflection and learning from mistakes, as wisdom requires slow, uncomfortable experiences like having opinions dismantled by reality. Wise individuals appear unhurried because they understand that important processes cannot be rushed, and wisdom's feedback loop is inherently slow, but people move too fast to learn from it.
+
+标签: philosophy, wisdom, reflection, modern-society, learning, speed, personal-growth, culture, productivity, mindfulness</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/speed-not-conducive-to-wisdom/#sha256:56ff743dae8f1f18</guid>
+      <category>philosophy</category>
+      <category>wisdom</category>
+      <category>reflection</category>
+      <category>modern-society</category>
+      <category>learning</category>
+      <category>speed</category>
+      <category>personal-growth</category>
+      <category>culture</category>
+      <category>productivity</category>
+      <category>mindfulness</category>
+      <pubDate>Thu, 16 Apr 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Lisa Melton: ‘Memories of Steve’ (and Memories of Safari’s Unique Page-Loading Indicator in Particular) 摘要</title>
+      <link>https://lisamelton.net/2023/10/05/memories-of-steve/</link>
+      <description>Lisa Melton, who led the Safari development team, shares two key insights from working with Steve Jobs. First, when asked a question, one should avoid rambling or making up answers; instead, admit if you don't know and commit to finding out by a specific time. Second, she recounts a collaborative moment with Jobs where they decided to place Safari's progress bar inside the URL address field after removing the status bar, debunking a prior claim that Steve Lemay invented this feature. Melton's direct account highlights the importance of honesty in communication and the creative problem-solving process at Apple.
+
+标签: Steve Jobs, Safari, Apple, leadership, communication, UI design, progress bar, collaboration, history, anecdote</description>
+      <guid isPermaLink="false">https://lisamelton.net/2023/10/05/memories-of-steve/#sha256:679f4753e45cddd7</guid>
+      <category>Steve Jobs</category>
+      <category>Safari</category>
+      <category>Apple</category>
+      <category>leadership</category>
+      <category>communication</category>
+      <category>UI design</category>
+      <category>progress bar</category>
+      <category>collaboration</category>
+      <category>history</category>
+      <category>anecdote</category>
+      <pubDate>Thu, 16 Apr 2026 03:54:17 +0800</pubDate>
+    </item>
+    <item>
+      <title>Writing an LLM from scratch, part 32k -- Interventions: training a better model locally with gradient accumulation 摘要</title>
+      <link>https://www.gilesthomas.com/2026/04/llm-from-scratch-32k-interventions-training-our-best-model-locally-gradient-accumulation</link>
+      <description>The author trained a GPT-2-small-style LLM based on Sebastian Raschka's book, comparing cloud and local training. They found that increasing batch size from 6 to 96 improved model loss more than all other interventions combined, highlighting batch size's critical role in training quality. To match cloud performance locally with limited GPU memory, they explain gradient accumulation: accumulating gradients over multiple forward-backward passes before optimizer updates, which stabilizes training like larger batches but requires scaling loss to average gradients correctly.
+
+标签: AI, LLM, training, batch-size, gradient-accumulation, deep-learning, PyTorch, optimization, GPU, machine-learning</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/llm-from-scratch-32k-interventions-training-our-best-model-locally-gradient-accumulation#sha256:8704506351f87d28</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>training</category>
+      <category>batch-size</category>
+      <category>gradient-accumulation</category>
+      <category>deep-learning</category>
+      <category>PyTorch</category>
+      <category>optimization</category>
+      <category>GPU</category>
+      <category>machine-learning</category>
+      <pubDate>Thu, 16 Apr 2026 04:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Our options in remote server installation and management 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/tech/RemoteServerManagementOptions</link>
+      <description>The article discusses remote server management challenges for Ubuntu LTS servers in an inconvenient location, focusing on reinstallation needs. It evaluates three solutions: full BMC support with KVM over IP (ideal but often unavailable due to cost or hardware limitations), network booting (technically correct but labor-intensive to set up), and external KVM over IP systems (general and easy to implement, though more expensive upfront). The author notes that at a university, staff time is often treated as a sunk cost, potentially favoring network booting despite higher labor requirements.
+
+标签: server-management, remote-access, KVM-over-IP, network-booting, Ubuntu, BMC, IT-infrastructure, system-administration, datacenter, cost-analysis</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/tech/RemoteServerManagementOptions#sha256:19207bcef7256134</guid>
+      <category>server-management</category>
+      <category>remote-access</category>
+      <category>KVM-over-IP</category>
+      <category>network-booting</category>
+      <category>Ubuntu</category>
+      <category>BMC</category>
+      <category>IT-infrastructure</category>
+      <category>system-administration</category>
+      <category>datacenter</category>
+      <category>cost-analysis</category>
+      <pubDate>Thu, 16 Apr 2026 06:31:23 +0800</pubDate>
     </item>
   </channel>
 </rss>
