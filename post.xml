@@ -8,159 +8,140 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Apr 2026 07:24:15 +0800</lastBuildDate>
-    <pubDate>Thu, 16 Apr 2026 07:24:15 +0800</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2026 07:22:55 +0800</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2026 07:22:55 +0800</pubDate>
     <item>
-      <title>A sufficiently comprehensive spec is not (necessarily) code 摘要</title>
-      <link>https://buttondown.com/hillelwayne/archive/a-sufficiently-comprehensive-spec-is-not/</link>
-      <description>The article argues that a comprehensive specification is not equivalent to code, as a spec represents a set of possible implementations while code is a single instance within that set. It explains that specifications are abstractions of code, where more precise specs reduce the set of valid programs. The author contends that even with AI tools like Claude, programmers remain essential for writing formal specs, as non-programmers struggle with encoding specifications in formal languages. The distinction between spec and code is maintained as useful, with examples like test suites serving as encoded specifications.
+      <title>Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything</link>
+      <description>Simon Willison compares the latest Qwen3.6-35B-A3B and Claude Opus 4.7 models using his humorous 'pelican riding a bicycle' SVG generation benchmark. Qwen produces a more accurate bicycle frame and creative flamingo on a unicycle with sunglasses and flair, while Opus struggles with bicycle anatomy and delivers duller outputs. The author notes the benchmark, though absurd, has loosely correlated with model utility in the past, but this result breaks that trend, suggesting Qwen excels at this specific creative task despite likely being less powerful overall than Opus.
 
-标签: specification, programming, abstraction, AI, code generation, software development, formal methods, program synthesis, testing, requirements</description>
-      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/a-sufficiently-comprehensive-spec-is-not/#sha256:eed6ead9c49ec955</guid>
-      <category>specification</category>
-      <category>programming</category>
-      <category>abstraction</category>
-      <category>AI</category>
-      <category>code generation</category>
-      <category>software development</category>
-      <category>formal methods</category>
-      <category>program synthesis</category>
-      <category>testing</category>
-      <category>requirements</category>
-      <pubDate>Thu, 16 Apr 2026 00:18:02 +0800</pubDate>
-    </item>
-    <item>
-      <title>Gemini 3.1 Flash TTS 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything</link>
-      <description>Simon Willison introduces Gemini 3.1 Flash TTS, a new text-to-speech model from Google, and provides his personal notes on it. He includes a link to his detailed analysis and tags the article with 'gemini' and 'google'.
-
-标签: Gemini, Google, TTS, text-to-speech, AI, speech synthesis, machine learning, technology, tools, Simon Willison</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything#sha256:9b726ba3ad0464fc</guid>
-      <category>Gemini</category>
-      <category>Google</category>
-      <category>TTS</category>
-      <category>text-to-speech</category>
-      <category>AI</category>
-      <category>speech synthesis</category>
-      <category>machine learning</category>
-      <category>technology</category>
-      <category>tools</category>
-      <category>Simon Willison</category>
-      <pubDate>Thu, 16 Apr 2026 00:41:46 +0800</pubDate>
-    </item>
-    <item>
-      <title>Gemini 3.1 Flash TTS 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything</link>
-      <description>Google released Gemini 3.1 Flash TTS, a new text-to-speech model accessible via the Gemini API using the model ID gemini-3.1-flash-tts-preview. It generates audio files based on detailed prompts that specify audio profiles, scenes, director's notes, and transcripts, allowing control over style, dynamics, pace, and accent. The article includes example prompts for accents like London, Newcastle, and Devon, and mentions a web UI built with Gemini 3.1 Pro for testing the model.
-
-标签: Google, text-to-speech, tools, AI, prompt-engineering, generative-AI, LLMs, Gemini, LLM-release, vibe-coding</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything#sha256:2299795f2b085f2c</guid>
-      <category>Google</category>
-      <category>text-to-speech</category>
-      <category>tools</category>
-      <category>AI</category>
-      <category>prompt-engineering</category>
-      <category>generative-AI</category>
-      <category>LLMs</category>
-      <category>Gemini</category>
-      <category>LLM-release</category>
-      <category>vibe-coding</category>
-      <pubDate>Thu, 16 Apr 2026 01:13:14 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting John Gruber 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything</link>
-      <description>The article argues that Apple's key advantage lies not in App Store revenue but in having the best apps, which attract users to its platforms. However, this edge is diminishing as third-party software on Apple devices declines in quality. Fewer developers are motivated to create well-crafted, native apps exclusively for Apple's ecosystems due to reduced artistic or financial incentives.
-
-标签: Apple, App Store, iOS, Android, mobile apps, developer ecosystem, platform strategy, software quality, John Gruber, tech analysis</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything#sha256:6ec4e267227a99ee</guid>
-      <category>Apple</category>
-      <category>App Store</category>
-      <category>iOS</category>
-      <category>Android</category>
-      <category>mobile apps</category>
-      <category>developer ecosystem</category>
-      <category>platform strategy</category>
-      <category>software quality</category>
-      <category>John Gruber</category>
-      <category>tech analysis</category>
-      <pubDate>Thu, 16 Apr 2026 01:13:57 +0800</pubDate>
-    </item>
-    <item>
-      <title>Speed is Not Conducive to Wisdom 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/speed-not-conducive-to-wisdom/</link>
-      <description>The article critiques modern society's obsession with speed, arguing that it hinders wisdom. Speed allows people to avoid reflection and learning from mistakes, as wisdom requires slow, uncomfortable experiences like having opinions dismantled by reality. Wise individuals appear unhurried because they understand that important processes cannot be rushed, and wisdom's feedback loop is inherently slow, but people move too fast to learn from it.
-
-标签: philosophy, wisdom, reflection, modern-society, learning, speed, personal-growth, culture, productivity, mindfulness</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/speed-not-conducive-to-wisdom/#sha256:56ff743dae8f1f18</guid>
-      <category>philosophy</category>
-      <category>wisdom</category>
-      <category>reflection</category>
-      <category>modern-society</category>
-      <category>learning</category>
-      <category>speed</category>
-      <category>personal-growth</category>
-      <category>culture</category>
-      <category>productivity</category>
-      <category>mindfulness</category>
-      <pubDate>Thu, 16 Apr 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Lisa Melton: ‘Memories of Steve’ (and Memories of Safari’s Unique Page-Loading Indicator in Particular) 摘要</title>
-      <link>https://lisamelton.net/2023/10/05/memories-of-steve/</link>
-      <description>Lisa Melton, who led the Safari development team, shares two key insights from working with Steve Jobs. First, when asked a question, one should avoid rambling or making up answers; instead, admit if you don't know and commit to finding out by a specific time. Second, she recounts a collaborative moment with Jobs where they decided to place Safari's progress bar inside the URL address field after removing the status bar, debunking a prior claim that Steve Lemay invented this feature. Melton's direct account highlights the importance of honesty in communication and the creative problem-solving process at Apple.
-
-标签: Steve Jobs, Safari, Apple, leadership, communication, UI design, progress bar, collaboration, history, anecdote</description>
-      <guid isPermaLink="false">https://lisamelton.net/2023/10/05/memories-of-steve/#sha256:679f4753e45cddd7</guid>
-      <category>Steve Jobs</category>
-      <category>Safari</category>
-      <category>Apple</category>
-      <category>leadership</category>
-      <category>communication</category>
-      <category>UI design</category>
-      <category>progress bar</category>
-      <category>collaboration</category>
-      <category>history</category>
-      <category>anecdote</category>
-      <pubDate>Thu, 16 Apr 2026 03:54:17 +0800</pubDate>
-    </item>
-    <item>
-      <title>Writing an LLM from scratch, part 32k -- Interventions: training a better model locally with gradient accumulation 摘要</title>
-      <link>https://www.gilesthomas.com/2026/04/llm-from-scratch-32k-interventions-training-our-best-model-locally-gradient-accumulation</link>
-      <description>The author trained a GPT-2-small-style LLM based on Sebastian Raschka's book, comparing cloud and local training. They found that increasing batch size from 6 to 96 improved model loss more than all other interventions combined, highlighting batch size's critical role in training quality. To match cloud performance locally with limited GPU memory, they explain gradient accumulation: accumulating gradients over multiple forward-backward passes before optimizer updates, which stabilizes training like larger batches but requires scaling loss to average gradients correctly.
-
-标签: AI, LLM, training, batch-size, gradient-accumulation, deep-learning, PyTorch, optimization, GPU, machine-learning</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/llm-from-scratch-32k-interventions-training-our-best-model-locally-gradient-accumulation#sha256:8704506351f87d28</guid>
+标签: AI, LLM, benchmark, generative AI, model comparison, Qwen, Claude, SVG generation, local LLMs, humor</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything#sha256:238c1946f6eb6d34</guid>
       <category>AI</category>
       <category>LLM</category>
-      <category>training</category>
-      <category>batch-size</category>
-      <category>gradient-accumulation</category>
-      <category>deep-learning</category>
-      <category>PyTorch</category>
-      <category>optimization</category>
-      <category>GPU</category>
-      <category>machine-learning</category>
-      <pubDate>Thu, 16 Apr 2026 04:00:00 +0800</pubDate>
+      <category>benchmark</category>
+      <category>generative AI</category>
+      <category>model comparison</category>
+      <category>Qwen</category>
+      <category>Claude</category>
+      <category>SVG generation</category>
+      <category>local LLMs</category>
+      <category>humor</category>
+      <pubDate>Fri, 17 Apr 2026 01:16:52 +0800</pubDate>
     </item>
     <item>
-      <title>Our options in remote server installation and management 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/tech/RemoteServerManagementOptions</link>
-      <description>The article discusses remote server management challenges for Ubuntu LTS servers in an inconvenient location, focusing on reinstallation needs. It evaluates three solutions: full BMC support with KVM over IP (ideal but often unavailable due to cost or hardware limitations), network booting (technically correct but labor-intensive to set up), and external KVM over IP systems (general and easy to implement, though more expensive upfront). The author notes that at a university, staff time is often treated as a sunk cost, potentially favoring network booting despite higher labor requirements.
+      <title>Apple Pay Express Transit Mode, When Used With a Visa Card, Is Vulnerable to Scam Tap-to-Pay Readers 摘要</title>
+      <link>https://www.macrumors.com/2026/04/15/apple-pay-visa-transit-exploit/</link>
+      <description>A security vulnerability in Apple Pay's Express Transit Mode affects only Visa cards, not Mastercard or American Express, due to a Visa-specific loophole. The exploit requires an iPhone with Express Transit Mode enabled and a Visa card linked for payments, but is considered unlikely in real-world scenarios. The issue is attributed to Visa's system rather than Apple's, and users can mitigate risk by using non-Visa cards or disabling Express Transit Mode.
 
-标签: server-management, remote-access, KVM-over-IP, network-booting, Ubuntu, BMC, IT-infrastructure, system-administration, datacenter, cost-analysis</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/tech/RemoteServerManagementOptions#sha256:19207bcef7256134</guid>
-      <category>server-management</category>
-      <category>remote-access</category>
-      <category>KVM-over-IP</category>
-      <category>network-booting</category>
-      <category>Ubuntu</category>
-      <category>BMC</category>
-      <category>IT-infrastructure</category>
-      <category>system-administration</category>
-      <category>datacenter</category>
-      <category>cost-analysis</category>
-      <pubDate>Thu, 16 Apr 2026 06:31:23 +0800</pubDate>
+标签: security, Apple Pay, Visa, Express Transit Mode, mobile payments, iPhone, vulnerability, credit cards, tap-to-pay, fraud prevention</description>
+      <guid isPermaLink="false">https://www.macrumors.com/2026/04/15/apple-pay-visa-transit-exploit/#sha256:8ea153ac2525dcde</guid>
+      <category>security</category>
+      <category>Apple Pay</category>
+      <category>Visa</category>
+      <category>Express Transit Mode</category>
+      <category>mobile payments</category>
+      <category>iPhone</category>
+      <category>vulnerability</category>
+      <category>credit cards</category>
+      <category>tap-to-pay</category>
+      <category>fraud prevention</category>
+      <pubDate>Fri, 17 Apr 2026 02:43:44 +0800</pubDate>
+    </item>
+    <item>
+      <title>Chance Miller: ‘Netflix Ruined Its Apple TV App by Switching to a Custom Video Player’ 摘要</title>
+      <link>https://9to5mac.com/2026/04/15/netflix-ruined-its-apple-tv-app-by-switching-to-a-custom-video-player/</link>
+      <description>Netflix recently updated its Apple TV app to use a custom video player instead of the native tvOS player, removing key features like playback controls via the iPhone Remote app, Enhance Dialogue, automatic subtitles on rewind, and episode end-time display. This change has sparked significant user backlash, with many subscribers threatening to cancel due to the loss of platform-specific functionalities. Critics argue that Netflix's move prioritizes cross-platform consistency and cost-saving over user experience, as Apple TV users chose the device for its unique features, which are now compromised.
+
+标签: Netflix, Apple TV, tvOS, video player, user experience, regression, streaming, platform features, customer backlash, tech news</description>
+      <guid isPermaLink="false">https://9to5mac.com/2026/04/15/netflix-ruined-its-apple-tv-app-by-switching-to-a-custom-video-player/#sha256:06943b5a5e71a4b7</guid>
+      <category>Netflix</category>
+      <category>Apple TV</category>
+      <category>tvOS</category>
+      <category>video player</category>
+      <category>user experience</category>
+      <category>regression</category>
+      <category>streaming</category>
+      <category>platform features</category>
+      <category>customer backlash</category>
+      <category>tech news</category>
+      <pubDate>Fri, 17 Apr 2026 03:27:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>How to Format 10-Digit Phone Numbers 摘要</title>
+      <link>https://www.threads.com/@apstylebook/post/DXKtXVXEh7T</link>
+      <description>The article discusses the AP Stylebook's 2024 update to format U.S. phone numbers as 212-621-1500, using hyphens instead of parentheses, and international numbers as 011-44-20-7535-1515. It criticizes the outdated (123) 555-1234 format, tracing it to when area codes were optional before 10-digit dialing became standard in the late 1990s. The author argues that since 7-digit dialing is obsolete, parentheses should be abolished, and calls for Apple's Contacts app to reformat numbers to the new style.
+
+标签: AP Stylebook, phone numbers, formatting, typography, Apple Contacts, technology, communication, standards, history, user interface</description>
+      <guid isPermaLink="false">https://www.threads.com/@apstylebook/post/DXKtXVXEh7T#sha256:cad435467995b02d</guid>
+      <category>AP Stylebook</category>
+      <category>phone numbers</category>
+      <category>formatting</category>
+      <category>typography</category>
+      <category>Apple Contacts</category>
+      <category>technology</category>
+      <category>communication</category>
+      <category>standards</category>
+      <category>history</category>
+      <category>user interface</category>
+      <pubDate>Fri, 17 Apr 2026 04:09:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>llm-anthropic 0.25 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</link>
+      <description>The llm-anthropic 0.25 release introduces Claude Opus 4.7 with xhigh thinking_effort support, new thinking_display and thinking_adaptive options for JSON output/logs, increased default max_tokens to model limits, and removal of obsolete structured-outputs beta headers for older models.
+
+标签: llm, anthropic, claude, release, model-update, thinking-effort, json-output, max-tokens, beta-header, ai-tools</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything#sha256:836b40f7f0b94ef7</guid>
+      <category>llm</category>
+      <category>anthropic</category>
+      <category>claude</category>
+      <category>release</category>
+      <category>model-update</category>
+      <category>thinking-effort</category>
+      <category>json-output</category>
+      <category>max-tokens</category>
+      <category>beta-header</category>
+      <category>ai-tools</category>
+      <pubDate>Fri, 17 Apr 2026 04:37:12 +0800</pubDate>
+    </item>
+    <item>
+      <title>Colliding With Reality, Indeed 摘要</title>
+      <link>https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html?unlocked_article_code=1.bVA.EB30.mygpleorcQhg&amp;smid=url-share</link>
+      <description>The article critiques President Trump's portrayal of the Iran war as a success, arguing that his narrative is colliding with reality. It contrasts this with media coverage of Trump's erratic behavior and unhinged statements, noting that while the New York Times has finally started treating Trump critically, his bullshitting often flies in other contexts. The author asserts that war, unlike other crises, is bullshit-proof, making Trump's Iran crisis uniquely resistant to his usual tactics.
+
+标签: politics, Trump, Iran war, media criticism, bullshitting, reality, crisis, New York Times, behavior, narrative</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html?unlocked_article_code=1.bVA.EB30.mygpleorcQhg&amp;smid=url-share#sha256:4ecb97b56d436394</guid>
+      <category>politics</category>
+      <category>Trump</category>
+      <category>Iran war</category>
+      <category>media criticism</category>
+      <category>bullshitting</category>
+      <category>reality</category>
+      <category>crisis</category>
+      <category>New York Times</category>
+      <category>behavior</category>
+      <category>narrative</category>
+      <pubDate>Fri, 17 Apr 2026 04:39:05 +0800</pubDate>
+    </item>
+    <item>
+      <title>Here's What Agentic AI Can Do With Have I Been Pwned's APIs 摘要</title>
+      <link>https://www.troyhunt.com/heres-what-agentic-ai-can-do-with-have-i-been-pwneds-apis/</link>
+      <description>This article demonstrates how agentic AI, using tools like OpenClaw and the Model Context Protocol (MCP), can enhance Have I Been Pwned's APIs for practical security tasks. It shows examples like identifying breached employees in large organizations, analyzing stealer logs, monitoring accounts on a schedule, and generating data visualizations. The author highlights how AI makes these tasks accessible to non-technical users, enabling deeper insights into data breaches and security risks.
+
+标签: AI, security, API, agentic AI, data breach, MCP, automation, privacy, cybersecurity, tools</description>
+      <guid isPermaLink="false">https://www.troyhunt.com/heres-what-agentic-ai-can-do-with-have-i-been-pwneds-apis/#sha256:2181312c759814d9</guid>
+      <category>AI</category>
+      <category>security</category>
+      <category>API</category>
+      <category>agentic AI</category>
+      <category>data breach</category>
+      <category>MCP</category>
+      <category>automation</category>
+      <category>privacy</category>
+      <category>cybersecurity</category>
+      <category>tools</category>
+      <pubDate>Fri, 17 Apr 2026 07:09:24 +0800</pubDate>
     </item>
   </channel>
 </rss>
