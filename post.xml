@@ -8,140 +8,64 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 17 Apr 2026 07:22:55 +0800</lastBuildDate>
-    <pubDate>Fri, 17 Apr 2026 07:22:55 +0800</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2026 07:21:19 +0800</lastBuildDate>
+    <pubDate>Sat, 18 Apr 2026 07:21:19 +0800</pubDate>
     <item>
-      <title>Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything</link>
-      <description>Simon Willison compares the latest Qwen3.6-35B-A3B and Claude Opus 4.7 models using his humorous 'pelican riding a bicycle' SVG generation benchmark. Qwen produces a more accurate bicycle frame and creative flamingo on a unicycle with sunglasses and flair, while Opus struggles with bicycle anatomy and delivers duller outputs. The author notes the benchmark, though absurd, has loosely correlated with model utility in the past, but this result breaks that trend, suggesting Qwen excels at this specific creative task despite likely being less powerful overall than Opus.
+      <title>The Mystery of Rennes-le-Château, Part 4: Non-Fiction Meets Fiction 摘要</title>
+      <link>https://www.filfre.net/2026/04/the-mystery-of-rennes-le-chateau-part-4-non-fiction-meets-fiction/</link>
+      <description>This article details the publication and cultural impact of 'The Holy Blood and the Holy Grail' (1982), a pseudo-historical book by Henry Lincoln, Richard Leigh, and Michael Baigent. It explores the book's success driven by timing with trends like 'Raiders of the Lost Ark' and 'Masquerade', strong sales in the US and UK, and critical reactions from religious and literary figures. The sequel 'The Messianic Legacy' (1987) saw diminished returns, and the authors' paths diverged, with Lincoln obsessively revisiting old theories and Leigh/Baigent continuing in similar veins. Pierre Plantard distanced himself from the Jesus bloodline claim, leading the conspiracy industry toward more abstract mysticism.
 
-标签: AI, LLM, benchmark, generative AI, model comparison, Qwen, Claude, SVG generation, local LLMs, humor</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything#sha256:238c1946f6eb6d34</guid>
+标签: history, conspiracy theories, pseudo-history, book publishing, cultural phenomena, Rennes-le-Château, Holy Grail, 1980s, media sensation, authorship</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/04/the-mystery-of-rennes-le-chateau-part-4-non-fiction-meets-fiction/#sha256:b3a4f9d09c47e280</guid>
+      <category>history</category>
+      <category>conspiracy theories</category>
+      <category>pseudo-history</category>
+      <category>book publishing</category>
+      <category>cultural phenomena</category>
+      <category>Rennes-le-Château</category>
+      <category>Holy Grail</category>
+      <category>1980s</category>
+      <category>media sensation</category>
+      <category>authorship</category>
+      <pubDate>Sat, 18 Apr 2026 00:12:17 +0800</pubDate>
+    </item>
+    <item>
+      <title>Premium: The Hater's Guide to Private Credit 摘要</title>
+      <link>https://www.wheresyoured.at/hatersguide-privatecredit/</link>
+      <description>The article discusses the rise of private credit, a largely unregulated financial sector where asset managers create funds to issue loans directly to borrowers, often with aggressive marketing tactics targeting individuals. It highlights risks such as illiquidity, lack of transparency, and recent scandals involving fraud and fund collapses, like those at First Brands and Tricolor, raising concerns about systemic vulnerabilities. The piece also notes private credit's growing role in leveraged buyouts and its ties to pensions and insurance funds, suggesting it could be a 'time bomb' in the financial system.
+
+标签: finance, private-credit, regulation, investment-risks, scams, asset-management, financial-crisis, loans, illiquidity, fraud</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/hatersguide-privatecredit/#sha256:4ac96cf4e80fc65e</guid>
+      <category>finance</category>
+      <category>private-credit</category>
+      <category>regulation</category>
+      <category>investment-risks</category>
+      <category>scams</category>
+      <category>asset-management</category>
+      <category>financial-crisis</category>
+      <category>loans</category>
+      <category>illiquidity</category>
+      <category>fraud</category>
+      <pubDate>Sat, 18 Apr 2026 00:57:30 +0800</pubDate>
+    </item>
+    <item>
+      <title>How an LLM becomes more coherent as we train it 摘要</title>
+      <link>https://www.gilesthomas.com/2026/04/how-an-llm-becomes-more-coherent-over-training</link>
+      <description>This article documents the training progression of a GPT-2-small-style language model (163M parameters) on 3.2B tokens from the FineWeb dataset. The author saved 57 checkpoints over two days and generated completions for the prompt 'Every effort moves you' at each stage. Initially, the model produced incoherent 'token salad' with some word-like structures, unlike earlier character-based RNNs that started with pure noise. By step 617, it learned common tokens, and by step 2468, it generated somewhat meaningful text. Coherent, motivational-style outputs emerged by step 9255 (after ~1B tokens, one-third trained), with further refinements like bullet points and repetitions in later steps. The loss chart shows most improvement occurred early, highlighting how quickly even simple LLMs produce plausible text, though accuracy requires full training.
+
+标签: AI, LLM, training, GPT-2, transformers, language models, machine learning, text generation, deep learning, neural networks</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/how-an-llm-becomes-more-coherent-over-training#sha256:fd39ba93f7776973</guid>
       <category>AI</category>
       <category>LLM</category>
-      <category>benchmark</category>
-      <category>generative AI</category>
-      <category>model comparison</category>
-      <category>Qwen</category>
-      <category>Claude</category>
-      <category>SVG generation</category>
-      <category>local LLMs</category>
-      <category>humor</category>
-      <pubDate>Fri, 17 Apr 2026 01:16:52 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Pay Express Transit Mode, When Used With a Visa Card, Is Vulnerable to Scam Tap-to-Pay Readers 摘要</title>
-      <link>https://www.macrumors.com/2026/04/15/apple-pay-visa-transit-exploit/</link>
-      <description>A security vulnerability in Apple Pay's Express Transit Mode affects only Visa cards, not Mastercard or American Express, due to a Visa-specific loophole. The exploit requires an iPhone with Express Transit Mode enabled and a Visa card linked for payments, but is considered unlikely in real-world scenarios. The issue is attributed to Visa's system rather than Apple's, and users can mitigate risk by using non-Visa cards or disabling Express Transit Mode.
-
-标签: security, Apple Pay, Visa, Express Transit Mode, mobile payments, iPhone, vulnerability, credit cards, tap-to-pay, fraud prevention</description>
-      <guid isPermaLink="false">https://www.macrumors.com/2026/04/15/apple-pay-visa-transit-exploit/#sha256:8ea153ac2525dcde</guid>
-      <category>security</category>
-      <category>Apple Pay</category>
-      <category>Visa</category>
-      <category>Express Transit Mode</category>
-      <category>mobile payments</category>
-      <category>iPhone</category>
-      <category>vulnerability</category>
-      <category>credit cards</category>
-      <category>tap-to-pay</category>
-      <category>fraud prevention</category>
-      <pubDate>Fri, 17 Apr 2026 02:43:44 +0800</pubDate>
-    </item>
-    <item>
-      <title>Chance Miller: ‘Netflix Ruined Its Apple TV App by Switching to a Custom Video Player’ 摘要</title>
-      <link>https://9to5mac.com/2026/04/15/netflix-ruined-its-apple-tv-app-by-switching-to-a-custom-video-player/</link>
-      <description>Netflix recently updated its Apple TV app to use a custom video player instead of the native tvOS player, removing key features like playback controls via the iPhone Remote app, Enhance Dialogue, automatic subtitles on rewind, and episode end-time display. This change has sparked significant user backlash, with many subscribers threatening to cancel due to the loss of platform-specific functionalities. Critics argue that Netflix's move prioritizes cross-platform consistency and cost-saving over user experience, as Apple TV users chose the device for its unique features, which are now compromised.
-
-标签: Netflix, Apple TV, tvOS, video player, user experience, regression, streaming, platform features, customer backlash, tech news</description>
-      <guid isPermaLink="false">https://9to5mac.com/2026/04/15/netflix-ruined-its-apple-tv-app-by-switching-to-a-custom-video-player/#sha256:06943b5a5e71a4b7</guid>
-      <category>Netflix</category>
-      <category>Apple TV</category>
-      <category>tvOS</category>
-      <category>video player</category>
-      <category>user experience</category>
-      <category>regression</category>
-      <category>streaming</category>
-      <category>platform features</category>
-      <category>customer backlash</category>
-      <category>tech news</category>
-      <pubDate>Fri, 17 Apr 2026 03:27:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>How to Format 10-Digit Phone Numbers 摘要</title>
-      <link>https://www.threads.com/@apstylebook/post/DXKtXVXEh7T</link>
-      <description>The article discusses the AP Stylebook's 2024 update to format U.S. phone numbers as 212-621-1500, using hyphens instead of parentheses, and international numbers as 011-44-20-7535-1515. It criticizes the outdated (123) 555-1234 format, tracing it to when area codes were optional before 10-digit dialing became standard in the late 1990s. The author argues that since 7-digit dialing is obsolete, parentheses should be abolished, and calls for Apple's Contacts app to reformat numbers to the new style.
-
-标签: AP Stylebook, phone numbers, formatting, typography, Apple Contacts, technology, communication, standards, history, user interface</description>
-      <guid isPermaLink="false">https://www.threads.com/@apstylebook/post/DXKtXVXEh7T#sha256:cad435467995b02d</guid>
-      <category>AP Stylebook</category>
-      <category>phone numbers</category>
-      <category>formatting</category>
-      <category>typography</category>
-      <category>Apple Contacts</category>
-      <category>technology</category>
-      <category>communication</category>
-      <category>standards</category>
-      <category>history</category>
-      <category>user interface</category>
-      <pubDate>Fri, 17 Apr 2026 04:09:07 +0800</pubDate>
-    </item>
-    <item>
-      <title>llm-anthropic 0.25 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything</link>
-      <description>The llm-anthropic 0.25 release introduces Claude Opus 4.7 with xhigh thinking_effort support, new thinking_display and thinking_adaptive options for JSON output/logs, increased default max_tokens to model limits, and removal of obsolete structured-outputs beta headers for older models.
-
-标签: llm, anthropic, claude, release, model-update, thinking-effort, json-output, max-tokens, beta-header, ai-tools</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything#sha256:836b40f7f0b94ef7</guid>
-      <category>llm</category>
-      <category>anthropic</category>
-      <category>claude</category>
-      <category>release</category>
-      <category>model-update</category>
-      <category>thinking-effort</category>
-      <category>json-output</category>
-      <category>max-tokens</category>
-      <category>beta-header</category>
-      <category>ai-tools</category>
-      <pubDate>Fri, 17 Apr 2026 04:37:12 +0800</pubDate>
-    </item>
-    <item>
-      <title>Colliding With Reality, Indeed 摘要</title>
-      <link>https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html?unlocked_article_code=1.bVA.EB30.mygpleorcQhg&amp;smid=url-share</link>
-      <description>The article critiques President Trump's portrayal of the Iran war as a success, arguing that his narrative is colliding with reality. It contrasts this with media coverage of Trump's erratic behavior and unhinged statements, noting that while the New York Times has finally started treating Trump critically, his bullshitting often flies in other contexts. The author asserts that war, unlike other crises, is bullshit-proof, making Trump's Iran crisis uniquely resistant to his usual tactics.
-
-标签: politics, Trump, Iran war, media criticism, bullshitting, reality, crisis, New York Times, behavior, narrative</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html?unlocked_article_code=1.bVA.EB30.mygpleorcQhg&amp;smid=url-share#sha256:4ecb97b56d436394</guid>
-      <category>politics</category>
-      <category>Trump</category>
-      <category>Iran war</category>
-      <category>media criticism</category>
-      <category>bullshitting</category>
-      <category>reality</category>
-      <category>crisis</category>
-      <category>New York Times</category>
-      <category>behavior</category>
-      <category>narrative</category>
-      <pubDate>Fri, 17 Apr 2026 04:39:05 +0800</pubDate>
-    </item>
-    <item>
-      <title>Here's What Agentic AI Can Do With Have I Been Pwned's APIs 摘要</title>
-      <link>https://www.troyhunt.com/heres-what-agentic-ai-can-do-with-have-i-been-pwneds-apis/</link>
-      <description>This article demonstrates how agentic AI, using tools like OpenClaw and the Model Context Protocol (MCP), can enhance Have I Been Pwned's APIs for practical security tasks. It shows examples like identifying breached employees in large organizations, analyzing stealer logs, monitoring accounts on a schedule, and generating data visualizations. The author highlights how AI makes these tasks accessible to non-technical users, enabling deeper insights into data breaches and security risks.
-
-标签: AI, security, API, agentic AI, data breach, MCP, automation, privacy, cybersecurity, tools</description>
-      <guid isPermaLink="false">https://www.troyhunt.com/heres-what-agentic-ai-can-do-with-have-i-been-pwneds-apis/#sha256:2181312c759814d9</guid>
-      <category>AI</category>
-      <category>security</category>
-      <category>API</category>
-      <category>agentic AI</category>
-      <category>data breach</category>
-      <category>MCP</category>
-      <category>automation</category>
-      <category>privacy</category>
-      <category>cybersecurity</category>
-      <category>tools</category>
-      <pubDate>Fri, 17 Apr 2026 07:09:24 +0800</pubDate>
+      <category>training</category>
+      <category>GPT-2</category>
+      <category>transformers</category>
+      <category>language models</category>
+      <category>machine learning</category>
+      <category>text generation</category>
+      <category>deep learning</category>
+      <category>neural networks</category>
+      <pubDate>Sat, 18 Apr 2026 07:30:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
