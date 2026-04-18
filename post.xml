@@ -8,64 +8,102 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Apr 2026 07:21:19 +0800</lastBuildDate>
-    <pubDate>Sat, 18 Apr 2026 07:21:19 +0800</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2026 07:18:12 +0800</lastBuildDate>
+    <pubDate>Sun, 19 Apr 2026 07:18:12 +0800</pubDate>
     <item>
-      <title>The Mystery of Rennes-le-Château, Part 4: Non-Fiction Meets Fiction 摘要</title>
-      <link>https://www.filfre.net/2026/04/the-mystery-of-rennes-le-chateau-part-4-non-fiction-meets-fiction/</link>
-      <description>This article details the publication and cultural impact of 'The Holy Blood and the Holy Grail' (1982), a pseudo-historical book by Henry Lincoln, Richard Leigh, and Michael Baigent. It explores the book's success driven by timing with trends like 'Raiders of the Lost Ark' and 'Masquerade', strong sales in the US and UK, and critical reactions from religious and literary figures. The sequel 'The Messianic Legacy' (1987) saw diminished returns, and the authors' paths diverged, with Lincoln obsessively revisiting old theories and Leigh/Baigent continuing in similar veins. Pierre Plantard distanced himself from the Jesus bloodline claim, leading the conspiracy industry toward more abstract mysticism.
+      <title>The electromechanical angle computer inside the B-52 bomber's star tracker 摘要</title>
+      <link>http://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html</link>
+      <description>Before GPS, aircraft used celestial navigation by tracking stars, planets, or the sun for accurate, unjammable positioning. In the early 1960s, the B-52 bomber automated this with the Astro Compass system, which included an Astro Tracker to lock onto stars and an electromechanical Angle Computer that modeled the celestial sphere to compute navigation data. The system used spherical trigonometry via a navigational triangle to convert global star coordinates from an Air Almanac into local azimuth and altitude angles, providing headings accurate to a tenth of a degree.
 
-标签: history, conspiracy theories, pseudo-history, book publishing, cultural phenomena, Rennes-le-Château, Holy Grail, 1980s, media sensation, authorship</description>
-      <guid isPermaLink="false">https://www.filfre.net/2026/04/the-mystery-of-rennes-le-chateau-part-4-non-fiction-meets-fiction/#sha256:b3a4f9d09c47e280</guid>
+标签: navigation, aviation, history, technology, celestial-navigation, B-52, analog-computing, electromechanical, Astro-Compass, military</description>
+      <guid isPermaLink="false">http://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html#sha256:603820dc17ffd518</guid>
+      <category>navigation</category>
+      <category>aviation</category>
       <category>history</category>
-      <category>conspiracy theories</category>
-      <category>pseudo-history</category>
-      <category>book publishing</category>
-      <category>cultural phenomena</category>
-      <category>Rennes-le-Château</category>
-      <category>Holy Grail</category>
-      <category>1980s</category>
-      <category>media sensation</category>
-      <category>authorship</category>
-      <pubDate>Sat, 18 Apr 2026 00:12:17 +0800</pubDate>
+      <category>technology</category>
+      <category>celestial-navigation</category>
+      <category>B-52</category>
+      <category>analog-computing</category>
+      <category>electromechanical</category>
+      <category>Astro-Compass</category>
+      <category>military</category>
+      <pubDate>Sun, 19 Apr 2026 00:24:00 +0800</pubDate>
     </item>
     <item>
-      <title>Premium: The Hater's Guide to Private Credit 摘要</title>
-      <link>https://www.wheresyoured.at/hatersguide-privatecredit/</link>
-      <description>The article discusses the rise of private credit, a largely unregulated financial sector where asset managers create funds to issue loans directly to borrowers, often with aggressive marketing tactics targeting individuals. It highlights risks such as illiquidity, lack of transparency, and recent scandals involving fraud and fund collapses, like those at First Brands and Tricolor, raising concerns about systemic vulnerabilities. The piece also notes private credit's growing role in leveraged buyouts and its ties to pensions and insurance funds, suggesting it could be a 'time bomb' in the financial system.
+      <title>Mac Mini and Mac Studio Supply Shortages 摘要</title>
+      <link>https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?st=fKpr4Q</link>
+      <description>The article reports on significant supply shortages for Apple's Mac Mini and Mac Studio desktop computers, particularly models with high RAM configurations (32GB+). These AI-friendly systems are currently unavailable or have extended shipping delays of up to 12 weeks, while other Mac models like the MacBook Pro remain readily available. Analysts attribute the shortages to a surge in demand from new 'desktop AI' systems that are currently exclusive to macOS, combined with Apple potentially tapering production ahead of anticipated M5-generation releases. The situation highlights the Mac's unique position as the preferred platform for early adopters of desktop AI applications.
 
-标签: finance, private-credit, regulation, investment-risks, scams, asset-management, financial-crisis, loans, illiquidity, fraud</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/hatersguide-privatecredit/#sha256:4ac96cf4e80fc65e</guid>
-      <category>finance</category>
-      <category>private-credit</category>
-      <category>regulation</category>
-      <category>investment-risks</category>
-      <category>scams</category>
-      <category>asset-management</category>
-      <category>financial-crisis</category>
-      <category>loans</category>
-      <category>illiquidity</category>
-      <category>fraud</category>
-      <pubDate>Sat, 18 Apr 2026 00:57:30 +0800</pubDate>
-    </item>
-    <item>
-      <title>How an LLM becomes more coherent as we train it 摘要</title>
-      <link>https://www.gilesthomas.com/2026/04/how-an-llm-becomes-more-coherent-over-training</link>
-      <description>This article documents the training progression of a GPT-2-small-style language model (163M parameters) on 3.2B tokens from the FineWeb dataset. The author saved 57 checkpoints over two days and generated completions for the prompt 'Every effort moves you' at each stage. Initially, the model produced incoherent 'token salad' with some word-like structures, unlike earlier character-based RNNs that started with pure noise. By step 617, it learned common tokens, and by step 2468, it generated somewhat meaningful text. Coherent, motivational-style outputs emerged by step 9255 (after ~1B tokens, one-third trained), with further refinements like bullet points and repetitions in later steps. The loss chart shows most improvement occurred early, highlighting how quickly even simple LLMs produce plausible text, though accuracy requires full training.
-
-标签: AI, LLM, training, GPT-2, transformers, language models, machine learning, text generation, deep learning, neural networks</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/how-an-llm-becomes-more-coherent-over-training#sha256:fd39ba93f7776973</guid>
+标签: Apple, Mac, hardware, supply-chain, AI, desktop-computing, Mac-Mini, Mac-Studio, RAM, shortages</description>
+      <guid isPermaLink="false">https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?st=fKpr4Q#sha256:fed9aae2aa3e3c3c</guid>
+      <category>Apple</category>
+      <category>Mac</category>
+      <category>hardware</category>
+      <category>supply-chain</category>
       <category>AI</category>
-      <category>LLM</category>
-      <category>training</category>
-      <category>GPT-2</category>
-      <category>transformers</category>
-      <category>language models</category>
-      <category>machine learning</category>
-      <category>text generation</category>
-      <category>deep learning</category>
-      <category>neural networks</category>
-      <pubDate>Sat, 18 Apr 2026 07:30:00 +0800</pubDate>
+      <category>desktop-computing</category>
+      <category>Mac-Mini</category>
+      <category>Mac-Studio</category>
+      <category>RAM</category>
+      <category>shortages</category>
+      <pubDate>Sun, 19 Apr 2026 00:48:37 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ ‘A Reading Room on Wheels, a Lover’s Lane, and, After 11 PM, a Flophouse’ 摘要</title>
+      <link>https://daringfireball.net/2026/04/kubrick_new_york_subway</link>
+      <description>A collection of 18 previously unseen early photographs by filmmaker Stanley Kubrick, taken in the 1940s for Look magazine, will debut at the Photography Show in New York. The images, focusing on New York subway scenes, capture candid moments like sleeping passengers and late-night activities. Kubrick used natural light to preserve the subway's mood, shooting at 1/8 second with a Contax camera during late-night rides over two weeks. The photos highlight his observational skill and offer a historical glimpse into subway life, with parallels to modern commuting experiences.
+
+标签: Stanley Kubrick, photography, New York subway, historical photos, Look magazine, documentary, film director, 1940s, candid photography, art exhibition</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/04/kubrick_new_york_subway#sha256:bf9c10018fbb755f</guid>
+      <category>Stanley Kubrick</category>
+      <category>photography</category>
+      <category>New York subway</category>
+      <category>historical photos</category>
+      <category>Look magazine</category>
+      <category>documentary</category>
+      <category>film director</category>
+      <category>1940s</category>
+      <category>candid photography</category>
+      <category>art exhibition</category>
+      <pubDate>Sun, 19 Apr 2026 01:52:56 +0800</pubDate>
+    </item>
+    <item>
+      <title>A Taxing Discussion 摘要</title>
+      <link>https://feed.tedium.co/link/15204/17321557/tax-forms-history-irs</link>
+      <description>The article explores the historical origins of the U.S. income tax and Form 1040, introduced in 1913 after the Sixteenth Amendment. Initially targeting only high earners (over $3,000, equivalent to $100,000 today), it became widespread during World War I, with top rates reaching 77% for millionaires. Early confusion and media guidance, like from B.C. Forbes and The New York Times, highlighted the form's complexity. The piece connects this to broader themes of taxation evolution and public adaptation.
+
+标签: taxes, history, US history, income tax, Form 1040, World War I, economics, policy, legal history, media</description>
+      <guid isPermaLink="false">https://feed.tedium.co/link/15204/17321557/tax-forms-history-irs#sha256:b204e71de49820f7</guid>
+      <category>taxes</category>
+      <category>history</category>
+      <category>US history</category>
+      <category>income tax</category>
+      <category>Form 1040</category>
+      <category>World War I</category>
+      <category>economics</category>
+      <category>policy</category>
+      <category>legal history</category>
+      <category>media</category>
+      <pubDate>Sun, 19 Apr 2026 03:11:40 +0800</pubDate>
+    </item>
+    <item>
+      <title>Tiny Go and Rust programs appear to start equally fast (on some machines) 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/programming/GoVsRustStartupDelays</link>
+      <description>The author tested startup time differences between 'hello world' programs in Rust, Go, C, and Python. On FreeBSD, Rust and Go startup times were similar (within microseconds), while C was slightly faster. On Linux, Go startup was about twice as slow as Rust (millisecond difference). Statically linked executables were faster than dynamically linked ones across languages. The author concludes Rust has less runtime startup overhead on Linux but not FreeBSD, and notes that language choice depends on specific performance needs and OS environment.
+
+标签: programming, performance, Rust, Go, benchmarking, startup-time, systems-programming, FreeBSD, Linux, C</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/programming/GoVsRustStartupDelays#sha256:47b39591d1c857d1</guid>
+      <category>programming</category>
+      <category>performance</category>
+      <category>Rust</category>
+      <category>Go</category>
+      <category>benchmarking</category>
+      <category>startup-time</category>
+      <category>systems-programming</category>
+      <category>FreeBSD</category>
+      <category>Linux</category>
+      <category>C</category>
+      <pubDate>Sun, 19 Apr 2026 05:30:11 +0800</pubDate>
     </item>
   </channel>
 </rss>
