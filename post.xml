@@ -8,102 +8,121 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Apr 2026 07:18:12 +0800</lastBuildDate>
-    <pubDate>Sun, 19 Apr 2026 07:18:12 +0800</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2026 07:19:28 +0800</lastBuildDate>
+    <pubDate>Mon, 20 Apr 2026 07:19:28 +0800</pubDate>
     <item>
-      <title>The electromechanical angle computer inside the B-52 bomber's star tracker 摘要</title>
-      <link>http://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html</link>
-      <description>Before GPS, aircraft used celestial navigation by tracking stars, planets, or the sun for accurate, unjammable positioning. In the early 1960s, the B-52 bomber automated this with the Astro Compass system, which included an Astro Tracker to lock onto stars and an electromechanical Angle Computer that modeled the celestial sphere to compute navigation data. The system used spherical trigonometry via a navigational triangle to convert global star coordinates from an Air Almanac into local azimuth and altitude angles, providing headings accurate to a tenth of a degree.
+      <title>WorkOS FGA: The Authorization Layer for AI Agents 摘要</title>
+      <link>https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026</link>
+      <description>The article discusses a key challenge in enterprise AI agent deployment: authorization. While authentication verifies an agent's identity, authorization defines its operational boundaries or 'blast radius'. The author argues that successful enterprise AI solutions will prioritize safe, trustworthy authorization systems over feature richness. WorkOS FGA is highlighted as a solution offering resource-level permissions to manage this authorization layer effectively.
 
-标签: navigation, aviation, history, technology, celestial-navigation, B-52, analog-computing, electromechanical, Astro-Compass, military</description>
-      <guid isPermaLink="false">http://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html#sha256:603820dc17ffd518</guid>
-      <category>navigation</category>
-      <category>aviation</category>
-      <category>history</category>
-      <category>technology</category>
-      <category>celestial-navigation</category>
-      <category>B-52</category>
-      <category>analog-computing</category>
-      <category>electromechanical</category>
-      <category>Astro-Compass</category>
-      <category>military</category>
-      <pubDate>Sun, 19 Apr 2026 00:24:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Mac Mini and Mac Studio Supply Shortages 摘要</title>
-      <link>https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?st=fKpr4Q</link>
-      <description>The article reports on significant supply shortages for Apple's Mac Mini and Mac Studio desktop computers, particularly models with high RAM configurations (32GB+). These AI-friendly systems are currently unavailable or have extended shipping delays of up to 12 weeks, while other Mac models like the MacBook Pro remain readily available. Analysts attribute the shortages to a surge in demand from new 'desktop AI' systems that are currently exclusive to macOS, combined with Apple potentially tapering production ahead of anticipated M5-generation releases. The situation highlights the Mac's unique position as the preferred platform for early adopters of desktop AI applications.
-
-标签: Apple, Mac, hardware, supply-chain, AI, desktop-computing, Mac-Mini, Mac-Studio, RAM, shortages</description>
-      <guid isPermaLink="false">https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?st=fKpr4Q#sha256:fed9aae2aa3e3c3c</guid>
-      <category>Apple</category>
-      <category>Mac</category>
-      <category>hardware</category>
-      <category>supply-chain</category>
+标签: AI, enterprise, authorization, authentication, security, AI agents, deployment, WorkOS, permissions, trust</description>
+      <guid isPermaLink="false">https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026#sha256:8ba285d67de54657</guid>
       <category>AI</category>
-      <category>desktop-computing</category>
-      <category>Mac-Mini</category>
-      <category>Mac-Studio</category>
-      <category>RAM</category>
-      <category>shortages</category>
-      <pubDate>Sun, 19 Apr 2026 00:48:37 +0800</pubDate>
+      <category>enterprise</category>
+      <category>authorization</category>
+      <category>authentication</category>
+      <category>security</category>
+      <category>AI agents</category>
+      <category>deployment</category>
+      <category>WorkOS</category>
+      <category>permissions</category>
+      <category>trust</category>
+      <pubDate>Mon, 20 Apr 2026 01:37:01 +0800</pubDate>
     </item>
     <item>
-      <title>★ ‘A Reading Room on Wheels, a Lover’s Lane, and, After 11 PM, a Flophouse’ 摘要</title>
-      <link>https://daringfireball.net/2026/04/kubrick_new_york_subway</link>
-      <description>A collection of 18 previously unseen early photographs by filmmaker Stanley Kubrick, taken in the 1940s for Look magazine, will debut at the Photography Show in New York. The images, focusing on New York subway scenes, capture candid moments like sleeping passengers and late-night activities. Kubrick used natural light to preserve the subway's mood, shooting at 1/8 second with a Contax camera during late-night rides over two weeks. The photos highlight his observational skill and offer a historical glimpse into subway life, with parallels to modern commuting experiences.
+      <title>Jessica Chastain Says Apple TV Will Finally Release ‘The Savant’ 摘要</title>
+      <link>https://variety.com/2026/tv/columns/jessica-chastain-apple-tv-finally-release-the-savant-after-postponement-charlie-kirk-assassination-1236725384/</link>
+      <description>Jessica Chastain announced at the Breakthrough Prize ceremony that Apple TV will release her political thriller series 'The Savant', which had previously been in limbo. Sources indicate Apple is planning a July release date.
 
-标签: Stanley Kubrick, photography, New York subway, historical photos, Look magazine, documentary, film director, 1940s, candid photography, art exhibition</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/04/kubrick_new_york_subway#sha256:bf9c10018fbb755f</guid>
-      <category>Stanley Kubrick</category>
-      <category>photography</category>
-      <category>New York subway</category>
-      <category>historical photos</category>
-      <category>Look magazine</category>
-      <category>documentary</category>
-      <category>film director</category>
-      <category>1940s</category>
-      <category>candid photography</category>
-      <category>art exhibition</category>
-      <pubDate>Sun, 19 Apr 2026 01:52:56 +0800</pubDate>
+标签: Apple TV, Jessica Chastain, The Savant, political thriller, series release, entertainment news, streaming, television, July release, Breakthrough Prize</description>
+      <guid isPermaLink="false">https://variety.com/2026/tv/columns/jessica-chastain-apple-tv-finally-release-the-savant-after-postponement-charlie-kirk-assassination-1236725384/#sha256:52857e34f35a04af</guid>
+      <category>Apple TV</category>
+      <category>Jessica Chastain</category>
+      <category>The Savant</category>
+      <category>political thriller</category>
+      <category>series release</category>
+      <category>entertainment news</category>
+      <category>streaming</category>
+      <category>television</category>
+      <category>July release</category>
+      <category>Breakthrough Prize</category>
+      <pubDate>Mon, 20 Apr 2026 02:51:43 +0800</pubDate>
     </item>
     <item>
-      <title>A Taxing Discussion 摘要</title>
-      <link>https://feed.tedium.co/link/15204/17321557/tax-forms-history-irs</link>
-      <description>The article explores the historical origins of the U.S. income tax and Form 1040, introduced in 1913 after the Sixteenth Amendment. Initially targeting only high earners (over $3,000, equivalent to $100,000 today), it became widespread during World War I, with top rates reaching 77% for millionaires. Early confusion and media guidance, like from B.C. Forbes and The New York Times, highlighted the form's complexity. The piece connects this to broader themes of taxation evolution and public adaptation.
+      <title>Big tech clouds worden niet veiliger met stapels papier 摘要</title>
+      <link>https://berthub.eu/articles/posts/big-tech-clouds-niet-veiliger-met-papier/</link>
+      <description>The article discusses the risks of relying on American servers for societal, governmental, and societal functions. It highlights two main problems: dependency on U.S. goodwill, where services can be disrupted by a simple White House directive, and legal access granted to U.S. authorities via at least three legal instruments, even if servers are located in Europe. The author notes that no special agreements can override the reality of U.S. law, making this situation difficult to address.
 
-标签: taxes, history, US history, income tax, Form 1040, World War I, economics, policy, legal history, media</description>
-      <guid isPermaLink="false">https://feed.tedium.co/link/15204/17321557/tax-forms-history-irs#sha256:b204e71de49820f7</guid>
-      <category>taxes</category>
-      <category>history</category>
-      <category>US history</category>
-      <category>income tax</category>
-      <category>Form 1040</category>
-      <category>World War I</category>
-      <category>economics</category>
-      <category>policy</category>
-      <category>legal history</category>
-      <category>media</category>
-      <pubDate>Sun, 19 Apr 2026 03:11:40 +0800</pubDate>
+标签: data sovereignty, cloud computing, U.S. law, government surveillance, European data, dependency risks, legal access, server location, societal infrastructure, international agreements</description>
+      <guid isPermaLink="false">https://berthub.eu/articles/posts/big-tech-clouds-niet-veiliger-met-papier/#sha256:18cfc7a393589a8f</guid>
+      <category>data sovereignty</category>
+      <category>cloud computing</category>
+      <category>U.S. law</category>
+      <category>government surveillance</category>
+      <category>European data</category>
+      <category>dependency risks</category>
+      <category>legal access</category>
+      <category>server location</category>
+      <category>societal infrastructure</category>
+      <category>international agreements</category>
+      <pubDate>Mon, 20 Apr 2026 03:00:00 +0800</pubDate>
     </item>
     <item>
-      <title>Tiny Go and Rust programs appear to start equally fast (on some machines) 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/programming/GoVsRustStartupDelays</link>
-      <description>The author tested startup time differences between 'hello world' programs in Rust, Go, C, and Python. On FreeBSD, Rust and Go startup times were similar (within microseconds), while C was slightly faster. On Linux, Go startup was about twice as slow as Rust (millisecond difference). Statically linked executables were faster than dynamically linked ones across languages. The author concludes Rust has less runtime startup overhead on Linux but not FreeBSD, and notes that language choice depends on specific performance needs and OS environment.
+      <title>Hook It Up to the Machine 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/hook-it-up-to-the-machine/</link>
+      <description>The author recounts a family road trip where their van overheated due to a faulty digital sensor preventing the idling fan from activating—a problem a traditional mechanic couldn't diagnose without specialized computer equipment. This experience highlights the shift from analog to digital systems, where mechanical inspection fails and computers are needed to understand other computers. The author draws a parallel to modern software development with LLMs, questioning whether future codebases built with AI assistance will require AI tools to debug and fix, mirroring the car's need for computerized diagnostics.
 
-标签: programming, performance, Rust, Go, benchmarking, startup-time, systems-programming, FreeBSD, Linux, C</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/programming/GoVsRustStartupDelays#sha256:47b39591d1c857d1</guid>
-      <category>programming</category>
-      <category>performance</category>
-      <category>Rust</category>
-      <category>Go</category>
-      <category>benchmarking</category>
-      <category>startup-time</category>
-      <category>systems-programming</category>
-      <category>FreeBSD</category>
-      <category>Linux</category>
-      <category>C</category>
-      <pubDate>Sun, 19 Apr 2026 05:30:11 +0800</pubDate>
+标签: technology, digital-transition, software-development, LLMs, debugging, automotive, analog-vs-digital, future-of-coding, AI-assistance, mechanical-to-electronic</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/hook-it-up-to-the-machine/#sha256:d912f2eb71841f22</guid>
+      <category>technology</category>
+      <category>digital-transition</category>
+      <category>software-development</category>
+      <category>LLMs</category>
+      <category>debugging</category>
+      <category>automotive</category>
+      <category>analog-vs-digital</category>
+      <category>future-of-coding</category>
+      <category>AI-assistance</category>
+      <category>mechanical-to-electronic</category>
+      <pubDate>Mon, 20 Apr 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Hitachi Ltd, Part II 摘要</title>
+      <link>https://www.abortretry.fail/p/hitachi-ltd-part-ii</link>
+      <description>The article discusses Hitachi Ltd.'s strategic evolution, focusing on its transformation from a traditional industrial conglomerate to a technology-driven enterprise. It highlights key initiatives in digital innovation, such as IoT and AI integration, and examines challenges like market competition and organizational restructuring. The piece also touches on financial performance and future growth prospects in sectors like infrastructure and healthcare.
+
+标签: business, technology, innovation, corporate-strategy, digital-transformation, IoT, AI, infrastructure, healthcare, market-analysis</description>
+      <guid isPermaLink="false">https://www.abortretry.fail/p/hitachi-ltd-part-ii#sha256:4de46f6858859d08</guid>
+      <category>business</category>
+      <category>technology</category>
+      <category>innovation</category>
+      <category>corporate-strategy</category>
+      <category>digital-transformation</category>
+      <category>IoT</category>
+      <category>AI</category>
+      <category>infrastructure</category>
+      <category>healthcare</category>
+      <category>market-analysis</category>
+      <pubDate>Mon, 20 Apr 2026 04:36:46 +0800</pubDate>
+    </item>
+    <item>
+      <title>Headless everything for personal AI 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything</link>
+      <description>The article discusses the rise of 'headless' services, where APIs replace traditional user interfaces, driven by personal AI agents. Matt Webb argues that headless services provide better user experiences through AI interaction and are more reliable for AI agents than GUI automation. Salesforce's 'Headless 360' exemplifies this trend, exposing its platforms via APIs for AI access. This shift may disrupt per-user SaaS pricing models. Brandur Leach predicts a resurgence of API-first approaches, as APIs become key differentiators in competitive markets, enabling agents to perform tasks on users' behalf.
+
+标签: AI, APIs, headless, SaaS, automation, personal AI, business models, technology trends, user experience, API-first</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything#sha256:eb7e5f5aad38f369</guid>
+      <category>AI</category>
+      <category>APIs</category>
+      <category>headless</category>
+      <category>SaaS</category>
+      <category>automation</category>
+      <category>personal AI</category>
+      <category>business models</category>
+      <category>technology trends</category>
+      <category>user experience</category>
+      <category>API-first</category>
+      <pubDate>Mon, 20 Apr 2026 05:46:38 +0800</pubDate>
     </item>
   </channel>
 </rss>
