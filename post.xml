@@ -8,121 +8,121 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Apr 2026 07:19:28 +0800</lastBuildDate>
-    <pubDate>Mon, 20 Apr 2026 07:19:28 +0800</pubDate>
+    <lastBuildDate>Tue, 21 Apr 2026 07:23:18 +0800</lastBuildDate>
+    <pubDate>Tue, 21 Apr 2026 07:23:18 +0800</pubDate>
     <item>
-      <title>WorkOS FGA: The Authorization Layer for AI Agents 摘要</title>
-      <link>https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026</link>
-      <description>The article discusses a key challenge in enterprise AI agent deployment: authorization. While authentication verifies an agent's identity, authorization defines its operational boundaries or 'blast radius'. The author argues that successful enterprise AI solutions will prioritize safe, trustworthy authorization systems over feature richness. WorkOS FGA is highlighted as a solution offering resource-level permissions to manage this authorization layer effectively.
+      <title>Pluralistic: Comrade Trump (20 Apr 2026) 摘要</title>
+      <link>https://pluralistic.net/2026/04/20/praxis/</link>
+      <description>The article analyzes the paradoxical effects of Trump's policies, arguing that while they cause harm, they inadvertently accelerate positive global changes. Trump's solar tariffs led to Pakistan rapidly adopting solar energy, becoming a solar capital and reducing reliance on fossil fuels. Similarly, energy shortages from geopolitical tensions, like those in India and Australia, are pushing transitions to induction cooking, EVs, and ebikes. The piece also notes how events like Putin's invasion of Ukraine spurred Europe's energy transition, including solar adoption in the UK. Overall, it suggests that disruptive policies can unintentionally dismantle old systems and foster sustainable alternatives.
 
-标签: AI, enterprise, authorization, authentication, security, AI agents, deployment, WorkOS, permissions, trust</description>
-      <guid isPermaLink="false">https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026#sha256:8ba285d67de54657</guid>
-      <category>AI</category>
-      <category>enterprise</category>
-      <category>authorization</category>
-      <category>authentication</category>
-      <category>security</category>
-      <category>AI agents</category>
-      <category>deployment</category>
-      <category>WorkOS</category>
-      <category>permissions</category>
-      <category>trust</category>
-      <pubDate>Mon, 20 Apr 2026 01:37:01 +0800</pubDate>
+标签: politics, energy, sustainability, Trump, globalization, renewable energy, policy analysis, geopolitics, climate change, technology adoption</description>
+      <guid isPermaLink="false">https://pluralistic.net/2026/04/20/praxis/#sha256:cbb0da3107af7d83</guid>
+      <category>politics</category>
+      <category>energy</category>
+      <category>sustainability</category>
+      <category>Trump</category>
+      <category>globalization</category>
+      <category>renewable energy</category>
+      <category>policy analysis</category>
+      <category>geopolitics</category>
+      <category>climate change</category>
+      <category>technology adoption</category>
+      <pubDate>Tue, 21 Apr 2026 00:44:33 +0800</pubDate>
     </item>
     <item>
-      <title>Jessica Chastain Says Apple TV Will Finally Release ‘The Savant’ 摘要</title>
-      <link>https://variety.com/2026/tv/columns/jessica-chastain-apple-tv-finally-release-the-savant-after-postponement-charlie-kirk-assassination-1236725384/</link>
-      <description>Jessica Chastain announced at the Breakthrough Prize ceremony that Apple TV will release her political thriller series 'The Savant', which had previously been in limbo. Sources indicate Apple is planning a July release date.
+      <title>Apple’s Annual Environmental Progress Report 摘要</title>
+      <link>https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/</link>
+      <description>Apple's 2026 Environmental Progress Report shows the company has maintained a 60% reduction in greenhouse gas emissions since 2015, despite business growth, as part of its Apple 2030 carbon neutrality goal. Key achievements include transitioning to 100% fiber-based packaging by 2025, eliminating plastic and avoiding over 15,000 metric tons of plastic waste. Innovations in renewable energy, materials, recycling, water stewardship, and zero waste are highlighted, with packaging design improvements enhancing user experience. The report coincides with Earth Day, featuring a recycling promotion at Apple Stores.
 
-标签: Apple TV, Jessica Chastain, The Savant, political thriller, series release, entertainment news, streaming, television, July release, Breakthrough Prize</description>
-      <guid isPermaLink="false">https://variety.com/2026/tv/columns/jessica-chastain-apple-tv-finally-release-the-savant-after-postponement-charlie-kirk-assassination-1236725384/#sha256:52857e34f35a04af</guid>
-      <category>Apple TV</category>
-      <category>Jessica Chastain</category>
-      <category>The Savant</category>
-      <category>political thriller</category>
-      <category>series release</category>
-      <category>entertainment news</category>
-      <category>streaming</category>
-      <category>television</category>
-      <category>July release</category>
-      <category>Breakthrough Prize</category>
-      <pubDate>Mon, 20 Apr 2026 02:51:43 +0800</pubDate>
-    </item>
-    <item>
-      <title>Big tech clouds worden niet veiliger met stapels papier 摘要</title>
-      <link>https://berthub.eu/articles/posts/big-tech-clouds-niet-veiliger-met-papier/</link>
-      <description>The article discusses the risks of relying on American servers for societal, governmental, and societal functions. It highlights two main problems: dependency on U.S. goodwill, where services can be disrupted by a simple White House directive, and legal access granted to U.S. authorities via at least three legal instruments, even if servers are located in Europe. The author notes that no special agreements can override the reality of U.S. law, making this situation difficult to address.
-
-标签: data sovereignty, cloud computing, U.S. law, government surveillance, European data, dependency risks, legal access, server location, societal infrastructure, international agreements</description>
-      <guid isPermaLink="false">https://berthub.eu/articles/posts/big-tech-clouds-niet-veiliger-met-papier/#sha256:18cfc7a393589a8f</guid>
-      <category>data sovereignty</category>
-      <category>cloud computing</category>
-      <category>U.S. law</category>
-      <category>government surveillance</category>
-      <category>European data</category>
-      <category>dependency risks</category>
-      <category>legal access</category>
-      <category>server location</category>
-      <category>societal infrastructure</category>
-      <category>international agreements</category>
-      <pubDate>Mon, 20 Apr 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Hook It Up to the Machine 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/hook-it-up-to-the-machine/</link>
-      <description>The author recounts a family road trip where their van overheated due to a faulty digital sensor preventing the idling fan from activating—a problem a traditional mechanic couldn't diagnose without specialized computer equipment. This experience highlights the shift from analog to digital systems, where mechanical inspection fails and computers are needed to understand other computers. The author draws a parallel to modern software development with LLMs, questioning whether future codebases built with AI assistance will require AI tools to debug and fix, mirroring the car's need for computerized diagnostics.
-
-标签: technology, digital-transition, software-development, LLMs, debugging, automotive, analog-vs-digital, future-of-coding, AI-assistance, mechanical-to-electronic</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/hook-it-up-to-the-machine/#sha256:d912f2eb71841f22</guid>
-      <category>technology</category>
-      <category>digital-transition</category>
-      <category>software-development</category>
-      <category>LLMs</category>
-      <category>debugging</category>
-      <category>automotive</category>
-      <category>analog-vs-digital</category>
-      <category>future-of-coding</category>
-      <category>AI-assistance</category>
-      <category>mechanical-to-electronic</category>
-      <pubDate>Mon, 20 Apr 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Hitachi Ltd, Part II 摘要</title>
-      <link>https://www.abortretry.fail/p/hitachi-ltd-part-ii</link>
-      <description>The article discusses Hitachi Ltd.'s strategic evolution, focusing on its transformation from a traditional industrial conglomerate to a technology-driven enterprise. It highlights key initiatives in digital innovation, such as IoT and AI integration, and examines challenges like market competition and organizational restructuring. The piece also touches on financial performance and future growth prospects in sectors like infrastructure and healthcare.
-
-标签: business, technology, innovation, corporate-strategy, digital-transformation, IoT, AI, infrastructure, healthcare, market-analysis</description>
-      <guid isPermaLink="false">https://www.abortretry.fail/p/hitachi-ltd-part-ii#sha256:4de46f6858859d08</guid>
-      <category>business</category>
-      <category>technology</category>
+标签: Apple, environment, sustainability, carbon neutral, packaging, recycling, greenhouse gas, Earth Day, corporate responsibility, innovation</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/#sha256:4a397021e07884a9</guid>
+      <category>Apple</category>
+      <category>environment</category>
+      <category>sustainability</category>
+      <category>carbon neutral</category>
+      <category>packaging</category>
+      <category>recycling</category>
+      <category>greenhouse gas</category>
+      <category>Earth Day</category>
+      <category>corporate responsibility</category>
       <category>innovation</category>
-      <category>corporate-strategy</category>
-      <category>digital-transformation</category>
-      <category>IoT</category>
-      <category>AI</category>
-      <category>infrastructure</category>
-      <category>healthcare</category>
-      <category>market-analysis</category>
-      <pubDate>Mon, 20 Apr 2026 04:36:46 +0800</pubDate>
+      <pubDate>Tue, 21 Apr 2026 01:09:30 +0800</pubDate>
     </item>
     <item>
-      <title>Headless everything for personal AI 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything</link>
-      <description>The article discusses the rise of 'headless' services, where APIs replace traditional user interfaces, driven by personal AI agents. Matt Webb argues that headless services provide better user experiences through AI interaction and are more reliable for AI agents than GUI automation. Salesforce's 'Headless 360' exemplifies this trend, exposing its platforms via APIs for AI access. This shift may disrupt per-user SaaS pricing models. Brandur Leach predicts a resurgence of API-first approaches, as APIs become key differentiators in competitive markets, enabling agents to perform tasks on users' behalf.
+      <title>Exclusive: Microsoft To Shift GitHub Copilot Users To Token-Based Billing, Tighten Rate Limits 摘要</title>
+      <link>https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</link>
+      <description>Leaked internal documents reveal Microsoft plans to temporarily suspend new signups for GitHub Copilot's individual and student tiers, transition from request-based to token-based billing due to rising costs, tighten rate limits across plans, and remove certain AI models like Anthropic's Opus from lower-tier subscriptions. This reflects broader industry trends away from subsidized AI compute, with Microsoft confirming some details in a blog post.
 
-标签: AI, APIs, headless, SaaS, automation, personal AI, business models, technology trends, user experience, API-first</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything#sha256:eb7e5f5aad38f369</guid>
-      <category>AI</category>
-      <category>APIs</category>
-      <category>headless</category>
-      <category>SaaS</category>
-      <category>automation</category>
-      <category>personal AI</category>
-      <category>business models</category>
-      <category>technology trends</category>
-      <category>user experience</category>
-      <category>API-first</category>
-      <pubDate>Mon, 20 Apr 2026 05:46:38 +0800</pubDate>
+标签: Microsoft, GitHub Copilot, AI pricing, token-based billing, rate limits, cost management, AI subsidies, Anthropic Opus, developer tools, tech news</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/#sha256:933dfda508fac592</guid>
+      <category>Microsoft</category>
+      <category>GitHub Copilot</category>
+      <category>AI pricing</category>
+      <category>token-based billing</category>
+      <category>rate limits</category>
+      <category>cost management</category>
+      <category>AI subsidies</category>
+      <category>Anthropic Opus</category>
+      <category>developer tools</category>
+      <category>tech news</category>
+      <pubDate>Tue, 21 Apr 2026 01:11:58 +0800</pubDate>
+    </item>
+    <item>
+      <title>Apple: ‘Tim Cook to Become Apple Executive Chairman; John Ternus to Become Apple CEO’ 摘要</title>
+      <link>https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/</link>
+      <description>Apple announced a leadership transition where Tim Cook will become executive chairman of the board, and John Ternus, senior vice president of Hardware Engineering, will become CEO effective September 1, 2026. The move follows a long-term succession plan, with Cook assisting in the transition and engaging with policymakers. In a related announcement, Johny Srouji was named Chief Hardware Officer. The transition is described as smooth and low on drama, reflecting Cook's leadership style.
+
+标签: Apple, leadership, CEO, executive chairman, succession, hardware, corporate governance, Tim Cook, John Ternus, Johny Srouji</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/#sha256:b6b9ec9edae1a07d</guid>
+      <category>Apple</category>
+      <category>leadership</category>
+      <category>CEO</category>
+      <category>executive chairman</category>
+      <category>succession</category>
+      <category>hardware</category>
+      <category>corporate governance</category>
+      <category>Tim Cook</category>
+      <category>John Ternus</category>
+      <category>Johny Srouji</category>
+      <pubDate>Tue, 21 Apr 2026 04:44:58 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘Community Letter From Tim’ 摘要</title>
+      <link>https://www.apple.com/community-letter-from-tim/</link>
+      <description>Tim Cook shares a heartfelt letter to the Apple community, reflecting on his 15-year daily routine of reading user emails that highlight personal stories—from life-saving Apple Watch moments to creative achievements with Macs. He expresses deep gratitude and a sense of obligation, emphasizing the human connection and honor of leading Apple. The note is praised for its casual, authentic tone, reminiscent of his 2014 coming-out essay, marking a happy personal moment for Cook.
+
+标签: Apple, Tim Cook, leadership, corporate culture, user engagement, personal reflection, technology impact, community, gratitude, business communication</description>
+      <guid isPermaLink="false">https://www.apple.com/community-letter-from-tim/#sha256:8ae1fbd47a54cc25</guid>
+      <category>Apple</category>
+      <category>Tim Cook</category>
+      <category>leadership</category>
+      <category>corporate culture</category>
+      <category>user engagement</category>
+      <category>personal reflection</category>
+      <category>technology impact</category>
+      <category>community</category>
+      <category>gratitude</category>
+      <category>business communication</category>
+      <pubDate>Tue, 21 Apr 2026 05:37:22 +0800</pubDate>
+    </item>
+    <item>
+      <title>DF Paraphernalia: T-Shirts and Hoodies Are Back 摘要</title>
+      <link>https://store.daringfireball.net/</link>
+      <description>Daring Fireball is offering t-shirts and hoodies again, with printing starting at the end of this week and shipping next week. The author mentions gathering thoughts about Apple leadership news, including a community letter and CEO changes, but the main focus is on merchandise availability.
+
+标签: Daring Fireball, merchandise, t-shirts, hoodies, Apple, leadership, news, shipping, e-commerce, blog</description>
+      <guid isPermaLink="false">https://store.daringfireball.net/#sha256:16c1488b155a9ec1</guid>
+      <category>Daring Fireball</category>
+      <category>merchandise</category>
+      <category>t-shirts</category>
+      <category>hoodies</category>
+      <category>Apple</category>
+      <category>leadership</category>
+      <category>news</category>
+      <category>shipping</category>
+      <category>e-commerce</category>
+      <category>blog</category>
+      <pubDate>Tue, 21 Apr 2026 05:38:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
