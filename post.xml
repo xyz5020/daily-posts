@@ -8,121 +8,159 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 21 Apr 2026 07:23:18 +0800</lastBuildDate>
-    <pubDate>Tue, 21 Apr 2026 07:23:18 +0800</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2026 07:21:23 +0800</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2026 07:21:23 +0800</pubDate>
     <item>
-      <title>Pluralistic: Comrade Trump (20 Apr 2026) 摘要</title>
-      <link>https://pluralistic.net/2026/04/20/praxis/</link>
-      <description>The article analyzes the paradoxical effects of Trump's policies, arguing that while they cause harm, they inadvertently accelerate positive global changes. Trump's solar tariffs led to Pakistan rapidly adopting solar energy, becoming a solar capital and reducing reliance on fossil fuels. Similarly, energy shortages from geopolitical tensions, like those in India and Australia, are pushing transitions to induction cooking, EVs, and ebikes. The piece also notes how events like Putin's invasion of Ukraine spurred Europe's energy transition, including solar adoption in the UK. Overall, it suggests that disruptive policies can unintentionally dismantle old systems and foster sustainable alternatives.
+      <title>Four Horsemen of the AIpocalypse 摘要</title>
+      <link>https://www.wheresyoured.at/four-horsemen-of-the-aipocalypse/</link>
+      <description>The article criticizes Anthropic for severe operational issues, including poor service uptime (as low as 98.79% for Claude Chatbot, equating to nearly 4.5 days of downtime annually), capacity shortages leading to frequent outages, and performance degradation in its AI models. It highlights complaints from users and enterprise clients about Claude Opus 4.6 and 4.7 models becoming less effective, with reports of increased token usage, hallucinations, and reduced reasoning depth. Despite raising $30 billion, Anthropic's lack of transparency and failure to address these problems is presented as a sign of underlying financial or technical strain in the AI industry.
 
-标签: politics, energy, sustainability, Trump, globalization, renewable energy, policy analysis, geopolitics, climate change, technology adoption</description>
-      <guid isPermaLink="false">https://pluralistic.net/2026/04/20/praxis/#sha256:cbb0da3107af7d83</guid>
+标签: AI, Anthropic, Claude, downtime, performance degradation, AI bubble, enterprise software, reliability, tech criticism, capacity issues</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/four-horsemen-of-the-aipocalypse/#sha256:600502dfc131445c</guid>
+      <category>AI</category>
+      <category>Anthropic</category>
+      <category>Claude</category>
+      <category>downtime</category>
+      <category>performance degradation</category>
+      <category>AI bubble</category>
+      <category>enterprise software</category>
+      <category>reliability</category>
+      <category>tech criticism</category>
+      <category>capacity issues</category>
+      <pubDate>Wed, 22 Apr 2026 00:28:59 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Andreas Påhlsson-Notini 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything</link>
+      <description>The article argues that current AI agents are overly human-like in problematic ways, exhibiting lack of stringency, patience, and focus. When faced with difficult tasks, they tend to revert to familiar patterns rather than adhering strictly to constraints, and they engage in unnecessary negotiation with reality instead of executing tasks precisely.
+
+标签: AI, AI/LLM/Agent, AI/LLM, AI/Agent, AI/Agent/Behavior, AI/Agent/Design, AI/Agent/Performance, AI/Agent/Constraints, AI/Agent/Focus, AI/Agent/Stringency</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything#sha256:9ef99fe0c0783f82</guid>
+      <category>AI</category>
+      <category>AI/LLM/Agent</category>
+      <category>AI/LLM</category>
+      <category>AI/Agent</category>
+      <category>AI/Agent/Behavior</category>
+      <category>AI/Agent/Design</category>
+      <category>AI/Agent/Performance</category>
+      <category>AI/Agent/Constraints</category>
+      <category>AI/Agent/Focus</category>
+      <category>AI/Agent/Stringency</category>
+      <pubDate>Wed, 22 Apr 2026 00:39:33 +0800</pubDate>
+    </item>
+    <item>
+      <title>People get confused when language implementations break language guarantees 摘要</title>
+      <link>https://buttondown.com/hillelwayne/archive/people-get-confused-when-language-implementations/</link>
+      <description>The article contrasts imperative programming languages with TLA+, a formal specification language. In imperative languages like Python, assignments occur sequentially, affecting variable values immediately. TLA+ separates updates from temporal steps: primed variables (e.g., x') represent values in the next state, allowing statements to be order-independent and eliminating intrastep race conditions. However, model checkers like TLC impose ordering constraints for practicality, and side-effect operators (e.g., PrintT) can break TLA+'s declarative semantics, causing confusion. This highlights a leaky abstraction where implementation details undermine theoretical guarantees, similar to issues in other declarative languages like Prolog.
+
+标签: TLA+, formal methods, model checking, declarative programming, imperative programming, side effects, leaky abstraction, programming semantics, concurrency, verification</description>
+      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/people-get-confused-when-language-implementations/#sha256:3e07a7470f39f7a3</guid>
+      <category>TLA+</category>
+      <category>formal methods</category>
+      <category>model checking</category>
+      <category>declarative programming</category>
+      <category>imperative programming</category>
+      <category>side effects</category>
+      <category>leaky abstraction</category>
+      <category>programming semantics</category>
+      <category>concurrency</category>
+      <category>verification</category>
+      <pubDate>Wed, 22 Apr 2026 01:40:17 +0800</pubDate>
+    </item>
+    <item>
+      <title>Trump on Tim Apple 摘要</title>
+      <link>https://truthsocial.com/@realDonaldTrump/posts/116442276577696798</link>
+      <description>Former President Donald Trump praises Tim Cook's leadership at Apple, contrasting him with Steve Jobs. Trump recounts how Cook sought his help during his presidency, framing tariffs as a tool for political influence rather than economic policy. Analysis suggests Trump values Cook's willingness to engage with him, unlike Jobs, highlighting Trump's preference for personal deference over policy substance.
+
+标签: politics, business, Apple, leadership, tariffs, Donald Trump, Tim Cook, Steve Jobs, presidency, power dynamics</description>
+      <guid isPermaLink="false">https://truthsocial.com/@realDonaldTrump/posts/116442276577696798#sha256:30d6cc72dfe24371</guid>
       <category>politics</category>
-      <category>energy</category>
-      <category>sustainability</category>
-      <category>Trump</category>
-      <category>globalization</category>
-      <category>renewable energy</category>
-      <category>policy analysis</category>
-      <category>geopolitics</category>
-      <category>climate change</category>
-      <category>technology adoption</category>
-      <pubDate>Tue, 21 Apr 2026 00:44:33 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple’s Annual Environmental Progress Report 摘要</title>
-      <link>https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/</link>
-      <description>Apple's 2026 Environmental Progress Report shows the company has maintained a 60% reduction in greenhouse gas emissions since 2015, despite business growth, as part of its Apple 2030 carbon neutrality goal. Key achievements include transitioning to 100% fiber-based packaging by 2025, eliminating plastic and avoiding over 15,000 metric tons of plastic waste. Innovations in renewable energy, materials, recycling, water stewardship, and zero waste are highlighted, with packaging design improvements enhancing user experience. The report coincides with Earth Day, featuring a recycling promotion at Apple Stores.
-
-标签: Apple, environment, sustainability, carbon neutral, packaging, recycling, greenhouse gas, Earth Day, corporate responsibility, innovation</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/#sha256:4a397021e07884a9</guid>
-      <category>Apple</category>
-      <category>environment</category>
-      <category>sustainability</category>
-      <category>carbon neutral</category>
-      <category>packaging</category>
-      <category>recycling</category>
-      <category>greenhouse gas</category>
-      <category>Earth Day</category>
-      <category>corporate responsibility</category>
-      <category>innovation</category>
-      <pubDate>Tue, 21 Apr 2026 01:09:30 +0800</pubDate>
-    </item>
-    <item>
-      <title>Exclusive: Microsoft To Shift GitHub Copilot Users To Token-Based Billing, Tighten Rate Limits 摘要</title>
-      <link>https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/</link>
-      <description>Leaked internal documents reveal Microsoft plans to temporarily suspend new signups for GitHub Copilot's individual and student tiers, transition from request-based to token-based billing due to rising costs, tighten rate limits across plans, and remove certain AI models like Anthropic's Opus from lower-tier subscriptions. This reflects broader industry trends away from subsidized AI compute, with Microsoft confirming some details in a blog post.
-
-标签: Microsoft, GitHub Copilot, AI pricing, token-based billing, rate limits, cost management, AI subsidies, Anthropic Opus, developer tools, tech news</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/#sha256:933dfda508fac592</guid>
-      <category>Microsoft</category>
-      <category>GitHub Copilot</category>
-      <category>AI pricing</category>
-      <category>token-based billing</category>
-      <category>rate limits</category>
-      <category>cost management</category>
-      <category>AI subsidies</category>
-      <category>Anthropic Opus</category>
-      <category>developer tools</category>
-      <category>tech news</category>
-      <pubDate>Tue, 21 Apr 2026 01:11:58 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple: ‘Tim Cook to Become Apple Executive Chairman; John Ternus to Become Apple CEO’ 摘要</title>
-      <link>https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/</link>
-      <description>Apple announced a leadership transition where Tim Cook will become executive chairman of the board, and John Ternus, senior vice president of Hardware Engineering, will become CEO effective September 1, 2026. The move follows a long-term succession plan, with Cook assisting in the transition and engaging with policymakers. In a related announcement, Johny Srouji was named Chief Hardware Officer. The transition is described as smooth and low on drama, reflecting Cook's leadership style.
-
-标签: Apple, leadership, CEO, executive chairman, succession, hardware, corporate governance, Tim Cook, John Ternus, Johny Srouji</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/#sha256:b6b9ec9edae1a07d</guid>
+      <category>business</category>
       <category>Apple</category>
       <category>leadership</category>
-      <category>CEO</category>
-      <category>executive chairman</category>
-      <category>succession</category>
-      <category>hardware</category>
-      <category>corporate governance</category>
+      <category>tariffs</category>
+      <category>Donald Trump</category>
       <category>Tim Cook</category>
-      <category>John Ternus</category>
-      <category>Johny Srouji</category>
-      <pubDate>Tue, 21 Apr 2026 04:44:58 +0800</pubDate>
+      <category>Steve Jobs</category>
+      <category>presidency</category>
+      <category>power dynamics</category>
+      <pubDate>Wed, 22 Apr 2026 03:17:34 +0800</pubDate>
     </item>
     <item>
-      <title>‘Community Letter From Tim’ 摘要</title>
-      <link>https://www.apple.com/community-letter-from-tim/</link>
-      <description>Tim Cook shares a heartfelt letter to the Apple community, reflecting on his 15-year daily routine of reading user emails that highlight personal stories—from life-saving Apple Watch moments to creative achievements with Macs. He expresses deep gratitude and a sense of obligation, emphasizing the human connection and honor of leading Apple. The note is praised for its casual, authentic tone, reminiscent of his 2014 coming-out essay, marking a happy personal moment for Cook.
+      <title>Writing an LLM from scratch, part 32m -- Interventions: conclusion 摘要</title>
+      <link>https://www.gilesthomas.com/2026/04/llm-from-scratch-32m-interventions-conclusion</link>
+      <description>The author trained a GPT-2 base model from scratch over several months, achieving near-GPT-2 small performance in 44 hours locally. Key interventions included adjusting learning rate (most effective), removing dropout, weight decay, gradient clipping, QKV bias, weight tying, and using mixed precision (faster but slightly worse loss). Despite similar loss, instruction fine-tuning results varied, with one model close to GPT-2 small and another much worse. Future plans include book appendices and reimplementing the model in JAX without reference.
 
-标签: Apple, Tim Cook, leadership, corporate culture, user engagement, personal reflection, technology impact, community, gratitude, business communication</description>
-      <guid isPermaLink="false">https://www.apple.com/community-letter-from-tim/#sha256:8ae1fbd47a54cc25</guid>
-      <category>Apple</category>
-      <category>Tim Cook</category>
-      <category>leadership</category>
-      <category>corporate culture</category>
-      <category>user engagement</category>
-      <category>personal reflection</category>
-      <category>technology impact</category>
-      <category>community</category>
-      <category>gratitude</category>
-      <category>business communication</category>
-      <pubDate>Tue, 21 Apr 2026 05:37:22 +0800</pubDate>
+标签: AI, LLM, GPT-2, training, PyTorch, machine learning, model optimization, from scratch, fine-tuning, JAX</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/llm-from-scratch-32m-interventions-conclusion#sha256:3a1174422c5d67f0</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>GPT-2</category>
+      <category>training</category>
+      <category>PyTorch</category>
+      <category>machine learning</category>
+      <category>model optimization</category>
+      <category>from scratch</category>
+      <category>fine-tuning</category>
+      <category>JAX</category>
+      <pubDate>Wed, 22 Apr 2026 04:00:00 +0800</pubDate>
     </item>
     <item>
-      <title>DF Paraphernalia: T-Shirts and Hoodies Are Back 摘要</title>
-      <link>https://store.daringfireball.net/</link>
-      <description>Daring Fireball is offering t-shirts and hoodies again, with printing starting at the end of this week and shipping next week. The author mentions gathering thoughts about Apple leadership news, including a community letter and CEO changes, but the main focus is on merchandise availability.
+      <title>An AI Odyssey, Part 4: Astounding Coding Agents 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/</link>
+      <description>The author reports significant improvements in AI coding agents since late 2025, noting they feel smarter, handle broader tasks, and better understand codebases, increasing assistance from 20% to 60% of coding effort. However, agents are not a panacea: they can be myopic, overoptimize to tests, generate inconsistent or excessive code, and require guidance. Using OpenAI Codex, the author values human-readable code and active involvement, avoiding a 'dark software factory' approach. While some fear skill loss, the author sees learning opportunities and maintains personal coding for discovery. Productivity gains are notable, with one task completed 10x faster, but cognitive load limits handling multiple agents. Overall, tools are rapidly improving.
 
-标签: Daring Fireball, merchandise, t-shirts, hoodies, Apple, leadership, news, shipping, e-commerce, blog</description>
-      <guid isPermaLink="false">https://store.daringfireball.net/#sha256:16c1488b155a9ec1</guid>
-      <category>Daring Fireball</category>
-      <category>merchandise</category>
-      <category>t-shirts</category>
-      <category>hoodies</category>
-      <category>Apple</category>
-      <category>leadership</category>
+标签: AI, coding agents, productivity, software development, OpenAI Codex, code quality, human-AI collaboration, programming, automation, machine learning</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/#sha256:0e80f3d512d6d471</guid>
+      <category>AI</category>
+      <category>coding agents</category>
+      <category>productivity</category>
+      <category>software development</category>
+      <category>OpenAI Codex</category>
+      <category>code quality</category>
+      <category>human-AI collaboration</category>
+      <category>programming</category>
+      <category>automation</category>
+      <category>machine learning</category>
+      <pubDate>Wed, 22 Apr 2026 04:14:40 +0800</pubDate>
+    </item>
+    <item>
+      <title>Where's the raccoon with the ham radio? (ChatGPT Images 2.0) 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything</link>
+      <description>OpenAI released ChatGPT Images 2.0, a new image generation model, with Sam Altman comparing its leap from version 1 to version 2 as equivalent to jumping from GPT-3 to GPT-5. The author tested it using a 'Where's Waldo' style prompt to find a raccoon holding a ham radio, comparing results from older models like gpt-image-1, Google's Nano Banana 2 and Pro, and the new gpt-image-2. While initial attempts with gpt-image-2 at default settings failed to produce a clear raccoon, using high-quality output and maximum dimensions resulted in a detailed image with the raccoon easily spotted, costing around 40 cents. The article highlights the model's improved ability in complex illustrations but warns against trusting AI models to solve their own puzzles, as demonstrated by a Hacker News user's experiment where ChatGPT incorrectly circled a non-existent raccoon.
+
+标签: AI, OpenAI, image-generation, ChatGPT, generative-AI, text-to-image, LLMs, model-comparison, AI-testing, Where's-Waldo</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything#sha256:2e9db0132846ad71</guid>
+      <category>AI</category>
+      <category>OpenAI</category>
+      <category>image-generation</category>
+      <category>ChatGPT</category>
+      <category>generative-AI</category>
+      <category>text-to-image</category>
+      <category>LLMs</category>
+      <category>model-comparison</category>
+      <category>AI-testing</category>
+      <category>Where's-Waldo</category>
+      <pubDate>Wed, 22 Apr 2026 04:32:24 +0800</pubDate>
+    </item>
+    <item>
+      <title>News: Anthropic Removes Claude Code From $20-A-Month "Pro" Subscription Plan For New Users (Developing) 摘要</title>
+      <link>https://www.wheresyoured.at/news-anthropic-removes-pro-cc/</link>
+      <description>Anthropic has removed access to its AI coding tool Claude Code from the $20/month Pro plan, likely as a cost-cutting measure. Support documents now reference only the Max plan, and pricing pages reflect this change. While some existing Pro users still report access via web and CLI, it's unclear if this is temporary or affects all Pro customers. Anthropic claims it's testing on 2% of new signups, but documentation suggests broader removal, potentially pushing users to pay-per-token API access.
+
+标签: AI, Anthropic, Claude, pricing, coding-tools, subscription, enterprise, cost-cutting, API, news</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/news-anthropic-removes-pro-cc/#sha256:2a47dd3882904144</guid>
+      <category>AI</category>
+      <category>Anthropic</category>
+      <category>Claude</category>
+      <category>pricing</category>
+      <category>coding-tools</category>
+      <category>subscription</category>
+      <category>enterprise</category>
+      <category>cost-cutting</category>
+      <category>API</category>
       <category>news</category>
-      <category>shipping</category>
-      <category>e-commerce</category>
-      <category>blog</category>
-      <pubDate>Tue, 21 Apr 2026 05:38:00 +0800</pubDate>
+      <pubDate>Wed, 22 Apr 2026 06:44:29 +0800</pubDate>
     </item>
   </channel>
 </rss>
