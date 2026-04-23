@@ -8,121 +8,139 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 23 Apr 2026 07:25:16 +0800</lastBuildDate>
-    <pubDate>Thu, 23 Apr 2026 07:25:16 +0800</pubDate>
+    <lastBuildDate>Fri, 24 Apr 2026 07:24:32 +0800</lastBuildDate>
+    <pubDate>Fri, 24 Apr 2026 07:24:32 +0800</pubDate>
     <item>
-      <title>Ben Thompson on Tim Cook’s Legacy 摘要</title>
-      <link>https://stratechery.com/2026/tim-cooks-impeccable-timing/</link>
-      <description>The article analyzes Tim Cook's leadership at Apple, highlighting his operational genius in transforming Apple's supply chain by shifting manufacturing to China and creating a just-in-time system with no major product recalls. It credits Cook for overseeing successful new products like AirPods and Apple Watch, which generate significant revenue, and for elevating Services to 26% of revenue and 41% of profit, bringing balance to Apple's financials. The piece argues that Cook's focus on Services protected Apple's hardware-centric mission, as evidenced by the appointment of hardware head John Ternus as his successor.
+      <title>Unauthorized Users in Discord Group Had Weekslong Access to Anthropic’s Supposedly-Super-Dangerous Claude Mythos Model 摘要</title>
+      <link>https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users</link>
+      <description>Bloomberg reports that unauthorized users in a private Discord group accessed Anthropic's new Mythos AI model, which the company claims is powerful enough to enable dangerous cyberattacks. The group gained access on April 7, the same day Anthropic announced limited testing, and has been using it regularly for non-cybersecurity purposes. The same group also accessed other unreleased Claude models. This security lapse follows Anthropic accidentally exposing Claude Code's source code weeks earlier. The incident raises questions about Anthropic's security practices and the credibility of their warnings about Mythos's dangers.
 
-标签: Apple, Tim Cook, leadership, supply chain, product management, Services, Wearables, business strategy, operational excellence, CEO transition</description>
-      <guid isPermaLink="false">https://stratechery.com/2026/tim-cooks-impeccable-timing/#sha256:727d2a21875bbd81</guid>
-      <category>Apple</category>
-      <category>Tim Cook</category>
-      <category>leadership</category>
-      <category>supply chain</category>
-      <category>product management</category>
-      <category>Services</category>
-      <category>Wearables</category>
-      <category>business strategy</category>
-      <category>operational excellence</category>
-      <category>CEO transition</category>
-      <pubDate>Thu, 23 Apr 2026 00:35:37 +0800</pubDate>
+标签: Anthropic, Mythos, AI security, unauthorized access, Claude, cybersecurity, data breach, Discord, Bloomberg, AI safety</description>
+      <guid isPermaLink="false">https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users#sha256:0752fa58573f84f8</guid>
+      <category>Anthropic</category>
+      <category>Mythos</category>
+      <category>AI security</category>
+      <category>unauthorized access</category>
+      <category>Claude</category>
+      <category>cybersecurity</category>
+      <category>data breach</category>
+      <category>Discord</category>
+      <category>Bloomberg</category>
+      <category>AI safety</category>
+      <pubDate>Fri, 24 Apr 2026 01:28:23 +0800</pubDate>
     </item>
     <item>
-      <title>Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything</link>
-      <description>Qwen has released Qwen3.6-27B, a 27-billion-parameter dense open-weight model claiming flagship-level agentic coding performance, surpassing the previous-generation Qwen3.5-397B-A17B MoE model across major coding benchmarks. The model is significantly smaller at 55.6GB compared to 807GB. A user tested a 16.8GB quantized version locally using llama-server, generating detailed SVGs like a pelican riding a bicycle with good quality, achieving ~25 tokens/second generation speed. The article includes performance metrics and example outputs, highlighting its potential for efficient local AI coding tasks.
+      <title>Microsoft Offers Voluntary Retirement to Long-Serving Employees 摘要</title>
+      <link>https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InlNUEVJcXN0QlMiLCJwIjoiL25ld3MvOTE3NDUxL21pY3Jvc29mdC12b2x1bnRhcnktcmV0aXJlbWVudC1vZmZlci1yZXdhcmRzLWJvbnVzLXN0b2NrLWNoYW5nZXMiLCJleHAiOjE3NzczOTYzOTEsImlhdCI6MTc3Njk2NDM5MX0.IeenHzWQnmLtvfvkdz2bewFS8qLD-czBrxe7WKGTtsw&amp;utm_medium=gift-link</link>
+      <description>Microsoft is offering a voluntary retirement program to US employees whose combined years of service and age total 70 or more. The program, announced by HR chief Amy Coleman, includes generous company support and aims to avoid larger layoffs ahead of the new financial year in July. The Verge reports that this affects a small percentage of US employees. The article contrasts this with Apple, where some employees have much higher combined totals, suggesting Microsoft's threshold is relatively low.
 
-标签: AI, LLM, open-source, coding, benchmarks, local-LLM, model-release, Qwen, quantization, performance</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything#sha256:1570550b6dc96b43</guid>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>open-source</category>
-      <category>coding</category>
-      <category>benchmarks</category>
-      <category>local-LLM</category>
-      <category>model-release</category>
-      <category>Qwen</category>
-      <category>quantization</category>
-      <category>performance</category>
-      <pubDate>Thu, 23 Apr 2026 00:45:23 +0800</pubDate>
-    </item>
-    <item>
-      <title>Exclusive: Microsoft Moving All GitHub Copilot Subscribers To Token-Based Billing In June 摘要</title>
-      <link>https://www.wheresyoured.at/exclusive-microsoft-moving-all-github-copilot-subscribers-to-token-based-billing-in-june/</link>
-      <description>Microsoft plans to transition all GitHub Copilot customers to token-based billing starting in June, as revealed by internal documents. Copilot Business customers will pay $19 per user per month for $30 in pooled AI credits, while Enterprise customers will pay $39 for $70 in credits, though amounts may change. The announcement is expected on April 23. This shift from a request-based system to paying for actual token usage aims to address rising AI compute costs. It remains unclear how individual Pro or Pro+ subscribers will be affected.
-
-标签: Microsoft, GitHub Copilot, AI, billing, token-based, enterprise, software development, pricing, subscription, cost management</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/exclusive-microsoft-moving-all-github-copilot-subscribers-to-token-based-billing-in-june/#sha256:6a90270fa1943857</guid>
+标签: Microsoft, voluntary retirement, layoffs, HR, tech industry, employee benefits, US employees, workforce reduction, corporate restructuring</description>
+      <guid isPermaLink="false">https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InlNUEVJcXN0QlMiLCJwIjoiL25ld3MvOTE3NDUxL21pY3Jvc29mdC12b2x1bnRhcnktcmV0aXJlbWVudC1vZmZlci1yZXdhcmRzLWJvbnVzLXN0b2NrLWNoYW5nZXMiLCJleHAiOjE3NzczOTYzOTEsImlhdCI6MTc3Njk2NDM5MX0.IeenHzWQnmLtvfvkdz2bewFS8qLD-czBrxe7WKGTtsw&amp;utm_medium=gift-link#sha256:e1797bf77a6a19da</guid>
       <category>Microsoft</category>
-      <category>GitHub Copilot</category>
+      <category>voluntary retirement</category>
+      <category>layoffs</category>
+      <category>HR</category>
+      <category>tech industry</category>
+      <category>employee benefits</category>
+      <category>US employees</category>
+      <category>workforce reduction</category>
+      <category>corporate restructuring</category>
+      <pubDate>Fri, 24 Apr 2026 01:53:58 +0800</pubDate>
+    </item>
+    <item>
+      <title>Eight for Eight 摘要</title>
+      <link>https://mastodon.social/@Cdespinosa/116439702239797827</link>
+      <description>Chris Espinosa, an early Apple employee (#8), will join an elite club of former Apple employees who have worked under a number of CEOs equal to or greater than their employee number. The club includes Steve Wozniak (#1, 1 CEO), Steve Jobs (#2, 2 CEOs), Mike Markkula (#3, 3 CEOs), and Bill Fernandez (#4, 4 CEOs). Espinosa (#8) has worked under 8 CEOs: Scott, Markkula, Sculley, Spindler, Amelio, Jobs, Cook, and Ternus, achieving a perfect record of longevity and adaptability at Apple.
+
+标签: Apple, Chris Espinosa, employee number, CEO, history, longevity, Steve Jobs, Steve Wozniak, Mike Markkula, Bill Fernandez</description>
+      <guid isPermaLink="false">https://mastodon.social/@Cdespinosa/116439702239797827#sha256:89f2e2a9586d4607</guid>
+      <category>Apple</category>
+      <category>Chris Espinosa</category>
+      <category>employee number</category>
+      <category>CEO</category>
+      <category>history</category>
+      <category>longevity</category>
+      <category>Steve Jobs</category>
+      <category>Steve Wozniak</category>
+      <category>Mike Markkula</category>
+      <category>Bill Fernandez</category>
+      <pubDate>Fri, 24 Apr 2026 03:36:15 +0800</pubDate>
+    </item>
+    <item>
+      <title>A pelican for GPT-5.5 via the semi-official Codex backdoor API 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything</link>
+      <description>OpenAI released GPT-5.5, available in Codex and rolling out to paid ChatGPT subscribers, with API access coming later. The model is fast and capable but lacks API availability for now. The article discusses the OpenClaw backdoor controversy: Anthropic blocked OpenClaw from using its subscription API, while OpenAI welcomed it. The author created an LLM plugin, llm-openai-via-codex, that uses Codex subscription credentials to run prompts via the command line. GPT-5.5 pricing is double GPT-5.4 ($5/$30 per 1M tokens). The author tested GPT-5.5 by generating SVG pelicans riding bicycles, noting that higher reasoning effort (xhigh) produced better results but took longer.
+
+标签: AI, OpenAI, GPT-5.5, LLM, Codex, OpenClaw, API, pricing, SVG, reasoning</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything#sha256:08aa297b1089793a</guid>
       <category>AI</category>
-      <category>billing</category>
-      <category>token-based</category>
-      <category>enterprise</category>
-      <category>software development</category>
-      <category>pricing</category>
-      <category>subscription</category>
-      <category>cost management</category>
-      <pubDate>Thu, 23 Apr 2026 01:24:17 +0800</pubDate>
-    </item>
-    <item>
-      <title>Writing an LLM from scratch, part 33 -- what I learned from finally getting round to the appendices 摘要</title>
-      <link>https://www.gilesthomas.com/2026/04/llm-from-scratch-33-what-i-learned-from-the-appendices</link>
-      <description>The author reflects on reading the appendices of 'Build a Large Language Model (from Scratch)' after completing the main content and initial training goals. Key insights include: Appendix A's PyTorch overview was useful, especially on DistributedDataParallel for multi-GPU training, though learning by doing provided deeper understanding. Appendix D covered gradient clipping and learning rate scheduling, which the author had previously explored independently. Appendix E's LoRA implementation with full code was particularly inspiring for future projects. The author concludes that while the appendices could have saved time, hands-on experimentation led to better internalization of concepts, and plans to next build a GPT-2-style model in JAX as a final challenge.
-
-标签: LLM, PyTorch, JAX, machine-learning, training, DistributedDataParallel, LoRA, deep-learning, education, hands-on-learning</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/llm-from-scratch-33-what-i-learned-from-the-appendices#sha256:07a1e24f319f139c</guid>
+      <category>OpenAI</category>
+      <category>GPT-5.5</category>
       <category>LLM</category>
-      <category>PyTorch</category>
-      <category>JAX</category>
-      <category>machine-learning</category>
-      <category>training</category>
-      <category>DistributedDataParallel</category>
-      <category>LoRA</category>
-      <category>deep-learning</category>
-      <category>education</category>
-      <category>hands-on-learning</category>
-      <pubDate>Thu, 23 Apr 2026 01:30:00 +0800</pubDate>
+      <category>Codex</category>
+      <category>OpenClaw</category>
+      <category>API</category>
+      <category>pricing</category>
+      <category>SVG</category>
+      <category>reasoning</category>
+      <pubDate>Fri, 24 Apr 2026 03:59:47 +0800</pubDate>
     </item>
     <item>
-      <title>There Are Corrections, and There Are Corrections 摘要</title>
-      <link>https://www.nytimes.com/2026/04/21/nyregion/mets-mamdani-curse.html?unlocked_article_code=1.c1A.iLO0.Kqdo8aBhNAY1</link>
-      <description>The article highlights a humorous correction from The New York Times regarding the New York Mets' 11th straight loss, noting it occurred on Sunday rather than Monday, with the witty remark that 'Even the Mets cannot lose on an off day.' It compares this correction to the iconic New York Post headline 'Headless Body in Topless Bar,' praising it as a perfect example of editorial corrections.
+      <title>Nilay Patel: ‘Beware Software Brain’ 摘要</title>
+      <link>https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation</link>
+      <description>Nilay Patel's essay at The Verge highlights widespread public hostility toward AI, citing polls showing Gen Z's growing anger and pessimism. He contrasts this with past tech shifts like smartphones and the internet, which were met with optimism. Patel introduces the concept of 'software brain'—a worldview that sees everything as controllable databases—arguing that this mindset fails to resonate with ordinary people's experiences. The piece underscores a deep disconnect between tech insiders and the public, suggesting that AI's unpopularity stems from real-world experiences rather than mere misunderstanding.
 
-标签: journalism, corrections, humor, New York Times, sports, editing, media, baseball, New York Mets, headlines</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/04/21/nyregion/mets-mamdani-curse.html?unlocked_article_code=1.c1A.iLO0.Kqdo8aBhNAY1#sha256:f092c672a5cff67c</guid>
-      <category>journalism</category>
-      <category>corrections</category>
-      <category>humor</category>
-      <category>New York Times</category>
-      <category>sports</category>
-      <category>editing</category>
+标签: AI, public opinion, Gen Z, software brain, technology backlash, polls, cultural disconnect, tech industry, Nilay Patel, The Verge</description>
+      <guid isPermaLink="false">https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation#sha256:8f9a6f5f4300c18c</guid>
+      <category>AI</category>
+      <category>public opinion</category>
+      <category>Gen Z</category>
+      <category>software brain</category>
+      <category>technology backlash</category>
+      <category>polls</category>
+      <category>cultural disconnect</category>
+      <category>tech industry</category>
+      <category>Nilay Patel</category>
+      <category>The Verge</category>
+      <pubDate>Fri, 24 Apr 2026 04:13:49 +0800</pubDate>
+    </item>
+    <item>
+      <title>Trump’s Blog Has Somehow Lost $1.1 Billion 摘要</title>
+      <link>https://www.motherjones.com/politics/2026/04/truth-social-ceo-out-after-1-1-billion-in-losses/</link>
+      <description>Devin Nunes has been ousted as CEO of Truth Social after the company lost $1.1 billion since going public. Under his leadership, Trump Media &amp; Technology Group's stock plummeted 84% from its 2024 debut price of $58 to around $9.80. The company recorded only $10.6 million in revenue against massive losses. Nunes will be replaced by a former Hulu executive. Trump Media had originally promised to launch streaming services and web hosting to rival Netflix and Amazon, but those plans have not materialized.
+
+标签: Devin Nunes, Truth Social, Trump Media, social media, stock market, business losses, CEO change, Donald Trump, technology, media</description>
+      <guid isPermaLink="false">https://www.motherjones.com/politics/2026/04/truth-social-ceo-out-after-1-1-billion-in-losses/#sha256:a94cd013d26f7a76</guid>
+      <category>Devin Nunes</category>
+      <category>Truth Social</category>
+      <category>Trump Media</category>
+      <category>social media</category>
+      <category>stock market</category>
+      <category>business losses</category>
+      <category>CEO change</category>
+      <category>Donald Trump</category>
+      <category>technology</category>
       <category>media</category>
-      <category>baseball</category>
-      <category>New York Mets</category>
-      <category>headlines</category>
-      <pubDate>Thu, 23 Apr 2026 02:16:30 +0800</pubDate>
+      <pubDate>Fri, 24 Apr 2026 05:14:35 +0800</pubDate>
     </item>
     <item>
-      <title>DF T-Shirts and Hoodies: Get Them While the Getting Is Good 摘要</title>
-      <link>https://store.daringfireball.net/</link>
-      <description>Daring Fireball is offering t-shirts and hoodies again, with orders starting to be printed at the end of this week and shipped next week. The hoodies are a new model from Bella Canvas, replacing the previous heather gray blend (50% polyester, 37.5% cotton, 12.5% rayon) with a heather black version made of 85% cotton and 15% polyester. The new hoodies are described as feeling even better than the old ones.
+      <title>Extract PDF text in your browser with LiteParse for the web 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything</link>
+      <description>Simon Willison ported LlamaIndex's LiteParse, a Node.js CLI tool for PDF text extraction using spatial text parsing and optional OCR, to run entirely in the browser. LiteParse uses heuristics for multi-column layouts and Tesseract OCR for image-based PDFs. Willison built the web version with Claude Code and Opus 4.7, creating a drag-and-drop UI that parses PDFs client-side without uploading data. The tool displays extracted text and JSON output with copy buttons, supports OCR toggling, and renders page screenshots. The project is deployed via GitHub Pages at simonw.github.io/liteparse, with a GitHub Actions workflow for testing and deployment.
 
-标签: merchandise, clothing, e-commerce, branding, Daring Fireball, apparel, retail, product launch, fashion, blog merchandise</description>
-      <guid isPermaLink="false">https://store.daringfireball.net/#sha256:bd818c068a0dfc5f</guid>
-      <category>merchandise</category>
-      <category>clothing</category>
-      <category>e-commerce</category>
-      <category>branding</category>
-      <category>Daring Fireball</category>
-      <category>apparel</category>
-      <category>retail</category>
-      <category>product launch</category>
-      <category>fashion</category>
-      <category>blog merchandise</category>
-      <pubDate>Thu, 23 Apr 2026 03:38:55 +0800</pubDate>
+标签: PDF parsing, LiteParse, browser tools, OCR, Claude Code, web development, open source, GitHub Pages, spatial text parsing, AI-assisted coding</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything#sha256:60bf34ac709e7578</guid>
+      <category>PDF parsing</category>
+      <category>LiteParse</category>
+      <category>browser tools</category>
+      <category>OCR</category>
+      <category>Claude Code</category>
+      <category>web development</category>
+      <category>open source</category>
+      <category>GitHub Pages</category>
+      <category>spatial text parsing</category>
+      <category>AI-assisted coding</category>
+      <pubDate>Fri, 24 Apr 2026 05:54:24 +0800</pubDate>
     </item>
   </channel>
 </rss>
