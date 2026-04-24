@@ -8,139 +8,98 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Apr 2026 07:24:32 +0800</lastBuildDate>
-    <pubDate>Fri, 24 Apr 2026 07:24:32 +0800</pubDate>
+    <lastBuildDate>Sat, 25 Apr 2026 07:21:55 +0800</lastBuildDate>
+    <pubDate>Sat, 25 Apr 2026 07:21:55 +0800</pubDate>
     <item>
-      <title>Unauthorized Users in Discord Group Had Weekslong Access to Anthropic’s Supposedly-Super-Dangerous Claude Mythos Model 摘要</title>
-      <link>https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users</link>
-      <description>Bloomberg reports that unauthorized users in a private Discord group accessed Anthropic's new Mythos AI model, which the company claims is powerful enough to enable dangerous cyberattacks. The group gained access on April 7, the same day Anthropic announced limited testing, and has been using it regularly for non-cybersecurity purposes. The same group also accessed other unreleased Claude models. This security lapse follows Anthropic accidentally exposing Claude Code's source code weeks earlier. The incident raises questions about Anthropic's security practices and the credibility of their warnings about Mythos's dangers.
+      <title>This Week on The Analog Antiquarian 摘要</title>
+      <link>https://www.filfre.net/2026/04/this-week-on-the-analog-antiquarian/</link>
+      <description>The Analog Antiquarian blog introduces a new series on William Shakespeare, exploring his life, works, and enduring influence. The author reflects on the challenges of covering such a vast topic and the personal journey of engaging with Shakespeare's plays and sonnets. The post sets the stage for a deep dive into the Bard's legacy, emphasizing the timeless relevance of his themes and language.
 
-标签: Anthropic, Mythos, AI security, unauthorized access, Claude, cybersecurity, data breach, Discord, Bloomberg, AI safety</description>
-      <guid isPermaLink="false">https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users#sha256:0752fa58573f84f8</guid>
-      <category>Anthropic</category>
-      <category>Mythos</category>
-      <category>AI security</category>
-      <category>unauthorized access</category>
-      <category>Claude</category>
-      <category>cybersecurity</category>
-      <category>data breach</category>
-      <category>Discord</category>
-      <category>Bloomberg</category>
-      <category>AI safety</category>
-      <pubDate>Fri, 24 Apr 2026 01:28:23 +0800</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Offers Voluntary Retirement to Long-Serving Employees 摘要</title>
-      <link>https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InlNUEVJcXN0QlMiLCJwIjoiL25ld3MvOTE3NDUxL21pY3Jvc29mdC12b2x1bnRhcnktcmV0aXJlbWVudC1vZmZlci1yZXdhcmRzLWJvbnVzLXN0b2NrLWNoYW5nZXMiLCJleHAiOjE3NzczOTYzOTEsImlhdCI6MTc3Njk2NDM5MX0.IeenHzWQnmLtvfvkdz2bewFS8qLD-czBrxe7WKGTtsw&amp;utm_medium=gift-link</link>
-      <description>Microsoft is offering a voluntary retirement program to US employees whose combined years of service and age total 70 or more. The program, announced by HR chief Amy Coleman, includes generous company support and aims to avoid larger layoffs ahead of the new financial year in July. The Verge reports that this affects a small percentage of US employees. The article contrasts this with Apple, where some employees have much higher combined totals, suggesting Microsoft's threshold is relatively low.
-
-标签: Microsoft, voluntary retirement, layoffs, HR, tech industry, employee benefits, US employees, workforce reduction, corporate restructuring</description>
-      <guid isPermaLink="false">https://www.theverge.com/news/917451/microsoft-voluntary-retirement-offer-rewards-bonus-stock-changes?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6InlNUEVJcXN0QlMiLCJwIjoiL25ld3MvOTE3NDUxL21pY3Jvc29mdC12b2x1bnRhcnktcmV0aXJlbWVudC1vZmZlci1yZXdhcmRzLWJvbnVzLXN0b2NrLWNoYW5nZXMiLCJleHAiOjE3NzczOTYzOTEsImlhdCI6MTc3Njk2NDM5MX0.IeenHzWQnmLtvfvkdz2bewFS8qLD-czBrxe7WKGTtsw&amp;utm_medium=gift-link#sha256:e1797bf77a6a19da</guid>
-      <category>Microsoft</category>
-      <category>voluntary retirement</category>
-      <category>layoffs</category>
-      <category>HR</category>
-      <category>tech industry</category>
-      <category>employee benefits</category>
-      <category>US employees</category>
-      <category>workforce reduction</category>
-      <category>corporate restructuring</category>
-      <pubDate>Fri, 24 Apr 2026 01:53:58 +0800</pubDate>
-    </item>
-    <item>
-      <title>Eight for Eight 摘要</title>
-      <link>https://mastodon.social/@Cdespinosa/116439702239797827</link>
-      <description>Chris Espinosa, an early Apple employee (#8), will join an elite club of former Apple employees who have worked under a number of CEOs equal to or greater than their employee number. The club includes Steve Wozniak (#1, 1 CEO), Steve Jobs (#2, 2 CEOs), Mike Markkula (#3, 3 CEOs), and Bill Fernandez (#4, 4 CEOs). Espinosa (#8) has worked under 8 CEOs: Scott, Markkula, Sculley, Spindler, Amelio, Jobs, Cook, and Ternus, achieving a perfect record of longevity and adaptability at Apple.
-
-标签: Apple, Chris Espinosa, employee number, CEO, history, longevity, Steve Jobs, Steve Wozniak, Mike Markkula, Bill Fernandez</description>
-      <guid isPermaLink="false">https://mastodon.social/@Cdespinosa/116439702239797827#sha256:89f2e2a9586d4607</guid>
-      <category>Apple</category>
-      <category>Chris Espinosa</category>
-      <category>employee number</category>
-      <category>CEO</category>
+标签: Shakespeare, literature, history, theater, poetry, culture, education, blogging</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/04/this-week-on-the-analog-antiquarian/#sha256:2f09f0c91723b132</guid>
+      <category>Shakespeare</category>
+      <category>literature</category>
       <category>history</category>
-      <category>longevity</category>
-      <category>Steve Jobs</category>
-      <category>Steve Wozniak</category>
-      <category>Mike Markkula</category>
-      <category>Bill Fernandez</category>
-      <pubDate>Fri, 24 Apr 2026 03:36:15 +0800</pubDate>
+      <category>theater</category>
+      <category>poetry</category>
+      <category>culture</category>
+      <category>education</category>
+      <category>blogging</category>
+      <pubDate>Sat, 25 Apr 2026 00:09:50 +0800</pubDate>
     </item>
     <item>
-      <title>A pelican for GPT-5.5 via the semi-official Codex backdoor API 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything</link>
-      <description>OpenAI released GPT-5.5, available in Codex and rolling out to paid ChatGPT subscribers, with API access coming later. The model is fast and capable but lacks API availability for now. The article discusses the OpenClaw backdoor controversy: Anthropic blocked OpenClaw from using its subscription API, while OpenAI welcomed it. The author created an LLM plugin, llm-openai-via-codex, that uses Codex subscription credentials to run prompts via the command line. GPT-5.5 pricing is double GPT-5.4 ($5/$30 per 1M tokens). The author tested GPT-5.5 by generating SVG pelicans riding bicycles, noting that higher reasoning effort (xhigh) produced better results but took longer.
+      <title>★ Norwegian Boating Licenses and Generational Law 摘要</title>
+      <link>https://daringfireball.net/2026/04/norwegian_boating_licenses_and_generational_law</link>
+      <description>The article discusses generational laws, using Norway's boating license requirement (born 1980 or later) and the UK's tobacco sales ban (born 2009 or later) as examples. The author distinguishes between generational restrictions (additional requirements) and generational bans (outright prohibition), arguing the latter is hypocritical and unfair as it creates permanent inequality among adults. While supporting the intention of reducing smoking, the author doubts practical effectiveness and proposes a scaled taxation system based on birth year as a fairer alternative. The piece emphasizes that laws should be judged by practical effects, not just intent.
 
-标签: AI, OpenAI, GPT-5.5, LLM, Codex, OpenClaw, API, pricing, SVG, reasoning</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything#sha256:08aa297b1089793a</guid>
+标签: generational law, tobacco ban, boating license, public policy, fairness, hypocrisy, taxation, regulation, Norway, UK</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/04/norwegian_boating_licenses_and_generational_law#sha256:a766dd08c4b45fa5</guid>
+      <category>generational law</category>
+      <category>tobacco ban</category>
+      <category>boating license</category>
+      <category>public policy</category>
+      <category>fairness</category>
+      <category>hypocrisy</category>
+      <category>taxation</category>
+      <category>regulation</category>
+      <category>Norway</category>
+      <category>UK</category>
+      <pubDate>Sat, 25 Apr 2026 00:09:50 +0800</pubDate>
+    </item>
+    <item>
+      <title>Blog prize for the big questions about AI 摘要</title>
+      <link>https://www.dwarkesh.com/p/blog-prize</link>
+      <description>Dwarkesh Patel announces a $20,000 blog prize to find a research collaborator. Participants choose one of four AI-related questions (e.g., AI scaling slowdown, foundation model profitability, philanthropic deployment of AI wealth, or strategy for non-AI-producing countries) and write a 1,000-word answer. Prizes: $10,000, $6,000, $4,000. Deadline: May 10th, 11:59 PM PST. The goal is to hire a researcher to help answer big AI questions for his podcast and blog. Submissions via Airtable.
+
+标签: AI, blog prize, research, Dwarkesh Patel, AI policy, AI economics, philanthropy, scaling, foundation models, hiring</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/blog-prize#sha256:d7138ff1f24f1a73</guid>
       <category>AI</category>
+      <category>blog prize</category>
+      <category>research</category>
+      <category>Dwarkesh Patel</category>
+      <category>AI policy</category>
+      <category>AI economics</category>
+      <category>philanthropy</category>
+      <category>scaling</category>
+      <category>foundation models</category>
+      <category>hiring</category>
+      <pubDate>Sat, 25 Apr 2026 00:37:49 +0800</pubDate>
+    </item>
+    <item>
+      <title>Premium: How OpenAI Kills Oracle 摘要</title>
+      <link>https://www.wheresyoured.at/how-openai-kills-oracle/</link>
+      <description>The article investigates the Stargate project announced in January 2025 by Oracle, SoftBank, and OpenAI, claiming a $500 billion investment in AI infrastructure. 15 months later, Stargate LLC has never been formed, and no capital has been contributed by SoftBank or OpenAI. The only active construction is in Abilene, Texas, where a pre-existing data center project was rebranded. Oracle is funding the buildout through massive debt and project financing, with negative free cash flow of $24.7 billion. Other proposed sites remain largely undeveloped. The author argues the announcement was a marketing ploy to mislead the public.
+
+标签: Stargate, AI infrastructure, Oracle, OpenAI, SoftBank, data centers, project financing, debt, investment, tech hype</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/how-openai-kills-oracle/#sha256:f5a79a6e06865352</guid>
+      <category>Stargate</category>
+      <category>AI infrastructure</category>
+      <category>Oracle</category>
       <category>OpenAI</category>
-      <category>GPT-5.5</category>
-      <category>LLM</category>
-      <category>Codex</category>
-      <category>OpenClaw</category>
-      <category>API</category>
-      <category>pricing</category>
-      <category>SVG</category>
-      <category>reasoning</category>
-      <pubDate>Fri, 24 Apr 2026 03:59:47 +0800</pubDate>
+      <category>SoftBank</category>
+      <category>data centers</category>
+      <category>project financing</category>
+      <category>debt</category>
+      <category>investment</category>
+      <category>tech hype</category>
+      <pubDate>Sat, 25 Apr 2026 00:40:45 +0800</pubDate>
     </item>
     <item>
-      <title>Nilay Patel: ‘Beware Software Brain’ 摘要</title>
-      <link>https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation</link>
-      <description>Nilay Patel's essay at The Verge highlights widespread public hostility toward AI, citing polls showing Gen Z's growing anger and pessimism. He contrasts this with past tech shifts like smartphones and the internet, which were met with optimism. Patel introduces the concept of 'software brain'—a worldview that sees everything as controllable databases—arguing that this mindset fails to resonate with ordinary people's experiences. The piece underscores a deep disconnect between tech insiders and the public, suggesting that AI's unpopularity stems from real-world experiences rather than mere misunderstanding.
+      <title>The people do not yearn for automation 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything</link>
+      <description>Nilay Patel's essay argues that the general public does not yearn for automation, contrasting with the 'software brain' mindset that dominates business and tech. He suggests that AI's popularity among tech enthusiasts masks a broader public resistance, as people feel flattened by automation that reduces human experience to data flows. The piece highlights the disconnect between those who see the world as automatable and those who value non-automated, human-centric experiences.
 
-标签: AI, public opinion, Gen Z, software brain, technology backlash, polls, cultural disconnect, tech industry, Nilay Patel, The Verge</description>
-      <guid isPermaLink="false">https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation#sha256:8f9a6f5f4300c18c</guid>
+标签: AI, automation, software brain, public perception, AI ethics, technology criticism, human experience, Nilay Patel</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything#sha256:8590c37299baa48d</guid>
       <category>AI</category>
-      <category>public opinion</category>
-      <category>Gen Z</category>
+      <category>automation</category>
       <category>software brain</category>
-      <category>technology backlash</category>
-      <category>polls</category>
-      <category>cultural disconnect</category>
-      <category>tech industry</category>
+      <category>public perception</category>
+      <category>AI ethics</category>
+      <category>technology criticism</category>
+      <category>human experience</category>
       <category>Nilay Patel</category>
-      <category>The Verge</category>
-      <pubDate>Fri, 24 Apr 2026 04:13:49 +0800</pubDate>
-    </item>
-    <item>
-      <title>Trump’s Blog Has Somehow Lost $1.1 Billion 摘要</title>
-      <link>https://www.motherjones.com/politics/2026/04/truth-social-ceo-out-after-1-1-billion-in-losses/</link>
-      <description>Devin Nunes has been ousted as CEO of Truth Social after the company lost $1.1 billion since going public. Under his leadership, Trump Media &amp; Technology Group's stock plummeted 84% from its 2024 debut price of $58 to around $9.80. The company recorded only $10.6 million in revenue against massive losses. Nunes will be replaced by a former Hulu executive. Trump Media had originally promised to launch streaming services and web hosting to rival Netflix and Amazon, but those plans have not materialized.
-
-标签: Devin Nunes, Truth Social, Trump Media, social media, stock market, business losses, CEO change, Donald Trump, technology, media</description>
-      <guid isPermaLink="false">https://www.motherjones.com/politics/2026/04/truth-social-ceo-out-after-1-1-billion-in-losses/#sha256:a94cd013d26f7a76</guid>
-      <category>Devin Nunes</category>
-      <category>Truth Social</category>
-      <category>Trump Media</category>
-      <category>social media</category>
-      <category>stock market</category>
-      <category>business losses</category>
-      <category>CEO change</category>
-      <category>Donald Trump</category>
-      <category>technology</category>
-      <category>media</category>
-      <pubDate>Fri, 24 Apr 2026 05:14:35 +0800</pubDate>
-    </item>
-    <item>
-      <title>Extract PDF text in your browser with LiteParse for the web 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything</link>
-      <description>Simon Willison ported LlamaIndex's LiteParse, a Node.js CLI tool for PDF text extraction using spatial text parsing and optional OCR, to run entirely in the browser. LiteParse uses heuristics for multi-column layouts and Tesseract OCR for image-based PDFs. Willison built the web version with Claude Code and Opus 4.7, creating a drag-and-drop UI that parses PDFs client-side without uploading data. The tool displays extracted text and JSON output with copy buttons, supports OCR toggling, and renders page screenshots. The project is deployed via GitHub Pages at simonw.github.io/liteparse, with a GitHub Actions workflow for testing and deployment.
-
-标签: PDF parsing, LiteParse, browser tools, OCR, Claude Code, web development, open source, GitHub Pages, spatial text parsing, AI-assisted coding</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything#sha256:60bf34ac709e7578</guid>
-      <category>PDF parsing</category>
-      <category>LiteParse</category>
-      <category>browser tools</category>
-      <category>OCR</category>
-      <category>Claude Code</category>
-      <category>web development</category>
-      <category>open source</category>
-      <category>GitHub Pages</category>
-      <category>spatial text parsing</category>
-      <category>AI-assisted coding</category>
-      <pubDate>Fri, 24 Apr 2026 05:54:24 +0800</pubDate>
+      <pubDate>Sat, 25 Apr 2026 06:38:49 +0800</pubDate>
     </item>
   </channel>
 </rss>
