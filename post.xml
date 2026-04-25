@@ -8,98 +8,64 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 25 Apr 2026 07:21:55 +0800</lastBuildDate>
-    <pubDate>Sat, 25 Apr 2026 07:21:55 +0800</pubDate>
+    <lastBuildDate>Sun, 26 Apr 2026 07:19:44 +0800</lastBuildDate>
+    <pubDate>Sun, 26 Apr 2026 07:19:44 +0800</pubDate>
     <item>
-      <title>This Week on The Analog Antiquarian 摘要</title>
-      <link>https://www.filfre.net/2026/04/this-week-on-the-analog-antiquarian/</link>
-      <description>The Analog Antiquarian blog introduces a new series on William Shakespeare, exploring his life, works, and enduring influence. The author reflects on the challenges of covering such a vast topic and the personal journey of engaging with Shakespeare's plays and sonnets. The post sets the stage for a deep dive into the Bard's legacy, emphasizing the timeless relevance of his themes and language.
+      <title>Closed-form solution to the nonlinear pendulum equation 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/04/25/exact-solution-nonlinear-pendulum/</link>
+      <description>The article presents the exact closed-form solution to the nonlinear pendulum differential equation using Jacobi elliptic functions. For small displacements, the linearized equation suffices, but for larger initial angles, adjusting the period improves accuracy. The exact solution is θ(t) = 2 arcsin(a cd(ct | m)) with a = sin(θ₀/2) and m = a². Python code using SciPy's ellipj function computes the solution, and plots compare numerical integration errors versus the exact solution, correcting a misleading previous plot.
 
-标签: Shakespeare, literature, history, theater, poetry, culture, education, blogging</description>
-      <guid isPermaLink="false">https://www.filfre.net/2026/04/this-week-on-the-analog-antiquarian/#sha256:2f09f0c91723b132</guid>
-      <category>Shakespeare</category>
-      <category>literature</category>
-      <category>history</category>
-      <category>theater</category>
-      <category>poetry</category>
-      <category>culture</category>
-      <category>education</category>
-      <category>blogging</category>
-      <pubDate>Sat, 25 Apr 2026 00:09:50 +0800</pubDate>
+标签: nonlinear pendulum, Jacobi elliptic functions, differential equations, numerical methods, SciPy, physics, mathematics, pendulum, exact solution, simulation</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/25/exact-solution-nonlinear-pendulum/#sha256:c1c9f8431b10dac2</guid>
+      <category>nonlinear pendulum</category>
+      <category>Jacobi elliptic functions</category>
+      <category>differential equations</category>
+      <category>numerical methods</category>
+      <category>SciPy</category>
+      <category>physics</category>
+      <category>mathematics</category>
+      <category>pendulum</category>
+      <category>exact solution</category>
+      <category>simulation</category>
+      <pubDate>Sun, 26 Apr 2026 00:16:12 +0800</pubDate>
     </item>
     <item>
-      <title>★ Norwegian Boating Licenses and Generational Law 摘要</title>
-      <link>https://daringfireball.net/2026/04/norwegian_boating_licenses_and_generational_law</link>
-      <description>The article discusses generational laws, using Norway's boating license requirement (born 1980 or later) and the UK's tobacco sales ban (born 2009 or later) as examples. The author distinguishes between generational restrictions (additional requirements) and generational bans (outright prohibition), arguing the latter is hypocritical and unfair as it creates permanent inequality among adults. While supporting the intention of reducing smoking, the author doubts practical effectiveness and proposes a scaled taxation system based on birth year as a fairer alternative. The piece emphasizes that laws should be judged by practical effects, not just intent.
+      <title>WHY ARE YOU LIKE THIS 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything</link>
+      <description>Simon Willison shares a Twitter exchange where Scott JLA created a complex AI-generated image using ChatGPT Images 2.0: a horse riding an astronaut riding a pelican riding a bicycle, with a police car chasing them. The model autonomously added a 'WHY ARE YOU LIKE THIS' road sign. Willison verified the prompt did not include that detail, highlighting the model's emergent creativity. The post is part of Willison's ongoing 'pelican riding a bicycle' benchmark series for AI image generation.
 
-标签: generational law, tobacco ban, boating license, public policy, fairness, hypocrisy, taxation, regulation, Norway, UK</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/04/norwegian_boating_licenses_and_generational_law#sha256:a766dd08c4b45fa5</guid>
-      <category>generational law</category>
-      <category>tobacco ban</category>
-      <category>boating license</category>
-      <category>public policy</category>
-      <category>fairness</category>
-      <category>hypocrisy</category>
-      <category>taxation</category>
-      <category>regulation</category>
-      <category>Norway</category>
-      <category>UK</category>
-      <pubDate>Sat, 25 Apr 2026 00:09:50 +0800</pubDate>
-    </item>
-    <item>
-      <title>Blog prize for the big questions about AI 摘要</title>
-      <link>https://www.dwarkesh.com/p/blog-prize</link>
-      <description>Dwarkesh Patel announces a $20,000 blog prize to find a research collaborator. Participants choose one of four AI-related questions (e.g., AI scaling slowdown, foundation model profitability, philanthropic deployment of AI wealth, or strategy for non-AI-producing countries) and write a 1,000-word answer. Prizes: $10,000, $6,000, $4,000. Deadline: May 10th, 11:59 PM PST. The goal is to hire a researcher to help answer big AI questions for his podcast and blog. Submissions via Airtable.
-
-标签: AI, blog prize, research, Dwarkesh Patel, AI policy, AI economics, philanthropy, scaling, foundation models, hiring</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/blog-prize#sha256:d7138ff1f24f1a73</guid>
+标签: AI, generative-ai, text-to-image, ChatGPT, AI-benchmark, emergent-behavior, image-generation, AI-creativity, pelican-riding-a-bicycle, slop</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything#sha256:e4bed6f0c07bb44d</guid>
       <category>AI</category>
-      <category>blog prize</category>
-      <category>research</category>
-      <category>Dwarkesh Patel</category>
-      <category>AI policy</category>
-      <category>AI economics</category>
-      <category>philanthropy</category>
-      <category>scaling</category>
-      <category>foundation models</category>
-      <category>hiring</category>
-      <pubDate>Sat, 25 Apr 2026 00:37:49 +0800</pubDate>
+      <category>generative-ai</category>
+      <category>text-to-image</category>
+      <category>ChatGPT</category>
+      <category>AI-benchmark</category>
+      <category>emergent-behavior</category>
+      <category>image-generation</category>
+      <category>AI-creativity</category>
+      <category>pelican-riding-a-bicycle</category>
+      <category>slop</category>
+      <pubDate>Sun, 26 Apr 2026 00:44:01 +0800</pubDate>
     </item>
     <item>
-      <title>Premium: How OpenAI Kills Oracle 摘要</title>
-      <link>https://www.wheresyoured.at/how-openai-kills-oracle/</link>
-      <description>The article investigates the Stargate project announced in January 2025 by Oracle, SoftBank, and OpenAI, claiming a $500 billion investment in AI infrastructure. 15 months later, Stargate LLC has never been formed, and no capital has been contributed by SoftBank or OpenAI. The only active construction is in Abilene, Texas, where a pre-existing data center project was rebranded. Oracle is funding the buildout through massive debt and project financing, with negative free cash flow of $24.7 billion. Other proposed sites remain largely undeveloped. The author argues the announcement was a marketing ploy to mislead the public.
+      <title>The Satisfaction of a ChatGPT Plan 摘要</title>
+      <link>https://idiallo.com/byte-size/the-satisfaction-of-a-chatgpt-plan?src=feed</link>
+      <description>The author observes a trend where people share AI-generated business plans instead of raw ideas, deriving satisfaction from the plan's complexity rather than execution. Friends present elaborate ChatGPT plans but cannot answer basic questions about them, having read them for the first time alongside the author. The AI's sycophantic validation and step-by-step planning create an illusion of progress, while the real goal of AI providers is to maximize engagement and token consumption, similar to social media's ad-driven model. The author notes this behavior applies broadly to generative AI, not just ChatGPT.
 
-标签: Stargate, AI infrastructure, Oracle, OpenAI, SoftBank, data centers, project financing, debt, investment, tech hype</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/how-openai-kills-oracle/#sha256:f5a79a6e06865352</guid>
-      <category>Stargate</category>
-      <category>AI infrastructure</category>
-      <category>Oracle</category>
-      <category>OpenAI</category>
-      <category>SoftBank</category>
-      <category>data centers</category>
-      <category>project financing</category>
-      <category>debt</category>
-      <category>investment</category>
-      <category>tech hype</category>
-      <pubDate>Sat, 25 Apr 2026 00:40:45 +0800</pubDate>
-    </item>
-    <item>
-      <title>The people do not yearn for automation 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything</link>
-      <description>Nilay Patel's essay argues that the general public does not yearn for automation, contrasting with the 'software brain' mindset that dominates business and tech. He suggests that AI's popularity among tech enthusiasts masks a broader public resistance, as people feel flattened by automation that reduces human experience to data flows. The piece highlights the disconnect between those who see the world as automatable and those who value non-automated, human-centric experiences.
-
-标签: AI, automation, software brain, public perception, AI ethics, technology criticism, human experience, Nilay Patel</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything#sha256:8590c37299baa48d</guid>
+标签: AI, ChatGPT, psychology, productivity, ideas, execution, engagement, social media, validation, planning</description>
+      <guid isPermaLink="false">https://idiallo.com/byte-size/the-satisfaction-of-a-chatgpt-plan?src=feed#sha256:2254946d574bcba4</guid>
       <category>AI</category>
-      <category>automation</category>
-      <category>software brain</category>
-      <category>public perception</category>
-      <category>AI ethics</category>
-      <category>technology criticism</category>
-      <category>human experience</category>
-      <category>Nilay Patel</category>
-      <pubDate>Sat, 25 Apr 2026 06:38:49 +0800</pubDate>
+      <category>ChatGPT</category>
+      <category>psychology</category>
+      <category>productivity</category>
+      <category>ideas</category>
+      <category>execution</category>
+      <category>engagement</category>
+      <category>social media</category>
+      <category>validation</category>
+      <category>planning</category>
+      <pubDate>Sun, 26 Apr 2026 01:44:16 +0800</pubDate>
     </item>
   </channel>
 </rss>
