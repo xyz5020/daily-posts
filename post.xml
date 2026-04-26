@@ -8,64 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Apr 2026 07:19:44 +0800</lastBuildDate>
-    <pubDate>Sun, 26 Apr 2026 07:19:44 +0800</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2026 07:20:37 +0800</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2026 07:20:37 +0800</pubDate>
     <item>
-      <title>Closed-form solution to the nonlinear pendulum equation 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/04/25/exact-solution-nonlinear-pendulum/</link>
-      <description>The article presents the exact closed-form solution to the nonlinear pendulum differential equation using Jacobi elliptic functions. For small displacements, the linearized equation suffices, but for larger initial angles, adjusting the period improves accuracy. The exact solution is θ(t) = 2 arcsin(a cd(ct | m)) with a = sin(θ₀/2) and m = a². Python code using SciPy's ellipj function computes the solution, and plots compare numerical integration errors versus the exact solution, correcting a misleading previous plot.
+      <title>Report Claims Samsung Might Post Its First-Ever Mobile Division Loss This Year, Blaming RAM Crisis 摘要</title>
+      <link>https://9to5google.com/2026/04/22/samsung-is-increasingly-worried-about-first-ever-mobile-division-loss-in-ram-crisis-report/</link>
+      <description>Samsung's mobile division (MX) may post its first-ever annual operating loss, according to reports from Korea. TM Roh, head of the division, has expressed concerns about a possible deficit, partly due to a RAM crisis. Historically, Samsung's mobile division has always been profitable. Meanwhile, Apple continues to dominate industry profits, capturing an estimated 75-90% of profit share with only 20% of unit sales. If Samsung posts a loss, Apple could theoretically capture 100% of phone industry profits.
 
-标签: nonlinear pendulum, Jacobi elliptic functions, differential equations, numerical methods, SciPy, physics, mathematics, pendulum, exact solution, simulation</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/25/exact-solution-nonlinear-pendulum/#sha256:c1c9f8431b10dac2</guid>
-      <category>nonlinear pendulum</category>
-      <category>Jacobi elliptic functions</category>
-      <category>differential equations</category>
-      <category>numerical methods</category>
-      <category>SciPy</category>
-      <category>physics</category>
-      <category>mathematics</category>
-      <category>pendulum</category>
-      <category>exact solution</category>
-      <category>simulation</category>
-      <pubDate>Sun, 26 Apr 2026 00:16:12 +0800</pubDate>
+标签: Samsung, Apple, mobile, profit, loss, smartphone, industry, RAM crisis, market share, finance</description>
+      <guid isPermaLink="false">https://9to5google.com/2026/04/22/samsung-is-increasingly-worried-about-first-ever-mobile-division-loss-in-ram-crisis-report/#sha256:0c68427934c80f64</guid>
+      <category>Samsung</category>
+      <category>Apple</category>
+      <category>mobile</category>
+      <category>profit</category>
+      <category>loss</category>
+      <category>smartphone</category>
+      <category>industry</category>
+      <category>RAM crisis</category>
+      <category>market share</category>
+      <category>finance</category>
+      <pubDate>Mon, 27 Apr 2026 01:39:40 +0800</pubDate>
     </item>
     <item>
-      <title>WHY ARE YOU LIKE THIS 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything</link>
-      <description>Simon Willison shares a Twitter exchange where Scott JLA created a complex AI-generated image using ChatGPT Images 2.0: a horse riding an astronaut riding a pelican riding a bicycle, with a police car chasing them. The model autonomously added a 'WHY ARE YOU LIKE THIS' road sign. Willison verified the prompt did not include that detail, highlighting the model's emergent creativity. The post is part of Willison's ongoing 'pelican riding a bicycle' benchmark series for AI image generation.
+      <title>★ The New York Times Printed the Wrong Crossword Grid Last Sunday, and I Find That Timing Serendipitous 摘要</title>
+      <link>https://daringfireball.net/2026/04/nyt_wrong_crossword_grid</link>
+      <description>The New York Times printed a Sunday crossword puzzle with a grid that didn't match the clues, the first such error in 84 years. Solvers expressed frustration and self-doubt, with some assuming the mistake was intentional. The article contrasts the permanence of print errors with the fixability of digital ones, drawing a parallel to hardware vs. software mindsets. It suggests that incoming Apple CEO John Ternus, with a hardware background, may lead Apple to focus on perfection and deliberate pace rather than rushing into AI trends.
 
-标签: AI, generative-ai, text-to-image, ChatGPT, AI-benchmark, emergent-behavior, image-generation, AI-creativity, pelican-riding-a-bicycle, slop</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything#sha256:e4bed6f0c07bb44d</guid>
-      <category>AI</category>
-      <category>generative-ai</category>
-      <category>text-to-image</category>
-      <category>ChatGPT</category>
-      <category>AI-benchmark</category>
-      <category>emergent-behavior</category>
-      <category>image-generation</category>
-      <category>AI-creativity</category>
-      <category>pelican-riding-a-bicycle</category>
-      <category>slop</category>
-      <pubDate>Sun, 26 Apr 2026 00:44:01 +0800</pubDate>
+标签: New York Times, crossword, print error, journalism, hardware vs software, Apple, John Ternus, AI hype, perfectionism, media</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/04/nyt_wrong_crossword_grid#sha256:51ad31fb1abfcec9</guid>
+      <category>New York Times</category>
+      <category>crossword</category>
+      <category>print error</category>
+      <category>journalism</category>
+      <category>hardware vs software</category>
+      <category>Apple</category>
+      <category>John Ternus</category>
+      <category>AI hype</category>
+      <category>perfectionism</category>
+      <category>media</category>
+      <pubDate>Mon, 27 Apr 2026 03:28:59 +0800</pubDate>
     </item>
     <item>
-      <title>The Satisfaction of a ChatGPT Plan 摘要</title>
-      <link>https://idiallo.com/byte-size/the-satisfaction-of-a-chatgpt-plan?src=feed</link>
-      <description>The author observes a trend where people share AI-generated business plans instead of raw ideas, deriving satisfaction from the plan's complexity rather than execution. Friends present elaborate ChatGPT plans but cannot answer basic questions about them, having read them for the first time alongside the author. The AI's sycophantic validation and step-by-step planning create an illusion of progress, while the real goal of AI providers is to maximize engagement and token consumption, similar to social media's ad-driven model. The author notes this behavior applies broadly to generative AI, not just ChatGPT.
+      <title>DF Paraphernalia: Last Call for This Round of T-Shirts and Hoodies 摘要</title>
+      <link>https://store.daringfireball.net/</link>
+      <description>John Gruber reflects on the 20th anniversary of going full-time with Daring Fireball, noting that his passion for the site remains unchanged since his 2006 announcement. He promotes his current t-shirt and hoodie sale, urging readers to purchase before it ends. Gruber acknowledges longtime and new readers, including those born after he started writing full-time.
 
-标签: AI, ChatGPT, psychology, productivity, ideas, execution, engagement, social media, validation, planning</description>
-      <guid isPermaLink="false">https://idiallo.com/byte-size/the-satisfaction-of-a-chatgpt-plan?src=feed#sha256:2254946d574bcba4</guid>
-      <category>AI</category>
-      <category>ChatGPT</category>
-      <category>psychology</category>
-      <category>productivity</category>
-      <category>ideas</category>
-      <category>execution</category>
-      <category>engagement</category>
-      <category>social media</category>
-      <category>validation</category>
-      <category>planning</category>
-      <pubDate>Sun, 26 Apr 2026 01:44:16 +0800</pubDate>
+标签: Daring Fireball, anniversary, blogging, merchandise, John Gruber, tech writing, personal reflection, sale</description>
+      <guid isPermaLink="false">https://store.daringfireball.net/#sha256:40ed89fa63bb5058</guid>
+      <category>Daring Fireball</category>
+      <category>anniversary</category>
+      <category>blogging</category>
+      <category>merchandise</category>
+      <category>John Gruber</category>
+      <category>tech writing</category>
+      <category>personal reflection</category>
+      <category>sale</category>
+      <pubDate>Mon, 27 Apr 2026 03:30:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
