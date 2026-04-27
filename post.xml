@@ -8,62 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 27 Apr 2026 07:20:37 +0800</lastBuildDate>
-    <pubDate>Mon, 27 Apr 2026 07:20:37 +0800</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2026 07:26:24 +0800</lastBuildDate>
+    <pubDate>Tue, 28 Apr 2026 07:26:24 +0800</pubDate>
     <item>
-      <title>Report Claims Samsung Might Post Its First-Ever Mobile Division Loss This Year, Blaming RAM Crisis 摘要</title>
-      <link>https://9to5google.com/2026/04/22/samsung-is-increasingly-worried-about-first-ever-mobile-division-loss-in-ram-crisis-report/</link>
-      <description>Samsung's mobile division (MX) may post its first-ever annual operating loss, according to reports from Korea. TM Roh, head of the division, has expressed concerns about a possible deficit, partly due to a RAM crisis. Historically, Samsung's mobile division has always been profitable. Meanwhile, Apple continues to dominate industry profits, capturing an estimated 75-90% of profit share with only 20% of unit sales. If Samsung posts a loss, Apple could theoretically capture 100% of phone industry profits.
+      <title>Speech translation in Google Meet is now rolling out to mobile devices 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything</link>
+      <description>Google Meet is rolling out speech translation on mobile devices, allowing real-time translation between English, Spanish, French, German, Portuguese, and Italian. The feature uses AI to translate spoken language and outputs text in the user's preferred language with a voice imitation of the original speaker. Currently in alpha, it worked between two laptops but failed between an iPhone and iPad.
 
-标签: Samsung, Apple, mobile, profit, loss, smartphone, industry, RAM crisis, market share, finance</description>
-      <guid isPermaLink="false">https://9to5google.com/2026/04/22/samsung-is-increasingly-worried-about-first-ever-mobile-division-loss-in-ram-crisis-report/#sha256:0c68427934c80f64</guid>
-      <category>Samsung</category>
-      <category>Apple</category>
+标签: Google, Google Meet, speech translation, real-time translation, AI, mobile, alpha, language</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything#sha256:7d1dd32bb8247217</guid>
+      <category>Google</category>
+      <category>Google Meet</category>
+      <category>speech translation</category>
+      <category>real-time translation</category>
+      <category>AI</category>
       <category>mobile</category>
-      <category>profit</category>
-      <category>loss</category>
-      <category>smartphone</category>
-      <category>industry</category>
-      <category>RAM crisis</category>
-      <category>market share</category>
-      <category>finance</category>
-      <pubDate>Mon, 27 Apr 2026 01:39:40 +0800</pubDate>
+      <category>alpha</category>
+      <category>language</category>
+      <pubDate>Tue, 28 Apr 2026 01:37:47 +0800</pubDate>
     </item>
     <item>
-      <title>★ The New York Times Printed the Wrong Crossword Grid Last Sunday, and I Find That Timing Serendipitous 摘要</title>
-      <link>https://daringfireball.net/2026/04/nyt_wrong_crossword_grid</link>
-      <description>The New York Times printed a Sunday crossword puzzle with a grid that didn't match the clues, the first such error in 84 years. Solvers expressed frustration and self-doubt, with some assuming the mistake was intentional. The article contrasts the permanence of print errors with the fixability of digital ones, drawing a parallel to hardware vs. software mindsets. It suggests that incoming Apple CEO John Ternus, with a hardware background, may lead Apple to focus on perfection and deliberate pace rather than rushing into AI trends.
+      <title>Tracking the history of the now-deceased OpenAI Microsoft AGI clause 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything</link>
+      <description>Microsoft and OpenAI have renegotiated their partnership, effectively removing the clause that would nullify Microsoft's IP rights upon achieving AGI. Originally defined in OpenAI's charter as 'highly autonomous systems that outperform humans at most economically valuable work,' AGI was later given a financial definition tied to $100 billion in profit. In October 2025, an independent expert panel was introduced to verify AGI. The latest agreement, announced April 27, 2026, extends Microsoft's non-exclusive license through 2032, ends revenue sharing from Microsoft, and makes payments from OpenAI to Microsoft independent of technological progress, effectively killing the AGI clause.
 
-标签: New York Times, crossword, print error, journalism, hardware vs software, Apple, John Ternus, AI hype, perfectionism, media</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/04/nyt_wrong_crossword_grid#sha256:51ad31fb1abfcec9</guid>
-      <category>New York Times</category>
-      <category>crossword</category>
-      <category>print error</category>
-      <category>journalism</category>
-      <category>hardware vs software</category>
+标签: AI, AGI, Microsoft, OpenAI, partnership, contract, technology, business, computer-history</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything#sha256:7520caff6a624689</guid>
+      <category>AI</category>
+      <category>AGI</category>
+      <category>Microsoft</category>
+      <category>OpenAI</category>
+      <category>partnership</category>
+      <category>contract</category>
+      <category>technology</category>
+      <category>business</category>
+      <category>computer-history</category>
+      <pubDate>Tue, 28 Apr 2026 02:38:17 +0800</pubDate>
+    </item>
+    <item>
+      <title>Yours Truly on The Vergecast 摘要</title>
+      <link>https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition</link>
+      <description>David Pierce and Nilay Patel are joined by John Gruber on The Vergecast to discuss Apple's leadership transition and Tim Cook's legacy. They debate whether Cook should be blamed for the Touch Bar's failure or for not iterating on it. The author argues Apple's biggest mistake was abandoning the Touch Bar after one attempt, calling the return to function keys uncharacteristically lazy.
+
+标签: Apple, Tim Cook, Touch Bar, leadership, product design, The Vergecast, John Gruber, tech criticism</description>
+      <guid isPermaLink="false">https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition#sha256:2c41d2343924095e</guid>
       <category>Apple</category>
-      <category>John Ternus</category>
-      <category>AI hype</category>
-      <category>perfectionism</category>
-      <category>media</category>
-      <pubDate>Mon, 27 Apr 2026 03:28:59 +0800</pubDate>
+      <category>Tim Cook</category>
+      <category>Touch Bar</category>
+      <category>leadership</category>
+      <category>product design</category>
+      <category>The Vergecast</category>
+      <category>John Gruber</category>
+      <category>tech criticism</category>
+      <pubDate>Tue, 28 Apr 2026 02:46:32 +0800</pubDate>
     </item>
     <item>
-      <title>DF Paraphernalia: Last Call for This Round of T-Shirts and Hoodies 摘要</title>
-      <link>https://store.daringfireball.net/</link>
-      <description>John Gruber reflects on the 20th anniversary of going full-time with Daring Fireball, noting that his passion for the site remains unchanged since his 2006 announcement. He promotes his current t-shirt and hoodie sale, urging readers to purchase before it ends. Gruber acknowledges longtime and new readers, including those born after he started writing full-time.
+      <title>The Loop: everything has happened before, and everything will happen again 摘要</title>
+      <link>https://www.joanwestenberg.com/the-loop-everything-has-happened-before-and-everything-will-happen-again/</link>
+      <description>The article argues that human history is driven by recurring cycles—financial bubbles, strongman politics, scapegoating, and technological disruption—rooted in unchanging Paleolithic brain wiring. It traces bubbles from tulip mania to AI stocks, showing how greed, social conformity, and risk miscalculation repeat. Strongmen emerge when institutions fail and uncertainty triggers a desire for authority. Scapegoating serves as social cohesion through collective violence against innocent victims. Even transformative inventions like the printing press initially amplify conflict. The core thesis: the human 'operating system' remains unpatched, causing the same errors across centuries.
 
-标签: Daring Fireball, anniversary, blogging, merchandise, John Gruber, tech writing, personal reflection, sale</description>
-      <guid isPermaLink="false">https://store.daringfireball.net/#sha256:40ed89fa63bb5058</guid>
-      <category>Daring Fireball</category>
-      <category>anniversary</category>
-      <category>blogging</category>
-      <category>merchandise</category>
-      <category>John Gruber</category>
-      <category>tech writing</category>
-      <category>personal reflection</category>
-      <category>sale</category>
-      <pubDate>Mon, 27 Apr 2026 03:30:00 +0800</pubDate>
+标签: history, psychology, finance, bubbles, politics, strongman, scapegoating, technology, human nature, cycles</description>
+      <guid isPermaLink="false">https://www.joanwestenberg.com/the-loop-everything-has-happened-before-and-everything-will-happen-again/#sha256:d3e934ce990c10a2</guid>
+      <category>history</category>
+      <category>psychology</category>
+      <category>finance</category>
+      <category>bubbles</category>
+      <category>politics</category>
+      <category>strongman</category>
+      <category>scapegoating</category>
+      <category>technology</category>
+      <category>human nature</category>
+      <category>cycles</category>
+      <pubDate>Tue, 28 Apr 2026 06:38:38 +0800</pubDate>
     </item>
   </channel>
 </rss>
