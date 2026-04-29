@@ -8,138 +8,83 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Apr 2026 07:26:11 +0800</lastBuildDate>
-    <pubDate>Wed, 29 Apr 2026 07:26:11 +0800</pubDate>
+    <lastBuildDate>Thu, 30 Apr 2026 07:27:04 +0800</lastBuildDate>
+    <pubDate>Thu, 30 Apr 2026 07:27:04 +0800</pubDate>
     <item>
-      <title>AI's Economics Don't Make Sense [Ad Free] 摘要</title>
-      <link>https://www.wheresyoured.at/ais-economics-dont-make-sense-ad-free/</link>
-      <description>GitHub Copilot is moving to usage-based billing on June 1, 2026, ending the flat-rate subscription model. Microsoft cites unsustainable inference costs from agentic usage, where a single request can cost $11 in tokens. This shift reflects a broader industry trend: AI services have been subsidized by venture capital, with users often consuming far more compute than their subscription fee covers. The change has sparked user backlash, with many declaring the product 'dead.' The article argues that the subscription model is fundamentally broken for LLM-based services, as token costs remain high and reasoning models increase consumption.
+      <title>Raspberry Pi Connect may control Windows soon 摘要</title>
+      <link>https://www.jeffgeerling.com/blog/2026/raspberry-pi-connect-may-control-windows-soon/</link>
+      <description>Raspberry Pi Connect, the free remote access service for Raspberry Pi, may soon support remote controlling Windows PCs. This development was hinted at in a Raspberry Pi forum post. Previously, the service only worked on Raspberry Pi devices, limiting its competitiveness with RealVNC. The potential expansion to Windows could make it a more versatile remote access solution, especially after RealVNC's slow adoption of Wayland left Pi users without a solid option after Pi OS 12 'Bookworm'.
 
-标签: GitHub Copilot, pricing, AI economics, subscription model, usage-based billing, Microsoft, inference costs, developer tools, SaaS</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/ais-economics-dont-make-sense-ad-free/#sha256:5ead676592ce4bf8</guid>
-      <category>GitHub Copilot</category>
-      <category>pricing</category>
-      <category>AI economics</category>
-      <category>subscription model</category>
-      <category>usage-based billing</category>
-      <category>Microsoft</category>
-      <category>inference costs</category>
-      <category>developer tools</category>
-      <category>SaaS</category>
-      <pubDate>Wed, 29 Apr 2026 00:33:46 +0800</pubDate>
+标签: Raspberry Pi, Raspberry Pi Connect, remote access, Windows, RealVNC, Wayland, Pi OS, remote desktop, open source, tech news</description>
+      <guid isPermaLink="false">https://www.jeffgeerling.com/blog/2026/raspberry-pi-connect-may-control-windows-soon/#sha256:955a752ec2fa0ba6</guid>
+      <category>Raspberry Pi</category>
+      <category>Raspberry Pi Connect</category>
+      <category>remote access</category>
+      <category>Windows</category>
+      <category>RealVNC</category>
+      <category>Wayland</category>
+      <category>Pi OS</category>
+      <category>remote desktop</category>
+      <category>open source</category>
+      <category>tech news</category>
+      <pubDate>Thu, 30 Apr 2026 01:00:00 +0800</pubDate>
     </item>
     <item>
-      <title>AI's Economics Don't Make Sense 摘要</title>
-      <link>https://www.wheresyoured.at/ais-economics-dont-make-sense/</link>
-      <description>GitHub Copilot is transitioning to usage-based billing on June 1, 2026, replacing the current request-based model. Microsoft cites rising inference costs from agentic AI usage as unsustainable. Users will receive token credits equal to their subscription fee (e.g., $19 worth of tokens for a $19 plan). This shift reflects a broader industry trend where AI services, previously subsidized, are raising prices to match actual compute costs. The article argues that the subscription model is fundamentally broken for LLM-based services, comparing it to Uber charging for gas separately. Users are reacting negatively, with many declaring the product 'dead.'
+      <title>Reiner Pope – The math behind how LLMs are trained and served 摘要</title>
+      <link>https://www.dwarkesh.com/p/reiner-pope</link>
+      <description>Dwarkesh Patel interviews Reiner Pope (CEO of MatX, former Google TPU architect) in a blackboard lecture format. They analyze how frontier LLMs are trained and served, using equations, public API prices, and chalk to deduce lab practices. Topics include batch size's effect on token cost and speed, MoE model layout across GPU racks, pipeline parallelism, over-training due to RL, long context memory costs from API pricing, and convergent evolution between neural nets and cryptography. Reiner co-authored a scaling book and leads a new chip startup.
 
-标签: GitHub Copilot, usage-based pricing, AI economics, Microsoft, subscription model, inference costs, subprime AI crisis, developer tools, SaaS pricing, generative AI</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/ais-economics-dont-make-sense/#sha256:cf66687480bedc5b</guid>
-      <category>GitHub Copilot</category>
-      <category>usage-based pricing</category>
-      <category>AI economics</category>
-      <category>Microsoft</category>
-      <category>subscription model</category>
-      <category>inference costs</category>
-      <category>subprime AI crisis</category>
-      <category>developer tools</category>
-      <category>SaaS pricing</category>
-      <category>generative AI</category>
-      <pubDate>Wed, 29 Apr 2026 00:35:07 +0800</pubDate>
+标签: LLM, inference, training, GPU, batch size, MoE, pipeline parallelism, API pricing, chip design, AI infrastructure</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/reiner-pope#sha256:34d2cd32a0bf86ad</guid>
+      <category>LLM</category>
+      <category>inference</category>
+      <category>training</category>
+      <category>GPU</category>
+      <category>batch size</category>
+      <category>MoE</category>
+      <category>pipeline parallelism</category>
+      <category>API pricing</category>
+      <category>chip design</category>
+      <category>AI infrastructure</category>
+      <pubDate>Thu, 30 Apr 2026 01:07:03 +0800</pubDate>
     </item>
     <item>
-      <title>The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree 摘要</title>
-      <link>https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition</link>
-      <description>The author announces the third annual Experimental History Blog Competition, inviting submissions of unpublished blog posts for cash prizes ($500, $250, $100). The post provides inspiration by categorizing exemplary blog posts from various genres: book reviews, deep dives, big ideas, personal stories, scientific reports, how-to guides, and more. Submission instructions require pasting the post into a Google Doc with public sharing settings and submitting via a Google Form by June 15. Previous winners are ineligible, but honorable mentions may enter again. The competition aims to encourage writing and showcase diverse voices.
+      <title>LLM 0.32a0  is a major backwards-compatible refactor 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/29/llm/#atom-everything</link>
+      <description>LLM 0.32a0 alpha release introduces two major changes: prompts can now be represented as a sequence of messages using new `llm.user()` and `llm.assistant()` builder functions, enabling easier replay of previous conversations. Additionally, model responses are now modeled as a stream of typed parts, allowing mixed content types like reasoning, text, tool calls, and multi-modal outputs (images, audio) to be streamed back. These changes better accommodate the diversity of input/output types in modern frontier models, moving beyond the original text-in/text-out abstraction.
 
-标签: blogging, writing competition, substack, essays, creative writing, online community, prizes, call for submissions, personal stories, science writing</description>
-      <guid isPermaLink="false">https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition#sha256:b40821da2d68cf59</guid>
-      <category>blogging</category>
-      <category>writing competition</category>
-      <category>substack</category>
-      <category>essays</category>
-      <category>creative writing</category>
-      <category>online community</category>
-      <category>prizes</category>
-      <category>call for submissions</category>
-      <category>personal stories</category>
-      <category>science writing</category>
-      <pubDate>Wed, 29 Apr 2026 01:48:50 +0800</pubDate>
-    </item>
-    <item>
-      <title>10Gb Ethernet: what I had to (re)learn 摘要</title>
-      <link>https://www.gilesthomas.com/2026/04/10g-ethernet-what-i-relearned</link>
-      <description>The author upgrades home networking to 10Gb after their ISP offered a 10Gb connection. They trace Ethernet history from 10BASE2 coaxial daisy-chains to 10BASE-T hubs, then to modern switches. They explain the evolution of SFP/SFP+ modules for backbone connections and fibre optics. A key issue is that 10GBASE-T over RJ45 runs hot and requires CAT-6A cabling, while older CAT-5E may not support it reliably. The interim 2.5Gb/s and 5Gb/s standards were created to work on existing infrastructure. The author hints at using SFP+ with DAC or fibre to avoid thermal and cabling problems, with a follow-up post detailing their actual setup.
-
-标签: networking, Ethernet, 10GbE, home networking, SFP, cabling, ISP, history, hardware, upgrade</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/04/10g-ethernet-what-i-relearned#sha256:e384db9b15def2bc</guid>
-      <category>networking</category>
-      <category>Ethernet</category>
-      <category>10GbE</category>
-      <category>home networking</category>
-      <category>SFP</category>
-      <category>cabling</category>
-      <category>ISP</category>
-      <category>history</category>
-      <category>hardware</category>
-      <category>upgrade</category>
-      <pubDate>Wed, 29 Apr 2026 02:45:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Turning a trick into a technique 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/04/28/even-series-trick/</link>
-      <description>The article discusses turning a mathematical trick into a general technique for approximating even functions. By subtracting a multiple of one even function from another, higher-order approximations can be created by canceling lower-order terms. As an example, the Bessel function J0(x) is approximated using cosine: J0(x) ≈ (1 + cos(x))/2, which cancels the x^2 term and yields a fourth-order accurate approximation. Numerical tests show excellent agreement for small x, demonstrating the technique's effectiveness.
-
-标签: mathematics, approximation, even functions, Bessel functions, cosine, series expansion, numerical methods, trick, technique</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/04/28/even-series-trick/#sha256:32935d6b839d3a47</guid>
-      <category>mathematics</category>
-      <category>approximation</category>
-      <category>even functions</category>
-      <category>Bessel functions</category>
-      <category>cosine</category>
-      <category>series expansion</category>
-      <category>numerical methods</category>
-      <category>trick</category>
-      <category>technique</category>
-      <pubDate>Wed, 29 Apr 2026 05:44:58 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting OpenAI Codex base_instructions 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything</link>
-      <description>OpenAI's Codex base instructions for GPT-5.5 include a rule to avoid mentioning goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals/creatures unless absolutely relevant to the user's query. This is part of a set of system prompts designed to guide the model's behavior and ensure focused, appropriate responses.
-
-标签: openai, ai, llms, system-prompts, prompt-engineering, codex-cli, generative-ai, gpt, guidelines, safety</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything#sha256:65fd24545f59aa72</guid>
-      <category>openai</category>
-      <category>ai</category>
-      <category>llms</category>
-      <category>system-prompts</category>
-      <category>prompt-engineering</category>
-      <category>codex-cli</category>
-      <category>generative-ai</category>
-      <category>gpt</category>
-      <category>guidelines</category>
-      <category>safety</category>
-      <pubDate>Wed, 29 Apr 2026 06:02:53 +0800</pubDate>
-    </item>
-    <item>
-      <title>OpenAI Projects ChatGPT Plus subscriptions to drop by 80% from 44 Million in 2025 to 9 Million In 2026, Made Up Using Cheaper Subscriptions (Somehow) 摘要</title>
-      <link>https://www.wheresyoured.at/openai-projects-chatgpt-plus-subscriptions-to-drop-by-80-from-44-million-in-2025-to-9-million-in-2026-made-up-using-cheaper-subscriptions-somehow/</link>
-      <description>OpenAI projects an 80% decline in ChatGPT Plus subscribers from 44 million in 2025 to 9 million in 2026, while expecting its cheaper, ad-supported ChatGPT Go subscriptions to surge from 3 million to 112 million in the same period. This would require a 3600% year-over-year increase. Even at $5/month, the revenue would fall $155 million short of current Plus revenue. The projections suggest OpenAI anticipates a major shift toward lower-priced, ad-supported tiers, potentially increasing its burn rate significantly.
-
-标签: OpenAI, ChatGPT, subscriptions, revenue, ad-supported, AI, business model, projections, user growth, burn rate</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/openai-projects-chatgpt-plus-subscriptions-to-drop-by-80-from-44-million-in-2025-to-9-million-in-2026-made-up-using-cheaper-subscriptions-somehow/#sha256:70c9e3d687ca2dae</guid>
-      <category>OpenAI</category>
-      <category>ChatGPT</category>
-      <category>subscriptions</category>
-      <category>revenue</category>
-      <category>ad-supported</category>
+标签: LLM, Python, AI, CLI, open-source, streaming, multi-modal, tools, API, release</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/29/llm/#atom-everything#sha256:b49f8808227548b9</guid>
+      <category>LLM</category>
+      <category>Python</category>
       <category>AI</category>
-      <category>business model</category>
-      <category>projections</category>
-      <category>user growth</category>
-      <category>burn rate</category>
-      <pubDate>Wed, 29 Apr 2026 06:40:34 +0800</pubDate>
+      <category>CLI</category>
+      <category>open-source</category>
+      <category>streaming</category>
+      <category>multi-modal</category>
+      <category>tools</category>
+      <category>API</category>
+      <category>release</category>
+      <pubDate>Thu, 30 Apr 2026 03:01:47 +0800</pubDate>
+    </item>
+    <item>
+      <title>Oakland’s Airport Is Now Officially ‘Oakland San Francisco Bay Airport’ 摘要</title>
+      <link>https://sfstandard.com/2026/04/28/oak-sfo-reach-naming-settlement/</link>
+      <description>Oakland Airport's rebranding efforts to include 'San Francisco' in its name have largely failed to boost passenger numbers, which continued declining after a brief post-pandemic rebound. San Francisco sued, arguing the name would confuse travelers. After mediation, a settlement was reached requiring 'Oakland' to always appear before 'San Francisco' in all materials, and the airport cannot change its code from OAK. The final name is 'Oakland San Francisco Bay Airport.'
+
+标签: Oakland, San Francisco, airport, rebranding, lawsuit, travel, aviation, naming, settlement, California</description>
+      <guid isPermaLink="false">https://sfstandard.com/2026/04/28/oak-sfo-reach-naming-settlement/#sha256:332c21be0d1c35ca</guid>
+      <category>Oakland</category>
+      <category>San Francisco</category>
+      <category>airport</category>
+      <category>rebranding</category>
+      <category>lawsuit</category>
+      <category>travel</category>
+      <category>aviation</category>
+      <category>naming</category>
+      <category>settlement</category>
+      <category>California</category>
+      <pubDate>Thu, 30 Apr 2026 05:24:06 +0800</pubDate>
     </item>
   </channel>
 </rss>
