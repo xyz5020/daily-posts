@@ -8,83 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 30 Apr 2026 07:27:04 +0800</lastBuildDate>
-    <pubDate>Thu, 30 Apr 2026 07:27:04 +0800</pubDate>
+    <lastBuildDate>Fri, 01 May 2026 07:26:06 +0800</lastBuildDate>
+    <pubDate>Fri, 01 May 2026 07:26:06 +0800</pubDate>
     <item>
-      <title>Raspberry Pi Connect may control Windows soon 摘要</title>
-      <link>https://www.jeffgeerling.com/blog/2026/raspberry-pi-connect-may-control-windows-soon/</link>
-      <description>Raspberry Pi Connect, the free remote access service for Raspberry Pi, may soon support remote controlling Windows PCs. This development was hinted at in a Raspberry Pi forum post. Previously, the service only worked on Raspberry Pi devices, limiting its competitiveness with RealVNC. The potential expansion to Windows could make it a more versatile remote access solution, especially after RealVNC's slow adoption of Wayland left Pi users without a solid option after Pi OS 12 'Bookworm'.
+      <title>We need RSS for sharing abundant vibe-coded apps 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything</link>
+      <description>Matt Webb proposes an RSS feed for sharing vibe-coded apps, comparing app distribution to blogging. Inspired, Simon Willison used Claude to add an Atom feed to his tools page, which aggregates content from his tools.simonwillison.net site. The idea is that as AI accelerates app development, apps become more personal and frequent, making RSS a natural distribution method.
 
-标签: Raspberry Pi, Raspberry Pi Connect, remote access, Windows, RealVNC, Wayland, Pi OS, remote desktop, open source, tech news</description>
-      <guid isPermaLink="false">https://www.jeffgeerling.com/blog/2026/raspberry-pi-connect-may-control-windows-soon/#sha256:955a752ec2fa0ba6</guid>
-      <category>Raspberry Pi</category>
-      <category>Raspberry Pi Connect</category>
-      <category>remote access</category>
-      <category>Windows</category>
-      <category>RealVNC</category>
-      <category>Wayland</category>
-      <category>Pi OS</category>
-      <category>remote desktop</category>
-      <category>open source</category>
-      <category>tech news</category>
-      <pubDate>Thu, 30 Apr 2026 01:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Reiner Pope – The math behind how LLMs are trained and served 摘要</title>
-      <link>https://www.dwarkesh.com/p/reiner-pope</link>
-      <description>Dwarkesh Patel interviews Reiner Pope (CEO of MatX, former Google TPU architect) in a blackboard lecture format. They analyze how frontier LLMs are trained and served, using equations, public API prices, and chalk to deduce lab practices. Topics include batch size's effect on token cost and speed, MoE model layout across GPU racks, pipeline parallelism, over-training due to RL, long context memory costs from API pricing, and convergent evolution between neural nets and cryptography. Reiner co-authored a scaling book and leads a new chip startup.
-
-标签: LLM, inference, training, GPU, batch size, MoE, pipeline parallelism, API pricing, chip design, AI infrastructure</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/reiner-pope#sha256:34d2cd32a0bf86ad</guid>
-      <category>LLM</category>
-      <category>inference</category>
-      <category>training</category>
-      <category>GPU</category>
-      <category>batch size</category>
-      <category>MoE</category>
-      <category>pipeline parallelism</category>
-      <category>API pricing</category>
-      <category>chip design</category>
-      <category>AI infrastructure</category>
-      <pubDate>Thu, 30 Apr 2026 01:07:03 +0800</pubDate>
-    </item>
-    <item>
-      <title>LLM 0.32a0  is a major backwards-compatible refactor 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/29/llm/#atom-everything</link>
-      <description>LLM 0.32a0 alpha release introduces two major changes: prompts can now be represented as a sequence of messages using new `llm.user()` and `llm.assistant()` builder functions, enabling easier replay of previous conversations. Additionally, model responses are now modeled as a stream of typed parts, allowing mixed content types like reasoning, text, tool calls, and multi-modal outputs (images, audio) to be streamed back. These changes better accommodate the diversity of input/output types in modern frontier models, moving beyond the original text-in/text-out abstraction.
-
-标签: LLM, Python, AI, CLI, open-source, streaming, multi-modal, tools, API, release</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/29/llm/#atom-everything#sha256:b49f8808227548b9</guid>
-      <category>LLM</category>
-      <category>Python</category>
+标签: RSS, Atom, vibe-coding, AI, app distribution, web feeds, personal tools, micro-apps, blogging, Claude</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything#sha256:db186bcaf8c27ae6</guid>
+      <category>RSS</category>
+      <category>Atom</category>
+      <category>vibe-coding</category>
       <category>AI</category>
-      <category>CLI</category>
-      <category>open-source</category>
-      <category>streaming</category>
-      <category>multi-modal</category>
-      <category>tools</category>
-      <category>API</category>
-      <category>release</category>
-      <pubDate>Thu, 30 Apr 2026 03:01:47 +0800</pubDate>
+      <category>app distribution</category>
+      <category>web feeds</category>
+      <category>personal tools</category>
+      <category>micro-apps</category>
+      <category>blogging</category>
+      <category>Claude</category>
+      <pubDate>Fri, 01 May 2026 02:38:48 +0800</pubDate>
     </item>
     <item>
-      <title>Oakland’s Airport Is Now Officially ‘Oakland San Francisco Bay Airport’ 摘要</title>
-      <link>https://sfstandard.com/2026/04/28/oak-sfo-reach-naming-settlement/</link>
-      <description>Oakland Airport's rebranding efforts to include 'San Francisco' in its name have largely failed to boost passenger numbers, which continued declining after a brief post-pandemic rebound. San Francisco sued, arguing the name would confuse travelers. After mediation, a settlement was reached requiring 'Oakland' to always appear before 'San Francisco' in all materials, and the airport cannot change its code from OAK. The final name is 'Oakland San Francisco Bay Airport.'
+      <title>Quoting Andrew Kelley 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything</link>
+      <description>Andrew Kelley, creator of Zig, argues that it's a misconception that LLM-assisted contributions are undetectable. He states that human mistakes differ fundamentally from LLM hallucinations, making them easy to spot. Additionally, those who use agentic coding have a distinct 'digital smell' that is obvious to non-users. He compares it to a smoker entering a room—non-smokers instantly know. Kelley asserts the right to ban LLM-assisted contributions in his project, emphasizing that while he doesn't forbid using LLMs elsewhere, they are not welcome in Zig's repository.
 
-标签: Oakland, San Francisco, airport, rebranding, lawsuit, travel, aviation, naming, settlement, California</description>
-      <guid isPermaLink="false">https://sfstandard.com/2026/04/28/oak-sfo-reach-naming-settlement/#sha256:332c21be0d1c35ca</guid>
-      <category>Oakland</category>
-      <category>San Francisco</category>
-      <category>airport</category>
-      <category>rebranding</category>
-      <category>lawsuit</category>
-      <category>travel</category>
-      <category>aviation</category>
-      <category>naming</category>
-      <category>settlement</category>
-      <category>California</category>
-      <pubDate>Thu, 30 Apr 2026 05:24:06 +0800</pubDate>
+标签: zig, llms, ai, generative-ai, open-source, code-review, contributor-poker, agentic-coding</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything#sha256:660fa0bbff86adc4</guid>
+      <category>zig</category>
+      <category>llms</category>
+      <category>ai</category>
+      <category>generative-ai</category>
+      <category>open-source</category>
+      <category>code-review</category>
+      <category>contributor-poker</category>
+      <category>agentic-coding</category>
+      <pubDate>Fri, 01 May 2026 05:24:55 +0800</pubDate>
+    </item>
+    <item>
+      <title>Our evaluation of OpenAI's GPT-5.5 cyber capabilities 摘要</title>
+      <link>https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything</link>
+      <description>The UK's AI Security Institute evaluated OpenAI's GPT-5.5 for cyber capabilities, specifically its ability to find security vulnerabilities. The evaluation found GPT-5.5 to be comparable to Claude Mythos, which was previously assessed by the same institute. However, a key difference is that GPT-5.5 is generally available now, whereas Mythos is not. This raises concerns about the immediate accessibility of advanced AI cyber capabilities.
+
+标签: AI, OpenAI, GPT-5.5, cyber security, vulnerability detection, AI Security Institute, Claude Mythos, Anthropic, LLMs, generative AI</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything#sha256:334830fda9f6122d</guid>
+      <category>AI</category>
+      <category>OpenAI</category>
+      <category>GPT-5.5</category>
+      <category>cyber security</category>
+      <category>vulnerability detection</category>
+      <category>AI Security Institute</category>
+      <category>Claude Mythos</category>
+      <category>Anthropic</category>
+      <category>LLMs</category>
+      <category>generative AI</category>
+      <pubDate>Fri, 01 May 2026 07:03:24 +0800</pubDate>
     </item>
   </channel>
 </rss>
