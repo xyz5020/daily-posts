@@ -8,62 +8,64 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 01 May 2026 07:26:06 +0800</lastBuildDate>
-    <pubDate>Fri, 01 May 2026 07:26:06 +0800</pubDate>
+    <lastBuildDate>Sat, 02 May 2026 07:25:26 +0800</lastBuildDate>
+    <pubDate>Sat, 02 May 2026 07:25:26 +0800</pubDate>
     <item>
-      <title>We need RSS for sharing abundant vibe-coded apps 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything</link>
-      <description>Matt Webb proposes an RSS feed for sharing vibe-coded apps, comparing app distribution to blogging. Inspired, Simon Willison used Claude to add an Atom feed to his tools page, which aggregates content from his tools.simonwillison.net site. The idea is that as AI accelerates app development, apps become more personal and frequent, making RSS a natural distribution method.
+      <title>iNaturalist Sightings 摘要</title>
+      <link>https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything</link>
+      <description>Simon Willison built a tool to view his iNaturalist observations from two accounts grouped by time and location. He created a Python CLI to fetch and 'clump' observations within 2 hours and 5km, then set up a Git scraping repository to run it and store results as JSON on GitHub. Finally, he used Claude Code on his phone to build an HTML app that fetches the JSON and displays thumbnails with lazy loading, showing large images in a modal on click.
 
-标签: RSS, Atom, vibe-coding, AI, app distribution, web feeds, personal tools, micro-apps, blogging, Claude</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything#sha256:db186bcaf8c27ae6</guid>
-      <category>RSS</category>
-      <category>Atom</category>
-      <category>vibe-coding</category>
-      <category>AI</category>
-      <category>app distribution</category>
-      <category>web feeds</category>
-      <category>personal tools</category>
-      <category>micro-apps</category>
-      <category>blogging</category>
-      <category>Claude</category>
-      <pubDate>Fri, 01 May 2026 02:38:48 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Andrew Kelley 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything</link>
-      <description>Andrew Kelley, creator of Zig, argues that it's a misconception that LLM-assisted contributions are undetectable. He states that human mistakes differ fundamentally from LLM hallucinations, making them easy to spot. Additionally, those who use agentic coding have a distinct 'digital smell' that is obvious to non-users. He compares it to a smoker entering a room—non-smokers instantly know. Kelley asserts the right to ban LLM-assisted contributions in his project, emphasizing that while he doesn't forbid using LLMs elsewhere, they are not welcome in Zig's repository.
-
-标签: zig, llms, ai, generative-ai, open-source, code-review, contributor-poker, agentic-coding</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything#sha256:660fa0bbff86adc4</guid>
-      <category>zig</category>
-      <category>llms</category>
-      <category>ai</category>
-      <category>generative-ai</category>
-      <category>open-source</category>
-      <category>code-review</category>
-      <category>contributor-poker</category>
-      <category>agentic-coding</category>
-      <pubDate>Fri, 01 May 2026 05:24:55 +0800</pubDate>
-    </item>
-    <item>
-      <title>Our evaluation of OpenAI's GPT-5.5 cyber capabilities 摘要</title>
-      <link>https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything</link>
-      <description>The UK's AI Security Institute evaluated OpenAI's GPT-5.5 for cyber capabilities, specifically its ability to find security vulnerabilities. The evaluation found GPT-5.5 to be comparable to Claude Mythos, which was previously assessed by the same institute. However, a key difference is that GPT-5.5 is generally available now, whereas Mythos is not. This raises concerns about the immediate accessibility of advanced AI cyber capabilities.
-
-标签: AI, OpenAI, GPT-5.5, cyber security, vulnerability detection, AI Security Institute, Claude Mythos, Anthropic, LLMs, generative AI</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything#sha256:334830fda9f6122d</guid>
-      <category>AI</category>
-      <category>OpenAI</category>
-      <category>GPT-5.5</category>
-      <category>cyber security</category>
-      <category>vulnerability detection</category>
-      <category>AI Security Institute</category>
-      <category>Claude Mythos</category>
-      <category>Anthropic</category>
-      <category>LLMs</category>
+标签: iNaturalist, Python, CLI, Git scraping, Claude Code, generative AI, LLM, tools, web app, data visualization</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything#sha256:4938bdfbb4ecfccd</guid>
+      <category>iNaturalist</category>
+      <category>Python</category>
+      <category>CLI</category>
+      <category>Git scraping</category>
+      <category>Claude Code</category>
       <category>generative AI</category>
-      <pubDate>Fri, 01 May 2026 07:03:24 +0800</pubDate>
+      <category>LLM</category>
+      <category>tools</category>
+      <category>web app</category>
+      <category>data visualization</category>
+      <pubDate>Sat, 02 May 2026 03:35:41 +0800</pubDate>
+    </item>
+    <item>
+      <title>Tim Cook’s Clever Solution to the Tariff Refund Puzzle 摘要</title>
+      <link>https://sixcolors.com/post/2026/04/apple-results-analysis-net-net-over-the-moon/</link>
+      <description>Apple CEO Tim Cook has devised a politically astute solution to the tariff refund puzzle following the Supreme Court's ruling that certain Trump-era tariffs were illegal. During an earnings call, Cook outlined that Apple would seek refunds through established processes and commit any refunded amounts to new U.S. investments in innovation and advanced manufacturing, beyond existing commitments. This approach allows Apple to recover billions while appeasing the Trump administration by framing the refunds as reinvestment in the U.S. economy, turning a potential political liability into a strategic PR move.
+
+标签: Apple, tariffs, Tim Cook, Supreme Court, US politics, manufacturing, trade policy, corporate strategy, Trump administration, refunds</description>
+      <guid isPermaLink="false">https://sixcolors.com/post/2026/04/apple-results-analysis-net-net-over-the-moon/#sha256:65cc17f086794450</guid>
+      <category>Apple</category>
+      <category>tariffs</category>
+      <category>Tim Cook</category>
+      <category>Supreme Court</category>
+      <category>US politics</category>
+      <category>manufacturing</category>
+      <category>trade policy</category>
+      <category>corporate strategy</category>
+      <category>Trump administration</category>
+      <category>refunds</category>
+      <pubDate>Sat, 02 May 2026 04:30:47 +0800</pubDate>
+    </item>
+    <item>
+      <title>Meta Solved Their Problem With Kenyan Contractors Seeing Footage of AI Glasses Wearers on the Toilet 摘要</title>
+      <link>https://www.bbc.com/news/articles/c5y7yvgy0w6o</link>
+      <description>Meta canceled its contract with Sama, a Kenyan company hired to review video footage from Meta's AI glasses, shortly after workers revealed they had to view graphic content including users undressing, having sex, and using the toilet. Meta claims Sama did not meet standards, but critics argue the real issue was workers speaking out about the privacy-invasive work. The incident highlights the hidden human labor behind AI training and Meta's failure to disclose such practices to consumers.
+
+标签: Meta, AI, privacy, Kenya, contractors, smart glasses, data labeling, ethics, labor, surveillance</description>
+      <guid isPermaLink="false">https://www.bbc.com/news/articles/c5y7yvgy0w6o#sha256:86ebc43f71a7ae3c</guid>
+      <category>Meta</category>
+      <category>AI</category>
+      <category>privacy</category>
+      <category>Kenya</category>
+      <category>contractors</category>
+      <category>smart glasses</category>
+      <category>data labeling</category>
+      <category>ethics</category>
+      <category>labor</category>
+      <category>surveillance</category>
+      <pubDate>Sat, 02 May 2026 05:00:36 +0800</pubDate>
     </item>
   </channel>
 </rss>
