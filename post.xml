@@ -8,45 +8,44 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 03 May 2026 07:22:57 +0800</lastBuildDate>
-    <pubDate>Sun, 03 May 2026 07:22:57 +0800</pubDate>
+    <lastBuildDate>Mon, 04 May 2026 07:23:15 +0800</lastBuildDate>
+    <pubDate>Mon, 04 May 2026 07:23:15 +0800</pubDate>
     <item>
-      <title>Sightings 摘要</title>
-      <link>https://simonwillison.net/2026/May/2/sightings/#atom-everything</link>
-      <description>Simon Willison describes building a 'Sightings' feature on his blog to syndicate wildlife photos from iNaturalist, using a new Canon R6 Mark II camera. He extended his existing 'beats' system using Claude Code for web on his phone, back-populating over a decade of iNaturalist sightings. The sightings appear on his homepage, date archive pages, and site search results, allowing users to find photos like his 2019 lemur images from Madagascar.
+      <title>Microsoft’s open sourcing of 86-DOS and what it means 摘要</title>
+      <link>https://dfarq.homeip.net/microsofts-open-sourcing-of-86-dos-and-what-it-means/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=microsofts-open-sourcing-of-86-dos-and-what-it-means</link>
+      <description>On April 28, 2026, Microsoft unexpectedly open-sourced 86-DOS, the direct ancestor of PC DOS 1.0. This move sheds light on the early history and controversies surrounding MS-DOS and PC DOS, providing developers and historians with access to foundational code that shaped personal computing. The open-sourcing allows for deeper analysis of the origins of Microsoft's operating system lineage.
 
-标签: blogging, photography, wildlife, AI, iNaturalist, generative-ai, LLMs, AI-assisted programming, Claude Code, syndication</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/2/sightings/#atom-everything#sha256:340c3c44d0a17cb1</guid>
-      <category>blogging</category>
-      <category>photography</category>
-      <category>wildlife</category>
-      <category>AI</category>
-      <category>iNaturalist</category>
-      <category>generative-ai</category>
-      <category>LLMs</category>
-      <category>AI-assisted programming</category>
-      <category>Claude Code</category>
-      <category>syndication</category>
-      <pubDate>Sun, 03 May 2026 01:26:40 +0800</pubDate>
+标签: Microsoft, 86-DOS, open source, PC DOS, MS-DOS, history, operating system, retro computing, software heritage</description>
+      <guid isPermaLink="false">https://dfarq.homeip.net/microsofts-open-sourcing-of-86-dos-and-what-it-means/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=microsofts-open-sourcing-of-86-dos-and-what-it-means#sha256:9f063113773da0dc</guid>
+      <category>Microsoft</category>
+      <category>86-DOS</category>
+      <category>open source</category>
+      <category>PC DOS</category>
+      <category>MS-DOS</category>
+      <category>history</category>
+      <category>operating system</category>
+      <category>retro computing</category>
+      <category>software heritage</category>
+      <pubDate>Mon, 04 May 2026 01:20:17 +0800</pubDate>
     </item>
     <item>
-      <title>How backups work depends on the goals of the people setting them up 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/BackupsDependOnGoals</link>
-      <description>A SaaS provider's volume-level backups, stored in the same volume as the data, were deleted along with the production database when the volume was wiped. This design protects against accidental data loss (e.g., DROP TABLE) but not deliberate volume deletion. The provider likely made a tradeoff: making backups hard to delete would annoy customers who want to avoid charges for unused volumes. External backups are recommended for catastrophic recovery, but they are slower and costlier. The incident highlights the importance of understanding backup recovery goals and customer needs.
+      <title>The shape of a guitar pick 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/03/guitar-pick/</link>
+      <description>The author explores the contour plot of (log x)² + (log y)² = 1, which resembles a guitar pick shape. By rotating and scaling the equation with parameters k and r, they derive a mathematical model for the 351-style guitar pick. The aspect ratio is derived analytically as h/w = k × 2 sinh(r/√2)/(exp(r) − 1), allowing precise tuning. The post includes visual comparisons and notes on how r affects triangularity.
 
-标签: backup, SaaS, database, disaster recovery, ZFS, cloud, data loss, tradeoffs, volume deletion, incident</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/sysadmin/BackupsDependOnGoals#sha256:d6a7d2d722d14275</guid>
-      <category>backup</category>
-      <category>SaaS</category>
-      <category>database</category>
-      <category>disaster recovery</category>
-      <category>ZFS</category>
-      <category>cloud</category>
-      <category>data loss</category>
-      <category>tradeoffs</category>
-      <category>volume deletion</category>
-      <category>incident</category>
-      <pubDate>Sun, 03 May 2026 04:12:58 +0800</pubDate>
+标签: mathematics, contour plot, guitar pick, geometry, logarithmic functions, curve fitting, visualization, Mathematica, aspect ratio, shape modeling</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/03/guitar-pick/#sha256:a13f17f9b6bf693c</guid>
+      <category>mathematics</category>
+      <category>contour plot</category>
+      <category>guitar pick</category>
+      <category>geometry</category>
+      <category>logarithmic functions</category>
+      <category>curve fitting</category>
+      <category>visualization</category>
+      <category>Mathematica</category>
+      <category>aspect ratio</category>
+      <category>shape modeling</category>
+      <pubDate>Mon, 04 May 2026 04:49:41 +0800</pubDate>
     </item>
   </channel>
 </rss>
