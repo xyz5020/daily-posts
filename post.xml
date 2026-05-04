@@ -8,44 +8,211 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 04 May 2026 07:23:15 +0800</lastBuildDate>
-    <pubDate>Mon, 04 May 2026 07:23:15 +0800</pubDate>
+    <lastBuildDate>Tue, 05 May 2026 07:26:12 +0800</lastBuildDate>
+    <pubDate>Tue, 05 May 2026 07:26:12 +0800</pubDate>
     <item>
-      <title>Microsoft’s open sourcing of 86-DOS and what it means 摘要</title>
-      <link>https://dfarq.homeip.net/microsofts-open-sourcing-of-86-dos-and-what-it-means/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=microsofts-open-sourcing-of-86-dos-and-what-it-means</link>
-      <description>On April 28, 2026, Microsoft unexpectedly open-sourced 86-DOS, the direct ancestor of PC DOS 1.0. This move sheds light on the early history and controversies surrounding MS-DOS and PC DOS, providing developers and historians with access to foundational code that shaped personal computing. The open-sourcing allows for deeper analysis of the origins of Microsoft's operating system lineage.
+      <title>TRE Python binding — ReDoS robustness demo 摘要</title>
+      <link>https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything</link>
+      <description>Simon Willison explores TRE, a regular expression engine by Ville Laurikari that avoids backtracking, making it robust against ReDoS attacks. He built an experimental Python binding using ctypes and tested it against malicious regex patterns. TRE handled these attacks much better than Python's standard library re module, which relies on backtracking and is vulnerable to catastrophic backtracking. The work was inspired by antirez adding TRE to Redis. The binding is available on GitHub for demonstration purposes.
 
-标签: Microsoft, 86-DOS, open source, PC DOS, MS-DOS, history, operating system, retro computing, software heritage</description>
-      <guid isPermaLink="false">https://dfarq.homeip.net/microsofts-open-sourcing-of-86-dos-and-what-it-means/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=microsofts-open-sourcing-of-86-dos-and-what-it-means#sha256:9f063113773da0dc</guid>
-      <category>Microsoft</category>
-      <category>86-DOS</category>
-      <category>open source</category>
-      <category>PC DOS</category>
-      <category>MS-DOS</category>
-      <category>history</category>
-      <category>operating system</category>
-      <category>retro computing</category>
-      <category>software heritage</category>
-      <pubDate>Mon, 04 May 2026 01:20:17 +0800</pubDate>
+标签: security, python, regular-expressions, c, ctypes, ReDoS, TRE, backtracking, Redis, open-source</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything#sha256:6baa730a5f85dac8</guid>
+      <category>security</category>
+      <category>python</category>
+      <category>regular-expressions</category>
+      <category>c</category>
+      <category>ctypes</category>
+      <category>ReDoS</category>
+      <category>TRE</category>
+      <category>backtracking</category>
+      <category>Redis</category>
+      <category>open-source</category>
+      <pubDate>Tue, 05 May 2026 01:52:00 +0800</pubDate>
     </item>
     <item>
-      <title>The shape of a guitar pick 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/03/guitar-pick/</link>
-      <description>The author explores the contour plot of (log x)² + (log y)² = 1, which resembles a guitar pick shape. By rotating and scaling the equation with parameters k and r, they derive a mathematical model for the 351-style guitar pick. The aspect ratio is derived analytically as h/w = k × 2 sinh(r/√2)/(exp(r) − 1), allowing precise tuning. The post includes visual comparisons and notes on how r affects triangularity.
+      <title>Anthropic Executive, One Year Ago: Fully AI Employees Are a Year Away 摘要</title>
+      <link>https://www.axios.com/2025/04/22/ai-anthropic-virtual-employees-security</link>
+      <description>A year ago, Anthropic's CISO Jason Clinton predicted that AI-powered virtual employees with their own memories, roles, and corporate accounts would soon roam corporate networks. However, this prediction has not materialized. The article argues that this was not a genuine warning but an advertisement aimed at executives eager to replace human workers with AI. Such hype has contributed to negative public sentiment about AI, as companies are not actually deploying fully autonomous AI employees and likely should not.
 
-标签: mathematics, contour plot, guitar pick, geometry, logarithmic functions, curve fitting, visualization, Mathematica, aspect ratio, shape modeling</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/03/guitar-pick/#sha256:a13f17f9b6bf693c</guid>
-      <category>mathematics</category>
-      <category>contour plot</category>
-      <category>guitar pick</category>
-      <category>geometry</category>
-      <category>logarithmic functions</category>
-      <category>curve fitting</category>
-      <category>visualization</category>
-      <category>Mathematica</category>
-      <category>aspect ratio</category>
-      <category>shape modeling</category>
-      <pubDate>Mon, 04 May 2026 04:49:41 +0800</pubDate>
+标签: AI, Anthropic, virtual employees, AI agents, corporate automation, AI hype, public sentiment, security, autonomous systems, workforce</description>
+      <guid isPermaLink="false">https://www.axios.com/2025/04/22/ai-anthropic-virtual-employees-security#sha256:e31e402cdad23a55</guid>
+      <category>AI</category>
+      <category>Anthropic</category>
+      <category>virtual employees</category>
+      <category>AI agents</category>
+      <category>corporate automation</category>
+      <category>AI hype</category>
+      <category>public sentiment</category>
+      <category>security</category>
+      <category>autonomous systems</category>
+      <category>workforce</category>
+      <pubDate>Tue, 05 May 2026 02:20:39 +0800</pubDate>
+    </item>
+    <item>
+      <title>Photoshop’s ‘Modern User Interface’ Sucks (and Doesn’t Feel Modern) 摘要</title>
+      <link>https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/</link>
+      <description>Marcin Wichary criticizes Adobe Photoshop's 'modern user interface' redesign, arguing it removes useful UI elements and degrades the user experience. He contrasts before-and-after screenshots showing worse balance, focus behavior, and typography in the new version. Wichary attributes this to carelessness and laziness in UI engineering, not to necessary evolution or technical challenges. He compares it to similar critiques of Apple's app icon design regression, suggesting the changes feel like a step backward rather than an improvement.
+
+标签: Photoshop, UI design, Adobe, software regression, user experience, interface redesign, critique, design quality, power users</description>
+      <guid isPermaLink="false">https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/#sha256:137d26b12ebe6a90</guid>
+      <category>Photoshop</category>
+      <category>UI design</category>
+      <category>Adobe</category>
+      <category>software regression</category>
+      <category>user experience</category>
+      <category>interface redesign</category>
+      <category>critique</category>
+      <category>design quality</category>
+      <category>power users</category>
+      <pubDate>Tue, 05 May 2026 03:13:06 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘Noir, Japan’s Hard-Boiled Bittersweet Answer to Oreos’ 摘要</title>
+      <link>https://tokyopaladin.substack.com/p/the-japanese-oreo-noir-kills-the</link>
+      <description>Jake Adelstein reports that Japan's Oreos were originally made domestically by Yamazaki Biscuits under license from Mondelez. When the license expired, Mondelez moved production to China, altering the taste. In response, Yamazaki launched Noir in December 2017, a cookie that replicated the original Oreo flavor. John Gruber, a fan of Newman-O's, finds Noir intriguing but notes it's hard to get in the U.S.
+
+标签: Oreo, Japan, Yamazaki Biscuits, Mondelez, Noir, cookie, food, business, licensing, consumer</description>
+      <guid isPermaLink="false">https://tokyopaladin.substack.com/p/the-japanese-oreo-noir-kills-the#sha256:b2506ce092afd7b4</guid>
+      <category>Oreo</category>
+      <category>Japan</category>
+      <category>Yamazaki Biscuits</category>
+      <category>Mondelez</category>
+      <category>Noir</category>
+      <category>cookie</category>
+      <category>food</category>
+      <category>business</category>
+      <category>licensing</category>
+      <category>consumer</category>
+      <pubDate>Tue, 05 May 2026 03:48:48 +0800</pubDate>
+    </item>
+    <item>
+      <title>App Store Search Ads and the Slippery Slope 摘要</title>
+      <link>https://blog.thinktapwork.com/post/812803664980967425/ios-app-store-search-is-rotten</link>
+      <description>Jeremy Provost reports that iOS App Store search has shifted from relevance to ad inventory, with Apple's second search ad pushing organic results down. His apps saw 23-30% decreases in search impressions, except one using Search Ads which increased 3%. The article applies the Zero-One-Infinity rule to ads, arguing that once Apple showed more than one ad, it's on a slippery slope toward infinite ads, citing upcoming ads in Apple Maps as further evidence.
+
+标签: iOS, App Store, search ads, Apple, mobile apps, advertising, user experience, slippery slope, Zero-One-Infinity rule</description>
+      <guid isPermaLink="false">https://blog.thinktapwork.com/post/812803664980967425/ios-app-store-search-is-rotten#sha256:97b79cd7a1dee40f</guid>
+      <category>iOS</category>
+      <category>App Store</category>
+      <category>search ads</category>
+      <category>Apple</category>
+      <category>mobile apps</category>
+      <category>advertising</category>
+      <category>user experience</category>
+      <category>slippery slope</category>
+      <category>Zero-One-Infinity rule</category>
+      <pubDate>Tue, 05 May 2026 05:09:21 +0800</pubDate>
+    </item>
+    <item>
+      <title>Google Owns a Big Chunk of Anthropic 摘要</title>
+      <link>https://www.nytimes.com/2025/03/11/technology/google-investment-anthropic.html?unlocked_article_code=1.f1A.eSTf.D5ECvk6f4DZ7</link>
+      <description>The New York Times reports that Google owns a 14% stake in AI startup Anthropic, with a cap of 15% ownership and no voting rights or board seats. Google has invested over $3 billion in Anthropic, including a $750 million convertible debt due in September. Anthropic's latest Series G funding round valued the company at $380 billion, making Google's stake worth over $50 billion. This investment provides Google a strategic hedge, benefiting from both its own Gemini AI and Anthropic's Claude, while contributing to an 81% increase in Google's overall profit.
+
+标签: Google, Anthropic, AI, investment, antitrust, startup, funding, convertible debt, valuation, Stratechery</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2025/03/11/technology/google-investment-anthropic.html?unlocked_article_code=1.f1A.eSTf.D5ECvk6f4DZ7#sha256:8adb576a10555922</guid>
+      <category>Google</category>
+      <category>Anthropic</category>
+      <category>AI</category>
+      <category>investment</category>
+      <category>antitrust</category>
+      <category>startup</category>
+      <category>funding</category>
+      <category>convertible debt</category>
+      <category>valuation</category>
+      <category>Stratechery</category>
+      <pubDate>Tue, 05 May 2026 05:40:32 +0800</pubDate>
+    </item>
+    <item>
+      <title>AI didn't delete your database, you did 摘要</title>
+      <link>https://idiallo.com/blog/ai-didnt-delete-your-database-you-did?src=feed</link>
+      <description>A viral tweet claimed a Cursor/Claude agent deleted a company's production database, sparking debate about AI accountability. The author argues the real issue is having an API endpoint that can delete the entire production database, not the AI itself. He recounts a personal story from 2010 where he accidentally deleted a trunk folder during a manual deployment, leading to automation improvements. He compares AI to manual processes prone to errors, noting that AI lacks true reasoning and is just generating tokens. The solution is to know what you deploy, use AI as a tool for competent developers, and avoid letting non-developers write code.
+
+标签: AI, accountability, software engineering, deployment, automation, vibe coding, production database, mistakes, CI/CD, tooling</description>
+      <guid isPermaLink="false">https://idiallo.com/blog/ai-didnt-delete-your-database-you-did?src=feed#sha256:b2401f09d7184a21</guid>
+      <category>AI</category>
+      <category>accountability</category>
+      <category>software engineering</category>
+      <category>deployment</category>
+      <category>automation</category>
+      <category>vibe coding</category>
+      <category>production database</category>
+      <category>mistakes</category>
+      <category>CI/CD</category>
+      <category>tooling</category>
+      <pubDate>Tue, 05 May 2026 06:25:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>April 2026 newsletter 摘要</title>
+      <link>https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything</link>
+      <description>Simon Willison released the April 2026 edition of his sponsors-only monthly newsletter, accessible to GitHub sponsors. The newsletter covers Opus 4.7 and GPT-5.5 with price increases, Claude Mythos and LLM security research, ChatGPT Images 2.0, more model releases, blog highlights, and his April 2026 setup. A preview of the March newsletter is available. Sponsorship costs $10/month for early access.
+
+标签: newsletter, AI, LLM, GPT, Claude, ChatGPT, security, model releases, sponsors, Simon Willison</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything#sha256:66deab38c7624289</guid>
+      <category>newsletter</category>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>GPT</category>
+      <category>Claude</category>
+      <category>ChatGPT</category>
+      <category>security</category>
+      <category>model releases</category>
+      <category>sponsors</category>
+      <category>Simon Willison</category>
+      <pubDate>Tue, 05 May 2026 06:38:36 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ Y Combinator’s Stake in OpenAI 摘要</title>
+      <link>https://daringfireball.net/2026/05/y_combinators_stake_in_openai</link>
+      <description>John Gruber discusses a potential conflict of interest regarding Paul Graham's defense of Sam Altman. Y Combinator, where Graham is a founding partner, reportedly owns about 0.6% of OpenAI, worth over $5 billion at OpenAI's $852 billion valuation. Gruber argues this financial stake should have been disclosed when Graham was quoted as a character reference for Altman in a New Yorker investigation, as it could bias his opinion on Altman's trustworthiness.
+
+标签: OpenAI, Sam Altman, Y Combinator, Paul Graham, conflict of interest, journalism, ethics, AI, valuation, disclosure</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/05/y_combinators_stake_in_openai#sha256:dc300eedeae0e95b</guid>
+      <category>OpenAI</category>
+      <category>Sam Altman</category>
+      <category>Y Combinator</category>
+      <category>Paul Graham</category>
+      <category>conflict of interest</category>
+      <category>journalism</category>
+      <category>ethics</category>
+      <category>AI</category>
+      <category>valuation</category>
+      <category>disclosure</category>
+      <pubDate>Tue, 05 May 2026 06:47:01 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Andy Masley 摘要</title>
+      <link>https://simonwillison.net/2026/May/4/andy-masley/#atom-everything</link>
+      <description>Andy Masley argues that data center land use concerns are exaggerated. Between 2000 and 2024, farmers voluntarily sold a Colorado-sized area of land (77 times the projected data center land use in 2028) while increasing food production. He highlights the irony of a farmer selling a few acres of mediocre hay field for ten times its agricultural value, triggering claims of farmland loss despite no impact on US food access.
+
+标签: data centers, land use, agriculture, AI, myths, environment, technology, food production, urban development</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/4/andy-masley/#atom-everything#sha256:9c562c3e6bbde24b</guid>
+      <category>data centers</category>
+      <category>land use</category>
+      <category>agriculture</category>
+      <category>AI</category>
+      <category>myths</category>
+      <category>environment</category>
+      <category>technology</category>
+      <category>food production</category>
+      <category>urban development</category>
+      <pubDate>Tue, 05 May 2026 06:51:09 +0800</pubDate>
+    </item>
+    <item>
+      <title>Paul Thurrott Might Write a Book on Markdown 摘要</title>
+      <link>https://www.thurrott.com/paul/334577/the-markdown-book-on-writing?utm_source=dlvr.it&amp;utm_medium=mastodon</link>
+      <description>Paul Thurrott is considering writing a short e-book about Markdown, possibly as part of a monthly focus. He has already drafted an introductory chapter tentatively titled 'On writing.' The author reflects on the parallel but seldom intersecting careers of Thurrott and himself, noting that this book project is an unexpected but welcome development, preferable to writing about something Thurrott created in 2004.
+
+标签: Markdown, e-book, writing, Paul Thurrott, publishing, technology, blogging, career</description>
+      <guid isPermaLink="false">https://www.thurrott.com/paul/334577/the-markdown-book-on-writing?utm_source=dlvr.it&amp;utm_medium=mastodon#sha256:2527c38218107717</guid>
+      <category>Markdown</category>
+      <category>e-book</category>
+      <category>writing</category>
+      <category>Paul Thurrott</category>
+      <category>publishing</category>
+      <category>technology</category>
+      <category>blogging</category>
+      <category>career</category>
+      <pubDate>Tue, 05 May 2026 06:58:40 +0800</pubDate>
     </item>
   </channel>
 </rss>
