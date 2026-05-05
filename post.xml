@@ -8,211 +8,100 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 05 May 2026 07:26:12 +0800</lastBuildDate>
-    <pubDate>Tue, 05 May 2026 07:26:12 +0800</pubDate>
+    <lastBuildDate>Wed, 06 May 2026 07:25:56 +0800</lastBuildDate>
+    <pubDate>Wed, 06 May 2026 07:25:56 +0800</pubDate>
     <item>
-      <title>TRE Python binding — ReDoS robustness demo 摘要</title>
-      <link>https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything</link>
-      <description>Simon Willison explores TRE, a regular expression engine by Ville Laurikari that avoids backtracking, making it robust against ReDoS attacks. He built an experimental Python binding using ctypes and tested it against malicious regex patterns. TRE handled these attacks much better than Python's standard library re module, which relies on backtracking and is vulnerable to catastrophic backtracking. The work was inspired by antirez adding TRE to Redis. The binding is available on GitHub for demonstration purposes.
+      <title>Pedometer++ 8.0 摘要</title>
+      <link>https://david-smith.org/blog/2026/04/29/maps-on-watchos/</link>
+      <description>David Smith describes his six-year journey perfecting maps on watchOS, culminating in the launch of Pedometer++ 8. He emphasizes the importance of regular location checks during wilderness adventures and argues that his app now offers the best mapping experience on the Apple Watch. The post highlights his passion for outdoor exploration and the iterative design process behind the app's watchOS mapping features.
 
-标签: security, python, regular-expressions, c, ctypes, ReDoS, TRE, backtracking, Redis, open-source</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything#sha256:6baa730a5f85dac8</guid>
-      <category>security</category>
-      <category>python</category>
-      <category>regular-expressions</category>
-      <category>c</category>
-      <category>ctypes</category>
-      <category>ReDoS</category>
-      <category>TRE</category>
-      <category>backtracking</category>
-      <category>Redis</category>
-      <category>open-source</category>
-      <pubDate>Tue, 05 May 2026 01:52:00 +0800</pubDate>
+标签: watchOS, Apple Watch, maps, navigation, outdoor, app development, design, Pedometer++, wilderness, adventure</description>
+      <guid isPermaLink="false">https://david-smith.org/blog/2026/04/29/maps-on-watchos/#sha256:623e208f8d112efd</guid>
+      <category>watchOS</category>
+      <category>Apple Watch</category>
+      <category>maps</category>
+      <category>navigation</category>
+      <category>outdoor</category>
+      <category>app development</category>
+      <category>design</category>
+      <category>Pedometer++</category>
+      <category>wilderness</category>
+      <category>adventure</category>
+      <pubDate>Wed, 06 May 2026 02:12:44 +0800</pubDate>
     </item>
     <item>
-      <title>Anthropic Executive, One Year Ago: Fully AI Employees Are a Year Away 摘要</title>
-      <link>https://www.axios.com/2025/04/22/ai-anthropic-virtual-employees-security</link>
-      <description>A year ago, Anthropic's CISO Jason Clinton predicted that AI-powered virtual employees with their own memories, roles, and corporate accounts would soon roam corporate networks. However, this prediction has not materialized. The article argues that this was not a genuine warning but an advertisement aimed at executives eager to replace human workers with AI. Such hype has contributed to negative public sentiment about AI, as companies are not actually deploying fully autonomous AI employees and likely should not.
+      <title>★ Software as the Product of Obsession Times Voice 摘要</title>
+      <link>https://daringfireball.net/2026/05/software_as_the_product_of_obsession_times_voice</link>
+      <description>John Gruber reflects on the bifurcation of software quality, contrasting obsessive independent developers with large companies like Adobe and Apple. He revisits his 2009 talk 'Obsession Times Voice' with Merlin Mann, applying the Walt Disney quote 'We don't make movies to make money; we make money to make more movies' to software. Gruber criticizes Adobe's new Spectrum UI and Apple's macOS 26 Tahoe for disregarding established design principles, while praising indie developers for prioritizing craft. He links this decline to Nilay Patel's 'Software Brain' theory, which sees software purely as data manipulation rather than art or craft.
 
-标签: AI, Anthropic, virtual employees, AI agents, corporate automation, AI hype, public sentiment, security, autonomous systems, workforce</description>
-      <guid isPermaLink="false">https://www.axios.com/2025/04/22/ai-anthropic-virtual-employees-security#sha256:e31e402cdad23a55</guid>
-      <category>AI</category>
-      <category>Anthropic</category>
-      <category>virtual employees</category>
-      <category>AI agents</category>
-      <category>corporate automation</category>
-      <category>AI hype</category>
-      <category>public sentiment</category>
-      <category>security</category>
-      <category>autonomous systems</category>
-      <category>workforce</category>
-      <pubDate>Tue, 05 May 2026 02:20:39 +0800</pubDate>
-    </item>
-    <item>
-      <title>Photoshop’s ‘Modern User Interface’ Sucks (and Doesn’t Feel Modern) 摘要</title>
-      <link>https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/</link>
-      <description>Marcin Wichary criticizes Adobe Photoshop's 'modern user interface' redesign, arguing it removes useful UI elements and degrades the user experience. He contrasts before-and-after screenshots showing worse balance, focus behavior, and typography in the new version. Wichary attributes this to carelessness and laziness in UI engineering, not to necessary evolution or technical challenges. He compares it to similar critiques of Apple's app icon design regression, suggesting the changes feel like a step backward rather than an improvement.
-
-标签: Photoshop, UI design, Adobe, software regression, user experience, interface redesign, critique, design quality, power users</description>
-      <guid isPermaLink="false">https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/#sha256:137d26b12ebe6a90</guid>
-      <category>Photoshop</category>
-      <category>UI design</category>
+标签: software design, UI/UX, Adobe, Apple, macOS, independent developers, software brain, design principles, tech industry, craftsmanship</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/05/software_as_the_product_of_obsession_times_voice#sha256:daaa3ebcf160088e</guid>
+      <category>software design</category>
+      <category>UI/UX</category>
       <category>Adobe</category>
-      <category>software regression</category>
-      <category>user experience</category>
-      <category>interface redesign</category>
-      <category>critique</category>
-      <category>design quality</category>
-      <category>power users</category>
-      <pubDate>Tue, 05 May 2026 03:13:06 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘Noir, Japan’s Hard-Boiled Bittersweet Answer to Oreos’ 摘要</title>
-      <link>https://tokyopaladin.substack.com/p/the-japanese-oreo-noir-kills-the</link>
-      <description>Jake Adelstein reports that Japan's Oreos were originally made domestically by Yamazaki Biscuits under license from Mondelez. When the license expired, Mondelez moved production to China, altering the taste. In response, Yamazaki launched Noir in December 2017, a cookie that replicated the original Oreo flavor. John Gruber, a fan of Newman-O's, finds Noir intriguing but notes it's hard to get in the U.S.
-
-标签: Oreo, Japan, Yamazaki Biscuits, Mondelez, Noir, cookie, food, business, licensing, consumer</description>
-      <guid isPermaLink="false">https://tokyopaladin.substack.com/p/the-japanese-oreo-noir-kills-the#sha256:b2506ce092afd7b4</guid>
-      <category>Oreo</category>
-      <category>Japan</category>
-      <category>Yamazaki Biscuits</category>
-      <category>Mondelez</category>
-      <category>Noir</category>
-      <category>cookie</category>
-      <category>food</category>
-      <category>business</category>
-      <category>licensing</category>
-      <category>consumer</category>
-      <pubDate>Tue, 05 May 2026 03:48:48 +0800</pubDate>
-    </item>
-    <item>
-      <title>App Store Search Ads and the Slippery Slope 摘要</title>
-      <link>https://blog.thinktapwork.com/post/812803664980967425/ios-app-store-search-is-rotten</link>
-      <description>Jeremy Provost reports that iOS App Store search has shifted from relevance to ad inventory, with Apple's second search ad pushing organic results down. His apps saw 23-30% decreases in search impressions, except one using Search Ads which increased 3%. The article applies the Zero-One-Infinity rule to ads, arguing that once Apple showed more than one ad, it's on a slippery slope toward infinite ads, citing upcoming ads in Apple Maps as further evidence.
-
-标签: iOS, App Store, search ads, Apple, mobile apps, advertising, user experience, slippery slope, Zero-One-Infinity rule</description>
-      <guid isPermaLink="false">https://blog.thinktapwork.com/post/812803664980967425/ios-app-store-search-is-rotten#sha256:97b79cd7a1dee40f</guid>
-      <category>iOS</category>
-      <category>App Store</category>
-      <category>search ads</category>
       <category>Apple</category>
-      <category>mobile apps</category>
-      <category>advertising</category>
-      <category>user experience</category>
-      <category>slippery slope</category>
-      <category>Zero-One-Infinity rule</category>
-      <pubDate>Tue, 05 May 2026 05:09:21 +0800</pubDate>
+      <category>macOS</category>
+      <category>independent developers</category>
+      <category>software brain</category>
+      <category>design principles</category>
+      <category>tech industry</category>
+      <category>craftsmanship</category>
+      <pubDate>Wed, 06 May 2026 05:01:05 +0800</pubDate>
     </item>
     <item>
-      <title>Google Owns a Big Chunk of Anthropic 摘要</title>
-      <link>https://www.nytimes.com/2025/03/11/technology/google-investment-anthropic.html?unlocked_article_code=1.f1A.eSTf.D5ECvk6f4DZ7</link>
-      <description>The New York Times reports that Google owns a 14% stake in AI startup Anthropic, with a cap of 15% ownership and no voting rights or board seats. Google has invested over $3 billion in Anthropic, including a $750 million convertible debt due in September. Anthropic's latest Series G funding round valued the company at $380 billion, making Google's stake worth over $50 billion. This investment provides Google a strategic hedge, benefiting from both its own Gemini AI and Anthropic's Claude, while contributing to an 81% increase in Google's overall profit.
+      <title>The Pentagon Pegs the Cost of the Iran War, So Far, at $25 Billion 摘要</title>
+      <link>https://politicalwire.com/2026/04/29/iran-war-has-cost-25-billion-so-far/</link>
+      <description>The Pentagon reports that Trump's Iran war has cost the U.S. at least $25 billion, mainly from munitions. The New York Times compares this to NASA's annual budget, Israel aid, USAID spending, or one year of Obamacare subsidies. The article further contextualizes this by comparing it to tech valuations and investments: OpenAI's $852 billion valuation equals 34 Iran wars, Anthropic's $380 billion equals 15, Apple's $500 billion manufacturing commitment equals 20, Google's $91-93 billion annual AI capex equals over 3, and Larry Ellison's $220 billion net worth equals nearly 9, with his $46 billion war-time gain equaling about 2 Iran wars.
 
-标签: Google, Anthropic, AI, investment, antitrust, startup, funding, convertible debt, valuation, Stratechery</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2025/03/11/technology/google-investment-anthropic.html?unlocked_article_code=1.f1A.eSTf.D5ECvk6f4DZ7#sha256:8adb576a10555922</guid>
-      <category>Google</category>
-      <category>Anthropic</category>
-      <category>AI</category>
-      <category>investment</category>
-      <category>antitrust</category>
-      <category>startup</category>
-      <category>funding</category>
-      <category>convertible debt</category>
-      <category>valuation</category>
-      <category>Stratechery</category>
-      <pubDate>Tue, 05 May 2026 05:40:32 +0800</pubDate>
-    </item>
-    <item>
-      <title>AI didn't delete your database, you did 摘要</title>
-      <link>https://idiallo.com/blog/ai-didnt-delete-your-database-you-did?src=feed</link>
-      <description>A viral tweet claimed a Cursor/Claude agent deleted a company's production database, sparking debate about AI accountability. The author argues the real issue is having an API endpoint that can delete the entire production database, not the AI itself. He recounts a personal story from 2010 where he accidentally deleted a trunk folder during a manual deployment, leading to automation improvements. He compares AI to manual processes prone to errors, noting that AI lacks true reasoning and is just generating tokens. The solution is to know what you deploy, use AI as a tool for competent developers, and avoid letting non-developers write code.
-
-标签: AI, accountability, software engineering, deployment, automation, vibe coding, production database, mistakes, CI/CD, tooling</description>
-      <guid isPermaLink="false">https://idiallo.com/blog/ai-didnt-delete-your-database-you-did?src=feed#sha256:b2401f09d7184a21</guid>
-      <category>AI</category>
-      <category>accountability</category>
-      <category>software engineering</category>
-      <category>deployment</category>
-      <category>automation</category>
-      <category>vibe coding</category>
-      <category>production database</category>
-      <category>mistakes</category>
-      <category>CI/CD</category>
-      <category>tooling</category>
-      <pubDate>Tue, 05 May 2026 06:25:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>April 2026 newsletter 摘要</title>
-      <link>https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything</link>
-      <description>Simon Willison released the April 2026 edition of his sponsors-only monthly newsletter, accessible to GitHub sponsors. The newsletter covers Opus 4.7 and GPT-5.5 with price increases, Claude Mythos and LLM security research, ChatGPT Images 2.0, more model releases, blog highlights, and his April 2026 setup. A preview of the March newsletter is available. Sponsorship costs $10/month for early access.
-
-标签: newsletter, AI, LLM, GPT, Claude, ChatGPT, security, model releases, sponsors, Simon Willison</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything#sha256:66deab38c7624289</guid>
-      <category>newsletter</category>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>GPT</category>
-      <category>Claude</category>
-      <category>ChatGPT</category>
-      <category>security</category>
-      <category>model releases</category>
-      <category>sponsors</category>
-      <category>Simon Willison</category>
-      <pubDate>Tue, 05 May 2026 06:38:36 +0800</pubDate>
-    </item>
-    <item>
-      <title>★ Y Combinator’s Stake in OpenAI 摘要</title>
-      <link>https://daringfireball.net/2026/05/y_combinators_stake_in_openai</link>
-      <description>John Gruber discusses a potential conflict of interest regarding Paul Graham's defense of Sam Altman. Y Combinator, where Graham is a founding partner, reportedly owns about 0.6% of OpenAI, worth over $5 billion at OpenAI's $852 billion valuation. Gruber argues this financial stake should have been disclosed when Graham was quoted as a character reference for Altman in a New Yorker investigation, as it could bias his opinion on Altman's trustworthiness.
-
-标签: OpenAI, Sam Altman, Y Combinator, Paul Graham, conflict of interest, journalism, ethics, AI, valuation, disclosure</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/05/y_combinators_stake_in_openai#sha256:dc300eedeae0e95b</guid>
+标签: Iran war, Pentagon, cost, $25 billion, comparison, tech valuations, OpenAI, Anthropic, Apple, Google</description>
+      <guid isPermaLink="false">https://politicalwire.com/2026/04/29/iran-war-has-cost-25-billion-so-far/#sha256:ed9de0f1a0f14969</guid>
+      <category>Iran war</category>
+      <category>Pentagon</category>
+      <category>cost</category>
+      <category>$25 billion</category>
+      <category>comparison</category>
+      <category>tech valuations</category>
       <category>OpenAI</category>
-      <category>Sam Altman</category>
-      <category>Y Combinator</category>
-      <category>Paul Graham</category>
-      <category>conflict of interest</category>
-      <category>journalism</category>
-      <category>ethics</category>
-      <category>AI</category>
-      <category>valuation</category>
-      <category>disclosure</category>
-      <pubDate>Tue, 05 May 2026 06:47:01 +0800</pubDate>
+      <category>Anthropic</category>
+      <category>Apple</category>
+      <category>Google</category>
+      <pubDate>Wed, 06 May 2026 05:55:53 +0800</pubDate>
     </item>
     <item>
-      <title>Quoting Andy Masley 摘要</title>
-      <link>https://simonwillison.net/2026/May/4/andy-masley/#atom-everything</link>
-      <description>Andy Masley argues that data center land use concerns are exaggerated. Between 2000 and 2024, farmers voluntarily sold a Colorado-sized area of land (77 times the projected data center land use in 2028) while increasing food production. He highlights the irony of a farmer selling a few acres of mediocre hay field for ten times its agricultural value, triggering claims of farmland loss despite no impact on US food access.
+      <title>Our AI started a cafe in Stockholm 摘要</title>
+      <link>https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything</link>
+      <description>Andon Labs, which previously ran an AI-operated retail store in San Francisco, has launched a similar experiment in Stockholm: an AI-managed café named Mona. The AI made numerous errors, such as ordering 120 eggs without a stove, 22.5 kg of canned tomatoes for fresh sandwiches, and 6,000 napkins. It also submitted a flawed outdoor seating permit application to the police, wasting their time. The author criticizes these experiments for affecting real-world systems and people without consent, drawing parallels to the AI Village incident that annoyed Rob Pike. They argue that human oversight is necessary for outbound actions impacting others.
 
-标签: data centers, land use, agriculture, AI, myths, environment, technology, food production, urban development</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/4/andy-masley/#atom-everything#sha256:9c562c3e6bbde24b</guid>
-      <category>data centers</category>
-      <category>land use</category>
-      <category>agriculture</category>
+标签: AI, AI agents, AI ethics, experiment, cafe, Stockholm, real-world impact, human oversight, automation, controversy</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything#sha256:e5f93375cde51dad</guid>
       <category>AI</category>
-      <category>myths</category>
-      <category>environment</category>
-      <category>technology</category>
-      <category>food production</category>
-      <category>urban development</category>
-      <pubDate>Tue, 05 May 2026 06:51:09 +0800</pubDate>
+      <category>AI agents</category>
+      <category>AI ethics</category>
+      <category>experiment</category>
+      <category>cafe</category>
+      <category>Stockholm</category>
+      <category>real-world impact</category>
+      <category>human oversight</category>
+      <category>automation</category>
+      <category>controversy</category>
+      <pubDate>Wed, 06 May 2026 06:14:21 +0800</pubDate>
     </item>
     <item>
-      <title>Paul Thurrott Might Write a Book on Markdown 摘要</title>
-      <link>https://www.thurrott.com/paul/334577/the-markdown-book-on-writing?utm_source=dlvr.it&amp;utm_medium=mastodon</link>
-      <description>Paul Thurrott is considering writing a short e-book about Markdown, possibly as part of a monthly focus. He has already drafted an introductory chapter tentatively titled 'On writing.' The author reflects on the parallel but seldom intersecting careers of Thurrott and himself, noting that this book project is an unexpected but welcome development, preferable to writing about something Thurrott created in 2004.
+      <title>Changing one character in a PDF 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/05/changing-one-character-in-a-pdf/</link>
+      <description>A post on X claimed that changing a hyphen to an en-dash increases PDF file size by ~10 bytes. The author tested this with LaTeX and LibreOffice, finding that the size change is unpredictable and depends on context. In minimal LaTeX files, the en-dash version was 73 bytes smaller; with added lorem ipsum text, it was 72 bytes larger. LibreOffice tests also showed variable results. PDF internals are complex, and even ASCII character changes can affect size due to compression and control characters.
 
-标签: Markdown, e-book, writing, Paul Thurrott, publishing, technology, blogging, career</description>
-      <guid isPermaLink="false">https://www.thurrott.com/paul/334577/the-markdown-book-on-writing?utm_source=dlvr.it&amp;utm_medium=mastodon#sha256:2527c38218107717</guid>
-      <category>Markdown</category>
-      <category>e-book</category>
-      <category>writing</category>
-      <category>Paul Thurrott</category>
-      <category>publishing</category>
-      <category>technology</category>
-      <category>blogging</category>
-      <category>career</category>
-      <pubDate>Tue, 05 May 2026 06:58:40 +0800</pubDate>
+标签: PDF, file size, typography, LaTeX, LibreOffice, character encoding, experiment, compression</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/05/changing-one-character-in-a-pdf/#sha256:732ec61747a16680</guid>
+      <category>PDF</category>
+      <category>file size</category>
+      <category>typography</category>
+      <category>LaTeX</category>
+      <category>LibreOffice</category>
+      <category>character encoding</category>
+      <category>experiment</category>
+      <category>compression</category>
+      <pubDate>Wed, 06 May 2026 06:45:26 +0800</pubDate>
     </item>
   </channel>
 </rss>
