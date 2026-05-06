@@ -8,100 +8,138 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 06 May 2026 07:25:56 +0800</lastBuildDate>
-    <pubDate>Wed, 06 May 2026 07:25:56 +0800</pubDate>
+    <lastBuildDate>Thu, 07 May 2026 07:26:15 +0800</lastBuildDate>
+    <pubDate>Thu, 07 May 2026 07:26:15 +0800</pubDate>
     <item>
-      <title>Pedometer++ 8.0 摘要</title>
-      <link>https://david-smith.org/blog/2026/04/29/maps-on-watchos/</link>
-      <description>David Smith describes his six-year journey perfecting maps on watchOS, culminating in the launch of Pedometer++ 8. He emphasizes the importance of regular location checks during wilderness adventures and argues that his app now offers the best mapping experience on the Apple Watch. The post highlights his passion for outdoor exploration and the iterative design process behind the app's watchOS mapping features.
+      <title>Unified config files 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/06/unified-config-files/</link>
+      <description>The author describes strategies for maintaining a consistent work environment across different computers and operating systems. Key approaches include remapping keys so that key functionality (e.g., copy, paste) is consistent regardless of OS, using a shared `.bash_aliases` file sourced by OS-specific `.bashrc` files, and employing branching logic in config files based on hostname or OS type (e.g., in Emacs `init.el`). The post emphasizes the long-term benefits of unified configs over ad hoc edits, which can lead to drift.
 
-标签: watchOS, Apple Watch, maps, navigation, outdoor, app development, design, Pedometer++, wilderness, adventure</description>
-      <guid isPermaLink="false">https://david-smith.org/blog/2026/04/29/maps-on-watchos/#sha256:623e208f8d112efd</guid>
-      <category>watchOS</category>
-      <category>Apple Watch</category>
-      <category>maps</category>
-      <category>navigation</category>
-      <category>outdoor</category>
-      <category>app development</category>
-      <category>design</category>
-      <category>Pedometer++</category>
-      <category>wilderness</category>
-      <category>adventure</category>
-      <pubDate>Wed, 06 May 2026 02:12:44 +0800</pubDate>
+标签: productivity, dotfiles, configuration management, cross-platform, bash, emacs, key remapping, workflow, devops, linux</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/06/unified-config-files/#sha256:d5dee19b944cfd3a</guid>
+      <category>productivity</category>
+      <category>dotfiles</category>
+      <category>configuration management</category>
+      <category>cross-platform</category>
+      <category>bash</category>
+      <category>emacs</category>
+      <category>key remapping</category>
+      <category>workflow</category>
+      <category>devops</category>
+      <category>linux</category>
+      <pubDate>Thu, 07 May 2026 00:32:20 +0800</pubDate>
     </item>
     <item>
-      <title>★ Software as the Product of Obsession Times Voice 摘要</title>
-      <link>https://daringfireball.net/2026/05/software_as_the_product_of_obsession_times_voice</link>
-      <description>John Gruber reflects on the bifurcation of software quality, contrasting obsessive independent developers with large companies like Adobe and Apple. He revisits his 2009 talk 'Obsession Times Voice' with Merlin Mann, applying the Walt Disney quote 'We don't make movies to make money; we make money to make more movies' to software. Gruber criticizes Adobe's new Spectrum UI and Apple's macOS 26 Tahoe for disregarding established design principles, while praising indie developers for prioritizing craft. He links this decline to Nilay Patel's 'Software Brain' theory, which sees software purely as data manipulation rather than art or craft.
+      <title>New Logic for Programmers (and the future of this newsletter) 摘要</title>
+      <link>https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/</link>
+      <description>Hillel Wayne announces version 0.14 of 'Logic for Programmers' with layout and editing improvements, aiming for print copies by end of June. He also reveals he will join Antithesis as a developer educator starting August, focusing on making property-based testing and fuzzing accessible. The newsletter will shift away from formal methods toward history and software oddities, and may reduce frequency from weekly to biweekly or monthly. The post concludes with a mathematical observation about monotonicity of 'all' and 'some' quantifiers and temporal logic operators.
 
-标签: software design, UI/UX, Adobe, Apple, macOS, independent developers, software brain, design principles, tech industry, craftsmanship</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/05/software_as_the_product_of_obsession_times_voice#sha256:daaa3ebcf160088e</guid>
-      <category>software design</category>
-      <category>UI/UX</category>
-      <category>Adobe</category>
+标签: logic, programming, book, testing, property-based testing, fuzzing, newsletter, formal methods, temporal logic, career</description>
+      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/#sha256:8fc4db8b9a964842</guid>
+      <category>logic</category>
+      <category>programming</category>
+      <category>book</category>
+      <category>testing</category>
+      <category>property-based testing</category>
+      <category>fuzzing</category>
+      <category>newsletter</category>
+      <category>formal methods</category>
+      <category>temporal logic</category>
+      <category>career</category>
+      <pubDate>Thu, 07 May 2026 01:03:46 +0800</pubDate>
+    </item>
+    <item>
+      <title>Luca Maestri Runs the Cafeteria 摘要</title>
+      <link>https://www.apple.com/leadership/luca-maestri/</link>
+      <description>Apple announced in August 2024 that CFO Luca Maestri would transition from his role on January 1, 2025, with Kevan Parekh succeeding him. Maestri continues as vice president of Corporate Services, overseeing information systems, security, real estate, development, Caffè Macs, and Claris. The article notes the charm of Maestri's oversight of Caffè Macs and interest in Claris.
+
+标签: Apple, executive transition, CFO, Luca Maestri, Kevan Parekh, corporate services, Caffè Macs, Claris, leadership</description>
+      <guid isPermaLink="false">https://www.apple.com/leadership/luca-maestri/#sha256:1f80e8a20f7e84a5</guid>
       <category>Apple</category>
-      <category>macOS</category>
-      <category>independent developers</category>
-      <category>software brain</category>
-      <category>design principles</category>
-      <category>tech industry</category>
-      <category>craftsmanship</category>
-      <pubDate>Wed, 06 May 2026 05:01:05 +0800</pubDate>
+      <category>executive transition</category>
+      <category>CFO</category>
+      <category>Luca Maestri</category>
+      <category>Kevan Parekh</category>
+      <category>corporate services</category>
+      <category>Caffè Macs</category>
+      <category>Claris</category>
+      <category>leadership</category>
+      <pubDate>Thu, 07 May 2026 03:29:08 +0800</pubDate>
     </item>
     <item>
-      <title>The Pentagon Pegs the Cost of the Iran War, So Far, at $25 Billion 摘要</title>
-      <link>https://politicalwire.com/2026/04/29/iran-war-has-cost-25-billion-so-far/</link>
-      <description>The Pentagon reports that Trump's Iran war has cost the U.S. at least $25 billion, mainly from munitions. The New York Times compares this to NASA's annual budget, Israel aid, USAID spending, or one year of Obamacare subsidies. The article further contextualizes this by comparing it to tech valuations and investments: OpenAI's $852 billion valuation equals 34 Iran wars, Anthropic's $380 billion equals 15, Apple's $500 billion manufacturing commitment equals 20, Google's $91-93 billion annual AI capex equals over 3, and Larry Ellison's $220 billion net worth equals nearly 9, with his $46 billion war-time gain equaling about 2 Iran wars.
+      <title>Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding 摘要</title>
+      <link>https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next</link>
+      <description>John Gruber comments on Claris CEO Ryan McCann's blog post about FileMaker's role in the age of AI-generated applications. McCann argues that AI-generated apps face problems of deployment, security, and management, which FileMaker has solved for over 40 years with its unified platform supporting Mac, Windows, iPad, iPhone, and web. Gruber notes the omission of Android. FileMaker 2026 will focus on resiliency, productivity, and infrastructure, including disaster recovery and agentic coding previews later in summer. Gruber admits he rarely hears about FileMaker but acknowledges it remains a significant business.
 
-标签: Iran war, Pentagon, cost, $25 billion, comparison, tech valuations, OpenAI, Anthropic, Apple, Google</description>
-      <guid isPermaLink="false">https://politicalwire.com/2026/04/29/iran-war-has-cost-25-billion-so-far/#sha256:ed9de0f1a0f14969</guid>
-      <category>Iran war</category>
-      <category>Pentagon</category>
-      <category>cost</category>
-      <category>$25 billion</category>
-      <category>comparison</category>
-      <category>tech valuations</category>
-      <category>OpenAI</category>
-      <category>Anthropic</category>
-      <category>Apple</category>
-      <category>Google</category>
-      <pubDate>Wed, 06 May 2026 05:55:53 +0800</pubDate>
+标签: FileMaker, Claris, Ryan McCann, AI-generated applications, cross-platform, agentic coding, disaster recovery, Android omission, John Gruber, Daring Fireball</description>
+      <guid isPermaLink="false">https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next#sha256:664d38b93aad2e09</guid>
+      <category>FileMaker</category>
+      <category>Claris</category>
+      <category>Ryan McCann</category>
+      <category>AI-generated applications</category>
+      <category>cross-platform</category>
+      <category>agentic coding</category>
+      <category>disaster recovery</category>
+      <category>Android omission</category>
+      <category>John Gruber</category>
+      <category>Daring Fireball</category>
+      <pubDate>Thu, 07 May 2026 03:41:36 +0800</pubDate>
     </item>
     <item>
-      <title>Our AI started a cafe in Stockholm 摘要</title>
-      <link>https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything</link>
-      <description>Andon Labs, which previously ran an AI-operated retail store in San Francisco, has launched a similar experiment in Stockholm: an AI-managed café named Mona. The AI made numerous errors, such as ordering 120 eggs without a stove, 22.5 kg of canned tomatoes for fresh sandwiches, and 6,000 napkins. It also submitted a flawed outdoor seating permit application to the police, wasting their time. The author criticizes these experiments for affecting real-world systems and people without consent, drawing parallels to the AI Village incident that annoyed Rob Pike. They argue that human oversight is necessary for outbound actions impacting others.
+      <title>Triangular analog of the squircle 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/06/triangular-analog-of-the-squircle/</link>
+      <description>The article explores a mathematical generalization of the squircle concept to triangles. Inspired by a comment on a guitar pick post, the author defines a function using a Lebesgue norm with three linear functions representing triangle sides. The level set of this function approximates a triangle with rounded corners, where the parameter p controls the sharpness: larger p yields a shape closer to a perfect triangle. This provides a smooth, continuously curved analog of a triangle, similar to how a squircle relates to a square.
 
-标签: AI, AI agents, AI ethics, experiment, cafe, Stockholm, real-world impact, human oversight, automation, controversy</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything#sha256:e5f93375cde51dad</guid>
-      <category>AI</category>
-      <category>AI agents</category>
-      <category>AI ethics</category>
-      <category>experiment</category>
-      <category>cafe</category>
-      <category>Stockholm</category>
-      <category>real-world impact</category>
-      <category>human oversight</category>
-      <category>automation</category>
-      <category>controversy</category>
-      <pubDate>Wed, 06 May 2026 06:14:21 +0800</pubDate>
+标签: mathematics, geometry, squircle, triangle, Lebesgue norm, curvature, level set, rounded corners, analog, John D. Cook</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/06/triangular-analog-of-the-squircle/#sha256:d1026b764e103da9</guid>
+      <category>mathematics</category>
+      <category>geometry</category>
+      <category>squircle</category>
+      <category>triangle</category>
+      <category>Lebesgue norm</category>
+      <category>curvature</category>
+      <category>level set</category>
+      <category>rounded corners</category>
+      <category>analog</category>
+      <category>John D. Cook</category>
+      <pubDate>Thu, 07 May 2026 03:53:29 +0800</pubDate>
     </item>
     <item>
-      <title>Changing one character in a PDF 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/05/changing-one-character-in-a-pdf/</link>
-      <description>A post on X claimed that changing a hyphen to an en-dash increases PDF file size by ~10 bytes. The author tested this with LaTeX and LibreOffice, finding that the size change is unpredictable and depends on context. In minimal LaTeX files, the en-dash version was 73 bytes smaller; with added lorem ipsum text, it was 72 bytes larger. LibreOffice tests also showed variable results. PDF internals are complex, and even ASCII character changes can affect size due to compression and control characters.
+      <title>Broadcast Booths Around Baseball Tip Their Caps to John Sterling 摘要</title>
+      <link>https://www.mlb.com/news/broadcast-booths-around-baseball-mirror-john-sterling-signature-calls</link>
+      <description>John Sterling, the legendary Yankees radio broadcaster, was honored across MLB after his passing. Teams paid tribute during games, with Yankees announcer Michael Kay mimicking Sterling's iconic home run call for Aaron Judge. The Yankees will wear a commemorative patch for the season and played Sterling's post-win call at the stadium. Sterling called 5,426 regular-season and 225 postseason Yankees games, including a streak of 5,060 consecutive games from 1989 to 2019. He called nearly 3% of all MLB games ever played, a testament to his remarkable longevity and distinctive style.
 
-标签: PDF, file size, typography, LaTeX, LibreOffice, character encoding, experiment, compression</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/05/changing-one-character-in-a-pdf/#sha256:732ec61747a16680</guid>
-      <category>PDF</category>
-      <category>file size</category>
-      <category>typography</category>
-      <category>LaTeX</category>
-      <category>LibreOffice</category>
-      <category>character encoding</category>
-      <category>experiment</category>
-      <category>compression</category>
-      <pubDate>Wed, 06 May 2026 06:45:26 +0800</pubDate>
+标签: MLB, Yankees, John Sterling, broadcasting, tribute, baseball, sports, legacy, radio, announcer</description>
+      <guid isPermaLink="false">https://www.mlb.com/news/broadcast-booths-around-baseball-mirror-john-sterling-signature-calls#sha256:5d0af41c098dbefb</guid>
+      <category>MLB</category>
+      <category>Yankees</category>
+      <category>John Sterling</category>
+      <category>broadcasting</category>
+      <category>tribute</category>
+      <category>baseball</category>
+      <category>sports</category>
+      <category>legacy</category>
+      <category>radio</category>
+      <category>announcer</category>
+      <pubDate>Thu, 07 May 2026 04:33:51 +0800</pubDate>
+    </item>
+    <item>
+      <title>SQLAlchemy 2 In Practice - Chapter 7: Asynchronous SQLAlchemy 摘要</title>
+      <link>https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---chapter-7-asynchronous-sqlalchemy</link>
+      <description>This chapter from the SQLAlchemy 2 in Practice book introduces asynchronous programming support in SQLAlchemy 1.4+ using the asyncio package. It covers both Core and ORM modules, enabling developers to use SQLAlchemy in modern async applications like FastAPI. The chapter explains how to set up async engines, sessions, and queries, leveraging Python's async/await syntax for non-blocking database operations.
+
+标签: SQLAlchemy, asyncio, async programming, Python, ORM, database, FastAPI, web development, tutorial</description>
+      <guid isPermaLink="false">https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---chapter-7-asynchronous-sqlalchemy#sha256:52f3062e53e9107c</guid>
+      <category>SQLAlchemy</category>
+      <category>asyncio</category>
+      <category>async programming</category>
+      <category>Python</category>
+      <category>ORM</category>
+      <category>database</category>
+      <category>FastAPI</category>
+      <category>web development</category>
+      <category>tutorial</category>
+      <pubDate>Thu, 07 May 2026 05:49:20 +0800</pubDate>
     </item>
   </channel>
 </rss>
