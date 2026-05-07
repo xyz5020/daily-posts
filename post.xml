@@ -8,138 +8,118 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 07 May 2026 07:26:15 +0800</lastBuildDate>
-    <pubDate>Thu, 07 May 2026 07:26:15 +0800</pubDate>
+    <lastBuildDate>Fri, 08 May 2026 07:25:56 +0800</lastBuildDate>
+    <pubDate>Fri, 08 May 2026 07:25:56 +0800</pubDate>
     <item>
-      <title>Unified config files 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/06/unified-config-files/</link>
-      <description>The author describes strategies for maintaining a consistent work environment across different computers and operating systems. Key approaches include remapping keys so that key functionality (e.g., copy, paste) is consistent regardless of OS, using a shared `.bash_aliases` file sourced by OS-specific `.bashrc` files, and employing branching logic in config files based on hostname or OS type (e.g., in Emacs `init.el`). The post emphasizes the long-term benefits of unified configs over ad hoc edits, which can lead to drift.
+      <title>Notes on the xAI/Anthropic data center deal 摘要</title>
+      <link>https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything</link>
+      <description>Anthropic announced a deal with SpaceX/xAI to use all capacity of the Colossus 1 data center, which has a controversial environmental record involving unpermitted gas turbines linked to increased hospital admissions. Critics, including Andy Masley, condemned the choice. xAI is retaining the larger Colossus 2 for its own work. Separately, xAI issued a two-week deprecation notice for Grok 4.1 Fast and other models, frustrating developers. Elon Musk stated he approved the lease after meeting with Anthropic and reserved the right to reclaim compute if Anthropic's AI harms humanity.
 
-标签: productivity, dotfiles, configuration management, cross-platform, bash, emacs, key remapping, workflow, devops, linux</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/06/unified-config-files/#sha256:d5dee19b944cfd3a</guid>
-      <category>productivity</category>
-      <category>dotfiles</category>
-      <category>configuration management</category>
-      <category>cross-platform</category>
-      <category>bash</category>
-      <category>emacs</category>
-      <category>key remapping</category>
-      <category>workflow</category>
-      <category>devops</category>
-      <category>linux</category>
-      <pubDate>Thu, 07 May 2026 00:32:20 +0800</pubDate>
+标签: Anthropic, xAI, Colossus data center, AI ethics, environmental impact, AI energy usage, Grok deprecation, Elon Musk, data center controversy, AI compute</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything#sha256:23fcf099b70f21b1</guid>
+      <category>Anthropic</category>
+      <category>xAI</category>
+      <category>Colossus data center</category>
+      <category>AI ethics</category>
+      <category>environmental impact</category>
+      <category>AI energy usage</category>
+      <category>Grok deprecation</category>
+      <category>Elon Musk</category>
+      <category>data center controversy</category>
+      <category>AI compute</category>
+      <pubDate>Fri, 08 May 2026 01:09:28 +0800</pubDate>
     </item>
     <item>
-      <title>New Logic for Programmers (and the future of this newsletter) 摘要</title>
-      <link>https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/</link>
-      <description>Hillel Wayne announces version 0.14 of 'Logic for Programmers' with layout and editing improvements, aiming for print copies by end of June. He also reveals he will join Antithesis as a developer educator starting August, focusing on making property-based testing and fuzzing accessible. The newsletter will shift away from formal methods toward history and software oddities, and may reduce frequency from weekly to biweekly or monthly. The post concludes with a mathematical observation about monotonicity of 'all' and 'some' quantifiers and temporal logic operators.
+      <title>Behind the Scenes Hardening Firefox with Claude Mythos Preview 摘要</title>
+      <link>https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything</link>
+      <description>Mozilla used early access to Claude Mythos Preview to harden Firefox security, finding and fixing hundreds of vulnerabilities. Previously, AI-generated bug reports were mostly low-quality noise, but improved models and better harnessing techniques transformed the process. Firefox's defense-in-depth measures blocked many attempts. Mozilla fixed 20-30 security bugs per month in 2025, but in April 2026 that number jumped to 423, including a 20-year-old XSLT bug and a 15-year-old &lt;legend&gt; element bug.
 
-标签: logic, programming, book, testing, property-based testing, fuzzing, newsletter, formal methods, temporal logic, career</description>
-      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/#sha256:8fc4db8b9a964842</guid>
-      <category>logic</category>
-      <category>programming</category>
-      <category>book</category>
-      <category>testing</category>
-      <category>property-based testing</category>
-      <category>fuzzing</category>
-      <category>newsletter</category>
-      <category>formal methods</category>
-      <category>temporal logic</category>
-      <category>career</category>
-      <pubDate>Thu, 07 May 2026 01:03:46 +0800</pubDate>
+标签: firefox, mozilla, security, ai, generative-ai, llms, anthropic, claude, ai-security-research, bug-hunting</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything#sha256:66104a6000eab569</guid>
+      <category>firefox</category>
+      <category>mozilla</category>
+      <category>security</category>
+      <category>ai</category>
+      <category>generative-ai</category>
+      <category>llms</category>
+      <category>anthropic</category>
+      <category>claude</category>
+      <category>ai-security-research</category>
+      <category>bug-hunting</category>
+      <pubDate>Fri, 08 May 2026 01:56:25 +0800</pubDate>
     </item>
     <item>
-      <title>Luca Maestri Runs the Cafeteria 摘要</title>
-      <link>https://www.apple.com/leadership/luca-maestri/</link>
-      <description>Apple announced in August 2024 that CFO Luca Maestri would transition from his role on January 1, 2025, with Kevan Parekh succeeding him. Maestri continues as vice president of Corporate Services, overseeing information systems, security, real estate, development, Caffè Macs, and Claris. The article notes the charm of Maestri's oversight of Caffè Macs and interest in Claris.
+      <title>Smoothed polygons 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/</link>
+      <description>This post explores a method for creating smooth approximations of polygons by multiplying linear functions that define the sides. The key idea is to define functions L_i(x,y) such that each side of the polygon corresponds to L_i=0, then form the product f(x,y)=L_1 L_2 L_3. The level sets f(x,y)=c give straight lines when c=0 and smooth rounded shapes for small c&gt;0. The approach is general and can be applied to any polygon or curved arcs. Examples are given for a triangle, showing level sets for various c values.
 
-标签: Apple, executive transition, CFO, Luca Maestri, Kevan Parekh, corporate services, Caffè Macs, Claris, leadership</description>
-      <guid isPermaLink="false">https://www.apple.com/leadership/luca-maestri/#sha256:1f80e8a20f7e84a5</guid>
-      <category>Apple</category>
-      <category>executive transition</category>
-      <category>CFO</category>
-      <category>Luca Maestri</category>
-      <category>Kevan Parekh</category>
-      <category>corporate services</category>
-      <category>Caffè Macs</category>
-      <category>Claris</category>
-      <category>leadership</category>
-      <pubDate>Thu, 07 May 2026 03:29:08 +0800</pubDate>
-    </item>
-    <item>
-      <title>Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding 摘要</title>
-      <link>https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next</link>
-      <description>John Gruber comments on Claris CEO Ryan McCann's blog post about FileMaker's role in the age of AI-generated applications. McCann argues that AI-generated apps face problems of deployment, security, and management, which FileMaker has solved for over 40 years with its unified platform supporting Mac, Windows, iPad, iPhone, and web. Gruber notes the omission of Android. FileMaker 2026 will focus on resiliency, productivity, and infrastructure, including disaster recovery and agentic coding previews later in summer. Gruber admits he rarely hears about FileMaker but acknowledges it remains a significant business.
-
-标签: FileMaker, Claris, Ryan McCann, AI-generated applications, cross-platform, agentic coding, disaster recovery, Android omission, John Gruber, Daring Fireball</description>
-      <guid isPermaLink="false">https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next#sha256:664d38b93aad2e09</guid>
-      <category>FileMaker</category>
-      <category>Claris</category>
-      <category>Ryan McCann</category>
-      <category>AI-generated applications</category>
-      <category>cross-platform</category>
-      <category>agentic coding</category>
-      <category>disaster recovery</category>
-      <category>Android omission</category>
-      <category>John Gruber</category>
-      <category>Daring Fireball</category>
-      <pubDate>Thu, 07 May 2026 03:41:36 +0800</pubDate>
-    </item>
-    <item>
-      <title>Triangular analog of the squircle 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/06/triangular-analog-of-the-squircle/</link>
-      <description>The article explores a mathematical generalization of the squircle concept to triangles. Inspired by a comment on a guitar pick post, the author defines a function using a Lebesgue norm with three linear functions representing triangle sides. The level set of this function approximates a triangle with rounded corners, where the parameter p controls the sharpness: larger p yields a shape closer to a perfect triangle. This provides a smooth, continuously curved analog of a triangle, similar to how a squircle relates to a square.
-
-标签: mathematics, geometry, squircle, triangle, Lebesgue norm, curvature, level set, rounded corners, analog, John D. Cook</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/06/triangular-analog-of-the-squircle/#sha256:d1026b764e103da9</guid>
+标签: mathematics, geometry, polygons, smoothing, level sets, linear functions, approximation, visualization</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/#sha256:2d676b0c3e8dff53</guid>
       <category>mathematics</category>
       <category>geometry</category>
-      <category>squircle</category>
-      <category>triangle</category>
-      <category>Lebesgue norm</category>
-      <category>curvature</category>
-      <category>level set</category>
-      <category>rounded corners</category>
-      <category>analog</category>
-      <category>John D. Cook</category>
-      <pubDate>Thu, 07 May 2026 03:53:29 +0800</pubDate>
+      <category>polygons</category>
+      <category>smoothing</category>
+      <category>level sets</category>
+      <category>linear functions</category>
+      <category>approximation</category>
+      <category>visualization</category>
+      <pubDate>Fri, 08 May 2026 02:19:24 +0800</pubDate>
     </item>
     <item>
-      <title>Broadcast Booths Around Baseball Tip Their Caps to John Sterling 摘要</title>
-      <link>https://www.mlb.com/news/broadcast-booths-around-baseball-mirror-john-sterling-signature-calls</link>
-      <description>John Sterling, the legendary Yankees radio broadcaster, was honored across MLB after his passing. Teams paid tribute during games, with Yankees announcer Michael Kay mimicking Sterling's iconic home run call for Aaron Judge. The Yankees will wear a commemorative patch for the season and played Sterling's post-win call at the stadium. Sterling called 5,426 regular-season and 225 postseason Yankees games, including a streak of 5,060 consecutive games from 1989 to 2019. He called nearly 3% of all MLB games ever played, a testament to his remarkable longevity and distinctive style.
+      <title>Big Words 摘要</title>
+      <link>https://simonwillison.net/2026/May/7/big-words/#atom-everything</link>
+      <description>Simon Willison created a simple web tool called 'Big Words' that generates text slides from URL query string parameters. The tool was built for his vibe-coded macOS presentations tool, which only accepts URLs. Users can customize text, colors, gradient, font size, and other options via URL parameters or by double-clicking the page to access a settings form. The tool is hosted at tools.simonwillison.net/big-words and supports features like gradient backgrounds, font weight, and drop shadows.
 
-标签: MLB, Yankees, John Sterling, broadcasting, tribute, baseball, sports, legacy, radio, announcer</description>
-      <guid isPermaLink="false">https://www.mlb.com/news/broadcast-booths-around-baseball-mirror-john-sterling-signature-calls#sha256:5d0af41c098dbefb</guid>
-      <category>MLB</category>
-      <category>Yankees</category>
-      <category>John Sterling</category>
-      <category>broadcasting</category>
-      <category>tribute</category>
-      <category>baseball</category>
-      <category>sports</category>
-      <category>legacy</category>
-      <category>radio</category>
-      <category>announcer</category>
-      <pubDate>Thu, 07 May 2026 04:33:51 +0800</pubDate>
+标签: vibe-coding, tools, presentation, web-tool, slide-generator, customization, URL-parameters, gradient, font-styling</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/7/big-words/#atom-everything#sha256:30815e5824f7162d</guid>
+      <category>vibe-coding</category>
+      <category>tools</category>
+      <category>presentation</category>
+      <category>web-tool</category>
+      <category>slide-generator</category>
+      <category>customization</category>
+      <category>URL-parameters</category>
+      <category>gradient</category>
+      <category>font-styling</category>
+      <pubDate>Fri, 08 May 2026 02:47:09 +0800</pubDate>
     </item>
     <item>
-      <title>SQLAlchemy 2 In Practice - Chapter 7: Asynchronous SQLAlchemy 摘要</title>
-      <link>https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---chapter-7-asynchronous-sqlalchemy</link>
-      <description>This chapter from the SQLAlchemy 2 in Practice book introduces asynchronous programming support in SQLAlchemy 1.4+ using the asyncio package. It covers both Core and ORM modules, enabling developers to use SQLAlchemy in modern async applications like FastAPI. The chapter explains how to set up async engines, sessions, and queries, leveraging Python's async/await syntax for non-blocking database operations.
+      <title>llm-gemini 0.31 摘要</title>
+      <link>https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything</link>
+      <description>llm-gemini 0.31 has been released, marking the Gemini 3.1 Flash-Lite model as generally available (no longer a preview). The model was previously previewed in March 2026, and the non-preview version is unchanged. This update is part of Simon Willison's LLM tool ecosystem, enabling access to Google's Gemini models via command line.
 
-标签: SQLAlchemy, asyncio, async programming, Python, ORM, database, FastAPI, web development, tutorial</description>
-      <guid isPermaLink="false">https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---chapter-7-asynchronous-sqlalchemy#sha256:52f3062e53e9107c</guid>
-      <category>SQLAlchemy</category>
-      <category>asyncio</category>
-      <category>async programming</category>
-      <category>Python</category>
-      <category>ORM</category>
-      <category>database</category>
-      <category>FastAPI</category>
-      <category>web development</category>
-      <category>tutorial</category>
-      <pubDate>Thu, 07 May 2026 05:49:20 +0800</pubDate>
+标签: llm-gemini, release, gemini, llm, google, generative-ai, ai, llms, flash-lite, preview</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything#sha256:26329fedd01bcf4c</guid>
+      <category>llm-gemini</category>
+      <category>release</category>
+      <category>gemini</category>
+      <category>llm</category>
+      <category>google</category>
+      <category>generative-ai</category>
+      <category>ai</category>
+      <category>llms</category>
+      <category>flash-lite</category>
+      <category>preview</category>
+      <pubDate>Fri, 08 May 2026 03:57:06 +0800</pubDate>
+    </item>
+    <item>
+      <title>Prolost Watches 1.0 摘要</title>
+      <link>https://prolost.com/blog/prolostwatches</link>
+      <description>Stu Maschwitz launched Prolost Watches, an iPhone app for managing watch collections, as a one-time purchase with no subscription, ads, or server. The app logs daily watch choices, provides wear insights, maps, event resurfacing, and finance tracking. Developer John Gruber beta tested it but found he prefers not to track his watches, similar to his view on sleep tracking. Maschwitz built the app using Bitrig, a native Mac app for creating SwiftUI apps, which sits between easy tools like Lovable and terminal-based Claude Code. Apple previously cracked down on iOS vibe-coding apps, limiting iPhone-based app creation.
+
+标签: iPhone, watch collection, app development, Bitrig, SwiftUI, vibe coding, Apple, privacy, one-time purchase, productivity</description>
+      <guid isPermaLink="false">https://prolost.com/blog/prolostwatches#sha256:a0ad2f6462576c79</guid>
+      <category>iPhone</category>
+      <category>watch collection</category>
+      <category>app development</category>
+      <category>Bitrig</category>
+      <category>SwiftUI</category>
+      <category>vibe coding</category>
+      <category>Apple</category>
+      <category>privacy</category>
+      <category>one-time purchase</category>
+      <category>productivity</category>
+      <pubDate>Fri, 08 May 2026 05:27:27 +0800</pubDate>
     </item>
   </channel>
 </rss>
