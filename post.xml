@@ -8,118 +8,100 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 08 May 2026 07:25:56 +0800</lastBuildDate>
-    <pubDate>Fri, 08 May 2026 07:25:56 +0800</pubDate>
+    <lastBuildDate>Sat, 09 May 2026 07:27:46 +0800</lastBuildDate>
+    <pubDate>Sat, 09 May 2026 07:27:46 +0800</pubDate>
     <item>
-      <title>Notes on the xAI/Anthropic data center deal 摘要</title>
-      <link>https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything</link>
-      <description>Anthropic announced a deal with SpaceX/xAI to use all capacity of the Colossus 1 data center, which has a controversial environmental record involving unpermitted gas turbines linked to increased hospital admissions. Critics, including Andy Masley, condemned the choice. xAI is retaining the larger Colossus 2 for its own work. Separately, xAI issued a two-week deprecation notice for Grok 4.1 Fast and other models, frustrating developers. Elon Musk stated he approved the lease after meeting with Anthropic and reserved the right to reclaim compute if Anthropic's AI harms humanity.
+      <title>This Week on The Analog Antiquarian 摘要</title>
+      <link>https://www.filfre.net/2026/05/this-week-on-the-analog-antiquarian/</link>
+      <description>The author announces a one-week hiatus for spring home-and-garden work, promising to return in two weeks with new content focused on games. The post also references 'Opus 1: The Comedy of Errors' as the main article, though the provided excerpt is brief and primarily serves as a scheduling notice.
 
-标签: Anthropic, xAI, Colossus data center, AI ethics, environmental impact, AI energy usage, Grok deprecation, Elon Musk, data center controversy, AI compute</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything#sha256:23fcf099b70f21b1</guid>
-      <category>Anthropic</category>
-      <category>xAI</category>
-      <category>Colossus data center</category>
-      <category>AI ethics</category>
-      <category>environmental impact</category>
-      <category>AI energy usage</category>
-      <category>Grok deprecation</category>
-      <category>Elon Musk</category>
-      <category>data center controversy</category>
-      <category>AI compute</category>
-      <pubDate>Fri, 08 May 2026 01:09:28 +0800</pubDate>
+标签: blog, hiatus, announcement, games, spring, home, garden, schedule, content</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/05/this-week-on-the-analog-antiquarian/#sha256:fdf49c88f19a92a6</guid>
+      <category>blog</category>
+      <category>hiatus</category>
+      <category>announcement</category>
+      <category>games</category>
+      <category>spring</category>
+      <category>home</category>
+      <category>garden</category>
+      <category>schedule</category>
+      <category>content</category>
+      <pubDate>Sat, 09 May 2026 00:11:33 +0800</pubDate>
     </item>
     <item>
-      <title>Behind the Scenes Hardening Firefox with Claude Mythos Preview 摘要</title>
-      <link>https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything</link>
-      <description>Mozilla used early access to Claude Mythos Preview to harden Firefox security, finding and fixing hundreds of vulnerabilities. Previously, AI-generated bug reports were mostly low-quality noise, but improved models and better harnessing techniques transformed the process. Firefox's defense-in-depth measures blocked many attempts. Mozilla fixed 20-30 security bugs per month in 2025, but in April 2026 that number jumped to 423, including a 20-year-old XSLT bug and a 15-year-old &lt;legend&gt; element bug.
+      <title>David Reich – Why the Bronze Age was an inflection point in human evolution 摘要</title>
+      <link>https://www.dwarkesh.com/p/david-reich-2</link>
+      <description>David Reich and Ali Akbari published a paper overturning the consensus that natural selection has been dormant since the agricultural revolution. By scaling ancient DNA sequencing and developing a new statistical method, they found selection accelerated, especially during the Bronze Age (~3,000 years ago). Over 10,000 years, selection pushed genetic predictors of cognitive performance up by roughly one standard deviation, mostly between 4,000 and 2,000 years ago. Reich also proposed a heretical model: Neanderthals are genetically-swamped modern humans, sharing the same cultural ancestry, differing only by which archaic humans they mixed with.
 
-标签: firefox, mozilla, security, ai, generative-ai, llms, anthropic, claude, ai-security-research, bug-hunting</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything#sha256:66104a6000eab569</guid>
-      <category>firefox</category>
-      <category>mozilla</category>
-      <category>security</category>
+标签: ancient DNA, natural selection, human evolution, Neanderthals, Bronze Age, cognitive performance, genetics, David Reich, archaeology, population genetics</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/david-reich-2#sha256:fcd45d47892006ce</guid>
+      <category>ancient DNA</category>
+      <category>natural selection</category>
+      <category>human evolution</category>
+      <category>Neanderthals</category>
+      <category>Bronze Age</category>
+      <category>cognitive performance</category>
+      <category>genetics</category>
+      <category>David Reich</category>
+      <category>archaeology</category>
+      <category>population genetics</category>
+      <pubDate>Sat, 09 May 2026 00:38:22 +0800</pubDate>
+    </item>
+    <item>
+      <title>George Orwell's review of Russel's Power: A New Social Analysis 摘要</title>
+      <link>https://berthub.eu/articles/posts/orwell-review-bertrand-russells-power/</link>
+      <description>The author recounts rediscovering a George Orwell book review from 1939 that had disappeared from the searchable internet. Originally published in The Adelphi, the review is more than a simple critique, offering broader insights. After searching, the author recovered a copy from the Internet Archive, where both the text and original scanned version are now available. The experience highlights the fragility of digital content and the importance of archival efforts in preserving historical writings.
+
+标签: George Orwell, book review, digital preservation, Internet Archive, The Adelphi, 1939, lost content, archival, literature</description>
+      <guid isPermaLink="false">https://berthub.eu/articles/posts/orwell-review-bertrand-russells-power/#sha256:d90781001a48e8a9</guid>
+      <category>George Orwell</category>
+      <category>book review</category>
+      <category>digital preservation</category>
+      <category>Internet Archive</category>
+      <category>The Adelphi</category>
+      <category>1939</category>
+      <category>lost content</category>
+      <category>archival</category>
+      <category>literature</category>
+      <pubDate>Sat, 09 May 2026 04:35:10 +0800</pubDate>
+    </item>
+    <item>
+      <title>Using Claude Code: The Unreasonable Effectiveness of HTML 摘要</title>
+      <link>https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything</link>
+      <description>Thariq Shihipar from Anthropic's Claude Code team argues that HTML is a superior output format to Markdown when prompting LLMs like Claude, because HTML enables rich features such as SVG diagrams, interactive widgets, and in-page navigation. The author, Simon Willison, reflects on his long-standing preference for Markdown due to token efficiency but now sees the value of HTML for richer explanations. He tests the approach by having GPT-5.5 explain a Linux security exploit (copy.fail) as an interactive HTML page, with good results. The piece encourages experimenting with HTML for ad-hoc prompts to make AI-generated content more engaging and informative.
+
+标签: html, markdown, ai, prompt-engineering, llm, claude-code, security, generative-ai, llms, explainability</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything#sha256:4ab265de22152e4d</guid>
+      <category>html</category>
+      <category>markdown</category>
       <category>ai</category>
-      <category>generative-ai</category>
-      <category>llms</category>
-      <category>anthropic</category>
-      <category>claude</category>
-      <category>ai-security-research</category>
-      <category>bug-hunting</category>
-      <pubDate>Fri, 08 May 2026 01:56:25 +0800</pubDate>
-    </item>
-    <item>
-      <title>Smoothed polygons 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/</link>
-      <description>This post explores a method for creating smooth approximations of polygons by multiplying linear functions that define the sides. The key idea is to define functions L_i(x,y) such that each side of the polygon corresponds to L_i=0, then form the product f(x,y)=L_1 L_2 L_3. The level sets f(x,y)=c give straight lines when c=0 and smooth rounded shapes for small c&gt;0. The approach is general and can be applied to any polygon or curved arcs. Examples are given for a triangle, showing level sets for various c values.
-
-标签: mathematics, geometry, polygons, smoothing, level sets, linear functions, approximation, visualization</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/#sha256:2d676b0c3e8dff53</guid>
-      <category>mathematics</category>
-      <category>geometry</category>
-      <category>polygons</category>
-      <category>smoothing</category>
-      <category>level sets</category>
-      <category>linear functions</category>
-      <category>approximation</category>
-      <category>visualization</category>
-      <pubDate>Fri, 08 May 2026 02:19:24 +0800</pubDate>
-    </item>
-    <item>
-      <title>Big Words 摘要</title>
-      <link>https://simonwillison.net/2026/May/7/big-words/#atom-everything</link>
-      <description>Simon Willison created a simple web tool called 'Big Words' that generates text slides from URL query string parameters. The tool was built for his vibe-coded macOS presentations tool, which only accepts URLs. Users can customize text, colors, gradient, font size, and other options via URL parameters or by double-clicking the page to access a settings form. The tool is hosted at tools.simonwillison.net/big-words and supports features like gradient backgrounds, font weight, and drop shadows.
-
-标签: vibe-coding, tools, presentation, web-tool, slide-generator, customization, URL-parameters, gradient, font-styling</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/7/big-words/#atom-everything#sha256:30815e5824f7162d</guid>
-      <category>vibe-coding</category>
-      <category>tools</category>
-      <category>presentation</category>
-      <category>web-tool</category>
-      <category>slide-generator</category>
-      <category>customization</category>
-      <category>URL-parameters</category>
-      <category>gradient</category>
-      <category>font-styling</category>
-      <pubDate>Fri, 08 May 2026 02:47:09 +0800</pubDate>
-    </item>
-    <item>
-      <title>llm-gemini 0.31 摘要</title>
-      <link>https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything</link>
-      <description>llm-gemini 0.31 has been released, marking the Gemini 3.1 Flash-Lite model as generally available (no longer a preview). The model was previously previewed in March 2026, and the non-preview version is unchanged. This update is part of Simon Willison's LLM tool ecosystem, enabling access to Google's Gemini models via command line.
-
-标签: llm-gemini, release, gemini, llm, google, generative-ai, ai, llms, flash-lite, preview</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything#sha256:26329fedd01bcf4c</guid>
-      <category>llm-gemini</category>
-      <category>release</category>
-      <category>gemini</category>
+      <category>prompt-engineering</category>
       <category>llm</category>
-      <category>google</category>
+      <category>claude-code</category>
+      <category>security</category>
       <category>generative-ai</category>
-      <category>ai</category>
       <category>llms</category>
-      <category>flash-lite</category>
-      <category>preview</category>
-      <pubDate>Fri, 08 May 2026 03:57:06 +0800</pubDate>
+      <category>explainability</category>
+      <pubDate>Sat, 09 May 2026 05:00:11 +0800</pubDate>
     </item>
     <item>
-      <title>Prolost Watches 1.0 摘要</title>
-      <link>https://prolost.com/blog/prolostwatches</link>
-      <description>Stu Maschwitz launched Prolost Watches, an iPhone app for managing watch collections, as a one-time purchase with no subscription, ads, or server. The app logs daily watch choices, provides wear insights, maps, event resurfacing, and finance tracking. Developer John Gruber beta tested it but found he prefers not to track his watches, similar to his view on sleep tracking. Maschwitz built the app using Bitrig, a native Mac app for creating SwiftUI apps, which sits between easy tools like Lovable and terminal-based Claude Code. Apple previously cracked down on iOS vibe-coding apps, limiting iPhone-based app creation.
+      <title>AI makes weak engineers less harmful 摘要</title>
+      <link>https://seangoedecke.com/ai-makes-weak-engineers-less-harmful/</link>
+      <description>Software engineering ability is heavy-tailed, with top engineers vastly outperforming average ones and weak engineers often being net-negative. The author argues that AI coding tools like Claude Code have raised the floor for weak engineers, turning their output from obviously broken to merely flawed but functional. However, some weak engineers become thin wrappers around AI, simply relaying prompts and responses via Slack, which is an improvement for the team but a poor use of salary. Strong engineers do not rely on AI this way, as they have enough taste to catch AI errors. The author predicts a future push to evaluate what value engineers add beyond AI.
 
-标签: iPhone, watch collection, app development, Bitrig, SwiftUI, vibe coding, Apple, privacy, one-time purchase, productivity</description>
-      <guid isPermaLink="false">https://prolost.com/blog/prolostwatches#sha256:a0ad2f6462576c79</guid>
-      <category>iPhone</category>
-      <category>watch collection</category>
-      <category>app development</category>
-      <category>Bitrig</category>
-      <category>SwiftUI</category>
-      <category>vibe coding</category>
-      <category>Apple</category>
-      <category>privacy</category>
-      <category>one-time purchase</category>
+标签: software engineering, AI, LLM, Claude Code, productivity, engineering management, talent distribution, coding agents, workplace dynamics, AI-assisted development</description>
+      <guid isPermaLink="false">https://seangoedecke.com/ai-makes-weak-engineers-less-harmful/#sha256:9194835a9c540dfe</guid>
+      <category>software engineering</category>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>Claude Code</category>
       <category>productivity</category>
-      <pubDate>Fri, 08 May 2026 05:27:27 +0800</pubDate>
+      <category>engineering management</category>
+      <category>talent distribution</category>
+      <category>coding agents</category>
+      <category>workplace dynamics</category>
+      <category>AI-assisted development</category>
+      <pubDate>Sat, 09 May 2026 08:00:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
