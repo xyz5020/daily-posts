@@ -8,26 +8,45 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 10 May 2026 07:24:05 +0800</lastBuildDate>
-    <pubDate>Sun, 10 May 2026 07:24:05 +0800</pubDate>
+    <lastBuildDate>Mon, 11 May 2026 07:25:10 +0800</lastBuildDate>
+    <pubDate>Mon, 11 May 2026 07:25:10 +0800</pubDate>
     <item>
-      <title>Using a Python 3 LSP server with Python 2 code works (more or less) 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/python/Python2WithPython3LSP</link>
-      <description>The author describes using Python 3 LSP servers (pylsp and ruff) to edit Python 2 code in GNU Emacs, finding it surprisingly functional. Despite Python 2 syntax differences like print statements and mixed tabs/spaces indentation, the LSP servers mostly work without excessive false errors, correctly identifying real issues like misspelled variables. Features like go-to-definition and find references function adequately. The author maintains Python 2 code for legacy work systems where migration to Python 3 is risky, and prefers using a superintelligent editor for such tasks.
+      <title>Reverse engineering Mersenne Twister with Linear Algebra 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/10/reverse-mersenne-twister/</link>
+      <description>The Mersenne Twister (MT) is a PRNG with good statistical properties but not cryptographically secure. Its internal state consists of 640 32-bit numbers. The first output is a tempered version of the first state element, and tempering is reversible via linear algebra over GF(2). By representing each bitwise operation as a matrix multiplication, the tempering matrix M can be constructed and inverted. Recovering the full internal state from 640 outputs allows predicting all future outputs. The post demonstrates this using Python and the galois library for GF(2) matrix inversion.
 
-标签: Python, Python 2, LSP, Emacs, code editing, legacy code, pylsp, ruff, programming tools, migration</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/python/Python2WithPython3LSP#sha256:bf9f968862c41896</guid>
+标签: Mersenne Twister, PRNG, linear algebra, GF(2), tempering, cryptography, random number generation, reverse engineering, bit manipulation, Python</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/10/reverse-mersenne-twister/#sha256:69c23401dd3e19b9</guid>
+      <category>Mersenne Twister</category>
+      <category>PRNG</category>
+      <category>linear algebra</category>
+      <category>GF(2)</category>
+      <category>tempering</category>
+      <category>cryptography</category>
+      <category>random number generation</category>
+      <category>reverse engineering</category>
+      <category>bit manipulation</category>
       <category>Python</category>
-      <category>Python 2</category>
-      <category>LSP</category>
-      <category>Emacs</category>
-      <category>code editing</category>
-      <category>legacy code</category>
-      <category>pylsp</category>
-      <category>ruff</category>
-      <category>programming tools</category>
-      <category>migration</category>
-      <pubDate>Sun, 10 May 2026 05:57:35 +0800</pubDate>
+      <pubDate>Mon, 11 May 2026 01:32:02 +0800</pubDate>
+    </item>
+    <item>
+      <title>The linear algebra of bit twiddling 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/</link>
+      <description>This article explores the linear algebra behind bitwise operations used in the Mersenne Twister tempering process, treating bit manipulations as matrix operations over GF(2) (where XOR is addition and AND is multiplication). It shows that left/right shifts correspond to triangular matrices, and XOR with a shifted value yields an invertible upper/lower triangular matrix with ones on the diagonal. Bitwise AND with a mask corresponds to a diagonal matrix. The tempering steps are invertible because each combines a triangular matrix with the identity, ensuring the overall transformation is invertible.
+
+标签: linear algebra, Mersenne Twister, bit manipulation, GF(2), matrix representation, XOR, AND, invertible, tempering, cryptography</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/#sha256:43817481c974009d</guid>
+      <category>linear algebra</category>
+      <category>Mersenne Twister</category>
+      <category>bit manipulation</category>
+      <category>GF(2)</category>
+      <category>matrix representation</category>
+      <category>XOR</category>
+      <category>AND</category>
+      <category>invertible</category>
+      <category>tempering</category>
+      <category>cryptography</category>
+      <pubDate>Mon, 11 May 2026 02:51:40 +0800</pubDate>
     </item>
   </channel>
 </rss>
