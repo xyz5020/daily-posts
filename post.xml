@@ -8,45 +8,151 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 11 May 2026 07:25:10 +0800</lastBuildDate>
-    <pubDate>Mon, 11 May 2026 07:25:10 +0800</pubDate>
+    <lastBuildDate>Tue, 12 May 2026 07:26:59 +0800</lastBuildDate>
+    <pubDate>Tue, 12 May 2026 07:26:59 +0800</pubDate>
     <item>
-      <title>Reverse engineering Mersenne Twister with Linear Algebra 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/10/reverse-mersenne-twister/</link>
-      <description>The Mersenne Twister (MT) is a PRNG with good statistical properties but not cryptographically secure. Its internal state consists of 640 32-bit numbers. The first output is a tempered version of the first state element, and tempering is reversible via linear algebra over GF(2). By representing each bitwise operation as a matrix multiplication, the tempering matrix M can be constructed and inverted. Recovering the full internal state from 640 outputs allows predicting all future outputs. The post demonstrates this using Python and the galois library for GF(2) matrix inversion.
+      <title>Tahoe’s UI Issues Have Nothing to Do With Display Technology, and Maybe, Just Maybe, We Should Stop Assuming Gurman Knows Anything About Apple’s Vision Hardware Roadmap 摘要</title>
+      <link>https://www.bloomberg.com/news/newsletters/2026-05-10/apple-plans-macos-27-design-changes-latest-on-ios-27-visionos-safari-wwdc-26-mozuaz9m?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODQyMTgwOSwiZXhwIjoxNzc5MDI2NjA5LCJhcnRpY2xlSWQiOiJURVRRVzFLR0NURkwwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPDmd_jJhdzOBKvj1AUZTernGpGdF1zR9kGgFIF-9Hw&amp;leadSource=uverify%20wall</link>
+      <description>Mark Gurman claims MacOS 26 Tahoe's UI issues stem from LCD displays not rendering Liquid Glass effects as well as OLED. The author refutes this, arguing that a bad UI is independent of display technology, noting that Sidecar with iPad Pro OLED doesn't help, and iOS 26 looks fine on non-OLED devices. They criticize Gurman's Vision Pro predictions, pointing out his incorrect claims about M5 model cancellation and timeline, suggesting his sources are unreliable.
 
-标签: Mersenne Twister, PRNG, linear algebra, GF(2), tempering, cryptography, random number generation, reverse engineering, bit manipulation, Python</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/10/reverse-mersenne-twister/#sha256:69c23401dd3e19b9</guid>
-      <category>Mersenne Twister</category>
-      <category>PRNG</category>
-      <category>linear algebra</category>
-      <category>GF(2)</category>
-      <category>tempering</category>
-      <category>cryptography</category>
-      <category>random number generation</category>
-      <category>reverse engineering</category>
-      <category>bit manipulation</category>
-      <category>Python</category>
-      <pubDate>Mon, 11 May 2026 01:32:02 +0800</pubDate>
+标签: Apple, MacOS, UI/UX, Display Technology, OLED, LCD, Vision Pro, Mark Gurman, Bloomberg, Tech Criticism</description>
+      <guid isPermaLink="false">https://www.bloomberg.com/news/newsletters/2026-05-10/apple-plans-macos-27-design-changes-latest-on-ios-27-visionos-safari-wwdc-26-mozuaz9m?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODQyMTgwOSwiZXhwIjoxNzc5MDI2NjA5LCJhcnRpY2xlSWQiOiJURVRRVzFLR0NURkwwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPDmd_jJhdzOBKvj1AUZTernGpGdF1zR9kGgFIF-9Hw&amp;leadSource=uverify%20wall#sha256:42bd725654de0945</guid>
+      <category>Apple</category>
+      <category>MacOS</category>
+      <category>UI/UX</category>
+      <category>Display Technology</category>
+      <category>OLED</category>
+      <category>LCD</category>
+      <category>Vision Pro</category>
+      <category>Mark Gurman</category>
+      <category>Bloomberg</category>
+      <category>Tech Criticism</category>
+      <pubDate>Tue, 12 May 2026 01:55:47 +0800</pubDate>
     </item>
     <item>
-      <title>The linear algebra of bit twiddling 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/</link>
-      <description>This article explores the linear algebra behind bitwise operations used in the Mersenne Twister tempering process, treating bit manipulations as matrix operations over GF(2) (where XOR is addition and AND is multiplication). It shows that left/right shifts correspond to triangular matrices, and XOR with a shifted value yields an invertible upper/lower triangular matrix with ones on the diagonal. Bitwise AND with a mask corresponds to a diagonal matrix. The tempering steps are invertible because each combines a triangular matrix with the identity, ensuring the overall transformation is invertible.
+      <title>The New PowerMac 摘要</title>
+      <link>https://www.kraftheinz.com/kraft-mac-and-cheese/products/00021000086856-power-mac-original-flavor-mac-cheese-macaroni-and-cheese-dinner</link>
+      <description>Apple discontinued the Power Mac G5 in 2006, making it unlikely they would object to Kraft's use of 'PowerMac' as a trademark for protein-enhanced macaroni and cheese. The author notes a potential joke about a 'cheese grater' design, referencing the iconic Mac Pro case.
 
-标签: linear algebra, Mersenne Twister, bit manipulation, GF(2), matrix representation, XOR, AND, invertible, tempering, cryptography</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/#sha256:43817481c974009d</guid>
-      <category>linear algebra</category>
-      <category>Mersenne Twister</category>
-      <category>bit manipulation</category>
-      <category>GF(2)</category>
-      <category>matrix representation</category>
-      <category>XOR</category>
-      <category>AND</category>
-      <category>invertible</category>
-      <category>tempering</category>
-      <category>cryptography</category>
-      <pubDate>Mon, 11 May 2026 02:51:40 +0800</pubDate>
+标签: Apple, Power Mac G5, Kraft, trademark, macaroni and cheese, cheese grater, humor, tech history</description>
+      <guid isPermaLink="false">https://www.kraftheinz.com/kraft-mac-and-cheese/products/00021000086856-power-mac-original-flavor-mac-cheese-macaroni-and-cheese-dinner#sha256:66523aedee48fea5</guid>
+      <category>Apple</category>
+      <category>Power Mac G5</category>
+      <category>Kraft</category>
+      <category>trademark</category>
+      <category>macaroni and cheese</category>
+      <category>cheese grater</category>
+      <category>humor</category>
+      <category>tech history</category>
+      <pubDate>Tue, 12 May 2026 02:32:03 +0800</pubDate>
+    </item>
+    <item>
+      <title>Using LLM in the shebang line of a script 摘要</title>
+      <link>https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything</link>
+      <description>Simon Willison explores using LLM (a command-line tool) in shebang lines of scripts. By adding `#!/usr/bin/env -S llm -f`, a text file can be executed as a script that sends its content to an LLM. The approach supports fragments, tool calls via `-T`, and YAML templates with custom Python functions. Examples include generating SVGs, writing haikus with current time, and performing arithmetic via tool calls. The technique enables treating plain text files as executable LLM prompts.
+
+标签: LLM, shebang, command-line, AI, tools, scripting, generative-ai, Python, YAML</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything#sha256:b05ea5a70b111cb8</guid>
+      <category>LLM</category>
+      <category>shebang</category>
+      <category>command-line</category>
+      <category>AI</category>
+      <category>tools</category>
+      <category>scripting</category>
+      <category>generative-ai</category>
+      <category>Python</category>
+      <category>YAML</category>
+      <pubDate>Tue, 12 May 2026 02:48:57 +0800</pubDate>
+    </item>
+    <item>
+      <title>Your AI Use Is Breaking My Brain 摘要</title>
+      <link>https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything</link>
+      <description>Jason Koebler's article criticizes the pervasive use of AI in online writing, calling it a 'Zombie Internet' where AI-generated content blends with human writing, making it mentally exhausting to filter. He distinguishes this from the 'Dead Internet' theory, noting that it's not just bots talking to bots, but people interacting with AI agents, AI-assisted humans, and spammy automated accounts. The piece highlights how AI distorts human writing styles and creates a confusing, low-quality online environment driven by profit motives.
+
+标签: AI, generative AI, LLMs, AI ethics, slop, Zombie Internet, online content, Jason Koebler, definitions</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything#sha256:bd113822b361e6af</guid>
+      <category>AI</category>
+      <category>generative AI</category>
+      <category>LLMs</category>
+      <category>AI ethics</category>
+      <category>slop</category>
+      <category>Zombie Internet</category>
+      <category>online content</category>
+      <category>Jason Koebler</category>
+      <category>definitions</category>
+      <pubDate>Tue, 12 May 2026 03:21:27 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting James Shore 摘要</title>
+      <link>https://simonwillison.net/2026/May/11/james-shore/#atom-everything</link>
+      <description>James Shore argues that AI coding agents must reduce maintenance costs proportionally to the speed gains they provide. If an AI doubles coding speed but maintenance costs remain the same, total costs still double. To avoid long-term debt, the AI must cut maintenance costs by the inverse factor of productivity increase. Otherwise, developers trade a temporary speed boost for permanent indenture.
+
+标签: AI, coding-agents, ai-assisted-programming, generative-ai, agentic-engineering, LLMs, software-maintenance, productivity, technical-debt</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/11/james-shore/#atom-everything#sha256:edad3cfe88629bee</guid>
+      <category>AI</category>
+      <category>coding-agents</category>
+      <category>ai-assisted-programming</category>
+      <category>generative-ai</category>
+      <category>agentic-engineering</category>
+      <category>LLMs</category>
+      <category>software-maintenance</category>
+      <category>productivity</category>
+      <category>technical-debt</category>
+      <pubDate>Tue, 12 May 2026 03:48:32 +0800</pubDate>
+    </item>
+    <item>
+      <title>iPhone Models Ranked 1st, 2nd, 3rd, and 6th in Counterpoint’s List of 10 Bestselling Phones Worldwide in Q1 2026 摘要</title>
+      <link>https://appleworld.today/2026/05/apples-iphone-17-was-the-worlds-best-selling-smartphone-in-quarter-one-of-2026/</link>
+      <description>According to Counterpoint's Q1 2026 data, Apple's iPhone 17, iPhone 17 Pro Max, and iPhone 17 Pro ranked as the top three bestselling smartphones globally. Samsung secured five spots (4th, 5th, 7th, 8th, 9th), while Xiaomi Redmi A5 took 10th. The iPhone 16 also made the list at 6th place, but the iPhone Air did not appear. The data should be interpreted cautiously.
+
+标签: Apple, iPhone, Samsung, Xiaomi, smartphone sales, Counterpoint, Q1 2026, bestselling phones, mobile market</description>
+      <guid isPermaLink="false">https://appleworld.today/2026/05/apples-iphone-17-was-the-worlds-best-selling-smartphone-in-quarter-one-of-2026/#sha256:e2673c68bdaf210b</guid>
+      <category>Apple</category>
+      <category>iPhone</category>
+      <category>Samsung</category>
+      <category>Xiaomi</category>
+      <category>smartphone sales</category>
+      <category>Counterpoint</category>
+      <category>Q1 2026</category>
+      <category>bestselling phones</category>
+      <category>mobile market</category>
+      <pubDate>Tue, 12 May 2026 04:48:05 +0800</pubDate>
+    </item>
+    <item>
+      <title>Welcoming the Bangladesh Government to Have I Been Pwned 摘要</title>
+      <link>https://www.troyhunt.com/welcoming-the-bangladesh-government-to-have-i-been-pwned/</link>
+      <description>Have I Been Pwned (HIBP) has onboarded the Bangladesh government as its 43rd national government partner. The BGD e-GOV CIRT department now has API access to query all government domains and monitor them against future data breaches. This allows Bangladesh to identify exposed government email addresses and respond quickly to new incidents, joining a growing list of nations using HIBP to protect public sector digital assets.
+
+标签: security, data breach, government, Bangladesh, HIBP, cybersecurity, API, monitoring</description>
+      <guid isPermaLink="false">https://www.troyhunt.com/welcoming-the-bangladesh-government-to-have-i-been-pwned/#sha256:26a38c80f0304893</guid>
+      <category>security</category>
+      <category>data breach</category>
+      <category>government</category>
+      <category>Bangladesh</category>
+      <category>HIBP</category>
+      <category>cybersecurity</category>
+      <category>API</category>
+      <category>monitoring</category>
+      <pubDate>Tue, 12 May 2026 06:27:32 +0800</pubDate>
+    </item>
+    <item>
+      <title>iOS 26.5 Includes Beta Support for End-to-End Encrypted RCS Messaging 摘要</title>
+      <link>https://www.apple.com/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/</link>
+      <description>Apple and Google have launched beta support for end-to-end encrypted RCS messaging, starting with iOS 26.5 and the latest Google Messages. Encryption is on by default and indicated by a lock icon, but it depends on carrier and device support for both parties. Group chats are only encrypted if all members meet the requirements. Unlike iMessage, which has always been fully E2EE, RCS encryption requires manual verification via metadata. The feature is the main addition in iOS 26.5 aside from bug fixes.
+
+标签: Apple, iOS, RCS, encryption, messaging, privacy, security, Google, Android, technology</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/#sha256:cb2d5d53134e90ea</guid>
+      <category>Apple</category>
+      <category>iOS</category>
+      <category>RCS</category>
+      <category>encryption</category>
+      <category>messaging</category>
+      <category>privacy</category>
+      <category>security</category>
+      <category>Google</category>
+      <category>Android</category>
+      <category>technology</category>
+      <pubDate>Tue, 12 May 2026 06:57:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
