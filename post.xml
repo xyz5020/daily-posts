@@ -8,151 +8,233 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 12 May 2026 07:26:59 +0800</lastBuildDate>
-    <pubDate>Tue, 12 May 2026 07:26:59 +0800</pubDate>
+    <lastBuildDate>Wed, 13 May 2026 07:31:17 +0800</lastBuildDate>
+    <pubDate>Wed, 13 May 2026 07:31:17 +0800</pubDate>
     <item>
-      <title>Tahoe’s UI Issues Have Nothing to Do With Display Technology, and Maybe, Just Maybe, We Should Stop Assuming Gurman Knows Anything About Apple’s Vision Hardware Roadmap 摘要</title>
-      <link>https://www.bloomberg.com/news/newsletters/2026-05-10/apple-plans-macos-27-design-changes-latest-on-ios-27-visionos-safari-wwdc-26-mozuaz9m?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODQyMTgwOSwiZXhwIjoxNzc5MDI2NjA5LCJhcnRpY2xlSWQiOiJURVRRVzFLR0NURkwwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPDmd_jJhdzOBKvj1AUZTernGpGdF1zR9kGgFIF-9Hw&amp;leadSource=uverify%20wall</link>
-      <description>Mark Gurman claims MacOS 26 Tahoe's UI issues stem from LCD displays not rendering Liquid Glass effects as well as OLED. The author refutes this, arguing that a bad UI is independent of display technology, noting that Sidecar with iPad Pro OLED doesn't help, and iOS 26 looks fine on non-OLED devices. They criticize Gurman's Vision Pro predictions, pointing out his incorrect claims about M5 model cancellation and timeline, suggesting his sources are unreliable.
+      <title>Where Are All The Data Centers? 摘要</title>
+      <link>https://www.wheresyoured.at/where-are-all-the-data-centers/</link>
+      <description>The article critiques the AI bubble by drawing parallels to the crypto bubble, arguing that claims of massive data center construction are exaggerated. It questions the actual amount of data center capacity coming online, noting that gigawatt-scale projects are often announced but rarely completed. The author highlights the difficulty of finding reliable data on operational data centers, citing examples like Anthropic's use of xAI's Colossus-1 and stalled projects like Nscale's Loughton facility. The piece emphasizes that despite $800 billion in capex by tech giants, no 1GW data center has been built yet, and many projects remain in early construction phases.
 
-标签: Apple, MacOS, UI/UX, Display Technology, OLED, LCD, Vision Pro, Mark Gurman, Bloomberg, Tech Criticism</description>
-      <guid isPermaLink="false">https://www.bloomberg.com/news/newsletters/2026-05-10/apple-plans-macos-27-design-changes-latest-on-ios-27-visionos-safari-wwdc-26-mozuaz9m?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc3ODQyMTgwOSwiZXhwIjoxNzc5MDI2NjA5LCJhcnRpY2xlSWQiOiJURVRRVzFLR0NURkwwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.VPDmd_jJhdzOBKvj1AUZTernGpGdF1zR9kGgFIF-9Hw&amp;leadSource=uverify%20wall#sha256:42bd725654de0945</guid>
-      <category>Apple</category>
-      <category>MacOS</category>
-      <category>UI/UX</category>
-      <category>Display Technology</category>
-      <category>OLED</category>
-      <category>LCD</category>
-      <category>Vision Pro</category>
-      <category>Mark Gurman</category>
-      <category>Bloomberg</category>
-      <category>Tech Criticism</category>
-      <pubDate>Tue, 12 May 2026 01:55:47 +0800</pubDate>
-    </item>
-    <item>
-      <title>The New PowerMac 摘要</title>
-      <link>https://www.kraftheinz.com/kraft-mac-and-cheese/products/00021000086856-power-mac-original-flavor-mac-cheese-macaroni-and-cheese-dinner</link>
-      <description>Apple discontinued the Power Mac G5 in 2006, making it unlikely they would object to Kraft's use of 'PowerMac' as a trademark for protein-enhanced macaroni and cheese. The author notes a potential joke about a 'cheese grater' design, referencing the iconic Mac Pro case.
-
-标签: Apple, Power Mac G5, Kraft, trademark, macaroni and cheese, cheese grater, humor, tech history</description>
-      <guid isPermaLink="false">https://www.kraftheinz.com/kraft-mac-and-cheese/products/00021000086856-power-mac-original-flavor-mac-cheese-macaroni-and-cheese-dinner#sha256:66523aedee48fea5</guid>
-      <category>Apple</category>
-      <category>Power Mac G5</category>
-      <category>Kraft</category>
-      <category>trademark</category>
-      <category>macaroni and cheese</category>
-      <category>cheese grater</category>
-      <category>humor</category>
-      <category>tech history</category>
-      <pubDate>Tue, 12 May 2026 02:32:03 +0800</pubDate>
-    </item>
-    <item>
-      <title>Using LLM in the shebang line of a script 摘要</title>
-      <link>https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything</link>
-      <description>Simon Willison explores using LLM (a command-line tool) in shebang lines of scripts. By adding `#!/usr/bin/env -S llm -f`, a text file can be executed as a script that sends its content to an LLM. The approach supports fragments, tool calls via `-T`, and YAML templates with custom Python functions. Examples include generating SVGs, writing haikus with current time, and performing arithmetic via tool calls. The technique enables treating plain text files as executable LLM prompts.
-
-标签: LLM, shebang, command-line, AI, tools, scripting, generative-ai, Python, YAML</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything#sha256:b05ea5a70b111cb8</guid>
-      <category>LLM</category>
-      <category>shebang</category>
-      <category>command-line</category>
+标签: AI, data centers, bubble, tech industry, infrastructure, capex, hyperscalers, construction, critique, investment</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/where-are-all-the-data-centers/#sha256:c44d79c75465019d</guid>
       <category>AI</category>
-      <category>tools</category>
-      <category>scripting</category>
+      <category>data centers</category>
+      <category>bubble</category>
+      <category>tech industry</category>
+      <category>infrastructure</category>
+      <category>capex</category>
+      <category>hyperscalers</category>
+      <category>construction</category>
+      <category>critique</category>
+      <category>investment</category>
+      <pubDate>Wed, 13 May 2026 00:17:30 +0800</pubDate>
+    </item>
+    <item>
+      <title>llm 0.32a2 摘要</title>
+      <link>https://simonwillison.net/2026/May/12/llm/#atom-everything</link>
+      <description>LLM 0.32a2 alpha release switches most reasoning-capable OpenAI models to the /v1/responses endpoint, enabling interleaved reasoning across tool calls for GPT-5 class models. Users can now view summarized reasoning tokens in a different color, with options to hide them via -R or --hide-reasoning flags.
+
+标签: llm, openai, generative-ai, ai, llms, release, reasoning, tool-calling, alpha, projects</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/12/llm/#atom-everything#sha256:f49606d03c29de69</guid>
+      <category>llm</category>
+      <category>openai</category>
       <category>generative-ai</category>
-      <category>Python</category>
-      <category>YAML</category>
-      <pubDate>Tue, 12 May 2026 02:48:57 +0800</pubDate>
+      <category>ai</category>
+      <category>llms</category>
+      <category>release</category>
+      <category>reasoning</category>
+      <category>tool-calling</category>
+      <category>alpha</category>
+      <category>projects</category>
+      <pubDate>Wed, 13 May 2026 01:45:07 +0800</pubDate>
     </item>
     <item>
-      <title>Your AI Use Is Breaking My Brain 摘要</title>
-      <link>https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything</link>
-      <description>Jason Koebler's article criticizes the pervasive use of AI in online writing, calling it a 'Zombie Internet' where AI-generated content blends with human writing, making it mentally exhausting to filter. He distinguishes this from the 'Dead Internet' theory, noting that it's not just bots talking to bots, but people interacting with AI agents, AI-assisted humans, and spammy automated accounts. The piece highlights how AI distorts human writing styles and creates a confusing, low-quality online environment driven by profit motives.
+      <title>New DMA Compliance Features for EU Users in iOS 26.5 (and Perhaps the EU Has Finally Come to Their Senses on Tech Regulation) 摘要</title>
+      <link>https://www.macrumors.com/2026/05/11/ios-26-5-eu-third-party-wearable-changes/</link>
+      <description>Apple is introducing new DMA compliance features in iOS 26.5 for EU users, allowing third-party wearables like earbuds and smartwatches to access features previously limited to Apple Watch and AirPods, including proximity pairing, iPhone notifications, and Live Activities. The author notes that while the EU has not rescinded existing requirements, competition chief Teresa Ribera has de-escalated enforcement, with no new investigations or fines in over a year. The changes stem from investigations initiated under predecessor Margrethe Vestager.
 
-标签: AI, generative AI, LLMs, AI ethics, slop, Zombie Internet, online content, Jason Koebler, definitions</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything#sha256:bd113822b361e6af</guid>
-      <category>AI</category>
-      <category>generative AI</category>
-      <category>LLMs</category>
-      <category>AI ethics</category>
-      <category>slop</category>
-      <category>Zombie Internet</category>
-      <category>online content</category>
-      <category>Jason Koebler</category>
-      <category>definitions</category>
-      <pubDate>Tue, 12 May 2026 03:21:27 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting James Shore 摘要</title>
-      <link>https://simonwillison.net/2026/May/11/james-shore/#atom-everything</link>
-      <description>James Shore argues that AI coding agents must reduce maintenance costs proportionally to the speed gains they provide. If an AI doubles coding speed but maintenance costs remain the same, total costs still double. To avoid long-term debt, the AI must cut maintenance costs by the inverse factor of productivity increase. Otherwise, developers trade a temporary speed boost for permanent indenture.
-
-标签: AI, coding-agents, ai-assisted-programming, generative-ai, agentic-engineering, LLMs, software-maintenance, productivity, technical-debt</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/11/james-shore/#atom-everything#sha256:edad3cfe88629bee</guid>
-      <category>AI</category>
-      <category>coding-agents</category>
-      <category>ai-assisted-programming</category>
-      <category>generative-ai</category>
-      <category>agentic-engineering</category>
-      <category>LLMs</category>
-      <category>software-maintenance</category>
-      <category>productivity</category>
-      <category>technical-debt</category>
-      <pubDate>Tue, 12 May 2026 03:48:32 +0800</pubDate>
-    </item>
-    <item>
-      <title>iPhone Models Ranked 1st, 2nd, 3rd, and 6th in Counterpoint’s List of 10 Bestselling Phones Worldwide in Q1 2026 摘要</title>
-      <link>https://appleworld.today/2026/05/apples-iphone-17-was-the-worlds-best-selling-smartphone-in-quarter-one-of-2026/</link>
-      <description>According to Counterpoint's Q1 2026 data, Apple's iPhone 17, iPhone 17 Pro Max, and iPhone 17 Pro ranked as the top three bestselling smartphones globally. Samsung secured five spots (4th, 5th, 7th, 8th, 9th), while Xiaomi Redmi A5 took 10th. The iPhone 16 also made the list at 6th place, but the iPhone Air did not appear. The data should be interpreted cautiously.
-
-标签: Apple, iPhone, Samsung, Xiaomi, smartphone sales, Counterpoint, Q1 2026, bestselling phones, mobile market</description>
-      <guid isPermaLink="false">https://appleworld.today/2026/05/apples-iphone-17-was-the-worlds-best-selling-smartphone-in-quarter-one-of-2026/#sha256:e2673c68bdaf210b</guid>
+标签: Apple, EU, DMA, iOS, wearables, regulation, interoperability, privacy, tech policy, competition</description>
+      <guid isPermaLink="false">https://www.macrumors.com/2026/05/11/ios-26-5-eu-third-party-wearable-changes/#sha256:7478f6fe918fcc4e</guid>
       <category>Apple</category>
-      <category>iPhone</category>
-      <category>Samsung</category>
-      <category>Xiaomi</category>
-      <category>smartphone sales</category>
-      <category>Counterpoint</category>
-      <category>Q1 2026</category>
-      <category>bestselling phones</category>
-      <category>mobile market</category>
-      <pubDate>Tue, 12 May 2026 04:48:05 +0800</pubDate>
-    </item>
-    <item>
-      <title>Welcoming the Bangladesh Government to Have I Been Pwned 摘要</title>
-      <link>https://www.troyhunt.com/welcoming-the-bangladesh-government-to-have-i-been-pwned/</link>
-      <description>Have I Been Pwned (HIBP) has onboarded the Bangladesh government as its 43rd national government partner. The BGD e-GOV CIRT department now has API access to query all government domains and monitor them against future data breaches. This allows Bangladesh to identify exposed government email addresses and respond quickly to new incidents, joining a growing list of nations using HIBP to protect public sector digital assets.
-
-标签: security, data breach, government, Bangladesh, HIBP, cybersecurity, API, monitoring</description>
-      <guid isPermaLink="false">https://www.troyhunt.com/welcoming-the-bangladesh-government-to-have-i-been-pwned/#sha256:26a38c80f0304893</guid>
-      <category>security</category>
-      <category>data breach</category>
-      <category>government</category>
-      <category>Bangladesh</category>
-      <category>HIBP</category>
-      <category>cybersecurity</category>
-      <category>API</category>
-      <category>monitoring</category>
-      <pubDate>Tue, 12 May 2026 06:27:32 +0800</pubDate>
-    </item>
-    <item>
-      <title>iOS 26.5 Includes Beta Support for End-to-End Encrypted RCS Messaging 摘要</title>
-      <link>https://www.apple.com/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/</link>
-      <description>Apple and Google have launched beta support for end-to-end encrypted RCS messaging, starting with iOS 26.5 and the latest Google Messages. Encryption is on by default and indicated by a lock icon, but it depends on carrier and device support for both parties. Group chats are only encrypted if all members meet the requirements. Unlike iMessage, which has always been fully E2EE, RCS encryption requires manual verification via metadata. The feature is the main addition in iOS 26.5 aside from bug fixes.
-
-标签: Apple, iOS, RCS, encryption, messaging, privacy, security, Google, Android, technology</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/05/end-to-end-encrypted-rcs-messaging-begins-rolling-out-today-in-beta/#sha256:cb2d5d53134e90ea</guid>
-      <category>Apple</category>
+      <category>EU</category>
+      <category>DMA</category>
       <category>iOS</category>
-      <category>RCS</category>
-      <category>encryption</category>
-      <category>messaging</category>
+      <category>wearables</category>
+      <category>regulation</category>
+      <category>interoperability</category>
       <category>privacy</category>
-      <category>security</category>
+      <category>tech policy</category>
+      <category>competition</category>
+      <pubDate>Wed, 13 May 2026 02:52:12 +0800</pubDate>
+    </item>
+    <item>
+      <title>Building Software Requires Digestion 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/software-requires-digestion/</link>
+      <description>Scott Jenson argues that chatbot interfaces discourage reflection by promoting a reactive cycle of typing, reading, and reacting, which prevents deep cognitive work. He introduces the Japanese concept of 'Ma,' emphasizing the value of deliberate pauses. The author, Jim Nielsen, agrees, noting that stepping away from problems often leads to solutions. He compares this to digestion: just as the body needs time to process food, building good software requires time to synthesize and absorb information. Pausing is not a lack of work but an essential part of the creative process.
+
+标签: chatbot, reflection, Ma, cognitive work, software development, human-computer interaction, creativity, pauses, digestion, productivity</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/software-requires-digestion/#sha256:0bcaa24705c86bb5</guid>
+      <category>chatbot</category>
+      <category>reflection</category>
+      <category>Ma</category>
+      <category>cognitive work</category>
+      <category>software development</category>
+      <category>human-computer interaction</category>
+      <category>creativity</category>
+      <category>pauses</category>
+      <category>digestion</category>
+      <category>productivity</category>
+      <pubDate>Wed, 13 May 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Broadcasters Urge EU to Use the DMA to Go After Smart TV Platforms, None of Which Are From European Companies 摘要</title>
+      <link>https://www.reuters.com/sustainability/boards-policy-regulation/eu-digital-rules-should-apply-big-techs-smart-tvs-broadcasters-tell-antitrust-2026-03-23/</link>
+      <description>European broadcasters, represented by the ACT association, urged EU antitrust chief Teresa Ribera to designate smart TV platforms (Android TV, Amazon Fire OS, Samsung Tizen OS) and virtual assistants (Alexa, Siri) as gatekeepers under the Digital Markets Act. They argue these platforms have growing market power and should be regulated based on qualitative criteria even if they don't meet quantitative thresholds. The request targets Google, Amazon, Samsung, and Apple, highlighting the battle between broadcasters and Big Tech for market share.
+
+标签: EU, Digital Markets Act, smart TV, virtual assistants, Big Tech, antitrust, broadcasters, Google, Amazon, Apple</description>
+      <guid isPermaLink="false">https://www.reuters.com/sustainability/boards-policy-regulation/eu-digital-rules-should-apply-big-techs-smart-tvs-broadcasters-tell-antitrust-2026-03-23/#sha256:1b834a95949d16c0</guid>
+      <category>EU</category>
+      <category>Digital Markets Act</category>
+      <category>smart TV</category>
+      <category>virtual assistants</category>
+      <category>Big Tech</category>
+      <category>antitrust</category>
+      <category>broadcasters</category>
       <category>Google</category>
-      <category>Android</category>
-      <category>technology</category>
-      <pubDate>Tue, 12 May 2026 06:57:00 +0800</pubDate>
+      <category>Amazon</category>
+      <category>Apple</category>
+      <pubDate>Wed, 13 May 2026 03:34:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Teresa Ribera Visited the U.S. and No One Noticed 摘要</title>
+      <link>https://www.politico.eu/article/eu-big-tech-rulebook-shifting-digital-economy-ribera-dma-pulse-forum/</link>
+      <description>EU Competition Commissioner Teresa Ribera defended the Digital Markets Act (DMA) as a success that levels the playing field between Silicon Valley giants and European competitors. She pushed back against criticism of slow enforcement, citing the need for methodical, evidence-based due process. Ribera recently visited Washington and Silicon Valley, finding alignment with U.S. priorities under the Trump administration. The article contrasts her low-profile approach with predecessor Margrethe Vestager's media-heavy style, suggesting Ribera may focus on genuine competition and consumer welfare rather than punitive measures against U.S. tech firms.
+
+标签: EU, DMA, antitrust, tech regulation, Teresa Ribera, Silicon Valley, competition policy, digital markets, EU-US relations, Big Tech</description>
+      <guid isPermaLink="false">https://www.politico.eu/article/eu-big-tech-rulebook-shifting-digital-economy-ribera-dma-pulse-forum/#sha256:a4b0e10f612e50b0</guid>
+      <category>EU</category>
+      <category>DMA</category>
+      <category>antitrust</category>
+      <category>tech regulation</category>
+      <category>Teresa Ribera</category>
+      <category>Silicon Valley</category>
+      <category>competition policy</category>
+      <category>digital markets</category>
+      <category>EU-US relations</category>
+      <category>Big Tech</category>
+      <pubDate>Wed, 13 May 2026 04:05:28 +0800</pubDate>
+    </item>
+    <item>
+      <title>Search Ads as a Vector for Travel Scams 摘要</title>
+      <link>https://www.wsj.com/lifestyle/travel/the-simple-travel-scam-that-cost-a-seasoned-traveler-over-12-000-7d317f20?st=WDTpv5</link>
+      <description>A traveler named Calder fell victim to an impostor scam after his Lufthansa flight was canceled. Unable to rebook via the provided link, he searched for the airline's customer service number and called a fraudulent number from a sponsored ad. The scammer, posing as a Lufthansa representative, charged him $12,132 to rebook on partner airlines—over five times the original ticket cost. The article highlights how scammers exploit urgency and paid search ads, and suggests using ad-free search engines like Kagi to avoid such scams. It also warns about upcoming ads in Apple Maps as a potential new vector for fraud.
+
+标签: scam, travel, airline, fraud, search ads, consumer protection, impostor scam, Kagi, Apple Maps, cybersecurity</description>
+      <guid isPermaLink="false">https://www.wsj.com/lifestyle/travel/the-simple-travel-scam-that-cost-a-seasoned-traveler-over-12-000-7d317f20?st=WDTpv5#sha256:a3598308011d6807</guid>
+      <category>scam</category>
+      <category>travel</category>
+      <category>airline</category>
+      <category>fraud</category>
+      <category>search ads</category>
+      <category>consumer protection</category>
+      <category>impostor scam</category>
+      <category>Kagi</category>
+      <category>Apple Maps</category>
+      <category>cybersecurity</category>
+      <pubDate>Wed, 13 May 2026 04:22:20 +0800</pubDate>
+    </item>
+    <item>
+      <title>Seriously, Give Kagi a Try 摘要</title>
+      <link>https://daringfireball.net/2025/04/try_switching_to_kagi</link>
+      <description>The author reflects on their year-long experience with Kagi search engine, stating they have not once needed to use the !g bang to fall back to Google results. They contrast Kagi's consistent quality with Google's decline, noting that Google and DuckDuckGo often fail to find older content. Kagi is described as a vastly superior, ad-free service that keeps improving, likened to a premium streaming service without ads, while Google is compared to a movie interrupted by ads. The author expresses strong loyalty to Kagi, fearing its potential loss.
+
+标签: search engines, Kagi, Google, DuckDuckGo, web search, user experience, ad-free, bangs, technology comparison, opinion</description>
+      <guid isPermaLink="false">https://daringfireball.net/2025/04/try_switching_to_kagi#sha256:89117fc30a294ffc</guid>
+      <category>search engines</category>
+      <category>Kagi</category>
+      <category>Google</category>
+      <category>DuckDuckGo</category>
+      <category>web search</category>
+      <category>user experience</category>
+      <category>ad-free</category>
+      <category>bangs</category>
+      <category>technology comparison</category>
+      <category>opinion</category>
+      <pubDate>Wed, 13 May 2026 04:31:49 +0800</pubDate>
+    </item>
+    <item>
+      <title>Kagi Snaps 摘要</title>
+      <link>https://help.kagi.com/kagi/features/snaps.html</link>
+      <description>Kagi search engine offers Snaps and Bangs features for site-specific searches. Snaps (e.g., @r for Reddit) limit results to a domain, while Bangs (e.g., !r) redirect to internal site search. Users can create custom Snaps in settings, like overriding the default @nyt snap for better New York Times results. Kagi also provides comprehensive documentation, which the author considers a sign of a quality product.
+
+标签: Kagi, search engine, Snaps, Bangs, documentation, productivity, web search, customization</description>
+      <guid isPermaLink="false">https://help.kagi.com/kagi/features/snaps.html#sha256:fb0b1ae1511876d8</guid>
+      <category>Kagi</category>
+      <category>search engine</category>
+      <category>Snaps</category>
+      <category>Bangs</category>
+      <category>documentation</category>
+      <category>productivity</category>
+      <category>web search</category>
+      <category>customization</category>
+      <pubDate>Wed, 13 May 2026 05:06:21 +0800</pubDate>
+    </item>
+    <item>
+      <title>Patch Tuesday, May 2026 Edition 摘要</title>
+      <link>https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/</link>
+      <description>Major tech companies including Apple, Google, Microsoft, Mozilla, and Oracle are fixing near-record volumes of security vulnerabilities, partly due to Anthropic's AI-powered 'Project Glasswing' which effectively finds code flaws. Microsoft's May 2026 Patch Tuesday addresses 118 vulnerabilities with no zero-days, a first in two years. Apple's iOS 15 fixed 52 bugs, Mozilla's Firefox 150 resolved 271 vulnerabilities, Google's Chrome patched 127 flaws, and Oracle switched to monthly updates after fixing 450 issues. The trend highlights AI's dual role in both security and social engineering susceptibility.
+
+标签: Patch Tuesday, Microsoft, Apple, Google, Mozilla, Oracle, Project Glasswing, AI security, vulnerability, zero-day</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/#sha256:969744f59b4d16ba</guid>
+      <category>Patch Tuesday</category>
+      <category>Microsoft</category>
+      <category>Apple</category>
+      <category>Google</category>
+      <category>Mozilla</category>
+      <category>Oracle</category>
+      <category>Project Glasswing</category>
+      <category>AI security</category>
+      <category>vulnerability</category>
+      <category>zero-day</category>
+      <pubDate>Wed, 13 May 2026 05:46:45 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Mitchell Hashimoto 摘要</title>
+      <link>https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything</link>
+      <description>Mitchell Hashimoto argues that 90% of Technical Decision Makers (TDMs) are primarily motivated by avoiding risk and not getting fired. They follow secular trends endorsed by analysts like Gartner and McKinsey rather than exploring new technologies independently. For example, if analysts declare 'AI strategy' or 'context management' important, TDMs will defensibly purchase products like a 'Context Engine for AI Apps' to align with public sentiment and protect their careers.
+
+标签: technical-decision-makers, risk-aversion, enterprise, marketing, analyst-trends, redis, mitchell-hashimoto, career-safety, ai-strategy, context-engine</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything#sha256:223fb10e3f2053f2</guid>
+      <category>technical-decision-makers</category>
+      <category>risk-aversion</category>
+      <category>enterprise</category>
+      <category>marketing</category>
+      <category>analyst-trends</category>
+      <category>redis</category>
+      <category>mitchell-hashimoto</category>
+      <category>career-safety</category>
+      <category>ai-strategy</category>
+      <category>context-engine</category>
+      <pubDate>Wed, 13 May 2026 06:21:51 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Mo Bitar 摘要</title>
+      <link>https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything</link>
+      <description>Mo Bitar's TikTok video presents a satirical, unethical guide to surviving AI layoffs by promoting 'Ralph Loops'—a fictional, buzzword-driven scheme to secure promotions. He advises employees to pitch the concept to CEOs, request API credits, and feign automation of colleagues to appear indispensable. The video critiques tech industry hype cycles and the exploitation of automation fears for career advancement, highlighting the absurdity of using vague AI jargon to manipulate corporate hierarchies.
+
+标签: AI, ethics, career, satire, automation, layoffs, tech-culture, buzzwords, TikTok, workplace</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything#sha256:fa04e79fc93712a4</guid>
+      <category>AI</category>
+      <category>ethics</category>
+      <category>career</category>
+      <category>satire</category>
+      <category>automation</category>
+      <category>layoffs</category>
+      <category>tech-culture</category>
+      <category>buzzwords</category>
+      <category>TikTok</category>
+      <category>workplace</category>
+      <pubDate>Wed, 13 May 2026 06:59:58 +0800</pubDate>
     </item>
   </channel>
 </rss>
