@@ -8,233 +8,59 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 13 May 2026 07:31:17 +0800</lastBuildDate>
-    <pubDate>Wed, 13 May 2026 07:31:17 +0800</pubDate>
+    <lastBuildDate>Thu, 14 May 2026 07:31:57 +0800</lastBuildDate>
+    <pubDate>Thu, 14 May 2026 07:31:57 +0800</pubDate>
     <item>
-      <title>Where Are All The Data Centers? 摘要</title>
-      <link>https://www.wheresyoured.at/where-are-all-the-data-centers/</link>
-      <description>The article critiques the AI bubble by drawing parallels to the crypto bubble, arguing that claims of massive data center construction are exaggerated. It questions the actual amount of data center capacity coming online, noting that gigawatt-scale projects are often announced but rarely completed. The author highlights the difficulty of finding reliable data on operational data centers, citing examples like Anthropic's use of xAI's Colossus-1 and stalled projects like Nscale's Loughton facility. The piece emphasizes that despite $800 billion in capex by tech giants, no 1GW data center has been built yet, and many projects remain in early construction phases.
+      <title>Quoting Boris Mann 摘要</title>
+      <link>https://simonwillison.net/2026/May/13/boris-mann/#atom-everything</link>
+      <description>Boris Mann argues that the phrase '11 AI agents' is meaningless, comparing it to saying 'I have 11 spreadsheets' or 'I have 11 browser tabs' to describe one's work. The statement critiques the vague and overused terminology around AI agents, suggesting that such phrasing lacks clarity and fails to convey meaningful information about the actual tasks or functions being performed.
 
-标签: AI, data centers, bubble, tech industry, infrastructure, capex, hyperscalers, construction, critique, investment</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/where-are-all-the-data-centers/#sha256:c44d79c75465019d</guid>
+标签: AI, AI-agents, terminology, critique, semantics, productivity, tech-culture</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/13/boris-mann/#atom-everything#sha256:74a63b63d859ca2e</guid>
       <category>AI</category>
-      <category>data centers</category>
-      <category>bubble</category>
-      <category>tech industry</category>
-      <category>infrastructure</category>
-      <category>capex</category>
-      <category>hyperscalers</category>
-      <category>construction</category>
+      <category>AI-agents</category>
+      <category>terminology</category>
       <category>critique</category>
-      <category>investment</category>
-      <pubDate>Wed, 13 May 2026 00:17:30 +0800</pubDate>
-    </item>
-    <item>
-      <title>llm 0.32a2 摘要</title>
-      <link>https://simonwillison.net/2026/May/12/llm/#atom-everything</link>
-      <description>LLM 0.32a2 alpha release switches most reasoning-capable OpenAI models to the /v1/responses endpoint, enabling interleaved reasoning across tool calls for GPT-5 class models. Users can now view summarized reasoning tokens in a different color, with options to hide them via -R or --hide-reasoning flags.
-
-标签: llm, openai, generative-ai, ai, llms, release, reasoning, tool-calling, alpha, projects</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/12/llm/#atom-everything#sha256:f49606d03c29de69</guid>
-      <category>llm</category>
-      <category>openai</category>
-      <category>generative-ai</category>
-      <category>ai</category>
-      <category>llms</category>
-      <category>release</category>
-      <category>reasoning</category>
-      <category>tool-calling</category>
-      <category>alpha</category>
-      <category>projects</category>
-      <pubDate>Wed, 13 May 2026 01:45:07 +0800</pubDate>
-    </item>
-    <item>
-      <title>New DMA Compliance Features for EU Users in iOS 26.5 (and Perhaps the EU Has Finally Come to Their Senses on Tech Regulation) 摘要</title>
-      <link>https://www.macrumors.com/2026/05/11/ios-26-5-eu-third-party-wearable-changes/</link>
-      <description>Apple is introducing new DMA compliance features in iOS 26.5 for EU users, allowing third-party wearables like earbuds and smartwatches to access features previously limited to Apple Watch and AirPods, including proximity pairing, iPhone notifications, and Live Activities. The author notes that while the EU has not rescinded existing requirements, competition chief Teresa Ribera has de-escalated enforcement, with no new investigations or fines in over a year. The changes stem from investigations initiated under predecessor Margrethe Vestager.
-
-标签: Apple, EU, DMA, iOS, wearables, regulation, interoperability, privacy, tech policy, competition</description>
-      <guid isPermaLink="false">https://www.macrumors.com/2026/05/11/ios-26-5-eu-third-party-wearable-changes/#sha256:7478f6fe918fcc4e</guid>
-      <category>Apple</category>
-      <category>EU</category>
-      <category>DMA</category>
-      <category>iOS</category>
-      <category>wearables</category>
-      <category>regulation</category>
-      <category>interoperability</category>
-      <category>privacy</category>
-      <category>tech policy</category>
-      <category>competition</category>
-      <pubDate>Wed, 13 May 2026 02:52:12 +0800</pubDate>
-    </item>
-    <item>
-      <title>Building Software Requires Digestion 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/software-requires-digestion/</link>
-      <description>Scott Jenson argues that chatbot interfaces discourage reflection by promoting a reactive cycle of typing, reading, and reacting, which prevents deep cognitive work. He introduces the Japanese concept of 'Ma,' emphasizing the value of deliberate pauses. The author, Jim Nielsen, agrees, noting that stepping away from problems often leads to solutions. He compares this to digestion: just as the body needs time to process food, building good software requires time to synthesize and absorb information. Pausing is not a lack of work but an essential part of the creative process.
-
-标签: chatbot, reflection, Ma, cognitive work, software development, human-computer interaction, creativity, pauses, digestion, productivity</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/software-requires-digestion/#sha256:0bcaa24705c86bb5</guid>
-      <category>chatbot</category>
-      <category>reflection</category>
-      <category>Ma</category>
-      <category>cognitive work</category>
-      <category>software development</category>
-      <category>human-computer interaction</category>
-      <category>creativity</category>
-      <category>pauses</category>
-      <category>digestion</category>
+      <category>semantics</category>
       <category>productivity</category>
-      <pubDate>Wed, 13 May 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Broadcasters Urge EU to Use the DMA to Go After Smart TV Platforms, None of Which Are From European Companies 摘要</title>
-      <link>https://www.reuters.com/sustainability/boards-policy-regulation/eu-digital-rules-should-apply-big-techs-smart-tvs-broadcasters-tell-antitrust-2026-03-23/</link>
-      <description>European broadcasters, represented by the ACT association, urged EU antitrust chief Teresa Ribera to designate smart TV platforms (Android TV, Amazon Fire OS, Samsung Tizen OS) and virtual assistants (Alexa, Siri) as gatekeepers under the Digital Markets Act. They argue these platforms have growing market power and should be regulated based on qualitative criteria even if they don't meet quantitative thresholds. The request targets Google, Amazon, Samsung, and Apple, highlighting the battle between broadcasters and Big Tech for market share.
-
-标签: EU, Digital Markets Act, smart TV, virtual assistants, Big Tech, antitrust, broadcasters, Google, Amazon, Apple</description>
-      <guid isPermaLink="false">https://www.reuters.com/sustainability/boards-policy-regulation/eu-digital-rules-should-apply-big-techs-smart-tvs-broadcasters-tell-antitrust-2026-03-23/#sha256:1b834a95949d16c0</guid>
-      <category>EU</category>
-      <category>Digital Markets Act</category>
-      <category>smart TV</category>
-      <category>virtual assistants</category>
-      <category>Big Tech</category>
-      <category>antitrust</category>
-      <category>broadcasters</category>
-      <category>Google</category>
-      <category>Amazon</category>
-      <category>Apple</category>
-      <pubDate>Wed, 13 May 2026 03:34:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Teresa Ribera Visited the U.S. and No One Noticed 摘要</title>
-      <link>https://www.politico.eu/article/eu-big-tech-rulebook-shifting-digital-economy-ribera-dma-pulse-forum/</link>
-      <description>EU Competition Commissioner Teresa Ribera defended the Digital Markets Act (DMA) as a success that levels the playing field between Silicon Valley giants and European competitors. She pushed back against criticism of slow enforcement, citing the need for methodical, evidence-based due process. Ribera recently visited Washington and Silicon Valley, finding alignment with U.S. priorities under the Trump administration. The article contrasts her low-profile approach with predecessor Margrethe Vestager's media-heavy style, suggesting Ribera may focus on genuine competition and consumer welfare rather than punitive measures against U.S. tech firms.
-
-标签: EU, DMA, antitrust, tech regulation, Teresa Ribera, Silicon Valley, competition policy, digital markets, EU-US relations, Big Tech</description>
-      <guid isPermaLink="false">https://www.politico.eu/article/eu-big-tech-rulebook-shifting-digital-economy-ribera-dma-pulse-forum/#sha256:a4b0e10f612e50b0</guid>
-      <category>EU</category>
-      <category>DMA</category>
-      <category>antitrust</category>
-      <category>tech regulation</category>
-      <category>Teresa Ribera</category>
-      <category>Silicon Valley</category>
-      <category>competition policy</category>
-      <category>digital markets</category>
-      <category>EU-US relations</category>
-      <category>Big Tech</category>
-      <pubDate>Wed, 13 May 2026 04:05:28 +0800</pubDate>
-    </item>
-    <item>
-      <title>Search Ads as a Vector for Travel Scams 摘要</title>
-      <link>https://www.wsj.com/lifestyle/travel/the-simple-travel-scam-that-cost-a-seasoned-traveler-over-12-000-7d317f20?st=WDTpv5</link>
-      <description>A traveler named Calder fell victim to an impostor scam after his Lufthansa flight was canceled. Unable to rebook via the provided link, he searched for the airline's customer service number and called a fraudulent number from a sponsored ad. The scammer, posing as a Lufthansa representative, charged him $12,132 to rebook on partner airlines—over five times the original ticket cost. The article highlights how scammers exploit urgency and paid search ads, and suggests using ad-free search engines like Kagi to avoid such scams. It also warns about upcoming ads in Apple Maps as a potential new vector for fraud.
-
-标签: scam, travel, airline, fraud, search ads, consumer protection, impostor scam, Kagi, Apple Maps, cybersecurity</description>
-      <guid isPermaLink="false">https://www.wsj.com/lifestyle/travel/the-simple-travel-scam-that-cost-a-seasoned-traveler-over-12-000-7d317f20?st=WDTpv5#sha256:a3598308011d6807</guid>
-      <category>scam</category>
-      <category>travel</category>
-      <category>airline</category>
-      <category>fraud</category>
-      <category>search ads</category>
-      <category>consumer protection</category>
-      <category>impostor scam</category>
-      <category>Kagi</category>
-      <category>Apple Maps</category>
-      <category>cybersecurity</category>
-      <pubDate>Wed, 13 May 2026 04:22:20 +0800</pubDate>
-    </item>
-    <item>
-      <title>Seriously, Give Kagi a Try 摘要</title>
-      <link>https://daringfireball.net/2025/04/try_switching_to_kagi</link>
-      <description>The author reflects on their year-long experience with Kagi search engine, stating they have not once needed to use the !g bang to fall back to Google results. They contrast Kagi's consistent quality with Google's decline, noting that Google and DuckDuckGo often fail to find older content. Kagi is described as a vastly superior, ad-free service that keeps improving, likened to a premium streaming service without ads, while Google is compared to a movie interrupted by ads. The author expresses strong loyalty to Kagi, fearing its potential loss.
-
-标签: search engines, Kagi, Google, DuckDuckGo, web search, user experience, ad-free, bangs, technology comparison, opinion</description>
-      <guid isPermaLink="false">https://daringfireball.net/2025/04/try_switching_to_kagi#sha256:89117fc30a294ffc</guid>
-      <category>search engines</category>
-      <category>Kagi</category>
-      <category>Google</category>
-      <category>DuckDuckGo</category>
-      <category>web search</category>
-      <category>user experience</category>
-      <category>ad-free</category>
-      <category>bangs</category>
-      <category>technology comparison</category>
-      <category>opinion</category>
-      <pubDate>Wed, 13 May 2026 04:31:49 +0800</pubDate>
-    </item>
-    <item>
-      <title>Kagi Snaps 摘要</title>
-      <link>https://help.kagi.com/kagi/features/snaps.html</link>
-      <description>Kagi search engine offers Snaps and Bangs features for site-specific searches. Snaps (e.g., @r for Reddit) limit results to a domain, while Bangs (e.g., !r) redirect to internal site search. Users can create custom Snaps in settings, like overriding the default @nyt snap for better New York Times results. Kagi also provides comprehensive documentation, which the author considers a sign of a quality product.
-
-标签: Kagi, search engine, Snaps, Bangs, documentation, productivity, web search, customization</description>
-      <guid isPermaLink="false">https://help.kagi.com/kagi/features/snaps.html#sha256:fb0b1ae1511876d8</guid>
-      <category>Kagi</category>
-      <category>search engine</category>
-      <category>Snaps</category>
-      <category>Bangs</category>
-      <category>documentation</category>
-      <category>productivity</category>
-      <category>web search</category>
-      <category>customization</category>
-      <pubDate>Wed, 13 May 2026 05:06:21 +0800</pubDate>
-    </item>
-    <item>
-      <title>Patch Tuesday, May 2026 Edition 摘要</title>
-      <link>https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/</link>
-      <description>Major tech companies including Apple, Google, Microsoft, Mozilla, and Oracle are fixing near-record volumes of security vulnerabilities, partly due to Anthropic's AI-powered 'Project Glasswing' which effectively finds code flaws. Microsoft's May 2026 Patch Tuesday addresses 118 vulnerabilities with no zero-days, a first in two years. Apple's iOS 15 fixed 52 bugs, Mozilla's Firefox 150 resolved 271 vulnerabilities, Google's Chrome patched 127 flaws, and Oracle switched to monthly updates after fixing 450 issues. The trend highlights AI's dual role in both security and social engineering susceptibility.
-
-标签: Patch Tuesday, Microsoft, Apple, Google, Mozilla, Oracle, Project Glasswing, AI security, vulnerability, zero-day</description>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/#sha256:969744f59b4d16ba</guid>
-      <category>Patch Tuesday</category>
-      <category>Microsoft</category>
-      <category>Apple</category>
-      <category>Google</category>
-      <category>Mozilla</category>
-      <category>Oracle</category>
-      <category>Project Glasswing</category>
-      <category>AI security</category>
-      <category>vulnerability</category>
-      <category>zero-day</category>
-      <pubDate>Wed, 13 May 2026 05:46:45 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Mitchell Hashimoto 摘要</title>
-      <link>https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything</link>
-      <description>Mitchell Hashimoto argues that 90% of Technical Decision Makers (TDMs) are primarily motivated by avoiding risk and not getting fired. They follow secular trends endorsed by analysts like Gartner and McKinsey rather than exploring new technologies independently. For example, if analysts declare 'AI strategy' or 'context management' important, TDMs will defensibly purchase products like a 'Context Engine for AI Apps' to align with public sentiment and protect their careers.
-
-标签: technical-decision-makers, risk-aversion, enterprise, marketing, analyst-trends, redis, mitchell-hashimoto, career-safety, ai-strategy, context-engine</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything#sha256:223fb10e3f2053f2</guid>
-      <category>technical-decision-makers</category>
-      <category>risk-aversion</category>
-      <category>enterprise</category>
-      <category>marketing</category>
-      <category>analyst-trends</category>
-      <category>redis</category>
-      <category>mitchell-hashimoto</category>
-      <category>career-safety</category>
-      <category>ai-strategy</category>
-      <category>context-engine</category>
-      <pubDate>Wed, 13 May 2026 06:21:51 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Mo Bitar 摘要</title>
-      <link>https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything</link>
-      <description>Mo Bitar's TikTok video presents a satirical, unethical guide to surviving AI layoffs by promoting 'Ralph Loops'—a fictional, buzzword-driven scheme to secure promotions. He advises employees to pitch the concept to CEOs, request API credits, and feign automation of colleagues to appear indispensable. The video critiques tech industry hype cycles and the exploitation of automation fears for career advancement, highlighting the absurdity of using vague AI jargon to manipulate corporate hierarchies.
-
-标签: AI, ethics, career, satire, automation, layoffs, tech-culture, buzzwords, TikTok, workplace</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything#sha256:fa04e79fc93712a4</guid>
-      <category>AI</category>
-      <category>ethics</category>
-      <category>career</category>
-      <category>satire</category>
-      <category>automation</category>
-      <category>layoffs</category>
       <category>tech-culture</category>
-      <category>buzzwords</category>
-      <category>TikTok</category>
-      <category>workplace</category>
-      <pubDate>Wed, 13 May 2026 06:59:58 +0800</pubDate>
+      <pubDate>Thu, 14 May 2026 00:15:50 +0800</pubDate>
+    </item>
+    <item>
+      <title>Software Engineers are Obsolete 摘要</title>
+      <link>https://idiallo.com/blog/everyone-is-better-than-you?src=feed</link>
+      <description>The author reflects on how AI has democratized software development, making their hard-earned skills feel obsolete as non-developers now build products with AI tools. They contrast this with past experiences, like building a tutorial website and missing out on Silverlight trends. While AI lowers barriers, the author argues that new entrants rely on prompting rather than deep coding, debugging, or maintenance skills. They predict that true engineers who learn the hard way will eventually be valued again, especially for maintaining and fixing software, which AI cannot easily handle. The author concludes by waiting for the inevitable realization that AI cannot solve all problems.
+
+标签: AI, software development, developer obsolescence, gatekeeping, Silverlight, maintenance, prompt engineering, learning, technology trends, personal reflection</description>
+      <guid isPermaLink="false">https://idiallo.com/blog/everyone-is-better-than-you?src=feed#sha256:faa33eec2d0a12fc</guid>
+      <category>AI</category>
+      <category>software development</category>
+      <category>developer obsolescence</category>
+      <category>gatekeeping</category>
+      <category>Silverlight</category>
+      <category>maintenance</category>
+      <category>prompt engineering</category>
+      <category>learning</category>
+      <category>technology trends</category>
+      <category>personal reflection</category>
+      <pubDate>Thu, 14 May 2026 06:40:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Commenting Guidelines 摘要</title>
+      <link>https://susam.net/commenting.html</link>
+      <description>This article outlines commenting guidelines for a website. Comments may include HTML or Markdown but are sanitized before publication. All submissions are reviewed by the author, who decides whether to publish. Typically published comments add new information, offer insight, provide a viewpoint, report errors, contain humor, or express appreciation. Rants are generally not published to maintain high signal-to-noise ratio. Published comments appear on the article's comment page and a central comment index. Users should not submit sensitive personal data.
+
+标签: commenting, guidelines, moderation, community, meta, website, policy, signal-to-noise</description>
+      <guid isPermaLink="false">https://susam.net/commenting.html#sha256:cce1191101b49459</guid>
+      <category>commenting</category>
+      <category>guidelines</category>
+      <category>moderation</category>
+      <category>community</category>
+      <category>meta</category>
+      <category>website</category>
+      <category>policy</category>
+      <category>signal-to-noise</category>
+      <pubDate>Thu, 14 May 2026 08:00:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
