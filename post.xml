@@ -8,227 +8,100 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 15 May 2026 07:26:41 +0800</lastBuildDate>
-    <pubDate>Fri, 15 May 2026 07:26:41 +0800</pubDate>
+    <lastBuildDate>Sat, 16 May 2026 07:26:39 +0800</lastBuildDate>
+    <pubDate>Sat, 16 May 2026 07:26:39 +0800</pubDate>
     <item>
-      <title>New Driver for the Old Griffin PowerMate 摘要</title>
-      <link>https://github.com/jameslockman/Griffin-PowerMate-Driver</link>
-      <description>James Lockman has developed a modern driver for the Griffin PowerMate, a vintage USB knob controller originally designed for audio/video production. The device features a twistable knob, a press function, and a blue LED that changes intensity. Lockman credits Cursor Agent, an AI coding tool, as a co-contributor, suggesting this project was enabled by AI assistance. The driver revives a nostalgic piece of hardware that, while superseded by more advanced controllers, retains a quaint charm.
+      <title>Eric Jang – Building AlphaGo from scratch 摘要</title>
+      <link>https://www.dwarkesh.com/p/eric-jang</link>
+      <description>Eric Jang explains how to build AlphaGo from scratch using modern AI tools, highlighting its role as a clean example of intelligence primitives: search, learning from experience, and self-play. He contrasts AlphaGo's Monte Carlo Tree Search (MCTS) with naive policy gradient RL in LLMs, noting MCTS sidesteps the credit assignment problem by providing better actions at each move. The discussion also covers which parts of AI research LLMs can automate (experiments, hyperparameter tuning) and which they struggle with (choosing research questions, escaping dead ends). The conversation includes insights on RL inefficiency and automated AI researchers.
 
-标签: Griffin PowerMate, driver, retro hardware, USB controller, AI coding, Cursor Agent, open source, nostalgia, hardware revival</description>
-      <guid isPermaLink="false">https://github.com/jameslockman/Griffin-PowerMate-Driver#sha256:b687002fa42b01c5</guid>
-      <category>Griffin PowerMate</category>
-      <category>driver</category>
-      <category>retro hardware</category>
-      <category>USB controller</category>
-      <category>AI coding</category>
-      <category>Cursor Agent</category>
-      <category>open source</category>
-      <category>nostalgia</category>
-      <category>hardware revival</category>
-      <pubDate>Fri, 15 May 2026 00:20:54 +0800</pubDate>
+标签: AlphaGo, reinforcement learning, Monte Carlo Tree Search, LLM, AI research, self-play, credit assignment, Go, deep learning, automation</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/eric-jang#sha256:845a3eecac5d2cac</guid>
+      <category>AlphaGo</category>
+      <category>reinforcement learning</category>
+      <category>Monte Carlo Tree Search</category>
+      <category>LLM</category>
+      <category>AI research</category>
+      <category>self-play</category>
+      <category>credit assignment</category>
+      <category>Go</category>
+      <category>deep learning</category>
+      <category>automation</category>
+      <pubDate>Sat, 16 May 2026 00:04:58 +0800</pubDate>
     </item>
     <item>
-      <title>Klack 摘要</title>
-      <link>https://tryklack.com/</link>
-      <description>Klack is a $5 Mac utility by Henrik Ruscon that simulates mechanical keyboard clacking sounds while typing. Despite the author's own keyboard making natural sounds, he found the absurd utility appealing and attempted to purchase it, only to discover a family member had already bought it. A reader also shared buying it out of spite to troll a colleague using a mechanical keyboard in an open office.
+      <title>Premium: What If...We're In An AI Bubble? (Part 1) 摘要</title>
+      <link>https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-1/</link>
+      <description>The article criticizes hyperbolic AI predictions, arguing that claims about AGI creating a 'permanent underclass' or eliminating software jobs are unfounded. It debunks myths about Tesla's Optimus robot, METR's time horizon studies, and unrealistic revenue projections for OpenAI and Anthropic. The author highlights a lack of data centers coming online, circular AI revenue among hyperscalers, and the precarious financial positions of companies like Oracle and CoreWeave tied to OpenAI. The piece questions the sustainability of the AI bubble, suggesting massive capital misallocation and potential collapse if promised infrastructure and revenue fail to materialize.
 
-标签: mac, utility, keyboard, sound, humor, app store, productivity, trolling</description>
-      <guid isPermaLink="false">https://tryklack.com/#sha256:1d95a708997e1851</guid>
-      <category>mac</category>
-      <category>utility</category>
-      <category>keyboard</category>
-      <category>sound</category>
-      <category>humor</category>
-      <category>app store</category>
-      <category>productivity</category>
-      <category>trolling</category>
-      <pubDate>Fri, 15 May 2026 01:39:25 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Trump T1 Phone Starts Shipping This Week, Supposedly 摘要</title>
-      <link>https://www.theverge.com/gadgets/929471/trump-mobile-t1-phone-shipping-this-week</link>
-      <description>Trump Mobile's T1 phone, announced 11 months ago, is finally shipping to preorder customers this week, as confirmed by CEO Pat O'Brien to USA Today. The company cited incredibly high demand and is fulfilling orders as quickly as possible. The phone features 'Trump Mobile' branding in Arial font on the camera plateau.
-
-标签: Trump Mobile, T1 Phone, smartphone, shipping, preorder, politics, tech, USA Today</description>
-      <guid isPermaLink="false">https://www.theverge.com/gadgets/929471/trump-mobile-t1-phone-shipping-this-week#sha256:c20577353b4a736b</guid>
-      <category>Trump Mobile</category>
-      <category>T1 Phone</category>
-      <category>smartphone</category>
-      <category>shipping</category>
-      <category>preorder</category>
-      <category>politics</category>
-      <category>tech</category>
-      <category>USA Today</category>
-      <pubDate>Fri, 15 May 2026 01:50:05 +0800</pubDate>
-    </item>
-    <item>
-      <title>A GNU Emacs learning experience with text-mode hooks 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsTextModeHooksGotcha</link>
-      <description>The author describes debugging an issue where Emacs would complain about an ispell process still running when quitting. Initially suspecting code buffers triggering text-mode hooks, they discovered that Flycheck's scratch buffers derive from text-mode, causing flyspell-mode to start ispell. The solution was to guard the text-mode hook with a check for `buffer-file-name` to ensure it only runs in file-associated buffers, preventing flyspell from activating in scratch buffers.
-
-标签: Emacs, flyspell, ispell, text-mode, Flycheck, debugging, ELisp, scratch buffers, buffer-file-name, hooks</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsTextModeHooksGotcha#sha256:63c9faf4ed378e9c</guid>
-      <category>Emacs</category>
-      <category>flyspell</category>
-      <category>ispell</category>
-      <category>text-mode</category>
-      <category>Flycheck</category>
-      <category>debugging</category>
-      <category>ELisp</category>
-      <category>scratch buffers</category>
-      <category>buffer-file-name</category>
-      <category>hooks</category>
-      <pubDate>Fri, 15 May 2026 01:51:54 +0800</pubDate>
-    </item>
-    <item>
-      <title>Gurman Reports that OpenAI Is Unhappy With Apple Deal 摘要</title>
-      <link>https://www.bloomberg.com/news/articles/2026-05-14/openai-apple-partnership-frays-setting-up-possible-legal-fight?srnd=undefined&amp;embedded-checkout=true</link>
-      <description>Bloomberg reports that OpenAI is considering legal action against Apple, alleging breach of contract over their partnership that integrated ChatGPT into Apple software. OpenAI claims Apple failed to deliver promised deeper integration and prime Siri placement, while Apple also expected more integration. OpenAI executives express frustration, stating Apple demanded a 'leap of faith' that didn't pay off. However, the article notes that ChatGPT remains highly popular on the App Store, and questions the timing of OpenAI's complaints, which emerged after Apple partnered with Google for foundation models. The specific contractual terms allegedly breached remain unclear.
-
-标签: Apple, OpenAI, ChatGPT, legal dispute, partnership, AI, Bloomberg, contract breach, Siri, App Store</description>
-      <guid isPermaLink="false">https://www.bloomberg.com/news/articles/2026-05-14/openai-apple-partnership-frays-setting-up-possible-legal-fight?srnd=undefined&amp;embedded-checkout=true#sha256:fa0768a995fd7a79</guid>
-      <category>Apple</category>
+标签: AI bubble, AGI hype, data centers, OpenAI, Anthropic, NVIDIA, hyperscalers, tech criticism, economic analysis, Tesla Optimus</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-1/#sha256:1c7b7a7044d50e2d</guid>
+      <category>AI bubble</category>
+      <category>AGI hype</category>
+      <category>data centers</category>
       <category>OpenAI</category>
-      <category>ChatGPT</category>
-      <category>legal dispute</category>
-      <category>partnership</category>
-      <category>AI</category>
-      <category>Bloomberg</category>
-      <category>contract breach</category>
-      <category>Siri</category>
-      <category>App Store</category>
-      <pubDate>Fri, 15 May 2026 02:27:50 +0800</pubDate>
+      <category>Anthropic</category>
+      <category>NVIDIA</category>
+      <category>hyperscalers</category>
+      <category>tech criticism</category>
+      <category>economic analysis</category>
+      <category>Tesla Optimus</category>
+      <pubDate>Sat, 16 May 2026 00:44:27 +0800</pubDate>
     </item>
     <item>
-      <title>Google Announces Its Chromebook Successor: The Googlebook 摘要</title>
-      <link>https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjNVSjlWdlZESmgiLCJwIjoiL3RlY2gvOTI4NDc5L2dvb2dsZS1nb29nbGVib29rLWxhcHRvcHMtYW5kcm9pZC10ZWFzZS1hbHVtaW5pdW0tY2hyb21lYm9vayIsImV4cCI6MTc3OTIxNjg2NiwiaWF0IjoxNzc4Nzg0ODY2fQ.a74WT34THV0Ih1pGO7NH4daq39ytQXdhO4EAgE6HCeI</link>
-      <description>Google has announced Googlebooks, a new line of laptops launching in fall 2026, intended to succeed Chromebooks. They will run a fusion of Android and ChromeOS. Details are scarce: no specs, model names, or pricing yet. Google is partnering with Acer, Asus, Dell, HP, and Lenovo. A notable feature is 'Magic Pointer,' which provides contextual suggestions when shaking the cursor over on-screen items. The announcement was part of Google's Android Show, with only initial renders available. The Verge's Di Benedetto expresses skepticism due to the lack of concrete information.
+      <title>Aluminium OS: Google’s ‘Android for PC’ OS for Googlebooks 摘要</title>
+      <link>https://aluminium-os.com/</link>
+      <description>John Gruber discusses Google's Aluminium OS (codename ALOS), a new Android-based OS for laptops and desktops, built from Android 17 with a custom window manager, taskbar, virtual desktops, and integrated Gemini AI. He notes that the aluminium-os.com site is unofficial, but the concept is intriguing. Google confirmed Aluminium is only a codename, not the final branding. Gruber praises the OS's ambition to unify ChromeOS and Android, acknowledging Apple's Continuity success, and highlights features like on-device code assistance and natural language automation, positioning it as a potential developer workstation.
 
-标签: Google, Googlebook, laptop, Android, ChromeOS, Magic Pointer, hardware, announcement, Chromebook, operating system</description>
-      <guid isPermaLink="false">https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjNVSjlWdlZESmgiLCJwIjoiL3RlY2gvOTI4NDc5L2dvb2dsZS1nb29nbGVib29rLWxhcHRvcHMtYW5kcm9pZC10ZWFzZS1hbHVtaW5pdW0tY2hyb21lYm9vayIsImV4cCI6MTc3OTIxNjg2NiwiaWF0IjoxNzc4Nzg0ODY2fQ.a74WT34THV0Ih1pGO7NH4daq39ytQXdhO4EAgE6HCeI#sha256:79ad170f868e94f9</guid>
+标签: Aluminium OS, Google, Android, ChromeOS, operating system, laptops, desktops, Gemini AI, developer tools, Apple Continuity</description>
+      <guid isPermaLink="false">https://aluminium-os.com/#sha256:3c82a4950b9dba46</guid>
+      <category>Aluminium OS</category>
       <category>Google</category>
-      <category>Googlebook</category>
-      <category>laptop</category>
       <category>Android</category>
       <category>ChromeOS</category>
-      <category>Magic Pointer</category>
-      <category>hardware</category>
-      <category>announcement</category>
-      <category>Chromebook</category>
       <category>operating system</category>
-      <pubDate>Fri, 15 May 2026 03:02:21 +0800</pubDate>
+      <category>laptops</category>
+      <category>desktops</category>
+      <category>Gemini AI</category>
+      <category>developer tools</category>
+      <category>Apple Continuity</category>
+      <pubDate>Sat, 16 May 2026 02:37:13 +0800</pubDate>
     </item>
     <item>
-      <title>Tim Cook Is in Trump’s Executive Entourage for China Summit 摘要</title>
-      <link>https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html</link>
-      <description>Owen Scott reports that tech and finance leaders including Elon Musk, BlackRock CEO Larry Fink, and Apple CEO Tim Cook have joined President Trump for a summit with China's President Xi Jinping. Trump confirmed the attendees on Truth Social, referring to Cook as 'Tim Apple'. The article also notes Trump's nickname habit and suggests he could reference 'Winnie the Pooh' in his posts.
+      <title>Dropover, a Mac Shelf Utility That Makes Clever Use of Mouse Shaking 摘要</title>
+      <link>https://dropoverapp.com/</link>
+      <description>The article discusses Dropover, a Mac utility that provides a temporary shelf for dragging and dropping files. It highlights the app's clever use of a mouse-shaking gesture to summon the shelf mid-drag, which the author finds intuitive and convenient. Dropover also offers a modifier key option (Shift by default). The author compares it to Yoink, a similar app, noting that Dropover's shake gesture feels natural and doesn't require using the other hand. Dropover is free with a $7 one-time purchase for full features, while Yoink costs $9. Both are recommended for improving drag-and-drop workflows.
 
-标签: politics, technology, China, Trump, Xi Jinping, Elon Musk, Tim Cook, summit, business, nicknames</description>
-      <guid isPermaLink="false">https://www.the-independent.com/news/world/americas/us-politics/elon-musk-tim-cook-trump-china-tech-ceo-b2975568.html#sha256:754698d762d24bba</guid>
-      <category>politics</category>
-      <category>technology</category>
-      <category>China</category>
-      <category>Trump</category>
-      <category>Xi Jinping</category>
-      <category>Elon Musk</category>
-      <category>Tim Cook</category>
-      <category>summit</category>
-      <category>business</category>
-      <category>nicknames</category>
-      <pubDate>Fri, 15 May 2026 03:36:58 +0800</pubDate>
+标签: Dropover, Yoink, Mac utility, drag and drop, mouse gesture, productivity, Mac app, shelf, file management, review</description>
+      <guid isPermaLink="false">https://dropoverapp.com/#sha256:53a737e3eaec732e</guid>
+      <category>Dropover</category>
+      <category>Yoink</category>
+      <category>Mac utility</category>
+      <category>drag and drop</category>
+      <category>mouse gesture</category>
+      <category>productivity</category>
+      <category>Mac app</category>
+      <category>shelf</category>
+      <category>file management</category>
+      <category>review</category>
+      <pubDate>Sat, 16 May 2026 03:24:10 +0800</pubDate>
     </item>
     <item>
-      <title>Geoffrey Fowler and the Launch of the Youth AI Safety Institute 摘要</title>
-      <link>https://geoffreyfowler.substack.com/p/what-is-ai-doing-to-our-kids-im-going</link>
-      <description>Geoffrey Fowler joins the Youth AI Safety Institute, a new organization under Common Sense Media with a $20 million annual budget, to systematically test AI products used by children, set safety standards, and hold tech companies accountable. The Institute is funded by foundations and private donors including Anthropic and the OpenAI Foundation, who have no say over published findings. Fowler's role as Head of Public Engagement involves translating research into actionable insights for families, educators, and policymakers. The author expresses skepticism about industry-funded oversight, questioning the effectiveness of Biden's AI Executive Order.
+      <title>Wanton Destruction of CBS Property 摘要</title>
+      <link>https://www.youtube.com/watch?v=eBKWKu2Rqxc</link>
+      <description>The article is a brief post on Daring Fireball, consisting solely of the quote 'Good night and good luck, motherfuckers.' It links to a story about wanton destruction of CBS property, likely referencing a controversial or defiant statement made in a media context. The post is short and serves as a commentary or reaction to an event involving CBS.
 
-标签: AI safety, children, Common Sense Media, Geoffrey Fowler, Youth AI Safety Institute, tech accountability, AI regulation, product testing, Anthropic, OpenAI</description>
-      <guid isPermaLink="false">https://geoffreyfowler.substack.com/p/what-is-ai-doing-to-our-kids-im-going#sha256:f194196e37bb799b</guid>
-      <category>AI safety</category>
-      <category>children</category>
-      <category>Common Sense Media</category>
-      <category>Geoffrey Fowler</category>
-      <category>Youth AI Safety Institute</category>
-      <category>tech accountability</category>
-      <category>AI regulation</category>
-      <category>product testing</category>
-      <category>Anthropic</category>
-      <category>OpenAI</category>
-      <pubDate>Fri, 15 May 2026 04:51:04 +0800</pubDate>
-    </item>
-    <item>
-      <title>A few words on DS4 摘要</title>
-      <link>http://antirez.com/news/165</link>
-      <description>Antirez reflects on the rapid popularity of DwarfStar 4 (DS4), attributing it to the release of DeepSeek v4 Flash, a quasi-frontier model that is large and fast enough for local inference, especially with 2/8 bit asymmetric quants on 96-128GB RAM. He worked 14-hour days for a week, leveraging GPT 5.5 and local AI experience. Future plans include supporting new open-weight models, specialized variants (coding, legal, medical), quality benchmarks, a coding agent, CI testing, more ports, and distributed inference. He notes this is the first time he uses a local model for serious tasks instead of Claude/GPT, calling it a big milestone.
-
-标签: AI, local inference, DeepSeek, DwarfStar, open source, LLM, model quantization, distributed inference, coding agent, hardware</description>
-      <guid isPermaLink="false">http://antirez.com/news/165#sha256:d1bd9008c1e4dd24</guid>
-      <category>AI</category>
-      <category>local inference</category>
-      <category>DeepSeek</category>
-      <category>DwarfStar</category>
-      <category>open source</category>
-      <category>LLM</category>
-      <category>model quantization</category>
-      <category>distributed inference</category>
-      <category>coding agent</category>
-      <category>hardware</category>
-      <pubDate>Fri, 15 May 2026 06:22:45 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Mitchell Hashimoto 摘要</title>
-      <link>https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything</link>
-      <description>Mitchell Hashimoto reflects on the fungibility of programming languages, noting that Bun's rewrite from Zig to Rust in roughly a week demonstrates how languages are no longer a lock-in. He argues that Rust, like any language, is expendable and can be replaced when no longer useful, highlighting a shift in the software industry where languages are increasingly interchangeable.
-
-标签: programming languages, Rust, Zig, Bun, software engineering, rewrite, fungibility, lock-in</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything#sha256:a3c6a572b182ee02</guid>
-      <category>programming languages</category>
-      <category>Rust</category>
-      <category>Zig</category>
-      <category>Bun</category>
-      <category>software engineering</category>
-      <category>rewrite</category>
-      <category>fungibility</category>
-      <category>lock-in</category>
-      <pubDate>Fri, 15 May 2026 06:31:20 +0800</pubDate>
-    </item>
-    <item>
-      <title>Meta’s New Reality: Record High Profits. Record Low Morale | WIRED 摘要</title>
-      <link>https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/</link>
-      <description>A Wired report reveals historically low morale at Meta as employees brace for layoffs on May 20. Staff describe unhappiness, lack of mission connection, and fear of being used to train AI replacements. Many hope to be laid off for severance. New mandatory employee surveillance software (MCI) has sparked privacy concerns, with CTO Andrew Bosworth allegedly berating dissenters. Only top AI executives are thriving.
-
-标签: Meta, layoffs, employee morale, surveillance, AI, privacy, tech industry, workplace culture, Wired</description>
-      <guid isPermaLink="false">https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/#sha256:9cbc287e7e26fcdf</guid>
-      <category>Meta</category>
-      <category>layoffs</category>
-      <category>employee morale</category>
-      <category>surveillance</category>
-      <category>AI</category>
-      <category>privacy</category>
-      <category>tech industry</category>
-      <category>workplace culture</category>
-      <category>Wired</category>
-      <pubDate>Fri, 15 May 2026 06:53:10 +0800</pubDate>
-    </item>
-    <item>
-      <title>Not so locked in any more 摘要</title>
-      <link>https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything</link>
-      <description>A medium-sized tech company used a coding agent to rewrite its legacy iPhone and Android apps into React Native, citing improved framework capabilities and the reduced cost of future re-rewrites. This reflects a broader trend where programming languages and frameworks are no longer permanent lock-in, as AI-assisted coding lowers the barrier to porting between technologies. The decision was made with the mindset that if React Native proves wrong, they can easily port back to native apps.
-
-标签: react-native, coding-agents, ai-assisted-programming, generative-ai, ai, llms, react, mobile-development, software-engineering, tech-trends</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything#sha256:e0d698f71ea2c433</guid>
-      <category>react-native</category>
-      <category>coding-agents</category>
-      <category>ai-assisted-programming</category>
-      <category>generative-ai</category>
-      <category>ai</category>
-      <category>llms</category>
-      <category>react</category>
-      <category>mobile-development</category>
-      <category>software-engineering</category>
-      <category>tech-trends</category>
-      <pubDate>Fri, 15 May 2026 06:53:49 +0800</pubDate>
+标签: media, commentary, CBS, controversy, quote, news, culture, short-form</description>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=eBKWKu2Rqxc#sha256:bddd73f38f86c9d9</guid>
+      <category>media</category>
+      <category>commentary</category>
+      <category>CBS</category>
+      <category>controversy</category>
+      <category>quote</category>
+      <category>news</category>
+      <category>culture</category>
+      <category>short-form</category>
+      <pubDate>Sat, 16 May 2026 04:12:09 +0800</pubDate>
     </item>
   </channel>
 </rss>
