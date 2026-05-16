@@ -8,100 +8,192 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 16 May 2026 07:26:39 +0800</lastBuildDate>
-    <pubDate>Sat, 16 May 2026 07:26:39 +0800</pubDate>
+    <lastBuildDate>Sun, 17 May 2026 07:25:24 +0800</lastBuildDate>
+    <pubDate>Sun, 17 May 2026 07:25:24 +0800</pubDate>
     <item>
-      <title>Eric Jang – Building AlphaGo from scratch 摘要</title>
-      <link>https://www.dwarkesh.com/p/eric-jang</link>
-      <description>Eric Jang explains how to build AlphaGo from scratch using modern AI tools, highlighting its role as a clean example of intelligence primitives: search, learning from experience, and self-play. He contrasts AlphaGo's Monte Carlo Tree Search (MCTS) with naive policy gradient RL in LLMs, noting MCTS sidesteps the credit assignment problem by providing better actions at each move. The discussion also covers which parts of AI research LLMs can automate (experiments, hyperparameter tuning) and which they struggle with (choosing research questions, escaping dead ends). The conversation includes insights on RL inefficiency and automated AI researchers.
+      <title>Quoting Julia Evans 摘要</title>
+      <link>https://simonwillison.net/2026/May/16/julia-evans/#atom-everything</link>
+      <description>Julia Evans describes her journey moving away from Tailwind CSS and learning to structure CSS properly. She emphasizes respecting CSS as a technology rather than devaluing it, and notes that many frustrations like centering have been addressed in modern CSS. She learned that CSS is hard because it solves a hard problem, and that understanding its nuances leads to better outcomes.
 
-标签: AlphaGo, reinforcement learning, Monte Carlo Tree Search, LLM, AI research, self-play, credit assignment, Go, deep learning, automation</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/eric-jang#sha256:845a3eecac5d2cac</guid>
-      <category>AlphaGo</category>
-      <category>reinforcement learning</category>
-      <category>Monte Carlo Tree Search</category>
+标签: css, tailwind, web-development, frontend, styling, julia-evans, learning, technology</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/16/julia-evans/#atom-everything#sha256:7e02f0625a553e23</guid>
+      <category>css</category>
+      <category>tailwind</category>
+      <category>web-development</category>
+      <category>frontend</category>
+      <category>styling</category>
+      <category>julia-evans</category>
+      <category>learning</category>
+      <category>technology</category>
+      <pubDate>Sun, 17 May 2026 00:45:37 +0800</pubDate>
+    </item>
+    <item>
+      <title>RLVR might be disproportionately bad at science 摘要</title>
+      <link>https://www.dwarkesh.com/p/rlvr-might-be-disproportionately</link>
+      <description>The article explores the difficulty of recognizing scientific progress, especially in the context of AI-driven discovery. It argues that scientific verification loops can span decades or centuries, making it hard to train reinforcement learning for conceptual breakthroughs. Historical examples like Copernicus vs. Ptolemy, Neptune vs. Vulcan, and Prout's hypothesis show that ex ante, it's nearly impossible to distinguish progressive from regressive research programs. Big breakthroughs are often recognized only in hindsight. The author suggests that AI for science needs diverse, persistent research agendas and idiosyncratic biases, akin to human scientists who stubbornly pursue hypotheses despite disconfirming evidence.
+
+标签: scientific progress, AI for science, verification loop, history of science, Copernicus, Ptolemy, Neptune, Vulcan, Prout's hypothesis, parallel discovery</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/rlvr-might-be-disproportionately#sha256:f7aed4463edcd09e</guid>
+      <category>scientific progress</category>
+      <category>AI for science</category>
+      <category>verification loop</category>
+      <category>history of science</category>
+      <category>Copernicus</category>
+      <category>Ptolemy</category>
+      <category>Neptune</category>
+      <category>Vulcan</category>
+      <category>Prout's hypothesis</category>
+      <category>parallel discovery</category>
+      <pubDate>Sun, 17 May 2026 03:00:59 +0800</pubDate>
+    </item>
+    <item>
+      <title>Notes on pretraining parallelisms and failed training runs. 摘要</title>
+      <link>https://www.dwarkesh.com/p/notes-on-pretraining-parallelisms</link>
+      <description>The article discusses reasons why pretraining runs fail, focusing on breaking causality (e.g., expert choice routing, token dropping) and adding bias (e.g., FP16 precision issues in collectives). It also covers pretraining parallelism strategies, explaining FSDP as the default, its communication overhead, and when pipeline parallelism becomes necessary due to compute-communication crossover. The author notes that failures are often bespoke and scale-dependent, and that kernel optimization remains challenging. The piece includes insights from conversations and a lecture by Horace He.
+
+标签: pretraining, parallelism, FSDP, causality, bias, numerics, AI training, kernel optimization, distributed computing, LLM</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/notes-on-pretraining-parallelisms#sha256:d466796de9d9ed0e</guid>
+      <category>pretraining</category>
+      <category>parallelism</category>
+      <category>FSDP</category>
+      <category>causality</category>
+      <category>bias</category>
+      <category>numerics</category>
+      <category>AI training</category>
+      <category>kernel optimization</category>
+      <category>distributed computing</category>
       <category>LLM</category>
-      <category>AI research</category>
-      <category>self-play</category>
-      <category>credit assignment</category>
-      <category>Go</category>
-      <category>deep learning</category>
-      <category>automation</category>
-      <pubDate>Sat, 16 May 2026 00:04:58 +0800</pubDate>
+      <pubDate>Sun, 17 May 2026 03:01:16 +0800</pubDate>
     </item>
     <item>
-      <title>Premium: What If...We're In An AI Bubble? (Part 1) 摘要</title>
-      <link>https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-1/</link>
-      <description>The article criticizes hyperbolic AI predictions, arguing that claims about AGI creating a 'permanent underclass' or eliminating software jobs are unfounded. It debunks myths about Tesla's Optimus robot, METR's time horizon studies, and unrealistic revenue projections for OpenAI and Anthropic. The author highlights a lack of data centers coming online, circular AI revenue among hyperscalers, and the precarious financial positions of companies like Oracle and CoreWeave tied to OpenAI. The piece questions the sustainability of the AI bubble, suggesting massive capital misallocation and potential collapse if promised infrastructure and revenue fail to materialize.
+      <title>The mistake of conflating intelligence and power 摘要</title>
+      <link>https://www.dwarkesh.com/p/the-mistake-of-conflating-intelligence</link>
+      <description>The article critiques the conflation of intelligence with power, arguing that defining intelligence as 'the ability to achieve goals across domains' equates it with power, which would make figures like Stalin or Trump seem most intelligent. The author distinguishes between power-seeking and scientific/technical intelligence, noting that current AI development focuses on coding and collaboration skills, not power. Real-world power stems from authority and trust, not raw cognitive ability. Group-level intelligence matters more than individual brilliance, as seen in national outcomes. AI's impact will likely come through competitive advantages for firms and countries, not a single superintelligent agent outthinking everyone.
 
-标签: AI bubble, AGI hype, data centers, OpenAI, Anthropic, NVIDIA, hyperscalers, tech criticism, economic analysis, Tesla Optimus</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-1/#sha256:1c7b7a7044d50e2d</guid>
-      <category>AI bubble</category>
-      <category>AGI hype</category>
-      <category>data centers</category>
-      <category>OpenAI</category>
-      <category>Anthropic</category>
-      <category>NVIDIA</category>
-      <category>hyperscalers</category>
+标签: intelligence, power, AI, superintelligence, politics, group intelligence, IQ, coordination, technology, society</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/the-mistake-of-conflating-intelligence#sha256:d46fcc14b6020fd6</guid>
+      <category>intelligence</category>
+      <category>power</category>
+      <category>AI</category>
+      <category>superintelligence</category>
+      <category>politics</category>
+      <category>group intelligence</category>
+      <category>IQ</category>
+      <category>coordination</category>
+      <category>technology</category>
+      <category>society</category>
+      <pubDate>Sun, 17 May 2026 03:04:16 +0800</pubDate>
+    </item>
+    <item>
+      <title>ArXiv to Ban Researchers for a Year if They Submit AI Slop 摘要</title>
+      <link>https://www.404media.co/new-arxiv-rules-ai-generated-papers-ban/</link>
+      <description>ArXiv, the preprint repository, has implemented a one-strike policy banning researchers for one year if they submit papers containing unchecked AI-generated content, including inappropriate language, plagiarism, bias, errors, or misleading references. The ban, announced by computer science chair Thomas Dietterich, requires subsequent submissions to first be accepted at a reputable peer-reviewed venue. Decisions are open to appeal. The policy aims to hold authors responsible for verifying LLM outputs in scientific work.
+
+标签: ArXiv, AI policy, academic publishing, LLM, scientific integrity, plagiarism, research ethics, generative AI, preprint, ban</description>
+      <guid isPermaLink="false">https://www.404media.co/new-arxiv-rules-ai-generated-papers-ban/#sha256:933aa689a2d5f408</guid>
+      <category>ArXiv</category>
+      <category>AI policy</category>
+      <category>academic publishing</category>
+      <category>LLM</category>
+      <category>scientific integrity</category>
+      <category>plagiarism</category>
+      <category>research ethics</category>
+      <category>generative AI</category>
+      <category>preprint</category>
+      <category>ban</category>
+      <pubDate>Sun, 17 May 2026 03:27:34 +0800</pubDate>
+    </item>
+    <item>
+      <title>Warelay -&gt; OpenClaw 摘要</title>
+      <link>https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything</link>
+      <description>Simon Willison traced the naming history of his OpenClaw project using a Git history tool he built. Since its first commit in November 2025, the project has undergone six name changes: Warelay → CLAWDIS → CLAWDBOT → Clawdbot → Moltbot → OpenClaw. The tool extracts the first line of each commit message from the README file's Git history, revealing the evolution from a WhatsApp relay CLI to a personal AI assistant. Willison prepared this for a lightning talk at PyCon US 2026.
+
+标签: git, tools, openclaw, naming, history, python, project, evolution</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything#sha256:374f59c3dee36b0a</guid>
+      <category>git</category>
+      <category>tools</category>
+      <category>openclaw</category>
+      <category>naming</category>
+      <category>history</category>
+      <category>python</category>
+      <category>project</category>
+      <category>evolution</category>
+      <pubDate>Sun, 17 May 2026 04:23:30 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ AI Is Technology, Not a Product 摘要</title>
+      <link>https://daringfireball.net/2026/05/ai_is_technology_not_a_product</link>
+      <description>John Gruber critiques Steven Levy's Wired article arguing Apple's next CEO must launch a 'killer AI product' to avoid disruption. Gruber defends Apple's approach of shipping products, not technologies, comparing AI to wireless networking—pervasive but not requiring a single breakthrough device. He dismisses Levy's vision of AI agents obviating phones by 2030, asserting phones will remain central for hailing rides and other tasks. Gruber concludes AI is important but not a threat to the iPhone ecosystem, and Apple's strength lies in integrating AI across devices rather than creating a standalone AI product.
+
+标签: Apple, AI, iPhone, product strategy, John Gruber, Steven Levy, tech criticism, AI hype, mobile ecosystem, wireless networking</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/05/ai_is_technology_not_a_product#sha256:134f7bac75d65d27</guid>
+      <category>Apple</category>
+      <category>AI</category>
+      <category>iPhone</category>
+      <category>product strategy</category>
+      <category>John Gruber</category>
+      <category>Steven Levy</category>
       <category>tech criticism</category>
-      <category>economic analysis</category>
-      <category>Tesla Optimus</category>
-      <pubDate>Sat, 16 May 2026 00:44:27 +0800</pubDate>
+      <category>AI hype</category>
+      <category>mobile ecosystem</category>
+      <category>wireless networking</category>
+      <pubDate>Sun, 17 May 2026 04:32:51 +0800</pubDate>
     </item>
     <item>
-      <title>Aluminium OS: Google’s ‘Android for PC’ OS for Googlebooks 摘要</title>
-      <link>https://aluminium-os.com/</link>
-      <description>John Gruber discusses Google's Aluminium OS (codename ALOS), a new Android-based OS for laptops and desktops, built from Android 17 with a custom window manager, taskbar, virtual desktops, and integrated Gemini AI. He notes that the aluminium-os.com site is unofficial, but the concept is intriguing. Google confirmed Aluminium is only a codename, not the final branding. Gruber praises the OS's ambition to unify ChromeOS and Android, acknowledging Apple's Continuity success, and highlights features like on-device code assistance and natural language automation, positioning it as a potential developer workstation.
+      <title>Santa Clara County Sues Meta Over Alleged Scam Ads 摘要</title>
+      <link>https://sanjosespotlight.com/santa-clara-county-sues-meta-over-alleged-scam-ads/</link>
+      <description>Santa Clara County has filed a lawsuit against Meta, alleging the company deliberately failed to crack down on deceptive ads that defraud users, instead hamstringing its fraud prevention teams and helping fake companies bypass filters. The suit claims Meta earns an estimated $7 billion annually from scam ads and seeks attorney fees and a ruling barring further violations of false advertising and unfair competition laws. The allegations draw from a Pulitzer Prize-winning Reuters investigation suggesting Meta was involved in one-third of all successful U.S. internet scams. Meta has vowed to fight the lawsuit, calling the reporting distorted.
 
-标签: Aluminium OS, Google, Android, ChromeOS, operating system, laptops, desktops, Gemini AI, developer tools, Apple Continuity</description>
-      <guid isPermaLink="false">https://aluminium-os.com/#sha256:3c82a4950b9dba46</guid>
-      <category>Aluminium OS</category>
-      <category>Google</category>
-      <category>Android</category>
-      <category>ChromeOS</category>
-      <category>operating system</category>
-      <category>laptops</category>
-      <category>desktops</category>
-      <category>Gemini AI</category>
-      <category>developer tools</category>
-      <category>Apple Continuity</category>
-      <pubDate>Sat, 16 May 2026 02:37:13 +0800</pubDate>
+标签: Meta, lawsuit, scam ads, fraud, false advertising, unfair competition, Santa Clara County, Reuters, Pulitzer, tech regulation</description>
+      <guid isPermaLink="false">https://sanjosespotlight.com/santa-clara-county-sues-meta-over-alleged-scam-ads/#sha256:05f3729418ca9f91</guid>
+      <category>Meta</category>
+      <category>lawsuit</category>
+      <category>scam ads</category>
+      <category>fraud</category>
+      <category>false advertising</category>
+      <category>unfair competition</category>
+      <category>Santa Clara County</category>
+      <category>Reuters</category>
+      <category>Pulitzer</category>
+      <category>tech regulation</category>
+      <pubDate>Sun, 17 May 2026 05:17:15 +0800</pubDate>
     </item>
     <item>
-      <title>Dropover, a Mac Shelf Utility That Makes Clever Use of Mouse Shaking 摘要</title>
-      <link>https://dropoverapp.com/</link>
-      <description>The article discusses Dropover, a Mac utility that provides a temporary shelf for dragging and dropping files. It highlights the app's clever use of a mouse-shaking gesture to summon the shelf mid-drag, which the author finds intuitive and convenient. Dropover also offers a modifier key option (Shift by default). The author compares it to Yoink, a similar app, noting that Dropover's shake gesture feels natural and doesn't require using the other hand. Dropover is free with a $7 one-time purchase for full features, while Yoink costs $9. Both are recommended for improving drag-and-drop workflows.
+      <title>Reddit Is Blocking Some Users From Accessing Its Website From Mobile Devices 摘要</title>
+      <link>https://arstechnica.com/information-technology/2026/05/why-reddit-blocked-my-daily-visit-to-its-mobile-website/</link>
+      <description>Ars Technica reports that Reddit is testing a new overlay that blocks some mobile web users from accessing the site, forcing them to download the Reddit app instead. The overlay has no close or skip option, and only offers a button to get the app. A Reddit spokesperson confirmed the test targets frequent logged-out mobile users, claiming the app provides a better experience. The author criticizes this as a coercive tactic disguised as user benefit.
 
-标签: Dropover, Yoink, Mac utility, drag and drop, mouse gesture, productivity, Mac app, shelf, file management, review</description>
-      <guid isPermaLink="false">https://dropoverapp.com/#sha256:53a737e3eaec732e</guid>
-      <category>Dropover</category>
-      <category>Yoink</category>
-      <category>Mac utility</category>
-      <category>drag and drop</category>
-      <category>mouse gesture</category>
+标签: Reddit, mobile, app, user experience, dark pattern, web, technology, blocking, test</description>
+      <guid isPermaLink="false">https://arstechnica.com/information-technology/2026/05/why-reddit-blocked-my-daily-visit-to-its-mobile-website/#sha256:7628457578c15aa2</guid>
+      <category>Reddit</category>
+      <category>mobile</category>
+      <category>app</category>
+      <category>user experience</category>
+      <category>dark pattern</category>
+      <category>web</category>
+      <category>technology</category>
+      <category>blocking</category>
+      <category>test</category>
+      <pubDate>Sun, 17 May 2026 05:22:38 +0800</pubDate>
+    </item>
+    <item>
+      <title>How I use LLMs as a staff engineer in 2026 摘要</title>
+      <link>https://seangoedecke.com/how-i-use-llms-in-2026/</link>
+      <description>A staff engineer reflects on how his use of AI has evolved over 15 months. In 2025, he used LLMs for autocomplete, tactical changes, throwaway code, learning, last-resort bugfixes, and proofreading. By early 2026, agents improved dramatically: he now uses them to write entire PRs, investigate all bugs (with 80% success), and handle testing/setup tasks. He still writes his own PR descriptions, ADRs, and public communications, and carefully reviews all code. The key skill is balancing delegation to agents with human oversight.
+
+标签: AI, LLM, agents, software engineering, productivity, code review, bug fixing, testing, staff engineer, Copilot</description>
+      <guid isPermaLink="false">https://seangoedecke.com/how-i-use-llms-in-2026/#sha256:ab199f90d467a8fb</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>agents</category>
+      <category>software engineering</category>
       <category>productivity</category>
-      <category>Mac app</category>
-      <category>shelf</category>
-      <category>file management</category>
-      <category>review</category>
-      <pubDate>Sat, 16 May 2026 03:24:10 +0800</pubDate>
-    </item>
-    <item>
-      <title>Wanton Destruction of CBS Property 摘要</title>
-      <link>https://www.youtube.com/watch?v=eBKWKu2Rqxc</link>
-      <description>The article is a brief post on Daring Fireball, consisting solely of the quote 'Good night and good luck, motherfuckers.' It links to a story about wanton destruction of CBS property, likely referencing a controversial or defiant statement made in a media context. The post is short and serves as a commentary or reaction to an event involving CBS.
-
-标签: media, commentary, CBS, controversy, quote, news, culture, short-form</description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=eBKWKu2Rqxc#sha256:bddd73f38f86c9d9</guid>
-      <category>media</category>
-      <category>commentary</category>
-      <category>CBS</category>
-      <category>controversy</category>
-      <category>quote</category>
-      <category>news</category>
-      <category>culture</category>
-      <category>short-form</category>
-      <pubDate>Sat, 16 May 2026 04:12:09 +0800</pubDate>
+      <category>code review</category>
+      <category>bug fixing</category>
+      <category>testing</category>
+      <category>staff engineer</category>
+      <category>Copilot</category>
+      <pubDate>Sun, 17 May 2026 08:00:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
