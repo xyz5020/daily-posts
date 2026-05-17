@@ -8,192 +8,42 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 17 May 2026 07:25:24 +0800</lastBuildDate>
-    <pubDate>Sun, 17 May 2026 07:25:24 +0800</pubDate>
+    <lastBuildDate>Mon, 18 May 2026 07:26:09 +0800</lastBuildDate>
+    <pubDate>Mon, 18 May 2026 07:26:09 +0800</pubDate>
     <item>
-      <title>Quoting Julia Evans 摘要</title>
-      <link>https://simonwillison.net/2026/May/16/julia-evans/#atom-everything</link>
-      <description>Julia Evans describes her journey moving away from Tailwind CSS and learning to structure CSS properly. She emphasizes respecting CSS as a technology rather than devaluing it, and notes that many frustrations like centering have been addressed in modern CSS. She learned that CSS is hard because it solves a hard problem, and that understanding its nuances leads to better outcomes.
+      <title>Drata 摘要</title>
+      <link>https://drata.com/daring</link>
+      <description>The author thanks Drata for sponsoring last week at DF. Drata's message emphasizes using autonomous AI agents to automate compliance, manage internal and third-party risk, and continuously prove security posture.
 
-标签: css, tailwind, web-development, frontend, styling, julia-evans, learning, technology</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/16/julia-evans/#atom-everything#sha256:7e02f0625a553e23</guid>
-      <category>css</category>
-      <category>tailwind</category>
-      <category>web-development</category>
-      <category>frontend</category>
-      <category>styling</category>
-      <category>julia-evans</category>
+标签: sponsorship, Drata, AI agents, compliance, risk management, security, automation</description>
+      <guid isPermaLink="false">https://drata.com/daring#sha256:05b089febc9552bd</guid>
+      <category>sponsorship</category>
+      <category>Drata</category>
+      <category>AI agents</category>
+      <category>compliance</category>
+      <category>risk management</category>
+      <category>security</category>
+      <category>automation</category>
+      <pubDate>Mon, 18 May 2026 01:59:15 +0800</pubDate>
+    </item>
+    <item>
+      <title>How to be inspired without copying 摘要</title>
+      <link>https://www.joanwestenberg.com/how-to-be-inspired-without-copying/</link>
+      <description>The article explores how true creative inspiration differs from surface-level imitation, using historical examples like Bach transcribing Vivaldi, Hunter S. Thompson typing out Fitzgerald, and Picasso reinterpreting Velázquez. It argues that good copying involves understanding underlying processes rather than mimicking visible features, and that originality emerges from the collision of diverse influences. The author warns against 'cargo cult' creativity and notes that AI now makes surface imitation easy, making deep understanding and judgment more valuable. True apprenticeship requires patient, deep engagement with source material over years.
+
+标签: creativity, imitation, originality, influence, art, writing, music, learning, apprenticeship, AI</description>
+      <guid isPermaLink="false">https://www.joanwestenberg.com/how-to-be-inspired-without-copying/#sha256:4b55d8d668bf201f</guid>
+      <category>creativity</category>
+      <category>imitation</category>
+      <category>originality</category>
+      <category>influence</category>
+      <category>art</category>
+      <category>writing</category>
+      <category>music</category>
       <category>learning</category>
-      <category>technology</category>
-      <pubDate>Sun, 17 May 2026 00:45:37 +0800</pubDate>
-    </item>
-    <item>
-      <title>RLVR might be disproportionately bad at science 摘要</title>
-      <link>https://www.dwarkesh.com/p/rlvr-might-be-disproportionately</link>
-      <description>The article explores the difficulty of recognizing scientific progress, especially in the context of AI-driven discovery. It argues that scientific verification loops can span decades or centuries, making it hard to train reinforcement learning for conceptual breakthroughs. Historical examples like Copernicus vs. Ptolemy, Neptune vs. Vulcan, and Prout's hypothesis show that ex ante, it's nearly impossible to distinguish progressive from regressive research programs. Big breakthroughs are often recognized only in hindsight. The author suggests that AI for science needs diverse, persistent research agendas and idiosyncratic biases, akin to human scientists who stubbornly pursue hypotheses despite disconfirming evidence.
-
-标签: scientific progress, AI for science, verification loop, history of science, Copernicus, Ptolemy, Neptune, Vulcan, Prout's hypothesis, parallel discovery</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/rlvr-might-be-disproportionately#sha256:f7aed4463edcd09e</guid>
-      <category>scientific progress</category>
-      <category>AI for science</category>
-      <category>verification loop</category>
-      <category>history of science</category>
-      <category>Copernicus</category>
-      <category>Ptolemy</category>
-      <category>Neptune</category>
-      <category>Vulcan</category>
-      <category>Prout's hypothesis</category>
-      <category>parallel discovery</category>
-      <pubDate>Sun, 17 May 2026 03:00:59 +0800</pubDate>
-    </item>
-    <item>
-      <title>Notes on pretraining parallelisms and failed training runs. 摘要</title>
-      <link>https://www.dwarkesh.com/p/notes-on-pretraining-parallelisms</link>
-      <description>The article discusses reasons why pretraining runs fail, focusing on breaking causality (e.g., expert choice routing, token dropping) and adding bias (e.g., FP16 precision issues in collectives). It also covers pretraining parallelism strategies, explaining FSDP as the default, its communication overhead, and when pipeline parallelism becomes necessary due to compute-communication crossover. The author notes that failures are often bespoke and scale-dependent, and that kernel optimization remains challenging. The piece includes insights from conversations and a lecture by Horace He.
-
-标签: pretraining, parallelism, FSDP, causality, bias, numerics, AI training, kernel optimization, distributed computing, LLM</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/notes-on-pretraining-parallelisms#sha256:d466796de9d9ed0e</guid>
-      <category>pretraining</category>
-      <category>parallelism</category>
-      <category>FSDP</category>
-      <category>causality</category>
-      <category>bias</category>
-      <category>numerics</category>
-      <category>AI training</category>
-      <category>kernel optimization</category>
-      <category>distributed computing</category>
-      <category>LLM</category>
-      <pubDate>Sun, 17 May 2026 03:01:16 +0800</pubDate>
-    </item>
-    <item>
-      <title>The mistake of conflating intelligence and power 摘要</title>
-      <link>https://www.dwarkesh.com/p/the-mistake-of-conflating-intelligence</link>
-      <description>The article critiques the conflation of intelligence with power, arguing that defining intelligence as 'the ability to achieve goals across domains' equates it with power, which would make figures like Stalin or Trump seem most intelligent. The author distinguishes between power-seeking and scientific/technical intelligence, noting that current AI development focuses on coding and collaboration skills, not power. Real-world power stems from authority and trust, not raw cognitive ability. Group-level intelligence matters more than individual brilliance, as seen in national outcomes. AI's impact will likely come through competitive advantages for firms and countries, not a single superintelligent agent outthinking everyone.
-
-标签: intelligence, power, AI, superintelligence, politics, group intelligence, IQ, coordination, technology, society</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/the-mistake-of-conflating-intelligence#sha256:d46fcc14b6020fd6</guid>
-      <category>intelligence</category>
-      <category>power</category>
+      <category>apprenticeship</category>
       <category>AI</category>
-      <category>superintelligence</category>
-      <category>politics</category>
-      <category>group intelligence</category>
-      <category>IQ</category>
-      <category>coordination</category>
-      <category>technology</category>
-      <category>society</category>
-      <pubDate>Sun, 17 May 2026 03:04:16 +0800</pubDate>
-    </item>
-    <item>
-      <title>ArXiv to Ban Researchers for a Year if They Submit AI Slop 摘要</title>
-      <link>https://www.404media.co/new-arxiv-rules-ai-generated-papers-ban/</link>
-      <description>ArXiv, the preprint repository, has implemented a one-strike policy banning researchers for one year if they submit papers containing unchecked AI-generated content, including inappropriate language, plagiarism, bias, errors, or misleading references. The ban, announced by computer science chair Thomas Dietterich, requires subsequent submissions to first be accepted at a reputable peer-reviewed venue. Decisions are open to appeal. The policy aims to hold authors responsible for verifying LLM outputs in scientific work.
-
-标签: ArXiv, AI policy, academic publishing, LLM, scientific integrity, plagiarism, research ethics, generative AI, preprint, ban</description>
-      <guid isPermaLink="false">https://www.404media.co/new-arxiv-rules-ai-generated-papers-ban/#sha256:933aa689a2d5f408</guid>
-      <category>ArXiv</category>
-      <category>AI policy</category>
-      <category>academic publishing</category>
-      <category>LLM</category>
-      <category>scientific integrity</category>
-      <category>plagiarism</category>
-      <category>research ethics</category>
-      <category>generative AI</category>
-      <category>preprint</category>
-      <category>ban</category>
-      <pubDate>Sun, 17 May 2026 03:27:34 +0800</pubDate>
-    </item>
-    <item>
-      <title>Warelay -&gt; OpenClaw 摘要</title>
-      <link>https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything</link>
-      <description>Simon Willison traced the naming history of his OpenClaw project using a Git history tool he built. Since its first commit in November 2025, the project has undergone six name changes: Warelay → CLAWDIS → CLAWDBOT → Clawdbot → Moltbot → OpenClaw. The tool extracts the first line of each commit message from the README file's Git history, revealing the evolution from a WhatsApp relay CLI to a personal AI assistant. Willison prepared this for a lightning talk at PyCon US 2026.
-
-标签: git, tools, openclaw, naming, history, python, project, evolution</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything#sha256:374f59c3dee36b0a</guid>
-      <category>git</category>
-      <category>tools</category>
-      <category>openclaw</category>
-      <category>naming</category>
-      <category>history</category>
-      <category>python</category>
-      <category>project</category>
-      <category>evolution</category>
-      <pubDate>Sun, 17 May 2026 04:23:30 +0800</pubDate>
-    </item>
-    <item>
-      <title>★ AI Is Technology, Not a Product 摘要</title>
-      <link>https://daringfireball.net/2026/05/ai_is_technology_not_a_product</link>
-      <description>John Gruber critiques Steven Levy's Wired article arguing Apple's next CEO must launch a 'killer AI product' to avoid disruption. Gruber defends Apple's approach of shipping products, not technologies, comparing AI to wireless networking—pervasive but not requiring a single breakthrough device. He dismisses Levy's vision of AI agents obviating phones by 2030, asserting phones will remain central for hailing rides and other tasks. Gruber concludes AI is important but not a threat to the iPhone ecosystem, and Apple's strength lies in integrating AI across devices rather than creating a standalone AI product.
-
-标签: Apple, AI, iPhone, product strategy, John Gruber, Steven Levy, tech criticism, AI hype, mobile ecosystem, wireless networking</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/05/ai_is_technology_not_a_product#sha256:134f7bac75d65d27</guid>
-      <category>Apple</category>
-      <category>AI</category>
-      <category>iPhone</category>
-      <category>product strategy</category>
-      <category>John Gruber</category>
-      <category>Steven Levy</category>
-      <category>tech criticism</category>
-      <category>AI hype</category>
-      <category>mobile ecosystem</category>
-      <category>wireless networking</category>
-      <pubDate>Sun, 17 May 2026 04:32:51 +0800</pubDate>
-    </item>
-    <item>
-      <title>Santa Clara County Sues Meta Over Alleged Scam Ads 摘要</title>
-      <link>https://sanjosespotlight.com/santa-clara-county-sues-meta-over-alleged-scam-ads/</link>
-      <description>Santa Clara County has filed a lawsuit against Meta, alleging the company deliberately failed to crack down on deceptive ads that defraud users, instead hamstringing its fraud prevention teams and helping fake companies bypass filters. The suit claims Meta earns an estimated $7 billion annually from scam ads and seeks attorney fees and a ruling barring further violations of false advertising and unfair competition laws. The allegations draw from a Pulitzer Prize-winning Reuters investigation suggesting Meta was involved in one-third of all successful U.S. internet scams. Meta has vowed to fight the lawsuit, calling the reporting distorted.
-
-标签: Meta, lawsuit, scam ads, fraud, false advertising, unfair competition, Santa Clara County, Reuters, Pulitzer, tech regulation</description>
-      <guid isPermaLink="false">https://sanjosespotlight.com/santa-clara-county-sues-meta-over-alleged-scam-ads/#sha256:05f3729418ca9f91</guid>
-      <category>Meta</category>
-      <category>lawsuit</category>
-      <category>scam ads</category>
-      <category>fraud</category>
-      <category>false advertising</category>
-      <category>unfair competition</category>
-      <category>Santa Clara County</category>
-      <category>Reuters</category>
-      <category>Pulitzer</category>
-      <category>tech regulation</category>
-      <pubDate>Sun, 17 May 2026 05:17:15 +0800</pubDate>
-    </item>
-    <item>
-      <title>Reddit Is Blocking Some Users From Accessing Its Website From Mobile Devices 摘要</title>
-      <link>https://arstechnica.com/information-technology/2026/05/why-reddit-blocked-my-daily-visit-to-its-mobile-website/</link>
-      <description>Ars Technica reports that Reddit is testing a new overlay that blocks some mobile web users from accessing the site, forcing them to download the Reddit app instead. The overlay has no close or skip option, and only offers a button to get the app. A Reddit spokesperson confirmed the test targets frequent logged-out mobile users, claiming the app provides a better experience. The author criticizes this as a coercive tactic disguised as user benefit.
-
-标签: Reddit, mobile, app, user experience, dark pattern, web, technology, blocking, test</description>
-      <guid isPermaLink="false">https://arstechnica.com/information-technology/2026/05/why-reddit-blocked-my-daily-visit-to-its-mobile-website/#sha256:7628457578c15aa2</guid>
-      <category>Reddit</category>
-      <category>mobile</category>
-      <category>app</category>
-      <category>user experience</category>
-      <category>dark pattern</category>
-      <category>web</category>
-      <category>technology</category>
-      <category>blocking</category>
-      <category>test</category>
-      <pubDate>Sun, 17 May 2026 05:22:38 +0800</pubDate>
-    </item>
-    <item>
-      <title>How I use LLMs as a staff engineer in 2026 摘要</title>
-      <link>https://seangoedecke.com/how-i-use-llms-in-2026/</link>
-      <description>A staff engineer reflects on how his use of AI has evolved over 15 months. In 2025, he used LLMs for autocomplete, tactical changes, throwaway code, learning, last-resort bugfixes, and proofreading. By early 2026, agents improved dramatically: he now uses them to write entire PRs, investigate all bugs (with 80% success), and handle testing/setup tasks. He still writes his own PR descriptions, ADRs, and public communications, and carefully reviews all code. The key skill is balancing delegation to agents with human oversight.
-
-标签: AI, LLM, agents, software engineering, productivity, code review, bug fixing, testing, staff engineer, Copilot</description>
-      <guid isPermaLink="false">https://seangoedecke.com/how-i-use-llms-in-2026/#sha256:ab199f90d467a8fb</guid>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>agents</category>
-      <category>software engineering</category>
-      <category>productivity</category>
-      <category>code review</category>
-      <category>bug fixing</category>
-      <category>testing</category>
-      <category>staff engineer</category>
-      <category>Copilot</category>
-      <pubDate>Sun, 17 May 2026 08:00:00 +0800</pubDate>
+      <pubDate>Mon, 18 May 2026 06:33:32 +0800</pubDate>
     </item>
   </channel>
 </rss>
