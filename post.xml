@@ -8,175 +8,44 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 19 May 2026 07:31:24 +0800</lastBuildDate>
-    <pubDate>Tue, 19 May 2026 07:31:24 +0800</pubDate>
+    <lastBuildDate>Wed, 20 May 2026 07:33:04 +0800</lastBuildDate>
+    <pubDate>Wed, 20 May 2026 07:33:04 +0800</pubDate>
     <item>
-      <title>‘AI, “Humanity”, and Dr. Manhattan Syndrome’ 摘要</title>
-      <link>https://www.personfamiliar.com/p/ai-humanity-and-dr-manhattan-syndrome</link>
-      <description>Jim Prosser draws a parallel between the communications failures of the nuclear power industry and those of AI leaders today. He argues that nuclear power's decline was caused by actual disasters, not just poor communication, but the industry's failure to build public trust left it vulnerable. Similarly, AI leaders like Greg Brockman address public anxiety about job loss, privacy, and creative work with abstract philosophical rhetoric rather than concrete human-scale concerns. Prosser warns that this disconnect risks repeating history, where the public's legitimate worries are dismissed, leading to a loss of trust and potential backlash against AI.
+      <title>The hardware needs of our mail system (as of mid 2026) 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OurMailSystemHardware</link>
+      <description>A university department's email system requires at least seven dedicated servers: an external mail gateway, an anti-spam/anti-virus server, a central mail machine, a spam forwarding server, an unauthenticated mail submission server, an IMAP/authenticated SMTP server with local storage, and a webmail frontend. These servers rely on shared infrastructure like NFS fileservers and DNS. The IMAP server is the most powerful, with 64 GB RAM and SSDs, and costs are significant, especially for new hardware. The system serves over 1,000 active users with about 1.5 TB of inboxes and 10,000 inbound messages daily.
 
-标签: AI, public trust, communication, nuclear power, technology ethics, risk perception, AI safety, public perception, history, technology criticism</description>
-      <guid isPermaLink="false">https://www.personfamiliar.com/p/ai-humanity-and-dr-manhattan-syndrome#sha256:00ad89bf6518a30e</guid>
+标签: email, system administration, university IT, server infrastructure, IMAP, anti-spam, NFS, hardware costs, mail server, IT operations</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OurMailSystemHardware#sha256:4b5915757f691eea</guid>
+      <category>email</category>
+      <category>system administration</category>
+      <category>university IT</category>
+      <category>server infrastructure</category>
+      <category>IMAP</category>
+      <category>anti-spam</category>
+      <category>NFS</category>
+      <category>hardware costs</category>
+      <category>mail server</category>
+      <category>IT operations</category>
+      <pubDate>Wed, 20 May 2026 05:08:56 +0800</pubDate>
+    </item>
+    <item>
+      <title>Gemini 3.5 Flash: more expensive, but Google plan to use it for everything 摘要</title>
+      <link>https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything</link>
+      <description>Google released Gemini 3.5 Flash at Google I/O, skipping preview and going straight to general availability. It powers Gemini app, AI Mode in Search, Antigravity platform, and enterprise products. The model supports 1M input tokens and 65K output tokens, with a knowledge cutoff of January 2025. A new Interactions API (beta) offers server-side history management. Pricing increased significantly: 3x the cost of 3 Flash Preview and 6x of 3.1 Flash-Lite, at $1.50/M input and $9/M output. This follows industry trends of rising LLM prices. Gemini 3.5 Pro is expected next month.
+
+标签: Google, AI, Gemini, LLM, pricing, Google I/O, API, generative AI, model release</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything#sha256:b8d2747f34868faf</guid>
+      <category>Google</category>
       <category>AI</category>
-      <category>public trust</category>
-      <category>communication</category>
-      <category>nuclear power</category>
-      <category>technology ethics</category>
-      <category>risk perception</category>
-      <category>AI safety</category>
-      <category>public perception</category>
-      <category>history</category>
-      <category>technology criticism</category>
-      <pubDate>Tue, 19 May 2026 00:21:35 +0800</pubDate>
-    </item>
-    <item>
-      <title>Existing Stakeholders Have a Say in the Future 摘要</title>
-      <link>https://daringfireball.net/2026/05/ai_is_technology_not_a_product</link>
-      <description>John Gruber responds to Steven Levy's vision of AI agents replacing ride-hailing apps by arguing that entrenched stakeholders like Uber and Lyft will resist such disruption. He notes that these companies control their platforms and may not cede control to AI providers like OpenAI or Anthropic. Drawing a parallel to Walmart's refusal to accept Apple Pay, Gruber emphasizes that existing players often slow technological adoption rather than passively being replaced. He concludes that assuming all companies will embrace AI-driven changes is naive.
-
-标签: AI, technology, business, Uber, Lyft, Apple Pay, disruption, stakeholders, hype, platforms</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/05/ai_is_technology_not_a_product#sha256:5d3a1684bfc627e1</guid>
-      <category>AI</category>
-      <category>technology</category>
-      <category>business</category>
-      <category>Uber</category>
-      <category>Lyft</category>
-      <category>Apple Pay</category>
-      <category>disruption</category>
-      <category>stakeholders</category>
-      <category>hype</category>
-      <category>platforms</category>
-      <pubDate>Tue, 19 May 2026 00:47:08 +0800</pubDate>
-    </item>
-    <item>
-      <title>Ted Turner’s Small Apartment Above the Former CNN Center 摘要</title>
-      <link>https://www.youtube.com/watch?v=OUIVs58oyPI</link>
-      <description>Ted Turner, the media mogul who founded CNN, is remembered for his audacious yet humble nature, epitomized by his small apartment above the former CNN Center. This living arrangement, reminiscent of Walt Disney's apartment above the fire station at Disneyland, reflects Turner's unique character and legacy following his recent death.
-
-标签: Ted Turner, CNN, media, obituary, humble living, legacy, Walt Disney, Disneyland, entrepreneurship, history</description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=OUIVs58oyPI#sha256:84f7628ccf58418b</guid>
-      <category>Ted Turner</category>
-      <category>CNN</category>
-      <category>media</category>
-      <category>obituary</category>
-      <category>humble living</category>
-      <category>legacy</category>
-      <category>Walt Disney</category>
-      <category>Disneyland</category>
-      <category>entrepreneurship</category>
-      <category>history</category>
-      <pubDate>Tue, 19 May 2026 00:52:03 +0800</pubDate>
-    </item>
-    <item>
-      <title>Define ‘Boom’ Please 摘要</title>
-      <link>https://www.nytimes.com/2026/04/21/business/how-apple-became-a-4-trillion-company-under-tim-cook.html?unlocked_article_code=1.jVA.MV8m.0JfUOJOME5WH</link>
-      <description>John Gruber critiques a New York Times article claiming Apple missed the AI boom. He argues that while Nvidia benefits from AI hardware sales, Apple doesn't compete with Nvidia and has avoided funneling cash into AI datacenters. Gruber contends that calling AI a 'boom' for Apple's peers is misleading, as AI spending is currently a money pit rather than a proven profit source. Apple's profits and stock remain strong despite not chasing AI infrastructure.
-
-标签: Apple, AI, Tim Cook, Nvidia, datacenter, profits, stock, tech industry, analysis</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/04/21/business/how-apple-became-a-4-trillion-company-under-tim-cook.html?unlocked_article_code=1.jVA.MV8m.0JfUOJOME5WH#sha256:a22fb795051008a6</guid>
-      <category>Apple</category>
-      <category>AI</category>
-      <category>Tim Cook</category>
-      <category>Nvidia</category>
-      <category>datacenter</category>
-      <category>profits</category>
-      <category>stock</category>
-      <category>tech industry</category>
-      <category>analysis</category>
-      <pubDate>Tue, 19 May 2026 01:17:02 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘John Appleseed’ 摘要</title>
-      <link>https://om.co/2026/04/20/john-appleseed/</link>
-      <description>Tim Cook's leadership at Apple since 2011 saw market cap rise from $350 billion to $4 trillion, revenue quadruple to $416 billion, and Services grow into a $100 billion business. While Cook inherited a strong product portfolio, he maintained operational excellence through challenges like a pandemic and trade wars. Though not a product visionary like Steve Jobs, Cook's key achievement was not disrupting Apple's success. Services alone now matches Apple's entire size when Cook took over, highlighting the difficulty of sustaining success.
-
-标签: Apple, Tim Cook, leadership, business, Services, market cap, revenue, operations, succession, tech industry</description>
-      <guid isPermaLink="false">https://om.co/2026/04/20/john-appleseed/#sha256:a3e4a4a0f2ef0a23</guid>
-      <category>Apple</category>
-      <category>Tim Cook</category>
-      <category>leadership</category>
-      <category>business</category>
-      <category>Services</category>
-      <category>market cap</category>
-      <category>revenue</category>
-      <category>operations</category>
-      <category>succession</category>
-      <category>tech industry</category>
-      <pubDate>Tue, 19 May 2026 01:34:46 +0800</pubDate>
-    </item>
-    <item>
-      <title>Jury Rejects Elon Musk’s Claim Against Sam Altman in Unanimous Verdict 摘要</title>
-      <link>https://www.nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ</link>
-      <description>A unanimous jury rejected Elon Musk's lawsuit against OpenAI and Sam Altman, ruling that the claim was filed after the three-year statute of limitations expired. Musk filed the suit in summer 2024, but the jury found he was aware of the alleged misconduct as early as 2021. Judge Yvonne Gonzalez Rogers delivered poetic jury instructions, praising the jury as a temporary, impartial body that reflects community values and has no ambition.
-
-标签: OpenAI, Elon Musk, Sam Altman, lawsuit, jury verdict, statute of limitations, artificial intelligence, legal, New York Times, Daring Fireball</description>
-      <guid isPermaLink="false">https://www.nytimes.com/live/2026/05/18/technology/openai-trial-verdict-altman-musk?unlocked_article_code=1.jVA.Cc2V.IwYuu2r4SJfQ#sha256:3146334f5b4f8242</guid>
-      <category>OpenAI</category>
-      <category>Elon Musk</category>
-      <category>Sam Altman</category>
-      <category>lawsuit</category>
-      <category>jury verdict</category>
-      <category>statute of limitations</category>
-      <category>artificial intelligence</category>
-      <category>legal</category>
-      <category>New York Times</category>
-      <category>Daring Fireball</category>
-      <pubDate>Tue, 19 May 2026 01:53:33 +0800</pubDate>
-    </item>
-    <item>
-      <title>Something’s Rotten in the State of macOS Icon Design 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/rotten-macos-icon-design/</link>
-      <description>The article critiques the decline in macOS icon design quality, noting that Apple's recent icons, when viewed in reverse chronological order, appear to regress in creativity and detail. The author argues that Apple's restrictive design guidelines, particularly the squircle shape, have homogenized icons across the platform, making even third-party apps like BBEdit and Fantastical look less distinctive. While some designers still produce excellent work, Apple's own icons set a poor standard, limiting the entire ecosystem's visual potential.
-
-标签: macOS, icon design, Apple, UI design, design trends, software aesthetics, Apple guidelines, third-party apps, visual regression</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/rotten-macos-icon-design/#sha256:372fd3a38edd7ab4</guid>
-      <category>macOS</category>
-      <category>icon design</category>
-      <category>Apple</category>
-      <category>UI design</category>
-      <category>design trends</category>
-      <category>software aesthetics</category>
-      <category>Apple guidelines</category>
-      <category>third-party apps</category>
-      <category>visual regression</category>
-      <pubDate>Tue, 19 May 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>10Gb/s Ethernet: using mini-heatsinks with a 10GBASE-T SFP+ module 摘要</title>
-      <link>https://www.gilesthomas.com/2026/05/10g-ethernet-sfpplus-mini-heatsinks</link>
-      <description>The author tested mini-heatsinks on a MikroTik 10GBASE-T SFP+ module to reduce high temperatures. After attaching two heatsinks, the module's temperature dropped by about 3.5°C over 24 hours, a modest improvement. The post also discusses two generations of SFP+ modules: older ones (like the MikroTik S+RJ10) using Marvell chips rated for 30 meters, and newer ones using Broadcom chips rated for 100 meters. The author considers switching to newer modules but will wait unless summer heat causes issues.
-
-标签: networking, 10GbE, SFP+, heatsink, temperature, MikroTik, hardware, cooling, homelab</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/05/10g-ethernet-sfpplus-mini-heatsinks#sha256:78ccf14994835879</guid>
-      <category>networking</category>
-      <category>10GbE</category>
-      <category>SFP+</category>
-      <category>heatsink</category>
-      <category>temperature</category>
-      <category>MikroTik</category>
-      <category>hardware</category>
-      <category>cooling</category>
-      <category>homelab</category>
-      <pubDate>Tue, 19 May 2026 03:15:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>CISA Admin Leaked AWS GovCloud Keys on Github 摘要</title>
-      <link>https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/</link>
-      <description>A CISA contractor exposed highly sensitive credentials and internal system details in a public GitHub repository named 'Private-CISA' from November 2025 until mid-May 2026. The leak included AWS GovCloud admin keys, plaintext passwords for dozens of internal systems, and code repository access. Security researchers from GitGuardian and Seralys discovered the exposure, noting that the contractor had disabled GitHub's secret detection feature. CISA acknowledged the incident but claimed no data compromise occurred. The repository was taken down, but exposed AWS keys remained valid for 48 hours afterward.
-
-标签: CISA, data leak, GitHub, AWS GovCloud, credentials exposure, government security, contractor, security breach, cloud security, DevSecOps</description>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/#sha256:be0f7761a279dad5</guid>
-      <category>CISA</category>
-      <category>data leak</category>
-      <category>GitHub</category>
-      <category>AWS GovCloud</category>
-      <category>credentials exposure</category>
-      <category>government security</category>
-      <category>contractor</category>
-      <category>security breach</category>
-      <category>cloud security</category>
-      <category>DevSecOps</category>
-      <pubDate>Tue, 19 May 2026 04:48:21 +0800</pubDate>
+      <category>Gemini</category>
+      <category>LLM</category>
+      <category>pricing</category>
+      <category>Google I/O</category>
+      <category>API</category>
+      <category>generative AI</category>
+      <category>model release</category>
+      <pubDate>Wed, 20 May 2026 06:40:25 +0800</pubDate>
     </item>
   </channel>
 </rss>
