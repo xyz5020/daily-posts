@@ -8,44 +8,99 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 May 2026 07:33:04 +0800</lastBuildDate>
-    <pubDate>Wed, 20 May 2026 07:33:04 +0800</pubDate>
+    <lastBuildDate>Thu, 21 May 2026 07:34:51 +0800</lastBuildDate>
+    <pubDate>Thu, 21 May 2026 07:34:51 +0800</pubDate>
     <item>
-      <title>The hardware needs of our mail system (as of mid 2026) 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OurMailSystemHardware</link>
-      <description>A university department's email system requires at least seven dedicated servers: an external mail gateway, an anti-spam/anti-virus server, a central mail machine, a spam forwarding server, an unauthenticated mail submission server, an IMAP/authenticated SMTP server with local storage, and a webmail frontend. These servers rely on shared infrastructure like NFS fileservers and DNS. The IMAP server is the most powerful, with 64 GB RAM and SSDs, and costs are significant, especially for new hardware. The system serves over 1,000 active users with about 1.5 TB of inboxes and 10,000 inbound messages daily.
+      <title>How fast is 10 tokens per second really? 摘要</title>
+      <link>https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything</link>
+      <description>Mike Veerman created a simple HTML app that simulates LLM token output speeds ranging from 5 to 800 tokens per second. The tool helps users visualize what different token rates look like in practice, making it easier to understand advertised speeds like '30 tokens/second'. The source code is available on GitHub.
 
-标签: email, system administration, university IT, server infrastructure, IMAP, anti-spam, NFS, hardware costs, mail server, IT operations</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OurMailSystemHardware#sha256:4b5915757f691eea</guid>
-      <category>email</category>
-      <category>system administration</category>
-      <category>university IT</category>
-      <category>server infrastructure</category>
-      <category>IMAP</category>
-      <category>anti-spam</category>
-      <category>NFS</category>
-      <category>hardware costs</category>
-      <category>mail server</category>
-      <category>IT operations</category>
-      <pubDate>Wed, 20 May 2026 05:08:56 +0800</pubDate>
+标签: AI, LLM, token speed, simulation, visualization, developer tools, generative AI, performance</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything#sha256:3c524ea7673e6eac</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>token speed</category>
+      <category>simulation</category>
+      <category>visualization</category>
+      <category>developer tools</category>
+      <category>generative AI</category>
+      <category>performance</category>
+      <pubDate>Thu, 21 May 2026 01:57:45 +0800</pubDate>
     </item>
     <item>
-      <title>Gemini 3.5 Flash: more expensive, but Google plan to use it for everything 摘要</title>
-      <link>https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything</link>
-      <description>Google released Gemini 3.5 Flash at Google I/O, skipping preview and going straight to general availability. It powers Gemini app, AI Mode in Search, Antigravity platform, and enterprise products. The model supports 1M input tokens and 65K output tokens, with a knowledge cutoff of January 2025. A new Interactions API (beta) offers server-side history management. Pricing increased significantly: 3x the cost of 3 Flash Preview and 6x of 3.1 Flash-Lite, at $1.50/M input and $9/M output. This follows industry trends of rising LLM prices. Gemini 3.5 Pro is expected next month.
+      <title>‘You Do Not Need Fancy Equipment, You Do Not Need a Degree, to Make Money and to Do This as Your Job’ 摘要</title>
+      <link>https://www.tiktok.com/@brye.shhh/video/7641047549758934285</link>
+      <description>Pop singer-songwriter Brye reveals that her hit song 'Lemons,' which went viral in 2020 and has been streamed over 100 million times, was produced entirely on GarageBand using a school-issued iPad. She recorded it with a cheap plug-in microphone and posted it to spite someone. Brye emphasizes that expensive equipment or a degree is unnecessary to succeed in music, as GarageBand is free on Apple devices. Her story exemplifies Apple's mission to empower creativity with accessible tools.
 
-标签: Google, AI, Gemini, LLM, pricing, Google I/O, API, generative AI, model release</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything#sha256:b8d2747f34868faf</guid>
+标签: GarageBand, iPad, music production, viral hit, DIY music, Apple, creativity, indie artist, TikTok, success story</description>
+      <guid isPermaLink="false">https://www.tiktok.com/@brye.shhh/video/7641047549758934285#sha256:7c30149b9b9207eb</guid>
+      <category>GarageBand</category>
+      <category>iPad</category>
+      <category>music production</category>
+      <category>viral hit</category>
+      <category>DIY music</category>
+      <category>Apple</category>
+      <category>creativity</category>
+      <category>indie artist</category>
+      <category>TikTok</category>
+      <category>success story</category>
+      <pubDate>Thu, 21 May 2026 04:53:22 +0800</pubDate>
+    </item>
+    <item>
+      <title>NYT: ‘Powered by A.I., Google Changes Its Search Box for the First Time in 25 Years’ 摘要</title>
+      <link>https://www.nytimes.com/2026/05/19/business/google-seach-bar-ai-gemini.html?unlocked_article_code=1.jlA.95yh.ptfBUHf-rBtB&amp;smid=url-share</link>
+      <description>Google I/O 2026 keynote announced the first redesign of Google's search bar since 2001, making it larger and more interactive to support longer queries, images, and videos. The update also introduces chatbot follow-ups and AI agents that automate searches like apartment listings, potentially bypassing sites like Zillow. While Google frames this as user convenience, analysts warn it accelerates the decline of the open web, reducing other sites to raw data providers. Google's ad revenue and profit have surged, with annual profit doubling to $132 billion since 2022.
+
+标签: Google, AI, search, Google I/O, open web, advertising, technology, user experience, data</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/05/19/business/google-seach-bar-ai-gemini.html?unlocked_article_code=1.jlA.95yh.ptfBUHf-rBtB&amp;smid=url-share#sha256:e9c9cff16c0c7a12</guid>
       <category>Google</category>
       <category>AI</category>
-      <category>Gemini</category>
-      <category>LLM</category>
-      <category>pricing</category>
+      <category>search</category>
       <category>Google I/O</category>
-      <category>API</category>
-      <category>generative AI</category>
-      <category>model release</category>
-      <pubDate>Wed, 20 May 2026 06:40:25 +0800</pubDate>
+      <category>open web</category>
+      <category>advertising</category>
+      <category>technology</category>
+      <category>user experience</category>
+      <category>data</category>
+      <pubDate>Thu, 21 May 2026 05:20:23 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting SpaceX S-1 摘要</title>
+      <link>https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything</link>
+      <description>SpaceX disclosed in an SEC filing that it entered into cloud services agreements with Anthropic in May 2026, providing compute capacity from its COLOSSUS and COLOSSUS II data centers. Anthropic will pay $1.25 billion per month through May 2029, with reduced fees during the ramp-up period. The agreements can be terminated by either party with 90 days' notice. SpaceX also uses these compute resources for its own AI applications, including training Grok 5 at COLOSSUS II.
+
+标签: SpaceX, Anthropic, cloud computing, AI, Grok, COLOSSUS, SEC filing, compute capacity, data center, partnership</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything#sha256:82e130cd93ef5731</guid>
+      <category>SpaceX</category>
+      <category>Anthropic</category>
+      <category>cloud computing</category>
+      <category>AI</category>
+      <category>Grok</category>
+      <category>COLOSSUS</category>
+      <category>SEC filing</category>
+      <category>compute capacity</category>
+      <category>data center</category>
+      <category>partnership</category>
+      <pubDate>Thu, 21 May 2026 06:26:36 +0800</pubDate>
+    </item>
+    <item>
+      <title>Read Cindy Cohn's new book, Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance 摘要</title>
+      <link>https://micahflee.com/read-cindy-cohns-new-book-privacys-defender-my-thirty-year-fight-against-digital-surveillance/</link>
+      <description>Cindy Cohn's memoir 'Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance' recounts three major legal battles: freeing cryptography from government control in the 1990s (establishing code as speech), challenging NSA mass surveillance after whistleblower Mark Klein's revelations and Edward Snowden's leaks, and fighting against unaccountable National Security Letters with gag orders. The book interweaves personal stories with legal history. EFF technologist Micah Lee, who helped connect Snowden with journalists, is mentioned for his role in the NSA spying case.
+
+标签: privacy, surveillance, cryptography, NSA, EFF, digital rights, memoir, legal, whistleblower, First Amendment</description>
+      <guid isPermaLink="false">https://micahflee.com/read-cindy-cohns-new-book-privacys-defender-my-thirty-year-fight-against-digital-surveillance/#sha256:e655eea07026e9e1</guid>
+      <category>privacy</category>
+      <category>surveillance</category>
+      <category>cryptography</category>
+      <category>NSA</category>
+      <category>EFF</category>
+      <category>digital rights</category>
+      <category>memoir</category>
+      <category>legal</category>
+      <category>whistleblower</category>
+      <category>First Amendment</category>
+      <pubDate>Thu, 21 May 2026 06:36:13 +0800</pubDate>
     </item>
   </channel>
 </rss>
