@@ -8,99 +8,157 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 21 May 2026 07:34:51 +0800</lastBuildDate>
-    <pubDate>Thu, 21 May 2026 07:34:51 +0800</pubDate>
+    <lastBuildDate>Fri, 22 May 2026 07:31:05 +0800</lastBuildDate>
+    <pubDate>Fri, 22 May 2026 07:31:05 +0800</pubDate>
     <item>
-      <title>How fast is 10 tokens per second really? 摘要</title>
-      <link>https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything</link>
-      <description>Mike Veerman created a simple HTML app that simulates LLM token output speeds ranging from 5 to 800 tokens per second. The tool helps users visualize what different token rates look like in practice, making it easier to understand advertised speeds like '30 tokens/second'. The source code is available on GitHub.
+      <title>Anthropic's "Profitability" Swindle 摘要</title>
+      <link>https://www.wheresyoured.at/anthropics-profitability-swindle/</link>
+      <description>Anthropic is projected to achieve its first operating profit of $559 million in Q2 2026, with revenue doubling to $10.9 billion. However, analysis reveals this profitability is largely artificial, driven by a discounted compute deal with SpaceX that reduces costs during May and June. The company's costs otherwise scale linearly with revenue. Additionally, Anthropic's reported revenue figures are inconsistent with previous ARR claims and CFO statements under oath, suggesting potential accounting maneuvers such as prepaid tokens or front-loaded commitments. The profit appears to be a temporary accounting artifact rather than sustainable business improvement.
 
-标签: AI, LLM, token speed, simulation, visualization, developer tools, generative AI, performance</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything#sha256:3c524ea7673e6eac</guid>
+标签: Anthropic, AI, profitability, accounting, SpaceX, revenue, costs, EBITDA, fundraising, tech industry</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/anthropics-profitability-swindle/#sha256:9caba10aa6c23a68</guid>
+      <category>Anthropic</category>
+      <category>AI</category>
+      <category>profitability</category>
+      <category>accounting</category>
+      <category>SpaceX</category>
+      <category>revenue</category>
+      <category>costs</category>
+      <category>EBITDA</category>
+      <category>fundraising</category>
+      <category>tech industry</category>
+      <pubDate>Fri, 22 May 2026 01:08:19 +0800</pubDate>
+    </item>
+    <item>
+      <title>Couth and uncouth function pairs 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/21/couth-and-uncouth-function-pairs/</link>
+      <description>The article introduces the terms 'couth' and 'uncouth' for pairs of circular and hyperbolic functions (e.g., sin/sinh, cos/cosh) based on whether the identity i·arcfoo(w) = arcfooh(cw) holds. Using Python's NumPy, sin/sinh and tan/tanh are couth, while cos/cosh is uncouth. The reciprocal functions (sec, csc, cot) and their hyperbolic counterparts also exhibit couth/uncouth behavior depending on definitions. The author notes that NumPy wisely omits these reciprocal functions due to definitional ambiguities, as different definitions can change couth status.
+
+标签: mathematics, trigonometry, hyperbolic functions, inverse functions, couth, uncouth, NumPy, Python, complex analysis, function pairs</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/21/couth-and-uncouth-function-pairs/#sha256:b0643e5f78b56dee</guid>
+      <category>mathematics</category>
+      <category>trigonometry</category>
+      <category>hyperbolic functions</category>
+      <category>inverse functions</category>
+      <category>couth</category>
+      <category>uncouth</category>
+      <category>NumPy</category>
+      <category>Python</category>
+      <category>complex analysis</category>
+      <category>function pairs</category>
+      <pubDate>Fri, 22 May 2026 01:31:13 +0800</pubDate>
+    </item>
+    <item>
+      <title>datasette-agent-sprites 0.1a0 摘要</title>
+      <link>https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything</link>
+      <description>Datasette Agent Sprites 0.1a0 is a plugin for Datasette Agent that enables running commands in a Fly Sprites sandbox. It provides a secure, isolated environment for executing code or scripts within the Datasette ecosystem, leveraging Fly's sandboxing technology. This initial alpha release allows users to integrate sandboxed command execution into their Datasette workflows, enhancing security for untrusted operations.
+
+标签: datasette, datasette-agent, sandboxing, fly, sprites, plugin, security, alpha-release</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything#sha256:e5b537b657071cb4</guid>
+      <category>datasette</category>
+      <category>datasette-agent</category>
+      <category>sandboxing</category>
+      <category>fly</category>
+      <category>sprites</category>
+      <category>plugin</category>
+      <category>security</category>
+      <category>alpha-release</category>
+      <pubDate>Fri, 22 May 2026 02:21:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>Book Notes: “Poor Charlie’s Almanack” 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/</link>
+      <description>The author reflects on Charles T. Munger's philosophy from 'Poor Charlie's Almanack', emphasizing practicality and simplicity in problem-solving. Munger attributes Berkshire's success to avoiding hard problems and focusing on easy, actionable solutions, like jumping a low fence instead of a high one. His approach involves eliminating what not to do, applying multidisciplinary thinking, and acting decisively when conditions are right. Munger rejects the idea of avoiding mistakes, advocating instead for making fewer mistakes and fixing them quickly. The author appreciates Munger's straightforward, ego-free perspective, contrasting it with typical social media content.
+
+标签: book review, Charlie Munger, investing, problem solving, practicality, simplicity, decision making, philosophy, business, wisdom</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/#sha256:620fb99161646c9d</guid>
+      <category>book review</category>
+      <category>Charlie Munger</category>
+      <category>investing</category>
+      <category>problem solving</category>
+      <category>practicality</category>
+      <category>simplicity</category>
+      <category>decision making</category>
+      <category>philosophy</category>
+      <category>business</category>
+      <category>wisdom</category>
+      <pubDate>Fri, 22 May 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Apple Sports Expands to More Than 90 New Countries on Cusp of World Cup 摘要</title>
+      <link>https://www.apple.com/newsroom/2026/05/apple-sports-expands-to-more-than-90-new-countries-and-regions/</link>
+      <description>Apple Sports, the free iPhone app for real-time scores and stats, has expanded to over 170 countries, adding 90+ new markets. Designed for speed and simplicity, it offers personalized scoreboards and Live Activities on Lock Screen and Apple Watch. The app helps fans prepare for the World Cup by allowing tournament grouping and team following. While the UI has some quirks, such as a zero-sum team stats visualization, the app is fast and reliable, with sports-related promotions that don't obscure content. It remains the go-to for score checking except for baseball. The app is iPhone-only, which some find charming.
+
+标签: Apple, Sports, iPhone, App, World Cup, Live Activities, Scoreboard, UI, Expansion, iOS</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/05/apple-sports-expands-to-more-than-90-new-countries-and-regions/#sha256:e7ea18886b37dfb6</guid>
+      <category>Apple</category>
+      <category>Sports</category>
+      <category>iPhone</category>
+      <category>App</category>
+      <category>World Cup</category>
+      <category>Live Activities</category>
+      <category>Scoreboard</category>
+      <category>UI</category>
+      <category>Expansion</category>
+      <category>iOS</category>
+      <pubDate>Fri, 22 May 2026 03:13:56 +0800</pubDate>
+    </item>
+    <item>
+      <title>Datasette Agent 摘要</title>
+      <link>https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything</link>
+      <description>Simon Willison announces the first release of Datasette Agent, an extensible AI assistant for Datasette that provides a conversational interface for querying data. It integrates with the LLM library and supports plugins for charts, image generation, and code execution. A live demo runs on Gemini 3.1 Flash-Lite, and the system can also work with local models like Gemma-4 via LM Studio. Future plans include rolling out to Datasette Cloud and building personal AI assistants.
+
+标签: datasette, AI, LLM, SQLite, plugins, open-source, data-analysis, generative-ai, datasette-agent, observable-plot</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything#sha256:8a710d96804ff4e4</guid>
+      <category>datasette</category>
       <category>AI</category>
       <category>LLM</category>
-      <category>token speed</category>
-      <category>simulation</category>
-      <category>visualization</category>
-      <category>developer tools</category>
-      <category>generative AI</category>
-      <category>performance</category>
-      <pubDate>Thu, 21 May 2026 01:57:45 +0800</pubDate>
+      <category>SQLite</category>
+      <category>plugins</category>
+      <category>open-source</category>
+      <category>data-analysis</category>
+      <category>generative-ai</category>
+      <category>datasette-agent</category>
+      <category>observable-plot</category>
+      <pubDate>Fri, 22 May 2026 03:52:19 +0800</pubDate>
     </item>
     <item>
-      <title>‘You Do Not Need Fancy Equipment, You Do Not Need a Degree, to Make Money and to Do This as Your Job’ 摘要</title>
-      <link>https://www.tiktok.com/@brye.shhh/video/7641047549758934285</link>
-      <description>Pop singer-songwriter Brye reveals that her hit song 'Lemons,' which went viral in 2020 and has been streamed over 100 million times, was produced entirely on GarageBand using a school-issued iPad. She recorded it with a cheap plug-in microphone and posted it to spite someone. Brye emphasizes that expensive equipment or a degree is unnecessary to succeed in music, as GarageBand is free on Apple devices. Her story exemplifies Apple's mission to empower creativity with accessible tools.
+      <title>Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada 摘要</title>
+      <link>https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/</link>
+      <description>Canadian authorities arrested 23-year-old Jacob Butler, known as 'Dort,' for operating the Kimwolf IoT botnet, which enslaved millions of devices for record-breaking DDoS attacks reaching nearly 30 Tbps. The botnet caused over $1 million in losses per victim and issued 25,000 attack commands. Butler faces charges in Canada and the U.S. for computer intrusion, mischief, and swatting attacks. He was identified by KrebsOnSecurity in February 2026. The U.S. Department of Justice and international partners seized Kimwolf's infrastructure in March 2026.
 
-标签: GarageBand, iPad, music production, viral hit, DIY music, Apple, creativity, indie artist, TikTok, success story</description>
-      <guid isPermaLink="false">https://www.tiktok.com/@brye.shhh/video/7641047549758934285#sha256:7c30149b9b9207eb</guid>
-      <category>GarageBand</category>
-      <category>iPad</category>
-      <category>music production</category>
-      <category>viral hit</category>
-      <category>DIY music</category>
-      <category>Apple</category>
-      <category>creativity</category>
-      <category>indie artist</category>
-      <category>TikTok</category>
-      <category>success story</category>
-      <pubDate>Thu, 21 May 2026 04:53:22 +0800</pubDate>
+标签: botnet, DDoS, IoT, cybercrime, arrest, Jacob Butler, Kimwolf, security, law enforcement, extortion</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/#sha256:5a5d31c5d5293b26</guid>
+      <category>botnet</category>
+      <category>DDoS</category>
+      <category>IoT</category>
+      <category>cybercrime</category>
+      <category>arrest</category>
+      <category>Jacob Butler</category>
+      <category>Kimwolf</category>
+      <category>security</category>
+      <category>law enforcement</category>
+      <category>extortion</category>
+      <pubDate>Fri, 22 May 2026 05:50:25 +0800</pubDate>
     </item>
     <item>
-      <title>NYT: ‘Powered by A.I., Google Changes Its Search Box for the First Time in 25 Years’ 摘要</title>
-      <link>https://www.nytimes.com/2026/05/19/business/google-seach-bar-ai-gemini.html?unlocked_article_code=1.jlA.95yh.ptfBUHf-rBtB&amp;smid=url-share</link>
-      <description>Google I/O 2026 keynote announced the first redesign of Google's search bar since 2001, making it larger and more interactive to support longer queries, images, and videos. The update also introduces chatbot follow-ups and AI agents that automate searches like apartment listings, potentially bypassing sites like Zillow. While Google frames this as user convenience, analysts warn it accelerates the decline of the open web, reducing other sites to raw data providers. Google's ad revenue and profit have surged, with annual profit doubling to $132 billion since 2022.
+      <title>Notes on respectfully getting a personal copy of a website's contents 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/web/RespectfulPersonalArchiving</link>
+      <description>The article discusses the ethical and practical approach to creating a personal copy of a website's content. It emphasizes identifying real content URLs while avoiding redundant index pages, using sitemaps or manual discovery. Respectful fetching involves slow request rates (e.g., one per 30-60 seconds), honest User-Agent headers, and monitoring for errors or rate limits. The goal is a personal copy, not a full archive, and politeness is stressed to avoid being blocked or rude.
 
-标签: Google, AI, search, Google I/O, open web, advertising, technology, user experience, data</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/05/19/business/google-seach-bar-ai-gemini.html?unlocked_article_code=1.jlA.95yh.ptfBUHf-rBtB&amp;smid=url-share#sha256:e9c9cff16c0c7a12</guid>
-      <category>Google</category>
-      <category>AI</category>
-      <category>search</category>
-      <category>Google I/O</category>
-      <category>open web</category>
-      <category>advertising</category>
-      <category>technology</category>
-      <category>user experience</category>
-      <category>data</category>
-      <pubDate>Thu, 21 May 2026 05:20:23 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting SpaceX S-1 摘要</title>
-      <link>https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything</link>
-      <description>SpaceX disclosed in an SEC filing that it entered into cloud services agreements with Anthropic in May 2026, providing compute capacity from its COLOSSUS and COLOSSUS II data centers. Anthropic will pay $1.25 billion per month through May 2029, with reduced fees during the ramp-up period. The agreements can be terminated by either party with 90 days' notice. SpaceX also uses these compute resources for its own AI applications, including training Grok 5 at COLOSSUS II.
-
-标签: SpaceX, Anthropic, cloud computing, AI, Grok, COLOSSUS, SEC filing, compute capacity, data center, partnership</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything#sha256:82e130cd93ef5731</guid>
-      <category>SpaceX</category>
-      <category>Anthropic</category>
-      <category>cloud computing</category>
-      <category>AI</category>
-      <category>Grok</category>
-      <category>COLOSSUS</category>
-      <category>SEC filing</category>
-      <category>compute capacity</category>
-      <category>data center</category>
-      <category>partnership</category>
-      <pubDate>Thu, 21 May 2026 06:26:36 +0800</pubDate>
-    </item>
-    <item>
-      <title>Read Cindy Cohn's new book, Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance 摘要</title>
-      <link>https://micahflee.com/read-cindy-cohns-new-book-privacys-defender-my-thirty-year-fight-against-digital-surveillance/</link>
-      <description>Cindy Cohn's memoir 'Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance' recounts three major legal battles: freeing cryptography from government control in the 1990s (establishing code as speech), challenging NSA mass surveillance after whistleblower Mark Klein's revelations and Edward Snowden's leaks, and fighting against unaccountable National Security Letters with gag orders. The book interweaves personal stories with legal history. EFF technologist Micah Lee, who helped connect Snowden with journalists, is mentioned for his role in the NSA spying case.
-
-标签: privacy, surveillance, cryptography, NSA, EFF, digital rights, memoir, legal, whistleblower, First Amendment</description>
-      <guid isPermaLink="false">https://micahflee.com/read-cindy-cohns-new-book-privacys-defender-my-thirty-year-fight-against-digital-surveillance/#sha256:e655eea07026e9e1</guid>
-      <category>privacy</category>
-      <category>surveillance</category>
-      <category>cryptography</category>
-      <category>NSA</category>
-      <category>EFF</category>
-      <category>digital rights</category>
-      <category>memoir</category>
-      <category>legal</category>
-      <category>whistleblower</category>
-      <category>First Amendment</category>
-      <pubDate>Thu, 21 May 2026 06:36:13 +0800</pubDate>
+标签: web scraping, ethics, rate limiting, sitemap, HTTP, crawling, archiving, politeness, User-Agent, personal copy</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/web/RespectfulPersonalArchiving#sha256:6568e48162f7058f</guid>
+      <category>web scraping</category>
+      <category>ethics</category>
+      <category>rate limiting</category>
+      <category>sitemap</category>
+      <category>HTTP</category>
+      <category>crawling</category>
+      <category>archiving</category>
+      <category>politeness</category>
+      <category>User-Agent</category>
+      <category>personal copy</category>
+      <pubDate>Fri, 22 May 2026 06:45:34 +0800</pubDate>
     </item>
   </channel>
 </rss>
