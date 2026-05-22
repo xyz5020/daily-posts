@@ -8,157 +8,194 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 22 May 2026 07:31:05 +0800</lastBuildDate>
-    <pubDate>Fri, 22 May 2026 07:31:05 +0800</pubDate>
+    <lastBuildDate>Sat, 23 May 2026 07:31:47 +0800</lastBuildDate>
+    <pubDate>Sat, 23 May 2026 07:31:47 +0800</pubDate>
     <item>
-      <title>Anthropic's "Profitability" Swindle 摘要</title>
-      <link>https://www.wheresyoured.at/anthropics-profitability-swindle/</link>
-      <description>Anthropic is projected to achieve its first operating profit of $559 million in Q2 2026, with revenue doubling to $10.9 billion. However, analysis reveals this profitability is largely artificial, driven by a discounted compute deal with SpaceX that reduces costs during May and June. The company's costs otherwise scale linearly with revenue. Additionally, Anthropic's reported revenue figures are inconsistent with previous ARR claims and CFO statements under oath, suggesting potential accounting maneuvers such as prepaid tokens or front-loaded commitments. The profit appears to be a temporary accounting artifact rather than sustainable business improvement.
+      <title>Premium: What If...We're In An AI Bubble? (Part 2) 摘要</title>
+      <link>https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-2/</link>
+      <description>The article continues the 'What If We're In An AI Bubble?' series, exploring the cascading consequences of slowing data center construction. It argues that if data centers aren't built fast enough, OpenAI and Anthropic can't expand, hyperscalers lose promised revenue, $178.5 billion in debt goes unpaid, NVIDIA struggles to sell next-gen GPUs, and banks stop lending. The author contends that AI compute demand is inflated by just two companies, and that data centers are being built on speculative debt without genuine broad demand, leading to potential financial collapse.
 
-标签: Anthropic, AI, profitability, accounting, SpaceX, revenue, costs, EBITDA, fundraising, tech industry</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/anthropics-profitability-swindle/#sha256:9caba10aa6c23a68</guid>
-      <category>Anthropic</category>
-      <category>AI</category>
-      <category>profitability</category>
-      <category>accounting</category>
-      <category>SpaceX</category>
-      <category>revenue</category>
-      <category>costs</category>
-      <category>EBITDA</category>
-      <category>fundraising</category>
-      <category>tech industry</category>
-      <pubDate>Fri, 22 May 2026 01:08:19 +0800</pubDate>
+标签: AI bubble, data centers, GPU demand, hyperscalers, NVIDIA, AI economics, venture capital, private credit, tech debt, AI industry</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-2/#sha256:f174915b526bd0ce</guid>
+      <category>AI bubble</category>
+      <category>data centers</category>
+      <category>GPU demand</category>
+      <category>hyperscalers</category>
+      <category>NVIDIA</category>
+      <category>AI economics</category>
+      <category>venture capital</category>
+      <category>private credit</category>
+      <category>tech debt</category>
+      <category>AI industry</category>
+      <pubDate>Sat, 23 May 2026 00:21:32 +0800</pubDate>
     </item>
     <item>
-      <title>Couth and uncouth function pairs 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/21/couth-and-uncouth-function-pairs/</link>
-      <description>The article introduces the terms 'couth' and 'uncouth' for pairs of circular and hyperbolic functions (e.g., sin/sinh, cos/cosh) based on whether the identity i·arcfoo(w) = arcfooh(cw) holds. Using Python's NumPy, sin/sinh and tan/tanh are couth, while cos/cosh is uncouth. The reciprocal functions (sec, csc, cot) and their hyperbolic counterparts also exhibit couth/uncouth behavior depending on definitions. The author notes that NumPy wisely omits these reciprocal functions due to definitional ambiguities, as different definitions can change couth status.
+      <title>Planescape: Torment, Part 1: From the Tabletop… 摘要</title>
+      <link>https://www.filfre.net/2026/05/planescape-torment-part-1-from-the-tabletop/</link>
+      <description>This article is the first part of a retrospective on Planescape: Torment, examining its origins in the Dungeons &amp; Dragons tabletop setting. It discusses how the game, released in 1999 by Interplay/Black Isle Studios, adapted TSR's Planescape campaign setting, which expanded on Gary Gygax's original cosmology of inner and outer planes. The article highlights the game's unique narrative ambition as a genuine interactive tragedy, contrasting with typical RPG power fantasies, while acknowledging its flaws in pacing, interface, and combat. It emphasizes the often-overlooked influence of TSR's creative work on the game's distinctive identity.
 
-标签: mathematics, trigonometry, hyperbolic functions, inverse functions, couth, uncouth, NumPy, Python, complex analysis, function pairs</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/21/couth-and-uncouth-function-pairs/#sha256:b0643e5f78b56dee</guid>
-      <category>mathematics</category>
-      <category>trigonometry</category>
-      <category>hyperbolic functions</category>
-      <category>inverse functions</category>
-      <category>couth</category>
-      <category>uncouth</category>
-      <category>NumPy</category>
-      <category>Python</category>
-      <category>complex analysis</category>
-      <category>function pairs</category>
-      <pubDate>Fri, 22 May 2026 01:31:13 +0800</pubDate>
+标签: Planescape: Torment, CRPG, Dungeons &amp; Dragons, game narrative, interactive tragedy, Black Isle Studios, TSR, game history, retrospective, Infinity Engine</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/05/planescape-torment-part-1-from-the-tabletop/#sha256:0c3f823bfc24711a</guid>
+      <category>Planescape: Torment</category>
+      <category>CRPG</category>
+      <category>Dungeons &amp; Dragons</category>
+      <category>game narrative</category>
+      <category>interactive tragedy</category>
+      <category>Black Isle Studios</category>
+      <category>TSR</category>
+      <category>game history</category>
+      <category>retrospective</category>
+      <category>Infinity Engine</category>
+      <pubDate>Sat, 23 May 2026 00:27:41 +0800</pubDate>
     </item>
     <item>
-      <title>datasette-agent-sprites 0.1a0 摘要</title>
-      <link>https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything</link>
-      <description>Datasette Agent Sprites 0.1a0 is a plugin for Datasette Agent that enables running commands in a Fly Sprites sandbox. It provides a secure, isolated environment for executing code or scripts within the Datasette ecosystem, leveraging Fly's sandboxing technology. This initial alpha release allows users to integrate sandboxed command execution into their Datasette workflows, enhancing security for untrusted operations.
+      <title>Lawmakers Demand Answers as CISA Tries to Contain Data Leak 摘要</title>
+      <link>https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/</link>
+      <description>U.S. lawmakers from both houses of Congress are demanding answers from CISA after a contractor leaked AWS GovCloud keys and other secrets on a public GitHub account named 'Private-CISA'. The contractor disabled GitHub's secret protection and used the repo as a scratchpad since November 2025. CISA initially claimed no data compromise, but security experts found that an exposed RSA private key granting full access to CISA-IT GitHub repos remained active for days. CISA is still working to invalidate leaked credentials, while experts warn that adversaries likely monitored the public GitHub feed and may have accessed the secrets.
 
-标签: datasette, datasette-agent, sandboxing, fly, sprites, plugin, security, alpha-release</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything#sha256:e5b537b657071cb4</guid>
-      <category>datasette</category>
-      <category>datasette-agent</category>
-      <category>sandboxing</category>
-      <category>fly</category>
-      <category>sprites</category>
-      <category>plugin</category>
-      <category>security</category>
-      <category>alpha-release</category>
-      <pubDate>Fri, 22 May 2026 02:21:07 +0800</pubDate>
+标签: CISA, data breach, GitHub, AWS GovCloud, credential leak, cybersecurity, government, contractor, supply chain risk, incident response</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/#sha256:029416bfcc9d130c</guid>
+      <category>CISA</category>
+      <category>data breach</category>
+      <category>GitHub</category>
+      <category>AWS GovCloud</category>
+      <category>credential leak</category>
+      <category>cybersecurity</category>
+      <category>government</category>
+      <category>contractor</category>
+      <category>supply chain risk</category>
+      <category>incident response</category>
+      <pubDate>Sat, 23 May 2026 00:34:24 +0800</pubDate>
     </item>
     <item>
-      <title>Book Notes: “Poor Charlie’s Almanack” 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/</link>
-      <description>The author reflects on Charles T. Munger's philosophy from 'Poor Charlie's Almanack', emphasizing practicality and simplicity in problem-solving. Munger attributes Berkshire's success to avoiding hard problems and focusing on easy, actionable solutions, like jumping a low fence instead of a high one. His approach involves eliminating what not to do, applying multidisciplinary thinking, and acting decisively when conditions are right. Munger rejects the idea of avoiding mistakes, advocating instead for making fewer mistakes and fixing them quickly. The author appreciates Munger's straightforward, ego-free perspective, contrasting it with typical social media content.
+      <title>Stephen Colbert’s ‘The Late Show’ Finale 摘要</title>
+      <link>https://www.nytimes.com/2026/05/22/arts/television/colbert-last-late-show.html?unlocked_article_code=1.kVA.GO3I.gVq9KeUrHEyM</link>
+      <description>Stephen Colbert's final 'Late Show' aired on Thursday night, concluding a controversial cancellation. The episode was an emotional and bizarre wake, more like a surreal comedy finale than a talk show. It featured a Beatle, two songs, and no new project announcements. The finale was praised as amazingly good, fun, surprising, and perfectly on-brand, ending Colbert's tenure in his own unique style.
 
-标签: book review, Charlie Munger, investing, problem solving, practicality, simplicity, decision making, philosophy, business, wisdom</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/book-notes-charlie-munger/#sha256:620fb99161646c9d</guid>
-      <category>book review</category>
-      <category>Charlie Munger</category>
-      <category>investing</category>
-      <category>problem solving</category>
-      <category>practicality</category>
-      <category>simplicity</category>
-      <category>decision making</category>
-      <category>philosophy</category>
-      <category>business</category>
-      <category>wisdom</category>
-      <pubDate>Fri, 22 May 2026 03:00:00 +0800</pubDate>
+标签: Stephen Colbert, The Late Show, TV finale, comedy, talk show, cancellation, surreal, Beatles, New York Times, Daring Fireball</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/05/22/arts/television/colbert-last-late-show.html?unlocked_article_code=1.kVA.GO3I.gVq9KeUrHEyM#sha256:cf3ab5ffef9b436f</guid>
+      <category>Stephen Colbert</category>
+      <category>The Late Show</category>
+      <category>TV finale</category>
+      <category>comedy</category>
+      <category>talk show</category>
+      <category>cancellation</category>
+      <category>surreal</category>
+      <category>Beatles</category>
+      <category>New York Times</category>
+      <category>Daring Fireball</category>
+      <pubDate>Sat, 23 May 2026 01:12:10 +0800</pubDate>
     </item>
     <item>
-      <title>Apple Sports Expands to More Than 90 New Countries on Cusp of World Cup 摘要</title>
-      <link>https://www.apple.com/newsroom/2026/05/apple-sports-expands-to-more-than-90-new-countries-and-regions/</link>
-      <description>Apple Sports, the free iPhone app for real-time scores and stats, has expanded to over 170 countries, adding 90+ new markets. Designed for speed and simplicity, it offers personalized scoreboards and Live Activities on Lock Screen and Apple Watch. The app helps fans prepare for the World Cup by allowing tournament grouping and team following. While the UI has some quirks, such as a zero-sum team stats visualization, the app is fast and reliable, with sports-related promotions that don't obscure content. It remains the go-to for score checking except for baseball. The app is iPhone-only, which some find charming.
+      <title>Zero Sum Problems and Apple Sports 摘要</title>
+      <link>https://kieranhealy.org/blog/archives/2026/05/21/zero-sum-problems/</link>
+      <description>Kieran Healy analyzes Apple Sports' confusing 'zero sum' team stats visualization, arguing the core problem is information design rather than data visualization. He explains that displaying fifteen pairs of related but distinct numbers for two teams cannot be effectively shown in a single graph. The attempt to make stats visually appealing backfires, creating confusion. Healy suggests a simple table would be clearer, even if boring. The article also notes Apple Sports uses the same screen layout for all sports, complicating the design. Gruber agrees, emphasizing that the current approach prioritizes style over clarity.
 
-标签: Apple, Sports, iPhone, App, World Cup, Live Activities, Scoreboard, UI, Expansion, iOS</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/05/apple-sports-expands-to-more-than-90-new-countries-and-regions/#sha256:e7ea18886b37dfb6</guid>
+标签: Apple Sports, data visualization, information design, UI/UX, sports stats, user experience, design criticism, Kieran Healy, John Gruber</description>
+      <guid isPermaLink="false">https://kieranhealy.org/blog/archives/2026/05/21/zero-sum-problems/#sha256:204c507731d4009c</guid>
+      <category>Apple Sports</category>
+      <category>data visualization</category>
+      <category>information design</category>
+      <category>UI/UX</category>
+      <category>sports stats</category>
+      <category>user experience</category>
+      <category>design criticism</category>
+      <category>Kieran Healy</category>
+      <category>John Gruber</category>
+      <pubDate>Sat, 23 May 2026 01:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Ninth Circuit Appeal Ruling in ‘Epic v. Apple’ That Apple Is Seeking to Overturn at the Supreme Court (PDF) 摘要</title>
+      <link>https://cdn.ca9.uscourts.gov/datastore/opinions/2025/12/11/25-2935.pdf</link>
+      <description>The Ninth Circuit issued a ruling in the Epic v. Apple case, which Apple is now petitioning the Supreme Court to overturn. The ruling includes a summary for reader convenience and addresses Apple's argument that, under Trump v. CASA, an injunction on commissions should apply only to Epic Games, not all U.S. App Store developers. This argument is covered on page 50 of the decision.
+
+标签: Apple, Epic Games, Supreme Court, Ninth Circuit, App Store, antitrust, legal, injunction, commissions, Trump v. CASA</description>
+      <guid isPermaLink="false">https://cdn.ca9.uscourts.gov/datastore/opinions/2025/12/11/25-2935.pdf#sha256:101ff4280353da75</guid>
       <category>Apple</category>
-      <category>Sports</category>
-      <category>iPhone</category>
-      <category>App</category>
-      <category>World Cup</category>
-      <category>Live Activities</category>
-      <category>Scoreboard</category>
-      <category>UI</category>
-      <category>Expansion</category>
-      <category>iOS</category>
-      <pubDate>Fri, 22 May 2026 03:13:56 +0800</pubDate>
+      <category>Epic Games</category>
+      <category>Supreme Court</category>
+      <category>Ninth Circuit</category>
+      <category>App Store</category>
+      <category>antitrust</category>
+      <category>legal</category>
+      <category>injunction</category>
+      <category>commissions</category>
+      <category>Trump v. CASA</category>
+      <pubDate>Sat, 23 May 2026 01:39:05 +0800</pubDate>
     </item>
     <item>
-      <title>Datasette Agent 摘要</title>
-      <link>https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything</link>
-      <description>Simon Willison announces the first release of Datasette Agent, an extensible AI assistant for Datasette that provides a conversational interface for querying data. It integrates with the LLM library and supports plugins for charts, image generation, and code execution. A live demo runs on Gemini 3.1 Flash-Lite, and the system can also work with local models like Gemma-4 via LM Studio. Future plans include rolling out to Datasette Cloud and building personal AI assistants.
+      <title>How to Talk to Your Coworkers 摘要</title>
+      <link>https://idiallo.com/blog/how-to-talk-to-your-coworkers?src=feed</link>
+      <description>Developers often complain that colleagues repeatedly ask questions already answered in documentation or Jira. This happens because developers communicate in technical instructions while non-technical coworkers rely on conversations. The solution is to translate information into the audience's frame of reference and repeat it patiently. For example, instead of explaining technical details like API changes or caching strategies, focus on what the solution does, such as 'we updated the widget to show real-time data.' Repetition helps people gradually understand complex concepts. Effective communication requires tailoring messages to the audience and accepting that repetition is normal and necessary.
 
-标签: datasette, AI, LLM, SQLite, plugins, open-source, data-analysis, generative-ai, datasette-agent, observable-plot</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything#sha256:8a710d96804ff4e4</guid>
-      <category>datasette</category>
+标签: communication, developer experience, teamwork, documentation, technical writing, management, empathy, knowledge transfer, collaboration, soft skills</description>
+      <guid isPermaLink="false">https://idiallo.com/blog/how-to-talk-to-your-coworkers?src=feed#sha256:11d1242200ab0b10</guid>
+      <category>communication</category>
+      <category>developer experience</category>
+      <category>teamwork</category>
+      <category>documentation</category>
+      <category>technical writing</category>
+      <category>management</category>
+      <category>empathy</category>
+      <category>knowledge transfer</category>
+      <category>collaboration</category>
+      <category>soft skills</category>
+      <pubDate>Sat, 23 May 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>News about Raspberry Pi 6 and Microcontroller Development 摘要</title>
+      <link>https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/</link>
+      <description>In a Reddit AMA, Raspberry Pi engineers (CEO Eben Upton, Gordon Hollingworth, James Adams) discussed the timeline for Raspberry Pi 6. Based on previous launch cycles (Pi 5 in 2023, Pi 4 in 2019, etc.), the Pi 6 is expected 3-4 years after Pi 5, likely in 2026 or 2027. The AMA also covered microcontroller development and other topics.
+
+标签: Raspberry Pi, Raspberry Pi 6, hardware, single-board computer, AMA, product roadmap, engineering, embedded systems</description>
+      <guid isPermaLink="false">https://www.jeffgeerling.com/blog/2026/news-about-raspberry-pi-6-and-microcontroller-development/#sha256:8a2c9673feea104f</guid>
+      <category>Raspberry Pi</category>
+      <category>Raspberry Pi 6</category>
+      <category>hardware</category>
+      <category>single-board computer</category>
+      <category>AMA</category>
+      <category>product roadmap</category>
+      <category>engineering</category>
+      <category>embedded systems</category>
+      <pubDate>Sat, 23 May 2026 04:15:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ The Fonts of the U.S. Federal Courts 摘要</title>
+      <link>https://daringfireball.net/2026/05/the_fonts_of_the_us_federal_courts</link>
+      <description>The article examines typographic choices across U.S. federal courts of appeals, noting that most use Times New Roman, while the First and Fourth Circuits use Courier New with full justification, which is criticized. The Second and Seventh Circuits use Palatino, with the Seventh's wider margins improving readability. The Fifth Circuit upgraded from Century Schoolbook to Equity in 2020, praised as typographically superior. The Supreme Court uses Century Schoolbook, maintaining consistency for over a century, and requires submissions to use a Century family font. The author argues that courts should adopt better typography to reflect the dignity of their work, citing Judge Willett's rationale that presentation matters.
+
+标签: typography, U.S. federal courts, font, legal design, Times New Roman, Century Schoolbook, Equity, Palatino, Courier New, court opinions</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/05/the_fonts_of_the_us_federal_courts#sha256:2a415433b06689fd</guid>
+      <category>typography</category>
+      <category>U.S. federal courts</category>
+      <category>font</category>
+      <category>legal design</category>
+      <category>Times New Roman</category>
+      <category>Century Schoolbook</category>
+      <category>Equity</category>
+      <category>Palatino</category>
+      <category>Courier New</category>
+      <category>court opinions</category>
+      <pubDate>Sat, 23 May 2026 04:30:18 +0800</pubDate>
+    </item>
+    <item>
+      <title>The memory shortage is causing a repricing of consumer electronics 摘要</title>
+      <link>https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything</link>
+      <description>Memory manufacturers have fixed wafer capacity split between DDR, LPDDR, and HBM. AI data center growth has increased HBM's wafer allocation from 2% to an expected 20% by end of 2026, and HBM consumes over three times the wafer capacity per gigabyte compared to other memory types. This shift, combined with manufacturers' cautious under-provisioning, is constraining consumer-device RAM production, leading to price increases. The sub-$100 smartphone market, crucial for Africa and South Asia, is already affected.
+
+标签: memory, AI, smartphones, hardware, semiconductors, HBM, consumer electronics, pricing, supply chain, technology trends</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything#sha256:8f905b6908eed72e</guid>
+      <category>memory</category>
       <category>AI</category>
-      <category>LLM</category>
-      <category>SQLite</category>
-      <category>plugins</category>
-      <category>open-source</category>
-      <category>data-analysis</category>
-      <category>generative-ai</category>
-      <category>datasette-agent</category>
-      <category>observable-plot</category>
-      <pubDate>Fri, 22 May 2026 03:52:19 +0800</pubDate>
-    </item>
-    <item>
-      <title>Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada 摘要</title>
-      <link>https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/</link>
-      <description>Canadian authorities arrested 23-year-old Jacob Butler, known as 'Dort,' for operating the Kimwolf IoT botnet, which enslaved millions of devices for record-breaking DDoS attacks reaching nearly 30 Tbps. The botnet caused over $1 million in losses per victim and issued 25,000 attack commands. Butler faces charges in Canada and the U.S. for computer intrusion, mischief, and swatting attacks. He was identified by KrebsOnSecurity in February 2026. The U.S. Department of Justice and international partners seized Kimwolf's infrastructure in March 2026.
-
-标签: botnet, DDoS, IoT, cybercrime, arrest, Jacob Butler, Kimwolf, security, law enforcement, extortion</description>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/#sha256:5a5d31c5d5293b26</guid>
-      <category>botnet</category>
-      <category>DDoS</category>
-      <category>IoT</category>
-      <category>cybercrime</category>
-      <category>arrest</category>
-      <category>Jacob Butler</category>
-      <category>Kimwolf</category>
-      <category>security</category>
-      <category>law enforcement</category>
-      <category>extortion</category>
-      <pubDate>Fri, 22 May 2026 05:50:25 +0800</pubDate>
-    </item>
-    <item>
-      <title>Notes on respectfully getting a personal copy of a website's contents 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/web/RespectfulPersonalArchiving</link>
-      <description>The article discusses the ethical and practical approach to creating a personal copy of a website's content. It emphasizes identifying real content URLs while avoiding redundant index pages, using sitemaps or manual discovery. Respectful fetching involves slow request rates (e.g., one per 30-60 seconds), honest User-Agent headers, and monitoring for errors or rate limits. The goal is a personal copy, not a full archive, and politeness is stressed to avoid being blocked or rude.
-
-标签: web scraping, ethics, rate limiting, sitemap, HTTP, crawling, archiving, politeness, User-Agent, personal copy</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/web/RespectfulPersonalArchiving#sha256:6568e48162f7058f</guid>
-      <category>web scraping</category>
-      <category>ethics</category>
-      <category>rate limiting</category>
-      <category>sitemap</category>
-      <category>HTTP</category>
-      <category>crawling</category>
-      <category>archiving</category>
-      <category>politeness</category>
-      <category>User-Agent</category>
-      <category>personal copy</category>
-      <pubDate>Fri, 22 May 2026 06:45:34 +0800</pubDate>
+      <category>smartphones</category>
+      <category>hardware</category>
+      <category>semiconductors</category>
+      <category>HBM</category>
+      <category>consumer electronics</category>
+      <category>pricing</category>
+      <category>supply chain</category>
+      <category>technology trends</category>
+      <pubDate>Sat, 23 May 2026 06:01:31 +0800</pubDate>
     </item>
   </channel>
 </rss>
