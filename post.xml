@@ -8,44 +8,64 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 24 May 2026 07:26:18 +0800</lastBuildDate>
-    <pubDate>Sun, 24 May 2026 07:26:18 +0800</pubDate>
+    <lastBuildDate>Mon, 25 May 2026 07:28:54 +0800</lastBuildDate>
+    <pubDate>Mon, 25 May 2026 07:28:54 +0800</pubDate>
     <item>
-      <title>Reverse engineering circuitry in a Spacelab computer from 1980 摘要</title>
-      <link>http://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html</link>
-      <description>The article reverse-engineers the ALU/register board of the Mitra 125 MS minicomputer used in Spacelab, a European-built reusable laboratory flown on the Space Shuttle. The computer, built from TTL logic chips rather than a microprocessor, used eight 74181 ALU chips to create a 32-bit ALU for a 16-bit machine, likely to speed up multiplication and floating-point operations. The ALU/register circuitry spanned three boards, with multiplexers selecting inputs and shift registers supporting multiplication and division. The article details the architecture, including the 74181 chip's capabilities and the use of carry-lookahead chips.
+      <title>Walking the dog with Claude 摘要</title>
+      <link>http://xania.org/202605/walking-the-dog?utm_source=feed&amp;utm_medium=rss</link>
+      <description>Matt Godbolt discusses the gap between accurate-but-impenetrable and polished-but-wrong technical content. He cites examples like Practical Engineering, LegalEagle, and Numberphile as bridges. He explains his 'tell my mum' test for explanations and the Usborne robot mental model he still uses for microarchitecture. He reflects on his motivations: showing off and the joy of someone 'getting it'. He discusses the costs of video creation (hours vs. conceptual distillation) and why he skipped a Computerphile recording. He is surprised by the idea that Compiler Explorer shares the same impulse as his talks and videos.
 
-标签: Spacelab, Mitra 125 MS, reverse engineering, ALU, 74181, TTL logic, minicomputer, space computing, vintage hardware, NASA</description>
-      <guid isPermaLink="false">http://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html#sha256:37b1d0025578905d</guid>
-      <category>Spacelab</category>
-      <category>Mitra 125 MS</category>
-      <category>reverse engineering</category>
-      <category>ALU</category>
-      <category>74181</category>
-      <category>TTL logic</category>
-      <category>minicomputer</category>
-      <category>space computing</category>
-      <category>vintage hardware</category>
-      <category>NASA</category>
-      <pubDate>Sun, 24 May 2026 00:17:44 +0800</pubDate>
+标签: technical communication, explanation, education, YouTube, Computerphile, Compiler Explorer, mental models, microarchitecture, C++, LLM interview</description>
+      <guid isPermaLink="false">http://xania.org/202605/walking-the-dog?utm_source=feed&amp;utm_medium=rss#sha256:bb6159ac93e164a4</guid>
+      <category>technical communication</category>
+      <category>explanation</category>
+      <category>education</category>
+      <category>YouTube</category>
+      <category>Computerphile</category>
+      <category>Compiler Explorer</category>
+      <category>mental models</category>
+      <category>microarchitecture</category>
+      <category>C++</category>
+      <category>LLM interview</category>
+      <pubDate>Mon, 25 May 2026 00:55:00 +0800</pubDate>
     </item>
     <item>
-      <title>On the &lt;dl&gt; 摘要</title>
-      <link>https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything</link>
-      <description>The article discusses lesser-known features of the HTML &lt;dl&gt; element. Key points include: a &lt;dt&gt; can have multiple &lt;dd&gt; elements; &lt;dt&gt; and &lt;dd&gt; can be grouped in a &lt;div&gt; for styling; ARIA labels can be used; and since 2008, they are called 'description lists' not 'definition lists'. A valid example is provided, along with a reference to Adrian Roselli's note on screen reader support.
+      <title>Mad House — Usborne Creepy Computer Games 摘要</title>
+      <link>https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything</link>
+      <description>Simon Willison discovered that UK publisher Usborne offers free PDFs of their 1980s computer books, including 'Creepy Computer Games' (1983). He fondly recalls typing in the 'Mad House' game on his Commodore 64 as a child. Using Claude, he fed the PDF and had it generate an interactive JavaScript/HTML version of the game with a retro aesthetic, mobile-friendly design, and proper credit to the book. The result is a playable browser-based recreation of the classic text-adventure game.
 
-标签: html, css, web-standards, accessibility, screen-readers, aria, semantic-html, frontend, web-development</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything#sha256:0059b86f9e2921a3</guid>
-      <category>html</category>
-      <category>css</category>
-      <category>web-standards</category>
-      <category>accessibility</category>
-      <category>screen-readers</category>
-      <category>aria</category>
-      <category>semantic-html</category>
-      <category>frontend</category>
-      <category>web-development</category>
-      <pubDate>Sun, 24 May 2026 04:24:48 +0800</pubDate>
+标签: retro-gaming, computer-history, games, AI, Claude, JavaScript, HTML, PDF, nostalgia, tools</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything#sha256:72df69ff1fdd1f97</guid>
+      <category>retro-gaming</category>
+      <category>computer-history</category>
+      <category>games</category>
+      <category>AI</category>
+      <category>Claude</category>
+      <category>JavaScript</category>
+      <category>HTML</category>
+      <category>PDF</category>
+      <category>nostalgia</category>
+      <category>tools</category>
+      <pubDate>Mon, 25 May 2026 01:14:11 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Armin Ronacher 摘要</title>
+      <link>https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything</link>
+      <description>Armin Ronacher criticizes the trend of AI-generated 'slop' in open-source issue reports, where users submit problems reworded by LLMs without personal observation. These reports often contain inaccurate conclusions, fake minimal reproductions, and irrelevant suggestions. He advocates for issue reports to be condensed to what the human actually observed: the command run, expected behavior, actual outcome, and exact error or log. This ensures clarity and accuracy in debugging.
+
+标签: AI, open-source, github-issues, LLMs, AI-ethics, coding-agents, generative-ai, slop, bug-reporting, software-quality</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything#sha256:e02a83766e0c4fd5</guid>
+      <category>AI</category>
+      <category>open-source</category>
+      <category>github-issues</category>
+      <category>LLMs</category>
+      <category>AI-ethics</category>
+      <category>coding-agents</category>
+      <category>generative-ai</category>
+      <category>slop</category>
+      <category>bug-reporting</category>
+      <category>software-quality</category>
+      <pubDate>Mon, 25 May 2026 02:46:53 +0800</pubDate>
     </item>
   </channel>
 </rss>
