@@ -8,139 +8,60 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 26 May 2026 07:32:33 +0800</lastBuildDate>
-    <pubDate>Tue, 26 May 2026 07:32:33 +0800</pubDate>
+    <lastBuildDate>Wed, 27 May 2026 07:32:33 +0800</lastBuildDate>
+    <pubDate>Wed, 27 May 2026 07:32:33 +0800</pubDate>
     <item>
-      <title>Anti-robot techniques can be nice but the problem is, they're not static 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/web/RobotsVsLowAttentionWebsites</link>
-      <description>The author proposes an anti-robot tactic called 'robots don't POST', which requires visitors to submit a simple HTML form via POST to receive a cookie for accessing web pages, as most crawlers only perform GET requests. However, this approach is a temporary measure in an ongoing arms race with malicious crawlers. The author notes that maintaining a low-attention website is increasingly difficult, as operators must actively participate in this arms race or risk their site being overwhelmed by bad crawlers, leading to high bandwidth costs or site destruction. The situation adds to the challenges of running personal websites, similar to the earlier issue of comment spam.
+      <title>Only insane people use the internet 摘要</title>
+      <link>https://www.experimental-history.com/p/only-insane-people-use-the-internet</link>
+      <description>The author describes a recurring experience with a reader who sends a nasty reply to every post within 24 hours. The reader's criticism is framed as a backhanded compliment, acknowledging the author's ability to articulate thoughts well while disagreeing. The article reflects on the nature of online engagement and the persistence of negative feedback, suggesting that only 'insane' people use the internet in such a dedicated, confrontational manner.
 
-标签: anti-crawler, web security, robots, HTTP POST, arms race, website maintenance, low-attention web, crawler mitigation, web development, security tactics</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/web/RobotsVsLowAttentionWebsites#sha256:0cee75d476d70950</guid>
-      <category>anti-crawler</category>
-      <category>web security</category>
-      <category>robots</category>
-      <category>HTTP POST</category>
-      <category>arms race</category>
-      <category>website maintenance</category>
-      <category>low-attention web</category>
-      <category>crawler mitigation</category>
-      <category>web development</category>
-      <category>security tactics</category>
-      <pubDate>Tue, 26 May 2026 01:13:14 +0800</pubDate>
+标签: online behavior, feedback, writing, internet culture, criticism, engagement, persistence, communication</description>
+      <guid isPermaLink="false">https://www.experimental-history.com/p/only-insane-people-use-the-internet#sha256:4c914723a63a6c1e</guid>
+      <category>online behavior</category>
+      <category>feedback</category>
+      <category>writing</category>
+      <category>internet culture</category>
+      <category>criticism</category>
+      <category>engagement</category>
+      <category>persistence</category>
+      <category>communication</category>
+      <pubDate>Wed, 27 May 2026 00:02:14 +0800</pubDate>
     </item>
     <item>
-      <title>The History of ‘OK’ 摘要</title>
-      <link>https://www.merriam-webster.com/wordplay/the-hilarious-history-of-ok-okay</link>
-      <description>The article traces the origin of 'OK' to a 19th-century linguistic fad for deliberate misspellings and abbreviations, where 'all correct' became 'oll korrect' and then 'o.k.' The term was popularized by Martin Van Buren's 1840 presidential campaign, where his nickname 'Old Kinderhook' led to 'OK Clubs.' The author prefers 'OK' over 'okay' or 'ok,' especially in UI labels, citing Apple's Human Interface Guidelines.
+      <title>Revenge of The Business Idiot 摘要</title>
+      <link>https://www.wheresyoured.at/the-revenge-of-the-business-idiot/</link>
+      <description>The article criticizes AI adoption in business, arguing that executives and managers, termed 'Business Idiots,' embrace generative AI because it mimics work without understanding real productivity. It claims AI tools like LLMs enable incompetent leaders to bypass skilled workers, produce unrealistic prototypes, and ignore feasibility. The author cites Salesforce marketing non-existent AI features and highlights how AI fosters a culture of mediocrity, where effort and craft are devalued. The piece concludes that AI hype is driven by ignorance and desperation, not genuine innovation.
 
-标签: etymology, linguistics, history, language, abbreviations, slang, presidential campaign, UI design, spelling, cultural trends</description>
-      <guid isPermaLink="false">https://www.merriam-webster.com/wordplay/the-hilarious-history-of-ok-okay#sha256:dd09c3c4f6ed0fa6</guid>
-      <category>etymology</category>
-      <category>linguistics</category>
-      <category>history</category>
-      <category>language</category>
-      <category>abbreviations</category>
-      <category>slang</category>
-      <category>presidential campaign</category>
-      <category>UI design</category>
-      <category>spelling</category>
-      <category>cultural trends</category>
-      <pubDate>Tue, 26 May 2026 01:18:56 +0800</pubDate>
-    </item>
-    <item>
-      <title>Trump Mobile Website Exposed the Number of Pre-Orders — Both Completed and Abandoned — and the Associated Customer Information 摘要</title>
-      <link>https://www.theguardian.com/us-news/2026/may/23/trump-mobile-investigating-potential-exposure-of-would-be-customers-personal-information</link>
-      <description>Trump Mobile's website exposed customer data, including names, addresses, and phone numbers of people who filled out preorder forms. The vulnerability was discovered by an Australian individual and reviewed by Columbia professor Jonathan Soma, who noted the site used a common e-commerce model that recorded both completed and abandoned preorders. The exposed data showed 27,224 potential preorders, but Soma suggested the actual number of completed purchases was likely lower due to abandoned carts. Trump Mobile stated it was investigating with independent cybersecurity professionals.
-
-标签: Trump Mobile, data breach, cybersecurity, e-commerce, privacy, customer data, vulnerability, preorder, investigation</description>
-      <guid isPermaLink="false">https://www.theguardian.com/us-news/2026/may/23/trump-mobile-investigating-potential-exposure-of-would-be-customers-personal-information#sha256:90170186be011665</guid>
-      <category>Trump Mobile</category>
-      <category>data breach</category>
-      <category>cybersecurity</category>
-      <category>e-commerce</category>
-      <category>privacy</category>
-      <category>customer data</category>
-      <category>vulnerability</category>
-      <category>preorder</category>
-      <category>investigation</category>
-      <pubDate>Tue, 26 May 2026 02:54:37 +0800</pubDate>
-    </item>
-    <item>
-      <title>Thieves Are Texting Threats to Victims of iPhone Theft in London 摘要</title>
-      <link>https://www.nytimes.com/2026/05/23/world/europe/phone-theft-threats-london.html?unlocked_article_code=1.lFA.OUt7.VJ_FoDpINr0L</link>
-      <description>A New York Times report details how iPhone theft in London escalates beyond the initial crime: thieves use stolen phones to threaten victims' families, demanding Apple ID removal to resell the devices. The article highlights that only iPhones are targeted, with Android phones often returned. It notes Apple's Stolen Device Protection, now default in iOS 26.4, but the story omits this feature. The piece underscores the organized nature of iPhone theft rings and the severe harassment victims face.
-
-标签: iPhone theft, London crime, Apple ID, Stolen Device Protection, iOS 26.4, organized crime, phone theft, cyber threats, New York Times, Daring Fireball</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/05/23/world/europe/phone-theft-threats-london.html?unlocked_article_code=1.lFA.OUt7.VJ_FoDpINr0L#sha256:2880f583c1da0b32</guid>
-      <category>iPhone theft</category>
-      <category>London crime</category>
-      <category>Apple ID</category>
-      <category>Stolen Device Protection</category>
-      <category>iOS 26.4</category>
-      <category>organized crime</category>
-      <category>phone theft</category>
-      <category>cyber threats</category>
-      <category>New York Times</category>
-      <category>Daring Fireball</category>
-      <pubDate>Tue, 26 May 2026 03:23:32 +0800</pubDate>
-    </item>
-    <item>
-      <title>Solving the board game Quoridor 摘要</title>
-      <link>https://grantslatton.com/solving-quoridor</link>
-      <description>The author presents significant advances in solving the board game Quoridor, using novel techniques to fully solve almost all board configurations with area ≤ 28 (e.g., 5x5, 8x3, 7x4) for most wall counts on a consumer laptop. Key findings include: odd-height boards are not always second-player wins due to a trade-off between parity and tempo advantages; even-height boards are uniformly first-player wins; the 8x3 board with 3 walls per player is a forced draw from the starting position; and various geometries show unusual win patterns, such as 4x7 alternating between players and 7x3 never transitioning to a first-player win. A full results table for odd-height boards is provided.
-
-标签: Quoridor, board games, game theory, combinatorial game theory, solving, AI, parity, tempo, draw, algorithm</description>
-      <guid isPermaLink="false">https://grantslatton.com/solving-quoridor#sha256:7626c8997640230c</guid>
-      <category>Quoridor</category>
-      <category>board games</category>
-      <category>game theory</category>
-      <category>combinatorial game theory</category>
-      <category>solving</category>
+标签: AI, business, management, critique, generative AI, executives, productivity, hype, Salesforce, workplace culture</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/the-revenge-of-the-business-idiot/#sha256:e1b7e4d581e47221</guid>
       <category>AI</category>
-      <category>parity</category>
-      <category>tempo</category>
-      <category>draw</category>
-      <category>algorithm</category>
-      <pubDate>Tue, 26 May 2026 04:01:38 +0800</pubDate>
-    </item>
-    <item>
-      <title>Awarding Jay Haynes His Being Right Points for Predicting Apple Hitting $3 Trillion in Market Cap 摘要</title>
-      <link>https://daringfireball.net/linked/2014/01/29/haynes-aapl</link>
-      <description>In 2014, Jay Haynes predicted Apple would reach a $3 trillion market cap within 10 years, a bold claim when Apple was worth $450 billion and no company had hit $1 trillion. Apple achieved this milestone in just 8 years, by 2022. John Gruber revisits Haynes's analysis, noting it holds up well, including its application of Clayton Christensen's disruption theory to iPhone and iPad. Gruber awards Haynes 'Being Right Points' for the accurate prediction.
-
-标签: Apple, market cap, prediction, Jay Haynes, John Gruber, disruption theory, Clayton Christensen, iPhone, iPad, business</description>
-      <guid isPermaLink="false">https://daringfireball.net/linked/2014/01/29/haynes-aapl#sha256:5a3ca68272d44b5c</guid>
-      <category>Apple</category>
-      <category>market cap</category>
-      <category>prediction</category>
-      <category>Jay Haynes</category>
-      <category>John Gruber</category>
-      <category>disruption theory</category>
-      <category>Clayton Christensen</category>
-      <category>iPhone</category>
-      <category>iPad</category>
       <category>business</category>
-      <pubDate>Tue, 26 May 2026 04:32:29 +0800</pubDate>
+      <category>management</category>
+      <category>critique</category>
+      <category>generative AI</category>
+      <category>executives</category>
+      <category>productivity</category>
+      <category>hype</category>
+      <category>Salesforce</category>
+      <category>workplace culture</category>
+      <pubDate>Wed, 27 May 2026 00:47:30 +0800</pubDate>
     </item>
     <item>
-      <title>Welcoming the Bhutanese Government to Have I Been Pwned 摘要</title>
-      <link>https://www.troyhunt.com/welcoming-the-bhutanese-government-to-have-i-been-pwned/</link>
-      <description>Have I Been Pwned (HIBP) has onboarded the Bhutan Computer Incident Response Team (BtCIRT) as its 45th government partner. BtCIRT will use HIBP's free government service to monitor Bhutanese government domains for leaked credentials and compromised databases. This enables Bhutan's national cybersecurity team to identify and respond to cyber risks affecting government services and citizens, leveraging breach data to reduce exposure and prevent credential-based attacks.
+      <title>Calculating the expected range of normal samples 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/26/calculating-expected-normal-range/</link>
+      <description>This article explains how to compute the expected range of n samples from a standard normal distribution N(0,1). The expected range d_n is given by an integral involving the normal PDF and CDF, which can be computed numerically using Python's scipy library. For n ≤ 5, closed-form solutions exist, but larger n require numerical integration. An asymptotic approximation is provided for large n, which may be more accurate than numerical integration due to integration errors. Example values are given for n from 2 to 100, showing the expected range in units of σ.
 
-标签: cybersecurity, breach notification, government, Bhutan, HIBP, CIRT, threat intelligence, credential leaks, data breach, incident response</description>
-      <guid isPermaLink="false">https://www.troyhunt.com/welcoming-the-bhutanese-government-to-have-i-been-pwned/#sha256:640e29b413167a32</guid>
-      <category>cybersecurity</category>
-      <category>breach notification</category>
-      <category>government</category>
-      <category>Bhutan</category>
-      <category>HIBP</category>
-      <category>CIRT</category>
-      <category>threat intelligence</category>
-      <category>credential leaks</category>
-      <category>data breach</category>
-      <category>incident response</category>
-      <pubDate>Tue, 26 May 2026 06:52:15 +0800</pubDate>
+标签: statistics, normal distribution, expected range, order statistics, numerical integration, Python, scipy, asymptotic approximation</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/26/calculating-expected-normal-range/#sha256:efbf2998a0677839</guid>
+      <category>statistics</category>
+      <category>normal distribution</category>
+      <category>expected range</category>
+      <category>order statistics</category>
+      <category>numerical integration</category>
+      <category>Python</category>
+      <category>scipy</category>
+      <category>asymptotic approximation</category>
+      <pubDate>Wed, 27 May 2026 01:59:53 +0800</pubDate>
     </item>
   </channel>
 </rss>
