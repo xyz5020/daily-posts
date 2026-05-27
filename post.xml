@@ -8,60 +8,42 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 27 May 2026 07:32:33 +0800</lastBuildDate>
-    <pubDate>Wed, 27 May 2026 07:32:33 +0800</pubDate>
+    <lastBuildDate>Thu, 28 May 2026 07:34:41 +0800</lastBuildDate>
+    <pubDate>Thu, 28 May 2026 07:34:41 +0800</pubDate>
     <item>
-      <title>Only insane people use the internet 摘要</title>
-      <link>https://www.experimental-history.com/p/only-insane-people-use-the-internet</link>
-      <description>The author describes a recurring experience with a reader who sends a nasty reply to every post within 24 hours. The reader's criticism is framed as a backhanded compliment, acknowledging the author's ability to articulate thoughts well while disagreeing. The article reflects on the nature of online engagement and the persistence of negative feedback, suggesting that only 'insane' people use the internet in such a dedicated, confrontational manner.
+      <title>I think Anthropic and OpenAI have found product-market fit 摘要</title>
+      <link>https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything</link>
+      <description>Anthropic is rumored to have its first profitable quarter, while OpenAI and Anthropic have both shifted enterprise pricing to match API token costs, eliminating previous discounts. This change, along with the release of more expensive frontier models (GPT-5.5, Opus 4.7), has led to stories of companies like Uber exceeding AI budgets due to heavy use of coding agents like Claude Code and Codex. The author argues this indicates product-market fit for AI coding agents, which burn many tokens and are used by well-paid professionals. Both labs are hiring heavily for enterprise sales roles. The AI failure stories are overblown; the pricing changes reflect real demand.
 
-标签: online behavior, feedback, writing, internet culture, criticism, engagement, persistence, communication</description>
-      <guid isPermaLink="false">https://www.experimental-history.com/p/only-insane-people-use-the-internet#sha256:4c914723a63a6c1e</guid>
-      <category>online behavior</category>
-      <category>feedback</category>
-      <category>writing</category>
-      <category>internet culture</category>
-      <category>criticism</category>
-      <category>engagement</category>
-      <category>persistence</category>
-      <category>communication</category>
-      <pubDate>Wed, 27 May 2026 00:02:14 +0800</pubDate>
-    </item>
-    <item>
-      <title>Revenge of The Business Idiot 摘要</title>
-      <link>https://www.wheresyoured.at/the-revenge-of-the-business-idiot/</link>
-      <description>The article criticizes AI adoption in business, arguing that executives and managers, termed 'Business Idiots,' embrace generative AI because it mimics work without understanding real productivity. It claims AI tools like LLMs enable incompetent leaders to bypass skilled workers, produce unrealistic prototypes, and ignore feasibility. The author cites Salesforce marketing non-existent AI features and highlights how AI fosters a culture of mediocrity, where effort and craft are devalued. The piece concludes that AI hype is driven by ignorance and desperation, not genuine innovation.
-
-标签: AI, business, management, critique, generative AI, executives, productivity, hype, Salesforce, workplace culture</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/the-revenge-of-the-business-idiot/#sha256:e1b7e4d581e47221</guid>
+标签: AI, Anthropic, OpenAI, pricing, enterprise, coding agents, product-market fit, Claude Code, Codex, LLM</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything#sha256:a5a5b059cd4a77a9</guid>
       <category>AI</category>
-      <category>business</category>
-      <category>management</category>
-      <category>critique</category>
-      <category>generative AI</category>
-      <category>executives</category>
-      <category>productivity</category>
-      <category>hype</category>
-      <category>Salesforce</category>
-      <category>workplace culture</category>
-      <pubDate>Wed, 27 May 2026 00:47:30 +0800</pubDate>
+      <category>Anthropic</category>
+      <category>OpenAI</category>
+      <category>pricing</category>
+      <category>enterprise</category>
+      <category>coding agents</category>
+      <category>product-market fit</category>
+      <category>Claude Code</category>
+      <category>Codex</category>
+      <category>LLM</category>
+      <pubDate>Thu, 28 May 2026 00:38:35 +0800</pubDate>
     </item>
     <item>
-      <title>Calculating the expected range of normal samples 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/26/calculating-expected-normal-range/</link>
-      <description>This article explains how to compute the expected range of n samples from a standard normal distribution N(0,1). The expected range d_n is given by an integral involving the normal PDF and CDF, which can be computed numerically using Python's scipy library. For n ≤ 5, closed-form solutions exist, but larger n require numerical integration. An asymptotic approximation is provided for large n, which may be more accurate than numerical integration due to integration errors. Example values are given for n from 2 to 100, showing the expected range in units of σ.
+      <title>SQLAlchemy 2 In Practice - Solutions to the Exercises 摘要</title>
+      <link>https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---solutions-to-the-exercises</link>
+      <description>This article concludes the SQLAlchemy 2 in Practice series by providing solutions to all exercises. The author encourages readers to support their work by purchasing the book from their store or Amazon.
 
-标签: statistics, normal distribution, expected range, order statistics, numerical integration, Python, scipy, asymptotic approximation</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/26/calculating-expected-normal-range/#sha256:efbf2998a0677839</guid>
-      <category>statistics</category>
-      <category>normal distribution</category>
-      <category>expected range</category>
-      <category>order statistics</category>
-      <category>numerical integration</category>
+标签: SQLAlchemy, Python, database, tutorial, exercises, book, programming</description>
+      <guid isPermaLink="false">https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---solutions-to-the-exercises#sha256:2fda0f130293e3d3</guid>
+      <category>SQLAlchemy</category>
       <category>Python</category>
-      <category>scipy</category>
-      <category>asymptotic approximation</category>
-      <pubDate>Wed, 27 May 2026 01:59:53 +0800</pubDate>
+      <category>database</category>
+      <category>tutorial</category>
+      <category>exercises</category>
+      <category>book</category>
+      <category>programming</category>
+      <pubDate>Thu, 28 May 2026 03:22:35 +0800</pubDate>
     </item>
   </channel>
 </rss>
