@@ -8,42 +8,41 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 28 May 2026 07:34:41 +0800</lastBuildDate>
-    <pubDate>Thu, 28 May 2026 07:34:41 +0800</pubDate>
+    <lastBuildDate>Fri, 29 May 2026 07:36:01 +0800</lastBuildDate>
+    <pubDate>Fri, 29 May 2026 07:36:01 +0800</pubDate>
     <item>
-      <title>I think Anthropic and OpenAI have found product-market fit 摘要</title>
-      <link>https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything</link>
-      <description>Anthropic is rumored to have its first profitable quarter, while OpenAI and Anthropic have both shifted enterprise pricing to match API token costs, eliminating previous discounts. This change, along with the release of more expensive frontier models (GPT-5.5, Opus 4.7), has led to stories of companies like Uber exceeding AI budgets due to heavy use of coding agents like Claude Code and Codex. The author argues this indicates product-market fit for AI coding agents, which burn many tokens and are used by well-paid professionals. Both labs are hiring heavily for enterprise sales roles. The AI failure stories are overblown; the pricing changes reflect real demand.
+      <title>Knowing about things is cheaper than knowing things 摘要</title>
+      <link>https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/</link>
+      <description>The author reflects on the relationship between math and programming, arguing that while basic math like arithmetic is universally useful, advanced fields like algebra or calculus have low ROI for most programmers. However, every programmer works in a domain where some branch of math could be beneficial. The key is to gain broad exposure to many fields first, then go deep only on relevant ones. The author recommends non-honors undergraduate textbooks for broad learning and notes they'll be at Craft Conference Budapest next week.
 
-标签: AI, Anthropic, OpenAI, pricing, enterprise, coding agents, product-market fit, Claude Code, Codex, LLM</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything#sha256:a5a5b059cd4a77a9</guid>
-      <category>AI</category>
-      <category>Anthropic</category>
-      <category>OpenAI</category>
-      <category>pricing</category>
-      <category>enterprise</category>
-      <category>coding agents</category>
-      <category>product-market fit</category>
-      <category>Claude Code</category>
-      <category>Codex</category>
-      <category>LLM</category>
-      <pubDate>Thu, 28 May 2026 00:38:35 +0800</pubDate>
+标签: math, programming, education, learning, software engineering, career, productivity, conference</description>
+      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/#sha256:219510eda25fa1c2</guid>
+      <category>math</category>
+      <category>programming</category>
+      <category>education</category>
+      <category>learning</category>
+      <category>software engineering</category>
+      <category>career</category>
+      <category>productivity</category>
+      <category>conference</category>
+      <pubDate>Fri, 29 May 2026 00:03:01 +0800</pubDate>
     </item>
     <item>
-      <title>SQLAlchemy 2 In Practice - Solutions to the Exercises 摘要</title>
-      <link>https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---solutions-to-the-exercises</link>
-      <description>This article concludes the SQLAlchemy 2 in Practice series by providing solutions to all exercises. The author encourages readers to support their work by purchasing the book from their store or Amazon.
+      <title>Footage From the LA-Houston MLS Match That Apple Shot Using iPhone 17 Pro Cameras 摘要</title>
+      <link>https://tv.apple.com/us/sporting-event/mls-wrap-up/umc.cse.3a198p24hrehwhonbhgx2zvhv</link>
+      <description>Apple TV's MLS Wrap-Up show features highlights from the LA Galaxy vs. Houston Dynamo FC match that was shot exclusively using iPhone 17 Pro cameras. The footage, while impressive for a phone camera, does not match the quality of professional broadcasts. The author notes that fans might be annoyed if their team's match was used for such a stunt.
 
-标签: SQLAlchemy, Python, database, tutorial, exercises, book, programming</description>
-      <guid isPermaLink="false">https://blog.miguelgrinberg.com/post/sqlalchemy-2-in-practice---solutions-to-the-exercises#sha256:2fda0f130293e3d3</guid>
-      <category>SQLAlchemy</category>
-      <category>Python</category>
-      <category>database</category>
-      <category>tutorial</category>
-      <category>exercises</category>
-      <category>book</category>
-      <category>programming</category>
-      <pubDate>Thu, 28 May 2026 03:22:35 +0800</pubDate>
+标签: Apple, iPhone, MLS, sports broadcasting, camera technology, Apple TV, footage quality, professional vs consumer</description>
+      <guid isPermaLink="false">https://tv.apple.com/us/sporting-event/mls-wrap-up/umc.cse.3a198p24hrehwhonbhgx2zvhv#sha256:a755de70f1162458</guid>
+      <category>Apple</category>
+      <category>iPhone</category>
+      <category>MLS</category>
+      <category>sports broadcasting</category>
+      <category>camera technology</category>
+      <category>Apple TV</category>
+      <category>footage quality</category>
+      <category>professional vs consumer</category>
+      <pubDate>Fri, 29 May 2026 00:51:57 +0800</pubDate>
     </item>
   </channel>
 </rss>
