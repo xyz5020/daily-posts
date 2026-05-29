@@ -8,41 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 29 May 2026 07:36:01 +0800</lastBuildDate>
-    <pubDate>Fri, 29 May 2026 07:36:01 +0800</pubDate>
+    <lastBuildDate>Sat, 30 May 2026 07:36:33 +0800</lastBuildDate>
+    <pubDate>Sat, 30 May 2026 07:36:33 +0800</pubDate>
     <item>
-      <title>Knowing about things is cheaper than knowing things 摘要</title>
-      <link>https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/</link>
-      <description>The author reflects on the relationship between math and programming, arguing that while basic math like arithmetic is universally useful, advanced fields like algebra or calculus have low ROI for most programmers. However, every programmer works in a domain where some branch of math could be beneficial. The key is to gain broad exposure to many fields first, then go deep only on relevant ones. The author recommends non-honors undergraduate textbooks for broad learning and notes they'll be at Craft Conference Budapest next week.
+      <title>One Group, Clearly, Is Deranged 摘要</title>
+      <link>https://paulkrugman.substack.com/p/whos-deranged-exactly</link>
+      <description>Paul Krugman highlights YouGov survey data showing a stark divide among Republicans: 65% of non-MAGA Republicans believe the economy is worsening, similar to independents and Democrats, while MAGA Republicans hold more positive views. Only 19% of Americans overall see the economy as good. The author notes that MAGA represents a Trump personality cult, citing examples of self-aggrandizement and corruption, and finds solace that only 20% of the population belongs to this group, slightly higher than the 13% who believe in Bigfoot.
 
-标签: math, programming, education, learning, software engineering, career, productivity, conference</description>
-      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/#sha256:219510eda25fa1c2</guid>
-      <category>math</category>
-      <category>programming</category>
-      <category>education</category>
-      <category>learning</category>
-      <category>software engineering</category>
-      <category>career</category>
-      <category>productivity</category>
-      <category>conference</category>
-      <pubDate>Fri, 29 May 2026 00:03:01 +0800</pubDate>
+标签: politics, economy, MAGA, Republicans, public opinion, polling, Trump, culture, US</description>
+      <guid isPermaLink="false">https://paulkrugman.substack.com/p/whos-deranged-exactly#sha256:2d5518215b404181</guid>
+      <category>politics</category>
+      <category>economy</category>
+      <category>MAGA</category>
+      <category>Republicans</category>
+      <category>public opinion</category>
+      <category>polling</category>
+      <category>Trump</category>
+      <category>culture</category>
+      <category>US</category>
+      <pubDate>Sat, 30 May 2026 00:22:10 +0800</pubDate>
     </item>
     <item>
-      <title>Footage From the LA-Houston MLS Match That Apple Shot Using iPhone 17 Pro Cameras 摘要</title>
-      <link>https://tv.apple.com/us/sporting-event/mls-wrap-up/umc.cse.3a198p24hrehwhonbhgx2zvhv</link>
-      <description>Apple TV's MLS Wrap-Up show features highlights from the LA Galaxy vs. Houston Dynamo FC match that was shot exclusively using iPhone 17 Pro cameras. The footage, while impressive for a phone camera, does not match the quality of professional broadcasts. The author notes that fans might be annoyed if their team's match was used for such a stunt.
+      <title>This Week on The Analog Antiquarian 摘要</title>
+      <link>https://www.filfre.net/2026/05/this-week-on-the-analog-antiquarian/</link>
+      <description>The article explores the early life of William Shakespeare, examining his upbringing in Stratford-upon-Avon, his education at the local grammar school, and the influences that shaped his later works. It discusses the limited historical records about his youth and how scholars have pieced together his biography from legal documents, church records, and literary references. The piece highlights key events such as his father's financial struggles, his marriage to Anne Hathaway, and his eventual move to London to pursue a career in theater. It also considers how his early experiences with nature, classical literature, and local folklore may have informed his plays and poetry.
 
-标签: Apple, iPhone, MLS, sports broadcasting, camera technology, Apple TV, footage quality, professional vs consumer</description>
-      <guid isPermaLink="false">https://tv.apple.com/us/sporting-event/mls-wrap-up/umc.cse.3a198p24hrehwhonbhgx2zvhv#sha256:a755de70f1162458</guid>
-      <category>Apple</category>
-      <category>iPhone</category>
-      <category>MLS</category>
-      <category>sports broadcasting</category>
-      <category>camera technology</category>
-      <category>Apple TV</category>
-      <category>footage quality</category>
-      <category>professional vs consumer</category>
-      <pubDate>Fri, 29 May 2026 00:51:57 +0800</pubDate>
+标签: Shakespeare, biography, literature, history, Elizabethan era, theater, Stratford-upon-Avon, early life, Renaissance, English literature</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/05/this-week-on-the-analog-antiquarian/#sha256:73bbbff9bf5d4b4c</guid>
+      <category>Shakespeare</category>
+      <category>biography</category>
+      <category>literature</category>
+      <category>history</category>
+      <category>Elizabethan era</category>
+      <category>theater</category>
+      <category>Stratford-upon-Avon</category>
+      <category>early life</category>
+      <category>Renaissance</category>
+      <category>English literature</category>
+      <pubDate>Sat, 30 May 2026 00:34:30 +0800</pubDate>
+    </item>
+    <item>
+      <title>Premium: What If...We're In An AI Bubble? (Part 3) 摘要</title>
+      <link>https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-3/</link>
+      <description>The article argues that the AI industry is in a bubble, citing unsustainable NVIDIA GPU sales requiring $435 billion in annual compute demand by 2027, while actual demand outside OpenAI and Anthropic is minimal. Data center construction lags, and NVIDIA is warehousing GPUs. To justify investments, at least two more OpenAI-sized companies are needed, but no other firm spends even $100 million annually on compute. OpenAI and Anthropic face over a trillion dollars in cashflow obligations through 2030, requiring unrealistic revenue projections of $284 billion and $174 billion respectively by 2029. The industry needs $500 billion in non-compute AI revenues by 2030 to recoup investments.
+
+标签: AI bubble, NVIDIA, GPU demand, data centers, OpenAI, Anthropic, venture capital, compute demand, AI industry, bubble analysis</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-3/#sha256:7dc90c82c3fe599c</guid>
+      <category>AI bubble</category>
+      <category>NVIDIA</category>
+      <category>GPU demand</category>
+      <category>data centers</category>
+      <category>OpenAI</category>
+      <category>Anthropic</category>
+      <category>venture capital</category>
+      <category>compute demand</category>
+      <category>AI industry</category>
+      <category>bubble analysis</category>
+      <pubDate>Sat, 30 May 2026 00:58:10 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ What Is a Dickover? 摘要</title>
+      <link>https://daringfireball.net/2026/05/what_is_a_dickover</link>
+      <description>The article discusses the concept of a 'dickover,' a term coined by the author to describe a situation where someone is deliberately misled or put at a disadvantage through deceptive or manipulative behavior. It explores various examples from personal and professional contexts, highlighting how such actions can undermine trust and create unfair outcomes. The piece emphasizes the importance of recognizing and addressing these behaviors to maintain integrity in relationships and systems.
+
+标签: ethics, psychology, manipulation, trust, behavior, relationships, deception, workplace, society, communication</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/05/what_is_a_dickover#sha256:9b1515b6cd00571a</guid>
+      <category>ethics</category>
+      <category>psychology</category>
+      <category>manipulation</category>
+      <category>trust</category>
+      <category>behavior</category>
+      <category>relationships</category>
+      <category>deception</category>
+      <category>workplace</category>
+      <category>society</category>
+      <category>communication</category>
+      <pubDate>Sat, 30 May 2026 04:58:56 +0800</pubDate>
     </item>
   </channel>
 </rss>
