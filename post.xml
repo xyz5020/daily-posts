@@ -8,82 +8,137 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 30 May 2026 07:36:33 +0800</lastBuildDate>
-    <pubDate>Sat, 30 May 2026 07:36:33 +0800</pubDate>
+    <lastBuildDate>Sun, 31 May 2026 07:29:05 +0800</lastBuildDate>
+    <pubDate>Sun, 31 May 2026 07:29:05 +0800</pubDate>
     <item>
-      <title>One Group, Clearly, Is Deranged 摘要</title>
-      <link>https://paulkrugman.substack.com/p/whos-deranged-exactly</link>
-      <description>Paul Krugman highlights YouGov survey data showing a stark divide among Republicans: 65% of non-MAGA Republicans believe the economy is worsening, similar to independents and Democrats, while MAGA Republicans hold more positive views. Only 19% of Americans overall see the economy as good. The author notes that MAGA represents a Trump personality cult, citing examples of self-aggrandizement and corruption, and finds solace that only 20% of the population belongs to this group, slightly higher than the 13% who believe in Bigfoot.
+      <title>Microcode inside the Intel 8087 floating-point chip: register exchange 摘要</title>
+      <link>http://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</link>
+      <description>The Intel 8087 floating-point coprocessor, introduced in 1980, accelerated floating-point operations up to 100x and established the floating-point standard used today. The Opcode Collective is reverse-engineering its microcode, which consists of 1648 micro-instructions. This article focuses on the FXCH (Floating-point Exchange) instruction, which swaps the top-of-stack register with a specified stack register. Despite appearing trivial, FXCH requires 14 micro-instructions to handle empty registers, exceptions, and NaN replacement. The article details the microcode structure, register organization (stack-based with tag bits), and the internal temporary registers (tmpA, tmpB) used during execution.
 
-标签: politics, economy, MAGA, Republicans, public opinion, polling, Trump, culture, US</description>
-      <guid isPermaLink="false">https://paulkrugman.substack.com/p/whos-deranged-exactly#sha256:2d5518215b404181</guid>
-      <category>politics</category>
-      <category>economy</category>
-      <category>MAGA</category>
-      <category>Republicans</category>
-      <category>public opinion</category>
-      <category>polling</category>
-      <category>Trump</category>
-      <category>culture</category>
-      <category>US</category>
-      <pubDate>Sat, 30 May 2026 00:22:10 +0800</pubDate>
+标签: Intel 8087, floating-point, microcode, reverse engineering, FXCH, coprocessor, computer architecture, retro computing, hardware</description>
+      <guid isPermaLink="false">http://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html#sha256:c4e26c6f84dfd107</guid>
+      <category>Intel 8087</category>
+      <category>floating-point</category>
+      <category>microcode</category>
+      <category>reverse engineering</category>
+      <category>FXCH</category>
+      <category>coprocessor</category>
+      <category>computer architecture</category>
+      <category>retro computing</category>
+      <category>hardware</category>
+      <pubDate>Sun, 31 May 2026 01:09:35 +0800</pubDate>
     </item>
     <item>
-      <title>This Week on The Analog Antiquarian 摘要</title>
-      <link>https://www.filfre.net/2026/05/this-week-on-the-analog-antiquarian/</link>
-      <description>The article explores the early life of William Shakespeare, examining his upbringing in Stratford-upon-Avon, his education at the local grammar school, and the influences that shaped his later works. It discusses the limited historical records about his youth and how scholars have pieced together his biography from legal documents, church records, and literary references. The piece highlights key events such as his father's financial struggles, his marriage to Anne Hathaway, and his eventual move to London to pursue a career in theater. It also considers how his early experiences with nature, classical literature, and local folklore may have informed his plays and poetry.
+      <title>Quoting Daniel Jalkut 摘要</title>
+      <link>https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything</link>
+      <description>Daniel Jalkut offers a balanced perspective on AI, suggesting that both critics and proponents tend to be overly extreme in their views. He argues that those against AI are too opposed, while those in favor are too enthusiastic, implying a need for a more nuanced middle ground. The quote was shared by John Gruber on Daring Fireball.
 
-标签: Shakespeare, biography, literature, history, Elizabethan era, theater, Stratford-upon-Avon, early life, Renaissance, English literature</description>
-      <guid isPermaLink="false">https://www.filfre.net/2026/05/this-week-on-the-analog-antiquarian/#sha256:73bbbff9bf5d4b4c</guid>
-      <category>Shakespeare</category>
-      <category>biography</category>
-      <category>literature</category>
-      <category>history</category>
-      <category>Elizabethan era</category>
-      <category>theater</category>
-      <category>Stratford-upon-Avon</category>
-      <category>early life</category>
-      <category>Renaissance</category>
-      <category>English literature</category>
-      <pubDate>Sat, 30 May 2026 00:34:30 +0800</pubDate>
+标签: AI, opinion, technology, criticism, enthusiasm, balance, Daniel Jalkut, John Gruber</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything#sha256:784217f39460abab</guid>
+      <category>AI</category>
+      <category>opinion</category>
+      <category>technology</category>
+      <category>criticism</category>
+      <category>enthusiasm</category>
+      <category>balance</category>
+      <category>Daniel Jalkut</category>
+      <category>John Gruber</category>
+      <pubDate>Sun, 31 May 2026 01:29:55 +0800</pubDate>
     </item>
     <item>
-      <title>Premium: What If...We're In An AI Bubble? (Part 3) 摘要</title>
-      <link>https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-3/</link>
-      <description>The article argues that the AI industry is in a bubble, citing unsustainable NVIDIA GPU sales requiring $435 billion in annual compute demand by 2027, while actual demand outside OpenAI and Anthropic is minimal. Data center construction lags, and NVIDIA is warehousing GPUs. To justify investments, at least two more OpenAI-sized companies are needed, but no other firm spends even $100 million annually on compute. OpenAI and Anthropic face over a trillion dollars in cashflow obligations through 2030, requiring unrealistic revenue projections of $284 billion and $174 billion respectively by 2029. The industry needs $500 billion in non-compute AI revenues by 2030 to recoup investments.
+      <title>On first looking into JAX 摘要</title>
+      <link>https://www.gilesthomas.com/2026/05/on-first-looking-into-jax</link>
+      <description>The author, an experienced PyTorch user, explores JAX and finds it impressively clean and mathematically elegant. Key differences: PyTorch is engineering-oriented, procedural, and maximalist, while JAX is math-oriented, functional, and minimalist. JAX uses JIT compilation and functional transformations like `jax.grad`, which mirrors the mathematical definition of gradients. The author illustrates this by comparing training loops: PyTorch requires explicit zero_grad, forward, backward, and step calls, whereas JAX defines a pure loss function and uses `jax.grad` to compute gradients. Despite its appeal, the author worries JAX may be doomed due to industry inertia.
 
-标签: AI bubble, NVIDIA, GPU demand, data centers, OpenAI, Anthropic, venture capital, compute demand, AI industry, bubble analysis</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/premium-what-if-were-in-an-ai-bubble-part-3/#sha256:7dc90c82c3fe599c</guid>
-      <category>AI bubble</category>
-      <category>NVIDIA</category>
-      <category>GPU demand</category>
-      <category>data centers</category>
-      <category>OpenAI</category>
+标签: JAX, PyTorch, deep learning, machine learning, framework comparison, functional programming, automatic differentiation, JIT compilation, training loop, math vs engineering</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/05/on-first-looking-into-jax#sha256:73366a844bc3223b</guid>
+      <category>JAX</category>
+      <category>PyTorch</category>
+      <category>deep learning</category>
+      <category>machine learning</category>
+      <category>framework comparison</category>
+      <category>functional programming</category>
+      <category>automatic differentiation</category>
+      <category>JIT compilation</category>
+      <category>training loop</category>
+      <category>math vs engineering</category>
+      <pubDate>Sun, 31 May 2026 02:45:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>I Am Retiring from Tech to Live Offline 摘要</title>
+      <link>https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything</link>
+      <description>Chad Whitacre, a prominent figure in open source, announces his retirement from tech and online life, citing AI as the last straw. He describes his experience with Claude Code as intoxicating and unsettling, feeling a computer system sharing his inner monologue. He plans to adopt a 'Neo-Amish' lifestyle, stepping back to a pre-screen, analog existence while still using modern conveniences like cars and electricity. His departure raises concerns about open source sustainability amid AI disruption.
+
+标签: AI, open-source, retirement, digital-detox, AI-ethics, technology-criticism, open-source-sustainability, analog-life, Claude-Code, Chad-Whitacre</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything#sha256:598a1946785e933e</guid>
+      <category>AI</category>
+      <category>open-source</category>
+      <category>retirement</category>
+      <category>digital-detox</category>
+      <category>AI-ethics</category>
+      <category>technology-criticism</category>
+      <category>open-source-sustainability</category>
+      <category>analog-life</category>
+      <category>Claude-Code</category>
+      <category>Chad-Whitacre</category>
+      <pubDate>Sun, 31 May 2026 03:39:08 +0800</pubDate>
+    </item>
+    <item>
+      <title>Running Python ASGI apps in the browser via Pyodide + a service worker 摘要</title>
+      <link>https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything</link>
+      <description>Simon Willison describes using Claude Opus 4.8 to develop a method for running Python ASGI apps in the browser via Pyodide and Service Workers. Previously, Datasette Lite used Web Workers, which prevented JavaScript in script tags from executing. The new Service Worker approach allows full JavaScript execution, enabling Datasette plugins to work. A basic ASGI demo and a Datasette 1.0a31 demo are provided. Willison plans to upgrade Datasette Lite with this technique.
+
+标签: python, javascript, pyodide, service-workers, asgi, datasette, datasette-lite, webassembly, claude-code, web-development</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything#sha256:662430841574c664</guid>
+      <category>python</category>
+      <category>javascript</category>
+      <category>pyodide</category>
+      <category>service-workers</category>
+      <category>asgi</category>
+      <category>datasette</category>
+      <category>datasette-lite</category>
+      <category>webassembly</category>
+      <category>claude-code</category>
+      <category>web-development</category>
+      <pubDate>Sun, 31 May 2026 05:02:16 +0800</pubDate>
+    </item>
+    <item>
+      <title>Spot checking polynomial identities 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/30/schwartz-zippel/</link>
+      <description>The Schwartz-Zippel lemma states that for a non-zero polynomial P of total degree d over a finite field F, the probability that P evaluates to zero at a random point is at most d/|F|. This allows efficient verification of polynomial identities by random sampling: if two polynomials Q1 and Q2 agree at a few random points, they are almost certainly identical. Applications include testing polynomial identities, the binomial coefficient trick, and algebraic circuits used in zero-knowledge proofs. The lemma is fundamental in theoretical computer science and cryptography.
+
+标签: Schwartz-Zippel, polynomial identity, random sampling, finite field, probability, zero-knowledge proofs, algebraic circuits, cryptography, theoretical computer science, John D. Cook</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/30/schwartz-zippel/#sha256:c00c4362fa39e389</guid>
+      <category>Schwartz-Zippel</category>
+      <category>polynomial identity</category>
+      <category>random sampling</category>
+      <category>finite field</category>
+      <category>probability</category>
+      <category>zero-knowledge proofs</category>
+      <category>algebraic circuits</category>
+      <category>cryptography</category>
+      <category>theoretical computer science</category>
+      <category>John D. Cook</category>
+      <pubDate>Sun, 31 May 2026 05:06:49 +0800</pubDate>
+    </item>
+    <item>
+      <title>How we contain Claude across products 摘要</title>
+      <link>https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything</link>
+      <description>Anthropic published a detailed overview of sandbox techniques used across Claude.ai, Claude Code, and Claude Cowork to constrain agent actions. Methods include process sandboxes, VMs, filesystem boundaries, and egress controls. Claude.ai uses gVisor; Claude Code uses Seatbelt (macOS) and Bubblewrap (Linux); Claude Cowork runs full VMs. The article also discusses past risks like the /v1/files exfiltration vector and highlights Anthropic's open-source Sandbox Runtime (srt) tool.
+
+标签: sandboxing, security, AI, generative-ai, LLMs, Anthropic, Claude, Claude Code, gVisor, Bubblewrap</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything#sha256:e49e6674e49a0500</guid>
+      <category>sandboxing</category>
+      <category>security</category>
+      <category>AI</category>
+      <category>generative-ai</category>
+      <category>LLMs</category>
       <category>Anthropic</category>
-      <category>venture capital</category>
-      <category>compute demand</category>
-      <category>AI industry</category>
-      <category>bubble analysis</category>
-      <pubDate>Sat, 30 May 2026 00:58:10 +0800</pubDate>
-    </item>
-    <item>
-      <title>★ What Is a Dickover? 摘要</title>
-      <link>https://daringfireball.net/2026/05/what_is_a_dickover</link>
-      <description>The article discusses the concept of a 'dickover,' a term coined by the author to describe a situation where someone is deliberately misled or put at a disadvantage through deceptive or manipulative behavior. It explores various examples from personal and professional contexts, highlighting how such actions can undermine trust and create unfair outcomes. The piece emphasizes the importance of recognizing and addressing these behaviors to maintain integrity in relationships and systems.
-
-标签: ethics, psychology, manipulation, trust, behavior, relationships, deception, workplace, society, communication</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/05/what_is_a_dickover#sha256:9b1515b6cd00571a</guid>
-      <category>ethics</category>
-      <category>psychology</category>
-      <category>manipulation</category>
-      <category>trust</category>
-      <category>behavior</category>
-      <category>relationships</category>
-      <category>deception</category>
-      <category>workplace</category>
-      <category>society</category>
-      <category>communication</category>
-      <pubDate>Sat, 30 May 2026 04:58:56 +0800</pubDate>
+      <category>Claude</category>
+      <category>Claude Code</category>
+      <category>gVisor</category>
+      <category>Bubblewrap</category>
+      <pubDate>Sun, 31 May 2026 05:36:24 +0800</pubDate>
     </item>
   </channel>
 </rss>
