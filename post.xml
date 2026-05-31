@@ -8,137 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 31 May 2026 07:29:05 +0800</lastBuildDate>
-    <pubDate>Sun, 31 May 2026 07:29:05 +0800</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2026 07:30:34 +0800</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2026 07:30:34 +0800</pubDate>
     <item>
-      <title>Microcode inside the Intel 8087 floating-point chip: register exchange 摘要</title>
-      <link>http://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html</link>
-      <description>The Intel 8087 floating-point coprocessor, introduced in 1980, accelerated floating-point operations up to 100x and established the floating-point standard used today. The Opcode Collective is reverse-engineering its microcode, which consists of 1648 micro-instructions. This article focuses on the FXCH (Floating-point Exchange) instruction, which swaps the top-of-stack register with a specified stack register. Despite appearing trivial, FXCH requires 14 micro-instructions to handle empty registers, exceptions, and NaN replacement. The article details the microcode structure, register organization (stack-based with tag bits), and the internal temporary registers (tmpA, tmpB) used during execution.
+      <title>Another Gaussian approximation 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/05/31/another-gaussian-approximation/</link>
+      <description>The article discusses approximations of the Gaussian density function exp(-x²) using cosine-based functions. The function (1+cos(x))/2 provides a fair approximation, which can be improved by raising it to a power. A novel approximation (1+cos(sin(x)+x))/2 matches the power series of exp(-x²) up to the x⁴ term, with error on the order of x⁶/240. However, the alternating series theorem does not apply because the series terms do not decrease monotonically for x=4, yet the actual error is much smaller than predicted. The post highlights the nuance of series truncation error bounds.
 
-标签: Intel 8087, floating-point, microcode, reverse engineering, FXCH, coprocessor, computer architecture, retro computing, hardware</description>
-      <guid isPermaLink="false">http://www.righto.com/2026/05/microcode-inside-intel-8087-floating.html#sha256:c4e26c6f84dfd107</guid>
-      <category>Intel 8087</category>
-      <category>floating-point</category>
-      <category>microcode</category>
-      <category>reverse engineering</category>
-      <category>FXCH</category>
-      <category>coprocessor</category>
-      <category>computer architecture</category>
-      <category>retro computing</category>
-      <category>hardware</category>
-      <pubDate>Sun, 31 May 2026 01:09:35 +0800</pubDate>
+标签: Gaussian approximation, cosine approximation, power series, alternating series, error analysis, numerical analysis, mathematics, approximation theory</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/31/another-gaussian-approximation/#sha256:e911f49ab13762f3</guid>
+      <category>Gaussian approximation</category>
+      <category>cosine approximation</category>
+      <category>power series</category>
+      <category>alternating series</category>
+      <category>error analysis</category>
+      <category>numerical analysis</category>
+      <category>mathematics</category>
+      <category>approximation theory</category>
+      <pubDate>Mon, 01 Jun 2026 00:15:49 +0800</pubDate>
     </item>
     <item>
-      <title>Quoting Daniel Jalkut 摘要</title>
-      <link>https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything</link>
-      <description>Daniel Jalkut offers a balanced perspective on AI, suggesting that both critics and proponents tend to be overly extreme in their views. He argues that those against AI are too opposed, while those in favor are too enthusiastic, implying a need for a more nuanced middle ground. The quote was shared by John Gruber on Daring Fireball.
+      <title>The solution might be cancelling my AI subscription 摘要</title>
+      <link>https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything</link>
+      <description>David Wilson describes how AI coding agents enable rapid creation of many projects, but this leads to attention fragmentation and abandoned work, calling AI a 'thermonuclear ADHD amplifier.' He suggests curtailing use as the only current management strategy. However, Hacker News comments from ADHD users report opposite effects: AI helps them focus, finish side projects, and maintain productivity. The author hopes discipline is the key skill, but acknowledges it's difficult to develop.
 
-标签: AI, opinion, technology, criticism, enthusiasm, balance, Daniel Jalkut, John Gruber</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything#sha256:784217f39460abab</guid>
+标签: AI, productivity, ADHD, coding agents, attention, project management, AI misuse, focus, side projects, Hacker News</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything#sha256:4f0ec9068ac1cf61</guid>
       <category>AI</category>
-      <category>opinion</category>
-      <category>technology</category>
-      <category>criticism</category>
-      <category>enthusiasm</category>
-      <category>balance</category>
-      <category>Daniel Jalkut</category>
-      <category>John Gruber</category>
-      <pubDate>Sun, 31 May 2026 01:29:55 +0800</pubDate>
+      <category>productivity</category>
+      <category>ADHD</category>
+      <category>coding agents</category>
+      <category>attention</category>
+      <category>project management</category>
+      <category>AI misuse</category>
+      <category>focus</category>
+      <category>side projects</category>
+      <category>Hacker News</category>
+      <pubDate>Mon, 01 Jun 2026 00:31:32 +0800</pubDate>
     </item>
     <item>
-      <title>On first looking into JAX 摘要</title>
-      <link>https://www.gilesthomas.com/2026/05/on-first-looking-into-jax</link>
-      <description>The author, an experienced PyTorch user, explores JAX and finds it impressively clean and mathematically elegant. Key differences: PyTorch is engineering-oriented, procedural, and maximalist, while JAX is math-oriented, functional, and minimalist. JAX uses JIT compilation and functional transformations like `jax.grad`, which mirrors the mathematical definition of gradients. The author illustrates this by comparing training loops: PyTorch requires explicit zero_grad, forward, backward, and step calls, whereas JAX defines a pure loss function and uses `jax.grad` to compute gradients. Despite its appeal, the author worries JAX may be doomed due to industry inertia.
+      <title>Be thou not pilled 摘要</title>
+      <link>https://www.joanwestenberg.com/be-thou-not-pilled/</link>
+      <description>The essay explores how people become 'pilled'—captured by belief systems that do their thinking for them. Drawing on Charles Mackay, Eric Hoffer, and Orwell, it argues that ideas spread not by truth but by emotional transmissibility. The internet accelerates this, installing worldviews via memes. The author warns against mistaking fluency in a tribe's jargon for understanding, and offers four antidotes: keep respected dissenting company, read strong opposing arguments, watch your vocabulary, and track predictions. True conviction must be held loosely enough to survive being wrong.
 
-标签: JAX, PyTorch, deep learning, machine learning, framework comparison, functional programming, automatic differentiation, JIT compilation, training loop, math vs engineering</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/05/on-first-looking-into-jax#sha256:73366a844bc3223b</guid>
-      <category>JAX</category>
-      <category>PyTorch</category>
-      <category>deep learning</category>
-      <category>machine learning</category>
-      <category>framework comparison</category>
-      <category>functional programming</category>
-      <category>automatic differentiation</category>
-      <category>JIT compilation</category>
-      <category>training loop</category>
-      <category>math vs engineering</category>
-      <pubDate>Sun, 31 May 2026 02:45:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>I Am Retiring from Tech to Live Offline 摘要</title>
-      <link>https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything</link>
-      <description>Chad Whitacre, a prominent figure in open source, announces his retirement from tech and online life, citing AI as the last straw. He describes his experience with Claude Code as intoxicating and unsettling, feeling a computer system sharing his inner monologue. He plans to adopt a 'Neo-Amish' lifestyle, stepping back to a pre-screen, analog existence while still using modern conveniences like cars and electricity. His departure raises concerns about open source sustainability amid AI disruption.
-
-标签: AI, open-source, retirement, digital-detox, AI-ethics, technology-criticism, open-source-sustainability, analog-life, Claude-Code, Chad-Whitacre</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything#sha256:598a1946785e933e</guid>
-      <category>AI</category>
-      <category>open-source</category>
-      <category>retirement</category>
-      <category>digital-detox</category>
-      <category>AI-ethics</category>
-      <category>technology-criticism</category>
-      <category>open-source-sustainability</category>
-      <category>analog-life</category>
-      <category>Claude-Code</category>
-      <category>Chad-Whitacre</category>
-      <pubDate>Sun, 31 May 2026 03:39:08 +0800</pubDate>
-    </item>
-    <item>
-      <title>Running Python ASGI apps in the browser via Pyodide + a service worker 摘要</title>
-      <link>https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything</link>
-      <description>Simon Willison describes using Claude Opus 4.8 to develop a method for running Python ASGI apps in the browser via Pyodide and Service Workers. Previously, Datasette Lite used Web Workers, which prevented JavaScript in script tags from executing. The new Service Worker approach allows full JavaScript execution, enabling Datasette plugins to work. A basic ASGI demo and a Datasette 1.0a31 demo are provided. Willison plans to upgrade Datasette Lite with this technique.
-
-标签: python, javascript, pyodide, service-workers, asgi, datasette, datasette-lite, webassembly, claude-code, web-development</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything#sha256:662430841574c664</guid>
-      <category>python</category>
-      <category>javascript</category>
-      <category>pyodide</category>
-      <category>service-workers</category>
-      <category>asgi</category>
-      <category>datasette</category>
-      <category>datasette-lite</category>
-      <category>webassembly</category>
-      <category>claude-code</category>
-      <category>web-development</category>
-      <pubDate>Sun, 31 May 2026 05:02:16 +0800</pubDate>
-    </item>
-    <item>
-      <title>Spot checking polynomial identities 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/30/schwartz-zippel/</link>
-      <description>The Schwartz-Zippel lemma states that for a non-zero polynomial P of total degree d over a finite field F, the probability that P evaluates to zero at a random point is at most d/|F|. This allows efficient verification of polynomial identities by random sampling: if two polynomials Q1 and Q2 agree at a few random points, they are almost certainly identical. Applications include testing polynomial identities, the binomial coefficient trick, and algebraic circuits used in zero-knowledge proofs. The lemma is fundamental in theoretical computer science and cryptography.
-
-标签: Schwartz-Zippel, polynomial identity, random sampling, finite field, probability, zero-knowledge proofs, algebraic circuits, cryptography, theoretical computer science, John D. Cook</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/30/schwartz-zippel/#sha256:c00c4362fa39e389</guid>
-      <category>Schwartz-Zippel</category>
-      <category>polynomial identity</category>
-      <category>random sampling</category>
-      <category>finite field</category>
-      <category>probability</category>
-      <category>zero-knowledge proofs</category>
-      <category>algebraic circuits</category>
-      <category>cryptography</category>
-      <category>theoretical computer science</category>
-      <category>John D. Cook</category>
-      <pubDate>Sun, 31 May 2026 05:06:49 +0800</pubDate>
-    </item>
-    <item>
-      <title>How we contain Claude across products 摘要</title>
-      <link>https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything</link>
-      <description>Anthropic published a detailed overview of sandbox techniques used across Claude.ai, Claude Code, and Claude Cowork to constrain agent actions. Methods include process sandboxes, VMs, filesystem boundaries, and egress controls. Claude.ai uses gVisor; Claude Code uses Seatbelt (macOS) and Bubblewrap (Linux); Claude Cowork runs full VMs. The article also discusses past risks like the /v1/files exfiltration vector and highlights Anthropic's open-source Sandbox Runtime (srt) tool.
-
-标签: sandboxing, security, AI, generative-ai, LLMs, Anthropic, Claude, Claude Code, gVisor, Bubblewrap</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything#sha256:e49e6674e49a0500</guid>
-      <category>sandboxing</category>
-      <category>security</category>
-      <category>AI</category>
-      <category>generative-ai</category>
-      <category>LLMs</category>
-      <category>Anthropic</category>
-      <category>Claude</category>
-      <category>Claude Code</category>
-      <category>gVisor</category>
-      <category>Bubblewrap</category>
-      <pubDate>Sun, 31 May 2026 05:36:24 +0800</pubDate>
+标签: belief systems, critical thinking, groupthink, memes, psychology, philosophy, internet culture, epistemology, intellectual humility, media literacy</description>
+      <guid isPermaLink="false">https://www.joanwestenberg.com/be-thou-not-pilled/#sha256:1a6a0ab7dbe9b941</guid>
+      <category>belief systems</category>
+      <category>critical thinking</category>
+      <category>groupthink</category>
+      <category>memes</category>
+      <category>psychology</category>
+      <category>philosophy</category>
+      <category>internet culture</category>
+      <category>epistemology</category>
+      <category>intellectual humility</category>
+      <category>media literacy</category>
+      <pubDate>Mon, 01 Jun 2026 07:21:45 +0800</pubDate>
     </item>
   </channel>
 </rss>
