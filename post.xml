@@ -8,62 +8,119 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 01 Jun 2026 07:30:34 +0800</lastBuildDate>
-    <pubDate>Mon, 01 Jun 2026 07:30:34 +0800</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2026 07:38:08 +0800</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2026 07:38:08 +0800</pubDate>
     <item>
-      <title>Another Gaussian approximation 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/05/31/another-gaussian-approximation/</link>
-      <description>The article discusses approximations of the Gaussian density function exp(-x²) using cosine-based functions. The function (1+cos(x))/2 provides a fair approximation, which can be improved by raising it to a power. A novel approximation (1+cos(sin(x)+x))/2 matches the power series of exp(-x²) up to the x⁴ term, with error on the order of x⁶/240. However, the alternating series theorem does not apply because the series terms do not decrease monotonically for x=4, yet the actual error is much smaller than predicted. The post highlights the nuance of series truncation error bounds.
+      <title>Amazon Made AI Podcasts for Products 摘要</title>
+      <link>https://www.businessinsider.com/amazon-ai-generated-podcasts-products-2026-4</link>
+      <description>Amazon launched a new AI feature that generates short, podcast-like audio segments with two AI 'hosts' discussing product reviews. The feature aims to provide an engaging way for shoppers to learn about products. However, critics question whether anyone would actually listen to these AI-generated podcasts, with some finding the concept absurd or dystopian. The feature was tested on a product like diaper rash cream, producing a surprisingly realistic but ultimately unnecessary audio discussion.
 
-标签: Gaussian approximation, cosine approximation, power series, alternating series, error analysis, numerical analysis, mathematics, approximation theory</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/05/31/another-gaussian-approximation/#sha256:e911f49ab13762f3</guid>
-      <category>Gaussian approximation</category>
-      <category>cosine approximation</category>
-      <category>power series</category>
-      <category>alternating series</category>
-      <category>error analysis</category>
-      <category>numerical analysis</category>
-      <category>mathematics</category>
-      <category>approximation theory</category>
-      <pubDate>Mon, 01 Jun 2026 00:15:49 +0800</pubDate>
-    </item>
-    <item>
-      <title>The solution might be cancelling my AI subscription 摘要</title>
-      <link>https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything</link>
-      <description>David Wilson describes how AI coding agents enable rapid creation of many projects, but this leads to attention fragmentation and abandoned work, calling AI a 'thermonuclear ADHD amplifier.' He suggests curtailing use as the only current management strategy. However, Hacker News comments from ADHD users report opposite effects: AI helps them focus, finish side projects, and maintain productivity. The author hopes discipline is the key skill, but acknowledges it's difficult to develop.
-
-标签: AI, productivity, ADHD, coding agents, attention, project management, AI misuse, focus, side projects, Hacker News</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything#sha256:4f0ec9068ac1cf61</guid>
+标签: AI, Amazon, podcast, e-commerce, product reviews, AI-generated content, retail, technology, consumer</description>
+      <guid isPermaLink="false">https://www.businessinsider.com/amazon-ai-generated-podcasts-products-2026-4#sha256:427b9a93559c72e4</guid>
       <category>AI</category>
-      <category>productivity</category>
-      <category>ADHD</category>
-      <category>coding agents</category>
-      <category>attention</category>
-      <category>project management</category>
-      <category>AI misuse</category>
-      <category>focus</category>
-      <category>side projects</category>
-      <category>Hacker News</category>
-      <pubDate>Mon, 01 Jun 2026 00:31:32 +0800</pubDate>
+      <category>Amazon</category>
+      <category>podcast</category>
+      <category>e-commerce</category>
+      <category>product reviews</category>
+      <category>AI-generated content</category>
+      <category>retail</category>
+      <category>technology</category>
+      <category>consumer</category>
+      <pubDate>Tue, 02 Jun 2026 00:41:51 +0800</pubDate>
     </item>
     <item>
-      <title>Be thou not pilled 摘要</title>
-      <link>https://www.joanwestenberg.com/be-thou-not-pilled/</link>
-      <description>The essay explores how people become 'pilled'—captured by belief systems that do their thinking for them. Drawing on Charles Mackay, Eric Hoffer, and Orwell, it argues that ideas spread not by truth but by emotional transmissibility. The internet accelerates this, installing worldviews via memes. The author warns against mistaking fluency in a tribe's jargon for understanding, and offers four antidotes: keep respected dissenting company, read strong opposing arguments, watch your vocabulary, and track predictions. True conviction must be held loosely enough to survive being wrong.
+      <title>Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts 摘要</title>
+      <link>https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/</link>
+      <description>Pro-Iranian hackers defaced Instagram accounts of the Obama White House and U.S. Space Force by exploiting Meta's AI support assistant. The attack involved using a VPN to spoof location, requesting a password reset, and tricking the AI bot into linking a new email address, which then received a one-time code for password reset. Meta pushed an emergency patch and secured impacted accounts. Accounts with multi-factor authentication (MFA) were not vulnerable. Security experts warn that AI chatbots handling account recovery create new attack surfaces.
 
-标签: belief systems, critical thinking, groupthink, memes, psychology, philosophy, internet culture, epistemology, intellectual humility, media literacy</description>
-      <guid isPermaLink="false">https://www.joanwestenberg.com/be-thou-not-pilled/#sha256:1a6a0ab7dbe9b941</guid>
-      <category>belief systems</category>
-      <category>critical thinking</category>
-      <category>groupthink</category>
-      <category>memes</category>
-      <category>psychology</category>
-      <category>philosophy</category>
-      <category>internet culture</category>
-      <category>epistemology</category>
-      <category>intellectual humility</category>
-      <category>media literacy</category>
-      <pubDate>Mon, 01 Jun 2026 07:21:45 +0800</pubDate>
+标签: cybersecurity, AI, social engineering, Instagram, Meta, account hijacking, MFA, password reset, Telegram, vulnerability</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/#sha256:959044d6299f9472</guid>
+      <category>cybersecurity</category>
+      <category>AI</category>
+      <category>social engineering</category>
+      <category>Instagram</category>
+      <category>Meta</category>
+      <category>account hijacking</category>
+      <category>MFA</category>
+      <category>password reset</category>
+      <category>Telegram</category>
+      <category>vulnerability</category>
+      <pubDate>Tue, 02 Jun 2026 01:32:50 +0800</pubDate>
+    </item>
+    <item>
+      <title>The web is changing, and we are not going back 摘要</title>
+      <link>https://idiallo.com/blog/web-is-changing-we-are-not-going-back?src=feed</link>
+      <description>The author reflects on how Google's shift from keyword matching to AI-driven natural language responses has changed search behavior. Previously, users optimized queries with specific keywords for better results. Now, Google provides direct answers, reducing clicks to original sources and burying information under noise. The author notes a decline in referral traffic despite rising impressions. While acknowledging this new reality, they advocate for choosing alternative search engines like DuckDuckGo or Kagi to regain control. The piece concludes that adapting doesn't mean blindly accepting change, but selectively embracing tools that preserve the value of source verification.
+
+标签: Google, search engines, AI, information retrieval, user behavior, web, technology, privacy, digital culture, SEO</description>
+      <guid isPermaLink="false">https://idiallo.com/blog/web-is-changing-we-are-not-going-back?src=feed#sha256:70718981c815c173</guid>
+      <category>Google</category>
+      <category>search engines</category>
+      <category>AI</category>
+      <category>information retrieval</category>
+      <category>user behavior</category>
+      <category>web</category>
+      <category>technology</category>
+      <category>privacy</category>
+      <category>digital culture</category>
+      <category>SEO</category>
+      <pubDate>Tue, 02 Jun 2026 03:34:37 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘We Are Living in Pinocchio’s World’ 摘要</title>
+      <link>https://om.co/2026/05/25/we-are-living-in-pinocchios-world/</link>
+      <description>Om Malik reflects on Carlo Collodi's 'The Adventures of Pinocchio,' arguing that the story is often misremembered as a simple moral tale about lying. Instead, the book depicts a society where deception is pervasive, institutions are corrupt, and authority figures are incompetent. Malik draws parallels to modern contexts, suggesting the essay applies to post-AI tech and post-Trump politics, where lies that succeed are more dangerous than obvious falsehoods.
+
+标签: literature, society, deception, politics, technology, AI, morality, institutions, corruption, essay</description>
+      <guid isPermaLink="false">https://om.co/2026/05/25/we-are-living-in-pinocchios-world/#sha256:d9022ef3514d5cd8</guid>
+      <category>literature</category>
+      <category>society</category>
+      <category>deception</category>
+      <category>politics</category>
+      <category>technology</category>
+      <category>AI</category>
+      <category>morality</category>
+      <category>institutions</category>
+      <category>corruption</category>
+      <category>essay</category>
+      <pubDate>Tue, 02 Jun 2026 04:05:17 +0800</pubDate>
+    </item>
+    <item>
+      <title>Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything</link>
+      <description>Hackers exploited Meta's AI support chatbot to take over high-profile Instagram accounts by simply asking it to link a new email address. The AI bot, integrated into Meta's support system, bypassed the entire account recovery process without additional verification. This incident highlights the dangers of giving AI chatbots direct access to sensitive account recovery functions, as it enabled one-shot account takeovers with minimal effort.
+
+标签: security, AI, prompt injection, account takeover, Meta, Instagram, AI misuse, chatbot, support system, vulnerability</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything#sha256:280fb2047aebac13</guid>
+      <category>security</category>
+      <category>AI</category>
+      <category>prompt injection</category>
+      <category>account takeover</category>
+      <category>Meta</category>
+      <category>Instagram</category>
+      <category>AI misuse</category>
+      <category>chatbot</category>
+      <category>support system</category>
+      <category>vulnerability</category>
+      <pubDate>Tue, 02 Jun 2026 05:14:47 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘If You Take the Weasel Job Then You Must Be the Weasel’ 摘要</title>
+      <link>https://www.hamiltonnolan.com/p/if-you-take-the-weasel-job-then-you?r=qy6gq</link>
+      <description>Hamilton Nolan argues that being hired for a prestigious job despite lacking qualifications is rarely due to unrecognized genius. More often, it's because the hirer is incompetent or, most likely, the hire is expected to carry out unpleasant tasks as a 'hatchet man.' He cites Nick Bilton's controversial appointment as head of 60 Minutes, which was poorly received by staff, as an example of such a 'weasel job.'
+
+标签: hiring, workplace, media, journalism, politics, career, management, ethics, organizational behavior</description>
+      <guid isPermaLink="false">https://www.hamiltonnolan.com/p/if-you-take-the-weasel-job-then-you?r=qy6gq#sha256:5ece64d080a27018</guid>
+      <category>hiring</category>
+      <category>workplace</category>
+      <category>media</category>
+      <category>journalism</category>
+      <category>politics</category>
+      <category>career</category>
+      <category>management</category>
+      <category>ethics</category>
+      <category>organizational behavior</category>
+      <pubDate>Tue, 02 Jun 2026 07:31:54 +0800</pubDate>
     </item>
   </channel>
 </rss>
