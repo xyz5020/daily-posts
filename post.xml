@@ -8,119 +8,156 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 02 Jun 2026 07:38:08 +0800</lastBuildDate>
-    <pubDate>Tue, 02 Jun 2026 07:38:08 +0800</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2026 07:41:16 +0800</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2026 07:41:16 +0800</pubDate>
     <item>
-      <title>Amazon Made AI Podcasts for Products 摘要</title>
-      <link>https://www.businessinsider.com/amazon-ai-generated-podcasts-products-2026-4</link>
-      <description>Amazon launched a new AI feature that generates short, podcast-like audio segments with two AI 'hosts' discussing product reviews. The feature aims to provide an engaging way for shoppers to learn about products. However, critics question whether anyone would actually listen to these AI-generated podcasts, with some finding the concept absurd or dystopian. The feature was tested on a product like diaper rash cream, producing a surprisingly realistic but ultimately unnecessary audio discussion.
+      <title>Three Ways to Get Paid 摘要</title>
+      <link>https://jasonzweig.com/three-ways-to-get-paid/</link>
+      <description>Jason Zweig shares his father's three-part rule about making a living: lying to those who want to be lied to leads to riches; telling truth to truth-seekers provides a living; but telling truth to those who want lies leads to bankruptcy. The post pairs this with Om Malik's observation about the success of grifters and hucksters in today's world, suggesting a commentary on modern media and influencer culture where dishonesty often pays.
 
-标签: AI, Amazon, podcast, e-commerce, product reviews, AI-generated content, retail, technology, consumer</description>
-      <guid isPermaLink="false">https://www.businessinsider.com/amazon-ai-generated-podcasts-products-2026-4#sha256:427b9a93559c72e4</guid>
-      <category>AI</category>
-      <category>Amazon</category>
-      <category>podcast</category>
-      <category>e-commerce</category>
-      <category>product reviews</category>
-      <category>AI-generated content</category>
-      <category>retail</category>
-      <category>technology</category>
-      <category>consumer</category>
-      <pubDate>Tue, 02 Jun 2026 00:41:51 +0800</pubDate>
-    </item>
-    <item>
-      <title>Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts 摘要</title>
-      <link>https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/</link>
-      <description>Pro-Iranian hackers defaced Instagram accounts of the Obama White House and U.S. Space Force by exploiting Meta's AI support assistant. The attack involved using a VPN to spoof location, requesting a password reset, and tricking the AI bot into linking a new email address, which then received a one-time code for password reset. Meta pushed an emergency patch and secured impacted accounts. Accounts with multi-factor authentication (MFA) were not vulnerable. Security experts warn that AI chatbots handling account recovery create new attack surfaces.
-
-标签: cybersecurity, AI, social engineering, Instagram, Meta, account hijacking, MFA, password reset, Telegram, vulnerability</description>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/#sha256:959044d6299f9472</guid>
-      <category>cybersecurity</category>
-      <category>AI</category>
-      <category>social engineering</category>
-      <category>Instagram</category>
-      <category>Meta</category>
-      <category>account hijacking</category>
-      <category>MFA</category>
-      <category>password reset</category>
-      <category>Telegram</category>
-      <category>vulnerability</category>
-      <pubDate>Tue, 02 Jun 2026 01:32:50 +0800</pubDate>
-    </item>
-    <item>
-      <title>The web is changing, and we are not going back 摘要</title>
-      <link>https://idiallo.com/blog/web-is-changing-we-are-not-going-back?src=feed</link>
-      <description>The author reflects on how Google's shift from keyword matching to AI-driven natural language responses has changed search behavior. Previously, users optimized queries with specific keywords for better results. Now, Google provides direct answers, reducing clicks to original sources and burying information under noise. The author notes a decline in referral traffic despite rising impressions. While acknowledging this new reality, they advocate for choosing alternative search engines like DuckDuckGo or Kagi to regain control. The piece concludes that adapting doesn't mean blindly accepting change, but selectively embracing tools that preserve the value of source verification.
-
-标签: Google, search engines, AI, information retrieval, user behavior, web, technology, privacy, digital culture, SEO</description>
-      <guid isPermaLink="false">https://idiallo.com/blog/web-is-changing-we-are-not-going-back?src=feed#sha256:70718981c815c173</guid>
-      <category>Google</category>
-      <category>search engines</category>
-      <category>AI</category>
-      <category>information retrieval</category>
-      <category>user behavior</category>
-      <category>web</category>
-      <category>technology</category>
-      <category>privacy</category>
-      <category>digital culture</category>
-      <category>SEO</category>
-      <pubDate>Tue, 02 Jun 2026 03:34:37 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘We Are Living in Pinocchio’s World’ 摘要</title>
-      <link>https://om.co/2026/05/25/we-are-living-in-pinocchios-world/</link>
-      <description>Om Malik reflects on Carlo Collodi's 'The Adventures of Pinocchio,' arguing that the story is often misremembered as a simple moral tale about lying. Instead, the book depicts a society where deception is pervasive, institutions are corrupt, and authority figures are incompetent. Malik draws parallels to modern contexts, suggesting the essay applies to post-AI tech and post-Trump politics, where lies that succeed are more dangerous than obvious falsehoods.
-
-标签: literature, society, deception, politics, technology, AI, morality, institutions, corruption, essay</description>
-      <guid isPermaLink="false">https://om.co/2026/05/25/we-are-living-in-pinocchios-world/#sha256:d9022ef3514d5cd8</guid>
-      <category>literature</category>
-      <category>society</category>
-      <category>deception</category>
-      <category>politics</category>
-      <category>technology</category>
-      <category>AI</category>
-      <category>morality</category>
-      <category>institutions</category>
-      <category>corruption</category>
-      <category>essay</category>
-      <pubDate>Tue, 02 Jun 2026 04:05:17 +0800</pubDate>
-    </item>
-    <item>
-      <title>Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything</link>
-      <description>Hackers exploited Meta's AI support chatbot to take over high-profile Instagram accounts by simply asking it to link a new email address. The AI bot, integrated into Meta's support system, bypassed the entire account recovery process without additional verification. This incident highlights the dangers of giving AI chatbots direct access to sensitive account recovery functions, as it enabled one-shot account takeovers with minimal effort.
-
-标签: security, AI, prompt injection, account takeover, Meta, Instagram, AI misuse, chatbot, support system, vulnerability</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything#sha256:280fb2047aebac13</guid>
-      <category>security</category>
-      <category>AI</category>
-      <category>prompt injection</category>
-      <category>account takeover</category>
-      <category>Meta</category>
-      <category>Instagram</category>
-      <category>AI misuse</category>
-      <category>chatbot</category>
-      <category>support system</category>
-      <category>vulnerability</category>
-      <pubDate>Tue, 02 Jun 2026 05:14:47 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘If You Take the Weasel Job Then You Must Be the Weasel’ 摘要</title>
-      <link>https://www.hamiltonnolan.com/p/if-you-take-the-weasel-job-then-you?r=qy6gq</link>
-      <description>Hamilton Nolan argues that being hired for a prestigious job despite lacking qualifications is rarely due to unrecognized genius. More often, it's because the hirer is incompetent or, most likely, the hire is expected to carry out unpleasant tasks as a 'hatchet man.' He cites Nick Bilton's controversial appointment as head of 60 Minutes, which was poorly received by staff, as an example of such a 'weasel job.'
-
-标签: hiring, workplace, media, journalism, politics, career, management, ethics, organizational behavior</description>
-      <guid isPermaLink="false">https://www.hamiltonnolan.com/p/if-you-take-the-weasel-job-then-you?r=qy6gq#sha256:5ece64d080a27018</guid>
-      <category>hiring</category>
-      <category>workplace</category>
-      <category>media</category>
-      <category>journalism</category>
-      <category>politics</category>
-      <category>career</category>
-      <category>management</category>
+标签: ethics, truth, lying, media, influencers, society, wisdom, career, honesty, culture</description>
+      <guid isPermaLink="false">https://jasonzweig.com/three-ways-to-get-paid/#sha256:0c82719e8056c376</guid>
       <category>ethics</category>
-      <category>organizational behavior</category>
-      <pubDate>Tue, 02 Jun 2026 07:31:54 +0800</pubDate>
+      <category>truth</category>
+      <category>lying</category>
+      <category>media</category>
+      <category>influencers</category>
+      <category>society</category>
+      <category>wisdom</category>
+      <category>career</category>
+      <category>honesty</category>
+      <category>culture</category>
+      <pubDate>Wed, 03 Jun 2026 00:10:24 +0800</pubDate>
+    </item>
+    <item>
+      <title>California Brown Pelican 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything</link>
+      <description>The author is attending the Microsoft Build conference at Fort Mason in San Francisco, noting the presence of California Brown Pelicans diving in the water behind the venue. The post includes tags related to Microsoft, AI, generative AI, LLMs, and LLM releases.
+
+标签: microsoft, ai, generative-ai, llms, llm-release, conference, san-francisco, wildlife</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything#sha256:66828db88ab75830</guid>
+      <category>microsoft</category>
+      <category>ai</category>
+      <category>generative-ai</category>
+      <category>llms</category>
+      <category>llm-release</category>
+      <category>conference</category>
+      <category>san-francisco</category>
+      <category>wildlife</category>
+      <pubDate>Wed, 03 Jun 2026 02:17:03 +0800</pubDate>
+    </item>
+    <item>
+      <title>An Ode to the Exacting Pedantry of Computers 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/pedantry-of-computing/</link>
+      <description>The author reflects on how early programming required specifying number types (integers, floats, doubles), which felt pedantic and led them to drop a C++ class. Later, Python's dynamic typing felt more intuitive. Over time, they appreciated that computers' exacting precision forced careful thinking and anticipation of edge cases, improving design. With LLMs generating code from vague intent, that friction disappears, allowing faster output but risking half-conceived ideas. The author argues that articulating intent through code is essential for shaping good software, and losing that pedantry may lead to assumptions that users discover as bugs.
+
+标签: programming, LLM, software engineering, type systems, developer experience, AI-assisted coding, critical thinking, code quality, pedagogy, software design</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/pedantry-of-computing/#sha256:4b56c4225f0945c0</guid>
+      <category>programming</category>
+      <category>LLM</category>
+      <category>software engineering</category>
+      <category>type systems</category>
+      <category>developer experience</category>
+      <category>AI-assisted coding</category>
+      <category>critical thinking</category>
+      <category>code quality</category>
+      <category>pedagogy</category>
+      <category>software design</category>
+      <pubDate>Wed, 03 Jun 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Scott Pelley Accuses CBS News Boss of ‘Murdering’ ‘60 Minutes’ 摘要</title>
+      <link>https://www.nytimes.com/2026/06/01/business/media/cbs-60-minutes-scott-pelley-nick-bilton.html?unlocked_article_code=1.nFA.TDGJ.HbBmlXuQWmcQ&amp;smid=url-share</link>
+      <description>Scott Pelley, a '60 Minutes' correspondent, fiercely criticized new executive producer Nick Bilton and editor-in-chief Bari Weiss during a staff meeting, accusing Weiss of 'murdering' the show. Pelley questioned Bilton's qualifications and the network's commitment to the program, following a major shake-up that included firing the previous executive producer and two correspondents. The turmoil comes despite '60 Minutes' winning two Emmys, a 9% ratings increase, and doubled digital views, indicating the show is thriving.
+
+标签: CBS News, 60 Minutes, Scott Pelley, Bari Weiss, Nick Bilton, media turmoil, newsroom conflict, TV ratings, journalism, media management</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/06/01/business/media/cbs-60-minutes-scott-pelley-nick-bilton.html?unlocked_article_code=1.nFA.TDGJ.HbBmlXuQWmcQ&amp;smid=url-share#sha256:72e2cf4d3e92f990</guid>
+      <category>CBS News</category>
+      <category>60 Minutes</category>
+      <category>Scott Pelley</category>
+      <category>Bari Weiss</category>
+      <category>Nick Bilton</category>
+      <category>media turmoil</category>
+      <category>newsroom conflict</category>
+      <category>TV ratings</category>
+      <category>journalism</category>
+      <category>media management</category>
+      <pubDate>Wed, 03 Jun 2026 03:53:47 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Metaverse Was Snake Oil for Isolation 摘要</title>
+      <link>https://daringfireball.net/linked/2026/06/01/the-metaverse-fever-dream</link>
+      <description>John Gruber argues that metaverse hype exactly coincided with Covid lockdown-induced isolation, not just roughly overlapping. He suggests the pandemic created a desperate need for technology that could substitute for real-world socializing, making people susceptible to the 'snake oil' promise of the metaverse. Gruber notes that extended lockdowns were only possible because modern technology like Zoom allowed a semblance of normalcy, but ultimately proved insufficient for education, work, and social connection. He questions whether metaverse hype would have occurred without Covid, though Facebook might still have rebranded due to brand toxicity.
+
+标签: metaverse, Covid-19, lockdown, isolation, technology, socializing, Zoom, Facebook, snake oil, pandemic</description>
+      <guid isPermaLink="false">https://daringfireball.net/linked/2026/06/01/the-metaverse-fever-dream#sha256:616a4e35a13b7f54</guid>
+      <category>metaverse</category>
+      <category>Covid-19</category>
+      <category>lockdown</category>
+      <category>isolation</category>
+      <category>technology</category>
+      <category>socializing</category>
+      <category>Zoom</category>
+      <category>Facebook</category>
+      <category>snake oil</category>
+      <category>pandemic</category>
+      <pubDate>Wed, 03 Jun 2026 04:42:33 +0800</pubDate>
+    </item>
+    <item>
+      <title>Apple, the Anti-‘Metaverse’ VR Company 摘要</title>
+      <link>https://daringfireball.net/2025/12/meta_says_fuck_that_metaverse_shit</link>
+      <description>John Gruber comments on the metaverse hype, noting that Apple never endorsed the term. At a 2022 WSJ event, Apple executives Greg Joswiak and Craig Federighi were asked to finish the sentence 'The metaverse is...' and Joswiak replied 'A word I'll never use.' Gruber contrasts Apple's stance with other companies and reiterates his belief that Apple's Vision platform is in the early stages of a long-term play, distinct from the metaverse fever dream.
+
+标签: Apple, metaverse, VR, Vision Pro, Greg Joswiak, Craig Federighi, Daring Fireball, tech commentary, AR/VR, hype</description>
+      <guid isPermaLink="false">https://daringfireball.net/2025/12/meta_says_fuck_that_metaverse_shit#sha256:1b97cd0ce48ce5bf</guid>
+      <category>Apple</category>
+      <category>metaverse</category>
+      <category>VR</category>
+      <category>Vision Pro</category>
+      <category>Greg Joswiak</category>
+      <category>Craig Federighi</category>
+      <category>Daring Fireball</category>
+      <category>tech commentary</category>
+      <category>AR/VR</category>
+      <category>hype</category>
+      <pubDate>Wed, 03 Jun 2026 04:48:08 +0800</pubDate>
+    </item>
+    <item>
+      <title>Meta Reportedly Has a Slew of New Smart Glasses Planned for This Year 摘要</title>
+      <link>https://gizmodo.com/meta-has-a-ridiculous-amount-of-smart-glasses-planned-for-this-year-2000765741</link>
+      <description>Meta has ambitious hardware plans for 2026, including multiple smart glasses releases. According to The Information, two models are slated for December (codenamed 'Mojito VIP'), and two prototypes ('Artemis' and 'SSG' for 'supersensing glasses') will be tested in the fall. The SSG glasses feature always-on cameras for ambient visual assistance, like remembering where you left keys. Critics note Meta's pivot from the metaverse to real-world tracking devices, raising privacy concerns.
+
+标签: Meta, smart glasses, hardware, AR, privacy, wearables, AI assistant, surveillance, tech news</description>
+      <guid isPermaLink="false">https://gizmodo.com/meta-has-a-ridiculous-amount-of-smart-glasses-planned-for-this-year-2000765741#sha256:8448a83d7264bd45</guid>
+      <category>Meta</category>
+      <category>smart glasses</category>
+      <category>hardware</category>
+      <category>AR</category>
+      <category>privacy</category>
+      <category>wearables</category>
+      <category>AI assistant</category>
+      <category>surveillance</category>
+      <category>tech news</category>
+      <pubDate>Wed, 03 Jun 2026 05:54:43 +0800</pubDate>
+    </item>
+    <item>
+      <title>Microsoft's new MAI models 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything</link>
+      <description>Microsoft announced two new text LLMs: MAI-Thinking-1 (35B parameters, reasoning-focused, available to select partners) and MAI-Code-1-Flash (5B parameters, for GitHub Copilot and VS Code). Both models are trained on clean, commercially licensed data without distillation from third-party models. MAI-Thinking-1 is claimed to be preferred over Sonnet 4.6 in blind evaluations. The low parameter counts are notable given the cost of larger models. The use of appropriately licensed data raises questions about whether these are the first useful code models not trained on unlicensed web data.
+
+标签: AI, LLM, Microsoft, MAI-Thinking-1, MAI-Code-1-Flash, code generation, reasoning model, open source, licensing, GitHub Copilot</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything#sha256:f3d751921ec1ef58</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>Microsoft</category>
+      <category>MAI-Thinking-1</category>
+      <category>MAI-Code-1-Flash</category>
+      <category>code generation</category>
+      <category>reasoning model</category>
+      <category>open source</category>
+      <category>licensing</category>
+      <category>GitHub Copilot</category>
+      <pubDate>Wed, 03 Jun 2026 06:21:52 +0800</pubDate>
     </item>
   </channel>
 </rss>
