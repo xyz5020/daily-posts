@@ -8,156 +8,141 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 03 Jun 2026 07:41:16 +0800</lastBuildDate>
-    <pubDate>Wed, 03 Jun 2026 07:41:16 +0800</pubDate>
+    <lastBuildDate>Thu, 04 Jun 2026 07:40:05 +0800</lastBuildDate>
+    <pubDate>Thu, 04 Jun 2026 07:40:05 +0800</pubDate>
     <item>
-      <title>Three Ways to Get Paid 摘要</title>
-      <link>https://jasonzweig.com/three-ways-to-get-paid/</link>
-      <description>Jason Zweig shares his father's three-part rule about making a living: lying to those who want to be lied to leads to riches; telling truth to truth-seekers provides a living; but telling truth to those who want lies leads to bankruptcy. The post pairs this with Om Malik's observation about the success of grifters and hucksters in today's world, suggesting a commentary on modern media and influencer culture where dishonesty often pays.
+      <title>The Underworld Market to Remove the Recording Indicator Light on Meta Glasses 摘要</title>
+      <link>https://www.youtube.com/watch?v=EaJSPeJmqis</link>
+      <description>A growing underground market on Facebook Marketplace offers to disable the recording indicator light on Ray-Ban Meta glasses, a modification called 'Stealth Mode.' Journalist Joanna Stern paid $100 for the service and investigated the business of turning smart glasses into covert cameras. The irony is that Meta's own platform is used to find hackers who modify Meta's devices for surreptitious recording. The article explores who performs these modifications, their legality, and efforts to stop them.
 
-标签: ethics, truth, lying, media, influencers, society, wisdom, career, honesty, culture</description>
-      <guid isPermaLink="false">https://jasonzweig.com/three-ways-to-get-paid/#sha256:0c82719e8056c376</guid>
-      <category>ethics</category>
-      <category>truth</category>
-      <category>lying</category>
-      <category>media</category>
-      <category>influencers</category>
-      <category>society</category>
-      <category>wisdom</category>
-      <category>career</category>
-      <category>honesty</category>
-      <category>culture</category>
-      <pubDate>Wed, 03 Jun 2026 00:10:24 +0800</pubDate>
-    </item>
-    <item>
-      <title>California Brown Pelican 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything</link>
-      <description>The author is attending the Microsoft Build conference at Fort Mason in San Francisco, noting the presence of California Brown Pelicans diving in the water behind the venue. The post includes tags related to Microsoft, AI, generative AI, LLMs, and LLM releases.
-
-标签: microsoft, ai, generative-ai, llms, llm-release, conference, san-francisco, wildlife</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything#sha256:66828db88ab75830</guid>
-      <category>microsoft</category>
-      <category>ai</category>
-      <category>generative-ai</category>
-      <category>llms</category>
-      <category>llm-release</category>
-      <category>conference</category>
-      <category>san-francisco</category>
-      <category>wildlife</category>
-      <pubDate>Wed, 03 Jun 2026 02:17:03 +0800</pubDate>
-    </item>
-    <item>
-      <title>An Ode to the Exacting Pedantry of Computers 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/pedantry-of-computing/</link>
-      <description>The author reflects on how early programming required specifying number types (integers, floats, doubles), which felt pedantic and led them to drop a C++ class. Later, Python's dynamic typing felt more intuitive. Over time, they appreciated that computers' exacting precision forced careful thinking and anticipation of edge cases, improving design. With LLMs generating code from vague intent, that friction disappears, allowing faster output but risking half-conceived ideas. The author argues that articulating intent through code is essential for shaping good software, and losing that pedantry may lead to assumptions that users discover as bugs.
-
-标签: programming, LLM, software engineering, type systems, developer experience, AI-assisted coding, critical thinking, code quality, pedagogy, software design</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/pedantry-of-computing/#sha256:4b56c4225f0945c0</guid>
-      <category>programming</category>
-      <category>LLM</category>
-      <category>software engineering</category>
-      <category>type systems</category>
-      <category>developer experience</category>
-      <category>AI-assisted coding</category>
-      <category>critical thinking</category>
-      <category>code quality</category>
-      <category>pedagogy</category>
-      <category>software design</category>
-      <pubDate>Wed, 03 Jun 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Scott Pelley Accuses CBS News Boss of ‘Murdering’ ‘60 Minutes’ 摘要</title>
-      <link>https://www.nytimes.com/2026/06/01/business/media/cbs-60-minutes-scott-pelley-nick-bilton.html?unlocked_article_code=1.nFA.TDGJ.HbBmlXuQWmcQ&amp;smid=url-share</link>
-      <description>Scott Pelley, a '60 Minutes' correspondent, fiercely criticized new executive producer Nick Bilton and editor-in-chief Bari Weiss during a staff meeting, accusing Weiss of 'murdering' the show. Pelley questioned Bilton's qualifications and the network's commitment to the program, following a major shake-up that included firing the previous executive producer and two correspondents. The turmoil comes despite '60 Minutes' winning two Emmys, a 9% ratings increase, and doubled digital views, indicating the show is thriving.
-
-标签: CBS News, 60 Minutes, Scott Pelley, Bari Weiss, Nick Bilton, media turmoil, newsroom conflict, TV ratings, journalism, media management</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/06/01/business/media/cbs-60-minutes-scott-pelley-nick-bilton.html?unlocked_article_code=1.nFA.TDGJ.HbBmlXuQWmcQ&amp;smid=url-share#sha256:72e2cf4d3e92f990</guid>
-      <category>CBS News</category>
-      <category>60 Minutes</category>
-      <category>Scott Pelley</category>
-      <category>Bari Weiss</category>
-      <category>Nick Bilton</category>
-      <category>media turmoil</category>
-      <category>newsroom conflict</category>
-      <category>TV ratings</category>
-      <category>journalism</category>
-      <category>media management</category>
-      <pubDate>Wed, 03 Jun 2026 03:53:47 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Metaverse Was Snake Oil for Isolation 摘要</title>
-      <link>https://daringfireball.net/linked/2026/06/01/the-metaverse-fever-dream</link>
-      <description>John Gruber argues that metaverse hype exactly coincided with Covid lockdown-induced isolation, not just roughly overlapping. He suggests the pandemic created a desperate need for technology that could substitute for real-world socializing, making people susceptible to the 'snake oil' promise of the metaverse. Gruber notes that extended lockdowns were only possible because modern technology like Zoom allowed a semblance of normalcy, but ultimately proved insufficient for education, work, and social connection. He questions whether metaverse hype would have occurred without Covid, though Facebook might still have rebranded due to brand toxicity.
-
-标签: metaverse, Covid-19, lockdown, isolation, technology, socializing, Zoom, Facebook, snake oil, pandemic</description>
-      <guid isPermaLink="false">https://daringfireball.net/linked/2026/06/01/the-metaverse-fever-dream#sha256:616a4e35a13b7f54</guid>
-      <category>metaverse</category>
-      <category>Covid-19</category>
-      <category>lockdown</category>
-      <category>isolation</category>
-      <category>technology</category>
-      <category>socializing</category>
-      <category>Zoom</category>
-      <category>Facebook</category>
-      <category>snake oil</category>
-      <category>pandemic</category>
-      <pubDate>Wed, 03 Jun 2026 04:42:33 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple, the Anti-‘Metaverse’ VR Company 摘要</title>
-      <link>https://daringfireball.net/2025/12/meta_says_fuck_that_metaverse_shit</link>
-      <description>John Gruber comments on the metaverse hype, noting that Apple never endorsed the term. At a 2022 WSJ event, Apple executives Greg Joswiak and Craig Federighi were asked to finish the sentence 'The metaverse is...' and Joswiak replied 'A word I'll never use.' Gruber contrasts Apple's stance with other companies and reiterates his belief that Apple's Vision platform is in the early stages of a long-term play, distinct from the metaverse fever dream.
-
-标签: Apple, metaverse, VR, Vision Pro, Greg Joswiak, Craig Federighi, Daring Fireball, tech commentary, AR/VR, hype</description>
-      <guid isPermaLink="false">https://daringfireball.net/2025/12/meta_says_fuck_that_metaverse_shit#sha256:1b97cd0ce48ce5bf</guid>
-      <category>Apple</category>
-      <category>metaverse</category>
-      <category>VR</category>
-      <category>Vision Pro</category>
-      <category>Greg Joswiak</category>
-      <category>Craig Federighi</category>
-      <category>Daring Fireball</category>
-      <category>tech commentary</category>
-      <category>AR/VR</category>
-      <category>hype</category>
-      <pubDate>Wed, 03 Jun 2026 04:48:08 +0800</pubDate>
-    </item>
-    <item>
-      <title>Meta Reportedly Has a Slew of New Smart Glasses Planned for This Year 摘要</title>
-      <link>https://gizmodo.com/meta-has-a-ridiculous-amount-of-smart-glasses-planned-for-this-year-2000765741</link>
-      <description>Meta has ambitious hardware plans for 2026, including multiple smart glasses releases. According to The Information, two models are slated for December (codenamed 'Mojito VIP'), and two prototypes ('Artemis' and 'SSG' for 'supersensing glasses') will be tested in the fall. The SSG glasses feature always-on cameras for ambient visual assistance, like remembering where you left keys. Critics note Meta's pivot from the metaverse to real-world tracking devices, raising privacy concerns.
-
-标签: Meta, smart glasses, hardware, AR, privacy, wearables, AI assistant, surveillance, tech news</description>
-      <guid isPermaLink="false">https://gizmodo.com/meta-has-a-ridiculous-amount-of-smart-glasses-planned-for-this-year-2000765741#sha256:8448a83d7264bd45</guid>
-      <category>Meta</category>
+标签: smart glasses, privacy, hacking, Meta, Facebook Marketplace, covert recording, modification, surveillance, ethics, technology</description>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=EaJSPeJmqis#sha256:b2f4ef28f41d1d9c</guid>
       <category>smart glasses</category>
-      <category>hardware</category>
-      <category>AR</category>
       <category>privacy</category>
-      <category>wearables</category>
-      <category>AI assistant</category>
+      <category>hacking</category>
+      <category>Meta</category>
+      <category>Facebook Marketplace</category>
+      <category>covert recording</category>
+      <category>modification</category>
       <category>surveillance</category>
-      <category>tech news</category>
-      <pubDate>Wed, 03 Jun 2026 05:54:43 +0800</pubDate>
+      <category>ethics</category>
+      <category>technology</category>
+      <pubDate>Thu, 04 Jun 2026 03:39:13 +0800</pubDate>
     </item>
     <item>
-      <title>Microsoft's new MAI models 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything</link>
-      <description>Microsoft announced two new text LLMs: MAI-Thinking-1 (35B parameters, reasoning-focused, available to select partners) and MAI-Code-1-Flash (5B parameters, for GitHub Copilot and VS Code). Both models are trained on clean, commercially licensed data without distillation from third-party models. MAI-Thinking-1 is claimed to be preferred over Sonnet 4.6 in blind evaluations. The low parameter counts are notable given the cost of larger models. The use of appropriately licensed data raises questions about whether these are the first useful code models not trained on unlicensed web data.
+      <title>CBS News Fires Scott Pelley of ‘60 Minutes’ 摘要</title>
+      <link>https://www.nytimes.com/2026/06/02/business/media/scott-pelley-cbs-bari-weiss.html</link>
+      <description>CBS News fired veteran '60 Minutes' correspondent Scott Pelley, citing termination for cause. Pelley had criticized new management for incompetence and bias, alleging pressure to insert bias into stories. He expressed deep devotion to the broadcast despite risking his life in war zones. The firing followed a staff meeting where Pelley's comments were disputed by Nick Bilton, whose letter confirming the termination was obtained by The New York Times. Pelley plans to provide details about alleged bias in specific segments.
 
-标签: AI, LLM, Microsoft, MAI-Thinking-1, MAI-Code-1-Flash, code generation, reasoning model, open source, licensing, GitHub Copilot</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything#sha256:f3d751921ec1ef58</guid>
+标签: CBS News, Scott Pelley, 60 Minutes, journalism, media, firing, bias, Nick Bilton, New York Times, news</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/06/02/business/media/scott-pelley-cbs-bari-weiss.html#sha256:30b317a7e459df08</guid>
+      <category>CBS News</category>
+      <category>Scott Pelley</category>
+      <category>60 Minutes</category>
+      <category>journalism</category>
+      <category>media</category>
+      <category>firing</category>
+      <category>bias</category>
+      <category>Nick Bilton</category>
+      <category>New York Times</category>
+      <category>news</category>
+      <pubDate>Thu, 04 Jun 2026 03:49:56 +0800</pubDate>
+    </item>
+    <item>
+      <title>My GNU Emacs completion setup (as of June 2026) 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsCompletion-2026-06</link>
+      <description>The author describes their current Emacs completion setup, which uses multiple packages for minibuffer and in-buffer completion. For minibuffer, they use vertico (candidate display), marginalia (annotations), orderless (filtering), and consult (context). For in-buffer completion, they use completion-preview-mode (inline preview) and corfu (popup completion). They note that this modular approach is typical of modern Emacs, where narrowly focused packages handle specific aspects of a larger feature.
+
+标签: Emacs, completion, vertico, marginalia, orderless, consult, corfu, completion-preview-mode, minibuffer, in-buffer</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsCompletion-2026-06#sha256:41c318018ac8cb48</guid>
+      <category>Emacs</category>
+      <category>completion</category>
+      <category>vertico</category>
+      <category>marginalia</category>
+      <category>orderless</category>
+      <category>consult</category>
+      <category>corfu</category>
+      <category>completion-preview-mode</category>
+      <category>minibuffer</category>
+      <category>in-buffer</category>
+      <pubDate>Thu, 04 Jun 2026 05:09:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>Now that your newsletter is AI-generated, I've Unsubscribed 摘要</title>
+      <link>https://idiallo.com/blog/unsubscribed-from-ai-generated-newsletters?src=feed</link>
+      <description>The author reflects on why they unsubscribe from newsletters that switch to AI-generated content without notice, emphasizing the value of human voice and authentic experience. They contrast this with a touching story of a newsletter continued by the author's son after his death, which they stayed subscribed to until the end. The key difference is between content that feels like genuine human thought and content that feels like a monetization strategy.
+
+标签: newsletters, AI content, authenticity, human voice, trust, writing, monetization, personal connection, unsubscribe, storytelling</description>
+      <guid isPermaLink="false">https://idiallo.com/blog/unsubscribed-from-ai-generated-newsletters?src=feed#sha256:582324aead956b44</guid>
+      <category>newsletters</category>
+      <category>AI content</category>
+      <category>authenticity</category>
+      <category>human voice</category>
+      <category>trust</category>
+      <category>writing</category>
+      <category>monetization</category>
+      <category>personal connection</category>
+      <category>unsubscribe</category>
+      <category>storytelling</category>
+      <pubDate>Thu, 04 Jun 2026 05:10:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>The ‘60 Minutes’ Purge 摘要</title>
+      <link>https://www.paramountpressexpress.com/cbs-news-and-stations/shows/60-minutes/talent/</link>
+      <description>Paramount's Press Express page for 60 Minutes still lists all eight correspondents from the 2025–2026 season, but in reality, four have left: Scott Pelley was fired, Anderson Cooper left after 20 years, and Sharyn Alfonsi and Cecilia Vega were fired last week. The show's brand of stability is eroding under new CBS owner David Ellison and editor-in-chief Bari Weiss, who have fired or lost half the on-air talent and replaced longtime executive producer Tanya Simon with Nick Bilton, a TV news novice. Correspondents Lesley Stahl (84) and Bill Whitaker (74) may also leave, as Scott Pelley described the changes as 'the murder of the institution.'
+
+标签: 60 Minutes, CBS News, media layoffs, David Ellison, Bari Weiss, Scott Pelley, Nick Bilton, journalism, corporate interference, news industry</description>
+      <guid isPermaLink="false">https://www.paramountpressexpress.com/cbs-news-and-stations/shows/60-minutes/talent/#sha256:0269ae13555aaceb</guid>
+      <category>60 Minutes</category>
+      <category>CBS News</category>
+      <category>media layoffs</category>
+      <category>David Ellison</category>
+      <category>Bari Weiss</category>
+      <category>Scott Pelley</category>
+      <category>Nick Bilton</category>
+      <category>journalism</category>
+      <category>corporate interference</category>
+      <category>news industry</category>
+      <pubDate>Thu, 04 Jun 2026 05:32:52 +0800</pubDate>
+    </item>
+    <item>
+      <title>Scott Pelley on Leaving ‘60 Minutes’: ‘Incompetence and Unprofessionalism in the New
+&gt; Management Have Wreaked Havoc’ 摘要</title>
+      <link>https://www.instagram.com/p/DZHlWAoG3_3/?img_index=1</link>
+      <description>Scott Pelley announced his departure from CBS after 37 years, citing the new management's unethical directives, including injecting falsehoods into stories and allowing politicians to choose correspondents. He described the firing of senior leadership and correspondents as cruel and politically motivated, aimed at currying favor with the Trump administration. Pelley lamented the loss of integrity, quality, and humanity at 60 Minutes, stating that the principles he held dear are gone. He expressed gratitude for his colleagues and hoped for a return to sanity, competence, and courage in journalism.
+
+标签: journalism, media, CBS, 60 Minutes, ethics, politics, Trump administration, integrity, news, resignation</description>
+      <guid isPermaLink="false">https://www.instagram.com/p/DZHlWAoG3_3/?img_index=1#sha256:1e7cc257fe9c04ca</guid>
+      <category>journalism</category>
+      <category>media</category>
+      <category>CBS</category>
+      <category>60 Minutes</category>
+      <category>ethics</category>
+      <category>politics</category>
+      <category>Trump administration</category>
+      <category>integrity</category>
+      <category>news</category>
+      <category>resignation</category>
+      <pubDate>Thu, 04 Jun 2026 07:19:28 +0800</pubDate>
+    </item>
+    <item>
+      <title>Is datacentre sovereignty really that important? 摘要</title>
+      <link>https://martinalderson.com/posts/is-datacentre-sovereignty-really-that-important/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=feed</link>
+      <description>The author argues that the UK's push to build large AI datacentres domestically is misguided. Latency is not a significant issue since AI response times dwarf network delays, and European datacentres suffice. Tax revenue from datacentres is minimal (0.2% of government spending) and jobs are few. The argument for control is weak: private operators serve global demand, models rapidly depreciate, and seizure is impractical due to remote wiping and supply chain dependencies. Instead, the UK should leverage its existing strengths in AI research, talent, and funding rather than focusing on physical infrastructure.
+
+标签: AI, datacentres, UK, policy, latency, tax, sovereignty, cloud, infrastructure, economics</description>
+      <guid isPermaLink="false">https://martinalderson.com/posts/is-datacentre-sovereignty-really-that-important/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=feed#sha256:e8a55d4245679728</guid>
       <category>AI</category>
-      <category>LLM</category>
-      <category>Microsoft</category>
-      <category>MAI-Thinking-1</category>
-      <category>MAI-Code-1-Flash</category>
-      <category>code generation</category>
-      <category>reasoning model</category>
-      <category>open source</category>
-      <category>licensing</category>
-      <category>GitHub Copilot</category>
-      <pubDate>Wed, 03 Jun 2026 06:21:52 +0800</pubDate>
+      <category>datacentres</category>
+      <category>UK</category>
+      <category>policy</category>
+      <category>latency</category>
+      <category>tax</category>
+      <category>sovereignty</category>
+      <category>cloud</category>
+      <category>infrastructure</category>
+      <category>economics</category>
+      <pubDate>Thu, 04 Jun 2026 08:00:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
