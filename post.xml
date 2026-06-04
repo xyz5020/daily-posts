@@ -8,141 +8,246 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 04 Jun 2026 07:40:05 +0800</lastBuildDate>
-    <pubDate>Thu, 04 Jun 2026 07:40:05 +0800</pubDate>
+    <lastBuildDate>Fri, 05 Jun 2026 07:34:34 +0800</lastBuildDate>
+    <pubDate>Fri, 05 Jun 2026 07:34:34 +0800</pubDate>
     <item>
-      <title>The Underworld Market to Remove the Recording Indicator Light on Meta Glasses 摘要</title>
-      <link>https://www.youtube.com/watch?v=EaJSPeJmqis</link>
-      <description>A growing underground market on Facebook Marketplace offers to disable the recording indicator light on Ray-Ban Meta glasses, a modification called 'Stealth Mode.' Journalist Joanna Stern paid $100 for the service and investigated the business of turning smart glasses into covert cameras. The irony is that Meta's own platform is used to find hackers who modify Meta's devices for surreptitious recording. The article explores who performs these modifications, their legality, and efforts to stop them.
+      <title>Alex Imas and Phil Trammell – What remains scarce after AGI? 摘要</title>
+      <link>https://www.dwarkesh.com/p/alex-imas-phil-trammell</link>
+      <description>Dwarkesh Patel interviews economists Alex Imas (Google DeepMind, UChicago) and Phil Trammell (Epoch, Stanford) on AGI economics. They discuss what will remain scarce after AGI, including human-provided relational services. Imas argues individual forecasts are unreliable and advocates for prediction markets and data collection. They explore scenarios for labor vs. capital share, tax and redistribution of AI wealth, and why demand collapse is unlikely. The conversation covers the 'messy middle' scenario, human integration into a machine economy, and strategies for developing countries.
 
-标签: smart glasses, privacy, hacking, Meta, Facebook Marketplace, covert recording, modification, surveillance, ethics, technology</description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=EaJSPeJmqis#sha256:b2f4ef28f41d1d9c</guid>
-      <category>smart glasses</category>
-      <category>privacy</category>
-      <category>hacking</category>
-      <category>Meta</category>
-      <category>Facebook Marketplace</category>
-      <category>covert recording</category>
-      <category>modification</category>
-      <category>surveillance</category>
-      <category>ethics</category>
-      <category>technology</category>
-      <pubDate>Thu, 04 Jun 2026 03:39:13 +0800</pubDate>
-    </item>
-    <item>
-      <title>CBS News Fires Scott Pelley of ‘60 Minutes’ 摘要</title>
-      <link>https://www.nytimes.com/2026/06/02/business/media/scott-pelley-cbs-bari-weiss.html</link>
-      <description>CBS News fired veteran '60 Minutes' correspondent Scott Pelley, citing termination for cause. Pelley had criticized new management for incompetence and bias, alleging pressure to insert bias into stories. He expressed deep devotion to the broadcast despite risking his life in war zones. The firing followed a staff meeting where Pelley's comments were disputed by Nick Bilton, whose letter confirming the termination was obtained by The New York Times. Pelley plans to provide details about alleged bias in specific segments.
-
-标签: CBS News, Scott Pelley, 60 Minutes, journalism, media, firing, bias, Nick Bilton, New York Times, news</description>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/06/02/business/media/scott-pelley-cbs-bari-weiss.html#sha256:30b317a7e459df08</guid>
-      <category>CBS News</category>
-      <category>Scott Pelley</category>
-      <category>60 Minutes</category>
-      <category>journalism</category>
-      <category>media</category>
-      <category>firing</category>
-      <category>bias</category>
-      <category>Nick Bilton</category>
-      <category>New York Times</category>
-      <category>news</category>
-      <pubDate>Thu, 04 Jun 2026 03:49:56 +0800</pubDate>
-    </item>
-    <item>
-      <title>My GNU Emacs completion setup (as of June 2026) 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsCompletion-2026-06</link>
-      <description>The author describes their current Emacs completion setup, which uses multiple packages for minibuffer and in-buffer completion. For minibuffer, they use vertico (candidate display), marginalia (annotations), orderless (filtering), and consult (context). For in-buffer completion, they use completion-preview-mode (inline preview) and corfu (popup completion). They note that this modular approach is typical of modern Emacs, where narrowly focused packages handle specific aspects of a larger feature.
-
-标签: Emacs, completion, vertico, marginalia, orderless, consult, corfu, completion-preview-mode, minibuffer, in-buffer</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsCompletion-2026-06#sha256:41c318018ac8cb48</guid>
-      <category>Emacs</category>
-      <category>completion</category>
-      <category>vertico</category>
-      <category>marginalia</category>
-      <category>orderless</category>
-      <category>consult</category>
-      <category>corfu</category>
-      <category>completion-preview-mode</category>
-      <category>minibuffer</category>
-      <category>in-buffer</category>
-      <pubDate>Thu, 04 Jun 2026 05:09:07 +0800</pubDate>
-    </item>
-    <item>
-      <title>Now that your newsletter is AI-generated, I've Unsubscribed 摘要</title>
-      <link>https://idiallo.com/blog/unsubscribed-from-ai-generated-newsletters?src=feed</link>
-      <description>The author reflects on why they unsubscribe from newsletters that switch to AI-generated content without notice, emphasizing the value of human voice and authentic experience. They contrast this with a touching story of a newsletter continued by the author's son after his death, which they stayed subscribed to until the end. The key difference is between content that feels like genuine human thought and content that feels like a monetization strategy.
-
-标签: newsletters, AI content, authenticity, human voice, trust, writing, monetization, personal connection, unsubscribe, storytelling</description>
-      <guid isPermaLink="false">https://idiallo.com/blog/unsubscribed-from-ai-generated-newsletters?src=feed#sha256:582324aead956b44</guid>
-      <category>newsletters</category>
-      <category>AI content</category>
-      <category>authenticity</category>
-      <category>human voice</category>
-      <category>trust</category>
-      <category>writing</category>
-      <category>monetization</category>
-      <category>personal connection</category>
-      <category>unsubscribe</category>
-      <category>storytelling</category>
-      <pubDate>Thu, 04 Jun 2026 05:10:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>The ‘60 Minutes’ Purge 摘要</title>
-      <link>https://www.paramountpressexpress.com/cbs-news-and-stations/shows/60-minutes/talent/</link>
-      <description>Paramount's Press Express page for 60 Minutes still lists all eight correspondents from the 2025–2026 season, but in reality, four have left: Scott Pelley was fired, Anderson Cooper left after 20 years, and Sharyn Alfonsi and Cecilia Vega were fired last week. The show's brand of stability is eroding under new CBS owner David Ellison and editor-in-chief Bari Weiss, who have fired or lost half the on-air talent and replaced longtime executive producer Tanya Simon with Nick Bilton, a TV news novice. Correspondents Lesley Stahl (84) and Bill Whitaker (74) may also leave, as Scott Pelley described the changes as 'the murder of the institution.'
-
-标签: 60 Minutes, CBS News, media layoffs, David Ellison, Bari Weiss, Scott Pelley, Nick Bilton, journalism, corporate interference, news industry</description>
-      <guid isPermaLink="false">https://www.paramountpressexpress.com/cbs-news-and-stations/shows/60-minutes/talent/#sha256:0269ae13555aaceb</guid>
-      <category>60 Minutes</category>
-      <category>CBS News</category>
-      <category>media layoffs</category>
-      <category>David Ellison</category>
-      <category>Bari Weiss</category>
-      <category>Scott Pelley</category>
-      <category>Nick Bilton</category>
-      <category>journalism</category>
-      <category>corporate interference</category>
-      <category>news industry</category>
-      <pubDate>Thu, 04 Jun 2026 05:32:52 +0800</pubDate>
-    </item>
-    <item>
-      <title>Scott Pelley on Leaving ‘60 Minutes’: ‘Incompetence and Unprofessionalism in the New
-&gt; Management Have Wreaked Havoc’ 摘要</title>
-      <link>https://www.instagram.com/p/DZHlWAoG3_3/?img_index=1</link>
-      <description>Scott Pelley announced his departure from CBS after 37 years, citing the new management's unethical directives, including injecting falsehoods into stories and allowing politicians to choose correspondents. He described the firing of senior leadership and correspondents as cruel and politically motivated, aimed at currying favor with the Trump administration. Pelley lamented the loss of integrity, quality, and humanity at 60 Minutes, stating that the principles he held dear are gone. He expressed gratitude for his colleagues and hoped for a return to sanity, competence, and courage in journalism.
-
-标签: journalism, media, CBS, 60 Minutes, ethics, politics, Trump administration, integrity, news, resignation</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/DZHlWAoG3_3/?img_index=1#sha256:1e7cc257fe9c04ca</guid>
-      <category>journalism</category>
-      <category>media</category>
-      <category>CBS</category>
-      <category>60 Minutes</category>
-      <category>ethics</category>
-      <category>politics</category>
-      <category>Trump administration</category>
-      <category>integrity</category>
-      <category>news</category>
-      <category>resignation</category>
-      <pubDate>Thu, 04 Jun 2026 07:19:28 +0800</pubDate>
-    </item>
-    <item>
-      <title>Is datacentre sovereignty really that important? 摘要</title>
-      <link>https://martinalderson.com/posts/is-datacentre-sovereignty-really-that-important/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=feed</link>
-      <description>The author argues that the UK's push to build large AI datacentres domestically is misguided. Latency is not a significant issue since AI response times dwarf network delays, and European datacentres suffice. Tax revenue from datacentres is minimal (0.2% of government spending) and jobs are few. The argument for control is weak: private operators serve global demand, models rapidly depreciate, and seizure is impractical due to remote wiping and supply chain dependencies. Instead, the UK should leverage its existing strengths in AI research, talent, and funding rather than focusing on physical infrastructure.
-
-标签: AI, datacentres, UK, policy, latency, tax, sovereignty, cloud, infrastructure, economics</description>
-      <guid isPermaLink="false">https://martinalderson.com/posts/is-datacentre-sovereignty-really-that-important/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=feed#sha256:e8a55d4245679728</guid>
-      <category>AI</category>
-      <category>datacentres</category>
-      <category>UK</category>
-      <category>policy</category>
-      <category>latency</category>
-      <category>tax</category>
-      <category>sovereignty</category>
-      <category>cloud</category>
-      <category>infrastructure</category>
+标签: AGI, economics, AI, automation, labor, capital, scarcity, redistribution, prediction markets, future of work</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/alex-imas-phil-trammell#sha256:e997b965108e5d52</guid>
+      <category>AGI</category>
       <category>economics</category>
-      <pubDate>Thu, 04 Jun 2026 08:00:00 +0800</pubDate>
+      <category>AI</category>
+      <category>automation</category>
+      <category>labor</category>
+      <category>capital</category>
+      <category>scarcity</category>
+      <category>redistribution</category>
+      <category>prediction markets</category>
+      <category>future of work</category>
+      <pubDate>Fri, 05 Jun 2026 00:14:49 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Emanuel Maiberg, 404 Media 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything</link>
+      <description>Google employees internally share memes criticizing the quality of the company's AI products, reflecting internal dissatisfaction. After publication, Google's spokesperson requested a revised statement that removed the phrase 'it's critical that we maintain humans in the loop,' suggesting a shift in the company's public stance on human oversight in AI.
+
+标签: AI, Google, AI ethics, journalism, internal culture, quality, human oversight, tech criticism</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything#sha256:abb1b7ec510426b1</guid>
+      <category>AI</category>
+      <category>Google</category>
+      <category>AI ethics</category>
+      <category>journalism</category>
+      <category>internal culture</category>
+      <category>quality</category>
+      <category>human oversight</category>
+      <category>tech criticism</category>
+      <pubDate>Fri, 05 Jun 2026 00:38:29 +0800</pubDate>
+    </item>
+    <item>
+      <title>Integrating smooth periodic functions 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/06/04/integrating-smooth-periodic-functions/</link>
+      <description>The function f(x) = cos(sin(x) + x) is smooth, periodic with period 2π, and has zero first five derivatives at odd multiples of π. Due to this flatness, the trapezoid rule for numerical integration converges exponentially rather than quadratically. With only 16 integration points, the error reaches machine precision, far exceeding the standard error bound of 82.67/N². This demonstrates the efficiency of the trapezoid rule for smooth periodic functions.
+
+标签: numerical integration, trapezoid rule, periodic functions, smooth functions, error analysis, exponential convergence, floating point, mathematics</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/04/integrating-smooth-periodic-functions/#sha256:fe5aa430144b3bbb</guid>
+      <category>numerical integration</category>
+      <category>trapezoid rule</category>
+      <category>periodic functions</category>
+      <category>smooth functions</category>
+      <category>error analysis</category>
+      <category>exponential convergence</category>
+      <category>floating point</category>
+      <category>mathematics</category>
+      <pubDate>Fri, 05 Jun 2026 01:18:40 +0800</pubDate>
+    </item>
+    <item>
+      <title>Google’s Gemini Mac App Is Native, in a Distinctly Google Way, But Annoyingly Presumptuous 摘要</title>
+      <link>https://gemini.google/mac/</link>
+      <description>Google's native Gemini Mac app installs background helpers (GeminiAppLauncher, GoogleUpdater) without permission and silently re-adds them if removed, with no opt-out setting. The author finds this disrespectful and prefers ChatGPT's Mac client. The app was built using a Java-to-Objective-C converter, originally for Android. The author ultimately deleted the app and its launch agents.
+
+标签: Google, Gemini, Mac, privacy, software, AI, app review, background processes, user experience</description>
+      <guid isPermaLink="false">https://gemini.google/mac/#sha256:4b534c35b8069c4d</guid>
+      <category>Google</category>
+      <category>Gemini</category>
+      <category>Mac</category>
+      <category>privacy</category>
+      <category>software</category>
+      <category>AI</category>
+      <category>app review</category>
+      <category>background processes</category>
+      <category>user experience</category>
+      <pubDate>Fri, 05 Jun 2026 01:29:26 +0800</pubDate>
+    </item>
+    <item>
+      <title>Remember When Chrome Went Bad on MacOS? 摘要</title>
+      <link>https://chromeisbad.com/</link>
+      <description>Loren Brichter reported in 2020 that Google Chrome's Keystone updater caused massive CPU usage in macOS WindowServer, slowing down Macs even when Chrome wasn't running. Deleting Chrome and Keystone restored performance. The issue was eventually fixed, but the article argues that third-party apps should not install background agents for unnecessary updates, contrasting macOS's openness with iOS's locked-down approach that prevents such problems.
+
+标签: Chrome, macOS, performance, Keystone, Google, background agents, software updates, Apple, iOS, WindowServer</description>
+      <guid isPermaLink="false">https://chromeisbad.com/#sha256:96594c3f5bd954a3</guid>
+      <category>Chrome</category>
+      <category>macOS</category>
+      <category>performance</category>
+      <category>Keystone</category>
+      <category>Google</category>
+      <category>background agents</category>
+      <category>software updates</category>
+      <category>Apple</category>
+      <category>iOS</category>
+      <category>WindowServer</category>
+      <pubDate>Fri, 05 Jun 2026 02:10:19 +0800</pubDate>
+    </item>
+    <item>
+      <title>Lingon and Lingon Pro 10 摘要</title>
+      <link>https://www.peterborgapps.com/lingon/</link>
+      <description>Lingon and Lingon Pro are Mac apps for scheduling apps, scripts, shortcuts, and commands with a user-friendly interface. They allow running tasks at specific times, intervals, or login, with optional notifications. The free version is simpler, while Pro is a paid upgrade with more features. The article highlights how Lingon can simplify monitoring and relaunching apps like Maestral, and also notes its utility for inspecting login items and background agents, such as those installed by Google Gemini.
+
+标签: Mac, utility, scheduling, automation, Lingon, productivity, macOS, scripts, background agents</description>
+      <guid isPermaLink="false">https://www.peterborgapps.com/lingon/#sha256:4020b0961f94c91a</guid>
+      <category>Mac</category>
+      <category>utility</category>
+      <category>scheduling</category>
+      <category>automation</category>
+      <category>Lingon</category>
+      <category>productivity</category>
+      <category>macOS</category>
+      <category>scripts</category>
+      <category>background agents</category>
+      <pubDate>Fri, 05 Jun 2026 02:43:47 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Emacs packages that I use (as of June 2026) 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsPackages-2026-06</link>
+      <description>The author provides an updated overview of their Emacs 30.2 configuration, highlighting key packages and changes since late 2023. They use Flyspell for text-mode spell checking, Eglot as the LSP server for Go, Python, shell, and C programming, and Flycheck with Flymake for diagnostics. Completion is handled by vertico, marginalia, orderless, consult, corfu, and completion-preview-mode. Tramp is configured for remote file access. Additional packages include flyover, sideline, and flycheck-inline for diagnostics display. Unchanged packages include embark, Magit, git-timemachine, diminish, backward-forward, which-key, vundo, smartparens, and try. Evil was removed due to conflicts with existing Emacs reflexes.
+
+标签: Emacs, configuration, packages, LSP, Eglot, Flycheck, completion, Magit, Tramp, programming</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsPackages-2026-06#sha256:7646ca2ca0cb203b</guid>
+      <category>Emacs</category>
+      <category>configuration</category>
+      <category>packages</category>
+      <category>LSP</category>
+      <category>Eglot</category>
+      <category>Flycheck</category>
+      <category>completion</category>
+      <category>Magit</category>
+      <category>Tramp</category>
+      <category>programming</category>
+      <pubDate>Fri, 05 Jun 2026 03:09:05 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Latin of Linux 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/06/04/the-latin-of-linux/</link>
+      <description>The article draws an analogy between Latin's influence on modern languages and ed(1)'s influence on Unix command-line tools. Just as Latin explains many linguistic conventions, ed(1) explains conventions in sed, awk, grep, vi, perl, bash, and others. The post lists ten features originating from ed(1), including slash-delimited regex, $ for end-of-line, address+action patterns, regex as address ranges, backreferences, &amp; for matched text, g/re/p pattern, p for printing, vi commands (a, c, d, i, j, l, p, q, r, w), and ! for shell escape. The author notes that ed(1) is a convenient starting point for Unix history, similar to Latin for Western linguistics.
+
+标签: ed, Unix, command-line, history, regular expressions, Linux, sed, awk, grep, vi</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/04/the-latin-of-linux/#sha256:4d36456afe7ea8d6</guid>
+      <category>ed</category>
+      <category>Unix</category>
+      <category>command-line</category>
+      <category>history</category>
+      <category>regular expressions</category>
+      <category>Linux</category>
+      <category>sed</category>
+      <category>awk</category>
+      <category>grep</category>
+      <category>vi</category>
+      <pubDate>Fri, 05 Jun 2026 04:12:11 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘Microsoft and OpenAI Broke Up — Now They’re Ready to Fight’ 摘要</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdiRHFjMlJadmgiLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzk0MjI0Mi9taWNyb3NvZnQtYnVpbGQtYWktYWdlbnRzLW9wZW5haS1jb21wZXRpdGlvbiIsImV4cCI6MTc4MTAzNjQ2OSwiaWF0IjoxNzgwNjA0NDY5fQ.jP0KO9OVCO-fGkk1Utt0NIEn97JWaI8zs0zhjf2V2MQ</link>
+      <description>Microsoft's AI chief Mustafa Suleyman stated the company aims to become one of the top four AI labs globally, acknowledging it currently trails behind Google DeepMind, OpenAI, and Anthropic. The Verge article compares Microsoft's Build conference to a 'freshly single divorcée posting a thirst trap,' highlighting the company's renewed independence after its breakup with OpenAI. However, the author expresses skepticism, drawing parallels to Microsoft's long-standing but unsuccessful efforts to compete with Google Search via Bing.
+
+标签: Microsoft, AI, Build conference, Mustafa Suleyman, OpenAI, Google DeepMind, Anthropic, competition, tech industry, AI labs</description>
+      <guid isPermaLink="false">https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdiRHFjMlJadmgiLCJwIjoiL2FpLWFydGlmaWNpYWwtaW50ZWxsaWdlbmNlLzk0MjI0Mi9taWNyb3NvZnQtYnVpbGQtYWktYWdlbnRzLW9wZW5haS1jb21wZXRpdGlvbiIsImV4cCI6MTc4MTAzNjQ2OSwiaWF0IjoxNzgwNjA0NDY5fQ.jP0KO9OVCO-fGkk1Utt0NIEn97JWaI8zs0zhjf2V2MQ#sha256:455c906d0cff4072</guid>
+      <category>Microsoft</category>
+      <category>AI</category>
+      <category>Build conference</category>
+      <category>Mustafa Suleyman</category>
+      <category>OpenAI</category>
+      <category>Google DeepMind</category>
+      <category>Anthropic</category>
+      <category>competition</category>
+      <category>tech industry</category>
+      <category>AI labs</category>
+      <pubDate>Fri, 05 Jun 2026 04:25:27 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘The Insider’ 摘要</title>
+      <link>https://letterboxd.com/film/the-insider/</link>
+      <description>The author reflects on the current controversy surrounding 60 Minutes, drawing parallels to the 1999 film 'The Insider,' which depicts a whistleblower's ordeal with Big Tobacco. They contrast the film's scenario—where tobacco companies used legal threats—with today's situation, where they imagine the network being bought and its staff replaced by pro-tobacco figures. The post includes a link to the original 60 Minutes segment on Big Tobacco.
+
+标签: 60 Minutes, The Insider, Michael Mann, Big Tobacco, media, journalism, whistleblower, film, current events</description>
+      <guid isPermaLink="false">https://letterboxd.com/film/the-insider/#sha256:a4c3e1bdeeacf420</guid>
+      <category>60 Minutes</category>
+      <category>The Insider</category>
+      <category>Michael Mann</category>
+      <category>Big Tobacco</category>
+      <category>media</category>
+      <category>journalism</category>
+      <category>whistleblower</category>
+      <category>film</category>
+      <category>current events</category>
+      <pubDate>Fri, 05 Jun 2026 04:42:35 +0800</pubDate>
+    </item>
+    <item>
+      <title>The Talk Show Live From WWDC 2026: Tuesday in San Jose 摘要</title>
+      <link>https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026</link>
+      <description>The Talk Show will host a live audience episode during WWDC 2026 at the California Theatre in San Jose on Tuesday, June 9, 2026, at 7pm PT. Tickets are $45, and doors open at 6pm. Special guests are confirmed. The event encourages attendees to mingle with fellow Daring Fireball readers and listeners before the show.
+
+标签: WWDC, live show, podcast, San Jose, tech event, Daring Fireball, The Talk Show, tickets, Apple</description>
+      <guid isPermaLink="false">https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026#sha256:2c05c542f8b87137</guid>
+      <category>WWDC</category>
+      <category>live show</category>
+      <category>podcast</category>
+      <category>San Jose</category>
+      <category>tech event</category>
+      <category>Daring Fireball</category>
+      <category>The Talk Show</category>
+      <category>tickets</category>
+      <category>Apple</category>
+      <pubDate>Fri, 05 Jun 2026 06:05:05 +0800</pubDate>
+    </item>
+    <item>
+      <title>Using Safetensors with Flax 摘要</title>
+      <link>https://www.gilesthomas.com/2026/06/flax-and-safetensors</link>
+      <description>The author is porting a PyTorch LLM to JAX/Flax and wants to use Safetensors for checkpoints. The Safetensors Flax API (actually a JAX API) expects flat dictionaries mapping strings to arrays, but Flax's `nnx.State.to_pure_dict` produces nested dicts. Feeding nested dicts causes Safetensors to wrap them in NumPy object arrays, leading to a 'dtype object is not covered' error. The solution is to flatten the state using `nnx.to_flat_state`, which produces tuples of path keys and values, then convert to a flat dict with dot-separated keys for Safetensors.
+
+标签: JAX, Flax, Safetensors, checkpointing, LLM, deep learning, serialization, debugging, Python, NumPy</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/06/flax-and-safetensors#sha256:6c4c56622d2afc8f</guid>
+      <category>JAX</category>
+      <category>Flax</category>
+      <category>Safetensors</category>
+      <category>checkpointing</category>
+      <category>LLM</category>
+      <category>deep learning</category>
+      <category>serialization</category>
+      <category>debugging</category>
+      <category>Python</category>
+      <category>NumPy</category>
+      <pubDate>Fri, 05 Jun 2026 07:30:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>IPv6 zones in URLs are a mistake 摘要</title>
+      <link>https://xeiaso.net/notes/2026/ipv6-zones-go-url/</link>
+      <description>IPv6 link-local addresses (fe80::/10) use zone IDs (e.g., %eth0) to disambiguate interfaces. In URLs, IPv6 addresses are enclosed in brackets, but the percent sign in zone IDs conflicts with URL percent-encoding. Go's net/url parser rejects '%eth0' as an invalid escape. The correct encoding is '%25' for the percent sign (e.g., http://[fe80::4%25eth0]:80). This behavior is specified in RFC 6874, but many tools (nginx, Python requests) struggle with it. Browsers avoid IPv6 zones due to origin model complications, and a draft RFC attempts to address this.
+
+标签: IPv6, URL encoding, percent-encoding, Go, networking, RFC 6874, zone ID, link-local address, web standards, edge case</description>
+      <guid isPermaLink="false">https://xeiaso.net/notes/2026/ipv6-zones-go-url/#sha256:d248025fe414566f</guid>
+      <category>IPv6</category>
+      <category>URL encoding</category>
+      <category>percent-encoding</category>
+      <category>Go</category>
+      <category>networking</category>
+      <category>RFC 6874</category>
+      <category>zone ID</category>
+      <category>link-local address</category>
+      <category>web standards</category>
+      <category>edge case</category>
+      <pubDate>Fri, 05 Jun 2026 08:00:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
