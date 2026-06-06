@@ -8,102 +8,98 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 06 Jun 2026 07:35:07 +0800</lastBuildDate>
-    <pubDate>Sat, 06 Jun 2026 07:35:07 +0800</pubDate>
+    <lastBuildDate>Sun, 07 Jun 2026 07:30:17 +0800</lastBuildDate>
+    <pubDate>Sun, 07 Jun 2026 07:30:17 +0800</pubDate>
     <item>
-      <title>JAX backends and devices 摘要</title>
-      <link>https://www.gilesthomas.com/2026/06/jax-backends-and-devices</link>
-      <description>The author describes porting PyTorch LLM code to JAX and encountering a CUDA out-of-memory error when loading a 19GiB dataset via Safetensors, because JAX loads data directly to GPU by default. They explore JAX's device management, discovering that `jax.devices()` only shows devices for the default backend (GPU if available). They find that `jax.default_device` can be used as a context manager to temporarily set the default device to CPU, allowing large datasets to be loaded into RAM instead of VRAM. The post explains the difference between JAX backends and devices, and contrasts with PyTorch's explicit device management.
+      <title>Pluralistic: Criticizing the everything machine (06 Jun 2026) 摘要</title>
+      <link>https://pluralistic.net/2026/06/06/applied-counterescatology/</link>
+      <description>Cory Doctorow critiques the AI industry's tendency to make vast, unfounded claims that are impossible to address in short media segments. He argues that AI is a money-losing venture with worsening unit economics, sustained only by massive subsidies. Before discussing AI's future capabilities, we must consider whether anyone will fund them. He questions the environmental impact of data centers and the opportunity cost of diverting resources from proven research like cancer treatments. His upcoming book 'The Reverse Centaur's Guide to Life After AI' aims to provide a coherent critique of AI hype.
 
-标签: JAX, CUDA, GPU, memory management, Safetensors, LLM, PyTorch, device management, XLA, deep learning</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/06/jax-backends-and-devices#sha256:74e59530e8aebc5c</guid>
-      <category>JAX</category>
-      <category>CUDA</category>
-      <category>GPU</category>
-      <category>memory management</category>
-      <category>Safetensors</category>
-      <category>LLM</category>
-      <category>PyTorch</category>
-      <category>device management</category>
-      <category>XLA</category>
-      <category>deep learning</category>
-      <pubDate>Sat, 06 Jun 2026 03:30:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Elon Musk’s X Is a Freak Show 摘要</title>
-      <link>https://www.natesilver.net/p/social-media-has-become-a-freak-show</link>
-      <description>Nate Silver analyzed Twitter/X engagement data from 2026, finding the platform dominated by low-quality, highly partisan right-wing accounts, with Elon Musk receiving an algorithmic boost. Silver argues the platform is rigged, not merely abandoned by left-leaning users. The top accounts are obscure slop accounts, while Musk's own account is the most engaged. The author concludes that competing on X is futile unless content aligns with Musk's preferences, though interesting people still post there.
-
-标签: Twitter, X, Elon Musk, social media, algorithm, engagement, right-wing, Nate Silver, platform manipulation, quality</description>
-      <guid isPermaLink="false">https://www.natesilver.net/p/social-media-has-become-a-freak-show#sha256:bc7e947940d12f7e</guid>
-      <category>Twitter</category>
-      <category>X</category>
-      <category>Elon Musk</category>
-      <category>social media</category>
-      <category>algorithm</category>
-      <category>engagement</category>
-      <category>right-wing</category>
-      <category>Nate Silver</category>
-      <category>platform manipulation</category>
-      <category>quality</category>
-      <pubDate>Sat, 06 Jun 2026 04:24:58 +0800</pubDate>
-    </item>
-    <item>
-      <title>Nieman Journalism Lab: Twitter/X Punishes Accounts That Post Links 摘要</title>
-      <link>https://www.niemanlab.org/2026/04/do-links-hurt-news-publishers-on-twitter-our-analysis-suggests-yes/</link>
-      <description>Laura Hazard Owen used Claude to scrape 200 recent tweets from 18 large publishers' X accounts, analyzing engagement (likes, comments, retweets). Six publishers have paywalls (Bloomberg, CNN, Forbes, NYT, WSJ, WaPo), nine don't (Al Jazeera, AP, BBC, Breitbart, CBS, Daily Wire, Fox, NBC, Reuters), plus three engagement-maxing accounts. Results show links in tweets significantly reduce engagement; traditional link-heavy publishers cluster in low-engagement zones regardless of follower count. The analysis suggests X penalizes link posts, reinforcing its walled-garden nature.
-
-标签: Twitter, X, engagement, news publishers, paywalls, social media, journalism, AI scraping, Claude, links</description>
-      <guid isPermaLink="false">https://www.niemanlab.org/2026/04/do-links-hurt-news-publishers-on-twitter-our-analysis-suggests-yes/#sha256:24a99783157d704d</guid>
-      <category>Twitter</category>
-      <category>X</category>
-      <category>engagement</category>
-      <category>news publishers</category>
-      <category>paywalls</category>
-      <category>social media</category>
-      <category>journalism</category>
-      <category>AI scraping</category>
-      <category>Claude</category>
-      <category>links</category>
-      <pubDate>Sat, 06 Jun 2026 04:46:56 +0800</pubDate>
-    </item>
-    <item>
-      <title>Pluralistic: Refining humanity (05 Jun 2026) 摘要</title>
-      <link>https://pluralistic.net/2026/06/05/defining-humanity/</link>
-      <description>Cory Doctorow explores how programming computers forces us to confront the complexity and ambiguity of seemingly simple concepts, like defining the letter 'A' or alphabetizing movie titles. He argues that computers, lacking human context and flexibility, expose the tacit assumptions in our knowledge and social systems. This process of turning tacit knowledge into explicit instructions reveals broken assumptions and clarifies what we are as humans. Doctorow connects this to the rise of spectrum-based identities and the need for systemic change when digital systems fail to accommodate human diversity.
-
-标签: technology, philosophy, programming, cognition, society, complexity, identity, digital systems, tacit knowledge, human-computer interaction</description>
-      <guid isPermaLink="false">https://pluralistic.net/2026/06/05/defining-humanity/#sha256:60e17ca58e279f20</guid>
-      <category>technology</category>
-      <category>philosophy</category>
-      <category>programming</category>
-      <category>cognition</category>
-      <category>society</category>
-      <category>complexity</category>
-      <category>identity</category>
-      <category>digital systems</category>
-      <category>tacit knowledge</category>
-      <category>human-computer interaction</category>
-      <pubDate>Sat, 06 Jun 2026 04:49:39 +0800</pubDate>
-    </item>
-    <item>
-      <title>Why all the PRs? 摘要</title>
-      <link>https://idiallo.com/blog/why-all-the-prs</link>
-      <description>The article discusses how AI-generated PRs are being used to game hiring signals. Historically, developers built websites or contributed to open source to demonstrate skills. Now, candidates use AI to inflate GitHub contributions, creating hollow PRs that burden maintainers without genuine investment. The author argues this misaligns intentions: contributors seek resume padding, while projects need problem-solving and collective memory. This trend devalues authentic signals and adds noise to hiring.
-
-标签: AI, open source, hiring, GitHub, PRs, resume padding, signal, developer culture, job market, slop</description>
-      <guid isPermaLink="false">https://idiallo.com/blog/why-all-the-prs#sha256:a9c3b618134e52aa</guid>
+标签: AI, tech criticism, hype, economics, environment, labor, regulation, ethics, media, book</description>
+      <guid isPermaLink="false">https://pluralistic.net/2026/06/06/applied-counterescatology/#sha256:851918c1483a2ff6</guid>
       <category>AI</category>
-      <category>open source</category>
-      <category>hiring</category>
-      <category>GitHub</category>
-      <category>PRs</category>
-      <category>resume padding</category>
-      <category>signal</category>
-      <category>developer culture</category>
-      <category>job market</category>
-      <category>slop</category>
-      <pubDate>Sat, 06 Jun 2026 07:00:00 +0800</pubDate>
+      <category>tech criticism</category>
+      <category>hype</category>
+      <category>economics</category>
+      <category>environment</category>
+      <category>labor</category>
+      <category>regulation</category>
+      <category>ethics</category>
+      <category>media</category>
+      <category>book</category>
+      <pubDate>Sun, 07 Jun 2026 02:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>From Kepler to Bessel 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/06/06/from-kepler-to-bessel/</link>
+      <description>This article explains the connection between Kepler's equation and Bessel functions. Kepler's equation relates mean anomaly M and eccentric anomaly E in orbital mechanics, but has no elementary solution. One approach expands E in a sine series, where the Fourier coefficients turn out to be Bessel functions J_n(ne). The derivation uses integration by parts and the integral definition of Bessel functions, showing how solving orbital mechanics problems naturally leads to these special functions.
+
+标签: mathematics, Bessel functions, Kepler's equation, orbital mechanics, Fourier series, numerical methods, astronomy, special functions</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/06/from-kepler-to-bessel/#sha256:f1401e78c6589402</guid>
+      <category>mathematics</category>
+      <category>Bessel functions</category>
+      <category>Kepler's equation</category>
+      <category>orbital mechanics</category>
+      <category>Fourier series</category>
+      <category>numerical methods</category>
+      <category>astronomy</category>
+      <category>special functions</category>
+      <pubDate>Sun, 07 Jun 2026 02:46:02 +0800</pubDate>
+    </item>
+    <item>
+      <title>Trump Lawyer Argues Trump Can Tear Down Statue of Liberty 摘要</title>
+      <link>https://talkingpointsmemo.com/edblog/trump-can-tear-down-statue-of-liberty-says-trump-lawyer</link>
+      <description>In a court hearing, a judge asked if President Trump could bulldoze the Statue of Liberty without legal challenge. DOJ lawyer Yaakov Roth affirmed that Trump could do so, sparking criticism. Josh Marshall argues that the president is an employee of the people, not an owner, and cannot destroy national property. The article condemns the legal stance as absurd and sycophantic.
+
+标签: politics, law, executive power, Trump, Statue of Liberty, DOJ, judicial review, property rights, constitutional law</description>
+      <guid isPermaLink="false">https://talkingpointsmemo.com/edblog/trump-can-tear-down-statue-of-liberty-says-trump-lawyer#sha256:f94c580637183f6f</guid>
+      <category>politics</category>
+      <category>law</category>
+      <category>executive power</category>
+      <category>Trump</category>
+      <category>Statue of Liberty</category>
+      <category>DOJ</category>
+      <category>judicial review</category>
+      <category>property rights</category>
+      <category>constitutional law</category>
+      <pubDate>Sun, 07 Jun 2026 03:56:01 +0800</pubDate>
+    </item>
+    <item>
+      <title>60 Minutes Correspondents Lesley Stahl, Bill Whitaker, and the Other Guy Will Stay at Show 摘要</title>
+      <link>https://www.nytimes.com/2026/06/05/business/media/60-minutes-cbs-stahl-whitaker-wertheim.html?unlocked_article_code=1.oFA.xooG.Pz8cQv8odz7Z</link>
+      <description>Lesley Stahl, Bill Whitaker, and Jon Wertheim wrote a memo to 60 Minutes staff explaining their decision to stay at the show despite being upset over the firings of Tanya and Draggan, whom they describe as strong leaders who fought for the program's values. They argue that newsrooms should not be run like dictatorships and that collaboration and argument are essential. They fear their return might be seen as endorsing the power structure, but they are staying to prevent the show from dying.
+
+标签: 60 Minutes, journalism, media, CBS, newsroom culture, firings, integrity, independence, correspondents, memo</description>
+      <guid isPermaLink="false">https://www.nytimes.com/2026/06/05/business/media/60-minutes-cbs-stahl-whitaker-wertheim.html?unlocked_article_code=1.oFA.xooG.Pz8cQv8odz7Z#sha256:bebb26b4c0228edb</guid>
+      <category>60 Minutes</category>
+      <category>journalism</category>
+      <category>media</category>
+      <category>CBS</category>
+      <category>newsroom culture</category>
+      <category>firings</category>
+      <category>integrity</category>
+      <category>independence</category>
+      <category>correspondents</category>
+      <category>memo</category>
+      <pubDate>Sun, 07 Jun 2026 04:04:06 +0800</pubDate>
+    </item>
+    <item>
+      <title>Update: ending paid subscriptions, + Substack 摘要</title>
+      <link>https://www.joanwestenberg.com/update-ending-paid-subscriptions-substack/</link>
+      <description>Joan Westenberg announces she is turning off paid subscriptions to make her writing free and open to all. Her work is already funded by her agency, SELF, and her products. She plans to move her writing to Substack to leverage its network effects, podcasting, and video tools for growth. She thanks past supporters and invites readers to continue following her work.
+
+标签: writing, subscriptions, Substack, free content, agency, monetization, blogging, creator economy, announcement</description>
+      <guid isPermaLink="false">https://www.joanwestenberg.com/update-ending-paid-subscriptions-substack/#sha256:e9cbcc2311726351</guid>
+      <category>writing</category>
+      <category>subscriptions</category>
+      <category>Substack</category>
+      <category>free content</category>
+      <category>agency</category>
+      <category>monetization</category>
+      <category>blogging</category>
+      <category>creator economy</category>
+      <category>announcement</category>
+      <pubDate>Sun, 07 Jun 2026 07:11:51 +0800</pubDate>
     </item>
   </channel>
 </rss>
