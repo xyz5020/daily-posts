@@ -8,102 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 08 Jun 2026 07:30:41 +0800</lastBuildDate>
-    <pubDate>Mon, 08 Jun 2026 07:30:41 +0800</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2026 07:33:33 +0800</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2026 07:33:33 +0800</pubDate>
     <item>
-      <title>A crank formula for π 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/07/a-crank-formula-for-%cf%80/</link>
-      <description>John D. Cook examines a crank formula for π that claims to relate π to physical constants like Planck's constant, the speed of light, electron mass, and the total energy of the universe. He simplifies the expression using Planck's blackbody law, finding it reduces to a form involving h, c, and E/m. However, the term 'total energy of the universe' is ambiguous and undefined, and the resulting value for E (about 2.85×10^19 Joules) is not physically justified. The formula is not dimensionless, suggesting it only works with nonstandard units. Cook concludes the formula is likely nonsense.
+      <title>The sample efficiency black hole 摘要</title>
+      <link>https://www.dwarkesh.com/p/the-sample-efficiency-black-hole</link>
+      <description>The article discusses AI sample efficiency, arguing that current AI models require vastly more data than humans to learn tasks, with frontier models trained on trillions of tokens compared to humans' ~200 million lifetime tokens. Progress has come from scaling data and compute via RL, not from improved sample efficiency. Data is easily distilled from APIs, explaining why open models catch up quickly. Despite inefficiency, AI training costs can be amortized across billions of uses, making it economically viable for common tasks. However, out-of-distribution reasoning remains challenging, and the author suggests that automating AI research may be needed to solve sample efficiency.
 
-标签: π, crank formula, physics, physical constants, Planck's constant, blackbody radiation, dimensional analysis, pseudoscience, mathematics, John D. Cook</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/07/a-crank-formula-for-%cf%80/#sha256:397b976984f89887</guid>
-      <category>π</category>
-      <category>crank formula</category>
-      <category>physics</category>
-      <category>physical constants</category>
-      <category>Planck's constant</category>
-      <category>blackbody radiation</category>
-      <category>dimensional analysis</category>
-      <category>pseudoscience</category>
-      <category>mathematics</category>
-      <category>John D. Cook</category>
-      <pubDate>Mon, 08 Jun 2026 00:34:26 +0800</pubDate>
-    </item>
-    <item>
-      <title>Powering up a module from the IBM 604: an electronic calculator from 1948 摘要</title>
-      <link>http://www.righto.com/2026/06/ibm-604-thyraton-tube-module.html</link>
-      <description>The IBM 604 Electronic Calculating Punch, introduced in 1948, was a programmable calculator that bridged electromechanical accounting machines and electronic computers. It used about 1250 vacuum tubes, including thyratron tubes for high-current switching, and featured innovative pluggable modules that simplified manufacturing and maintenance. Though not a full computer (lacking loops, memory, and stored programs), it was affordable at $550/month and performed 60 operations per second, including multiplication and division. Over 5600 units were produced, and IBM's experience with the 604 led to successful vacuum-tube computers like the IBM 650.
-
-标签: IBM 604, history of computing, vacuum tubes, thyratron, pluggable modules, electromechanical, electronic calculator, IBM, 1940s computing, computer architecture</description>
-      <guid isPermaLink="false">http://www.righto.com/2026/06/ibm-604-thyraton-tube-module.html#sha256:e4126498f7737f21</guid>
-      <category>IBM 604</category>
-      <category>history of computing</category>
-      <category>vacuum tubes</category>
-      <category>thyratron</category>
-      <category>pluggable modules</category>
-      <category>electromechanical</category>
-      <category>electronic calculator</category>
-      <category>IBM</category>
-      <category>1940s computing</category>
-      <category>computer architecture</category>
-      <pubDate>Mon, 08 Jun 2026 00:57:09 +0800</pubDate>
-    </item>
-    <item>
-      <title>Mux — Video for Developers 摘要</title>
-      <link>https://www.mux.com/?utm_campaign=fireball&amp;utm_source=DF</link>
-      <description>Mux, a video infrastructure provider trusted by Patreon, Substack, and Synthesia, is sponsoring Daring Fireball. Mux offers AI workflows called Mux Robots that automatically unlock data from video files for tasks like summarization, caption translation, and moderation. Developers can configure these workflows once, and they run on new uploads. A promotional code FIREBALL provides an extra $50 credit for new signups.
-
-标签: Mux, video, AI, workflows, sponsorship, developer tools, infrastructure, summarization, captioning, moderation</description>
-      <guid isPermaLink="false">https://www.mux.com/?utm_campaign=fireball&amp;utm_source=DF#sha256:8cfd420030cbfe64</guid>
-      <category>Mux</category>
-      <category>video</category>
+标签: AI, sample efficiency, data scaling, reinforcement learning, human vs AI, training data, scaling laws, open source AI, automation, intelligence</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/the-sample-efficiency-black-hole#sha256:b232abccb9fe03e5</guid>
       <category>AI</category>
-      <category>workflows</category>
-      <category>sponsorship</category>
+      <category>sample efficiency</category>
+      <category>data scaling</category>
+      <category>reinforcement learning</category>
+      <category>human vs AI</category>
+      <category>training data</category>
+      <category>scaling laws</category>
+      <category>open source AI</category>
+      <category>automation</category>
+      <category>intelligence</category>
+      <pubDate>Tue, 09 Jun 2026 02:09:37 +0800</pubDate>
+    </item>
+    <item>
+      <title>ppclp.ai announces 100x Productivity Gains 摘要</title>
+      <link>https://idiallo.com/blog/100x-productivity-gain</link>
+      <description>ppclp.ai, a paperclip manufacturer rebranded as an AI-native company, claims a 100x improvement in its Organizational Productivity Index (OPI™) after an 18-month initiative integrating Atlassian's Rovo AI into its Jira workflow. Rovo autonomously opens, assigns, and closes tickets, boosting ticket velocity by 340%. However, actual paperclip production declined 20% year-over-year, which the company attributes to 'paperclip seasonality.' The OPI™ dashboard measures metrics like ticket velocity and emoji reaction latency, but the disconnect between productivity metrics and output raises questions about the meaningfulness of such AI-driven efficiency gains.
+
+标签: AI, productivity, satire, Atlassian, Rovo, Jira, metrics, corporate culture, automation, paperclip</description>
+      <guid isPermaLink="false">https://idiallo.com/blog/100x-productivity-gain#sha256:0e91b97ff2840a1a</guid>
+      <category>AI</category>
+      <category>productivity</category>
+      <category>satire</category>
+      <category>Atlassian</category>
+      <category>Rovo</category>
+      <category>Jira</category>
+      <category>metrics</category>
+      <category>corporate culture</category>
+      <category>automation</category>
+      <category>paperclip</category>
+      <pubDate>Tue, 09 Jun 2026 03:50:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Giving your Go apps Tigris superpowers 摘要</title>
+      <link>https://www.tigrisdata.com/blog/storage-sdk-go/</link>
+      <description>Tigris, an S3-compatible object storage service, offers exclusive features like bucket forking, snapshots, and object renaming that require workarounds with the standard AWS SDK. To address this, Tigris developed a Go SDK with two packages: 'storage' for drop-in S3 client replacement with first-class Tigris methods, and 'simplestorage' for a higher-level, configuration-inferred client for single-bucket use. The SDK allows incremental adoption of Tigris features without refactoring existing S3 code and remains compatible with other S3 providers.
+
+标签: Tigris, S3, Go SDK, object storage, cloud storage, AWS SDK, developer tools, open source</description>
+      <guid isPermaLink="false">https://www.tigrisdata.com/blog/storage-sdk-go/#sha256:5b0daff7b9b176a6</guid>
+      <category>Tigris</category>
+      <category>S3</category>
+      <category>Go SDK</category>
+      <category>object storage</category>
+      <category>cloud storage</category>
+      <category>AWS SDK</category>
       <category>developer tools</category>
-      <category>infrastructure</category>
-      <category>summarization</category>
-      <category>captioning</category>
-      <category>moderation</category>
-      <pubDate>Mon, 08 Jun 2026 01:36:38 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Laplace limit 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/07/the-laplace-limit/</link>
-      <description>The article discusses solving Kepler's equation using power series (Lagrange, 1771) versus sine series (Bessel). The power series solution converges only for eccentricity e &lt; 0.6627 (the Laplace limit), while the sine series works for all e &lt; 1. This means Lagrange's method fails for highly eccentric orbits like Sedna's (e=0.8549). The Laplace limit arises from the radius of convergence of the power series, not from astronomy. The article explains how to compute the limit numerically and presents the series expansion using Lagrange inversion.
-
-标签: Kepler equation, Laplace limit, power series, convergence, eccentricity, Lagrange inversion, Bessel functions, celestial mechanics, numerical methods, Python</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/07/the-laplace-limit/#sha256:3785ce8cdb568c7b</guid>
-      <category>Kepler equation</category>
-      <category>Laplace limit</category>
-      <category>power series</category>
-      <category>convergence</category>
-      <category>eccentricity</category>
-      <category>Lagrange inversion</category>
-      <category>Bessel functions</category>
-      <category>celestial mechanics</category>
-      <category>numerical methods</category>
-      <category>Python</category>
-      <pubDate>Mon, 08 Jun 2026 03:06:36 +0800</pubDate>
-    </item>
-    <item>
-      <title>Aitken acceleration before Aitken 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/07/aitkin-acceleration-kepler/</link>
-      <description>Kepler solved his equation M = E - e sin(E) via fixed-point iteration E = M + e sin(E), which converges quickly for small eccentricities (e.g., Jupiter's e=0.05 needs 2 iterations) but slowly for high eccentricities (Halley's comet e=0.967 needs 16 iterations). In 1891, C. F. W. Peters discovered a faster algorithm using three steps per iteration, achieving 10^-10 residual in 3 iterations for Halley's comet. Peters' method was later recognized as a special case of Aitken's delta-squared acceleration (1926).
-
-标签: Kepler equation, fixed-point iteration, numerical methods, series acceleration, Aitken acceleration, Peters algorithm, orbital mechanics, history of mathematics, convergence, eccentricity</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/07/aitkin-acceleration-kepler/#sha256:537858311f73ee26</guid>
-      <category>Kepler equation</category>
-      <category>fixed-point iteration</category>
-      <category>numerical methods</category>
-      <category>series acceleration</category>
-      <category>Aitken acceleration</category>
-      <category>Peters algorithm</category>
-      <category>orbital mechanics</category>
-      <category>history of mathematics</category>
-      <category>convergence</category>
-      <category>eccentricity</category>
-      <pubDate>Mon, 08 Jun 2026 04:14:45 +0800</pubDate>
+      <category>open source</category>
+      <pubDate>Tue, 09 Jun 2026 08:00:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
