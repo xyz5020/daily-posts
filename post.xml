@@ -8,194 +8,102 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 07:36:37 +0800</lastBuildDate>
-    <pubDate>Wed, 10 Jun 2026 07:36:37 +0800</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2026 07:38:54 +0800</lastBuildDate>
+    <pubDate>Thu, 11 Jun 2026 07:38:54 +0800</pubDate>
     <item>
-      <title>Apple’s WWDC Announcement of the New Apple Intelligence System 摘要</title>
-      <link>https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/</link>
-      <description>Apple announced new Apple Intelligence capabilities powered by next-generation Apple Foundation Models, built in collaboration with Google using Gemini models. These models run on-device and via Private Cloud Compute, emphasizing privacy. The partnership is clarified: Apple uses Gemini models, not the Gemini assistant, ensuring data separation between Apple Intelligence/Siri and the Google Gemini app.
+      <title>Being “Good” at Things 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/good-at-things/</link>
+      <description>The author reflects on a golf interview where pros define 'good' by score, but Collin Morikawa rejects numerical benchmarks, arguing that true skill lies in finishing every hole honestly without shortcuts like picking up short putts. The author extends this to programming, design, and writing: being 'good' means doing the hard, consistent, disciplined work that others avoid, not chasing arbitrary metrics. Quality is a disposition, not a number.
 
-标签: Apple, Google, Gemini, AI, Apple Intelligence, privacy, Private Cloud Compute, Foundation Models, Siri, partnership</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/#sha256:60c1073ccddb884d</guid>
-      <category>Apple</category>
+标签: golf, expertise, quality, discipline, craftsmanship, mindset, consistency, honesty, skill, reflection</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/good-at-things/#sha256:a042b3535170d211</guid>
+      <category>golf</category>
+      <category>expertise</category>
+      <category>quality</category>
+      <category>discipline</category>
+      <category>craftsmanship</category>
+      <category>mindset</category>
+      <category>consistency</category>
+      <category>honesty</category>
+      <category>skill</category>
+      <category>reflection</category>
+      <pubDate>Thu, 11 Jun 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>DiffusionGemma 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything</link>
+      <description>Google has released DiffusionGemma, a new open-weight (Apache 2 licensed) Gemma model for faster text generation, available on Hugging Face as google/diffusiongemma-26B-A4B-it. NVIDIA hosts the model for free on their NIM cloud API. The model achieves high speed, generating 2,409 tokens in 4.4 seconds (over 500 tokens/second), building on earlier experimental Gemini Diffusion research.
+
+标签: Google, AI, generative-ai, LLMs, NVIDIA, Gemma, DiffusionGemma, open-source, text-generation, performance</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything#sha256:628ba89419b46a1a</guid>
       <category>Google</category>
-      <category>Gemini</category>
       <category>AI</category>
-      <category>Apple Intelligence</category>
-      <category>privacy</category>
-      <category>Private Cloud Compute</category>
-      <category>Foundation Models</category>
-      <category>Siri</category>
-      <category>partnership</category>
-      <pubDate>Wed, 10 Jun 2026 00:50:33 +0800</pubDate>
-    </item>
-    <item>
-      <title>Stop eating Lady Gaga's Oreos 摘要</title>
-      <link>https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos</link>
-      <description>The article contrasts the 1990s anti-commercialism ethos, exemplified by Pearl Jam's refusal to make music videos and avoid 'selling out,' with today's culture where artists like Lady Gaga, Ice Spice, and Bob Dylan openly embrace brand partnerships without stigma. The author argues that the concept of 'selling out' has vanished, replaced by fan excitement for tie-ins. Examples include Megan Thee Stallion's Popeyes franchise, Drake's gambling promotion, and Iggy Pop selling insurance. The piece reflects on how hyper-commercialism, while not new, now faces little backlash, marking a cultural shift from the 90s anti-consumerist sentiment.
-
-标签: selling out, music industry, commercialism, pop culture, 1990s, brand partnerships, anti-consumerism, celebrity endorsements, cultural shift, late capitalism</description>
-      <guid isPermaLink="false">https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos#sha256:024dee8e2893b5b7</guid>
-      <category>selling out</category>
-      <category>music industry</category>
-      <category>commercialism</category>
-      <category>pop culture</category>
-      <category>1990s</category>
-      <category>brand partnerships</category>
-      <category>anti-consumerism</category>
-      <category>celebrity endorsements</category>
-      <category>cultural shift</category>
-      <category>late capitalism</category>
-      <pubDate>Wed, 10 Jun 2026 00:58:56 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Introduces Siri AI 摘要</title>
-      <link>https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/</link>
-      <description>Apple announced Siri AI, a new version of Siri built on Apple Intelligence, enabling personal context understanding across messages, emails, photos, and more. It supports systemwide app actions, onscreen awareness, and web knowledge for answering queries. The author praises the name "Siri AI" as a clear dividing line from old Siri, noting its unique ability to access personal data and perform app actions via App Intents and App Schemas. While less capable than ChatGPT in some areas, it has greater potential due to deep device integration. Success depends on execution, scalability, and third-party adoption.
-
-标签: Apple, Siri AI, Apple Intelligence, AI, personal assistant, App Intents, iOS, generative AI, smartphone, technology</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/#sha256:f10cfe5b19efa6f7</guid>
-      <category>Apple</category>
-      <category>Siri AI</category>
-      <category>Apple Intelligence</category>
-      <category>AI</category>
-      <category>personal assistant</category>
-      <category>App Intents</category>
-      <category>iOS</category>
-      <category>generative AI</category>
-      <category>smartphone</category>
-      <category>technology</category>
-      <pubDate>Wed, 10 Jun 2026 01:23:29 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple’s WWDC AI Demos Were Real and in Real Time 摘要</title>
-      <link>https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/</link>
-      <description>Apple's WWDC 2026 AI demos were pre-taped but shot in single takes with no editing, showing real-time interactions like button presses and voice commands. This contrasts with WWDC 2024's slickly produced videos that were more promise than product. The unedited approach emphasizes that if a demo feels slow, the feature itself should be faster, not the video edited.
-
-标签: Apple, WWDC, Apple Intelligence, AI, demos, product development, technology, user experience</description>
-      <guid isPermaLink="false">https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/#sha256:c456e6c0641948dd</guid>
-      <category>Apple</category>
-      <category>WWDC</category>
-      <category>Apple Intelligence</category>
-      <category>AI</category>
-      <category>demos</category>
-      <category>product development</category>
-      <category>technology</category>
-      <category>user experience</category>
-      <pubDate>Wed, 10 Jun 2026 01:38:21 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple WWDC 2026 Keynote 摘要</title>
-      <link>https://www.youtube.com/watch?v=hF8swzNR1-o</link>
-      <description>Apple's WWDC 2026 keynote was notably concise at 76 minutes, including a post-credits Easter egg music video, contrasting with longer keynotes in recent years. The shorter duration suggests a streamlined presentation focusing on key announcements.
-
-标签: Apple, WWDC, keynote, 2026, tech, event, software, iOS, macOS, announcement</description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=hF8swzNR1-o#sha256:2f573d5e1e70fed3</guid>
-      <category>Apple</category>
-      <category>WWDC</category>
-      <category>keynote</category>
-      <category>2026</category>
-      <category>tech</category>
-      <category>event</category>
-      <category>software</category>
-      <category>iOS</category>
-      <category>macOS</category>
-      <category>announcement</category>
-      <pubDate>Wed, 10 Jun 2026 01:42:32 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Talk Show Live From WWDC: Tonight, In-Person and Streaming 摘要</title>
-      <link>https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026</link>
-      <description>The Talk Show Live from WWDC 2026 is happening tonight at the California Theater. Tickets are still available for in-person attendance. The show can also be watched live in stereoscopic immersive format via the Theater app from Sandwich Vision on Vision Pro, priced at $12.99, which includes replay access with bonus features.
-
-标签: WWDC, live show, The Talk Show, California Theater, Vision Pro, immersive streaming, Sandwich Vision, Theater app, tickets, tech event</description>
-      <guid isPermaLink="false">https://ti.to/daringfireball/the-talk-show-live-from-wwdc-2026#sha256:416f6c0e0cd2d43d</guid>
-      <category>WWDC</category>
-      <category>live show</category>
-      <category>The Talk Show</category>
-      <category>California Theater</category>
-      <category>Vision Pro</category>
-      <category>immersive streaming</category>
-      <category>Sandwich Vision</category>
-      <category>Theater app</category>
-      <category>tickets</category>
-      <category>tech event</category>
-      <pubDate>Wed, 10 Jun 2026 02:53:47 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Andrej Karpathy 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything</link>
-      <description>Andrej Karpathy reflects on how AI-generated software, exemplified by Claude Fable 5, is transforming software development. He notes that as working software becomes easily accessible, demand for it grows substantially (Jevons paradox). Users can now request custom explainers, visualizers, dashboards, bespoke single-use apps, expanded test suites, auto-optimized code, and large research projects with tailored HTML results. This shift encourages a mindset of limitless possibilities, freeing users to imagine and create without traditional constraints.
-
-标签: AI, LLMs, software development, Jevons paradox, generative AI, Anthropic, Andrej Karpathy, productivity, custom software, innovation</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything#sha256:6bff1ff16586788e</guid>
-      <category>AI</category>
+      <category>generative-ai</category>
       <category>LLMs</category>
-      <category>software development</category>
-      <category>Jevons paradox</category>
-      <category>generative AI</category>
-      <category>Anthropic</category>
-      <category>Andrej Karpathy</category>
-      <category>productivity</category>
-      <category>custom software</category>
-      <category>innovation</category>
-      <pubDate>Wed, 10 Jun 2026 03:03:10 +0800</pubDate>
+      <category>NVIDIA</category>
+      <category>Gemma</category>
+      <category>DiffusionGemma</category>
+      <category>open-source</category>
+      <category>text-generation</category>
+      <category>performance</category>
+      <pubDate>Thu, 11 Jun 2026 04:00:54 +0800</pubDate>
     </item>
     <item>
-      <title>Apple OS 27: The Small Things 摘要</title>
-      <link>https://blog.oneberri.com/posts/wwdc26-the-small-things</link>
-      <description>Rishi Ó highlights that the most meaningful Apple updates are not flashy features but subtle improvements that fix annoyances, smooth workflows, and refine rough edges. These 'small things' demonstrate Apple's commitment to craftsmanship. He compiled a list from WWDC26 screenshots of improvements coming later this year, presented as bullet points for easier reading.
+      <title>Please, use a link! 摘要</title>
+      <link>https://idiallo.com/blog/use-a-link-please</link>
+      <description>The author rants about single-page apps breaking browser navigation, specifically the back button. They argue that developers often misuse HTML elements like divs or buttons with onclick handlers instead of proper anchor tags with href attributes. This breaks browser history, accessibility, and user expectations. The post emphasizes using native &lt;a&gt; tags or framework-specific link components (e.g., React Router's Link) to preserve standard browser behavior like history, hover previews, and mobile options.
 
-标签: Apple, WWDC, iOS, macOS, user experience, software updates, design, quality of life, technology</description>
-      <guid isPermaLink="false">https://blog.oneberri.com/posts/wwdc26-the-small-things#sha256:7c4ab6691a3f4aff</guid>
-      <category>Apple</category>
-      <category>WWDC</category>
-      <category>iOS</category>
-      <category>macOS</category>
+标签: web development, single-page apps, navigation, HTML, accessibility, React, user experience, browser history, best practices, rant</description>
+      <guid isPermaLink="false">https://idiallo.com/blog/use-a-link-please#sha256:70080f7d7cd08ad8</guid>
+      <category>web development</category>
+      <category>single-page apps</category>
+      <category>navigation</category>
+      <category>HTML</category>
+      <category>accessibility</category>
+      <category>React</category>
       <category>user experience</category>
-      <category>software updates</category>
-      <category>design</category>
-      <category>quality of life</category>
-      <category>technology</category>
-      <pubDate>Wed, 10 Jun 2026 05:29:57 +0800</pubDate>
+      <category>browser history</category>
+      <category>best practices</category>
+      <category>rant</category>
+      <pubDate>Thu, 11 Jun 2026 04:30:00 +0800</pubDate>
     </item>
     <item>
-      <title>Setting a custom price for a model in AgentsView 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything</link>
-      <description>Simon Willison explains how to set a custom price for a model in AgentsView, a tool by Wes McKinney for tracking token usage and costs across coding agents. When Claude Fable 5 was released but not yet in AgentsView's pricing database, he reverse-engineered the tool to add custom pricing. He shares a screenshot showing his cost breakdown by project, with prod_datasette_agent costing $74.06 (89.3% of total). The tool also displays cache efficiency, noting $516.62 saved vs. uncached usage.
+      <title>My Firefox addons as of Firefox 151 (and the current development version) 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/web/Firefox151Addons</link>
+      <description>The author reflects on their Firefox addon usage since 2022, noting minimal changes due to conservatism. They still use Foxy Gestures, uBlock Origin, uMatrix, Cookie AutoDelete, Stylus, Textern, Certainly Something, HTTP/2 Indicator, ClearURLs, and Open in Browser, but dropped HTTPS Everywhere. Due to switching to first-party isolation, they replaced Cookie Quick Manager with Cookie Manager. A second Firefox environment now uses Multi-Account Containers and FoxyTab for container-based browsing, plus additional addons like Copy Alt Text, Don't Fuck With Paste, Right-Click Borescope, and User-Agent Switcher. This second profile became persistent, prompting the addition of Cookie AutoDelete.
 
-标签: AI, LLM, pricing, AgentsView, token usage, cost tracking, coding agents, reverse engineering, Claude Fable 5, cache efficiency</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything#sha256:aacf9dc2e6b8d4bc</guid>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>pricing</category>
-      <category>AgentsView</category>
-      <category>token usage</category>
-      <category>cost tracking</category>
-      <category>coding agents</category>
-      <category>reverse engineering</category>
-      <category>Claude Fable 5</category>
-      <category>cache efficiency</category>
-      <pubDate>Wed, 10 Jun 2026 05:35:31 +0800</pubDate>
+标签: Firefox, addons, browser extensions, privacy, containers, uBlock Origin, uMatrix, Cookie AutoDelete, Stylus, Multi-Account Containers</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/web/Firefox151Addons#sha256:f9a4dac43e39cb75</guid>
+      <category>Firefox</category>
+      <category>addons</category>
+      <category>browser extensions</category>
+      <category>privacy</category>
+      <category>containers</category>
+      <category>uBlock Origin</category>
+      <category>uMatrix</category>
+      <category>Cookie AutoDelete</category>
+      <category>Stylus</category>
+      <category>Multi-Account Containers</category>
+      <pubDate>Thu, 11 Jun 2026 06:04:25 +0800</pubDate>
     </item>
     <item>
-      <title>A Record-Breaking Patch Tuesday for June 2026 摘要</title>
-      <link>https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/</link>
-      <description>Microsoft's June 2026 Patch Tuesday set a record with nearly 200 security fixes, including three dozen critical vulnerabilities and three publicly exploited zero-days. The surge is attributed to increased AI-assisted bug discovery. Notable flaws include CVE-2026-49160 (IIS denial of service reported by OpenAI), CVE-2026-45586 (Windows Collaborative Translation Framework privilege escalation), and CVE-2026-50507 (BitLocker elevation of privilege). A researcher named Nightmare Eclipse, claiming to be a former Microsoft employee, released exploits and plans more. Microsoft also patched a Visual Studio Code zero-day allowing GitHub token theft. Additionally, 360 browser vulnerabilities were fixed, and Microsoft's repositories were hit by the Shai-Hulud worm.
+      <title>Formally proving a calculation with Claude and Lean 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/06/10/claude-and-lean/</link>
+      <description>John D. Cook describes an experiment where he used Claude to generate a Lean proof for a Fourier coefficient calculation involving Bessel functions, based on a blog post about Kepler's equation. Claude produced a proof after eight iterations of error correction, but the final proof contains four 'sorry' placeholders for standard analysis lemmas (integration by parts, integral of cosine, integrability, and change of variables) that exist in Mathlib. The post includes the full Lean code and explains the mathematical background.
 
-标签: Microsoft, Patch Tuesday, security, zero-day, vulnerability, Windows, AI, supply chain attack, Chrome, BitLocker</description>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/#sha256:f9a8f3f20fec8eb3</guid>
-      <category>Microsoft</category>
-      <category>Patch Tuesday</category>
-      <category>security</category>
-      <category>zero-day</category>
-      <category>vulnerability</category>
-      <category>Windows</category>
-      <category>AI</category>
-      <category>supply chain attack</category>
-      <category>Chrome</category>
-      <category>BitLocker</category>
-      <pubDate>Wed, 10 Jun 2026 06:07:28 +0800</pubDate>
+标签: Lean, Claude, formal proof, Bessel function, Fourier series, Kepler equation, calculus, AI-assisted proof, Mathlib, integration</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/10/claude-and-lean/#sha256:086b2e4bfa43b9f9</guid>
+      <category>Lean</category>
+      <category>Claude</category>
+      <category>formal proof</category>
+      <category>Bessel function</category>
+      <category>Fourier series</category>
+      <category>Kepler equation</category>
+      <category>calculus</category>
+      <category>AI-assisted proof</category>
+      <category>Mathlib</category>
+      <category>integration</category>
+      <pubDate>Thu, 11 Jun 2026 07:11:01 +0800</pubDate>
     </item>
   </channel>
 </rss>
