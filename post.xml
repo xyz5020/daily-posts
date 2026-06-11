@@ -8,102 +8,45 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 07:38:54 +0800</lastBuildDate>
-    <pubDate>Thu, 11 Jun 2026 07:38:54 +0800</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2026 07:38:36 +0800</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2026 07:38:36 +0800</pubDate>
     <item>
-      <title>Being “Good” at Things 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/good-at-things/</link>
-      <description>The author reflects on a golf interview where pros define 'good' by score, but Collin Morikawa rejects numerical benchmarks, arguing that true skill lies in finishing every hole honestly without shortcuts like picking up short putts. The author extends this to programming, design, and writing: being 'good' means doing the hard, consistent, disciplined work that others avoid, not chasing arbitrary metrics. Quality is a disposition, not a number.
+      <title>Spielberg on Being Repeatedly Turned Down to Direct a James Bond Film 摘要</title>
+      <link>https://www.youtube.com/watch?v=iEho3brGB64</link>
+      <description>Steven Spielberg revealed in an interview that after the success of 'Jaws', he approached James Bond producer Cubby Broccoli to direct a Bond film but was turned down. After 'Close Encounters of the Third Kind', Broccoli asked to use the film's iconic five-note motif in 'Moonraker'. Spielberg offered permission in exchange for directing a Bond film, but Broccoli refused again. Spielberg granted permission anyway. The notes appear as a passcode in 'Moonraker'. Spielberg's rejection led him to collaborate with George Lucas on 'Raiders of the Lost Ark', which features Bond-like sequences.
 
-标签: golf, expertise, quality, discipline, craftsmanship, mindset, consistency, honesty, skill, reflection</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/good-at-things/#sha256:a042b3535170d211</guid>
-      <category>golf</category>
-      <category>expertise</category>
-      <category>quality</category>
-      <category>discipline</category>
-      <category>craftsmanship</category>
-      <category>mindset</category>
-      <category>consistency</category>
-      <category>honesty</category>
-      <category>skill</category>
-      <category>reflection</category>
-      <pubDate>Thu, 11 Jun 2026 03:00:00 +0800</pubDate>
+标签: Steven Spielberg, James Bond, Cubby Broccoli, Close Encounters of the Third Kind, Moonraker, Raiders of the Lost Ark, film history, Easter egg, movie trivia, Indiana Jones</description>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=iEho3brGB64#sha256:ed4ed4d16bf0b804</guid>
+      <category>Steven Spielberg</category>
+      <category>James Bond</category>
+      <category>Cubby Broccoli</category>
+      <category>Close Encounters of the Third Kind</category>
+      <category>Moonraker</category>
+      <category>Raiders of the Lost Ark</category>
+      <category>film history</category>
+      <category>Easter egg</category>
+      <category>movie trivia</category>
+      <category>Indiana Jones</category>
+      <pubDate>Fri, 12 Jun 2026 04:38:09 +0800</pubDate>
     </item>
     <item>
-      <title>DiffusionGemma 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything</link>
-      <description>Google has released DiffusionGemma, a new open-weight (Apache 2 licensed) Gemma model for faster text generation, available on Hugging Face as google/diffusiongemma-26B-A4B-it. NVIDIA hosts the model for free on their NIM cloud API. The model achieves high speed, generating 2,409 tokens in 4.4 seconds (over 500 tokens/second), building on earlier experimental Gemini Diffusion research.
+      <title>Apple: ‘Due to DMA, Siri AI Delayed in EU for iOS 27 and iPadOS 27’ 摘要</title>
+      <link>https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/</link>
+      <description>Apple has publicly stated that the EU's Digital Markets Act (DMA) requires granting AI systems nearly unlimited device access, posing security risks like data theft and unauthorized actions. Apple proposed a Trusted System Agent intermediary to safely enable Siri AI features in the EU, but the European Commission rejected the plan. As a result, Apple has no timeline for releasing Siri AI on iOS and iPadOS in the EU, citing unresolved safety concerns and regulatory disagreements.
 
-标签: Google, AI, generative-ai, LLMs, NVIDIA, Gemma, DiffusionGemma, open-source, text-generation, performance</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything#sha256:628ba89419b46a1a</guid>
-      <category>Google</category>
-      <category>AI</category>
-      <category>generative-ai</category>
-      <category>LLMs</category>
-      <category>NVIDIA</category>
-      <category>Gemma</category>
-      <category>DiffusionGemma</category>
-      <category>open-source</category>
-      <category>text-generation</category>
-      <category>performance</category>
-      <pubDate>Thu, 11 Jun 2026 04:00:54 +0800</pubDate>
-    </item>
-    <item>
-      <title>Please, use a link! 摘要</title>
-      <link>https://idiallo.com/blog/use-a-link-please</link>
-      <description>The author rants about single-page apps breaking browser navigation, specifically the back button. They argue that developers often misuse HTML elements like divs or buttons with onclick handlers instead of proper anchor tags with href attributes. This breaks browser history, accessibility, and user expectations. The post emphasizes using native &lt;a&gt; tags or framework-specific link components (e.g., React Router's Link) to preserve standard browser behavior like history, hover previews, and mobile options.
-
-标签: web development, single-page apps, navigation, HTML, accessibility, React, user experience, browser history, best practices, rant</description>
-      <guid isPermaLink="false">https://idiallo.com/blog/use-a-link-please#sha256:70080f7d7cd08ad8</guid>
-      <category>web development</category>
-      <category>single-page apps</category>
-      <category>navigation</category>
-      <category>HTML</category>
-      <category>accessibility</category>
-      <category>React</category>
-      <category>user experience</category>
-      <category>browser history</category>
-      <category>best practices</category>
-      <category>rant</category>
-      <pubDate>Thu, 11 Jun 2026 04:30:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>My Firefox addons as of Firefox 151 (and the current development version) 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/web/Firefox151Addons</link>
-      <description>The author reflects on their Firefox addon usage since 2022, noting minimal changes due to conservatism. They still use Foxy Gestures, uBlock Origin, uMatrix, Cookie AutoDelete, Stylus, Textern, Certainly Something, HTTP/2 Indicator, ClearURLs, and Open in Browser, but dropped HTTPS Everywhere. Due to switching to first-party isolation, they replaced Cookie Quick Manager with Cookie Manager. A second Firefox environment now uses Multi-Account Containers and FoxyTab for container-based browsing, plus additional addons like Copy Alt Text, Don't Fuck With Paste, Right-Click Borescope, and User-Agent Switcher. This second profile became persistent, prompting the addition of Cookie AutoDelete.
-
-标签: Firefox, addons, browser extensions, privacy, containers, uBlock Origin, uMatrix, Cookie AutoDelete, Stylus, Multi-Account Containers</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/web/Firefox151Addons#sha256:f9a4dac43e39cb75</guid>
-      <category>Firefox</category>
-      <category>addons</category>
-      <category>browser extensions</category>
+标签: Apple, Siri AI, DMA, European Commission, privacy, security, regulation, AI, iOS, iPadOS</description>
+      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/#sha256:a7bb8812b5acbf76</guid>
+      <category>Apple</category>
+      <category>Siri AI</category>
+      <category>DMA</category>
+      <category>European Commission</category>
       <category>privacy</category>
-      <category>containers</category>
-      <category>uBlock Origin</category>
-      <category>uMatrix</category>
-      <category>Cookie AutoDelete</category>
-      <category>Stylus</category>
-      <category>Multi-Account Containers</category>
-      <pubDate>Thu, 11 Jun 2026 06:04:25 +0800</pubDate>
-    </item>
-    <item>
-      <title>Formally proving a calculation with Claude and Lean 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/10/claude-and-lean/</link>
-      <description>John D. Cook describes an experiment where he used Claude to generate a Lean proof for a Fourier coefficient calculation involving Bessel functions, based on a blog post about Kepler's equation. Claude produced a proof after eight iterations of error correction, but the final proof contains four 'sorry' placeholders for standard analysis lemmas (integration by parts, integral of cosine, integrability, and change of variables) that exist in Mathlib. The post includes the full Lean code and explains the mathematical background.
-
-标签: Lean, Claude, formal proof, Bessel function, Fourier series, Kepler equation, calculus, AI-assisted proof, Mathlib, integration</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/10/claude-and-lean/#sha256:086b2e4bfa43b9f9</guid>
-      <category>Lean</category>
-      <category>Claude</category>
-      <category>formal proof</category>
-      <category>Bessel function</category>
-      <category>Fourier series</category>
-      <category>Kepler equation</category>
-      <category>calculus</category>
-      <category>AI-assisted proof</category>
-      <category>Mathlib</category>
-      <category>integration</category>
-      <pubDate>Thu, 11 Jun 2026 07:11:01 +0800</pubDate>
+      <category>security</category>
+      <category>regulation</category>
+      <category>AI</category>
+      <category>iOS</category>
+      <category>iPadOS</category>
+      <pubDate>Fri, 12 Jun 2026 05:58:49 +0800</pubDate>
     </item>
   </channel>
 </rss>
