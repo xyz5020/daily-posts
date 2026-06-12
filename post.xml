@@ -8,45 +8,117 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 07:38:36 +0800</lastBuildDate>
-    <pubDate>Fri, 12 Jun 2026 07:38:36 +0800</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2026 07:38:41 +0800</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2026 07:38:41 +0800</pubDate>
     <item>
-      <title>Spielberg on Being Repeatedly Turned Down to Direct a James Bond Film 摘要</title>
-      <link>https://www.youtube.com/watch?v=iEho3brGB64</link>
-      <description>Steven Spielberg revealed in an interview that after the success of 'Jaws', he approached James Bond producer Cubby Broccoli to direct a Bond film but was turned down. After 'Close Encounters of the Third Kind', Broccoli asked to use the film's iconic five-note motif in 'Moonraker'. Spielberg offered permission in exchange for directing a Bond film, but Broccoli refused again. Spielberg granted permission anyway. The notes appear as a passcode in 'Moonraker'. Spielberg's rejection led him to collaborate with George Lucas on 'Raiders of the Lost Ark', which features Bond-like sequences.
+      <title>This Week on The Analog Antiquarian 摘要</title>
+      <link>https://www.filfre.net/2026/06/this-week-on-the-analog-antiquarian/</link>
+      <description>This article is part of a series exploring the historical and literary context of Shakespeare's Henry VI, Part 1. It delves into the political turmoil and events leading up to the play, including the death of Henry V and the ensuing power struggles in England and France. The author examines the play's portrayal of key figures like Joan of Arc and the Duke of Bedford, and discusses how Shakespeare adapted historical sources for dramatic effect. The piece also reflects on the play's themes of honor, nationalism, and the fragility of power.
 
-标签: Steven Spielberg, James Bond, Cubby Broccoli, Close Encounters of the Third Kind, Moonraker, Raiders of the Lost Ark, film history, Easter egg, movie trivia, Indiana Jones</description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=iEho3brGB64#sha256:ed4ed4d16bf0b804</guid>
-      <category>Steven Spielberg</category>
-      <category>James Bond</category>
-      <category>Cubby Broccoli</category>
-      <category>Close Encounters of the Third Kind</category>
-      <category>Moonraker</category>
-      <category>Raiders of the Lost Ark</category>
-      <category>film history</category>
-      <category>Easter egg</category>
-      <category>movie trivia</category>
-      <category>Indiana Jones</category>
-      <pubDate>Fri, 12 Jun 2026 04:38:09 +0800</pubDate>
+标签: Shakespeare, Henry VI, history, literature, theater, drama, England, France, Joan of Arc, power</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/06/this-week-on-the-analog-antiquarian/#sha256:fcc1077db5f983c1</guid>
+      <category>Shakespeare</category>
+      <category>Henry VI</category>
+      <category>history</category>
+      <category>literature</category>
+      <category>theater</category>
+      <category>drama</category>
+      <category>England</category>
+      <category>France</category>
+      <category>Joan of Arc</category>
+      <category>power</category>
+      <pubDate>Sat, 13 Jun 2026 00:31:11 +0800</pubDate>
     </item>
     <item>
-      <title>Apple: ‘Due to DMA, Siri AI Delayed in EU for iOS 27 and iPadOS 27’ 摘要</title>
-      <link>https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/</link>
-      <description>Apple has publicly stated that the EU's Digital Markets Act (DMA) requires granting AI systems nearly unlimited device access, posing security risks like data theft and unauthorized actions. Apple proposed a Trusted System Agent intermediary to safely enable Siri AI features in the EU, but the European Commission rejected the plan. As a result, Apple has no timeline for releasing Siri AI on iOS and iPadOS in the EU, citing unresolved safety concerns and regulatory disagreements.
+      <title>The European Commission Response to Siri AI and the DMA 摘要</title>
+      <link>https://www.linkedin.com/posts/thomas-regnier-24a05810b_what-is-the-true-story-behind-apples-decision-activity-7470439874664280064-TuEt</link>
+      <description>European Commission spokesperson Thomas Regnier stated that Apple's decision not to roll out 'Siri AI' in the EU is solely Apple's, as the Digital Markets Act (DMA) does not prohibit new features. Apple requested an 18-month exemption from interoperability obligations, which the EC rejected, emphasizing that EU rules are non-negotiable. The EC argues that allowing only Siri AI would close the market to other AI agents, violating the DMA's goal of ensuring consumer choice and developer competition. Regnier's statement was posted on LinkedIn rather than the EC's official press site.
 
-标签: Apple, Siri AI, DMA, European Commission, privacy, security, regulation, AI, iOS, iPadOS</description>
-      <guid isPermaLink="false">https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/#sha256:a7bb8812b5acbf76</guid>
+标签: Apple, Siri AI, European Commission, DMA, Digital Markets Act, interoperability, EU regulation, antitrust, consumer choice, gatekeeper</description>
+      <guid isPermaLink="false">https://www.linkedin.com/posts/thomas-regnier-24a05810b_what-is-the-true-story-behind-apples-decision-activity-7470439874664280064-TuEt#sha256:f3d74c02c116f185</guid>
       <category>Apple</category>
       <category>Siri AI</category>
-      <category>DMA</category>
       <category>European Commission</category>
-      <category>privacy</category>
-      <category>security</category>
-      <category>regulation</category>
+      <category>DMA</category>
+      <category>Digital Markets Act</category>
+      <category>interoperability</category>
+      <category>EU regulation</category>
+      <category>antitrust</category>
+      <category>consumer choice</category>
+      <category>gatekeeper</category>
+      <pubDate>Sat, 13 Jun 2026 01:02:45 +0800</pubDate>
+    </item>
+    <item>
+      <title>Premium: The Silicon Valley Bubble (Part 1) 摘要</title>
+      <link>https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-1/</link>
+      <description>OpenAI and Anthropic have filed for IPOs despite burning billions annually with no clear path to profitability. OpenAI needs $865 billion over four years to meet commitments, while Anthropic has taken on $35 billion in off-balance-sheet debt for compute infrastructure, with Broadcom backstopping most of it. Both companies are using the theoretical concept of recursive self-improvement (RSI) as a potential excuse to delay IPOs, which the author argues is a sign of desperation and a bubble indicator, as no viable business model for LLMs has been demonstrated.
+
+标签: AI, OpenAI, Anthropic, IPO, finance, bubble, RSI, debt, business model, tech industry</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-1/#sha256:baad8ee6ad3019be</guid>
       <category>AI</category>
-      <category>iOS</category>
-      <category>iPadOS</category>
-      <pubDate>Fri, 12 Jun 2026 05:58:49 +0800</pubDate>
+      <category>OpenAI</category>
+      <category>Anthropic</category>
+      <category>IPO</category>
+      <category>finance</category>
+      <category>bubble</category>
+      <category>RSI</category>
+      <category>debt</category>
+      <category>business model</category>
+      <category>tech industry</category>
+      <pubDate>Sat, 13 Jun 2026 01:16:51 +0800</pubDate>
+    </item>
+    <item>
+      <title>The WWDC 2026 Keynote and State of the Union on YouTube 摘要</title>
+      <link>https://www.youtube.com/watch?v=hF8swzNR1-o</link>
+      <description>Apple's Developer app allows downloading local copies of WWDC sessions and the State of the Union, but not the keynote. The author suggests using YouTube to obtain a local copy of the keynote. The full State of the Union video is over an hour long, but Apple also released a 4.5-minute recap that is recommended for those who haven't watched the full version.
+
+标签: Apple, WWDC, keynote, State of the Union, YouTube, developer, video, recap</description>
+      <guid isPermaLink="false">https://www.youtube.com/watch?v=hF8swzNR1-o#sha256:bd8cd59529db64a5</guid>
+      <category>Apple</category>
+      <category>WWDC</category>
+      <category>keynote</category>
+      <category>State of the Union</category>
+      <category>YouTube</category>
+      <category>developer</category>
+      <category>video</category>
+      <category>recap</category>
+      <pubDate>Sat, 13 Jun 2026 01:28:19 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Andrew Singleton 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything</link>
+      <description>A satirical piece from McSweeney's humorously critiques AI economics through a fictional story. Jenny's crematorium receives a $20 billion investment from John's propane company for 5% equity. Jenny burns $10 billion and pays John $10 billion for propane to incinerate the money. John reports $10 billion revenue from AI investments and values Jenny's business at $100 billion. A Forbes reporter assigned to profile them enters a polyamorous relationship, producing a glowing but financially vague article. The story mocks circular transactions and inflated valuations in the AI industry.
+
+标签: AI, economics, satire, investment, valuation, humor, finance, tech bubble</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything#sha256:60b345addc6ca3ee</guid>
+      <category>AI</category>
+      <category>economics</category>
+      <category>satire</category>
+      <category>investment</category>
+      <category>valuation</category>
+      <category>humor</category>
+      <category>finance</category>
+      <category>tech bubble</category>
+      <pubDate>Sat, 13 Jun 2026 02:09:21 +0800</pubDate>
+    </item>
+    <item>
+      <title>Pluralistic: Google's new remote attestation scheme is every bit as terrible as its old remote attestation scheme (12 Jun 2026) 摘要</title>
+      <link>https://pluralistic.net/2026/06/12/compelled-speech/</link>
+      <description>Google's new remote attestation scheme is criticized as equally harmful as its previous attempts, such as Web Environment Integrity (WEI). The article argues that remote attestation forces users to disclose device configurations to servers, enabling servers to block ad-blockers and tracker-blockers. Google, a thrice-convicted monopolist, uses this to further lock down Android, undermining open alternatives like GrapheneOS. The author contends that this technical barrier complements Google's illegal commercial tactics to suppress competition and user privacy, ultimately serving authoritarian surveillance.
+
+标签: Google, remote attestation, Android, privacy, antitrust, surveillance, open source, monopoly, web standards, technofeudalism</description>
+      <guid isPermaLink="false">https://pluralistic.net/2026/06/12/compelled-speech/#sha256:370f07be5556f0bf</guid>
+      <category>Google</category>
+      <category>remote attestation</category>
+      <category>Android</category>
+      <category>privacy</category>
+      <category>antitrust</category>
+      <category>surveillance</category>
+      <category>open source</category>
+      <category>monopoly</category>
+      <category>web standards</category>
+      <category>technofeudalism</category>
+      <pubDate>Sat, 13 Jun 2026 04:45:52 +0800</pubDate>
     </item>
   </channel>
 </rss>
