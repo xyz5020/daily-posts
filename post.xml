@@ -8,117 +8,100 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 13 Jun 2026 07:38:41 +0800</lastBuildDate>
-    <pubDate>Sat, 13 Jun 2026 07:38:41 +0800</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2026 07:32:27 +0800</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2026 07:32:27 +0800</pubDate>
     <item>
-      <title>This Week on The Analog Antiquarian 摘要</title>
-      <link>https://www.filfre.net/2026/06/this-week-on-the-analog-antiquarian/</link>
-      <description>This article is part of a series exploring the historical and literary context of Shakespeare's Henry VI, Part 1. It delves into the political turmoil and events leading up to the play, including the death of Henry V and the ensuing power struggles in England and France. The author examines the play's portrayal of key figures like Joan of Arc and the Duke of Bedford, and discusses how Shakespeare adapted historical sources for dramatic effect. The piece also reflects on the play's themes of honor, nationalism, and the fragility of power.
+      <title>U.S. Government Directs Anthropic to Shut Down Fable 5 and Mythos 5 Models on National Security Grounds 摘要</title>
+      <link>https://www.anthropic.com/news/fable-mythos-access</link>
+      <description>The US government issued an export control directive to suspend access to Anthropic's Fable 5 and Mythos 5 models, citing national security concerns over a potential jailbreaking method. The order affects all foreign nationals, including Anthropic employees, and forces the company to disable the models for all customers. Anthropic states the vulnerabilities are minor and also discoverable by other publicly-available models without bypass. The article discusses the tension between corporate AI safety rhetoric and government intervention, questioning who should set defense policies.
 
-标签: Shakespeare, Henry VI, history, literature, theater, drama, England, France, Joan of Arc, power</description>
-      <guid isPermaLink="false">https://www.filfre.net/2026/06/this-week-on-the-analog-antiquarian/#sha256:fcc1077db5f983c1</guid>
-      <category>Shakespeare</category>
-      <category>Henry VI</category>
-      <category>history</category>
-      <category>literature</category>
-      <category>theater</category>
-      <category>drama</category>
-      <category>England</category>
-      <category>France</category>
-      <category>Joan of Arc</category>
-      <category>power</category>
-      <pubDate>Sat, 13 Jun 2026 00:31:11 +0800</pubDate>
-    </item>
-    <item>
-      <title>The European Commission Response to Siri AI and the DMA 摘要</title>
-      <link>https://www.linkedin.com/posts/thomas-regnier-24a05810b_what-is-the-true-story-behind-apples-decision-activity-7470439874664280064-TuEt</link>
-      <description>European Commission spokesperson Thomas Regnier stated that Apple's decision not to roll out 'Siri AI' in the EU is solely Apple's, as the Digital Markets Act (DMA) does not prohibit new features. Apple requested an 18-month exemption from interoperability obligations, which the EC rejected, emphasizing that EU rules are non-negotiable. The EC argues that allowing only Siri AI would close the market to other AI agents, violating the DMA's goal of ensuring consumer choice and developer competition. Regnier's statement was posted on LinkedIn rather than the EC's official press site.
-
-标签: Apple, Siri AI, European Commission, DMA, Digital Markets Act, interoperability, EU regulation, antitrust, consumer choice, gatekeeper</description>
-      <guid isPermaLink="false">https://www.linkedin.com/posts/thomas-regnier-24a05810b_what-is-the-true-story-behind-apples-decision-activity-7470439874664280064-TuEt#sha256:f3d74c02c116f185</guid>
-      <category>Apple</category>
-      <category>Siri AI</category>
-      <category>European Commission</category>
-      <category>DMA</category>
-      <category>Digital Markets Act</category>
-      <category>interoperability</category>
-      <category>EU regulation</category>
-      <category>antitrust</category>
-      <category>consumer choice</category>
-      <category>gatekeeper</category>
-      <pubDate>Sat, 13 Jun 2026 01:02:45 +0800</pubDate>
-    </item>
-    <item>
-      <title>Premium: The Silicon Valley Bubble (Part 1) 摘要</title>
-      <link>https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-1/</link>
-      <description>OpenAI and Anthropic have filed for IPOs despite burning billions annually with no clear path to profitability. OpenAI needs $865 billion over four years to meet commitments, while Anthropic has taken on $35 billion in off-balance-sheet debt for compute infrastructure, with Broadcom backstopping most of it. Both companies are using the theoretical concept of recursive self-improvement (RSI) as a potential excuse to delay IPOs, which the author argues is a sign of desperation and a bubble indicator, as no viable business model for LLMs has been demonstrated.
-
-标签: AI, OpenAI, Anthropic, IPO, finance, bubble, RSI, debt, business model, tech industry</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-1/#sha256:baad8ee6ad3019be</guid>
+标签: AI, Anthropic, export control, national security, jailbreaking, AI regulation, Fable 5, Mythos 5, government directive, AI safety</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/fable-mythos-access#sha256:c75c706d590f1c4f</guid>
       <category>AI</category>
-      <category>OpenAI</category>
       <category>Anthropic</category>
-      <category>IPO</category>
-      <category>finance</category>
-      <category>bubble</category>
-      <category>RSI</category>
-      <category>debt</category>
-      <category>business model</category>
-      <category>tech industry</category>
-      <pubDate>Sat, 13 Jun 2026 01:16:51 +0800</pubDate>
+      <category>export control</category>
+      <category>national security</category>
+      <category>jailbreaking</category>
+      <category>AI regulation</category>
+      <category>Fable 5</category>
+      <category>Mythos 5</category>
+      <category>government directive</category>
+      <category>AI safety</category>
+      <pubDate>Sun, 14 Jun 2026 01:02:29 +0800</pubDate>
     </item>
     <item>
-      <title>The WWDC 2026 Keynote and State of the Union on YouTube 摘要</title>
-      <link>https://www.youtube.com/watch?v=hF8swzNR1-o</link>
-      <description>Apple's Developer app allows downloading local copies of WWDC sessions and the State of the Union, but not the keynote. The author suggests using YouTube to obtain a local copy of the keynote. The full State of the Union video is over an hour long, but Apple also released a 4.5-minute recap that is recommended for those who haven't watched the full version.
+      <title>Apple’s Private Cloud Compute Is Severely Limited for Third-Party Developers 摘要</title>
+      <link>https://developer.apple.com/private-cloud-compute/</link>
+      <description>Apple offers free access to Private Cloud Compute (PCC) for small developers in the App Store Small Business Program with fewer than 2 million first-time downloads across all apps. However, there are no paid tiers for larger developers or those who exceed the limit, and the cap applies to any app the developer has ever released, not just those using PCC. This severely limits third-party access, making PCC primarily for Apple's own Siri AI. Critics argue Apple should reconsider the policy or offer paid options.
 
-标签: Apple, WWDC, keynote, State of the Union, YouTube, developer, video, recap</description>
-      <guid isPermaLink="false">https://www.youtube.com/watch?v=hF8swzNR1-o#sha256:bd8cd59529db64a5</guid>
+标签: Apple, Private Cloud Compute, AI, developer, App Store, Small Business Program, pricing, cloud, privacy, Siri</description>
+      <guid isPermaLink="false">https://developer.apple.com/private-cloud-compute/#sha256:280be2944a4fde7c</guid>
       <category>Apple</category>
-      <category>WWDC</category>
-      <category>keynote</category>
-      <category>State of the Union</category>
-      <category>YouTube</category>
-      <category>developer</category>
-      <category>video</category>
-      <category>recap</category>
-      <pubDate>Sat, 13 Jun 2026 01:28:19 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Andrew Singleton 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything</link>
-      <description>A satirical piece from McSweeney's humorously critiques AI economics through a fictional story. Jenny's crematorium receives a $20 billion investment from John's propane company for 5% equity. Jenny burns $10 billion and pays John $10 billion for propane to incinerate the money. John reports $10 billion revenue from AI investments and values Jenny's business at $100 billion. A Forbes reporter assigned to profile them enters a polyamorous relationship, producing a glowing but financially vague article. The story mocks circular transactions and inflated valuations in the AI industry.
-
-标签: AI, economics, satire, investment, valuation, humor, finance, tech bubble</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything#sha256:60b345addc6ca3ee</guid>
+      <category>Private Cloud Compute</category>
       <category>AI</category>
-      <category>economics</category>
-      <category>satire</category>
-      <category>investment</category>
-      <category>valuation</category>
-      <category>humor</category>
-      <category>finance</category>
-      <category>tech bubble</category>
-      <pubDate>Sat, 13 Jun 2026 02:09:21 +0800</pubDate>
+      <category>developer</category>
+      <category>App Store</category>
+      <category>Small Business Program</category>
+      <category>pricing</category>
+      <category>cloud</category>
+      <category>privacy</category>
+      <category>Siri</category>
+      <pubDate>Sun, 14 Jun 2026 01:20:59 +0800</pubDate>
     </item>
     <item>
-      <title>Pluralistic: Google's new remote attestation scheme is every bit as terrible as its old remote attestation scheme (12 Jun 2026) 摘要</title>
-      <link>https://pluralistic.net/2026/06/12/compelled-speech/</link>
-      <description>Google's new remote attestation scheme is criticized as equally harmful as its previous attempts, such as Web Environment Integrity (WEI). The article argues that remote attestation forces users to disclose device configurations to servers, enabling servers to block ad-blockers and tracker-blockers. Google, a thrice-convicted monopolist, uses this to further lock down Android, undermining open alternatives like GrapheneOS. The author contends that this technical barrier complements Google's illegal commercial tactics to suppress competition and user privacy, ultimately serving authoritarian surveillance.
+      <title>Trump’s Name (Set in the Wrong Font, of Course) Has Been Removed From the Kennedy Center 摘要</title>
+      <link>https://apple.news/ANLNtQOeuSkiJ35tzkYw9oA</link>
+      <description>Crews removed President Donald Trump's name from the Kennedy Center building early Saturday morning, hours after a federal judge's two-week deadline expired. The judge had ruled that the board of trustees' decision to rename the performing arts venue after Trump was illegal. The removal, which began around 3 a.m., marks the end of a controversial chapter for the institution.
 
-标签: Google, remote attestation, Android, privacy, antitrust, surveillance, open source, monopoly, web standards, technofeudalism</description>
-      <guid isPermaLink="false">https://pluralistic.net/2026/06/12/compelled-speech/#sha256:370f07be5556f0bf</guid>
-      <category>Google</category>
-      <category>remote attestation</category>
-      <category>Android</category>
-      <category>privacy</category>
-      <category>antitrust</category>
-      <category>surveillance</category>
-      <category>open source</category>
-      <category>monopoly</category>
-      <category>web standards</category>
-      <category>technofeudalism</category>
-      <pubDate>Sat, 13 Jun 2026 04:45:52 +0800</pubDate>
+标签: politics, law, Kennedy Center, Trump, judicial ruling, arts, Washington DC, controversy</description>
+      <guid isPermaLink="false">https://apple.news/ANLNtQOeuSkiJ35tzkYw9oA#sha256:38ec8361b25a30d4</guid>
+      <category>politics</category>
+      <category>law</category>
+      <category>Kennedy Center</category>
+      <category>Trump</category>
+      <category>judicial ruling</category>
+      <category>arts</category>
+      <category>Washington DC</category>
+      <category>controversy</category>
+      <pubDate>Sun, 14 Jun 2026 01:34:15 +0800</pubDate>
+    </item>
+    <item>
+      <title>Pluralistic: Shareholder supremacy and the precog CEO (13 Jun 2026) 摘要</title>
+      <link>https://pluralistic.net/2026/06/13/minority-shareholder-report/</link>
+      <description>Cory Doctorow critiques Milton Friedman's shareholder supremacy doctrine, arguing that the 'maximize shareholder value' standard is unfalsifiable because it requires a crystal ball to know if a manager truly maximized profits. He suggests this ambiguity is a feature, not a bug, serving as a universal excuse for corporate cruelty and cowardice. The post also includes links to other articles, historical retrospectives, and upcoming appearances.
+
+标签: shareholder supremacy, Milton Friedman, fiduciary duty, corporate governance, business ethics, enshittification, capitalism, critique, economics, accountability</description>
+      <guid isPermaLink="false">https://pluralistic.net/2026/06/13/minority-shareholder-report/#sha256:45ad1159d85e473b</guid>
+      <category>shareholder supremacy</category>
+      <category>Milton Friedman</category>
+      <category>fiduciary duty</category>
+      <category>corporate governance</category>
+      <category>business ethics</category>
+      <category>enshittification</category>
+      <category>capitalism</category>
+      <category>critique</category>
+      <category>economics</category>
+      <category>accountability</category>
+      <pubDate>Sun, 14 Jun 2026 01:49:56 +0800</pubDate>
+    </item>
+    <item>
+      <title>RSA munitions T-shirt 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/06/13/rsa-munitions-t-shirt/</link>
+      <description>In 1995, during the US export ban on strong encryption, Adam Back protested by creating a 3-line Perl implementation of RSA public key cryptography, which he used as an email signature and printed on T-shirts. The US government classified the T-shirt as a munition because it contained source code for strong encryption. The Perl code relies on the Unix 'dc' calculator for arbitrary precision arithmetic, performing fast exponentiation (m^k mod n) for RSA encryption. This represents textbook RSA, not modern refined implementations. The article briefly explains the dc commands and links to a detailed 1995 commentary.
+
+标签: RSA, encryption, history, Perl, munitions, protest, dc, cryptography, Adam Back, export control</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/13/rsa-munitions-t-shirt/#sha256:c95542246c2cf9cc</guid>
+      <category>RSA</category>
+      <category>encryption</category>
+      <category>history</category>
+      <category>Perl</category>
+      <category>munitions</category>
+      <category>protest</category>
+      <category>dc</category>
+      <category>cryptography</category>
+      <category>Adam Back</category>
+      <category>export control</category>
+      <pubDate>Sun, 14 Jun 2026 04:10:20 +0800</pubDate>
     </item>
   </channel>
 </rss>
