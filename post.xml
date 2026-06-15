@@ -8,100 +8,138 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 14 Jun 2026 07:32:27 +0800</lastBuildDate>
-    <pubDate>Sun, 14 Jun 2026 07:32:27 +0800</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2026 07:41:23 +0800</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2026 07:41:23 +0800</pubDate>
     <item>
-      <title>U.S. Government Directs Anthropic to Shut Down Fable 5 and Mythos 5 Models on National Security Grounds 摘要</title>
-      <link>https://www.anthropic.com/news/fable-mythos-access</link>
-      <description>The US government issued an export control directive to suspend access to Anthropic's Fable 5 and Mythos 5 models, citing national security concerns over a potential jailbreaking method. The order affects all foreign nationals, including Anthropic employees, and forces the company to disable the models for all customers. Anthropic states the vulnerabilities are minor and also discoverable by other publicly-available models without bypass. The article discusses the tension between corporate AI safety rhetoric and government intervention, questioning who should set defense policies.
+      <title>‘Anthropic’s Safety Superpower’ 摘要</title>
+      <link>https://stratechery.com/2026/anthropics-safety-superpower/</link>
+      <description>Ben Thompson critiques Anthropic's policy of silently altering its Claude models to enforce its own safety preferences, arguing this validates concerns about the company being a supply chain risk. He notes Anthropic believes only it should develop frontier AI, effectively seeking control over AI generally. Thompson compares Anthropic to a religious organization with true believers on a mission, contrasting its fervor with other tech companies' cultural obsessions. He warns that Anthropic's conviction about building superintelligence, combined with its willingness to unilaterally impose its values, poses unique risks beyond typical corporate overreach.
 
-标签: AI, Anthropic, export control, national security, jailbreaking, AI regulation, Fable 5, Mythos 5, government directive, AI safety</description>
-      <guid isPermaLink="false">https://www.anthropic.com/news/fable-mythos-access#sha256:c75c706d590f1c4f</guid>
-      <category>AI</category>
+标签: Anthropic, AI safety, AI policy, frontier models, supply chain risk, corporate culture, superintelligence, LLMs, Stratechery, Ben Thompson</description>
+      <guid isPermaLink="false">https://stratechery.com/2026/anthropics-safety-superpower/#sha256:dea8f6482f5aa35e</guid>
       <category>Anthropic</category>
-      <category>export control</category>
-      <category>national security</category>
-      <category>jailbreaking</category>
-      <category>AI regulation</category>
-      <category>Fable 5</category>
-      <category>Mythos 5</category>
-      <category>government directive</category>
       <category>AI safety</category>
-      <pubDate>Sun, 14 Jun 2026 01:02:29 +0800</pubDate>
+      <category>AI policy</category>
+      <category>frontier models</category>
+      <category>supply chain risk</category>
+      <category>corporate culture</category>
+      <category>superintelligence</category>
+      <category>LLMs</category>
+      <category>Stratechery</category>
+      <category>Ben Thompson</category>
+      <pubDate>Tue, 16 Jun 2026 01:18:46 +0800</pubDate>
     </item>
     <item>
-      <title>Apple’s Private Cloud Compute Is Severely Limited for Third-Party Developers 摘要</title>
-      <link>https://developer.apple.com/private-cloud-compute/</link>
-      <description>Apple offers free access to Private Cloud Compute (PCC) for small developers in the App Store Small Business Program with fewer than 2 million first-time downloads across all apps. However, there are no paid tiers for larger developers or those who exceed the limit, and the cap applies to any app the developer has ever released, not just those using PCC. This severely limits third-party access, making PCC primarily for Apple's own Siri AI. Critics argue Apple should reconsider the policy or offer paid options.
+      <title>Writing Prolog with ChatGPT 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/06/15/writing-prolog-with-chatgpt/</link>
+      <description>John D. Cook experiments with using ChatGPT to write a SWI Prolog program that solves a chess puzzle: placing a queen, king, rook, bishop, and knight on a 4x4 board so no piece attacks another. ChatGPT generates correct Prolog code that finds all 16 solutions. The author notes that Prolog's stable syntax makes it well-suited for LLM code generation, contrasting with newer languages like Lean where library refactoring complicates AI assistance. The post highlights the potential of using LLMs to write Prolog for logic puzzles, which can translate to real-world constraint satisfaction problems.
 
-标签: Apple, Private Cloud Compute, AI, developer, App Store, Small Business Program, pricing, cloud, privacy, Siri</description>
-      <guid isPermaLink="false">https://developer.apple.com/private-cloud-compute/#sha256:280be2944a4fde7c</guid>
-      <category>Apple</category>
-      <category>Private Cloud Compute</category>
+标签: Prolog, ChatGPT, LLM, code generation, chess puzzle, logic programming, SWI Prolog, constraint satisfaction, AI-assisted programming</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/15/writing-prolog-with-chatgpt/#sha256:c9955d05f6df150a</guid>
+      <category>Prolog</category>
+      <category>ChatGPT</category>
+      <category>LLM</category>
+      <category>code generation</category>
+      <category>chess puzzle</category>
+      <category>logic programming</category>
+      <category>SWI Prolog</category>
+      <category>constraint satisfaction</category>
+      <category>AI-assisted programming</category>
+      <pubDate>Tue, 16 Jun 2026 01:22:43 +0800</pubDate>
+    </item>
+    <item>
+      <title>WorkOS Launches Auth.md — an Open Protocol for Agent Registration 摘要</title>
+      <link>https://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026</link>
+      <description>WorkOS launches Auth.md, an open protocol enabling AI agents to programmatically register with services via a machine-readable Markdown file at the service root. This allows agents to discover OAuth metadata, parse required scopes, and authenticate seamlessly. WorkOS AuthKit offers native support, providing a standardized, secure login method for AI tools. The protocol was introduced at the MCP Night: Agent Night keynote.
+
+标签: AI, authentication, OAuth, protocol, WorkOS, Auth.md, AI agents, security, open-source, developer tools</description>
+      <guid isPermaLink="false">https://workos.com/auth-md?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q22026#sha256:3810c2a5dfc1f42e</guid>
       <category>AI</category>
-      <category>developer</category>
-      <category>App Store</category>
-      <category>Small Business Program</category>
-      <category>pricing</category>
-      <category>cloud</category>
-      <category>privacy</category>
-      <category>Siri</category>
-      <pubDate>Sun, 14 Jun 2026 01:20:59 +0800</pubDate>
+      <category>authentication</category>
+      <category>OAuth</category>
+      <category>protocol</category>
+      <category>WorkOS</category>
+      <category>Auth.md</category>
+      <category>AI agents</category>
+      <category>security</category>
+      <category>open-source</category>
+      <category>developer tools</category>
+      <pubDate>Tue, 16 Jun 2026 01:53:50 +0800</pubDate>
     </item>
     <item>
-      <title>Trump’s Name (Set in the Wrong Font, of Course) Has Been Removed From the Kennedy Center 摘要</title>
-      <link>https://apple.news/ANLNtQOeuSkiJ35tzkYw9oA</link>
-      <description>Crews removed President Donald Trump's name from the Kennedy Center building early Saturday morning, hours after a federal judge's two-week deadline expired. The judge had ruled that the board of trustees' decision to rename the performing arts venue after Trump was illegal. The removal, which began around 3 a.m., marks the end of a controversial chapter for the institution.
+      <title>The European Commission Ruled Months Ago That Google’s Integration of Gemini in Android Violates the DMA 摘要</title>
+      <link>https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/</link>
+      <description>The European Commission has proposed measures under the DMA requiring Google to allow third-party AI services system-level integration on Android, including custom wake words, screen context access, local model hardware access, and free APIs. Critics argue this could lead to security risks and that Google may withdraw Gemini integration in the EU instead of complying. The article contrasts Google's 'ship first, ask forgiveness' approach with Apple's cautious strategy of withholding features to avoid non-compliance.
 
-标签: politics, law, Kennedy Center, Trump, judicial ruling, arts, Washington DC, controversy</description>
-      <guid isPermaLink="false">https://apple.news/ANLNtQOeuSkiJ35tzkYw9oA#sha256:38ec8361b25a30d4</guid>
-      <category>politics</category>
-      <category>law</category>
-      <category>Kennedy Center</category>
-      <category>Trump</category>
-      <category>judicial ruling</category>
-      <category>arts</category>
-      <category>Washington DC</category>
-      <category>controversy</category>
-      <pubDate>Sun, 14 Jun 2026 01:34:15 +0800</pubDate>
+标签: EU, DMA, Android, Google, Gemini, AI, regulation, antitrust, third-party access, security</description>
+      <guid isPermaLink="false">https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/#sha256:49d81fb71351b363</guid>
+      <category>EU</category>
+      <category>DMA</category>
+      <category>Android</category>
+      <category>Google</category>
+      <category>Gemini</category>
+      <category>AI</category>
+      <category>regulation</category>
+      <category>antitrust</category>
+      <category>third-party access</category>
+      <category>security</category>
+      <pubDate>Tue, 16 Jun 2026 02:58:22 +0800</pubDate>
     </item>
     <item>
-      <title>Pluralistic: Shareholder supremacy and the precog CEO (13 Jun 2026) 摘要</title>
-      <link>https://pluralistic.net/2026/06/13/minority-shareholder-report/</link>
-      <description>Cory Doctorow critiques Milton Friedman's shareholder supremacy doctrine, arguing that the 'maximize shareholder value' standard is unfalsifiable because it requires a crystal ball to know if a manager truly maximized profits. He suggests this ambiguity is a feature, not a bug, serving as a universal excuse for corporate cruelty and cowardice. The post also includes links to other articles, historical retrospectives, and upcoming appearances.
+      <title>AI's Brokenomics 摘要</title>
+      <link>https://www.wheresyoured.at/brokenomics/</link>
+      <description>The US government forced Anthropic to disable its Mythos and Fable AI models due to national security concerns, after Amazon researchers jailbroke Fable's guardrails and China allegedly accessed Mythos. Anthropic CEO Dario Amodei downplayed the risks, leading to export controls banning non-US citizens from using the models. The incident highlights the consequences of Anthropic's hype around 'too dangerous to release' models, which were quickly jailbroken. Microsoft CEO Satya Nadella's comments suggest hyperscalers may be questioning AI labs' dominance, while the government's actions indicate ongoing tensions with Anthropic.
 
-标签: shareholder supremacy, Milton Friedman, fiduciary duty, corporate governance, business ethics, enshittification, capitalism, critique, economics, accountability</description>
-      <guid isPermaLink="false">https://pluralistic.net/2026/06/13/minority-shareholder-report/#sha256:45ad1159d85e473b</guid>
-      <category>shareholder supremacy</category>
-      <category>Milton Friedman</category>
-      <category>fiduciary duty</category>
-      <category>corporate governance</category>
-      <category>business ethics</category>
-      <category>enshittification</category>
-      <category>capitalism</category>
-      <category>critique</category>
-      <category>economics</category>
-      <category>accountability</category>
-      <pubDate>Sun, 14 Jun 2026 01:49:56 +0800</pubDate>
+标签: Anthropic, AI regulation, export controls, national security, jailbreak, AI safety, hyperscalers, Microsoft, Amazon, AI hype</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/brokenomics/#sha256:52f0592e67585068</guid>
+      <category>Anthropic</category>
+      <category>AI regulation</category>
+      <category>export controls</category>
+      <category>national security</category>
+      <category>jailbreak</category>
+      <category>AI safety</category>
+      <category>hyperscalers</category>
+      <category>Microsoft</category>
+      <category>Amazon</category>
+      <category>AI hype</category>
+      <pubDate>Tue, 16 Jun 2026 03:28:23 +0800</pubDate>
     </item>
     <item>
-      <title>RSA munitions T-shirt 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/13/rsa-munitions-t-shirt/</link>
-      <description>In 1995, during the US export ban on strong encryption, Adam Back protested by creating a 3-line Perl implementation of RSA public key cryptography, which he used as an email signature and printed on T-shirts. The US government classified the T-shirt as a munition because it contained source code for strong encryption. The Perl code relies on the Unix 'dc' calculator for arbitrary precision arithmetic, performing fast exponentiation (m^k mod n) for RSA encryption. This represents textbook RSA, not modern refined implementations. The article briefly explains the dc commands and links to a detailed 1995 commentary.
+      <title>Quaternion Rotations, Claude, and Lean 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/06/15/quaternions-claude-lean/</link>
+      <description>John D. Cook received a typo report for a year-old blog post on quaternion-rotation matrix conversion. Instead of fixing it manually, he asked Claude Sonnet 4.6 Medium to write Lean 4 code verifying the two theorems. Claude detected a conflict between the Python code and LaTeX-generated SVG alt text, correctly using Python as ground truth. After four iterations of error feedback, Claude produced complete Lean code proving the rotation matrix is orthogonal (RᵀR=I) and verifying the Chiaverini–Siciliano square-root formulas. The post highlights AI-assisted formal verification and the challenge of keeping LaTeX and code consistent.
 
-标签: RSA, encryption, history, Perl, munitions, protest, dc, cryptography, Adam Back, export control</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/13/rsa-munitions-t-shirt/#sha256:c95542246c2cf9cc</guid>
-      <category>RSA</category>
-      <category>encryption</category>
-      <category>history</category>
-      <category>Perl</category>
-      <category>munitions</category>
-      <category>protest</category>
-      <category>dc</category>
-      <category>cryptography</category>
-      <category>Adam Back</category>
-      <category>export control</category>
-      <pubDate>Sun, 14 Jun 2026 04:10:20 +0800</pubDate>
+标签: Lean, Claude, quaternions, rotation matrices, formal verification, AI-assisted programming, theorem proving, Mathlib, LaTeX, Python</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/15/quaternions-claude-lean/#sha256:ebf3c113de5b3129</guid>
+      <category>Lean</category>
+      <category>Claude</category>
+      <category>quaternions</category>
+      <category>rotation matrices</category>
+      <category>formal verification</category>
+      <category>AI-assisted programming</category>
+      <category>theorem proving</category>
+      <category>Mathlib</category>
+      <category>LaTeX</category>
+      <category>Python</category>
+      <pubDate>Tue, 16 Jun 2026 03:31:38 +0800</pubDate>
+    </item>
+    <item>
+      <title>JAX: commitment issues 摘要</title>
+      <link>https://www.gilesthomas.com/2026/06/jax-commitment-issues</link>
+      <description>This article investigates a performance issue in JAX where array lookups on CPU-allocated arrays take over a second per item. The root cause is that arrays created with `jax.default_device` context manager are not committed to that device, allowing JAX to move them to the GPU (the default device) during indexing. Using `jax.device_put` to explicitly commit the array to the CPU resolves the issue, reducing lookup times from ~1.2s to under 0.0002s. The author hypothesizes that JAX may be moving the entire parent array to the GPU on each access, causing the slowdown.
+
+标签: JAX, performance, GPU, CPU, device management, array indexing, debugging, machine learning, Python</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/06/jax-commitment-issues#sha256:bf3336f607752d2d</guid>
+      <category>JAX</category>
+      <category>performance</category>
+      <category>GPU</category>
+      <category>CPU</category>
+      <category>device management</category>
+      <category>array indexing</category>
+      <category>debugging</category>
+      <category>machine learning</category>
+      <category>Python</category>
+      <pubDate>Tue, 16 Jun 2026 05:30:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
