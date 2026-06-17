@@ -8,158 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 17 Jun 2026 07:39:09 +0800</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 07:39:09 +0800</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 07:40:39 +0800</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2026 07:40:39 +0800</pubDate>
     <item>
-      <title>Do not invite big-tech to join your digital autonomy discussion 摘要</title>
-      <link>https://berthub.eu/articles/posts/do-not-invite-big-tech-to-your-digital-autonomy-discussion/</link>
-      <description>The author recounts attending an event on European digital autonomy, only to discover that major US tech companies like Microsoft, Google, and Amazon were also present and presenting. Despite the focus on reducing dependencies, the author acknowledges that these companies will still play a role in Europe's digital future, suggesting that cooperation with them is acceptable as long as Europe maintains strategic autonomy.
+      <title>Logic for Programmers v0.15, Livecoding 摘要</title>
+      <link>https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/</link>
+      <description>Logic for Programmers version 0.15 has been released as the first release candidate, with all content finalized and copy-edited. The next release will be version 1.0 in print. The author also recommends two livecoding music languages: Strudel, a JavaScript DSL ported from Haskell's TidalCycles, and CLAVIER-36, a 2D grid-based language inspired by Orca. These were demonstrated at the inaugural livecode.chicago meetup.
 
-标签: digital autonomy, Europe, big tech, Microsoft, Google, Amazon, digital dependencies, technology policy, event</description>
-      <guid isPermaLink="false">https://berthub.eu/articles/posts/do-not-invite-big-tech-to-your-digital-autonomy-discussion/#sha256:56c8e6b0fd4f6219</guid>
-      <category>digital autonomy</category>
-      <category>Europe</category>
-      <category>big tech</category>
-      <category>Microsoft</category>
-      <category>Google</category>
-      <category>Amazon</category>
-      <category>digital dependencies</category>
-      <category>technology policy</category>
-      <category>event</category>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Georgi Gerganov 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything</link>
-      <description>Georgi Gerganov, creator of llama.cpp, attests that Qwen3.6-27B is a highly capable local model for coding tasks. He has used it daily for over a month on M2 Ultra and RTX 5090 hardware, primarily for small mundane tasks at ggml-org. He uses a lightweight harness with pi agent in offline mode and a short system prompt to align with his style. He notes he would use it more if not for PR review duties.
-
-标签: Qwen, local-LLMs, coding, AI-assisted-programming, llama.cpp, pi-agent, hardware, developer-tools, open-source, machine-learning</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything#sha256:a9aeba3d4d2e42f4</guid>
-      <category>Qwen</category>
-      <category>local-LLMs</category>
-      <category>coding</category>
-      <category>AI-assisted-programming</category>
-      <category>llama.cpp</category>
-      <category>pi-agent</category>
-      <category>hardware</category>
-      <category>developer-tools</category>
+标签: programming, logic, book, livecoding, music, JavaScript, DSL, open-source, creative-coding, release</description>
+      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/#sha256:b380e0c6e7d779dc</guid>
+      <category>programming</category>
+      <category>logic</category>
+      <category>book</category>
+      <category>livecoding</category>
+      <category>music</category>
+      <category>JavaScript</category>
+      <category>DSL</category>
       <category>open-source</category>
-      <category>machine-learning</category>
-      <pubDate>Wed, 17 Jun 2026 00:04:59 +0800</pubDate>
+      <category>creative-coding</category>
+      <category>release</category>
+      <pubDate>Thu, 18 Jun 2026 00:40:09 +0800</pubDate>
     </item>
     <item>
-      <title>New in the App Store: Personalized Recommendations 摘要</title>
-      <link>https://techcrunch.com/2026/06/09/apples-app-store-rolls-out-personalized-recommendations/</link>
-      <description>Apple announced at WWDC 2026 new App Store features including Personalized Collections and App Notes, which tailor app recommendations based on user interests and behavior. However, security researchers Mysk reported that the App Store app sends detailed analytics data, including character-by-character typing, to Apple for purposes beyond search suggestions, raising privacy concerns.
+      <title>Quoting Charity Majors 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything</link>
+      <description>In 2025, the economics of code production were fundamentally inverted: generating code became effectively free and instant, rather than hard, time-consuming, and expensive. This shift transformed code from a treasured, carefully curated asset into a disposable and regenerable commodity. Charity Majors argues that this new reality demands more engineering discipline, not less, as the ease of code generation introduces new challenges in quality, maintenance, and system design.
 
-标签: Apple, App Store, personalization, privacy, analytics, WWDC, iOS, security, recommendations, keylogging</description>
-      <guid isPermaLink="false">https://techcrunch.com/2026/06/09/apples-app-store-rolls-out-personalized-recommendations/#sha256:3af9f6784f96eb18</guid>
-      <category>Apple</category>
-      <category>App Store</category>
-      <category>personalization</category>
-      <category>privacy</category>
-      <category>analytics</category>
-      <category>WWDC</category>
-      <category>iOS</category>
-      <category>security</category>
-      <category>recommendations</category>
-      <category>keylogging</category>
-      <pubDate>Wed, 17 Jun 2026 00:12:31 +0800</pubDate>
+标签: AI, software engineering, code generation, economics of software, engineering discipline, AI-assisted programming, generative AI, LLMs, Charity Majors</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything#sha256:b8c390778e0b6698</guid>
+      <category>AI</category>
+      <category>software engineering</category>
+      <category>code generation</category>
+      <category>economics of software</category>
+      <category>engineering discipline</category>
+      <category>AI-assisted programming</category>
+      <category>generative AI</category>
+      <category>LLMs</category>
+      <category>Charity Majors</category>
+      <pubDate>Thu, 18 Jun 2026 01:12:41 +0800</pubDate>
     </item>
     <item>
-      <title>Ada Palmer – Machiavelli is the most misunderstood thinker of all time 摘要</title>
-      <link>https://www.dwarkesh.com/p/ada-palmer-2</link>
-      <description>Dwarkesh Patel interviews historian Ada Palmer about Machiavelli, focusing on his life, context, and the writing of 'The Prince.' Machiavelli, a diplomat for Florence, was tortured and exiled by the Medici in 1513. He wrote 'The Prince' as a guide for Lorenzo de' Medici to unify Italy, driven by the instability of Italian city-states and the papacy's unpredictable power. Palmer explains how frequent regime changes and papal nepotism created chaos, making Machiavelli's insights urgent. The episode also covers his analytical innovations, the role of Cesare Borgia, and why Machiavelli is often misunderstood.
+      <title>You Got Faster. Your Company Didn’t. 摘要</title>
+      <link>https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/</link>
+      <description>The article argues that while AI makes individual workers more productive, it can slow down the entire organization. Using AI to generate long, unedited documents shifts the cognitive burden from the writer to the readers, who must fact-check and understand the AI-generated content. This creates a 'Ponzi scheme' where time is transferred rather than saved. The author advocates for editing AI output and maintaining the implicit contract that writers should compress and verify information to save readers' time. The piece concludes that individual speed gains don't translate to team efficiency if the work quality degrades.
 
-标签: Machiavelli, The Prince, Renaissance, Florence, Italian history, political philosophy, papacy, Cesare Borgia, Ada Palmer, podcast</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/ada-palmer-2#sha256:de099ac4bc2c1718</guid>
-      <category>Machiavelli</category>
-      <category>The Prince</category>
-      <category>Renaissance</category>
-      <category>Florence</category>
-      <category>Italian history</category>
-      <category>political philosophy</category>
-      <category>papacy</category>
-      <category>Cesare Borgia</category>
-      <category>Ada Palmer</category>
-      <category>podcast</category>
-      <pubDate>Wed, 17 Jun 2026 01:27:51 +0800</pubDate>
+标签: AI, productivity, workplace, communication, writing, teamwork, efficiency, documentation, collaboration, management</description>
+      <guid isPermaLink="false">https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/#sha256:53b8d5d82a1b75f3</guid>
+      <category>AI</category>
+      <category>productivity</category>
+      <category>workplace</category>
+      <category>communication</category>
+      <category>writing</category>
+      <category>teamwork</category>
+      <category>efficiency</category>
+      <category>documentation</category>
+      <category>collaboration</category>
+      <category>management</category>
+      <pubDate>Thu, 18 Jun 2026 01:39:03 +0800</pubDate>
     </item>
     <item>
-      <title>Partial fraction decomposition 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/16/partial-fraction-decomposition/</link>
-      <description>Partial fraction decomposition is typically taught in calculus as a technique for integrating rational functions. However, the concept extends beyond integration: it applies to complex analysis, where every rational function decomposes into simple fractions over complex numbers, and to abstract algebra, where the decomposition generalizes to fields of fractions over principal ideal domains (PIDs). For example, over the integers, rational numbers can be expressed as sums of fractions with prime power denominators. The existence of such decompositions is useful for theoretical proofs, even when explicit computation is impractical due to the difficulty of factoring high-degree polynomials.
+      <title>Pluralistic: The (real) dead economy theory (17 Jun 2026) 摘要</title>
+      <link>https://pluralistic.net/2026/06/17/its-the-stupid-economy-stupid/</link>
+      <description>Cory Doctorow critiques the 'dead economy theory,' arguing that financial markets have detached from productive value, exemplified by Elon Musk's net worth rising to $1 trillion despite a string of flops since 2020. He contrasts this with the real risk of AI: not that AI will replace jobs, but that executives will replace workers with defective chatbots. Doctorow warns that capital is being diverted from real research (e.g., cancer) into bubbles like crypto, AI, and the SpaceX IPO, creating an economy that destroys value and lives.
 
-标签: partial fractions, rational functions, calculus, complex analysis, abstract algebra, principal ideal domain, polynomial factorization, number theory, integration, mathematics</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/16/partial-fraction-decomposition/#sha256:42673d1ca815c3ab</guid>
-      <category>partial fractions</category>
-      <category>rational functions</category>
-      <category>calculus</category>
-      <category>complex analysis</category>
-      <category>abstract algebra</category>
-      <category>principal ideal domain</category>
-      <category>polynomial factorization</category>
-      <category>number theory</category>
-      <category>integration</category>
-      <category>mathematics</category>
-      <pubDate>Wed, 17 Jun 2026 01:56:27 +0800</pubDate>
-    </item>
-    <item>
-      <title>10Gb/s Ethernet: switching to a Broadcom SFP+ module 摘要</title>
-      <link>https://www.gilesthomas.com/2026/06/10g-ethernet-switching-to-broadcom-sfp-plus</link>
-      <description>The author upgraded their home LAN to 10Gb/s using 10GBASE-T SFP+ modules, but the Marvell-based MikroTik S+RJ10 module in their study switch overheated and flapped, causing network instability. After research, they replaced it with a Broadcom-based 10Gtek ASF-10G-T80-INT module, which runs cooler and more reliably. The new module impersonates an Intel fiber-optic module in EEPROM, so temperature monitoring via SNMP is no longer available, but CPU temperatures dropped by about 5°C and link stability has been flawless for two weeks.
-
-标签: networking, 10GbE, SFP+, 10GBASE-T, home lab, overheating, Broadcom, MikroTik, hardware upgrade, troubleshooting</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/06/10g-ethernet-switching-to-broadcom-sfp-plus#sha256:a883d9d553fbbe79</guid>
-      <category>networking</category>
-      <category>10GbE</category>
-      <category>SFP+</category>
-      <category>10GBASE-T</category>
-      <category>home lab</category>
-      <category>overheating</category>
-      <category>Broadcom</category>
-      <category>MikroTik</category>
-      <category>hardware upgrade</category>
-      <category>troubleshooting</category>
-      <pubDate>Wed, 17 Jun 2026 02:45:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Key, in sight 摘要</title>
-      <link>https://aresluna.org/key-in-sight</link>
-      <description>This is a comprehensive 9,400-word guide on keyboard customization, covering everything from keycap materials and profiles to switch types, stabilizers, and lubrication. It explains how to choose components based on typing feel, sound, and aesthetics, and provides step-by-step instructions for building or modifying a mechanical keyboard. The guide also discusses common tools, techniques for soldering and desoldering, and tips for programming custom keymaps. It aims to help both beginners and enthusiasts create a personalized typing experience.
-
-标签: keyboard, customization, mechanical keyboard, keycaps, switches, stabilizers, lubrication, soldering, DIY, typing</description>
-      <guid isPermaLink="false">https://aresluna.org/key-in-sight#sha256:e5de73a6d0d577ba</guid>
-      <category>keyboard</category>
-      <category>customization</category>
-      <category>mechanical keyboard</category>
-      <category>keycaps</category>
-      <category>switches</category>
-      <category>stabilizers</category>
-      <category>lubrication</category>
-      <category>soldering</category>
-      <category>DIY</category>
-      <category>typing</category>
-      <pubDate>Wed, 17 Jun 2026 02:50:27 +0800</pubDate>
-    </item>
-    <item>
-      <title>Debugging on Prod 摘要</title>
-      <link>https://idiallo.com/blog/debugging-on-prod</link>
-      <description>The author describes debugging a production-only 500 error on their blog after a redesign. The issue was caused by a PHP caching mechanism where `empty($value)` evaluated to `true` for `$value = 0`, sending an invalid header. Locally, Apache ignored the malformed header, but production PHP-FPM rejected it, causing the error. The root cause was a combination of PHP's `empty()` behavior and the difference between Apache and PHP-FPM header handling. The author also notes that AI-generated code (GitHub Copilot) introduced a separate infinite recursion bug in a Markdown library, highlighting the need for careful review of LLM-generated code.
-
-标签: debugging, PHP, production, caching, headers, PHP-FPM, Apache, AI code generation, GitHub Copilot, web development</description>
-      <guid isPermaLink="false">https://idiallo.com/blog/debugging-on-prod#sha256:3b358d5a30a2455a</guid>
-      <category>debugging</category>
-      <category>PHP</category>
-      <category>production</category>
-      <category>caching</category>
-      <category>headers</category>
-      <category>PHP-FPM</category>
-      <category>Apache</category>
-      <category>AI code generation</category>
-      <category>GitHub Copilot</category>
-      <category>web development</category>
-      <pubDate>Wed, 17 Jun 2026 04:18:00 +0800</pubDate>
+标签: economics, dead economy theory, bubbles, crypto, AI, Elon Musk, SpaceX, financial markets, tech criticism, bubble economy</description>
+      <guid isPermaLink="false">https://pluralistic.net/2026/06/17/its-the-stupid-economy-stupid/#sha256:fabf79c1eab7ae35</guid>
+      <category>economics</category>
+      <category>dead economy theory</category>
+      <category>bubbles</category>
+      <category>crypto</category>
+      <category>AI</category>
+      <category>Elon Musk</category>
+      <category>SpaceX</category>
+      <category>financial markets</category>
+      <category>tech criticism</category>
+      <category>bubble economy</category>
+      <pubDate>Thu, 18 Jun 2026 02:27:18 +0800</pubDate>
     </item>
   </channel>
 </rss>
