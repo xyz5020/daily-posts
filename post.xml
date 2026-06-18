@@ -8,82 +8,99 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 Jun 2026 07:40:39 +0800</lastBuildDate>
-    <pubDate>Thu, 18 Jun 2026 07:40:39 +0800</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2026 07:40:47 +0800</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2026 07:40:47 +0800</pubDate>
     <item>
-      <title>Logic for Programmers v0.15, Livecoding 摘要</title>
-      <link>https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/</link>
-      <description>Logic for Programmers version 0.15 has been released as the first release candidate, with all content finalized and copy-edited. The next release will be version 1.0 in print. The author also recommends two livecoding music languages: Strudel, a JavaScript DSL ported from Haskell's TidalCycles, and CLAVIER-36, a 2D grid-based language inspired by Orca. These were demonstrated at the inaugural livecode.chicago meetup.
+      <title>SpaceX, Newly Public, to Acquire Cursor for $60 Billion in SpaceX Funny-Money Stock 摘要</title>
+      <link>https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html</link>
+      <description>SpaceX, newly public, agreed to acquire Cursor for $60 billion in stock, representing a 3.4% dilution at SpaceX's IPO valuation. Cursor had crossed $1 billion in annualized revenue in November and was ranked No. 37 on the CNBC Disruptor 50 list in 2026. SpaceX shares rose 16% on Tuesday, making it the fourth most valuable US company by market cap. However, the author criticizes the valuation as insane, noting SpaceX is not profitable and Cursor's $1 billion sales do not justify a 60x revenue multiple, especially since Cursor is also unprofitable.
 
-标签: programming, logic, book, livecoding, music, JavaScript, DSL, open-source, creative-coding, release</description>
-      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/#sha256:b380e0c6e7d779dc</guid>
-      <category>programming</category>
-      <category>logic</category>
-      <category>book</category>
-      <category>livecoding</category>
-      <category>music</category>
-      <category>JavaScript</category>
-      <category>DSL</category>
-      <category>open-source</category>
-      <category>creative-coding</category>
-      <category>release</category>
-      <pubDate>Thu, 18 Jun 2026 00:40:09 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Charity Majors 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything</link>
-      <description>In 2025, the economics of code production were fundamentally inverted: generating code became effectively free and instant, rather than hard, time-consuming, and expensive. This shift transformed code from a treasured, carefully curated asset into a disposable and regenerable commodity. Charity Majors argues that this new reality demands more engineering discipline, not less, as the ease of code generation introduces new challenges in quality, maintenance, and system design.
-
-标签: AI, software engineering, code generation, economics of software, engineering discipline, AI-assisted programming, generative AI, LLMs, Charity Majors</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything#sha256:b8c390778e0b6698</guid>
-      <category>AI</category>
-      <category>software engineering</category>
-      <category>code generation</category>
-      <category>economics of software</category>
-      <category>engineering discipline</category>
-      <category>AI-assisted programming</category>
-      <category>generative AI</category>
-      <category>LLMs</category>
-      <category>Charity Majors</category>
-      <pubDate>Thu, 18 Jun 2026 01:12:41 +0800</pubDate>
-    </item>
-    <item>
-      <title>You Got Faster. Your Company Didn’t. 摘要</title>
-      <link>https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/</link>
-      <description>The article argues that while AI makes individual workers more productive, it can slow down the entire organization. Using AI to generate long, unedited documents shifts the cognitive burden from the writer to the readers, who must fact-check and understand the AI-generated content. This creates a 'Ponzi scheme' where time is transferred rather than saved. The author advocates for editing AI output and maintaining the implicit contract that writers should compress and verify information to save readers' time. The piece concludes that individual speed gains don't translate to team efficiency if the work quality degrades.
-
-标签: AI, productivity, workplace, communication, writing, teamwork, efficiency, documentation, collaboration, management</description>
-      <guid isPermaLink="false">https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/#sha256:53b8d5d82a1b75f3</guid>
-      <category>AI</category>
-      <category>productivity</category>
-      <category>workplace</category>
-      <category>communication</category>
-      <category>writing</category>
-      <category>teamwork</category>
-      <category>efficiency</category>
-      <category>documentation</category>
-      <category>collaboration</category>
-      <category>management</category>
-      <pubDate>Thu, 18 Jun 2026 01:39:03 +0800</pubDate>
-    </item>
-    <item>
-      <title>Pluralistic: The (real) dead economy theory (17 Jun 2026) 摘要</title>
-      <link>https://pluralistic.net/2026/06/17/its-the-stupid-economy-stupid/</link>
-      <description>Cory Doctorow critiques the 'dead economy theory,' arguing that financial markets have detached from productive value, exemplified by Elon Musk's net worth rising to $1 trillion despite a string of flops since 2020. He contrasts this with the real risk of AI: not that AI will replace jobs, but that executives will replace workers with defective chatbots. Doctorow warns that capital is being diverted from real research (e.g., cancer) into bubbles like crypto, AI, and the SpaceX IPO, creating an economy that destroys value and lives.
-
-标签: economics, dead economy theory, bubbles, crypto, AI, Elon Musk, SpaceX, financial markets, tech criticism, bubble economy</description>
-      <guid isPermaLink="false">https://pluralistic.net/2026/06/17/its-the-stupid-economy-stupid/#sha256:fabf79c1eab7ae35</guid>
-      <category>economics</category>
-      <category>dead economy theory</category>
-      <category>bubbles</category>
-      <category>crypto</category>
-      <category>AI</category>
-      <category>Elon Musk</category>
+标签: SpaceX, Cursor, acquisition, valuation, stock, IPO, tech, finance, unprofitable, market cap</description>
+      <guid isPermaLink="false">https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html#sha256:7bd9e3f47445434f</guid>
       <category>SpaceX</category>
-      <category>financial markets</category>
-      <category>tech criticism</category>
-      <category>bubble economy</category>
-      <pubDate>Thu, 18 Jun 2026 02:27:18 +0800</pubDate>
+      <category>Cursor</category>
+      <category>acquisition</category>
+      <category>valuation</category>
+      <category>stock</category>
+      <category>IPO</category>
+      <category>tech</category>
+      <category>finance</category>
+      <category>unprofitable</category>
+      <category>market cap</category>
+      <pubDate>Fri, 19 Jun 2026 00:49:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>NetNewsWire Status 摘要</title>
+      <link>https://inessential.com/2026/06/15/netnewswire-status.html</link>
+      <description>Brent Simmons reports on a year of intensive work on NetNewsWire, his open-source RSS reader, during retirement. With 2,188 commits, the team modernized the codebase, paid down tech debt, fixed bugs, and improved the foundation before adding new features. The app, already indispensable, is now significantly better and improving rapidly.
+
+标签: NetNewsWire, RSS, open source, software development, tech debt, retirement, app development, modernization, bug fixes</description>
+      <guid isPermaLink="false">https://inessential.com/2026/06/15/netnewswire-status.html#sha256:7c71b8f4a85a66bd</guid>
+      <category>NetNewsWire</category>
+      <category>RSS</category>
+      <category>open source</category>
+      <category>software development</category>
+      <category>tech debt</category>
+      <category>retirement</category>
+      <category>app development</category>
+      <category>modernization</category>
+      <category>bug fixes</category>
+      <pubDate>Fri, 19 Jun 2026 00:59:08 +0800</pubDate>
+    </item>
+    <item>
+      <title>New Domain for Sign In With Apple and iCloud+ Hide My Email 摘要</title>
+      <link>https://developer.apple.com/news/?id=sus6t6ab</link>
+      <description>Apple will unify the email domains for Sign in with Apple and iCloud+ Hide My Email under a single domain, private.icloud.com, later this summer. New addresses will use this domain, while existing addresses on legacy domains (privaterelay.appleid.com and icloud.com) will continue to work. Some commentators worry that services might block the new domain, rendering the feature less effective, but the author argues that such services are likely invasive and not worth using.
+
+标签: Apple, privacy, email, iCloud, Sign in with Apple, Hide My Email, domain change, security</description>
+      <guid isPermaLink="false">https://developer.apple.com/news/?id=sus6t6ab#sha256:606b979ff7683a01</guid>
+      <category>Apple</category>
+      <category>privacy</category>
+      <category>email</category>
+      <category>iCloud</category>
+      <category>Sign in with Apple</category>
+      <category>Hide My Email</category>
+      <category>domain change</category>
+      <category>security</category>
+      <pubDate>Fri, 19 Jun 2026 01:13:48 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm 摘要</title>
+      <link>https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/</link>
+      <description>The Popa botnet, linked to the Vo1d malware campaign, has infected millions of Android TV boxes to create a residential proxy network for advertising fraud, account takeovers, and data scraping. Researchers from Qurium, Synthient, and Spur connect Popa to NetNut, a proxy service owned by Alarum Technologies. NetNut's SDK, originally developed by Moishi Kramer's Ninjatech, is used without user consent in many cases. Despite Alarum's denial, evidence shows Popa devices forward traffic for NetNut clients, with up to 2.5 million IPs daily. The botnet persists through resellers with minimal KYC checks.
+
+标签: botnet, Android, TV boxes, residential proxy, ad fraud, NetNut, Alarum Technologies, Vo1d, cybersecurity, malware</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/#sha256:785def80579321bf</guid>
+      <category>botnet</category>
+      <category>Android</category>
+      <category>TV boxes</category>
+      <category>residential proxy</category>
+      <category>ad fraud</category>
+      <category>NetNut</category>
+      <category>Alarum Technologies</category>
+      <category>Vo1d</category>
+      <category>cybersecurity</category>
+      <category>malware</category>
+      <pubDate>Fri, 19 Jun 2026 01:37:58 +0800</pubDate>
+    </item>
+    <item>
+      <title>Cotypist – Smart Autocomplete Utility for Mac 摘要</title>
+      <link>https://cotypist.app/</link>
+      <description>Cotypist is an AI-powered autocomplete utility for Mac that uses on-device models to suggest words ahead of the insertion point, accepted by pressing Tab. It respects privacy, stores data locally, and integrates via macOS accessibility APIs. The author finds the suggestions eerily good but personally dislikes the experience, feeling it distracts from the joy of writing. However, they acknowledge its potential value for those who find writing laborious, handle repetitive emails, or write in English as a second language. A free tier (100 words/day) and paid tiers ($6-$9/month) are available, with a 30-day Pro trial for new installations.
+
+标签: AI, autocomplete, Mac, writing, productivity, privacy, on-device, accessibility, review, utility</description>
+      <guid isPermaLink="false">https://cotypist.app/#sha256:cbf6b317b5c935d9</guid>
+      <category>AI</category>
+      <category>autocomplete</category>
+      <category>Mac</category>
+      <category>writing</category>
+      <category>productivity</category>
+      <category>privacy</category>
+      <category>on-device</category>
+      <category>accessibility</category>
+      <category>review</category>
+      <category>utility</category>
+      <pubDate>Fri, 19 Jun 2026 03:36:18 +0800</pubDate>
     </item>
   </channel>
 </rss>
