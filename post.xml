@@ -8,99 +8,193 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 19 Jun 2026 07:40:47 +0800</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 07:40:47 +0800</pubDate>
+    <lastBuildDate>Sat, 20 Jun 2026 07:31:38 +0800</lastBuildDate>
+    <pubDate>Sat, 20 Jun 2026 07:31:38 +0800</pubDate>
     <item>
-      <title>SpaceX, Newly Public, to Acquire Cursor for $60 Billion in SpaceX Funny-Money Stock 摘要</title>
-      <link>https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html</link>
-      <description>SpaceX, newly public, agreed to acquire Cursor for $60 billion in stock, representing a 3.4% dilution at SpaceX's IPO valuation. Cursor had crossed $1 billion in annualized revenue in November and was ranked No. 37 on the CNBC Disruptor 50 list in 2026. SpaceX shares rose 16% on Tuesday, making it the fourth most valuable US company by market cap. However, the author criticizes the valuation as insane, noting SpaceX is not profitable and Cursor's $1 billion sales do not justify a 60x revenue multiple, especially since Cursor is also unprofitable.
+      <title>The Goldilocks Principle in Fantasy Strategy 摘要</title>
+      <link>https://www.filfre.net/2026/06/the-goldilocks-principle-in-fantasy-strategy/</link>
+      <description>The author reflects on their deep attachment to Heroes of Might and Magic II, played extensively during the pandemic, and contrasts it with Heroes III, which they enjoyed less due to darker art and added complexity. They explore why fantasy strategy appeals—its unreality avoids ethical discomfort with real-world conquest. The article then surveys three turn-based fantasy strategy games from the late 1990s: Warlords III, Age of Wonders, and Disciples: Sacred Lands. It details Warlords III's development by Steve Fawkner and Strategic Studies Group, noting its automated combat and rudimentary graphics, as a starting point for finding similar games.
 
-标签: SpaceX, Cursor, acquisition, valuation, stock, IPO, tech, finance, unprofitable, market cap</description>
-      <guid isPermaLink="false">https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html#sha256:7bd9e3f47445434f</guid>
-      <category>SpaceX</category>
-      <category>Cursor</category>
-      <category>acquisition</category>
-      <category>valuation</category>
-      <category>stock</category>
-      <category>IPO</category>
+标签: Heroes of Might and Magic, fantasy strategy, turn-based strategy, Warlords III, Strategic Studies Group, game design, retro gaming, 4X games, art style, AI in games</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/06/the-goldilocks-principle-in-fantasy-strategy/#sha256:7045efeaaf949268</guid>
+      <category>Heroes of Might and Magic</category>
+      <category>fantasy strategy</category>
+      <category>turn-based strategy</category>
+      <category>Warlords III</category>
+      <category>Strategic Studies Group</category>
+      <category>game design</category>
+      <category>retro gaming</category>
+      <category>4X games</category>
+      <category>art style</category>
+      <category>AI in games</category>
+      <pubDate>Sat, 20 Jun 2026 00:00:22 +0800</pubDate>
+    </item>
+    <item>
+      <title>Jerry Seinfeld Tries Out Snap’s Specs 摘要</title>
+      <link>https://youtu.be/siM8NW24QPs?t=217</link>
+      <description>Jerry Seinfeld tries out Snap's Spectacles, with a humorous reference to Seinfeld's father also trying them. The article is a brief link post from Daring Fireball, highlighting the cultural moment of a celebrity testing the smart glasses.
+
+标签: Snap, Spectacles, Jerry Seinfeld, smart glasses, tech, celebrity, wearables, AR, Daring Fireball</description>
+      <guid isPermaLink="false">https://youtu.be/siM8NW24QPs?t=217#sha256:0ca769a8ef577e9d</guid>
+      <category>Snap</category>
+      <category>Spectacles</category>
+      <category>Jerry Seinfeld</category>
+      <category>smart glasses</category>
       <category>tech</category>
-      <category>finance</category>
-      <category>unprofitable</category>
-      <category>market cap</category>
-      <pubDate>Fri, 19 Jun 2026 00:49:00 +0800</pubDate>
+      <category>celebrity</category>
+      <category>wearables</category>
+      <category>AR</category>
+      <category>Daring Fireball</category>
+      <pubDate>Sat, 20 Jun 2026 00:19:58 +0800</pubDate>
     </item>
     <item>
-      <title>NetNewsWire Status 摘要</title>
-      <link>https://inessential.com/2026/06/15/netnewswire-status.html</link>
-      <description>Brent Simmons reports on a year of intensive work on NetNewsWire, his open-source RSS reader, during retirement. With 2,188 commits, the team modernized the codebase, paid down tech debt, fixed bugs, and improved the foundation before adding new features. The app, already indispensable, is now significantly better and improving rapidly.
+      <title>Snap Launches Ad Campaign for Specs Starring Michael Caine 摘要</title>
+      <link>https://www.reddit.com/r/funny/comments/1jk6onr/bloody_large_glasses_by_michael_caine/</link>
+      <description>The article discusses Snap's new ad campaign for its Spectacles AR glasses, featuring actor Michael Caine. The author reflects on Caine's quote about glasses being about power and the powerful people who wear them, while questioning whether the Spectacles are stylish despite potential discomfort to ears. The piece links to a PCMag article criticizing the design.
 
-标签: NetNewsWire, RSS, open source, software development, tech debt, retirement, app development, modernization, bug fixes</description>
-      <guid isPermaLink="false">https://inessential.com/2026/06/15/netnewswire-status.html#sha256:7c71b8f4a85a66bd</guid>
-      <category>NetNewsWire</category>
-      <category>RSS</category>
-      <category>open source</category>
-      <category>software development</category>
-      <category>tech debt</category>
-      <category>retirement</category>
-      <category>app development</category>
-      <category>modernization</category>
-      <category>bug fixes</category>
-      <pubDate>Fri, 19 Jun 2026 00:59:08 +0800</pubDate>
+标签: Snap, Spectacles, AR glasses, ad campaign, Michael Caine, wearable tech, design, fashion, tech criticism</description>
+      <guid isPermaLink="false">https://www.reddit.com/r/funny/comments/1jk6onr/bloody_large_glasses_by_michael_caine/#sha256:09d22473d27ee5a5</guid>
+      <category>Snap</category>
+      <category>Spectacles</category>
+      <category>AR glasses</category>
+      <category>ad campaign</category>
+      <category>Michael Caine</category>
+      <category>wearable tech</category>
+      <category>design</category>
+      <category>fashion</category>
+      <category>tech criticism</category>
+      <pubDate>Sat, 20 Jun 2026 00:32:14 +0800</pubDate>
     </item>
     <item>
-      <title>New Domain for Sign In With Apple and iCloud+ Hide My Email 摘要</title>
-      <link>https://developer.apple.com/news/?id=sus6t6ab</link>
-      <description>Apple will unify the email domains for Sign in with Apple and iCloud+ Hide My Email under a single domain, private.icloud.com, later this summer. New addresses will use this domain, while existing addresses on legacy domains (privaterelay.appleid.com and icloud.com) will continue to work. Some commentators worry that services might block the new domain, rendering the feature less effective, but the author argues that such services are likely invasive and not worth using.
+      <title>The data black hole at the center of AI 摘要</title>
+      <link>https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2</link>
+      <description>The article argues that AI progress is primarily driven by data scale rather than sample efficiency improvements. It defines intelligence as sample efficiency, noting that current AI models require millions of times more data than humans to learn tasks. The author highlights the massive human expert data needed for RL training, comparing it to a 'black hole of data.' Despite poor sample efficiency, AI labs focus on automating common white-collar tasks where data abundance compensates. The post questions whether current AIs can achieve human-level learning without fundamental breakthroughs, suggesting future AI researchers might solve this. Comparisons with human learning and objections about evolution, multimodal data, and scaling laws are discussed.
 
-标签: Apple, privacy, email, iCloud, Sign in with Apple, Hide My Email, domain change, security</description>
-      <guid isPermaLink="false">https://developer.apple.com/news/?id=sus6t6ab#sha256:606b979ff7683a01</guid>
-      <category>Apple</category>
-      <category>privacy</category>
-      <category>email</category>
-      <category>iCloud</category>
-      <category>Sign in with Apple</category>
-      <category>Hide My Email</category>
-      <category>domain change</category>
-      <category>security</category>
-      <pubDate>Fri, 19 Jun 2026 01:13:48 +0800</pubDate>
-    </item>
-    <item>
-      <title>‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm 摘要</title>
-      <link>https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/</link>
-      <description>The Popa botnet, linked to the Vo1d malware campaign, has infected millions of Android TV boxes to create a residential proxy network for advertising fraud, account takeovers, and data scraping. Researchers from Qurium, Synthient, and Spur connect Popa to NetNut, a proxy service owned by Alarum Technologies. NetNut's SDK, originally developed by Moishi Kramer's Ninjatech, is used without user consent in many cases. Despite Alarum's denial, evidence shows Popa devices forward traffic for NetNut clients, with up to 2.5 million IPs daily. The botnet persists through resellers with minimal KYC checks.
-
-标签: botnet, Android, TV boxes, residential proxy, ad fraud, NetNut, Alarum Technologies, Vo1d, cybersecurity, malware</description>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/#sha256:785def80579321bf</guid>
-      <category>botnet</category>
-      <category>Android</category>
-      <category>TV boxes</category>
-      <category>residential proxy</category>
-      <category>ad fraud</category>
-      <category>NetNut</category>
-      <category>Alarum Technologies</category>
-      <category>Vo1d</category>
-      <category>cybersecurity</category>
-      <category>malware</category>
-      <pubDate>Fri, 19 Jun 2026 01:37:58 +0800</pubDate>
-    </item>
-    <item>
-      <title>Cotypist – Smart Autocomplete Utility for Mac 摘要</title>
-      <link>https://cotypist.app/</link>
-      <description>Cotypist is an AI-powered autocomplete utility for Mac that uses on-device models to suggest words ahead of the insertion point, accepted by pressing Tab. It respects privacy, stores data locally, and integrates via macOS accessibility APIs. The author finds the suggestions eerily good but personally dislikes the experience, feeling it distracts from the joy of writing. However, they acknowledge its potential value for those who find writing laborious, handle repetitive emails, or write in English as a second language. A free tier (100 words/day) and paid tiers ($6-$9/month) are available, with a 30-day Pro trial for new installations.
-
-标签: AI, autocomplete, Mac, writing, productivity, privacy, on-device, accessibility, review, utility</description>
-      <guid isPermaLink="false">https://cotypist.app/#sha256:cbf6b317b5c935d9</guid>
+标签: AI, sample efficiency, data scaling, reinforcement learning, human vs AI learning, white-collar automation, scaling laws, RL data generation, intelligence definition, AI progress</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2#sha256:e8a1dc353cd7f79d</guid>
       <category>AI</category>
-      <category>autocomplete</category>
-      <category>Mac</category>
+      <category>sample efficiency</category>
+      <category>data scaling</category>
+      <category>reinforcement learning</category>
+      <category>human vs AI learning</category>
+      <category>white-collar automation</category>
+      <category>scaling laws</category>
+      <category>RL data generation</category>
+      <category>intelligence definition</category>
+      <category>AI progress</category>
+      <pubDate>Sat, 20 Jun 2026 00:45:03 +0800</pubDate>
+    </item>
+    <item>
+      <title>Premium: The Silicon Valley Bubble (Part 2) 摘要</title>
+      <link>https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-2/</link>
+      <description>The article critiques the Silicon Valley AI bubble, focusing on OpenAI's massive losses ($21 billion in 2025 on $13.07 billion revenue) and questionable accounting practices. It argues that the industry has shifted from building real value to protecting venture capital investments through hype and fear-mongering. The author contends that AI companies promote unrealistic promises of sentient computers and infinite growth while ignoring current economic realities. The piece warns that this bubble exploits intellectual weaknesses across organizations, distorting incentives and eliminating guardrails against reckless exuberance, with potential severe economic consequences.
+
+标签: AI, Silicon Valley, bubble, OpenAI, venture capital, hype, economics, tech industry, financials, critique</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/premium-the-silicon-valley-bubble-part-2/#sha256:722cb70783fc9e99</guid>
+      <category>AI</category>
+      <category>Silicon Valley</category>
+      <category>bubble</category>
+      <category>OpenAI</category>
+      <category>venture capital</category>
+      <category>hype</category>
+      <category>economics</category>
+      <category>tech industry</category>
+      <category>financials</category>
+      <category>critique</category>
+      <pubDate>Sat, 20 Jun 2026 01:03:48 +0800</pubDate>
+    </item>
+    <item>
+      <title>Fox to Buy Roku Streaming Service in $25 Billion Deal 摘要</title>
+      <link>https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9?st=mKdQwC&amp;reflink=desktopwebshare_permalink</link>
+      <description>Fox Corp. announced it will acquire Roku for approximately $25 billion, marking Fox's largest deal to date. The acquisition combines Fox's live news and sports programming with Roku's connected TV platform, aiming to strengthen Fox's streaming business alongside its existing services like Tubi, Fox One, and Fox Nation. The combined entity will compete for ad dollars against Amazon and Netflix. However, the article criticizes the deal, arguing that Roku's market share is based on user indifference rather than loyalty, and predicts its share will decline.
+
+标签: Fox, Roku, acquisition, streaming, advertising, media, TV, business, deal, criticism</description>
+      <guid isPermaLink="false">https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9?st=mKdQwC&amp;reflink=desktopwebshare_permalink#sha256:30f57515d342a375</guid>
+      <category>Fox</category>
+      <category>Roku</category>
+      <category>acquisition</category>
+      <category>streaming</category>
+      <category>advertising</category>
+      <category>media</category>
+      <category>TV</category>
+      <category>business</category>
+      <category>deal</category>
+      <category>criticism</category>
+      <pubDate>Sat, 20 Jun 2026 02:29:40 +0800</pubDate>
+    </item>
+    <item>
+      <title>Trump Mobile T1 Phone Is a Gold-Painted Two-Year-Old HTC U24 Pro 摘要</title>
+      <link>https://www.nbcnews.com/tech/gadgets/trump-mobile-t1-phone-nearly-identical-htc-device-analysis-rcna349293</link>
+      <description>NBC News and iFixit report that the Trump Mobile T1 phone, marketed as 'Made in the USA,' is actually a gold-painted version of the two-year-old HTC U24 Pro, which is made by Taiwanese company HTC using Chinese parts. The T1 costs $500, only slightly more than the HTC-branded phone at $470. iFixit's teardown confirms the rebranding, with the only difference being the paint job.
+
+标签: Trump Mobile T1, HTC U24 Pro, iFixit, rebranding, smartphone, Made in USA, teardown, NBC News, consumer electronics, misleading marketing</description>
+      <guid isPermaLink="false">https://www.nbcnews.com/tech/gadgets/trump-mobile-t1-phone-nearly-identical-htc-device-analysis-rcna349293#sha256:79357e111fcc2911</guid>
+      <category>Trump Mobile T1</category>
+      <category>HTC U24 Pro</category>
+      <category>iFixit</category>
+      <category>rebranding</category>
+      <category>smartphone</category>
+      <category>Made in USA</category>
+      <category>teardown</category>
+      <category>NBC News</category>
+      <category>consumer electronics</category>
+      <category>misleading marketing</category>
+      <pubDate>Sat, 20 Jun 2026 02:47:02 +0800</pubDate>
+    </item>
+    <item>
+      <title>Full Page Paralysis 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/full-page-paralysis/</link>
+      <description>The author argues that starting a project is easy, but finishing is the hard part. They contrast 'blank page paralysis' with 'full page paralysis'—the difficulty of completing and publishing work. Finishing makes something real and subject to judgment, which creates fear of imperfection. The author relates this to software's 'last 90%' and logistics' 'last mile' problems, noting that as long as something is unfinished, it remains potentially perfect.
+
+标签: writing, creativity, productivity, procrastination, perfectionism, software development, psychology, finishing</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/full-page-paralysis/#sha256:8f7897af3299ccc4</guid>
       <category>writing</category>
+      <category>creativity</category>
       <category>productivity</category>
-      <category>privacy</category>
-      <category>on-device</category>
-      <category>accessibility</category>
-      <category>review</category>
-      <category>utility</category>
-      <pubDate>Fri, 19 Jun 2026 03:36:18 +0800</pubDate>
+      <category>procrastination</category>
+      <category>perfectionism</category>
+      <category>software development</category>
+      <category>psychology</category>
+      <category>finishing</category>
+      <pubDate>Sat, 20 Jun 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Pluralistic: The Big Con (19 Jun 2026) 摘要</title>
+      <link>https://pluralistic.net/2026/06/19/too-big-to-fact-check/</link>
+      <description>Cory Doctorow's 'The Big Con' explores how pyramid schemes like Amway operate as a 'big con' where every person the mark encounters is in on the scam. He draws parallels to modern American politics, arguing that figures like Trump and Musk are pyramid scheme swindlers who deceive the public about their wealth and success. Doctorow suggests that many CEOs are now realizing they've all been lying about AI's profitability, similar to Amway victims who think they're the only ones failing. The piece critiques the belief that large investments must be legitimate, using a Bugs Bunny analogy to illustrate the absurdity.
+
+标签: pyramid scheme, big con, Amway, politics, Trump, Musk, AI, fraud, capitalism, deception</description>
+      <guid isPermaLink="false">https://pluralistic.net/2026/06/19/too-big-to-fact-check/#sha256:e2c6b20c223b9968</guid>
+      <category>pyramid scheme</category>
+      <category>big con</category>
+      <category>Amway</category>
+      <category>politics</category>
+      <category>Trump</category>
+      <category>Musk</category>
+      <category>AI</category>
+      <category>fraud</category>
+      <category>capitalism</category>
+      <category>deception</category>
+      <pubDate>Sat, 20 Jun 2026 04:54:32 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Sean Lynch 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything</link>
+      <description>Sean Lynch argues that the key advantage of the Model Context Protocol (MCP) over skills or CLI is its ability to isolate authentication flows outside the agent's context window, potentially removing it from the harness entirely. He suggests that the idealized form of MCP might simply be an auth gateway for APIs, which would still be a significant improvement.
+
+标签: MCP, authentication, LLM, AI, API, security, context-window, agent, protocol, generative-ai</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything#sha256:0b3208ec7b55f2f0</guid>
+      <category>MCP</category>
+      <category>authentication</category>
+      <category>LLM</category>
+      <category>AI</category>
+      <category>API</category>
+      <category>security</category>
+      <category>context-window</category>
+      <category>agent</category>
+      <category>protocol</category>
+      <category>generative-ai</category>
+      <pubDate>Sat, 20 Jun 2026 06:45:49 +0800</pubDate>
     </item>
   </channel>
 </rss>
