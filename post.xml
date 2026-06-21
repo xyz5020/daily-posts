@@ -8,45 +8,60 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 21 Jun 2026 07:37:36 +0800</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 07:37:36 +0800</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 07:36:56 +0800</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 07:36:56 +0800</pubDate>
     <item>
-      <title>Pluralistic: How the Epstein Class recruits (20 Jun 2026) 摘要</title>
-      <link>https://pluralistic.net/2026/06/20/any-club-that-would-have-me/</link>
-      <description>Cory Doctorow discusses the leaked membership data of Dialog, a secret society associated with Peter Thiel, which he describes as a creepy talking-shop for the 'Epstein Class.' He recounts receiving an invitation to speak at a Dialog event, only to realize they expected him to pay thousands of dollars for the privilege. Doctorow invokes Yog's Law ('money flows toward the writer') to explain how such groups prey on creative workers. He concludes that many Dialog members likely fell for this scam, lacking awareness of this principle.
+      <title>Mux — Video for Developers 摘要</title>
+      <link>https://www.mux.com/?utm_campaign=fireball&amp;utm_source=DF</link>
+      <description>Mux, a video infrastructure provider for developers, sponsors Daring Fireball. Their product Mux Robots converts video data into actionable intelligence by automating workflows like question-answering, summarization, and key moment detection. Trusted by Synthesia, Shopify, and the U.S. Soccer Federation, Mux offers a free tier with an extra $50 credit using code FIREBALL.
 
-标签: Peter Thiel, secret society, oligarchy, Epstein Class, scam, Yog's Law, creative workers, Dialog, tech culture, power dynamics</description>
-      <guid isPermaLink="false">https://pluralistic.net/2026/06/20/any-club-that-would-have-me/#sha256:a949dd39c06a0aef</guid>
-      <category>Peter Thiel</category>
-      <category>secret society</category>
-      <category>oligarchy</category>
-      <category>Epstein Class</category>
-      <category>scam</category>
-      <category>Yog's Law</category>
-      <category>creative workers</category>
-      <category>Dialog</category>
-      <category>tech culture</category>
-      <category>power dynamics</category>
-      <pubDate>Sun, 21 Jun 2026 00:12:26 +0800</pubDate>
+标签: Mux, video, developers, infrastructure, AI, workflow automation, sponsorship, Daring Fireball</description>
+      <guid isPermaLink="false">https://www.mux.com/?utm_campaign=fireball&amp;utm_source=DF#sha256:7243a7bf95bdc40a</guid>
+      <category>Mux</category>
+      <category>video</category>
+      <category>developers</category>
+      <category>infrastructure</category>
+      <category>AI</category>
+      <category>workflow automation</category>
+      <category>sponsorship</category>
+      <category>Daring Fireball</category>
+      <pubDate>Mon, 22 Jun 2026 05:35:48 +0800</pubDate>
     </item>
     <item>
-      <title>All pieces on a 6 by 5 board 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/20/z3-python-claude/</link>
-      <description>The author uses Claude to generate Z3/Python code solving a chess puzzle: place all pieces (king, queen, two bishops, two knights, two rooks) on a 6×5 board with bishops on opposite colors and no piece attacking another. The Z3 solver finds 192 raw solutions, deduplicated to 24 unique ones by swapping identical piece pairs. The post includes the full Python code using Z3's integer variables and constraints, and displays all 24 solutions with board diagrams and piece coordinates. It also discusses terminology around 'piece' vs 'chessman'.
+      <title>Temporary Cloudflare Accounts for AI agents 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything</link>
+      <description>Cloudflare introduces temporary accounts for AI agents, allowing users to deploy Workers projects without creating an account. Using `npx wrangler deploy --temporary`, projects are deployed to ephemeral environments that remain live for 60 minutes. Users can claim the project to extend its lifespan. The feature is demonstrated by deploying a redirect resolver tool via GPT-5.5 in Codex Desktop, which worked as expected. While marketed for AI agents, the feature is broadly useful for quick testing and prototyping.
 
-标签: Z3, Python, chess, puzzle, SMT solver, constraint programming, Claude, AI, code generation, combinatorics</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/20/z3-python-claude/#sha256:7f1cfe35168b468f</guid>
-      <category>Z3</category>
-      <category>Python</category>
-      <category>chess</category>
-      <category>puzzle</category>
-      <category>SMT solver</category>
-      <category>constraint programming</category>
-      <category>Claude</category>
-      <category>AI</category>
-      <category>code generation</category>
-      <category>combinatorics</category>
-      <pubDate>Sun, 21 Jun 2026 05:41:16 +0800</pubDate>
+标签: cloudflare, workers, ai, deployment, ephemeral, serverless, developer-tools, prototyping</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything#sha256:f42a3f1ba10399c3</guid>
+      <category>cloudflare</category>
+      <category>workers</category>
+      <category>ai</category>
+      <category>deployment</category>
+      <category>ephemeral</category>
+      <category>serverless</category>
+      <category>developer-tools</category>
+      <category>prototyping</category>
+      <pubDate>Mon, 22 Jun 2026 06:01:04 +0800</pubDate>
+    </item>
+    <item>
+      <title>Before and After: MacOS 27 Golden Gate Beta 1’s App Icons 摘要</title>
+      <link>https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison</link>
+      <description>Basic Apple Guy observed that macOS Golden Gate beta features bolder colors, adjusted icons, and a flatter Liquid Glass effect, though unsure if it's final. The author agrees these subtle changes improve the design, noting a positive trend away from primitive flat shapes and mandated squircle icons.
+
+标签: macOS, Apple, design, icons, WWDC, UI, Golden Gate, beta, Liquid Glass, app icons</description>
+      <guid isPermaLink="false">https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison#sha256:d43ff2e4a9856090</guid>
+      <category>macOS</category>
+      <category>Apple</category>
+      <category>design</category>
+      <category>icons</category>
+      <category>WWDC</category>
+      <category>UI</category>
+      <category>Golden Gate</category>
+      <category>beta</category>
+      <category>Liquid Glass</category>
+      <category>app icons</category>
+      <pubDate>Mon, 22 Jun 2026 06:39:19 +0800</pubDate>
     </item>
   </channel>
 </rss>
