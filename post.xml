@@ -8,158 +8,61 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 23 Jun 2026 07:37:42 +0800</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 07:37:42 +0800</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 07:31:15 +0800</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 07:31:15 +0800</pubDate>
     <item>
-      <title>Dickover of the Week: The Observer 摘要</title>
-      <link>https://bvsveera.net/observer-dickover/</link>
-      <description>John Gruber criticizes The Observer for including 161 third-party trackers on its website while claiming to care about user privacy under a 'We Care About Your Privacy' heading. He compares this dystopic practice to being followed by 161 men in real life after buying a newspaper in 1791. Gruber references his 2020 article arguing that online privacy should be modeled on real-world privacy, where such tracking would trigger a fight-or-flight response. He calls out the hypocrisy and insult of declaring tracking partners while professing privacy concern.
+      <title>Scattered Spider Hackers Plead Guilty on Day 1 of Trial 摘要</title>
+      <link>https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/</link>
+      <description>Two members of the Scattered Spider cybercrime group, Thalha Jubair (20) and Owen Flowers (18), pleaded guilty in the UK to charges related to an August 2024 cyberattack on Transport for London. Flowers also admitted to hacking US healthcare providers. Jubair is wanted in the US for 120 network intrusions involving 47 entities, resulting in $115 million in ransom payments. He co-ran a Telegram channel for SIM-swapping and was involved in a 2022 SMS phishing campaign that compromised over 130 organizations, including LastPass and DoorDash. Sentencing is set for July 15, 2026.
 
-标签: privacy, tracking, The Observer, third-party trackers, hypocrisy, online privacy, dystopia, Gruber, Daring Fireball, surveillance</description>
-      <guid isPermaLink="false">https://bvsveera.net/observer-dickover/#sha256:b1c7fee225881a7b</guid>
-      <category>privacy</category>
-      <category>tracking</category>
-      <category>The Observer</category>
-      <category>third-party trackers</category>
-      <category>hypocrisy</category>
-      <category>online privacy</category>
-      <category>dystopia</category>
-      <category>Gruber</category>
-      <category>Daring Fireball</category>
-      <category>surveillance</category>
-      <pubDate>Tue, 23 Jun 2026 01:12:42 +0800</pubDate>
-    </item>
-    <item>
-      <title>Pluralistic: Good politics (22 Jun 2026) 摘要</title>
-      <link>https://pluralistic.net/2026/06/22/8-for-what-we-will/</link>
-      <description>Cory Doctorow's blog post 'Good politics' contrasts Lula's successful push for a 40-hour workweek in Brazil (ending the escala 6×1 system) with Keir Starmer's unpopular UK Labour government. Lula's policy passed 461-19, forcing even Bolsonaro's party to support it. Doctorow argues that tangible improvements to people's lives (like weekends, cleantech savings) are good politics, while cruelty and austerity are bad. He also criticizes corporate Democrats opposing renewables, noting his own positive experience with solar, heat pump, and EV.
-
-标签: politics, Brazil, Lula, workweek, labour, UK, climate, cleantech, austerity, deliverism</description>
-      <guid isPermaLink="false">https://pluralistic.net/2026/06/22/8-for-what-we-will/#sha256:fa35fe6f2e062d55</guid>
-      <category>politics</category>
-      <category>Brazil</category>
-      <category>Lula</category>
-      <category>workweek</category>
-      <category>labour</category>
+标签: cybercrime, ransomware, Scattered Spider, phishing, SIM-swapping, Transport for London, guilty plea, UK, healthcare, critical infrastructure</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/#sha256:b6d62fd2d0e911fe</guid>
+      <category>cybercrime</category>
+      <category>ransomware</category>
+      <category>Scattered Spider</category>
+      <category>phishing</category>
+      <category>SIM-swapping</category>
+      <category>Transport for London</category>
+      <category>guilty plea</category>
       <category>UK</category>
-      <category>climate</category>
-      <category>cleantech</category>
-      <category>austerity</category>
-      <category>deliverism</category>
-      <pubDate>Tue, 23 Jun 2026 01:16:08 +0800</pubDate>
+      <category>healthcare</category>
+      <category>critical infrastructure</category>
+      <pubDate>Wed, 24 Jun 2026 00:12:49 +0800</pubDate>
     </item>
     <item>
-      <title>What Was Matt Thinking? 摘要</title>
-      <link>https://feed.tedium.co/link/15204/17365463/matts-script-archive-retrospective</link>
-      <description>In 1995, high schooler Matt Wright created Matt's Script Archive, offering simple web tools like guestbooks and forums (e.g., WWWboard) that became widely used. However, his scripts were riddled with security flaws, including a critical remote code execution bug (CVE-1999-1479). This sparked a backlash from the Perl community, leading to the nms project for secure drop-in replacements. The article draws parallels to modern 'vibe coding,' where ease of use often trumps security. It also highlights a recent revival of the original domain by a fan who built a historical tribute site, preserving the legacy despite the software's flaws.
+      <title>The Talk Show: ‘Perp Walk for Selfies’ 摘要</title>
+      <link>https://daringfireball.net/thetalkshow/2026/06/23/ep-450</link>
+      <description>Jason Snell joins John Gruber on The Talk Show to discuss WWDC 2026 and preview their upcoming 50-episode Apple history podcast 'Designed in California'. The episode includes sponsor messages from Factor, Squarespace, and Finalist.
 
-标签: Matt Wright, Matt's Script Archive, web history, security, Perl, vibe coding, open source, forums, guestbooks, CVE</description>
-      <guid isPermaLink="false">https://feed.tedium.co/link/15204/17365463/matts-script-archive-retrospective#sha256:b936b1c6259d6b0c</guid>
-      <category>Matt Wright</category>
-      <category>Matt's Script Archive</category>
-      <category>web history</category>
-      <category>security</category>
-      <category>Perl</category>
-      <category>vibe coding</category>
-      <category>open source</category>
-      <category>forums</category>
-      <category>guestbooks</category>
-      <category>CVE</category>
-      <pubDate>Tue, 23 Jun 2026 02:41:28 +0800</pubDate>
-    </item>
-    <item>
-      <title>Consistency, But in Excellence Not Appearance 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/</link>
-      <description>The article argues that modern visual design overemphasizes consistency at the expense of individual excellence. Using macOS app icon evolution as an example, the author contrasts original skeuomorphic icons—individually distinctive and iconic—with newer unified 'Creator Studio' icons that prioritize visual uniformity. The author contends that systems-driven design enforces superficial rules (shapes, gradients) while true excellence requires judgment and context. Instead of consistency of appearance, the goal should be a 'consistency of excellence' where each element is exceptional on its own terms, creating deeper quality and intention.
-
-标签: visual design, icon design, consistency, excellence, macOS, skeuomorphism, design systems, creativity, software design, user experience</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/a-consistency-of-excellence/#sha256:81078faae5f29537</guid>
-      <category>visual design</category>
-      <category>icon design</category>
-      <category>consistency</category>
-      <category>excellence</category>
-      <category>macOS</category>
-      <category>skeuomorphism</category>
-      <category>design systems</category>
-      <category>creativity</category>
-      <category>software design</category>
-      <category>user experience</category>
-      <pubDate>Tue, 23 Jun 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Criterion Collection: The Complete Kubrick 摘要</title>
-      <link>https://www.criterion.com/boxsets/9000-the-complete-kubrick</link>
-      <description>The Criterion Collection is releasing a 30-disc set featuring 4K restorations of Stanley Kubrick's thirteen features and three shorts, with original and 5.1 soundtracks. It includes over 25 hours of interviews, documentaries, and behind-the-scenes materials, a new 4K restoration of Vivian Kubrick's documentary 'Making "The Shining"', and newly recorded commentary tracks by Lee Unkrich and Michael Benson.
-
-标签: Criterion Collection, Stanley Kubrick, 4K restoration, box set, film, The Shining, documentary, commentary, home video, blu-ray</description>
-      <guid isPermaLink="false">https://www.criterion.com/boxsets/9000-the-complete-kubrick#sha256:b1e5d5fdc9e4d5a3</guid>
-      <category>Criterion Collection</category>
-      <category>Stanley Kubrick</category>
-      <category>4K restoration</category>
-      <category>box set</category>
-      <category>film</category>
-      <category>The Shining</category>
-      <category>documentary</category>
-      <category>commentary</category>
-      <category>home video</category>
-      <category>blu-ray</category>
-      <pubDate>Tue, 23 Jun 2026 03:18:07 +0800</pubDate>
-    </item>
-    <item>
-      <title>Gurman Says Second-Gen iPhone Air, Coming in Early 2027, Will Sport a 0.5× Ultra-Wide Second Camera 摘要</title>
-      <link>https://www.bloomberg.com/news/articles/2026-06-17/apple-prepares-second-generation-iphone-air-for-spring-2027?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MTcyNjU5MiwiZXhwIjoxNzgyMzMxMzkyLCJhcnRpY2xlSWQiOiJUR1BINkJLR0NURlEwMCIsImJjb25uZWN0SWQiOiJBMDdGRjZGMzlBOTY0NzREOTNBQkFGRjUyQjBBQTE2NiJ9.25UCFLJjGHnk7gaJKhfIP2uChXC-tJLjKfOyUeY4QqI&amp;leadSource=uverify%20wall</link>
-      <description>Apple is developing a second-generation iPhone Air (code-named V62) for spring 2027, adding a second rear ultrawide-angle camera. The device is in advanced testing. John Gruber analyzes the lens choice, noting that non-Pro iPhones have used 1x and 0.5x lenses since the iPhone 11, while earlier dual-lens models used telephoto. He speculates the ultrawide may be more popular and fit the thin design better. His personal photography data shows 0.5x use at 6% for stills and 18% for video, but he would prefer a telephoto lens if forced to choose.
-
-标签: Apple, iPhone Air, camera, ultrawide, Bloomberg, Mark Gurman, John Gruber, smartphone, photography, 2027</description>
-      <guid isPermaLink="false">https://www.bloomberg.com/news/articles/2026-06-17/apple-prepares-second-generation-iphone-air-for-spring-2027?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4MTcyNjU5MiwiZXhwIjoxNzgyMzMxMzkyLCJhcnRpY2xlSWQiOiJUR1BINkJLR0NURlEwMCIsImJjb25uZWN0SWQiOiJBMDdGRjZGMzlBOTY0NzREOTNBQkFGRjUyQjBBQTE2NiJ9.25UCFLJjGHnk7gaJKhfIP2uChXC-tJLjKfOyUeY4QqI&amp;leadSource=uverify%20wall#sha256:b9ba06339724b0f4</guid>
+标签: podcast, Apple, WWDC, tech history, interview, sponsors, Daring Fireball, The Talk Show</description>
+      <guid isPermaLink="false">https://daringfireball.net/thetalkshow/2026/06/23/ep-450#sha256:67021a5e7f70d8e1</guid>
+      <category>podcast</category>
       <category>Apple</category>
-      <category>iPhone Air</category>
-      <category>camera</category>
-      <category>ultrawide</category>
-      <category>Bloomberg</category>
-      <category>Mark Gurman</category>
-      <category>John Gruber</category>
-      <category>smartphone</category>
-      <category>photography</category>
-      <category>2027</category>
-      <pubDate>Tue, 23 Jun 2026 03:36:46 +0800</pubDate>
+      <category>WWDC</category>
+      <category>tech history</category>
+      <category>interview</category>
+      <category>sponsors</category>
+      <category>Daring Fireball</category>
+      <category>The Talk Show</category>
+      <pubDate>Wed, 24 Jun 2026 00:23:43 +0800</pubDate>
     </item>
     <item>
-      <title>Lobachevsky’s integral formula 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/22/lobachevskys-integral-formula/</link>
-      <description>Lobachevsky's theorem states that for an even function f with period π, three integrals are equal: ∫₀^∞ (sin²x / x²) f(x) dx = ∫₀^∞ (sin x / x) f(x) dx = ∫₀^{π/2} f(x) dx. This result is useful in Fourier analysis and signal processing, even in the special case f(x)=1. The post also mentions a related paper on a "jinc" analog and references Tom Lehrer's humorous song about Lobachevsky.
+      <title>OPFS + Pyodide test harness 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything</link>
+      <description>The author explores using the Origin Private File System (OPFS) to enable Datasette Lite, a Python application running in the browser via Pyodide and WebAssembly, to edit persistent SQLite files stored locally on the user's computer. A playground UI was built using Claude Code for web to test OPFS functionality across different browsers.
 
-标签: mathematics, calculus, Fourier analysis, signal processing, integral, Lobachevsky, theorem, sinc function, jinc function</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/22/lobachevskys-integral-formula/#sha256:0cb6b94eb8d9faa0</guid>
-      <category>mathematics</category>
-      <category>calculus</category>
-      <category>Fourier analysis</category>
-      <category>signal processing</category>
-      <category>integral</category>
-      <category>Lobachevsky</category>
-      <category>theorem</category>
-      <category>sinc function</category>
-      <category>jinc function</category>
-      <pubDate>Tue, 23 Jun 2026 04:02:47 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Is Going to Raise Device Prices — but When? 摘要</title>
-      <link>https://x.com/markgurman/status/2067741507273289766</link>
-      <description>Apple CEO Tim Cook warned of imminent price increases due to rising RAM and SSD costs. Bloomberg's Mark Gurman expects hikes soon, possibly tied to back-to-school sales. John Gruber argues Apple typically avoids mid-cycle price changes, predicting increases with new fall products like iPhone 18 Pro and folding Ultra. He notes the global RAM shortage is unprecedented, making mid-cycle hikes possible but unlikely. Cook's early warning may aim to normalize the bad news before September.
-
-标签: Apple, price increase, RAM shortage, SSD, Tim Cook, Mark Gurman, iPhone 18 Pro, MacBook Pro, supply chain, tech industry</description>
-      <guid isPermaLink="false">https://x.com/markgurman/status/2067741507273289766#sha256:bebf6af353aca7b7</guid>
-      <category>Apple</category>
-      <category>price increase</category>
-      <category>RAM shortage</category>
-      <category>SSD</category>
-      <category>Tim Cook</category>
-      <category>Mark Gurman</category>
-      <category>iPhone 18 Pro</category>
-      <category>MacBook Pro</category>
-      <category>supply chain</category>
-      <category>tech industry</category>
-      <pubDate>Tue, 23 Jun 2026 04:06:37 +0800</pubDate>
+标签: OPFS, Pyodide, WebAssembly, Datasette Lite, SQLite, browsers, file system, Claude Code, playground</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything#sha256:fe216b49374f93af</guid>
+      <category>OPFS</category>
+      <category>Pyodide</category>
+      <category>WebAssembly</category>
+      <category>Datasette Lite</category>
+      <category>SQLite</category>
+      <category>browsers</category>
+      <category>file system</category>
+      <category>Claude Code</category>
+      <category>playground</category>
+      <pubDate>Wed, 24 Jun 2026 02:58:54 +0800</pubDate>
     </item>
   </channel>
 </rss>
