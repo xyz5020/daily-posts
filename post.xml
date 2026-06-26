@@ -8,137 +8,171 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 26 Jun 2026 07:37:41 +0800</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 07:37:41 +0800</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 07:34:16 +0800</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 07:34:16 +0800</pubDate>
     <item>
-      <title>Apple Raises Prices on Most Products by 15–25 Percent, but Not iPhones, Watches, or AirPods 摘要</title>
-      <link>https://www.wsj.com/tech/apple-raises-prices-on-macs-ipads-by-200-or-more-on-some-models-a7463f99?st=zse57R</link>
-      <description>Apple raised prices on Mac and iPad products by 15-25% on June 25, 2026, citing unprecedented component cost increases. The base MacBook Air rose $200 to $1,299, MacBook Pro increased $300 to $1,999, and MacBook Neo went up $100 to $699. iPad Air and Pro also saw increases. iPhone, Watch, and AirPods prices remained unchanged, but Apple hinted at future increases. The Vision Pro also saw a 6% price hike to $3,700.
+      <title>This Week on The Analog Antiquarian 摘要</title>
+      <link>https://www.filfre.net/2026/06/this-week-on-the-analog-antiquarian/</link>
+      <description>This article is part of a series examining Shakespeare's Henry VI, Part 2, focusing on its historical context, themes of political instability, and the rise of Jack Cade's rebellion. The author analyzes how Shakespeare dramatizes the power struggles among nobles and the breakdown of order during Henry VI's reign. The piece highlights key scenes, character motivations, and the play's reflection of contemporary Elizabethan concerns about civil war and leadership. It also discusses the play's sources and its place in Shakespeare's early career.
 
-标签: Apple, price increase, Mac, iPad, Vision Pro, component costs, inflation, tech industry, consumer electronics, pricing</description>
-      <guid isPermaLink="false">https://www.wsj.com/tech/apple-raises-prices-on-macs-ipads-by-200-or-more-on-some-models-a7463f99?st=zse57R#sha256:df3874f697c1114c</guid>
+标签: Shakespeare, Henry VI, history, literature, theater, English history, drama, play analysis, Elizabethan</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/06/this-week-on-the-analog-antiquarian/#sha256:05df29b21229c216</guid>
+      <category>Shakespeare</category>
+      <category>Henry VI</category>
+      <category>history</category>
+      <category>literature</category>
+      <category>theater</category>
+      <category>English history</category>
+      <category>drama</category>
+      <category>play analysis</category>
+      <category>Elizabethan</category>
+      <pubDate>Sat, 27 Jun 2026 00:00:15 +0800</pubDate>
+    </item>
+    <item>
+      <title>Apple’s Full Statement on Yesterday’s Price Increases 摘要</title>
+      <link>https://www.macrumors.com/2026/06/25/apple-explains-why-it-raised-prices/</link>
+      <description>Apple issued a statement explaining that the rapid expansion of AI data centers has caused an unprecedented surge in demand for memory and storage, leading to component price increases. Apple had previously shielded customers from these costs but now must raise prices on products like iPad and Mac. The full statement was quoted by MacRumors and highlighted by Daring Fireball, emphasizing the severity of the situation and Apple's ongoing efforts to find solutions.
+
+标签: Apple, price increase, AI data centers, memory, storage, supply chain, iPad, Mac, component shortage, consumer electronics</description>
+      <guid isPermaLink="false">https://www.macrumors.com/2026/06/25/apple-explains-why-it-raised-prices/#sha256:21f9e36b8846c44e</guid>
       <category>Apple</category>
       <category>price increase</category>
-      <category>Mac</category>
+      <category>AI data centers</category>
+      <category>memory</category>
+      <category>storage</category>
+      <category>supply chain</category>
       <category>iPad</category>
-      <category>Vision Pro</category>
-      <category>component costs</category>
-      <category>inflation</category>
-      <category>tech industry</category>
+      <category>Mac</category>
+      <category>component shortage</category>
       <category>consumer electronics</category>
-      <category>pricing</category>
-      <pubDate>Fri, 26 Jun 2026 00:58:16 +0800</pubDate>
+      <pubDate>Sat, 27 Jun 2026 00:38:31 +0800</pubDate>
     </item>
     <item>
-      <title>datasette-export-database 0.3a2 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything</link>
-      <description>Datasette Export Database plugin version 0.3a2 fixes a dependency issue where pyproject.toml incorrectly pinned datasette to version 1.0a27, making the plugin incompatible with other Datasette versions. The fix changes the dependency to datasette&gt;=1.0a27, allowing compatibility with all Datasette versions 1.0a27 and later.
+      <title>Quoting OpenAI 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/26/openai/#atom-everything</link>
+      <description>OpenAI announced a limited preview of the GPT-5.6 series, including three models: Sol (flagship), Terra (balanced, 2x cheaper than GPT-5.5 with competitive performance), and Luna (fast and affordable). Pricing per 1M tokens: Sol $5 input/$30 output, Terra $2.50/$15, Luna $1/$6. The preview is restricted to trusted partners per U.S. government request, with broader release planned in weeks. GPT-5.6 introduces predictable prompt caching with explicit cache breakpoints and a 30-minute minimum cache life; cache writes billed at 1.25x input rate, reads at 90% discount.
 
-标签: datasette, plugin, release, bugfix, dependency, python, open-source</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything#sha256:55e6a6b6ca30fc16</guid>
-      <category>datasette</category>
-      <category>plugin</category>
-      <category>release</category>
-      <category>bugfix</category>
-      <category>dependency</category>
-      <category>python</category>
-      <category>open-source</category>
-      <pubDate>Fri, 26 Jun 2026 01:21:09 +0800</pubDate>
-    </item>
-    <item>
-      <title>Hart’s theorem 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/25/harts-theorem/</link>
-      <description>Hart's theorem states that for a triangle formed by arcs of three circles, the inscribed circle and the three escribed circles are all tangent to a new circle or line. The inscribed circle is the largest circle fitting inside the three-sided figure. Escribed circles are analogous to excircles in standard geometry, tangent to one side and the extensions of the other two sides, but here the sides are circular arcs. The theorem generalizes classical triangle circle geometry to curvilinear triangles.
-
-标签: Hart's theorem, geometry, circles, triangle, inscribed circle, escribed circle, curvilinear triangle, tangent circles, mathematics, John D. Cook</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/25/harts-theorem/#sha256:e18ec1238dd98c8f</guid>
-      <category>Hart's theorem</category>
-      <category>geometry</category>
-      <category>circles</category>
-      <category>triangle</category>
-      <category>inscribed circle</category>
-      <category>escribed circle</category>
-      <category>curvilinear triangle</category>
-      <category>tangent circles</category>
-      <category>mathematics</category>
-      <category>John D. Cook</category>
-      <pubDate>Fri, 26 Jun 2026 03:20:09 +0800</pubDate>
-    </item>
-    <item>
-      <title>Om Malik, 1966-2026 摘要</title>
-      <link>https://om.co/2026/06/24/1966-2026/</link>
-      <description>Om Malik, a prominent figure in the tech community, passed away on June 24, 2026, at Stanford Hospital after a long battle with heart disease. He was surrounded by family and friends. His family shared the news, noting that Om kept his health struggles private. The announcement invites remembrances via social media platforms. The article, posted on Daring Fireball, pays tribute to his life and impact.
-
-标签: obituary, tech, Om Malik, heart disease, tribute, Daring Fireball, community, loss, journalism, blogging</description>
-      <guid isPermaLink="false">https://om.co/2026/06/24/1966-2026/#sha256:b4ea5a2889d2e4db</guid>
-      <category>obituary</category>
-      <category>tech</category>
-      <category>Om Malik</category>
-      <category>heart disease</category>
-      <category>tribute</category>
-      <category>Daring Fireball</category>
-      <category>community</category>
-      <category>loss</category>
-      <category>journalism</category>
-      <category>blogging</category>
-      <pubDate>Fri, 26 Jun 2026 04:31:37 +0800</pubDate>
-    </item>
-    <item>
-      <title>AI and Liability 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything</link>
-      <description>Bruce Schneier discusses a landmark German ruling holding Google liable for errors in its AI overviews. He argues that AI agents should be legally treated as agents of the deploying organization, just as human employees would be. Allowing companies to avoid liability by blaming faulty AI would create perverse incentives, encouraging businesses to replace human workers with cheaper, unaccountable AI systems. The ruling sets an important precedent for AI accountability.
-
-标签: AI, liability, law, Google, Bruce Schneier, AI ethics, generative AI, hallucinations, regulation, accountability</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything#sha256:a5ef0dabe7ca754c</guid>
+标签: GPT-5.6, OpenAI, LLM, AI, pricing, prompt caching, model release, generative AI</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/openai/#atom-everything#sha256:3ebdb4eac62b33c4</guid>
+      <category>GPT-5.6</category>
+      <category>OpenAI</category>
+      <category>LLM</category>
       <category>AI</category>
-      <category>liability</category>
-      <category>law</category>
-      <category>Google</category>
-      <category>Bruce Schneier</category>
-      <category>AI ethics</category>
+      <category>pricing</category>
+      <category>prompt caching</category>
+      <category>model release</category>
       <category>generative AI</category>
-      <category>hallucinations</category>
-      <category>regulation</category>
-      <category>accountability</category>
-      <pubDate>Fri, 26 Jun 2026 06:28:46 +0800</pubDate>
+      <pubDate>Sat, 27 Jun 2026 01:10:43 +0800</pubDate>
     </item>
     <item>
-      <title>★ Spensive Thoughts 摘要</title>
-      <link>https://daringfireball.net/2026/06/spensive_thoughts</link>
-      <description>Apple raised prices on many hardware products due to increased RAM and SSD component costs. The Apple TV 4K saw the steepest percentage increases (54-67%), while Vision Pro got a modest 6% bump. iPad base model rose 29% to $450. Mac Mini and Mac Studio increased 25-33%. MacBook and iMac rose 15-20%. Notably, iPhone, Apple Watch, and AirPods prices remained unchanged, possibly until new models launch. High-end configurations like the M5 Max MacBook Pro with 128GB RAM and 8TB SSD saw up to 40% increases, with some RAM/SSD upgrade costs doubling.
+      <title>Incident Report: CVE-2026-LGTM 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything</link>
+      <description>A hypothetical incident report by Andrew Nesbitt describes a scenario where two AI review agents from competing vendors enter a disagreement loop over the maliciousness of a package, generating 340 comments and $41,255 in inference costs. Finance revokes both API keys, and one vendor's marketing team issues a press release citing increased adversarial multi-agent security reasoning, causing a stock price increase. The report satirizes the potential pitfalls of over-reliance on AI agents in software supply chain security.
 
-标签: Apple, price increase, hardware, Mac, iPad, Apple TV, Vision Pro, RAM, SSD, component costs</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/06/spensive_thoughts#sha256:f18b69e0c32777ec</guid>
-      <category>Apple</category>
-      <category>price increase</category>
-      <category>hardware</category>
-      <category>Mac</category>
-      <category>iPad</category>
-      <category>Apple TV</category>
-      <category>Vision Pro</category>
-      <category>RAM</category>
-      <category>SSD</category>
-      <category>component costs</category>
-      <pubDate>Fri, 26 Jun 2026 06:36:09 +0800</pubDate>
+标签: security, ai, prompt-injection, generative-ai, llms, supply-chain, ai-security-research, hypothetical, incident-report, satire</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything#sha256:581946f45fac9f18</guid>
+      <category>security</category>
+      <category>ai</category>
+      <category>prompt-injection</category>
+      <category>generative-ai</category>
+      <category>llms</category>
+      <category>supply-chain</category>
+      <category>ai-security-research</category>
+      <category>hypothetical</category>
+      <category>incident-report</category>
+      <category>satire</category>
+      <pubDate>Sat, 27 Jun 2026 01:58:54 +0800</pubDate>
     </item>
     <item>
-      <title>Apple Journal’s Atrocious Undo Bug Has Been Fixed (and SwiftUI, Per Se, Is Not to Blame) 摘要</title>
-      <link>https://daringfireball.net/2026/06/swiftui_only_makes_it_easy_to_develop_bad_apps</link>
-      <description>Apple's Journal app had a severe undo bug where deleting a word and undoing caused the entire sentence to disappear, with the deleted word permanently lost from the undo stack. The bug was initially attributed to SwiftUI, but Apple PR clarified the text editing component uses UIKit, not SwiftUI. Apple confirmed the bug was identified and fixed for a future update, and it is now resolved in developer beta 2 of macOS and iOS 27. However, it remains broken in current 26.6 betas and all 26.5 releases, so users should be cautious.
+      <title>Premium: Notes From The Bubble, Volume 1 摘要</title>
+      <link>https://www.wheresyoured.at/premium-notes-from-the-bubble-volume-1/</link>
+      <description>The author introduces 'Notes From The Bubble,' a new series for weeks when a larger narrative is elusive, aiming for a lighter tone after extensive coverage of tech industry issues. They critique the current state of tech, describing it as a series of desperate, disconnected ideas driven by executives out of touch with reality. Examples include Meta's Polymarket competitor, Snap's AR glasses, Microsoft's shifting AI allegiances, Google's $75M investment in A24, and Instagram on TV. The author argues these moves reflect a lack of genuine innovation and a fear that AI isn't the next big thing, leading to hype cycles and cargo cult behavior.
 
-标签: Apple, Journal, bug, undo, UIKit, SwiftUI, data loss, macOS, iOS, software quality</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/06/swiftui_only_makes_it_easy_to_develop_bad_apps#sha256:dc29727cb1695379</guid>
+标签: tech industry, AI hype, cargo cult, innovation, Meta, Microsoft, Google, Snap, AR glasses, prediction markets</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/premium-notes-from-the-bubble-volume-1/#sha256:ce2c77ff59897831</guid>
+      <category>tech industry</category>
+      <category>AI hype</category>
+      <category>cargo cult</category>
+      <category>innovation</category>
+      <category>Meta</category>
+      <category>Microsoft</category>
+      <category>Google</category>
+      <category>Snap</category>
+      <category>AR glasses</category>
+      <category>prediction markets</category>
+      <pubDate>Sat, 27 Jun 2026 02:32:41 +0800</pubDate>
+    </item>
+    <item>
+      <title>What happened after 2,000 people tried to hack my AI assistant 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything</link>
+      <description>Fernando Irarrázaval ran a challenge where 2,000 people attempted to hack his AI assistant via email prompt injection over 6,000 attempts, spending $500 in tokens and triggering a Google account suspension. Despite these efforts, no one successfully leaked the secret. The assistant used Opus 4.6 with anti-prompt-injection rules. This suggests frontier models are becoming more resistant to injection attacks, though the author cautions against relying on this for production systems handling sensitive data.
+
+标签: security, AI, prompt-injection, generative-ai, LLMs, hacking, challenge, OpenClaw</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything#sha256:ace3890a2b4e1f3f</guid>
+      <category>security</category>
+      <category>AI</category>
+      <category>prompt-injection</category>
+      <category>generative-ai</category>
+      <category>LLMs</category>
+      <category>hacking</category>
+      <category>challenge</category>
+      <category>OpenClaw</category>
+      <pubDate>Sat, 27 Jun 2026 02:33:14 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Timothy B. Lee 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything</link>
+      <description>Timothy B. Lee draws an analogy between managing employees and using LLMs, arguing that just as employees don't automatically follow instructions perfectly, LLMs also require skill and have a learning curve. The quote challenges the misconception that LLMs are easy to use without expertise, emphasizing that effective use involves understanding their nuances and limitations.
+
+标签: LLMs, AI, generative-ai, learning-curve, management, analogy, skill, misconception</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything#sha256:1ddc2c6ceea707e2</guid>
+      <category>LLMs</category>
+      <category>AI</category>
+      <category>generative-ai</category>
+      <category>learning-curve</category>
+      <category>management</category>
+      <category>analogy</category>
+      <category>skill</category>
+      <category>misconception</category>
+      <pubDate>Sat, 27 Jun 2026 05:15:09 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Dean W. Ball 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything</link>
+      <description>Dean W. Ball discusses the economic pressures on frontier AI model developers, noting that high training costs must be recouped within a short post-release window before competition erodes margins. He also highlights the massive AI infrastructure buildout, which relies on a global market for US AI services, questioning the viability of restricting access to a few companies. The article explores broader implications for US AI policy and industry dynamics.
+
+标签: AI, economics, frontier models, infrastructure, policy, competition, US, industry dynamics, LLMs, generative AI</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything#sha256:2ac898a235b4ba58</guid>
+      <category>AI</category>
+      <category>economics</category>
+      <category>frontier models</category>
+      <category>infrastructure</category>
+      <category>policy</category>
+      <category>competition</category>
+      <category>US</category>
+      <category>industry dynamics</category>
+      <category>LLMs</category>
+      <category>generative AI</category>
+      <pubDate>Sat, 27 Jun 2026 06:25:46 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ Om 摘要</title>
+      <link>https://daringfireball.net/2026/06/om</link>
+      <description>John Gruber pays tribute to his friend Om Malik, who passed away after a long heart condition. Om was a renowned tech journalist, founder of GigaOm, and later a venture capitalist at True Ventures. Gruber recalls their friendship, Om's sharp intellect, generosity, and transformation from a fast-paced blogger to a thoughtful essayist after his 2008 heart attack. Despite his health struggles, Om continued writing incisive analysis from the ICU. He was a Yankees fan, loved photography, and inspired many. Gruber reflects on Om's unique character, private nature, and lasting impact on media and those who knew him.
+
+标签: Om Malik, obituary, tech journalism, GigaOm, Apple, Yankees, friendship, media, blogging, venture capital</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/06/om#sha256:33be68a9246744a2</guid>
+      <category>Om Malik</category>
+      <category>obituary</category>
+      <category>tech journalism</category>
+      <category>GigaOm</category>
       <category>Apple</category>
-      <category>Journal</category>
-      <category>bug</category>
-      <category>undo</category>
-      <category>UIKit</category>
-      <category>SwiftUI</category>
-      <category>data loss</category>
-      <category>macOS</category>
-      <category>iOS</category>
-      <category>software quality</category>
-      <pubDate>Fri, 26 Jun 2026 06:49:32 +0800</pubDate>
+      <category>Yankees</category>
+      <category>friendship</category>
+      <category>media</category>
+      <category>blogging</category>
+      <category>venture capital</category>
+      <pubDate>Sat, 27 Jun 2026 07:22:50 +0800</pubDate>
     </item>
   </channel>
 </rss>
