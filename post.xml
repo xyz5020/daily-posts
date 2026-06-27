@@ -8,171 +8,195 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 27 Jun 2026 07:34:16 +0800</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 07:34:16 +0800</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 07:30:37 +0800</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 07:30:37 +0800</pubDate>
     <item>
-      <title>This Week on The Analog Antiquarian 摘要</title>
-      <link>https://www.filfre.net/2026/06/this-week-on-the-analog-antiquarian/</link>
-      <description>This article is part of a series examining Shakespeare's Henry VI, Part 2, focusing on its historical context, themes of political instability, and the rise of Jack Cade's rebellion. The author analyzes how Shakespeare dramatizes the power struggles among nobles and the breakdown of order during Henry VI's reign. The piece highlights key scenes, character motivations, and the play's reflection of contemporary Elizabethan concerns about civil war and leadership. It also discusses the play's sources and its place in Shakespeare's early career.
+      <title>When will the decimals in a/b repeat? 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/06/27/decimal-period/</link>
+      <description>The article explores the period length of decimal expansions for harmonic numbers. It provides Python code using SymPy to compute the non-repeating and repeating parts of fractions. For example, 1/lcm(1..50) has 5 non-repeating digits and a repeating cycle of 1,275,120 digits. The post builds on earlier work about fraction periods.
 
-标签: Shakespeare, Henry VI, history, literature, theater, English history, drama, play analysis, Elizabethan</description>
-      <guid isPermaLink="false">https://www.filfre.net/2026/06/this-week-on-the-analog-antiquarian/#sha256:05df29b21229c216</guid>
-      <category>Shakespeare</category>
-      <category>Henry VI</category>
-      <category>history</category>
-      <category>literature</category>
-      <category>theater</category>
-      <category>English history</category>
-      <category>drama</category>
-      <category>play analysis</category>
-      <category>Elizabethan</category>
-      <pubDate>Sat, 27 Jun 2026 00:00:15 +0800</pubDate>
+标签: mathematics, number theory, decimal expansion, harmonic numbers, period length, Python, SymPy, fractions, LCM, repeating decimals</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/27/decimal-period/#sha256:587c225b5a07bd01</guid>
+      <category>mathematics</category>
+      <category>number theory</category>
+      <category>decimal expansion</category>
+      <category>harmonic numbers</category>
+      <category>period length</category>
+      <category>Python</category>
+      <category>SymPy</category>
+      <category>fractions</category>
+      <category>LCM</category>
+      <category>repeating decimals</category>
+      <pubDate>Sun, 28 Jun 2026 02:12:03 +0800</pubDate>
     </item>
     <item>
-      <title>Apple’s Full Statement on Yesterday’s Price Increases 摘要</title>
-      <link>https://www.macrumors.com/2026/06/25/apple-explains-why-it-raised-prices/</link>
-      <description>Apple issued a statement explaining that the rapid expansion of AI data centers has caused an unprecedented surge in demand for memory and storage, leading to component price increases. Apple had previously shielded customers from these costs but now must raise prices on products like iPad and Mac. The full statement was quoted by MacRumors and highlighted by Daring Fireball, emphasizing the severity of the situation and Apple's ongoing efforts to find solutions.
+      <title>The Steam Machine 摘要</title>
+      <link>https://www.theverge.com/games/952765/steam-machine-review?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Illsb3pPdVlCSmQiLCJwIjoiL2dhbWVzLzk1Mjc2NS9zdGVhbS1tYWNoaW5lLXJldmlldyIsImV4cCI6MTc4MzAxOTM4OCwiaWF0IjoxNzgyNTg3Mzg4fQ.ksUd5qynurLxKTvjnCTD3mj4xzH9gdFgqAzFJ577ZcE&amp;utm_medium=gift-link</link>
+      <description>Valve's Steam Machine, starting at $1,049, aims to be a console-like PC with fewer restrictions and a vast game catalog, but costs nearly twice as much as a PS5 ($650) while offering no significant performance boost. It is compact, quiet, and fully navigable with a gamepad, eliminating the need for mouse and keyboard. However, it struggles to match the simplicity of traditional consoles like 'plug in, insert game, play.' The high price reflects broader consumer hardware trends, but the Steam Machine still has a long way to go in achieving true console-like ease of use.
 
-标签: Apple, price increase, AI data centers, memory, storage, supply chain, iPad, Mac, component shortage, consumer electronics</description>
-      <guid isPermaLink="false">https://www.macrumors.com/2026/06/25/apple-explains-why-it-raised-prices/#sha256:21f9e36b8846c44e</guid>
-      <category>Apple</category>
-      <category>price increase</category>
-      <category>AI data centers</category>
-      <category>memory</category>
-      <category>storage</category>
-      <category>supply chain</category>
-      <category>iPad</category>
-      <category>Mac</category>
-      <category>component shortage</category>
-      <category>consumer electronics</category>
-      <pubDate>Sat, 27 Jun 2026 00:38:31 +0800</pubDate>
+标签: Steam Machine, Valve, gaming console, PC gaming, hardware, price, performance, console vs PC, gamepad, The Verge</description>
+      <guid isPermaLink="false">https://www.theverge.com/games/952765/steam-machine-review?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Illsb3pPdVlCSmQiLCJwIjoiL2dhbWVzLzk1Mjc2NS9zdGVhbS1tYWNoaW5lLXJldmlldyIsImV4cCI6MTc4MzAxOTM4OCwiaWF0IjoxNzgyNTg3Mzg4fQ.ksUd5qynurLxKTvjnCTD3mj4xzH9gdFgqAzFJ577ZcE&amp;utm_medium=gift-link#sha256:7c7381189899a150</guid>
+      <category>Steam Machine</category>
+      <category>Valve</category>
+      <category>gaming console</category>
+      <category>PC gaming</category>
+      <category>hardware</category>
+      <category>price</category>
+      <category>performance</category>
+      <category>console vs PC</category>
+      <category>gamepad</category>
+      <category>The Verge</category>
+      <pubDate>Sun, 28 Jun 2026 03:14:16 +0800</pubDate>
     </item>
     <item>
-      <title>Quoting OpenAI 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/26/openai/#atom-everything</link>
-      <description>OpenAI announced a limited preview of the GPT-5.6 series, including three models: Sol (flagship), Terra (balanced, 2x cheaper than GPT-5.5 with competitive performance), and Luna (fast and affordable). Pricing per 1M tokens: Sol $5 input/$30 output, Terra $2.50/$15, Luna $1/$6. The preview is restricted to trusted partners per U.S. government request, with broader release planned in weeks. GPT-5.6 introduces predictable prompt caching with explicit cache breakpoints and a 30-minute minimum cache life; cache writes billed at 1.25x input rate, reads at 90% discount.
+      <title>White House Grants Access to Anthropic’s Mythos Model to 100+ U.S. Institutions; Fable Still Shut Down 摘要</title>
+      <link>https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies</link>
+      <description>The Trump administration has granted access to Anthropic's Mythos AI model to over 100 U.S. institutions, de-escalating a confrontation after export controls were imposed two weeks ago. The weaker Fable 5 model remains shut down, though talks suggest it may also be released. The decision, made by Commerce Secretary Howard Lutnick, establishes an ad hoc regulatory regime where the White House controls frontier AI model releases. Critics argue this approach is disastrous, especially given the administration's transactional nature and anti-science stance, raising concerns about arbitrary and unaccountable AI governance.
 
-标签: GPT-5.6, OpenAI, LLM, AI, pricing, prompt caching, model release, generative AI</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/openai/#atom-everything#sha256:3ebdb4eac62b33c4</guid>
-      <category>GPT-5.6</category>
-      <category>OpenAI</category>
-      <category>LLM</category>
+标签: AI, regulation, Anthropic, Mythos, export controls, Trump administration, frontier models, policy, government, technology</description>
+      <guid isPermaLink="false">https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies#sha256:39a2bd0213d299e6</guid>
       <category>AI</category>
-      <category>pricing</category>
-      <category>prompt caching</category>
-      <category>model release</category>
-      <category>generative AI</category>
-      <pubDate>Sat, 27 Jun 2026 01:10:43 +0800</pubDate>
-    </item>
-    <item>
-      <title>Incident Report: CVE-2026-LGTM 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything</link>
-      <description>A hypothetical incident report by Andrew Nesbitt describes a scenario where two AI review agents from competing vendors enter a disagreement loop over the maliciousness of a package, generating 340 comments and $41,255 in inference costs. Finance revokes both API keys, and one vendor's marketing team issues a press release citing increased adversarial multi-agent security reasoning, causing a stock price increase. The report satirizes the potential pitfalls of over-reliance on AI agents in software supply chain security.
-
-标签: security, ai, prompt-injection, generative-ai, llms, supply-chain, ai-security-research, hypothetical, incident-report, satire</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything#sha256:581946f45fac9f18</guid>
-      <category>security</category>
-      <category>ai</category>
-      <category>prompt-injection</category>
-      <category>generative-ai</category>
-      <category>llms</category>
-      <category>supply-chain</category>
-      <category>ai-security-research</category>
-      <category>hypothetical</category>
-      <category>incident-report</category>
-      <category>satire</category>
-      <pubDate>Sat, 27 Jun 2026 01:58:54 +0800</pubDate>
-    </item>
-    <item>
-      <title>Premium: Notes From The Bubble, Volume 1 摘要</title>
-      <link>https://www.wheresyoured.at/premium-notes-from-the-bubble-volume-1/</link>
-      <description>The author introduces 'Notes From The Bubble,' a new series for weeks when a larger narrative is elusive, aiming for a lighter tone after extensive coverage of tech industry issues. They critique the current state of tech, describing it as a series of desperate, disconnected ideas driven by executives out of touch with reality. Examples include Meta's Polymarket competitor, Snap's AR glasses, Microsoft's shifting AI allegiances, Google's $75M investment in A24, and Instagram on TV. The author argues these moves reflect a lack of genuine innovation and a fear that AI isn't the next big thing, leading to hype cycles and cargo cult behavior.
-
-标签: tech industry, AI hype, cargo cult, innovation, Meta, Microsoft, Google, Snap, AR glasses, prediction markets</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/premium-notes-from-the-bubble-volume-1/#sha256:ce2c77ff59897831</guid>
-      <category>tech industry</category>
-      <category>AI hype</category>
-      <category>cargo cult</category>
-      <category>innovation</category>
-      <category>Meta</category>
-      <category>Microsoft</category>
-      <category>Google</category>
-      <category>Snap</category>
-      <category>AR glasses</category>
-      <category>prediction markets</category>
-      <pubDate>Sat, 27 Jun 2026 02:32:41 +0800</pubDate>
-    </item>
-    <item>
-      <title>What happened after 2,000 people tried to hack my AI assistant 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything</link>
-      <description>Fernando Irarrázaval ran a challenge where 2,000 people attempted to hack his AI assistant via email prompt injection over 6,000 attempts, spending $500 in tokens and triggering a Google account suspension. Despite these efforts, no one successfully leaked the secret. The assistant used Opus 4.6 with anti-prompt-injection rules. This suggests frontier models are becoming more resistant to injection attacks, though the author cautions against relying on this for production systems handling sensitive data.
-
-标签: security, AI, prompt-injection, generative-ai, LLMs, hacking, challenge, OpenClaw</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything#sha256:ace3890a2b4e1f3f</guid>
-      <category>security</category>
-      <category>AI</category>
-      <category>prompt-injection</category>
-      <category>generative-ai</category>
-      <category>LLMs</category>
-      <category>hacking</category>
-      <category>challenge</category>
-      <category>OpenClaw</category>
-      <pubDate>Sat, 27 Jun 2026 02:33:14 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Timothy B. Lee 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything</link>
-      <description>Timothy B. Lee draws an analogy between managing employees and using LLMs, arguing that just as employees don't automatically follow instructions perfectly, LLMs also require skill and have a learning curve. The quote challenges the misconception that LLMs are easy to use without expertise, emphasizing that effective use involves understanding their nuances and limitations.
-
-标签: LLMs, AI, generative-ai, learning-curve, management, analogy, skill, misconception</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything#sha256:1ddc2c6ceea707e2</guid>
-      <category>LLMs</category>
-      <category>AI</category>
-      <category>generative-ai</category>
-      <category>learning-curve</category>
-      <category>management</category>
-      <category>analogy</category>
-      <category>skill</category>
-      <category>misconception</category>
-      <pubDate>Sat, 27 Jun 2026 05:15:09 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Dean W. Ball 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything</link>
-      <description>Dean W. Ball discusses the economic pressures on frontier AI model developers, noting that high training costs must be recouped within a short post-release window before competition erodes margins. He also highlights the massive AI infrastructure buildout, which relies on a global market for US AI services, questioning the viability of restricting access to a few companies. The article explores broader implications for US AI policy and industry dynamics.
-
-标签: AI, economics, frontier models, infrastructure, policy, competition, US, industry dynamics, LLMs, generative AI</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything#sha256:2ac898a235b4ba58</guid>
-      <category>AI</category>
-      <category>economics</category>
+      <category>regulation</category>
+      <category>Anthropic</category>
+      <category>Mythos</category>
+      <category>export controls</category>
+      <category>Trump administration</category>
       <category>frontier models</category>
-      <category>infrastructure</category>
       <category>policy</category>
-      <category>competition</category>
-      <category>US</category>
-      <category>industry dynamics</category>
-      <category>LLMs</category>
-      <category>generative AI</category>
-      <pubDate>Sat, 27 Jun 2026 06:25:46 +0800</pubDate>
+      <category>government</category>
+      <category>technology</category>
+      <pubDate>Sun, 28 Jun 2026 03:37:58 +0800</pubDate>
     </item>
     <item>
-      <title>★ Om 摘要</title>
-      <link>https://daringfireball.net/2026/06/om</link>
-      <description>John Gruber pays tribute to his friend Om Malik, who passed away after a long heart condition. Om was a renowned tech journalist, founder of GigaOm, and later a venture capitalist at True Ventures. Gruber recalls their friendship, Om's sharp intellect, generosity, and transformation from a fast-paced blogger to a thoughtful essayist after his 2008 heart attack. Despite his health struggles, Om continued writing incisive analysis from the ICU. He was a Yankees fan, loved photography, and inspired many. Gruber reflects on Om's unique character, private nature, and lasting impact on media and those who knew him.
+      <title>OpenAI Announces, But Is Blocked From Releasing, New GPT-5.6 Models 摘要</title>
+      <link>https://openai.com/index/previewing-gpt-5-6-sol/</link>
+      <description>OpenAI announced a limited preview of GPT-5.6 series models: Sol (flagship), Terra (balanced, 2x cheaper than GPT-5.5), and Luna (fast, low-cost). The staggered release follows a U.S. government request, with Commerce Secretary Howard Lutnick cautioning against launch without inter-agency approvals. CEO Sam Altman stated the government will approve customers one by one during preview, hoping for broader release in weeks. The article criticizes the lack of AI expertise in regulatory decisions, arguing for thoughtful, informed regulation rather than impulsive political intervention.
 
-标签: Om Malik, obituary, tech journalism, GigaOm, Apple, Yankees, friendship, media, blogging, venture capital</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/06/om#sha256:33be68a9246744a2</guid>
-      <category>Om Malik</category>
-      <category>obituary</category>
-      <category>tech journalism</category>
-      <category>GigaOm</category>
+标签: OpenAI, GPT-5.6, AI regulation, government, AI safety, model release, technology policy, artificial intelligence</description>
+      <guid isPermaLink="false">https://openai.com/index/previewing-gpt-5-6-sol/#sha256:45806d6e160b8a56</guid>
+      <category>OpenAI</category>
+      <category>GPT-5.6</category>
+      <category>AI regulation</category>
+      <category>government</category>
+      <category>AI safety</category>
+      <category>model release</category>
+      <category>technology policy</category>
+      <category>artificial intelligence</category>
+      <pubDate>Sun, 28 Jun 2026 03:49:41 +0800</pubDate>
+    </item>
+    <item>
+      <title>Grok Is a Generative Porno App 摘要</title>
+      <link>https://www.theinformation.com/articles/xai-bets-groks-racy-side?rc=jfy0lk</link>
+      <description>xAI's upgraded video model and SpaceX's AI video tools are driving significant traffic to Grok, but much of this demand stems from Grok's lax content policies, which have made it a major platform for generating pornography and NSFW content. Two former xAI employees estimate that over half of Grok's traffic is driven by pornographic images, videos, and adult role-play. While this may be a sustainable business model, it raises questions about whether SpaceX investors are aware that their money is funding a generative porn app rather than the AI tools being hyped.
+
+标签: xAI, Grok, pornography, AI video, content moderation, SpaceX, NSFW, business model, investor awareness, The Information</description>
+      <guid isPermaLink="false">https://www.theinformation.com/articles/xai-bets-groks-racy-side?rc=jfy0lk#sha256:59a8fdd37371de51</guid>
+      <category>xAI</category>
+      <category>Grok</category>
+      <category>pornography</category>
+      <category>AI video</category>
+      <category>content moderation</category>
+      <category>SpaceX</category>
+      <category>NSFW</category>
+      <category>business model</category>
+      <category>investor awareness</category>
+      <category>The Information</category>
+      <pubDate>Sun, 28 Jun 2026 03:57:52 +0800</pubDate>
+    </item>
+    <item>
+      <title>FT Reports That Apple Is Lobbying to Buy Memory Chips From Blacklisted Chinese Company CXMT 摘要</title>
+      <link>https://www.ft.com/content/d72a25e2-7bde-4aa9-bd8d-0c4f3d6cb2cb</link>
+      <description>Apple is lobbying the Trump administration for permission to buy memory chips from CXMT, a Chinese company blacklisted by the Pentagon for alleged ties to the People's Liberation Army. The request faces strong opposition from Congress, with Republican House China committee chair John Moolenaar calling it a 'grave mistake.' Critics argue that allowing Apple to purchase from a subsidized Chinese firm could undermine US national security and harm domestic memory chip competitiveness. The report comes amid Apple's leadership transition, with Tim Cook set to become executive chairman while continuing policy engagement.
+
+标签: Apple, CXMT, China, memory chips, lobbying, national security, supply chain, Trump administration, Pentagon blacklist, trade policy</description>
+      <guid isPermaLink="false">https://www.ft.com/content/d72a25e2-7bde-4aa9-bd8d-0c4f3d6cb2cb#sha256:5193017dbf93b546</guid>
       <category>Apple</category>
-      <category>Yankees</category>
-      <category>friendship</category>
-      <category>media</category>
-      <category>blogging</category>
-      <category>venture capital</category>
-      <pubDate>Sat, 27 Jun 2026 07:22:50 +0800</pubDate>
+      <category>CXMT</category>
+      <category>China</category>
+      <category>memory chips</category>
+      <category>lobbying</category>
+      <category>national security</category>
+      <category>supply chain</category>
+      <category>Trump administration</category>
+      <category>Pentagon blacklist</category>
+      <category>trade policy</category>
+      <pubDate>Sun, 28 Jun 2026 04:24:18 +0800</pubDate>
+    </item>
+    <item>
+      <title>The curious case of the disappearing Polish S 摘要</title>
+      <link>https://aresluna.org/the-curious-case-of-the-disappearing-polish-s</link>
+      <description>A keyboard bug that has persisted for three decades is examined, tracing its origins to early hardware quirks and software workarounds that became entrenched. The issue, affecting key repeat behavior across multiple operating systems, stems from a design decision made in the 1980s that was never fully corrected. The essay explores how this bug survived through generations of keyboards and OS updates, highlighting the challenges of fixing deeply embedded legacy behaviors. Despite being known for years, the bug remains due to compatibility concerns and the complexity of modern input handling stacks.
+
+标签: keyboard, bug, legacy, hardware, software, history, input, compatibility, design, essay</description>
+      <guid isPermaLink="false">https://aresluna.org/the-curious-case-of-the-disappearing-polish-s#sha256:844bf26de818e41d</guid>
+      <category>keyboard</category>
+      <category>bug</category>
+      <category>legacy</category>
+      <category>hardware</category>
+      <category>software</category>
+      <category>history</category>
+      <category>input</category>
+      <category>compatibility</category>
+      <category>design</category>
+      <category>essay</category>
+      <pubDate>Sun, 28 Jun 2026 05:20:04 +0800</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Raises Xbox Prices, Drops High-End Storage Model From Lineup 摘要</title>
+      <link>https://news.xbox.com/en-us/2026/06/25/xbox-console-price-update/</link>
+      <description>Microsoft announced Xbox console price increases effective August 1, 2026: $100 for 512 GB models and $150 for 1 TB models, while discontinuing the 2 TB model. The company cites a 2.5× increase in storage and memory costs, with expectations of further doubling by fall 2027. The entire consumer electronics industry faces a components crisis, but consoles are hit hardest as they are typically sold below cost. The author criticizes Microsoft's 'not sold at a profit' justification and notes parallels with Apple's Mac Studio, where high-end RAM upgrades were removed due to component shortages.
+
+标签: Xbox, Microsoft, console pricing, components crisis, storage costs, memory prices, Mac Studio, Apple, electronics industry, price increase</description>
+      <guid isPermaLink="false">https://news.xbox.com/en-us/2026/06/25/xbox-console-price-update/#sha256:4f4395bab1758bbc</guid>
+      <category>Xbox</category>
+      <category>Microsoft</category>
+      <category>console pricing</category>
+      <category>components crisis</category>
+      <category>storage costs</category>
+      <category>memory prices</category>
+      <category>Mac Studio</category>
+      <category>Apple</category>
+      <category>electronics industry</category>
+      <category>price increase</category>
+      <pubDate>Sun, 28 Jun 2026 06:15:28 +0800</pubDate>
+    </item>
+    <item>
+      <title>Apple Faced Bipartisan Opposition When It Last Lobbied to Buy Chinese RAM in 2022 摘要</title>
+      <link>https://www.warner.senate.gov/newsroom/press-releases/warner-rubio-urge-dni-to-review-risk-chinese-chipmaker-ymtc-presents-to-national-security/</link>
+      <description>In September 2022, Senators Marco Rubio and Mark Warner wrote to then-DNI Avril Haines expressing extreme concern over Apple's plan to procure 3D NAND memory chips from Chinese state-owned manufacturer YMTC. They argued that YMTC's ties to the Chinese Communist Party would introduce privacy and security vulnerabilities to the global supply chain, and that any partnership would reward China's unfair trade practices. Apple had intended to use the chips only for iPhones sold in China, but faced sharp bipartisan opposition. Rubio is now a key figure in the Trump administration's foreign policy.
+
+标签: Apple, YMTC, China, supply chain, security, privacy, trade, bipartisan, semiconductors, Rubio</description>
+      <guid isPermaLink="false">https://www.warner.senate.gov/newsroom/press-releases/warner-rubio-urge-dni-to-review-risk-chinese-chipmaker-ymtc-presents-to-national-security/#sha256:a2dcf7d40f75ac73</guid>
+      <category>Apple</category>
+      <category>YMTC</category>
+      <category>China</category>
+      <category>supply chain</category>
+      <category>security</category>
+      <category>privacy</category>
+      <category>trade</category>
+      <category>bipartisan</category>
+      <category>semiconductors</category>
+      <category>Rubio</category>
+      <pubDate>Sun, 28 Jun 2026 06:39:51 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ Bernie Sanders: Ideologue and Economic Ignoramus 摘要</title>
+      <link>https://daringfireball.net/2026/06/bernie_sanders_ideologue</link>
+      <description>Bernie Sanders criticized Apple CEO Tim Cook for raising prices after Apple made $112 billion in profit, claiming Apple spent $310 billion on stock buybacks. However, Apple's SEC filing shows actual buybacks were $89 billion, not $310 billion. The article argues Sanders' math is nonsensical and his position is inconsistent: he wants Apple to absorb cost increases from RAM/SSD shortages but previously argued tariffs would raise consumer prices. The author compares Sanders' argument to Trump's similar demand that Walmart 'eat the tariffs,' calling both economically illiterate and ideologically driven.
+
+标签: Apple, Bernie Sanders, economics, corporate greed, stock buybacks, pricing, tariffs, misinformation, tech criticism, political economy</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/06/bernie_sanders_ideologue#sha256:ab10b96a2cad96fa</guid>
+      <category>Apple</category>
+      <category>Bernie Sanders</category>
+      <category>economics</category>
+      <category>corporate greed</category>
+      <category>stock buybacks</category>
+      <category>pricing</category>
+      <category>tariffs</category>
+      <category>misinformation</category>
+      <category>tech criticism</category>
+      <category>political economy</category>
+      <pubDate>Sun, 28 Jun 2026 07:18:43 +0800</pubDate>
     </item>
   </channel>
 </rss>
