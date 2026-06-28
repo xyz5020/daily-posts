@@ -8,195 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 28 Jun 2026 07:30:37 +0800</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 07:30:37 +0800</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 07:31:03 +0800</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 07:31:03 +0800</pubDate>
     <item>
-      <title>When will the decimals in a/b repeat? 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/06/27/decimal-period/</link>
-      <description>The article explores the period length of decimal expansions for harmonic numbers. It provides Python code using SymPy to compute the non-repeating and repeating parts of fractions. For example, 1/lcm(1..50) has 5 non-repeating digits and a repeating cycle of 1,275,120 digits. The post builds on earlier work about fraction periods.
+      <title>Examining circuit boards from the Space Shuttle's I/O Processor 摘要</title>
+      <link>http://www.righto.com/2026/06/space-shuttle-io-processor-boards.html</link>
+      <description>The Space Shuttle's I/O Processor (IOP) was a critical component linking the main CPU to the Shuttle's systems via 24 high-speed networks. It featured an unusual multi-threaded architecture with 25 virtual processors and two instruction sets. The IOP used network interface cards called MIA (Multiplexer Interface Adapter) pages, each handling four network connections. These pages converted between serial binary data and Manchester encoding, a technique invented in the 1940s that ensures reliable data transmission by embedding clock signals and eliminating DC bias. The IOP's design, including custom Motorola chips and magnetic core memory, reflects pre-microprocessor aerospace computing.
 
-标签: mathematics, number theory, decimal expansion, harmonic numbers, period length, Python, SymPy, fractions, LCM, repeating decimals</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/06/27/decimal-period/#sha256:587c225b5a07bd01</guid>
-      <category>mathematics</category>
-      <category>number theory</category>
-      <category>decimal expansion</category>
-      <category>harmonic numbers</category>
-      <category>period length</category>
-      <category>Python</category>
-      <category>SymPy</category>
-      <category>fractions</category>
-      <category>LCM</category>
-      <category>repeating decimals</category>
-      <pubDate>Sun, 28 Jun 2026 02:12:03 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Steam Machine 摘要</title>
-      <link>https://www.theverge.com/games/952765/steam-machine-review?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Illsb3pPdVlCSmQiLCJwIjoiL2dhbWVzLzk1Mjc2NS9zdGVhbS1tYWNoaW5lLXJldmlldyIsImV4cCI6MTc4MzAxOTM4OCwiaWF0IjoxNzgyNTg3Mzg4fQ.ksUd5qynurLxKTvjnCTD3mj4xzH9gdFgqAzFJ577ZcE&amp;utm_medium=gift-link</link>
-      <description>Valve's Steam Machine, starting at $1,049, aims to be a console-like PC with fewer restrictions and a vast game catalog, but costs nearly twice as much as a PS5 ($650) while offering no significant performance boost. It is compact, quiet, and fully navigable with a gamepad, eliminating the need for mouse and keyboard. However, it struggles to match the simplicity of traditional consoles like 'plug in, insert game, play.' The high price reflects broader consumer hardware trends, but the Steam Machine still has a long way to go in achieving true console-like ease of use.
-
-标签: Steam Machine, Valve, gaming console, PC gaming, hardware, price, performance, console vs PC, gamepad, The Verge</description>
-      <guid isPermaLink="false">https://www.theverge.com/games/952765/steam-machine-review?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6Illsb3pPdVlCSmQiLCJwIjoiL2dhbWVzLzk1Mjc2NS9zdGVhbS1tYWNoaW5lLXJldmlldyIsImV4cCI6MTc4MzAxOTM4OCwiaWF0IjoxNzgyNTg3Mzg4fQ.ksUd5qynurLxKTvjnCTD3mj4xzH9gdFgqAzFJ577ZcE&amp;utm_medium=gift-link#sha256:7c7381189899a150</guid>
-      <category>Steam Machine</category>
-      <category>Valve</category>
-      <category>gaming console</category>
-      <category>PC gaming</category>
+标签: Space Shuttle, I/O Processor, Manchester encoding, avionics, IBM System/4 Pi, multi-threaded architecture, network interface, retrocomputing, aerospace, hardware</description>
+      <guid isPermaLink="false">http://www.righto.com/2026/06/space-shuttle-io-processor-boards.html#sha256:ab2f45d27128ef02</guid>
+      <category>Space Shuttle</category>
+      <category>I/O Processor</category>
+      <category>Manchester encoding</category>
+      <category>avionics</category>
+      <category>IBM System/4 Pi</category>
+      <category>multi-threaded architecture</category>
+      <category>network interface</category>
+      <category>retrocomputing</category>
+      <category>aerospace</category>
       <category>hardware</category>
-      <category>price</category>
-      <category>performance</category>
-      <category>console vs PC</category>
-      <category>gamepad</category>
-      <category>The Verge</category>
-      <pubDate>Sun, 28 Jun 2026 03:14:16 +0800</pubDate>
+      <pubDate>Mon, 29 Jun 2026 00:11:20 +0800</pubDate>
     </item>
     <item>
-      <title>White House Grants Access to Anthropic’s Mythos Model to 100+ U.S. Institutions; Fable Still Shut Down 摘要</title>
-      <link>https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies</link>
-      <description>The Trump administration has granted access to Anthropic's Mythos AI model to over 100 U.S. institutions, de-escalating a confrontation after export controls were imposed two weeks ago. The weaker Fable 5 model remains shut down, though talks suggest it may also be released. The decision, made by Commerce Secretary Howard Lutnick, establishes an ad hoc regulatory regime where the White House controls frontier AI model releases. Critics argue this approach is disastrous, especially given the administration's transactional nature and anti-science stance, raising concerns about arbitrary and unaccountable AI governance.
+      <title>PuffPal, an App for Accessing Cannabis Clubs, Leaked 1 Million Users’ Passports 摘要</title>
+      <link>https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdjV0Y5TTBuM0ciLCJwIjoiL3RlY2gvOTQ3MTU3L3Bhc3Nwb3J0cy1kYXRhLWJyZWFjaC1jYW5uYWJpcy1jbHViLXN5c3RlbXMtbmVmb3MtcHVmZnBhbCIsImV4cCI6MTc4MzA5NDY0NiwiaWF0IjoxNzgyNjYyNjQ2fQ.7SjX6B8AAGhzsdrtD5asJWBwzQvTDUD31hWte7K1oec</link>
+      <description>A security researcher discovered that PuffPal, an app used for accessing cannabis clubs in Spain, leaked over 1 million users' passports and personal data due to poor security. The app contained a plain-text Stripe API key and stored IDs at predictable public URLs. Researcher Sammy Azdoufal found he could access any member's profile by changing a number in the URL. Bruce Schneier notes this highlights the risk of using high-value credentials (passports) in low-security systems. The incident underscores dangers of mandatory age verification systems being proposed online.
 
-标签: AI, regulation, Anthropic, Mythos, export controls, Trump administration, frontier models, policy, government, technology</description>
-      <guid isPermaLink="false">https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies#sha256:39a2bd0213d299e6</guid>
-      <category>AI</category>
-      <category>regulation</category>
-      <category>Anthropic</category>
-      <category>Mythos</category>
-      <category>export controls</category>
-      <category>Trump administration</category>
-      <category>frontier models</category>
-      <category>policy</category>
-      <category>government</category>
-      <category>technology</category>
-      <pubDate>Sun, 28 Jun 2026 03:37:58 +0800</pubDate>
-    </item>
-    <item>
-      <title>OpenAI Announces, But Is Blocked From Releasing, New GPT-5.6 Models 摘要</title>
-      <link>https://openai.com/index/previewing-gpt-5-6-sol/</link>
-      <description>OpenAI announced a limited preview of GPT-5.6 series models: Sol (flagship), Terra (balanced, 2x cheaper than GPT-5.5), and Luna (fast, low-cost). The staggered release follows a U.S. government request, with Commerce Secretary Howard Lutnick cautioning against launch without inter-agency approvals. CEO Sam Altman stated the government will approve customers one by one during preview, hoping for broader release in weeks. The article criticizes the lack of AI expertise in regulatory decisions, arguing for thoughtful, informed regulation rather than impulsive political intervention.
-
-标签: OpenAI, GPT-5.6, AI regulation, government, AI safety, model release, technology policy, artificial intelligence</description>
-      <guid isPermaLink="false">https://openai.com/index/previewing-gpt-5-6-sol/#sha256:45806d6e160b8a56</guid>
-      <category>OpenAI</category>
-      <category>GPT-5.6</category>
-      <category>AI regulation</category>
-      <category>government</category>
-      <category>AI safety</category>
-      <category>model release</category>
-      <category>technology policy</category>
-      <category>artificial intelligence</category>
-      <pubDate>Sun, 28 Jun 2026 03:49:41 +0800</pubDate>
-    </item>
-    <item>
-      <title>Grok Is a Generative Porno App 摘要</title>
-      <link>https://www.theinformation.com/articles/xai-bets-groks-racy-side?rc=jfy0lk</link>
-      <description>xAI's upgraded video model and SpaceX's AI video tools are driving significant traffic to Grok, but much of this demand stems from Grok's lax content policies, which have made it a major platform for generating pornography and NSFW content. Two former xAI employees estimate that over half of Grok's traffic is driven by pornographic images, videos, and adult role-play. While this may be a sustainable business model, it raises questions about whether SpaceX investors are aware that their money is funding a generative porn app rather than the AI tools being hyped.
-
-标签: xAI, Grok, pornography, AI video, content moderation, SpaceX, NSFW, business model, investor awareness, The Information</description>
-      <guid isPermaLink="false">https://www.theinformation.com/articles/xai-bets-groks-racy-side?rc=jfy0lk#sha256:59a8fdd37371de51</guid>
-      <category>xAI</category>
-      <category>Grok</category>
-      <category>pornography</category>
-      <category>AI video</category>
-      <category>content moderation</category>
-      <category>SpaceX</category>
-      <category>NSFW</category>
-      <category>business model</category>
-      <category>investor awareness</category>
-      <category>The Information</category>
-      <pubDate>Sun, 28 Jun 2026 03:57:52 +0800</pubDate>
-    </item>
-    <item>
-      <title>FT Reports That Apple Is Lobbying to Buy Memory Chips From Blacklisted Chinese Company CXMT 摘要</title>
-      <link>https://www.ft.com/content/d72a25e2-7bde-4aa9-bd8d-0c4f3d6cb2cb</link>
-      <description>Apple is lobbying the Trump administration for permission to buy memory chips from CXMT, a Chinese company blacklisted by the Pentagon for alleged ties to the People's Liberation Army. The request faces strong opposition from Congress, with Republican House China committee chair John Moolenaar calling it a 'grave mistake.' Critics argue that allowing Apple to purchase from a subsidized Chinese firm could undermine US national security and harm domestic memory chip competitiveness. The report comes amid Apple's leadership transition, with Tim Cook set to become executive chairman while continuing policy engagement.
-
-标签: Apple, CXMT, China, memory chips, lobbying, national security, supply chain, Trump administration, Pentagon blacklist, trade policy</description>
-      <guid isPermaLink="false">https://www.ft.com/content/d72a25e2-7bde-4aa9-bd8d-0c4f3d6cb2cb#sha256:5193017dbf93b546</guid>
-      <category>Apple</category>
-      <category>CXMT</category>
-      <category>China</category>
-      <category>memory chips</category>
-      <category>lobbying</category>
-      <category>national security</category>
-      <category>supply chain</category>
-      <category>Trump administration</category>
-      <category>Pentagon blacklist</category>
-      <category>trade policy</category>
-      <pubDate>Sun, 28 Jun 2026 04:24:18 +0800</pubDate>
-    </item>
-    <item>
-      <title>The curious case of the disappearing Polish S 摘要</title>
-      <link>https://aresluna.org/the-curious-case-of-the-disappearing-polish-s</link>
-      <description>A keyboard bug that has persisted for three decades is examined, tracing its origins to early hardware quirks and software workarounds that became entrenched. The issue, affecting key repeat behavior across multiple operating systems, stems from a design decision made in the 1980s that was never fully corrected. The essay explores how this bug survived through generations of keyboards and OS updates, highlighting the challenges of fixing deeply embedded legacy behaviors. Despite being known for years, the bug remains due to compatibility concerns and the complexity of modern input handling stacks.
-
-标签: keyboard, bug, legacy, hardware, software, history, input, compatibility, design, essay</description>
-      <guid isPermaLink="false">https://aresluna.org/the-curious-case-of-the-disappearing-polish-s#sha256:844bf26de818e41d</guid>
-      <category>keyboard</category>
-      <category>bug</category>
-      <category>legacy</category>
-      <category>hardware</category>
-      <category>software</category>
-      <category>history</category>
-      <category>input</category>
-      <category>compatibility</category>
-      <category>design</category>
-      <category>essay</category>
-      <pubDate>Sun, 28 Jun 2026 05:20:04 +0800</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Raises Xbox Prices, Drops High-End Storage Model From Lineup 摘要</title>
-      <link>https://news.xbox.com/en-us/2026/06/25/xbox-console-price-update/</link>
-      <description>Microsoft announced Xbox console price increases effective August 1, 2026: $100 for 512 GB models and $150 for 1 TB models, while discontinuing the 2 TB model. The company cites a 2.5× increase in storage and memory costs, with expectations of further doubling by fall 2027. The entire consumer electronics industry faces a components crisis, but consoles are hit hardest as they are typically sold below cost. The author criticizes Microsoft's 'not sold at a profit' justification and notes parallels with Apple's Mac Studio, where high-end RAM upgrades were removed due to component shortages.
-
-标签: Xbox, Microsoft, console pricing, components crisis, storage costs, memory prices, Mac Studio, Apple, electronics industry, price increase</description>
-      <guid isPermaLink="false">https://news.xbox.com/en-us/2026/06/25/xbox-console-price-update/#sha256:4f4395bab1758bbc</guid>
-      <category>Xbox</category>
-      <category>Microsoft</category>
-      <category>console pricing</category>
-      <category>components crisis</category>
-      <category>storage costs</category>
-      <category>memory prices</category>
-      <category>Mac Studio</category>
-      <category>Apple</category>
-      <category>electronics industry</category>
-      <category>price increase</category>
-      <pubDate>Sun, 28 Jun 2026 06:15:28 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Faced Bipartisan Opposition When It Last Lobbied to Buy Chinese RAM in 2022 摘要</title>
-      <link>https://www.warner.senate.gov/newsroom/press-releases/warner-rubio-urge-dni-to-review-risk-chinese-chipmaker-ymtc-presents-to-national-security/</link>
-      <description>In September 2022, Senators Marco Rubio and Mark Warner wrote to then-DNI Avril Haines expressing extreme concern over Apple's plan to procure 3D NAND memory chips from Chinese state-owned manufacturer YMTC. They argued that YMTC's ties to the Chinese Communist Party would introduce privacy and security vulnerabilities to the global supply chain, and that any partnership would reward China's unfair trade practices. Apple had intended to use the chips only for iPhones sold in China, but faced sharp bipartisan opposition. Rubio is now a key figure in the Trump administration's foreign policy.
-
-标签: Apple, YMTC, China, supply chain, security, privacy, trade, bipartisan, semiconductors, Rubio</description>
-      <guid isPermaLink="false">https://www.warner.senate.gov/newsroom/press-releases/warner-rubio-urge-dni-to-review-risk-chinese-chipmaker-ymtc-presents-to-national-security/#sha256:a2dcf7d40f75ac73</guid>
-      <category>Apple</category>
-      <category>YMTC</category>
-      <category>China</category>
-      <category>supply chain</category>
+标签: security, data breach, privacy, passport leak, app security, age verification, cannabis, identity theft, vulnerability, cybersecurity</description>
+      <guid isPermaLink="false">https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdjV0Y5TTBuM0ciLCJwIjoiL3RlY2gvOTQ3MTU3L3Bhc3Nwb3J0cy1kYXRhLWJyZWFjaC1jYW5uYWJpcy1jbHViLXN5c3RlbXMtbmVmb3MtcHVmZnBhbCIsImV4cCI6MTc4MzA5NDY0NiwiaWF0IjoxNzgyNjYyNjQ2fQ.7SjX6B8AAGhzsdrtD5asJWBwzQvTDUD31hWte7K1oec#sha256:3f83af2683e4a985</guid>
       <category>security</category>
+      <category>data breach</category>
       <category>privacy</category>
-      <category>trade</category>
-      <category>bipartisan</category>
-      <category>semiconductors</category>
-      <category>Rubio</category>
-      <pubDate>Sun, 28 Jun 2026 06:39:51 +0800</pubDate>
+      <category>passport leak</category>
+      <category>app security</category>
+      <category>age verification</category>
+      <category>cannabis</category>
+      <category>identity theft</category>
+      <category>vulnerability</category>
+      <category>cybersecurity</category>
+      <pubDate>Mon, 29 Jun 2026 01:21:42 +0800</pubDate>
     </item>
     <item>
-      <title>★ Bernie Sanders: Ideologue and Economic Ignoramus 摘要</title>
-      <link>https://daringfireball.net/2026/06/bernie_sanders_ideologue</link>
-      <description>Bernie Sanders criticized Apple CEO Tim Cook for raising prices after Apple made $112 billion in profit, claiming Apple spent $310 billion on stock buybacks. However, Apple's SEC filing shows actual buybacks were $89 billion, not $310 billion. The article argues Sanders' math is nonsensical and his position is inconsistent: he wants Apple to absorb cost increases from RAM/SSD shortages but previously argued tariffs would raise consumer prices. The author compares Sanders' argument to Trump's similar demand that Walmart 'eat the tariffs,' calling both economically illiterate and ideologically driven.
+      <title>Hack Your Summer 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything</link>
+      <description>Hack Your Summer is a free 4-week production sprint for undergraduate and graduate students, launched in response to the US internship crisis. Participants build real projects with mentor support, creating public-facing work for future employers. The second cohort starts July 13, with applications due July 8. Volunteers are also sought to mentor students.
 
-标签: Apple, Bernie Sanders, economics, corporate greed, stock buybacks, pricing, tariffs, misinformation, tech criticism, political economy</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/06/bernie_sanders_ideologue#sha256:ab10b96a2cad96fa</guid>
-      <category>Apple</category>
-      <category>Bernie Sanders</category>
-      <category>economics</category>
-      <category>corporate greed</category>
-      <category>stock buybacks</category>
-      <category>pricing</category>
-      <category>tariffs</category>
-      <category>misinformation</category>
-      <category>tech criticism</category>
-      <category>political economy</category>
-      <pubDate>Sun, 28 Jun 2026 07:18:43 +0800</pubDate>
+标签: education, internship, career, mentorship, project-based learning, summer program, students, volunteering</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything#sha256:222feb9f05442ec5</guid>
+      <category>education</category>
+      <category>internship</category>
+      <category>career</category>
+      <category>mentorship</category>
+      <category>project-based learning</category>
+      <category>summer program</category>
+      <category>students</category>
+      <category>volunteering</category>
+      <pubDate>Mon, 29 Jun 2026 03:26:11 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Jon Udell 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything</link>
+      <description>Jon Udell argues against the phrase 'human in the loop' because it implies machines are in control. Instead, he proposes flipping the narrative: humans own the loop and invite AI agents to join the team. Agent-assisted software development should not be a black box that produces unreviewable pull requests. Rather, agents should work transparently alongside humans, maintaining human oversight and review. The goal is to integrate agents into existing workflows without excluding humans from the process.
+
+标签: AI, agentic-engineering, coding-agents, generative-ai, human-in-the-loop, LLMs, software-development, jon-udell</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything#sha256:a37c1112c0108224</guid>
+      <category>AI</category>
+      <category>agentic-engineering</category>
+      <category>coding-agents</category>
+      <category>generative-ai</category>
+      <category>human-in-the-loop</category>
+      <category>LLMs</category>
+      <category>software-development</category>
+      <category>jon-udell</category>
+      <pubDate>Mon, 29 Jun 2026 05:57:41 +0800</pubDate>
     </item>
   </channel>
 </rss>
