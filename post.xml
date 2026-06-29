@@ -8,79 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 29 Jun 2026 07:31:03 +0800</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 07:31:03 +0800</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 07:29:03 +0800</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 07:29:03 +0800</pubDate>
     <item>
-      <title>Examining circuit boards from the Space Shuttle's I/O Processor 摘要</title>
-      <link>http://www.righto.com/2026/06/space-shuttle-io-processor-boards.html</link>
-      <description>The Space Shuttle's I/O Processor (IOP) was a critical component linking the main CPU to the Shuttle's systems via 24 high-speed networks. It featured an unusual multi-threaded architecture with 25 virtual processors and two instruction sets. The IOP used network interface cards called MIA (Multiplexer Interface Adapter) pages, each handling four network connections. These pages converted between serial binary data and Manchester encoding, a technique invented in the 1940s that ensures reliable data transmission by embedding clock signals and eliminating DC bias. The IOP's design, including custom Motorola chips and magnetic core memory, reflects pre-microprocessor aerospace computing.
+      <title>Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/29/ornith/#atom-everything</link>
+      <description>DeepReinforce released Ornith-1.0, an open-weight (MIT licensed) LLM family built on Gemma 4 and Qwen 3.5, with variants from 9B to 397B parameters. It achieves state-of-the-art coding benchmark performance among comparable open-source models. The model excels at agentic coding tasks, handling multiple tool calls proficiently. Simon Willison tested the 35B GGUF version via LM Studio and Pi, finding it capable of complex code navigation tasks like finding specific code sections in a Datasette checkout. The model also demonstrated creative abilities, generating a recognizable pelican image at 103 tokens/second.
 
-标签: Space Shuttle, I/O Processor, Manchester encoding, avionics, IBM System/4 Pi, multi-threaded architecture, network interface, retrocomputing, aerospace, hardware</description>
-      <guid isPermaLink="false">http://www.righto.com/2026/06/space-shuttle-io-processor-boards.html#sha256:ab2f45d27128ef02</guid>
-      <category>Space Shuttle</category>
-      <category>I/O Processor</category>
-      <category>Manchester encoding</category>
-      <category>avionics</category>
-      <category>IBM System/4 Pi</category>
-      <category>multi-threaded architecture</category>
-      <category>network interface</category>
-      <category>retrocomputing</category>
-      <category>aerospace</category>
-      <category>hardware</category>
-      <pubDate>Mon, 29 Jun 2026 00:11:20 +0800</pubDate>
-    </item>
-    <item>
-      <title>PuffPal, an App for Accessing Cannabis Clubs, Leaked 1 Million Users’ Passports 摘要</title>
-      <link>https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdjV0Y5TTBuM0ciLCJwIjoiL3RlY2gvOTQ3MTU3L3Bhc3Nwb3J0cy1kYXRhLWJyZWFjaC1jYW5uYWJpcy1jbHViLXN5c3RlbXMtbmVmb3MtcHVmZnBhbCIsImV4cCI6MTc4MzA5NDY0NiwiaWF0IjoxNzgyNjYyNjQ2fQ.7SjX6B8AAGhzsdrtD5asJWBwzQvTDUD31hWte7K1oec</link>
-      <description>A security researcher discovered that PuffPal, an app used for accessing cannabis clubs in Spain, leaked over 1 million users' passports and personal data due to poor security. The app contained a plain-text Stripe API key and stored IDs at predictable public URLs. Researcher Sammy Azdoufal found he could access any member's profile by changing a number in the URL. Bruce Schneier notes this highlights the risk of using high-value credentials (passports) in low-security systems. The incident underscores dangers of mandatory age verification systems being proposed online.
-
-标签: security, data breach, privacy, passport leak, app security, age verification, cannabis, identity theft, vulnerability, cybersecurity</description>
-      <guid isPermaLink="false">https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdjV0Y5TTBuM0ciLCJwIjoiL3RlY2gvOTQ3MTU3L3Bhc3Nwb3J0cy1kYXRhLWJyZWFjaC1jYW5uYWJpcy1jbHViLXN5c3RlbXMtbmVmb3MtcHVmZnBhbCIsImV4cCI6MTc4MzA5NDY0NiwiaWF0IjoxNzgyNjYyNjQ2fQ.7SjX6B8AAGhzsdrtD5asJWBwzQvTDUD31hWte7K1oec#sha256:3f83af2683e4a985</guid>
-      <category>security</category>
-      <category>data breach</category>
-      <category>privacy</category>
-      <category>passport leak</category>
-      <category>app security</category>
-      <category>age verification</category>
-      <category>cannabis</category>
-      <category>identity theft</category>
-      <category>vulnerability</category>
-      <category>cybersecurity</category>
-      <pubDate>Mon, 29 Jun 2026 01:21:42 +0800</pubDate>
-    </item>
-    <item>
-      <title>Hack Your Summer 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything</link>
-      <description>Hack Your Summer is a free 4-week production sprint for undergraduate and graduate students, launched in response to the US internship crisis. Participants build real projects with mentor support, creating public-facing work for future employers. The second cohort starts July 13, with applications due July 8. Volunteers are also sought to mentor students.
-
-标签: education, internship, career, mentorship, project-based learning, summer program, students, volunteering</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything#sha256:222feb9f05442ec5</guid>
-      <category>education</category>
-      <category>internship</category>
-      <category>career</category>
-      <category>mentorship</category>
-      <category>project-based learning</category>
-      <category>summer program</category>
-      <category>students</category>
-      <category>volunteering</category>
-      <pubDate>Mon, 29 Jun 2026 03:26:11 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Jon Udell 摘要</title>
-      <link>https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything</link>
-      <description>Jon Udell argues against the phrase 'human in the loop' because it implies machines are in control. Instead, he proposes flipping the narrative: humans own the loop and invite AI agents to join the team. Agent-assisted software development should not be a black box that produces unreviewable pull requests. Rather, agents should work transparently alongside humans, maintaining human oversight and review. The goal is to integrate agents into existing workflows without excluding humans from the process.
-
-标签: AI, agentic-engineering, coding-agents, generative-ai, human-in-the-loop, LLMs, software-development, jon-udell</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything#sha256:a37c1112c0108224</guid>
+标签: AI, LLM, open-source, coding, agent, Gemma, Qwen, model-release, local-LLM, benchmark</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/29/ornith/#atom-everything#sha256:4de77ce83ec982e5</guid>
       <category>AI</category>
-      <category>agentic-engineering</category>
-      <category>coding-agents</category>
-      <category>generative-ai</category>
-      <category>human-in-the-loop</category>
-      <category>LLMs</category>
-      <category>software-development</category>
-      <category>jon-udell</category>
-      <pubDate>Mon, 29 Jun 2026 05:57:41 +0800</pubDate>
+      <category>LLM</category>
+      <category>open-source</category>
+      <category>coding</category>
+      <category>agent</category>
+      <category>Gemma</category>
+      <category>Qwen</category>
+      <category>model-release</category>
+      <category>local-LLM</category>
+      <category>benchmark</category>
+      <pubDate>Tue, 30 Jun 2026 00:17:59 +0800</pubDate>
+    </item>
+    <item>
+      <title>Pluralistic: Gemini is better than search because Google enshittified search (29 Jun 2026) 摘要</title>
+      <link>https://pluralistic.net/2026/06/29/arsonist-firefighters/</link>
+      <description>Cory Doctorow argues that Google's AI search summaries (Gemini) are better than traditional search because Google deliberately enshittified its search results to maximize ad revenue, making the open web unusable. He traces how Google's shift from sending users to websites to keeping them inside its walled garden, combined with ad monopolization and ad-blocker suppression, degraded web quality. Users now prefer AI summaries to avoid spammy, ad-laden pages, but this further harms the web ecosystem. Doctorow contrasts this with Kagi, a paid search engine that uses Google's index but ranks results better, proving Google could improve search but chooses not to.
+
+标签: google, gemini, ai, search, enshittification, kagi, advertising, monopoly, web, privacy</description>
+      <guid isPermaLink="false">https://pluralistic.net/2026/06/29/arsonist-firefighters/#sha256:97793de1a664fb93</guid>
+      <category>google</category>
+      <category>gemini</category>
+      <category>ai</category>
+      <category>search</category>
+      <category>enshittification</category>
+      <category>kagi</category>
+      <category>advertising</category>
+      <category>monopoly</category>
+      <category>web</category>
+      <category>privacy</category>
+      <pubDate>Tue, 30 Jun 2026 00:34:57 +0800</pubDate>
+    </item>
+    <item>
+      <title>Count the number of Safari tabs 摘要</title>
+      <link>https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything</link>
+      <description>A quick AppleScript one-liner counts open Safari tabs across all windows: `osascript -e 'tell application "Safari" to count tabs of every window'`. The author ran it and discovered 370 open tabs, highlighting a common habit of accumulating many browser tabs.
+
+标签: AppleScript, Safari, browser tabs, productivity, TIL, macOS, terminal, scripting</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything#sha256:675afac6e078d29e</guid>
+      <category>AppleScript</category>
+      <category>Safari</category>
+      <category>browser tabs</category>
+      <category>productivity</category>
+      <category>TIL</category>
+      <category>macOS</category>
+      <category>terminal</category>
+      <category>scripting</category>
+      <pubDate>Tue, 30 Jun 2026 02:36:18 +0800</pubDate>
+    </item>
+    <item>
+      <title>[Sponsor] Day One Journal 摘要</title>
+      <link>https://dayoneapp.com/blog/introducing-daily-chat/</link>
+      <description>Day One introduces Daily Chat, an AI-powered guided reflection tool that helps users overcome the common struggle of starting a journal entry. By talking through their day, users can organize thoughts and transform them into structured journal entries. Early testers report that the feature makes capturing thoughts effortless and inspires creativity, changing how they approach daily journaling.
+
+标签: journaling, AI, reflection, productivity, creativity, writing, Day One, Daily Chat, guided reflection, personal development</description>
+      <guid isPermaLink="false">https://dayoneapp.com/blog/introducing-daily-chat/#sha256:ca3d26153d6cc1ab</guid>
+      <category>journaling</category>
+      <category>AI</category>
+      <category>reflection</category>
+      <category>productivity</category>
+      <category>creativity</category>
+      <category>writing</category>
+      <category>Day One</category>
+      <category>Daily Chat</category>
+      <category>guided reflection</category>
+      <category>personal development</category>
+      <pubDate>Tue, 30 Jun 2026 07:17:38 +0800</pubDate>
     </item>
   </channel>
 </rss>
