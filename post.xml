@@ -8,83 +8,266 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 07:36:42 +0800</lastBuildDate>
-    <pubDate>Thu, 02 Jul 2026 07:36:42 +0800</pubDate>
+    <lastBuildDate>Fri, 03 Jul 2026 08:14:39 +0800</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2026 08:14:39 +0800</pubDate>
     <item>
-      <title>Valve Explains Why It Doesn’t Subsidize Its Hardware Platforms 摘要</title>
-      <link>https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing</link>
-      <description>Valve explains it does not sell its Steam Deck or Steam Machine at a loss because subsidizing hardware contradicts its belief in open ecosystems. The company argues that selling hardware below cost is a strategy to build closed systems, limiting consumer choice. Instead, Valve prefers to offer its devices as one option among many in the open PC platform, where customers can choose based on price, performance, and other factors. The article contrasts this with Sony and Microsoft's approach of selling consoles at a loss, and notes that mobile phone subsidies come from carriers, not manufacturers.
+      <title>MG Siegler Got Banned From WhatsApp for No Reason 摘要</title>
+      <link>https://spyglass.org/whatsapp-ban/</link>
+      <description>MG Siegler reports being banned from WhatsApp for the third time in three years, likely after claiming a username on the platform. He received no explanation or warning, only a notice that his account could no longer use WhatsApp. Despite submitting an appeal, he previously lost one and only regained access through personal connections, highlighting an unfair system. The article criticizes Meta's focus on monetizing WhatsApp at the expense of user experience, noting that banned accounts still receive messages without senders knowing they are unseen.
 
-标签: Valve, Steam Deck, Steam Machine, hardware pricing, open ecosystem, gaming consoles, subsidies, PC gaming, business strategy, consumer choice</description>
-      <guid isPermaLink="false">https://www.theverge.com/games/952004/valve-steam-machine-price-not-subsidizing#sha256:6ae2d6ea0d97855f</guid>
-      <category>Valve</category>
-      <category>Steam Deck</category>
-      <category>Steam Machine</category>
-      <category>hardware pricing</category>
-      <category>open ecosystem</category>
-      <category>gaming consoles</category>
-      <category>subsidies</category>
-      <category>PC gaming</category>
-      <category>business strategy</category>
-      <category>consumer choice</category>
-      <pubDate>Thu, 02 Jul 2026 02:04:29 +0800</pubDate>
+标签: Meta, WhatsApp, ban, monetization, user experience, social media, account suspension, tech criticism, privacy</description>
+      <guid isPermaLink="false">https://spyglass.org/whatsapp-ban/#sha256:1be7a1b836099993</guid>
+      <category>Meta</category>
+      <category>WhatsApp</category>
+      <category>ban</category>
+      <category>monetization</category>
+      <category>user experience</category>
+      <category>social media</category>
+      <category>account suspension</category>
+      <category>tech criticism</category>
+      <category>privacy</category>
+      <pubDate>Fri, 03 Jul 2026 00:13:13 +0800</pubDate>
     </item>
     <item>
-      <title>PlayStation Plus and Xbox Game Pass Subscriptions 摘要</title>
-      <link>https://daringfireball.net/linked/2026/07/01/valve-on-subsidizing-hardware</link>
-      <description>Valve objects to selling game consoles at a loss, unlike Sony and Microsoft which subsidize hardware costs through recurring subscriptions. PlayStation Plus ($11-$20/month) and Xbox Game Pass ($10-$23/month) are nearly mandatory for online multiplayer, costing more than the hardware within a few years. Valve's Steam Deck and Steam Machines, being PC-like, require only a free Steam account for online play, avoiding such hidden costs. The author argues Valve should have highlighted this advantage.
+      <title>Understand to participate 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything</link>
+      <description>Geoffrey Litt spoke at AIE 2026 about the challenge of collaborating with coding agents as they build increasingly complex changes. He emphasized the need to understand code deeply to avoid cognitive debt and remain an active participant in the creative process. Without fluency in the codebase, one's ability to contribute meaningfully is limited. The talk is recorded and will be available on YouTube.
 
-标签: Valve, PlayStation Plus, Xbox Game Pass, console hardware, subscription, online multiplayer, Steam Deck, Steam Machine, gaming, business model</description>
-      <guid isPermaLink="false">https://daringfireball.net/linked/2026/07/01/valve-on-subsidizing-hardware#sha256:74616b54bc9adc01</guid>
-      <category>Valve</category>
-      <category>PlayStation Plus</category>
-      <category>Xbox Game Pass</category>
-      <category>console hardware</category>
-      <category>subscription</category>
-      <category>online multiplayer</category>
-      <category>Steam Deck</category>
-      <category>Steam Machine</category>
-      <category>gaming</category>
-      <category>business model</category>
-      <pubDate>Thu, 02 Jul 2026 03:55:26 +0800</pubDate>
-    </item>
-    <item>
-      <title>The Winning Essays for the Big Questions About AI 摘要</title>
-      <link>https://www.dwarkesh.com/p/blog-prize-winners</link>
-      <description>The article announces winners of an AI essay contest. First place: Jassi Pannu proposes using an OpenAI Foundation to end airborne transmission via far-UVC lamps and infrastructure, arguing it reduces both disease burden and pandemic risk. Second place: Ege Erdil advises countries outside the AI supply chain to focus on standard pro-growth policies (property rights, low taxes, open regulation) rather than radical schemes. Third place: Michael Li compares AI labs' business models to Hong Kong's MTR, suggesting they may profit from complementary assets rather than core products. The full winning essays are included.
-
-标签: AI, biosecurity, pandemic preparedness, economic policy, infrastructure, public health, business model, technology policy, essay contest, OpenAI</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/blog-prize-winners#sha256:6102796dcc06174e</guid>
+标签: coding-agents, cognitive-debt, generative-ai, AI, LLMs, software-development, collaboration, code-understanding</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything#sha256:290a7be4c03e2c42</guid>
+      <category>coding-agents</category>
+      <category>cognitive-debt</category>
+      <category>generative-ai</category>
       <category>AI</category>
-      <category>biosecurity</category>
-      <category>pandemic preparedness</category>
-      <category>economic policy</category>
-      <category>infrastructure</category>
-      <category>public health</category>
-      <category>business model</category>
-      <category>technology policy</category>
-      <category>essay contest</category>
-      <category>OpenAI</category>
-      <pubDate>Thu, 02 Jul 2026 06:13:17 +0800</pubDate>
+      <category>LLMs</category>
+      <category>software-development</category>
+      <category>collaboration</category>
+      <category>code-understanding</category>
+      <pubDate>Fri, 03 Jul 2026 01:07:14 +0800</pubDate>
     </item>
     <item>
-      <title>★ A Tale of Two Modems 摘要</title>
-      <link>https://daringfireball.net/2026/07/a_tale_of_two_modems</link>
-      <description>A Tata Electronics data breach reveals that the U.S. iPhone 18 Pro will use Qualcomm modems for mmWave support, while international models will use Apple's C2 modem, which lacks mmWave. The author argues that Apple's C-series modems offer better battery life and sufficient speeds, making mmWave unnecessary for most users. The decision to use Qualcomm in the U.S. is likely driven by carrier demands (Verizon, AT&amp;T) for mmWave bragging rights, potentially resulting in worse battery life for U.S. models.
+      <title>‘Why Is Meta Destroying Its Engineering Organization?’ 摘要</title>
+      <link>https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering</link>
+      <description>Gergely Orosz reports that Meta's engineering culture is deteriorating under CEO Mark Zuckerberg and Scale AI CEO Alexandr Wang, who now oversees AI strategy. Key changes include tracking engineers' keyboard/mouse clicks, reassigning engineers to data labeling, threatening 10% layoffs, and measuring AI token usage in performance reviews. This incentivizes performative work and excessive AI use while discouraging human-written code. Longer-tenured engineers are leaving. Orosz links these policies to a recent Instagram account hijacking incident, calling it Meta's most embarrassing outage, caused by AI-written and reviewed code replacing human oversight.
 
-标签: iPhone 18 Pro, Apple, Qualcomm, modem, mmWave, 5G, battery life, carrier, Verizon, data breach</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/07/a_tale_of_two_modems#sha256:fa224403d07e7f11</guid>
-      <category>iPhone 18 Pro</category>
-      <category>Apple</category>
-      <category>Qualcomm</category>
-      <category>modem</category>
-      <category>mmWave</category>
+标签: Meta, engineering culture, AI, performance metrics, layoffs, Scale AI, Alexandr Wang, Mark Zuckerberg, Instagram hack, tech criticism</description>
+      <guid isPermaLink="false">https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering#sha256:b4b48b250bff0351</guid>
+      <category>Meta</category>
+      <category>engineering culture</category>
+      <category>AI</category>
+      <category>performance metrics</category>
+      <category>layoffs</category>
+      <category>Scale AI</category>
+      <category>Alexandr Wang</category>
+      <category>Mark Zuckerberg</category>
+      <category>Instagram hack</category>
+      <category>tech criticism</category>
+      <pubDate>Fri, 03 Jul 2026 01:09:42 +0800</pubDate>
+    </item>
+    <item>
+      <title>Using DSPy to evaluate and improve Datasette Agent's SQL system prompts 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything</link>
+      <description>Simon Willison used DSPy to evaluate and improve the system prompts for Datasette Agent, which generates SQL queries from user questions. He ran an asynchronous research task using Claude Code for web with Claude Fable 5, which tested GPT 4.1 mini and nano. The evaluation identified several prompt improvements, notably that the schema listing should include column names to prevent the agent from guessing columns (like page_count, o.order_id, first_name) and causing error-retry loops. The baseline prompt's advice to avoid calling describe_table if information is already available led to column-name guessing and failures.
+
+标签: AI, DSPy, Datasette, LLM, prompt engineering, SQL, evaluation, agent, generative AI</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything#sha256:c91d061c4373c18d</guid>
+      <category>AI</category>
+      <category>DSPy</category>
+      <category>Datasette</category>
+      <category>LLM</category>
+      <category>prompt engineering</category>
+      <category>SQL</category>
+      <category>evaluation</category>
+      <category>agent</category>
+      <category>generative AI</category>
+      <pubDate>Fri, 03 Jul 2026 02:25:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Claude Fable and Kayfabe 摘要</title>
+      <link>https://www.anthropic.com/news/redeploying-fable-5</link>
+      <description>Anthropic's Claude Fable 5 and Mythos 5 models were subject to US export controls on June 12, leading to a temporary suspension of access. The controls were lifted on June 30, with Commerce Secretary Howard Lutnick claiming two weeks of analysis to ensure alignment. The author criticizes this as performative, comparing it to 'kayfabe'—the staged reality of professional wrestling—arguing that the Trump administration's actions are theatrical nonsense rather than genuine oversight.
+
+标签: AI, regulation, export controls, Anthropic, Claude, Trump administration, kayfabe, government oversight, tech policy, criticism</description>
+      <guid isPermaLink="false">https://www.anthropic.com/news/redeploying-fable-5#sha256:524c03e5e8821722</guid>
+      <category>AI</category>
+      <category>regulation</category>
+      <category>export controls</category>
+      <category>Anthropic</category>
+      <category>Claude</category>
+      <category>Trump administration</category>
+      <category>kayfabe</category>
+      <category>government oversight</category>
+      <category>tech policy</category>
+      <category>criticism</category>
+      <pubDate>Fri, 03 Jul 2026 02:29:01 +0800</pubDate>
+    </item>
+    <item>
+      <title>This Page Left Intentionally Blank 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/intentionally-blank/</link>
+      <description>The author discusses the concept of blank pages on the web, inspired by the 'This Page Intentionally Left Blank' project, which aims to create spaces of quietness and simplicity. In the age of generative AI, a blank page is seen as a deliberate act of creativity and negation. The author created their own blank page and humorously invites bots to crawl it, despite not using robots.txt.
+
+标签: web, minimalism, creativity, blank page, AI, internet culture, design, philosophy, humor, robots.txt</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/intentionally-blank/#sha256:a5a8d9d585b79f9e</guid>
+      <category>web</category>
+      <category>minimalism</category>
+      <category>creativity</category>
+      <category>blank page</category>
+      <category>AI</category>
+      <category>internet culture</category>
+      <category>design</category>
+      <category>philosophy</category>
+      <category>humor</category>
+      <category>robots.txt</category>
+      <pubDate>Fri, 03 Jul 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘A Perfect Reflection of Trump’s Washington’ 摘要</title>
+      <link>https://politicalwire.com/2026/06/19/a-perfect-reflection-of-trumps-washington/</link>
+      <description>The Lincoln Memorial Reflecting Pool, promised a quick cheap fix by Trump, became a $14 million no-bid project that quickly failed with peeling paint and algae. This symbolizes Trump's presidency: grand declarations, cosmetic overhauls, crony contracts, and blame-shifting. Washington DC is now a fenced construction zone for the 250th birthday celebration, with militarized areas and closed monuments. Trump claims beautification while actually trashing the city, treating it as kayfabe—performance over reality, with real taxpayer money funneled to allies.
+
+标签: politics, Trump, corruption, Washington DC, infrastructure, kayfabe, media criticism, government spending, symbolism</description>
+      <guid isPermaLink="false">https://politicalwire.com/2026/06/19/a-perfect-reflection-of-trumps-washington/#sha256:6fd8af3bdee88781</guid>
+      <category>politics</category>
+      <category>Trump</category>
+      <category>corruption</category>
+      <category>Washington DC</category>
+      <category>infrastructure</category>
+      <category>kayfabe</category>
+      <category>media criticism</category>
+      <category>government spending</category>
+      <category>symbolism</category>
+      <pubDate>Fri, 03 Jul 2026 03:14:31 +0800</pubDate>
+    </item>
+    <item>
+      <title>FBI Seizes NetNut Proxy Platform, Popa Botnet 摘要</title>
+      <link>https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/</link>
+      <description>The FBI, with industry partners, seized hundreds of domains linked to NetNut, a residential proxy service operated by Alarum Technologies, following reports connecting NetNut to the Popa botnet of over 2 million compromised devices. NetNut's software turns devices like smart TVs into proxy nodes used for malicious activities. Google disabled accounts and apps related to NetNut, noting the network is resold to cybercriminals. Experts believe the takedown will disrupt cybercrime and DDoS botnets, but warn that proxy networks can rebuild by reselling competitors' services.
+
+标签: FBI, NetNut, Popa botnet, residential proxy, cybercrime, Alarum Technologies, Google Threat Intelligence, botnet takedown, smart TV security, DDoS</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/#sha256:b0def0997d1f820d</guid>
+      <category>FBI</category>
+      <category>NetNut</category>
+      <category>Popa botnet</category>
+      <category>residential proxy</category>
+      <category>cybercrime</category>
+      <category>Alarum Technologies</category>
+      <category>Google Threat Intelligence</category>
+      <category>botnet takedown</category>
+      <category>smart TV security</category>
+      <category>DDoS</category>
+      <pubDate>Fri, 03 Jul 2026 03:27:33 +0800</pubDate>
+    </item>
+    <item>
+      <title>llm-coding-agent 0.1a0 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything</link>
+      <description>Simon Willison releases llm-coding-agent 0.1a0, a simple coding agent built on his LLM library. The agent was developed using Claude Code for web with TDD, producing tools for file editing, command execution, file listing, reading, searching, and writing. It supports a Python API and CLI usage via `uvx --prerelease=allow --with llm-coding-agent llm code`. The agent successfully created a SwiftUI ASCII art clock app. The release demonstrates the evolution of the LLM library into an agent framework.
+
+标签: AI, coding-agent, LLM, open-source, Python, CLI, TDD, generative-ai, tool-use, projects</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything#sha256:aa333bc58534209c</guid>
+      <category>AI</category>
+      <category>coding-agent</category>
+      <category>LLM</category>
+      <category>open-source</category>
+      <category>Python</category>
+      <category>CLI</category>
+      <category>TDD</category>
+      <category>generative-ai</category>
+      <category>tool-use</category>
+      <category>projects</category>
+      <pubDate>Fri, 03 Jul 2026 03:33:12 +0800</pubDate>
+    </item>
+    <item>
+      <title>Truth Social Is Still Just Trump’s Blog 摘要</title>
+      <link>https://daringfireball.net/2025/06/truth_social_is_just_trumps_blog</link>
+      <description>John Gruber observes that Truth Social remains exclusively Trump's platform, as no other Trump administration officials use it; they all prefer X. He reiterates his year-old argument that Truth Social functions solely as an outlet for Trump's personal musings, not as a competitive social network. The lack of enforcement for officials to use Truth Social confirms its intended purpose: a one-person blog for Trump to broadcast his thoughts and get them covered by news media.
+
+标签: Truth Social, Trump, social media, X, politics, media, blogging, administration</description>
+      <guid isPermaLink="false">https://daringfireball.net/2025/06/truth_social_is_just_trumps_blog#sha256:08734f068d1d9422</guid>
+      <category>Truth Social</category>
+      <category>Trump</category>
+      <category>social media</category>
+      <category>X</category>
+      <category>politics</category>
+      <category>media</category>
+      <category>blogging</category>
+      <category>administration</category>
+      <pubDate>Fri, 03 Jul 2026 03:38:45 +0800</pubDate>
+    </item>
+    <item>
+      <title>I Repeat Myself (5G vs. LTE Edition) 摘要</title>
+      <link>https://daringfireball.net/linked/2022/03/23/5g-battery-life</link>
+      <description>The author revisits a 2022 Wall Street Journal report showing LTE saves battery life over 5G on iPhones. They switched to LTE in 2022 but later returned to 5G without noticing a practical advantage, as regular 5G speeds (50-100 Mbps) offer no benefit over LTE. In 2026, they switched back to LTE for battery savings, noting that mmWave 5G is only useful for hotspot tethering or crowded venues. They suggest users try LTE daily and enable 5G only when needed, pending new tests on current devices.
+
+标签: 5G, LTE, battery life, iPhone, cellular, mmWave, hotspot, speed, practicality, mobile</description>
+      <guid isPermaLink="false">https://daringfireball.net/linked/2022/03/23/5g-battery-life#sha256:32572209adc9cd19</guid>
       <category>5G</category>
+      <category>LTE</category>
       <category>battery life</category>
-      <category>carrier</category>
+      <category>iPhone</category>
+      <category>cellular</category>
+      <category>mmWave</category>
+      <category>hotspot</category>
+      <category>speed</category>
+      <category>practicality</category>
+      <category>mobile</category>
+      <pubDate>Fri, 03 Jul 2026 04:32:31 +0800</pubDate>
+    </item>
+    <item>
+      <title>EveryMac Turns 30 摘要</title>
+      <link>https://everymac.com/whatsnew/</link>
+      <description>EveryMac.com, a site providing detailed information on every Mac model from the original 128k to current lines, celebrates its 30th anniversary. Daring Fireball's John Gruber notes that EveryMac, founded in 1996 before Steve Jobs returned to Apple, represents the 'old guard' of tech sites. Michael Tsai interviewed proprietor Brock Kyle, who reflected on the early internet ethos. The milestone highlights the longevity and dedication of a resource that has served Mac users for three decades.
+
+标签: EveryMac, 30th anniversary, Mac history, tech blogs, Daring Fireball, Michael Tsai, retro computing, Apple, longevity, internet history</description>
+      <guid isPermaLink="false">https://everymac.com/whatsnew/#sha256:f6c960adea834b16</guid>
+      <category>EveryMac</category>
+      <category>30th anniversary</category>
+      <category>Mac history</category>
+      <category>tech blogs</category>
+      <category>Daring Fireball</category>
+      <category>Michael Tsai</category>
+      <category>retro computing</category>
+      <category>Apple</category>
+      <category>longevity</category>
+      <category>internet history</category>
+      <pubDate>Fri, 03 Jul 2026 05:31:04 +0800</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Safari MCP Server for Web Developers 摘要</title>
+      <link>https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/</link>
+      <description>Apple has introduced a Safari MCP (Model Context Protocol) server in Safari Technology Preview 247, enabling AI agents to interact with a live browser window for web development and debugging. The server provides agents access to DOM, network requests, screenshots, and console output, allowing more autonomous debugging. MCP, originally developed by Anthropic for Claude, is an open protocol now supported by various tools including Gemini CLI, Cursor, and GitHub Copilot. This integration allows agents to see how code renders in the browser, bridging the gap between development and user experience.
+
+标签: Safari, MCP, Apple, web development, debugging, AI agents, browser, open protocol, Anthropic, Safari Technology Preview</description>
+      <guid isPermaLink="false">https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/#sha256:65f587c3924b32bd</guid>
+      <category>Safari</category>
+      <category>MCP</category>
+      <category>Apple</category>
+      <category>web development</category>
+      <category>debugging</category>
+      <category>AI agents</category>
+      <category>browser</category>
+      <category>open protocol</category>
+      <category>Anthropic</category>
+      <category>Safari Technology Preview</category>
+      <pubDate>Fri, 03 Jul 2026 05:55:31 +0800</pubDate>
+    </item>
+    <item>
+      <title>April Report From Ookla: ‘A Return to mmWave 5G’ 摘要</title>
+      <link>https://www.ookla.com/articles/a-return-to-mmwave-5g</link>
+      <description>Ookla's report on 5G mmWave networks shows that mmWave deployment is predominantly a U.S. phenomenon, with Verizon leading significantly. In H2 2025, mmWave appeared in 2.2% of Verizon's samples, 0.2% for AT&amp;T, and nearly 0% for T-Mobile. Verizon's mmWave presence expanded from 75 markets in H1 2024 to 91 in H2 2025, while AT&amp;T had about a third of that. Most mmWave connections occur within 150 meters of a transmission site, but speeds can exceed 1 Gbps. Top Verizon mmWave cities include Denver, Atlanta, Philadelphia, and Boston.
+
+标签: 5G, mmWave, Ookla, Verizon, AT&amp;T, T-Mobile, US, mobile, spectrum, speed</description>
+      <guid isPermaLink="false">https://www.ookla.com/articles/a-return-to-mmwave-5g#sha256:a6c626e1fa67f51b</guid>
+      <category>5G</category>
+      <category>mmWave</category>
+      <category>Ookla</category>
       <category>Verizon</category>
-      <category>data breach</category>
-      <pubDate>Thu, 02 Jul 2026 07:26:45 +0800</pubDate>
+      <category>AT&amp;T</category>
+      <category>T-Mobile</category>
+      <category>US</category>
+      <category>mobile</category>
+      <category>spectrum</category>
+      <category>speed</category>
+      <pubDate>Fri, 03 Jul 2026 06:30:40 +0800</pubDate>
     </item>
   </channel>
 </rss>
