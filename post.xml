@@ -8,83 +8,120 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 04 Jul 2026 08:10:07 +0800</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 08:10:07 +0800</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2026 08:05:59 +0800</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2026 08:05:59 +0800</pubDate>
     <item>
-      <title>Fable's judgement 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/3/judgement/#atom-everything</link>
-      <description>Simon Willison shares tips from a fireside chat with the Claude Code team at AI Engineer World's Fair. The key insight is to let AI coding agents like Fable use their own judgment rather than dictating specific workflows, such as when to write tests. Jesse Vincent also suggested telling Fable to delegate smaller tasks to lower-power models to save tokens before price increases. Willison prompted Claude Code to use its judgment to select appropriate lower-power models for coding tasks, which Claude saved as a memory file. This approach has improved efficiency and reduced token usage.
+      <title>Fantastical 4.1.15 Adds Calendar Mirroring 摘要</title>
+      <link>https://flexibits.com/blog/2026/06/double-booked-never-heard-of-it-meet-calendar-mirroring-in-fantastical/</link>
+      <description>Flexibits' Fantastical 4.1.15 introduces Calendar Mirroring, allowing users to connect two separate calendars (e.g., work and personal) so events from one automatically appear on the other. No event data is sent to Flexibits servers; it remains on-device. Users can choose to show full details or mark events as 'Busy' to hide specifics. The feature is useful for blocking personal time on work calendars without revealing details. The author uses it to mirror Dithering podcast recording events from a shared Microsoft 365 calendar to a family iCloud calendar, with Fantastical's 'Combine identical events' preventing duplicates. Fantastical also now supports Anthropic's MCP for AI agent integration.
 
-标签: claude, AI, claude-code, LLMs, prompt-engineering, coding-agents, generative-ai, Anthropic, cost-efficiency, model-delegation</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/3/judgement/#atom-everything#sha256:eb8798b6e8bd3fd2</guid>
-      <category>claude</category>
-      <category>AI</category>
-      <category>claude-code</category>
-      <category>LLMs</category>
-      <category>prompt-engineering</category>
-      <category>coding-agents</category>
-      <category>generative-ai</category>
-      <category>Anthropic</category>
-      <category>cost-efficiency</category>
-      <category>model-delegation</category>
-      <pubDate>Sat, 04 Jul 2026 02:51:06 +0800</pubDate>
+标签: Fantastical, Calendar Mirroring, Flexibits, privacy, calendar, productivity, MCP, AI integration, iCloud, Microsoft 365</description>
+      <guid isPermaLink="false">https://flexibits.com/blog/2026/06/double-booked-never-heard-of-it-meet-calendar-mirroring-in-fantastical/#sha256:29f389abd90f1363</guid>
+      <category>Fantastical</category>
+      <category>Calendar Mirroring</category>
+      <category>Flexibits</category>
+      <category>privacy</category>
+      <category>calendar</category>
+      <category>productivity</category>
+      <category>MCP</category>
+      <category>AI integration</category>
+      <category>iCloud</category>
+      <category>Microsoft 365</category>
+      <pubDate>Sun, 05 Jul 2026 00:57:22 +0800</pubDate>
     </item>
     <item>
-      <title>★ Claude’s Criminally Bad Electron Mac App Is an Inside Job 摘要</title>
-      <link>https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job</link>
-      <description>Anthropic's Claude desktop app for macOS remains an Electron-based application, criticized for being slow, buggy, and non-native. Despite AI coding tools like Claude Code enabling native app development, Anthropic continues using Electron due to key engineer Felix Rieseberg, a principal Electron creator and maintainer who previously led desktop teams at Slack and Notion. The article argues that Electron's cross-platform consistency comes at the cost of native Mac experience, contrasting with ChatGPT's native SwiftUI app. Notion, after Rieseberg's departure, is migrating to SwiftUI, suggesting a potential future shift for Claude.
+      <title>From the DF Archive: ‘Electron and the Decline of Native Apps’ 摘要</title>
+      <link>https://daringfireball.net/2018/12/electron_and_the_decline_of_native_apps</link>
+      <description>In 2018, the author expressed concern about Electron's impact on native Mac apps but was not entirely pessimistic. Eight years later, native Mac apps are resurgent, with examples like ChatGPT (AppKit) alongside Electron-based Claude. Apple's Journal app for macOS is disappointing and un-Mac-like, while the new Siri app feels more native. The irony is that Anthropic's Claude, capable of generating high-quality native code, itself uses Electron. The author concludes that the threat from non-native frameworks has not worsened, and native Mac development is thriving.
 
-标签: Anthropic, Claude, Electron, macOS, native app, cross-platform, software engineering, AI coding, Felix Rieseberg, Notion</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job#sha256:0ff9478ab4c2438f</guid>
+标签: Electron, native apps, Mac, AppKit, SwiftUI, Claude, ChatGPT, Apple, macOS, software development</description>
+      <guid isPermaLink="false">https://daringfireball.net/2018/12/electron_and_the_decline_of_native_apps#sha256:8c83b8f682341372</guid>
+      <category>Electron</category>
+      <category>native apps</category>
+      <category>Mac</category>
+      <category>AppKit</category>
+      <category>SwiftUI</category>
+      <category>Claude</category>
+      <category>ChatGPT</category>
+      <category>Apple</category>
+      <category>macOS</category>
+      <category>software development</category>
+      <pubDate>Sun, 05 Jul 2026 03:28:45 +0800</pubDate>
+    </item>
+    <item>
+      <title>Day One Journal 摘要</title>
+      <link>https://dayoneapp.com/blog/introducing-daily-chat/</link>
+      <description>Day One Journal, a long-standing journaling app for Mac and iOS, sponsors Daring Fireball. The app is praised for its technical and design excellence, respecting the personal nature of journaling. It supports multiple journals and offers a new feature called Daily Chat, an AI-powered guided reflection that helps users structure their thoughts into journal entries. Early testers report it makes journaling effortless and intuitive, transforming the writing experience.
+
+标签: Day One, journaling, app, sponsorship, AI, Daily Chat, iOS, Mac, reflection, productivity</description>
+      <guid isPermaLink="false">https://dayoneapp.com/blog/introducing-daily-chat/#sha256:57ff11cbb0edc6a8</guid>
+      <category>Day One</category>
+      <category>journaling</category>
+      <category>app</category>
+      <category>sponsorship</category>
+      <category>AI</category>
+      <category>Daily Chat</category>
+      <category>iOS</category>
+      <category>Mac</category>
+      <category>reflection</category>
+      <category>productivity</category>
+      <pubDate>Sun, 05 Jul 2026 05:02:43 +0800</pubDate>
+    </item>
+    <item>
+      <title>Better Models: Worse Tools 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything</link>
+      <description>Armin Ronacher reports that newer Claude models (Opus 4.8, Sonnet 5) sometimes call Pi's edit tool with extra, invented fields in the nested edits array, causing tool call rejection. This issue is absent in older models. He theorizes that Anthropic's reinforcement learning for Claude Code's built-in edit tools may degrade performance on custom tools used by third-party harnesses like Pi. The article questions whether such harnesses should implement multiple edit tools to match the best-performing one for each underlying model.
+
+标签: AI, LLM, tool-use, Anthropic, Claude, coding-agents, Pi, reinforcement-learning, model-regression</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything#sha256:397e0a9a34fe8106</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>tool-use</category>
       <category>Anthropic</category>
       <category>Claude</category>
-      <category>Electron</category>
-      <category>macOS</category>
-      <category>native app</category>
-      <category>cross-platform</category>
-      <category>software engineering</category>
-      <category>AI coding</category>
-      <category>Felix Rieseberg</category>
-      <category>Notion</category>
-      <pubDate>Sat, 04 Jul 2026 05:24:05 +0800</pubDate>
+      <category>coding-agents</category>
+      <category>Pi</category>
+      <category>reinforcement-learning</category>
+      <category>model-regression</category>
+      <pubDate>Sun, 05 Jul 2026 06:53:52 +0800</pubDate>
     </item>
     <item>
-      <title>Quoting Josh W. Comeau 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything</link>
-      <description>Josh W. Comeau reports that his newly launched course, Whimsical Animations, is selling only about a third as many copies as typical launches, and his existing courses have seen significant sales declines. He attributes this to AI's double impact: uncertainty about the future of developer jobs discourages investment in learning, and LLMs provide personalized tutoring, reducing the need for paid courses. Other course creators confirm similar trends, with revenue down over 50% and declining engagement, as AI tools consume their content without consent or compensation.
+      <title>Building a World Map with only 500 bytes 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything</link>
+      <description>Iwo Kadziela, assisted by Codex, created a credible ASCII world map using only 445 bytes of data. The key technique involves deflate compression, with a JavaScript snippet that uses fetch() on a data: URI, pipes the response through DecompressionStream('deflate-raw'), and renders the decompressed text as a pre element. The approach demonstrates efficient data compression and creative use of browser APIs to generate complex visual output from minimal data.
 
-标签: AI, LLMs, education, careers, course-creation, AI-ethics, generative-AI, developer-economy, content-creation, tech-trends</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything#sha256:6fb41326ff160d71</guid>
-      <category>AI</category>
-      <category>LLMs</category>
-      <category>education</category>
-      <category>careers</category>
-      <category>course-creation</category>
-      <category>AI-ethics</category>
-      <category>generative-AI</category>
-      <category>developer-economy</category>
-      <category>content-creation</category>
-      <category>tech-trends</category>
-      <pubDate>Sat, 04 Jul 2026 05:25:52 +0800</pubDate>
+标签: ASCII art, compression, JavaScript, data URI, world map, creative coding, browser API, deflate, minimalism, hacker news</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything#sha256:375a632521d2a32a</guid>
+      <category>ASCII art</category>
+      <category>compression</category>
+      <category>JavaScript</category>
+      <category>data URI</category>
+      <category>world map</category>
+      <category>creative coding</category>
+      <category>browser API</category>
+      <category>deflate</category>
+      <category>minimalism</category>
+      <category>hacker news</category>
+      <pubDate>Sun, 05 Jul 2026 07:09:02 +0800</pubDate>
     </item>
     <item>
-      <title>Open Source AI Gap Map 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything</link>
-      <description>Current AI, a non-profit founded at the AI Action Summit in Paris (February 2025) with $400M in commitments, launched the Open Source AI Gap Map v0.1. It indexes 421 open-source AI products (266 software tools, 85 models, 50 datasets, 20 hardware projects) from 228 organizations, organized into 14 categories across three stack layers. The underlying data, including 1,184 YAML files and 16,185 tracked GitHub repos, is released under MIT license on GitHub. The map aims to identify gaps in the open-source AI ecosystem.
+      <title>What buffer size (OpenSSH) &lt;code&gt;ssh&lt;/code&gt; seems to use for streaming output 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OpenSSHStdoutIOSize</link>
+      <description>When piping SSH output (e.g., tar over SSH) to a local file, SSH's write buffer size affects disk I/O patterns. On Linux, SSH typically uses 32 KB or 64 KB writes, not the 128 KB blocks preferred by ZFS. To reblock output, tools like dd (with proper options), buffer, or mbuffer can be used. Tracing SSH's system calls with strace reveals that modern OpenSSH redirects stdout to fd 5, not fd 1. This post documents negative results and practical workarounds for optimizing SSH pipe throughput.
 
-标签: open-source, AI, gap-map, ecosystem, non-profit, datasets, models, tools, GitHub, Current AI</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything#sha256:c376b26b9a1b9981</guid>
-      <category>open-source</category>
-      <category>AI</category>
-      <category>gap-map</category>
-      <category>ecosystem</category>
-      <category>non-profit</category>
-      <category>datasets</category>
-      <category>models</category>
-      <category>tools</category>
-      <category>GitHub</category>
-      <category>Current AI</category>
-      <pubDate>Sat, 04 Jul 2026 06:04:31 +0800</pubDate>
+标签: SSH, buffer size, I/O optimization, strace, ZFS, dd, Linux, sysadmin, networking, performance</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OpenSSHStdoutIOSize#sha256:a21dabd64ec91016</guid>
+      <category>SSH</category>
+      <category>buffer size</category>
+      <category>I/O optimization</category>
+      <category>strace</category>
+      <category>ZFS</category>
+      <category>dd</category>
+      <category>Linux</category>
+      <category>sysadmin</category>
+      <category>networking</category>
+      <category>performance</category>
+      <pubDate>Sun, 05 Jul 2026 07:27:08 +0800</pubDate>
     </item>
   </channel>
 </rss>
