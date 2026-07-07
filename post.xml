@@ -8,120 +8,137 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 05 Jul 2026 08:05:59 +0800</lastBuildDate>
-    <pubDate>Sun, 05 Jul 2026 08:05:59 +0800</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2026 08:12:37 +0800</lastBuildDate>
+    <pubDate>Tue, 07 Jul 2026 08:12:37 +0800</pubDate>
     <item>
-      <title>Fantastical 4.1.15 Adds Calendar Mirroring 摘要</title>
-      <link>https://flexibits.com/blog/2026/06/double-booked-never-heard-of-it-meet-calendar-mirroring-in-fantastical/</link>
-      <description>Flexibits' Fantastical 4.1.15 introduces Calendar Mirroring, allowing users to connect two separate calendars (e.g., work and personal) so events from one automatically appear on the other. No event data is sent to Flexibits servers; it remains on-device. Users can choose to show full details or mark events as 'Busy' to hide specifics. The feature is useful for blocking personal time on work calendars without revealing details. The author uses it to mirror Dithering podcast recording events from a shared Microsoft 365 calendar to a family iCloud calendar, with Fantastical's 'Combine identical events' preventing duplicates. Fantastical also now supports Anthropic's MCP for AI agent integration.
+      <title>Maestral, the Open Source Splendidly Simple Mac Dropbox Client, Has Been Retired 摘要</title>
+      <link>https://maestral.app/</link>
+      <description>Maestral, the open-source Dropbox client for Mac that offered a simple, lightweight syncing experience, has been retired by its developer Sam Schott as of June 2026. The project is archived on GitHub, and while the current version will continue to work until certificates expire, no further updates or maintenance will be provided. Schott cited lack of time and personal disuse of Dropbox as reasons. The author expresses disappointment, praising Maestral's simplicity and low resource usage compared to Dropbox's official client, and considers migrating to iCloud Drive as an alternative.
 
-标签: Fantastical, Calendar Mirroring, Flexibits, privacy, calendar, productivity, MCP, AI integration, iCloud, Microsoft 365</description>
-      <guid isPermaLink="false">https://flexibits.com/blog/2026/06/double-booked-never-heard-of-it-meet-calendar-mirroring-in-fantastical/#sha256:29f389abd90f1363</guid>
-      <category>Fantastical</category>
-      <category>Calendar Mirroring</category>
-      <category>Flexibits</category>
-      <category>privacy</category>
-      <category>calendar</category>
-      <category>productivity</category>
-      <category>MCP</category>
-      <category>AI integration</category>
+标签: Maestral, Dropbox, open-source, Mac, sync, retirement, software, maintenance, cloud storage, iCloud</description>
+      <guid isPermaLink="false">https://maestral.app/#sha256:b7236f4b25a97bde</guid>
+      <category>Maestral</category>
+      <category>Dropbox</category>
+      <category>open-source</category>
+      <category>Mac</category>
+      <category>sync</category>
+      <category>retirement</category>
+      <category>software</category>
+      <category>maintenance</category>
+      <category>cloud storage</category>
       <category>iCloud</category>
-      <category>Microsoft 365</category>
-      <pubDate>Sun, 05 Jul 2026 00:57:22 +0800</pubDate>
+      <pubDate>Tue, 07 Jul 2026 01:04:44 +0800</pubDate>
     </item>
     <item>
-      <title>From the DF Archive: ‘Electron and the Decline of Native Apps’ 摘要</title>
-      <link>https://daringfireball.net/2018/12/electron_and_the_decline_of_native_apps</link>
-      <description>In 2018, the author expressed concern about Electron's impact on native Mac apps but was not entirely pessimistic. Eight years later, native Mac apps are resurgent, with examples like ChatGPT (AppKit) alongside Electron-based Claude. Apple's Journal app for macOS is disappointing and un-Mac-like, while the new Siri app feels more native. The irony is that Anthropic's Claude, capable of generating high-quality native code, itself uses Electron. The author concludes that the threat from non-native frameworks has not worsened, and native Mac development is thriving.
+      <title>ATP Member Special: Mac-Assed Mac Apps 摘要</title>
+      <link>https://atp.fm/atp-dev-mac-assed-mac-apps</link>
+      <description>The Accidental Tech Podcast released a members-only special episode discussing what defines a 'Mac-assed' Mac app, focusing on design principles and user experience. The episode explores why both users and developers should prioritize native, well-crafted Mac applications. ATP memberships cost $8/month or $88/year, with the exclusive episodes alone justifying the subscription. The podcast effectively explains the characteristics of quality Mac software and the importance of platform-specific design.
 
-标签: Electron, native apps, Mac, AppKit, SwiftUI, Claude, ChatGPT, Apple, macOS, software development</description>
-      <guid isPermaLink="false">https://daringfireball.net/2018/12/electron_and_the_decline_of_native_apps#sha256:8c83b8f682341372</guid>
-      <category>Electron</category>
-      <category>native apps</category>
+标签: podcast, Mac, app design, user experience, software development, Apple, technology, membership</description>
+      <guid isPermaLink="false">https://atp.fm/atp-dev-mac-assed-mac-apps#sha256:7e1e8c17b6c9e42f</guid>
+      <category>podcast</category>
       <category>Mac</category>
-      <category>AppKit</category>
-      <category>SwiftUI</category>
-      <category>Claude</category>
-      <category>ChatGPT</category>
-      <category>Apple</category>
-      <category>macOS</category>
+      <category>app design</category>
+      <category>user experience</category>
       <category>software development</category>
-      <pubDate>Sun, 05 Jul 2026 03:28:45 +0800</pubDate>
+      <category>Apple</category>
+      <category>technology</category>
+      <category>membership</category>
+      <pubDate>Tue, 07 Jul 2026 01:13:52 +0800</pubDate>
     </item>
     <item>
-      <title>Day One Journal 摘要</title>
-      <link>https://dayoneapp.com/blog/introducing-daily-chat/</link>
-      <description>Day One Journal, a long-standing journaling app for Mac and iOS, sponsors Daring Fireball. The app is praised for its technical and design excellence, respecting the personal nature of journaling. It supports multiple journals and offers a new feature called Daily Chat, an AI-powered guided reflection that helps users structure their thoughts into journal entries. Early testers report it makes journaling effortless and intuitive, transforming the writing experience.
+      <title>Allen Pike, Back in November: ‘Why Is ChatGPT for Mac So Good?’ 摘要</title>
+      <link>https://allenpike.com/2025/why-is-chatgpt-so-good-claude/</link>
+      <description>John Gruber discusses why ChatGPT's Mac app excels due to native features like live document attachment, which iOS cannot support due to restricted inter-app communication. He contrasts this with Anthropic's Claude, which lacks a native Mac app, and notes Google's Gemini Mac app is subpar despite being native. Gruber speculates on Anthropic's potential to improve, but observes that CPO Mike Krieger has shifted to leading Anthropic's Labs team for experimental products rather than focusing on delightful tools.
 
-标签: Day One, journaling, app, sponsorship, AI, Daily Chat, iOS, Mac, reflection, productivity</description>
-      <guid isPermaLink="false">https://dayoneapp.com/blog/introducing-daily-chat/#sha256:57ff11cbb0edc6a8</guid>
-      <category>Day One</category>
-      <category>journaling</category>
-      <category>app</category>
-      <category>sponsorship</category>
-      <category>AI</category>
-      <category>Daily Chat</category>
-      <category>iOS</category>
-      <category>Mac</category>
-      <category>reflection</category>
-      <category>productivity</category>
-      <pubDate>Sun, 05 Jul 2026 05:02:43 +0800</pubDate>
-    </item>
-    <item>
-      <title>Better Models: Worse Tools 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything</link>
-      <description>Armin Ronacher reports that newer Claude models (Opus 4.8, Sonnet 5) sometimes call Pi's edit tool with extra, invented fields in the nested edits array, causing tool call rejection. This issue is absent in older models. He theorizes that Anthropic's reinforcement learning for Claude Code's built-in edit tools may degrade performance on custom tools used by third-party harnesses like Pi. The article questions whether such harnesses should implement multiple edit tools to match the best-performing one for each underlying model.
-
-标签: AI, LLM, tool-use, Anthropic, Claude, coding-agents, Pi, reinforcement-learning, model-regression</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything#sha256:397e0a9a34fe8106</guid>
-      <category>AI</category>
-      <category>LLM</category>
-      <category>tool-use</category>
+标签: ChatGPT, Mac app, native vs web, Anthropic, Claude, Google Gemini, iOS limitations, AI tools, product design, John Gruber</description>
+      <guid isPermaLink="false">https://allenpike.com/2025/why-is-chatgpt-so-good-claude/#sha256:1ba5c183e96fcd3a</guid>
+      <category>ChatGPT</category>
+      <category>Mac app</category>
+      <category>native vs web</category>
       <category>Anthropic</category>
       <category>Claude</category>
-      <category>coding-agents</category>
-      <category>Pi</category>
-      <category>reinforcement-learning</category>
-      <category>model-regression</category>
-      <pubDate>Sun, 05 Jul 2026 06:53:52 +0800</pubDate>
+      <category>Google Gemini</category>
+      <category>iOS limitations</category>
+      <category>AI tools</category>
+      <category>product design</category>
+      <category>John Gruber</category>
+      <pubDate>Tue, 07 Jul 2026 01:37:05 +0800</pubDate>
     </item>
     <item>
-      <title>Building a World Map with only 500 bytes 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything</link>
-      <description>Iwo Kadziela, assisted by Codex, created a credible ASCII world map using only 445 bytes of data. The key technique involves deflate compression, with a JavaScript snippet that uses fetch() on a data: URI, pipes the response through DecompressionStream('deflate-raw'), and renders the decompressed text as a pre element. The approach demonstrates efficient data compression and creative use of browser APIs to generate complex visual output from minimal data.
+      <title>Backblaze Versus Dropbox 摘要</title>
+      <link>https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/</link>
+      <description>Backblaze has stopped backing up files from cloud storage services like iCloud Drive, Dropbox, Google Drive, and OneDrive due to Apple's File Provider APIs, which make files appear locally but are not fully downloaded. This has caused confusion and concern among users. The author notes that using Maestral, an open-source Dropbox client that syncs files to a regular folder, allows Backblaze to back up Dropbox content normally. Dropbox's own client may still work in an old-school mode, but results vary. The author prefers Maestral to avoid these issues.
 
-标签: ASCII art, compression, JavaScript, data URI, world map, creative coding, browser API, deflate, minimalism, hacker news</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything#sha256:375a632521d2a32a</guid>
-      <category>ASCII art</category>
-      <category>compression</category>
-      <category>JavaScript</category>
-      <category>data URI</category>
-      <category>world map</category>
-      <category>creative coding</category>
-      <category>browser API</category>
-      <category>deflate</category>
-      <category>minimalism</category>
-      <category>hacker news</category>
-      <pubDate>Sun, 05 Jul 2026 07:09:02 +0800</pubDate>
+标签: Backblaze, Dropbox, iCloud Drive, Google Drive, OneDrive, Maestral, File Provider APIs, backup, cloud storage, macOS</description>
+      <guid isPermaLink="false">https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/#sha256:02c5d9884657cf83</guid>
+      <category>Backblaze</category>
+      <category>Dropbox</category>
+      <category>iCloud Drive</category>
+      <category>Google Drive</category>
+      <category>OneDrive</category>
+      <category>Maestral</category>
+      <category>File Provider APIs</category>
+      <category>backup</category>
+      <category>cloud storage</category>
+      <category>macOS</category>
+      <pubDate>Tue, 07 Jul 2026 02:34:38 +0800</pubDate>
     </item>
     <item>
-      <title>What buffer size (OpenSSH) &lt;code&gt;ssh&lt;/code&gt; seems to use for streaming output 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OpenSSHStdoutIOSize</link>
-      <description>When piping SSH output (e.g., tar over SSH) to a local file, SSH's write buffer size affects disk I/O patterns. On Linux, SSH typically uses 32 KB or 64 KB writes, not the 128 KB blocks preferred by ZFS. To reblock output, tools like dd (with proper options), buffer, or mbuffer can be used. Tracing SSH's system calls with strace reveals that modern OpenSSH redirects stdout to fd 5, not fd 1. This post documents negative results and practical workarounds for optimizing SSH pipe throughput.
+      <title>Markdown Now Has a UTI in Apple’s Version 27 OSes 摘要</title>
+      <link>https://developer.apple.com/documentation/uniformtypeidentifiers/uttype-swift.struct/markdown</link>
+      <description>Apple's third developer betas of its 27 OSes include a new built-in Uniform Type Identifier (UTI) for Markdown data: net.daringfireball.markdown, which conforms to public.utf8-plain-text. John Gruber, the creator of Markdown, notes that this enshrines UTF-8 encoding, a change from his earlier recommendation of public.plain-text. He updated his own recommendation to reflect this, citing that UTF-8 support is now universal, unlike in 2004.
 
-标签: SSH, buffer size, I/O optimization, strace, ZFS, dd, Linux, sysadmin, networking, performance</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OpenSSHStdoutIOSize#sha256:a21dabd64ec91016</guid>
-      <category>SSH</category>
-      <category>buffer size</category>
-      <category>I/O optimization</category>
-      <category>strace</category>
-      <category>ZFS</category>
-      <category>dd</category>
-      <category>Linux</category>
-      <category>sysadmin</category>
-      <category>networking</category>
-      <category>performance</category>
-      <pubDate>Sun, 05 Jul 2026 07:27:08 +0800</pubDate>
+标签: Apple, Markdown, UTI, UTF-8, developer betas, macOS, iOS, documentation, file types, encoding</description>
+      <guid isPermaLink="false">https://developer.apple.com/documentation/uniformtypeidentifiers/uttype-swift.struct/markdown#sha256:3ffb828e5d953d3b</guid>
+      <category>Apple</category>
+      <category>Markdown</category>
+      <category>UTI</category>
+      <category>UTF-8</category>
+      <category>developer betas</category>
+      <category>macOS</category>
+      <category>iOS</category>
+      <category>documentation</category>
+      <category>file types</category>
+      <category>encoding</category>
+      <pubDate>Tue, 07 Jul 2026 04:38:43 +0800</pubDate>
+    </item>
+    <item>
+      <title>★ Apple Should Eliminate the App Icon ‘Squircle Jail’ 摘要</title>
+      <link>https://daringfireball.net/2026/07/eliminate_app_icon_squircle_jail</link>
+      <description>Apple's mandatory squircle shape for macOS app icons has drawn criticism from developers and designers, who argue it reduces icon distinctiveness and usability. Critics like Paul Kafasis and John Siracusa contend that forcing all icons into identical shapes harms recognition and creativity, comparing it to making traffic signs uniform. The policy extends to color removal via Liquid Glass's tinted/clear options, which are unpopular. Commentators advocate for allowing varied icon shapes, as was historically the case, to preserve visual differentiation and iconic identity.
+
+标签: Apple, macOS, app icons, design, usability, squircle, developer experience, Liquid Glass, iconography, UI/UX</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/07/eliminate_app_icon_squircle_jail#sha256:b1edfcc451e5d119</guid>
+      <category>Apple</category>
+      <category>macOS</category>
+      <category>app icons</category>
+      <category>design</category>
+      <category>usability</category>
+      <category>squircle</category>
+      <category>developer experience</category>
+      <category>Liquid Glass</category>
+      <category>iconography</category>
+      <category>UI/UX</category>
+      <pubDate>Tue, 07 Jul 2026 06:23:46 +0800</pubDate>
+    </item>
+    <item>
+      <title>tencent/Hy3 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/6/hy3/#atom-everything</link>
+      <description>Tencent released Hy3, a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters, under Apache 2.0 license. It outperforms similar-size models and rivals models with 2-5x more parameters. The model has 256K context length, is available in full (598GB) and FP8 quantized (300GB) versions on Hugging Face, and is free on OpenRouter until July 21st.
+
+标签: AI, LLM, MoE, Tencent, open-source, Hugging Face, OpenRouter, generative AI, China</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/6/hy3/#atom-everything#sha256:2e8ffdf2ea5978bf</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>MoE</category>
+      <category>Tencent</category>
+      <category>open-source</category>
+      <category>Hugging Face</category>
+      <category>OpenRouter</category>
+      <category>generative AI</category>
+      <category>China</category>
+      <pubDate>Tue, 07 Jul 2026 07:57:35 +0800</pubDate>
     </item>
   </channel>
 </rss>
