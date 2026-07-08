@@ -8,137 +8,100 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 07 Jul 2026 08:12:37 +0800</lastBuildDate>
-    <pubDate>Tue, 07 Jul 2026 08:12:37 +0800</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:02:10 +0800</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 08:02:10 +0800</pubDate>
     <item>
-      <title>Maestral, the Open Source Splendidly Simple Mac Dropbox Client, Has Been Retired 摘要</title>
-      <link>https://maestral.app/</link>
-      <description>Maestral, the open-source Dropbox client for Mac that offered a simple, lightweight syncing experience, has been retired by its developer Sam Schott as of June 2026. The project is archived on GitHub, and while the current version will continue to work until certificates expire, no further updates or maintenance will be provided. Schott cited lack of time and personal disuse of Dropbox as reasons. The author expresses disappointment, praising Maestral's simplicity and low resource usage compared to Dropbox's official client, and considers migrating to iCloud Drive as an alternative.
+      <title>github-code Web Component 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything</link>
+      <description>Simon Willison built an experimental Web Component called 'github-code' using GPT-5.5. It embeds code from GitHub by converting URLs to raw.githubusercontent.com links, fetching the file, and displaying a specified line range with line numbers but no syntax highlighting. The component is demonstrated with a prompt that shows how to use it via a custom HTML tag. It was created as a quick experiment leveraging AI to generate functional web components.
 
-标签: Maestral, Dropbox, open-source, Mac, sync, retirement, software, maintenance, cloud storage, iCloud</description>
-      <guid isPermaLink="false">https://maestral.app/#sha256:b7236f4b25a97bde</guid>
-      <category>Maestral</category>
-      <category>Dropbox</category>
-      <category>open-source</category>
-      <category>Mac</category>
-      <category>sync</category>
-      <category>retirement</category>
-      <category>software</category>
-      <category>maintenance</category>
-      <category>cloud storage</category>
-      <category>iCloud</category>
-      <pubDate>Tue, 07 Jul 2026 01:04:44 +0800</pubDate>
-    </item>
-    <item>
-      <title>ATP Member Special: Mac-Assed Mac Apps 摘要</title>
-      <link>https://atp.fm/atp-dev-mac-assed-mac-apps</link>
-      <description>The Accidental Tech Podcast released a members-only special episode discussing what defines a 'Mac-assed' Mac app, focusing on design principles and user experience. The episode explores why both users and developers should prioritize native, well-crafted Mac applications. ATP memberships cost $8/month or $88/year, with the exclusive episodes alone justifying the subscription. The podcast effectively explains the characteristics of quality Mac software and the importance of platform-specific design.
-
-标签: podcast, Mac, app design, user experience, software development, Apple, technology, membership</description>
-      <guid isPermaLink="false">https://atp.fm/atp-dev-mac-assed-mac-apps#sha256:7e1e8c17b6c9e42f</guid>
-      <category>podcast</category>
-      <category>Mac</category>
-      <category>app design</category>
-      <category>user experience</category>
-      <category>software development</category>
-      <category>Apple</category>
-      <category>technology</category>
-      <category>membership</category>
-      <pubDate>Tue, 07 Jul 2026 01:13:52 +0800</pubDate>
-    </item>
-    <item>
-      <title>Allen Pike, Back in November: ‘Why Is ChatGPT for Mac So Good?’ 摘要</title>
-      <link>https://allenpike.com/2025/why-is-chatgpt-so-good-claude/</link>
-      <description>John Gruber discusses why ChatGPT's Mac app excels due to native features like live document attachment, which iOS cannot support due to restricted inter-app communication. He contrasts this with Anthropic's Claude, which lacks a native Mac app, and notes Google's Gemini Mac app is subpar despite being native. Gruber speculates on Anthropic's potential to improve, but observes that CPO Mike Krieger has shifted to leading Anthropic's Labs team for experimental products rather than focusing on delightful tools.
-
-标签: ChatGPT, Mac app, native vs web, Anthropic, Claude, Google Gemini, iOS limitations, AI tools, product design, John Gruber</description>
-      <guid isPermaLink="false">https://allenpike.com/2025/why-is-chatgpt-so-good-claude/#sha256:1ba5c183e96fcd3a</guid>
-      <category>ChatGPT</category>
-      <category>Mac app</category>
-      <category>native vs web</category>
-      <category>Anthropic</category>
-      <category>Claude</category>
-      <category>Google Gemini</category>
-      <category>iOS limitations</category>
-      <category>AI tools</category>
-      <category>product design</category>
-      <category>John Gruber</category>
-      <pubDate>Tue, 07 Jul 2026 01:37:05 +0800</pubDate>
-    </item>
-    <item>
-      <title>Backblaze Versus Dropbox 摘要</title>
-      <link>https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/</link>
-      <description>Backblaze has stopped backing up files from cloud storage services like iCloud Drive, Dropbox, Google Drive, and OneDrive due to Apple's File Provider APIs, which make files appear locally but are not fully downloaded. This has caused confusion and concern among users. The author notes that using Maestral, an open-source Dropbox client that syncs files to a regular folder, allows Backblaze to back up Dropbox content normally. Dropbox's own client may still work in an old-school mode, but results vary. The author prefers Maestral to avoid these issues.
-
-标签: Backblaze, Dropbox, iCloud Drive, Google Drive, OneDrive, Maestral, File Provider APIs, backup, cloud storage, macOS</description>
-      <guid isPermaLink="false">https://mjtsai.com/blog/2025/12/19/backblaze-no-longer-backs-up-dropbox/#sha256:02c5d9884657cf83</guid>
-      <category>Backblaze</category>
-      <category>Dropbox</category>
-      <category>iCloud Drive</category>
-      <category>Google Drive</category>
-      <category>OneDrive</category>
-      <category>Maestral</category>
-      <category>File Provider APIs</category>
-      <category>backup</category>
-      <category>cloud storage</category>
-      <category>macOS</category>
-      <pubDate>Tue, 07 Jul 2026 02:34:38 +0800</pubDate>
-    </item>
-    <item>
-      <title>Markdown Now Has a UTI in Apple’s Version 27 OSes 摘要</title>
-      <link>https://developer.apple.com/documentation/uniformtypeidentifiers/uttype-swift.struct/markdown</link>
-      <description>Apple's third developer betas of its 27 OSes include a new built-in Uniform Type Identifier (UTI) for Markdown data: net.daringfireball.markdown, which conforms to public.utf8-plain-text. John Gruber, the creator of Markdown, notes that this enshrines UTF-8 encoding, a change from his earlier recommendation of public.plain-text. He updated his own recommendation to reflect this, citing that UTF-8 support is now universal, unlike in 2004.
-
-标签: Apple, Markdown, UTI, UTF-8, developer betas, macOS, iOS, documentation, file types, encoding</description>
-      <guid isPermaLink="false">https://developer.apple.com/documentation/uniformtypeidentifiers/uttype-swift.struct/markdown#sha256:3ffb828e5d953d3b</guid>
-      <category>Apple</category>
-      <category>Markdown</category>
-      <category>UTI</category>
-      <category>UTF-8</category>
-      <category>developer betas</category>
-      <category>macOS</category>
-      <category>iOS</category>
-      <category>documentation</category>
-      <category>file types</category>
-      <category>encoding</category>
-      <pubDate>Tue, 07 Jul 2026 04:38:43 +0800</pubDate>
-    </item>
-    <item>
-      <title>★ Apple Should Eliminate the App Icon ‘Squircle Jail’ 摘要</title>
-      <link>https://daringfireball.net/2026/07/eliminate_app_icon_squircle_jail</link>
-      <description>Apple's mandatory squircle shape for macOS app icons has drawn criticism from developers and designers, who argue it reduces icon distinctiveness and usability. Critics like Paul Kafasis and John Siracusa contend that forcing all icons into identical shapes harms recognition and creativity, comparing it to making traffic signs uniform. The policy extends to color removal via Liquid Glass's tinted/clear options, which are unpopular. Commentators advocate for allowing varied icon shapes, as was historically the case, to preserve visual differentiation and iconic identity.
-
-标签: Apple, macOS, app icons, design, usability, squircle, developer experience, Liquid Glass, iconography, UI/UX</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/07/eliminate_app_icon_squircle_jail#sha256:b1edfcc451e5d119</guid>
-      <category>Apple</category>
-      <category>macOS</category>
-      <category>app icons</category>
-      <category>design</category>
-      <category>usability</category>
-      <category>squircle</category>
-      <category>developer experience</category>
-      <category>Liquid Glass</category>
-      <category>iconography</category>
-      <category>UI/UX</category>
-      <pubDate>Tue, 07 Jul 2026 06:23:46 +0800</pubDate>
-    </item>
-    <item>
-      <title>tencent/Hy3 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/6/hy3/#atom-everything</link>
-      <description>Tencent released Hy3, a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters, under Apache 2.0 license. It outperforms similar-size models and rivals models with 2-5x more parameters. The model has 256K context length, is available in full (598GB) and FP8 quantized (300GB) versions on Hugging Face, and is free on OpenRouter until July 21st.
-
-标签: AI, LLM, MoE, Tencent, open-source, Hugging Face, OpenRouter, generative AI, China</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/6/hy3/#atom-everything#sha256:2e8ffdf2ea5978bf</guid>
+标签: web-components, github, GPT, AI, code-embedding, experimental, open-source, javascript, html, tools</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything#sha256:e53652ac3b2abb23</guid>
+      <category>web-components</category>
+      <category>github</category>
+      <category>GPT</category>
       <category>AI</category>
-      <category>LLM</category>
-      <category>MoE</category>
-      <category>Tencent</category>
+      <category>code-embedding</category>
+      <category>experimental</category>
       <category>open-source</category>
-      <category>Hugging Face</category>
-      <category>OpenRouter</category>
+      <category>javascript</category>
+      <category>html</category>
+      <category>tools</category>
+      <pubDate>Wed, 08 Jul 2026 00:18:16 +0800</pubDate>
+    </item>
+    <item>
+      <title>sqlite-migrate 0.2 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything</link>
+      <description>sqlite-migrate 0.2 is a release that effectively retires the library by implementing a compatibility shim against the new sqlite-utils 4.0 dependency. This version ensures continued functionality while transitioning users to the updated dependency.
+
+标签: sqlite-migrate, sqlite-utils, release, compatibility, dependency, python, database, migration</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything#sha256:31c47199e8fe4bd7</guid>
+      <category>sqlite-migrate</category>
+      <category>sqlite-utils</category>
+      <category>release</category>
+      <category>compatibility</category>
+      <category>dependency</category>
+      <category>python</category>
+      <category>database</category>
+      <category>migration</category>
+      <pubDate>Wed, 08 Jul 2026 00:33:55 +0800</pubDate>
+    </item>
+    <item>
+      <title>Let AI Burn 摘要</title>
+      <link>https://www.wheresyoured.at/let-ai-burn/</link>
+      <description>The author argues that the AI industry is a bubble built on hype, circular financing, and manufactured consent, not genuine value. Generative AI is described as unprofitable, hallucination-prone, and inessential to the economy, with most revenue coming from OpenAI and Anthropic's own compute spend. The piece criticizes big tech's massive capex on AI without proven ROI, compares the situation unfavorably to the Dot Com bubble (noting GPUs are less reusable than fiber), and calls for no bailouts. It also attacks the cult-like behavior around AI companies and their leaders.
+
+标签: AI, bubble, critique, finance, tech industry, generative AI, capex, hype, Silicon Valley, economics</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/let-ai-burn/#sha256:426481208c1609be</guid>
+      <category>AI</category>
+      <category>bubble</category>
+      <category>critique</category>
+      <category>finance</category>
+      <category>tech industry</category>
       <category>generative AI</category>
-      <category>China</category>
-      <pubDate>Tue, 07 Jul 2026 07:57:35 +0800</pubDate>
+      <category>capex</category>
+      <category>hype</category>
+      <category>Silicon Valley</category>
+      <category>economics</category>
+      <pubDate>Wed, 08 Jul 2026 01:09:10 +0800</pubDate>
+    </item>
+    <item>
+      <title>sqlite-utils 4.0, now with database schema migrations 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything</link>
+      <description>sqlite-utils 4.0, the 124th release and first major version bump since 3.0 in 2020, introduces three major features: database migrations, nested transactions via db.atomic(), and compound foreign keys. Migrations are defined in Python files using the sqlite-utils library, leveraging table.transform() for enhanced alter table capabilities. The _sqlite_migrations table tracks applied migrations. The design originated from the sqlite-migrate package, now integrated into sqlite-utils. The release also includes minor breaking changes and improvements to transaction handling.
+
+标签: sqlite-utils, database, migrations, SQLite, Python, schema, transactions, open-source, release, datasette</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything#sha256:c77a5ef46282367d</guid>
+      <category>sqlite-utils</category>
+      <category>database</category>
+      <category>migrations</category>
+      <category>SQLite</category>
+      <category>Python</category>
+      <category>schema</category>
+      <category>transactions</category>
+      <category>open-source</category>
+      <category>release</category>
+      <category>datasette</category>
+      <pubDate>Wed, 08 Jul 2026 03:32:57 +0800</pubDate>
+    </item>
+    <item>
+      <title>Our mixed building network wiring and its consequences 摘要</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OurMixedBuildingWiring</link>
+      <description>A university department's network infrastructure is mixed but primarily 1G Ethernet, with older buildings wired with Cat-5 cable supporting only 1G. Over time, 100 MBit switches were replaced with 1G switches, though most lack 10G uplinks. Renovations now include Cat-6/6A wiring certified for 10G-T, but 10G switches are only deployed when funded. Many users rely on wireless instead of wired connections. The author advises against using 100 MBit in 2026 due to untested hardware and recommends 1G as the minimum speed.
+
+标签: networking, Ethernet, university, infrastructure, wiring, gigabit, 10G, wireless, legacy, sysadmin</description>
+      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OurMixedBuildingWiring#sha256:35af4460ceec35ae</guid>
+      <category>networking</category>
+      <category>Ethernet</category>
+      <category>university</category>
+      <category>infrastructure</category>
+      <category>wiring</category>
+      <category>gigabit</category>
+      <category>10G</category>
+      <category>wireless</category>
+      <category>legacy</category>
+      <category>sysadmin</category>
+      <pubDate>Wed, 08 Jul 2026 06:53:39 +0800</pubDate>
     </item>
   </channel>
 </rss>
