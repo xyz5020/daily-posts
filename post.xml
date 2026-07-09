@@ -8,100 +8,231 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:02:10 +0800</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 08:02:10 +0800</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 08:16:07 +0800</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 08:16:07 +0800</pubDate>
     <item>
-      <title>github-code Web Component 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything</link>
-      <description>Simon Willison built an experimental Web Component called 'github-code' using GPT-5.5. It embeds code from GitHub by converting URLs to raw.githubusercontent.com links, fetching the file, and displaying a specified line range with line numbers but no syntax highlighting. The component is demonstrated with a prompt that shows how to use it via a custom HTML tag. It was created as a quick experiment leveraging AI to generate functional web components.
+      <title>The Decline of Deviance 2 摘要</title>
+      <link>https://www.experimental-history.com/p/the-decline-of-deviance-2</link>
+      <description>The article is a sequel to 'The Decline of Deviance,' exploring why risk-taking and rule-breaking have declined since the 1990s. The author argues this is largely due to increased prosperity, making people more cautious. While some see this as negative (less innovation), the author highlights positive outcomes like reduced teen smoking, drinking, pregnancy, and crime. The internet is dismissed as the primary cause since trends began before widespread broadband. Instead, the internet accelerates three phenomena: cultural carcinization (convergence on optimal strategies), de-frictioning, and the flat-Earth problem. The piece calls for appreciating these unearned societal wins while understanding their mechanisms.
 
-标签: web-components, github, GPT, AI, code-embedding, experimental, open-source, javascript, html, tools</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything#sha256:e53652ac3b2abb23</guid>
-      <category>web-components</category>
-      <category>github</category>
-      <category>GPT</category>
-      <category>AI</category>
-      <category>code-embedding</category>
-      <category>experimental</category>
-      <category>open-source</category>
-      <category>javascript</category>
-      <category>html</category>
-      <category>tools</category>
-      <pubDate>Wed, 08 Jul 2026 00:18:16 +0800</pubDate>
+标签: sociology, deviance, risk-taking, prosperity, cultural trends, internet effects, crime decline, innovation, social change, generational behavior</description>
+      <guid isPermaLink="false">https://www.experimental-history.com/p/the-decline-of-deviance-2#sha256:b71608a0a1d428fb</guid>
+      <category>sociology</category>
+      <category>deviance</category>
+      <category>risk-taking</category>
+      <category>prosperity</category>
+      <category>cultural trends</category>
+      <category>internet effects</category>
+      <category>crime decline</category>
+      <category>innovation</category>
+      <category>social change</category>
+      <category>generational behavior</category>
+      <pubDate>Thu, 09 Jul 2026 00:10:54 +0800</pubDate>
     </item>
     <item>
-      <title>sqlite-migrate 0.2 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything</link>
-      <description>sqlite-migrate 0.2 is a release that effectively retires the library by implementing a compatibility shim against the new sqlite-utils 4.0 dependency. This version ensures continued functionality while transitioning users to the updated dependency.
+      <title>The ELIZA Archaeology Project 摘要</title>
+      <link>https://findingeliza.org/</link>
+      <description>The ELIZA Archaeology Project explores the history and impact of ELIZA, the pioneering chatbot created by Joseph Weizenbaum at MIT in the 1960s. The project aims to contextualize the program, explain its code, and examine Weizenbaum's later warnings about anthropomorphizing machines. It also discusses the 'Eliza Effect,' where humans attribute intelligence to simple computer programs, a phenomenon still relevant to modern AI like ChatGPT. The project includes an accurate reimplementation of ELIZA and links to an upcoming book.
 
-标签: sqlite-migrate, sqlite-utils, release, compatibility, dependency, python, database, migration</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything#sha256:31c47199e8fe4bd7</guid>
-      <category>sqlite-migrate</category>
-      <category>sqlite-utils</category>
-      <category>release</category>
-      <category>compatibility</category>
-      <category>dependency</category>
-      <category>python</category>
-      <category>database</category>
-      <category>migration</category>
-      <pubDate>Wed, 08 Jul 2026 00:33:55 +0800</pubDate>
+标签: ELIZA, chatbot, AI history, Joseph Weizenbaum, Eliza Effect, human-computer interaction, MIT, Project MAC, AI ethics, anthropomorphism</description>
+      <guid isPermaLink="false">https://findingeliza.org/#sha256:9c1cde57550eb2e1</guid>
+      <category>ELIZA</category>
+      <category>chatbot</category>
+      <category>AI history</category>
+      <category>Joseph Weizenbaum</category>
+      <category>Eliza Effect</category>
+      <category>human-computer interaction</category>
+      <category>MIT</category>
+      <category>Project MAC</category>
+      <category>AI ethics</category>
+      <category>anthropomorphism</category>
+      <pubDate>Thu, 09 Jul 2026 01:20:44 +0800</pubDate>
     </item>
     <item>
-      <title>Let AI Burn 摘要</title>
-      <link>https://www.wheresyoured.at/let-ai-burn/</link>
-      <description>The author argues that the AI industry is a bubble built on hype, circular financing, and manufactured consent, not genuine value. Generative AI is described as unprofitable, hallucination-prone, and inessential to the economy, with most revenue coming from OpenAI and Anthropic's own compute spend. The piece criticizes big tech's massive capex on AI without proven ROI, compares the situation unfavorably to the Dot Com bubble (noting GPUs are less reusable than fiber), and calls for no bailouts. It also attacks the cult-like behavior around AI companies and their leaders.
+      <title>My Conversation With ELIZA 摘要</title>
+      <link>https://sites.google.com/view/elizaarchaeology/try-eliza?authuser=0</link>
+      <description>The author recounts trying the ELIZA chatbot, a 1960s natural language processing program, via a web re-creation. They find it unimpressive, describing it as barely better than if/then statements and far from passing the Turing Test. The transcript shows ELIZA's simplistic pattern-matching responses, often misinterpreting or repeating user input. The author concludes that while modern chatbot companions raise concerns, those who found ELIZA useful as a confidant must have had severe cognitive issues.
 
-标签: AI, bubble, critique, finance, tech industry, generative AI, capex, hype, Silicon Valley, economics</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/let-ai-burn/#sha256:426481208c1609be</guid>
-      <category>AI</category>
-      <category>bubble</category>
+标签: ELIZA, chatbot, AI history, natural language processing, Turing Test, critique, retro computing, AI skepticism</description>
+      <guid isPermaLink="false">https://sites.google.com/view/elizaarchaeology/try-eliza?authuser=0#sha256:db50b826cea1783c</guid>
+      <category>ELIZA</category>
+      <category>chatbot</category>
+      <category>AI history</category>
+      <category>natural language processing</category>
+      <category>Turing Test</category>
       <category>critique</category>
-      <category>finance</category>
-      <category>tech industry</category>
+      <category>retro computing</category>
+      <category>AI skepticism</category>
+      <pubDate>Thu, 09 Jul 2026 01:33:05 +0800</pubDate>
+    </item>
+    <item>
+      <title>Writing an LLM from scratch, part 34b -- from bigrams to GPT-2, one component at a time (in JAX) 摘要</title>
+      <link>https://www.gilesthomas.com/2026/07/llm-from-scratch-34b-building-and-training-gpt-2-small-in-jax</link>
+      <description>The author concludes a long-running series on building an LLM from scratch by implementing a GPT-2 model using JAX instead of PyTorch to ensure originality. Starting from a simple A-to-A model that reconstructs input, they incrementally add components, each improving performance. The final model, trained on an RTX 3090 for 37 hours, achieves a loss of 3.418784, outperforming both the equivalent PyTorch model (3.538161) and the original GPT-2 small (3.499677) on the same test dataset. However, OpenAI's weights still surpass it in instruction fine-tuning. The post details the progression and training results.
+
+标签: LLM, GPT-2, JAX, training, deep learning, from scratch, PyTorch, transformer, machine learning, AI</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/07/llm-from-scratch-34b-building-and-training-gpt-2-small-in-jax#sha256:b600563a23e385e3</guid>
+      <category>LLM</category>
+      <category>GPT-2</category>
+      <category>JAX</category>
+      <category>training</category>
+      <category>deep learning</category>
+      <category>from scratch</category>
+      <category>PyTorch</category>
+      <category>transformer</category>
+      <category>machine learning</category>
+      <category>AI</category>
+      <pubDate>Thu, 09 Jul 2026 02:45:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Family Feud: Mac-assed Mac App Edition 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/mac-assed-family-feud/</link>
+      <description>The author humorously uses a Family Feud format to explore which companies are best positioned to create a 'Mac-assed Mac app'—a high-quality, native macOS application. Apple is the obvious top choice. However, other tech giants like Anthropic (with its Electron-based Claude Desktop), Adobe, and Google fail to deliver, despite their resources. The author suggests an inverse correlation between company size/revenue and the quality of Mac apps, attributing this to a lack of 'care' in larger organizations.
+
+标签: Mac apps, Apple, Electron, software quality, tech criticism, Anthropic, Adobe, Google, corporate culture, native apps</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/mac-assed-family-feud/#sha256:50884497c26f4552</guid>
+      <category>Mac apps</category>
+      <category>Apple</category>
+      <category>Electron</category>
+      <category>software quality</category>
+      <category>tech criticism</category>
+      <category>Anthropic</category>
+      <category>Adobe</category>
+      <category>Google</category>
+      <category>corporate culture</category>
+      <category>native apps</category>
+      <pubDate>Thu, 09 Jul 2026 03:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>‘Searching for SmarterChild’ Kickstarter 摘要</title>
+      <link>https://www.kickstarter.com/projects/smarterchild/searching-for-smarterchild-a-feature-documentary/creator</link>
+      <description>DF reader AP shared a Kickstarter link for 'Searching for SmarterChild', a documentary about the AIM chatbot SmarterChild, which had 30 million users. The author, John Gruber, was unfamiliar with it but supports the project. The campaign has one week left and is slightly short of its primary goal. Gruber contributed and recommends it as an indie nerd documentary.
+
+标签: chatbot, documentary, AIM, SmarterChild, Kickstarter, history, technology, AI, internet culture</description>
+      <guid isPermaLink="false">https://www.kickstarter.com/projects/smarterchild/searching-for-smarterchild-a-feature-documentary/creator#sha256:3147488b0a8312f9</guid>
+      <category>chatbot</category>
+      <category>documentary</category>
+      <category>AIM</category>
+      <category>SmarterChild</category>
+      <category>Kickstarter</category>
+      <category>history</category>
+      <category>technology</category>
+      <category>AI</category>
+      <category>internet culture</category>
+      <pubDate>Thu, 09 Jul 2026 04:02:10 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Kenton Varda 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything</link>
+      <description>Kenton Varda, a tech lead, imposed a moratorium on AI-written change descriptions (PRs, commits, issues) for his team. He found AI-generated descriptions worse than useless because they detailed low-level code changes visible in the diff but omitted the high-level context needed to understand the code's purpose. This made PR reviews harder, not easier.
+
+标签: AI, AI-assisted programming, code review, developer experience, generative AI, LLMs, PR descriptions, software engineering, team management</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything#sha256:80c1f98cbea3a8b9</guid>
+      <category>AI</category>
+      <category>AI-assisted programming</category>
+      <category>code review</category>
+      <category>developer experience</category>
       <category>generative AI</category>
-      <category>capex</category>
-      <category>hype</category>
-      <category>Silicon Valley</category>
-      <category>economics</category>
-      <pubDate>Wed, 08 Jul 2026 01:09:10 +0800</pubDate>
+      <category>LLMs</category>
+      <category>PR descriptions</category>
+      <category>software engineering</category>
+      <category>team management</category>
+      <pubDate>Thu, 09 Jul 2026 04:03:34 +0800</pubDate>
     </item>
     <item>
-      <title>sqlite-utils 4.0, now with database schema migrations 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything</link>
-      <description>sqlite-utils 4.0, the 124th release and first major version bump since 3.0 in 2020, introduces three major features: database migrations, nested transactions via db.atomic(), and compound foreign keys. Migrations are defined in Python files using the sqlite-utils library, leveraging table.transform() for enhanced alter table capabilities. The _sqlite_migrations table tracks applied migrations. The design originated from the sqlite-migrate package, now integrated into sqlite-utils. The release also includes minor breaking changes and improvements to transaction handling.
+      <title>Mac Apps Can Escape From Squircle Jail If They’re Not in the Mac App Store 摘要</title>
+      <link>https://tyler.io/2026/07/05/escape-from-squircle-jail/</link>
+      <description>macOS Tahoe's new app icons have been criticized, and third-party developers are restricted to squircle-shaped icons in the Mac App Store. However, apps distributed outside the Mac App Store can use the NSDockTilePlugIn API to display custom icons that persist even after quitting. Iris is one such app offering alternative icons. This technique is used by several Mac-native apps as a workaround, serving as a litmus test for apps that prioritize Mac-specific design.
 
-标签: sqlite-utils, database, migrations, SQLite, Python, schema, transactions, open-source, release, datasette</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything#sha256:c77a5ef46282367d</guid>
-      <category>sqlite-utils</category>
-      <category>database</category>
-      <category>migrations</category>
-      <category>SQLite</category>
-      <category>Python</category>
-      <category>schema</category>
-      <category>transactions</category>
-      <category>open-source</category>
-      <category>release</category>
-      <category>datasette</category>
-      <pubDate>Wed, 08 Jul 2026 03:32:57 +0800</pubDate>
+标签: macOS, Tahoe, app icons, squircle jail, NSDockTilePlugIn, Mac App Store, Iris, third-party developers, workaround, Mac-assed apps</description>
+      <guid isPermaLink="false">https://tyler.io/2026/07/05/escape-from-squircle-jail/#sha256:71d47b8effbf3ab1</guid>
+      <category>macOS</category>
+      <category>Tahoe</category>
+      <category>app icons</category>
+      <category>squircle jail</category>
+      <category>NSDockTilePlugIn</category>
+      <category>Mac App Store</category>
+      <category>Iris</category>
+      <category>third-party developers</category>
+      <category>workaround</category>
+      <category>Mac-assed apps</category>
+      <pubDate>Thu, 09 Jul 2026 05:03:21 +0800</pubDate>
     </item>
     <item>
-      <title>Our mixed building network wiring and its consequences 摘要</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OurMixedBuildingWiring</link>
-      <description>A university department's network infrastructure is mixed but primarily 1G Ethernet, with older buildings wired with Cat-5 cable supporting only 1G. Over time, 100 MBit switches were replaced with 1G switches, though most lack 10G uplinks. Renovations now include Cat-6/6A wiring certified for 10G-T, but 10G switches are only deployed when funded. Many users rely on wireless instead of wired connections. The author advises against using 100 MBit in 2026 due to untested hardware and recommends 1G as the minimum speed.
+      <title>‘PARRY Encounters the DOCTOR’ — Chatbot on Chatbot Action Circa 1973 摘要</title>
+      <link>https://www.rfc-editor.org/info/rfc439/</link>
+      <description>In 1973, Vint Cerf published an RFC documenting a conversation between two early AI chatbots: PARRY, simulating a paranoid schizophrenic, and ELIZA (DOCTOR), a psychotherapist. The transcript shows PARRY discussing bookies and racketeers, while ELIZA responds with therapeutic prompts. The article also notes that Vint Cerf, a key internet pioneer, retired from Google in 2026 at age 83.
 
-标签: networking, Ethernet, university, infrastructure, wiring, gigabit, 10G, wireless, legacy, sysadmin</description>
-      <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OurMixedBuildingWiring#sha256:35af4460ceec35ae</guid>
-      <category>networking</category>
-      <category>Ethernet</category>
-      <category>university</category>
-      <category>infrastructure</category>
-      <category>wiring</category>
-      <category>gigabit</category>
-      <category>10G</category>
-      <category>wireless</category>
-      <category>legacy</category>
-      <category>sysadmin</category>
-      <pubDate>Wed, 08 Jul 2026 06:53:39 +0800</pubDate>
+标签: AI, chatbot, history, ELIZA, PARRY, Vint Cerf, RFC, 1973, internet, retirement</description>
+      <guid isPermaLink="false">https://www.rfc-editor.org/info/rfc439/#sha256:a6d70a71dbda2489</guid>
+      <category>AI</category>
+      <category>chatbot</category>
+      <category>history</category>
+      <category>ELIZA</category>
+      <category>PARRY</category>
+      <category>Vint Cerf</category>
+      <category>RFC</category>
+      <category>1973</category>
+      <category>internet</category>
+      <category>retirement</category>
+      <pubDate>Thu, 09 Jul 2026 06:38:06 +0800</pubDate>
+    </item>
+    <item>
+      <title>Introducing GPT‑Live 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything</link>
+      <description>OpenAI has upgraded ChatGPT's voice mode with a new model called GPT-Live, which can delegate complex tasks to GPT-5.5 in the background while maintaining conversation flow. The author had preview access and found the new model impressive, though they encountered a bug where the model would interrupt to laugh at non-jokes. They reported it and OpenAI made tweaks to reduce the issue. The previous voice mode used an older GPT-4o model with a 2024 knowledge cutoff, which limited its usefulness for brainstorming.
+
+标签: AI, OpenAI, GPT-Live, voice mode, ChatGPT, GPT-5.5, speech-to-text, text-to-speech, LLM, generative AI</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything#sha256:8d8bea1cf1716d3c</guid>
+      <category>AI</category>
+      <category>OpenAI</category>
+      <category>GPT-Live</category>
+      <category>voice mode</category>
+      <category>ChatGPT</category>
+      <category>GPT-5.5</category>
+      <category>speech-to-text</category>
+      <category>text-to-speech</category>
+      <category>LLM</category>
+      <category>generative AI</category>
+      <pubDate>Thu, 09 Jul 2026 07:20:48 +0800</pubDate>
+    </item>
+    <item>
+      <title>Rewriting Bun in Rust 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything</link>
+      <description>Jarred Sumner details the rewrite of Bun from Zig to Rust, driven by memory management bugs like use-after-free and double-free that safe Rust prevents. The rewrite was enabled by AI coding agents (Claude) using Bun's TypeScript test suite as a conformance suite, costing ~$165,000 in tokens. The Rust port is now live in Claude Code, with 10% faster startup on Linux. Sumner emphasizes that AI agents change the calculus on rewrites, allowing ambitious projects that were previously infeasible.
+
+标签: bun, rust, zig, ai-assisted-programming, agentic-engineering, llms, anthropic, conformance-suites, memory-safety, software-rewrite</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything#sha256:040a80c46e9b3cc6</guid>
+      <category>bun</category>
+      <category>rust</category>
+      <category>zig</category>
+      <category>ai-assisted-programming</category>
+      <category>agentic-engineering</category>
+      <category>llms</category>
+      <category>anthropic</category>
+      <category>conformance-suites</category>
+      <category>memory-safety</category>
+      <category>software-rewrite</category>
+      <pubDate>Thu, 09 Jul 2026 07:57:21 +0800</pubDate>
+    </item>
+    <item>
+      <title>poppy the training box, part 1: the beginnings 摘要</title>
+      <link>https://www.gilesthomas.com/2026/07/poppy-the-training-box-1-the-beginnings</link>
+      <description>The author builds a dedicated local LLM training machine named 'poppy' to free up their daily driver PC 'perry' from long training runs. They repurpose an old SFF PC with a new case and 1600W PSU, then install a second-hand RTX 3090. Before the GPU upgrade, they test the old GTX 1660 Super with a cut-down GPT-2 small model, which takes 11 days to train and uses more energy than perry's faster run. After installing the RTX 3090, they plan to explore longer training runs and multi-GPU setups for testing cloud parallelism locally.
+
+标签: LLM, training, hardware, GPU, RTX 3090, DIY, PC build, machine learning, JAX, PyTorch</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/07/poppy-the-training-box-1-the-beginnings#sha256:d98c8cbab23ab79f</guid>
+      <category>LLM</category>
+      <category>training</category>
+      <category>hardware</category>
+      <category>GPU</category>
+      <category>RTX 3090</category>
+      <category>DIY</category>
+      <category>PC build</category>
+      <category>machine learning</category>
+      <category>JAX</category>
+      <category>PyTorch</category>
+      <pubDate>Thu, 09 Jul 2026 09:00:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
