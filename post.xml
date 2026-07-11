@@ -8,155 +8,118 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Jul 2026 08:09:36 +0800</lastBuildDate>
-    <pubDate>Fri, 10 Jul 2026 08:09:36 +0800</pubDate>
+    <lastBuildDate>Sat, 11 Jul 2026 08:02:48 +0800</lastBuildDate>
+    <pubDate>Sat, 11 Jul 2026 08:02:48 +0800</pubDate>
     <item>
-      <title>llm 0.31.1 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/9/llm/#atom-everything</link>
-      <description>LLM 0.31.1 is a patch release that fixes a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could cause a JSON error from some providers. The issue was discovered while testing the llm-meta-ai plugin. This release ensures compatibility and stability for users interacting with OpenAI-compatible APIs.
+      <title>This Week on The Analog Antiquarian 摘要</title>
+      <link>https://www.filfre.net/2026/07/this-week-on-the-analog-antiquarian/</link>
+      <description>This article is part of a series examining Shakespeare's Henry VI, Part 3, focusing on its historical context, themes, and literary significance. It explores the play's depiction of the Wars of the Roses, character dynamics, and how Shakespeare adapted historical events for dramatic effect. The analysis highlights key scenes, political intrigue, and the play's role in the broader Henriad cycle.
 
-标签: llm, openai, bug-fix, release, tool-call, json-error, compatibility</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/9/llm/#atom-everything#sha256:4a7afdfe56fde5dc</guid>
-      <category>llm</category>
-      <category>openai</category>
-      <category>bug-fix</category>
-      <category>release</category>
-      <category>tool-call</category>
-      <category>json-error</category>
-      <category>compatibility</category>
-      <pubDate>Fri, 10 Jul 2026 00:06:15 +0800</pubDate>
-    </item>
-    <item>
-      <title>llm-meta-ai 0.1 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything</link>
-      <description>llm-meta-ai 0.1 is a new release that enables running prompts against Meta's muse-spark-1.1 model. This plugin integrates with the LLM tool, allowing users to leverage the latest AI model from Meta for various natural language processing tasks. The release is available on GitHub and supports the new Meta Model API.
-
-标签: llm, meta, AI, release, plugin, muse-spark, natural-language-processing, API, open-source</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything#sha256:3bb6d0f6d83dcba0</guid>
-      <category>llm</category>
-      <category>meta</category>
-      <category>AI</category>
-      <category>release</category>
-      <category>plugin</category>
-      <category>muse-spark</category>
-      <category>natural-language-processing</category>
-      <category>API</category>
-      <category>open-source</category>
-      <pubDate>Fri, 10 Jul 2026 00:12:20 +0800</pubDate>
-    </item>
-    <item>
-      <title>Introducing Muse Spark 1.1 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything</link>
-      <description>Meta released Muse Spark 1.1, the first Spark model with an API, featuring improved agentic tool calling and computer use. The evaluation report highlights 'Attractor States in Self-Conversation,' where two model copies conversing produced existential statements. Simon Willison had preview access and created llm-meta-ai, a plugin for the LLM CLI tool, enabling easy access to the model via command line or Python. The plugin allows generating outputs like SVG images from text prompts.
-
-标签: AI, Meta, Muse Spark, LLM, API, agentic, tool calling, computer use, CLI, plugin</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything#sha256:8e5b042432578144</guid>
-      <category>AI</category>
-      <category>Meta</category>
-      <category>Muse Spark</category>
-      <category>LLM</category>
-      <category>API</category>
-      <category>agentic</category>
-      <category>tool calling</category>
-      <category>computer use</category>
-      <category>CLI</category>
-      <category>plugin</category>
-      <pubDate>Fri, 10 Jul 2026 00:24:09 +0800</pubDate>
-    </item>
-    <item>
-      <title>Boxed In 摘要</title>
-      <link>https://feed.tedium.co/link/15204/17375642/alf-paul-fusco-creativity-constraints</link>
-      <description>The article explores how creative limitations can become harmful, using the example of Paul Fusco, creator of the TV show ALF. Fusco's insistence on maintaining the illusion that ALF was a real alien—requiring trap doors, hidden puppeteers, and avoiding outdoor scenes—made production slow and tense, ultimately leading to the show's cancellation and limiting future opportunities for the character. The author reflects on how creative people often set rigid boundaries that can stifle growth and collaboration, suggesting that pride in one's vision should not prevent others from engaging with the work.
-
-标签: creativity, limitations, ALF, TV production, puppetry, creative constraints, career, artistic integrity, collaboration, nostalgia</description>
-      <guid isPermaLink="false">https://feed.tedium.co/link/15204/17375642/alf-paul-fusco-creativity-constraints#sha256:94c4b7800f5c88fa</guid>
-      <category>creativity</category>
-      <category>limitations</category>
-      <category>ALF</category>
-      <category>TV production</category>
-      <category>puppetry</category>
-      <category>creative constraints</category>
-      <category>career</category>
-      <category>artistic integrity</category>
-      <category>collaboration</category>
-      <category>nostalgia</category>
-      <pubDate>Fri, 10 Jul 2026 01:20:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>★ John Ternus Should Reverse Apple’s Slide Down the Advertising Slippery Slope 摘要</title>
-      <link>https://daringfireball.net/2026/07/ternus_apple_slippery_slope</link>
-      <description>John Gruber revisits Tim Cook's 2014 privacy letter, noting Apple no longer hosts it. He argues Apple's privacy stance has eroded: ads now dominate App Store search, Apple News+ shows AI-generated ads, and Maps ads are coming. While Apple technically protects privacy (no tracking), most users won't believe it. Gruber contrasts Meta's forced AI data use, and suggests Apple should drop these ads to restore trust, as the Google search deal already generates huge ad revenue without reputational damage.
-
-标签: Apple, privacy, advertising, Tim Cook, App Store, Apple Maps, Big Tech, user trust, surveillance capitalism, John Gruber</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/07/ternus_apple_slippery_slope#sha256:81c86f7cabc317e2</guid>
-      <category>Apple</category>
-      <category>privacy</category>
-      <category>advertising</category>
-      <category>Tim Cook</category>
-      <category>App Store</category>
-      <category>Apple Maps</category>
-      <category>Big Tech</category>
-      <category>user trust</category>
-      <category>surveillance capitalism</category>
-      <category>John Gruber</category>
-      <pubDate>Fri, 10 Jul 2026 03:17:37 +0800</pubDate>
-    </item>
-    <item>
-      <title>The new GPT-5.6 family: Luna, Terra, Sol 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything</link>
-      <description>OpenAI released GPT-5.6 in three sizes (Luna, Terra, Sol) with pricing from $1-$5 per million input tokens and $6-$30 for output. All models feature a February 2026 knowledge cutoff, 1M token context window, and 128K max output tokens. They claim superior agentic performance on Agents' Last Exam, beating Claude Fable 5 by up to 13.1 points, though Fable 5 outperforms on SWE-Bench Pro (80% vs 64.6%). New API features include programmatic tool calling, multi-agent support, prompt cache breakpoints, and original image detail level. Early impressions suggest Sol is competent but not clearly better than Fable for complex coding tasks.
-
-标签: AI, OpenAI, GPT-5.6, LLM, agentic AI, AI pricing, benchmarks, API, tool calling, multi-agent</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything#sha256:448923d920aa73fc</guid>
-      <category>AI</category>
-      <category>OpenAI</category>
-      <category>GPT-5.6</category>
-      <category>LLM</category>
-      <category>agentic AI</category>
-      <category>AI pricing</category>
-      <category>benchmarks</category>
-      <category>API</category>
-      <category>tool calling</category>
-      <category>multi-agent</category>
-      <pubDate>Fri, 10 Jul 2026 03:46:38 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple’s Classic Mac Era Forays Into ‘Apps as Tiled Buttons’ Simplified Computing: At Ease and Launcher 摘要</title>
-      <link>https://daringfireball.net/2026/07/whats_good_for_the_ios_goose_is_often_not_good_for_the_macos_gander</link>
-      <description>The article reflects on Apple's historical attempts at simplified, tiled-button app launchers in the classic Mac OS era. It highlights At Ease, a product sold in the System 7 era that provided a 'can't mess it up' baby computer mode, and Launcher, introduced in Mac OS 8 as a more power-user-oriented utility that anticipated modern launchers like Alfred and LaunchBar. The author notes they never used At Ease and only vaguely recall Launcher, contrasting these with third-party tools like DragThing.
-
-标签: Apple, Mac OS, At Ease, Launcher, history, UI, app launcher, System 7, Mac OS 8, retro computing</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/07/whats_good_for_the_ios_goose_is_often_not_good_for_the_macos_gander#sha256:bc8fed6c0c139a35</guid>
-      <category>Apple</category>
-      <category>Mac OS</category>
-      <category>At Ease</category>
-      <category>Launcher</category>
+标签: Shakespeare, Henry VI, literary analysis, history, Wars of the Roses, theater, English literature, drama, Renaissance</description>
+      <guid isPermaLink="false">https://www.filfre.net/2026/07/this-week-on-the-analog-antiquarian/#sha256:6b9e80638cf9e0d6</guid>
+      <category>Shakespeare</category>
+      <category>Henry VI</category>
+      <category>literary analysis</category>
       <category>history</category>
-      <category>UI</category>
-      <category>app launcher</category>
-      <category>System 7</category>
-      <category>Mac OS 8</category>
-      <category>retro computing</category>
-      <pubDate>Fri, 10 Jul 2026 03:50:58 +0800</pubDate>
+      <category>Wars of the Roses</category>
+      <category>theater</category>
+      <category>English literature</category>
+      <category>drama</category>
+      <category>Renaissance</category>
+      <pubDate>Sat, 11 Jul 2026 00:20:37 +0800</pubDate>
     </item>
     <item>
-      <title>Today’s the Day OpenAI Fucked Up the ChatGPT Mac App 摘要</title>
-      <link>https://9to5mac.com/2026/07/09/openai-announcing-the-next-chapter-for-chatgpt-today-watch-here/</link>
-      <description>OpenAI announced major changes to its ChatGPT desktop app, rebranding the existing app as ChatGPT Classic and merging Codex into a new ChatGPT superapp that also includes ChatGPT Work and remnants of the discontinued Atlas browser. The new app is a 1.5 GB Electron bundle, significantly larger than the 159 MB native Classic app. Users can still install all three apps, but the new ChatGPT app is the recommended path forward. The changes have been criticized for bloat and loss of native Mac-like design.
+      <title>Adam Brown – A deep but accessible introduction to general relativity 摘要</title>
+      <link>https://www.dwarkesh.com/p/adam-brown-gr</link>
+      <description>Adam Brown, leader of Google DeepMind's Blueshift team, returns to explain the core idea of general relativity: Einstein's realization that gravitational and inertial mass are equivalent, leading to curved spacetime. He discusses black holes, including why they prevent perpetual motion and the differing observations of infalling vs. distant observers. The episode also explores AI's potential to rediscover general relativity from scratch, touching on philosophy of science. Brown distills complex physics into accessible insights, covering the coincidence that sparked Einstein's 'happiest thought' and the experimental evidence for black holes.
 
-标签: OpenAI, ChatGPT, Codex, desktop app, Electron, Mac, product update, bloatware, AI, software</description>
-      <guid isPermaLink="false">https://9to5mac.com/2026/07/09/openai-announcing-the-next-chapter-for-chatgpt-today-watch-here/#sha256:1fd2bfdd82b170e5</guid>
-      <category>OpenAI</category>
-      <category>ChatGPT</category>
-      <category>Codex</category>
-      <category>desktop app</category>
-      <category>Electron</category>
-      <category>Mac</category>
-      <category>product update</category>
-      <category>bloatware</category>
+标签: general relativity, black holes, Einstein, physics, AI, science, podcast, Adam Brown, Google DeepMind, philosophy of science</description>
+      <guid isPermaLink="false">https://www.dwarkesh.com/p/adam-brown-gr#sha256:2e71301c240d2fa4</guid>
+      <category>general relativity</category>
+      <category>black holes</category>
+      <category>Einstein</category>
+      <category>physics</category>
       <category>AI</category>
-      <category>software</category>
-      <pubDate>Fri, 10 Jul 2026 04:13:57 +0800</pubDate>
+      <category>science</category>
+      <category>podcast</category>
+      <category>Adam Brown</category>
+      <category>Google DeepMind</category>
+      <category>philosophy of science</category>
+      <pubDate>Sat, 11 Jul 2026 00:23:56 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Nilay Patel 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything</link>
+      <description>Nilay Patel argues that augmented reality glasses require a camera continuously recording everything the user sees, with data sent to the cloud for real-time processing, as no sufficiently powerful and efficient chip can fit in glasses stems. This creates a fundamental privacy invasion, and he suggests the societal trade-offs may be too high, questioning whether such products should be developed at all.
+
+标签: augmented-reality, privacy, ai-ethics, surveillance, cloud-computing, hardware, society, technology-ethics</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything#sha256:f1bcc810fd2e7a75</guid>
+      <category>augmented-reality</category>
+      <category>privacy</category>
+      <category>ai-ethics</category>
+      <category>surveillance</category>
+      <category>cloud-computing</category>
+      <category>hardware</category>
+      <category>society</category>
+      <category>technology-ethics</category>
+      <pubDate>Sat, 11 Jul 2026 01:05:26 +0800</pubDate>
+    </item>
+    <item>
+      <title>Premium: The Hater's Guide To The Memory Crisis 摘要</title>
+      <link>https://www.wheresyoured.at/premium-the-haters-guide-to-the-memory-crisis/</link>
+      <description>The article argues that AI data center demand for high-bandwidth memory (HBM) and LPDDR5X RAM is driving up costs of consumer electronics. NVIDIA's massive GPU orders consume memory at smartphone-maker scale, straining supply from the Samsung-SK Hynix-Micron triopoly. This has led to price hikes on consoles (Steam Machine, PS5, Xbox, Switch 2), Apple devices, and Android phones. Memory manufacturers report record profits with gross margins exceeding 80%, while a class-action lawsuit accuses them of price-fixing. The author notes this is not consumer-driven but fueled by tech giants' AI capex spending, calling it a dangerous transfer of wealth to memory makers.
+
+标签: AI, memory, HBM, DRAM, NVIDIA, price fixing, consumer electronics, supply chain, oligopoly, tech industry</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/premium-the-haters-guide-to-the-memory-crisis/#sha256:ecf15adb050964fb</guid>
+      <category>AI</category>
+      <category>memory</category>
+      <category>HBM</category>
+      <category>DRAM</category>
+      <category>NVIDIA</category>
+      <category>price fixing</category>
+      <category>consumer electronics</category>
+      <category>supply chain</category>
+      <category>oligopoly</category>
+      <category>tech industry</category>
+      <pubDate>Sat, 11 Jul 2026 01:51:30 +0800</pubDate>
+    </item>
+    <item>
+      <title>Apple Sues OpenAI, io, and Former Employees, Alleging Theft of Trade Secrets 摘要</title>
+      <link>https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/</link>
+      <description>Apple has filed a lawsuit against OpenAI, io Products, and two former employees—Tang Tan (former VP of product design at Apple, now at Jony Ive's io) and Chang Liu (former senior electrical engineer, now at OpenAI)—alleging theft of trade secrets related to consumer hardware. The complaint describes a coordinated effort to exploit Apple's confidential information, including a specific metal-finishing technique. Notably, Apple avoids naming Jony Ive or Evans Hankey directly, though they are involved with io. Apple states the lawsuit is separate from its ChatGPT integration agreement with OpenAI.
+
+标签: Apple, OpenAI, lawsuit, trade secrets, hardware, Jony Ive, io Products, former employees, consumer hardware, legal</description>
+      <guid isPermaLink="false">https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/#sha256:066caf11e3dfaf9f</guid>
+      <category>Apple</category>
+      <category>OpenAI</category>
+      <category>lawsuit</category>
+      <category>trade secrets</category>
+      <category>hardware</category>
+      <category>Jony Ive</category>
+      <category>io Products</category>
+      <category>former employees</category>
+      <category>consumer hardware</category>
+      <category>legal</category>
+      <pubDate>Sat, 11 Jul 2026 05:01:43 +0800</pubDate>
+    </item>
+    <item>
+      <title>Building intuition about LLM parameter counts 摘要</title>
+      <link>https://www.gilesthomas.com/2026/07/llm-parameter-counts</link>
+      <description>The author describes their surprise at discovering that token embeddings and the output head account for nearly half of GPT-2 Small's 163M parameters, while attention layers are often overestimated. They built a GPT-2 in JAX and created a visualizer showing parameter breakdowns across embeddings, attention, FFNs, and output head for different model sizes. The tool allows adjusting weight tying and QKV bias, and demonstrates how large vocabularies can dominate parameter counts, especially in smaller models.
+
+标签: LLM, GPT-2, parameter count, embeddings, attention, feed-forward network, weight tying, JAX, model architecture, visualization</description>
+      <guid isPermaLink="false">https://www.gilesthomas.com/2026/07/llm-parameter-counts#sha256:af1b564a12e1db89</guid>
+      <category>LLM</category>
+      <category>GPT-2</category>
+      <category>parameter count</category>
+      <category>embeddings</category>
+      <category>attention</category>
+      <category>feed-forward network</category>
+      <category>weight tying</category>
+      <category>JAX</category>
+      <category>model architecture</category>
+      <category>visualization</category>
+      <pubDate>Sat, 11 Jul 2026 05:30:00 +0800</pubDate>
     </item>
   </channel>
 </rss>
