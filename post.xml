@@ -8,118 +8,117 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Jul 2026 08:02:48 +0800</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 08:02:48 +0800</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 08:00:28 +0800</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 08:00:28 +0800</pubDate>
     <item>
-      <title>This Week on The Analog Antiquarian 摘要</title>
-      <link>https://www.filfre.net/2026/07/this-week-on-the-analog-antiquarian/</link>
-      <description>This article is part of a series examining Shakespeare's Henry VI, Part 3, focusing on its historical context, themes, and literary significance. It explores the play's depiction of the Wars of the Roses, character dynamics, and how Shakespeare adapted historical events for dramatic effect. The analysis highlights key scenes, political intrigue, and the play's role in the broader Henriad cycle.
+      <title>Gurman on Tang Tan and Paul Meade 摘要</title>
+      <link>https://www.bloomberg.com/news/articles/2026-07-11/openai-engineer-s-lol-moment-set-stage-for-legal-fight-with-apple</link>
+      <description>Apple is suing former executive Tang Tan, accusing him of stealing trade secrets for his new AI startup. Bloomberg's Mark Gurman reports that Apple was alarmed by OpenAI's recruiting, which poached senior hardware and design leaders, including smart glasses chief Paul Meade in June 2025. Meade, who led Vision Pro hardware engineering for seven years, was immediately dismissed without a transition period. Tan, a 25-year Apple veteran known for risk-taking, is at the center of the lawsuit. The departures highlight tensions as AI companies aggressively hire Apple talent.
 
-标签: Shakespeare, Henry VI, literary analysis, history, Wars of the Roses, theater, English literature, drama, Renaissance</description>
-      <guid isPermaLink="false">https://www.filfre.net/2026/07/this-week-on-the-analog-antiquarian/#sha256:6b9e80638cf9e0d6</guid>
-      <category>Shakespeare</category>
-      <category>Henry VI</category>
-      <category>literary analysis</category>
-      <category>history</category>
-      <category>Wars of the Roses</category>
-      <category>theater</category>
-      <category>English literature</category>
-      <category>drama</category>
-      <category>Renaissance</category>
-      <pubDate>Sat, 11 Jul 2026 00:20:37 +0800</pubDate>
-    </item>
-    <item>
-      <title>Adam Brown – A deep but accessible introduction to general relativity 摘要</title>
-      <link>https://www.dwarkesh.com/p/adam-brown-gr</link>
-      <description>Adam Brown, leader of Google DeepMind's Blueshift team, returns to explain the core idea of general relativity: Einstein's realization that gravitational and inertial mass are equivalent, leading to curved spacetime. He discusses black holes, including why they prevent perpetual motion and the differing observations of infalling vs. distant observers. The episode also explores AI's potential to rediscover general relativity from scratch, touching on philosophy of science. Brown distills complex physics into accessible insights, covering the coincidence that sparked Einstein's 'happiest thought' and the experimental evidence for black holes.
-
-标签: general relativity, black holes, Einstein, physics, AI, science, podcast, Adam Brown, Google DeepMind, philosophy of science</description>
-      <guid isPermaLink="false">https://www.dwarkesh.com/p/adam-brown-gr#sha256:2e71301c240d2fa4</guid>
-      <category>general relativity</category>
-      <category>black holes</category>
-      <category>Einstein</category>
-      <category>physics</category>
-      <category>AI</category>
-      <category>science</category>
-      <category>podcast</category>
-      <category>Adam Brown</category>
-      <category>Google DeepMind</category>
-      <category>philosophy of science</category>
-      <pubDate>Sat, 11 Jul 2026 00:23:56 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Nilay Patel 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything</link>
-      <description>Nilay Patel argues that augmented reality glasses require a camera continuously recording everything the user sees, with data sent to the cloud for real-time processing, as no sufficiently powerful and efficient chip can fit in glasses stems. This creates a fundamental privacy invasion, and he suggests the societal trade-offs may be too high, questioning whether such products should be developed at all.
-
-标签: augmented-reality, privacy, ai-ethics, surveillance, cloud-computing, hardware, society, technology-ethics</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything#sha256:f1bcc810fd2e7a75</guid>
-      <category>augmented-reality</category>
-      <category>privacy</category>
-      <category>ai-ethics</category>
-      <category>surveillance</category>
-      <category>cloud-computing</category>
-      <category>hardware</category>
-      <category>society</category>
-      <category>technology-ethics</category>
-      <pubDate>Sat, 11 Jul 2026 01:05:26 +0800</pubDate>
-    </item>
-    <item>
-      <title>Premium: The Hater's Guide To The Memory Crisis 摘要</title>
-      <link>https://www.wheresyoured.at/premium-the-haters-guide-to-the-memory-crisis/</link>
-      <description>The article argues that AI data center demand for high-bandwidth memory (HBM) and LPDDR5X RAM is driving up costs of consumer electronics. NVIDIA's massive GPU orders consume memory at smartphone-maker scale, straining supply from the Samsung-SK Hynix-Micron triopoly. This has led to price hikes on consoles (Steam Machine, PS5, Xbox, Switch 2), Apple devices, and Android phones. Memory manufacturers report record profits with gross margins exceeding 80%, while a class-action lawsuit accuses them of price-fixing. The author notes this is not consumer-driven but fueled by tech giants' AI capex spending, calling it a dangerous transfer of wealth to memory makers.
-
-标签: AI, memory, HBM, DRAM, NVIDIA, price fixing, consumer electronics, supply chain, oligopoly, tech industry</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/premium-the-haters-guide-to-the-memory-crisis/#sha256:ecf15adb050964fb</guid>
-      <category>AI</category>
-      <category>memory</category>
-      <category>HBM</category>
-      <category>DRAM</category>
-      <category>NVIDIA</category>
-      <category>price fixing</category>
-      <category>consumer electronics</category>
-      <category>supply chain</category>
-      <category>oligopoly</category>
-      <category>tech industry</category>
-      <pubDate>Sat, 11 Jul 2026 01:51:30 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Sues OpenAI, io, and Former Employees, Alleging Theft of Trade Secrets 摘要</title>
-      <link>https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/</link>
-      <description>Apple has filed a lawsuit against OpenAI, io Products, and two former employees—Tang Tan (former VP of product design at Apple, now at Jony Ive's io) and Chang Liu (former senior electrical engineer, now at OpenAI)—alleging theft of trade secrets related to consumer hardware. The complaint describes a coordinated effort to exploit Apple's confidential information, including a specific metal-finishing technique. Notably, Apple avoids naming Jony Ive or Evans Hankey directly, though they are involved with io. Apple states the lawsuit is separate from its ChatGPT integration agreement with OpenAI.
-
-标签: Apple, OpenAI, lawsuit, trade secrets, hardware, Jony Ive, io Products, former employees, consumer hardware, legal</description>
-      <guid isPermaLink="false">https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/#sha256:066caf11e3dfaf9f</guid>
+标签: Apple, OpenAI, lawsuit, trade secrets, poaching, AI, smart glasses, Vision Pro, recruiting, Bloomberg</description>
+      <guid isPermaLink="false">https://www.bloomberg.com/news/articles/2026-07-11/openai-engineer-s-lol-moment-set-stage-for-legal-fight-with-apple#sha256:7f2946f0efbe4664</guid>
       <category>Apple</category>
       <category>OpenAI</category>
       <category>lawsuit</category>
       <category>trade secrets</category>
-      <category>hardware</category>
-      <category>Jony Ive</category>
-      <category>io Products</category>
-      <category>former employees</category>
-      <category>consumer hardware</category>
-      <category>legal</category>
-      <pubDate>Sat, 11 Jul 2026 05:01:43 +0800</pubDate>
+      <category>poaching</category>
+      <category>AI</category>
+      <category>smart glasses</category>
+      <category>Vision Pro</category>
+      <category>recruiting</category>
+      <category>Bloomberg</category>
+      <pubDate>Sun, 12 Jul 2026 02:02:17 +0800</pubDate>
     </item>
     <item>
-      <title>Building intuition about LLM parameter counts 摘要</title>
-      <link>https://www.gilesthomas.com/2026/07/llm-parameter-counts</link>
-      <description>The author describes their surprise at discovering that token embeddings and the output head account for nearly half of GPT-2 Small's 163M parameters, while attention layers are often overestimated. They built a GPT-2 in JAX and created a visualizer showing parameter breakdowns across embeddings, attention, FFNs, and output head for different model sizes. The tool allows adjusting weight tying and QKV bias, and demonstrates how large vocabularies can dominate parameter counts, especially in smaller models.
+      <title>★ Exactly Like Om Malik 摘要</title>
+      <link>https://daringfireball.net/2026/07/exactly_like_om_malik</link>
+      <description>A collection of tributes to tech journalist Om Malik, who recently passed away. Fred Vogelstein recounts how Om inspired him to start a newsletter about overlooked tech innovation. Joanna Stern, Casey Newton, Jim Nielsen, and others share personal stories of Om's generosity, mentorship, and persistence. Jason Hiner's book excerpt describes Om's relentless job pursuit at Forbes, where he left daily voicemails and faxes until hired. Andrew Sasaki recalls Om's thoughtful reply to a stranger, signing off with 'Exactly Like Om Malik.' The piece highlights Om's impact on tech journalism and his warm, determined character.
 
-标签: LLM, GPT-2, parameter count, embeddings, attention, feed-forward network, weight tying, JAX, model architecture, visualization</description>
-      <guid isPermaLink="false">https://www.gilesthomas.com/2026/07/llm-parameter-counts#sha256:af1b564a12e1db89</guid>
-      <category>LLM</category>
-      <category>GPT-2</category>
-      <category>parameter count</category>
-      <category>embeddings</category>
-      <category>attention</category>
-      <category>feed-forward network</category>
-      <category>weight tying</category>
-      <category>JAX</category>
-      <category>model architecture</category>
-      <category>visualization</category>
-      <pubDate>Sat, 11 Jul 2026 05:30:00 +0800</pubDate>
+标签: Om Malik, tech journalism, tribute, mentorship, persistence, GigaOm, Forbes, blogging, tech industry, obituary</description>
+      <guid isPermaLink="false">https://daringfireball.net/2026/07/exactly_like_om_malik#sha256:a7982f6d36f8f2a7</guid>
+      <category>Om Malik</category>
+      <category>tech journalism</category>
+      <category>tribute</category>
+      <category>mentorship</category>
+      <category>persistence</category>
+      <category>GigaOm</category>
+      <category>Forbes</category>
+      <category>blogging</category>
+      <category>tech industry</category>
+      <category>obituary</category>
+      <pubDate>Sun, 12 Jul 2026 03:43:35 +0800</pubDate>
+    </item>
+    <item>
+      <title>Progress on Gilbreath’s conjecture 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/07/11/progress-on-gilbreaths-conjecture/</link>
+      <description>Gilbreath's conjecture, a simple yet notoriously difficult problem about prime numbers, has seen new progress via a random model developed by Terence Tao and coauthors. The model mimics the conjecture's behavior and is more amenable to analysis, providing heuristic plausibility. However, Tao notes that making the heuristics rigorous remains far beyond current mathematical techniques. The conjecture, which Paul Erdős speculated might take 200 years to prove, continues to resist solution due to its unusual nature.
+
+标签: mathematics, number theory, Gilbreath conjecture, prime numbers, Terence Tao, random model, open problem, conjecture, heuristics</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/07/11/progress-on-gilbreaths-conjecture/#sha256:5442f3d329ad10c5</guid>
+      <category>mathematics</category>
+      <category>number theory</category>
+      <category>Gilbreath conjecture</category>
+      <category>prime numbers</category>
+      <category>Terence Tao</category>
+      <category>random model</category>
+      <category>open problem</category>
+      <category>conjecture</category>
+      <category>heuristics</category>
+      <pubDate>Sun, 12 Jul 2026 05:30:11 +0800</pubDate>
+    </item>
+    <item>
+      <title>Benedict Evans on the New ‘Super App’ ChatGPT 摘要</title>
+      <link>https://www.threads.com/@benedictevans/post/Dano_uvDr8F</link>
+      <description>Benedict Evans criticizes the new ChatGPT 'super app' as a confusing, disorganized mess, reflecting OpenAI's internal chaos. He contrasts it with the focused old app, noting UI issues like unclear distinctions between projects, tasks, and chats, and a 'Setup' dickbar that persists for non-Slack/Google Drive users. Evans argues the app has a polished veneer but lacks coherence, attributing this to OpenAI's senior executives being consumed by FOMO over Anthropic and prioritizing AI research over product design.
+
+标签: ChatGPT, OpenAI, UI/UX, product design, app review, software quality, organizational culture, tech criticism</description>
+      <guid isPermaLink="false">https://www.threads.com/@benedictevans/post/Dano_uvDr8F#sha256:0d053c6931bc4317</guid>
+      <category>ChatGPT</category>
+      <category>OpenAI</category>
+      <category>UI/UX</category>
+      <category>product design</category>
+      <category>app review</category>
+      <category>software quality</category>
+      <category>organizational culture</category>
+      <category>tech criticism</category>
+      <pubDate>Sun, 12 Jul 2026 06:16:21 +0800</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Help Center Describes What Is Wrong With the New ChatGPT 摘要</title>
+      <link>https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex</link>
+      <description>OpenAI's Help Center describes the availability of Work and Codex features in ChatGPT. Work is accessible on web, mobile, and desktop app for eligible paid plans, with cloud-based conversations on web/mobile and local file support on desktop. Codex is exclusive to the desktop app, working with local development tools, and can be accessed remotely via mobile but does not sync as chat history. The author criticizes this fragmented experience as indicative of deeper issues with the new ChatGPT 'super' app.
+
+标签: OpenAI, ChatGPT, Codex, Work, desktop app, mobile app, cloud, local files, fragmentation, user experience</description>
+      <guid isPermaLink="false">https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex#sha256:664bab1089d347eb</guid>
+      <category>OpenAI</category>
+      <category>ChatGPT</category>
+      <category>Codex</category>
+      <category>Work</category>
+      <category>desktop app</category>
+      <category>mobile app</category>
+      <category>cloud</category>
+      <category>local files</category>
+      <category>fragmentation</category>
+      <category>user experience</category>
+      <pubDate>Sun, 12 Jul 2026 06:24:20 +0800</pubDate>
+    </item>
+    <item>
+      <title>Can Someone Explain to Me How to Get ‘ChatGPT Classic’? 摘要</title>
+      <link>https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app</link>
+      <description>John Gruber criticizes OpenAI's confusing upgrade process from the old ChatGPT Mac app to the new 'super' app. The Help Center suggests a prompt to download the new app, but Gruber never saw it. Manually downloading the disk image and running it while the old app is running fails; only by quitting the old app first does the new one replace it, moving the old to Trash without creating a 'ChatGPT Classic' app. He notes the Help document's hedging language ('may install alongside') reflects confusion. For a billion-user app, this poor user experience is unacceptable.
+
+标签: ChatGPT, OpenAI, Mac app, software update, user experience, app migration, desktop app, confusion, bug</description>
+      <guid isPermaLink="false">https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app#sha256:ec01659a8b800327</guid>
+      <category>ChatGPT</category>
+      <category>OpenAI</category>
+      <category>Mac app</category>
+      <category>software update</category>
+      <category>user experience</category>
+      <category>app migration</category>
+      <category>desktop app</category>
+      <category>confusion</category>
+      <category>bug</category>
+      <pubDate>Sun, 12 Jul 2026 06:38:39 +0800</pubDate>
     </item>
   </channel>
 </rss>
