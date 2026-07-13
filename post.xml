@@ -8,117 +8,211 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 12 Jul 2026 08:00:28 +0800</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 08:00:28 +0800</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 08:00:31 +0800</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 08:00:31 +0800</pubDate>
     <item>
-      <title>Gurman on Tang Tan and Paul Meade 摘要</title>
-      <link>https://www.bloomberg.com/news/articles/2026-07-11/openai-engineer-s-lol-moment-set-stage-for-legal-fight-with-apple</link>
-      <description>Apple is suing former executive Tang Tan, accusing him of stealing trade secrets for his new AI startup. Bloomberg's Mark Gurman reports that Apple was alarmed by OpenAI's recruiting, which poached senior hardware and design leaders, including smart glasses chief Paul Meade in June 2025. Meade, who led Vision Pro hardware engineering for seven years, was immediately dismissed without a transition period. Tan, a 25-year Apple veteran known for risk-taking, is at the center of the lawsuit. The departures highlight tensions as AI companies aggressively hire Apple talent.
+      <title>Lunacy — Jeff Halter’s Lunatic Fringe Player 摘要</title>
+      <link>https://morphing.cloud/lunacy/</link>
+      <description>John Gruber highlights Lunacy, a modern Swift-based player for the classic Mac screensaver game Lunatic Fringe, created by Jeff Halter. Originally part of the More After Dark package, Lunatic Fringe was unique as an interactive space shooter triggered by Caps Lock. Greg Parker's earlier Fringe Player supported PPC and Intel Macs but not modern Apple platforms. Lunacy runs the original module unchanged on current Apple hardware, featuring CRT simulation for an authentic retro look. Gruber praises it as a great revival of one of his favorite classic Mac games.
 
-标签: Apple, OpenAI, lawsuit, trade secrets, poaching, AI, smart glasses, Vision Pro, recruiting, Bloomberg</description>
-      <guid isPermaLink="false">https://www.bloomberg.com/news/articles/2026-07-11/openai-engineer-s-lol-moment-set-stage-for-legal-fight-with-apple#sha256:7f2946f0efbe4664</guid>
-      <category>Apple</category>
-      <category>OpenAI</category>
-      <category>lawsuit</category>
-      <category>trade secrets</category>
-      <category>poaching</category>
+标签: retro gaming, mac, screensaver, emulation, swift, classic mac, game preservation, lunatic fringe, more after dark, crt simulation</description>
+      <guid isPermaLink="false">https://morphing.cloud/lunacy/#sha256:846da930949dcb53</guid>
+      <category>retro gaming</category>
+      <category>mac</category>
+      <category>screensaver</category>
+      <category>emulation</category>
+      <category>swift</category>
+      <category>classic mac</category>
+      <category>game preservation</category>
+      <category>lunatic fringe</category>
+      <category>more after dark</category>
+      <category>crt simulation</category>
+      <pubDate>Mon, 13 Jul 2026 01:19:36 +0800</pubDate>
+    </item>
+    <item>
+      <title>Sam Altman and Elon Musk Argue Over Who’s Running the Bigger Scam 摘要</title>
+      <link>https://x.com/sama/status/2075982617976230043</link>
+      <description>Elon Musk and Sam Altman engaged in a public exchange on Twitter/X, with Musk accusing Altman of scamming and Altman retorting that Musk is selling public market investors on short-term space datacenters. Musk responded by claiming they will start flying space datacenters next year and sarcastically invited Altman to see them if his parole officer approves, also accusing Altman of stealing open source AI charity and Apple's phone technology. The exchange highlights the unusual nature of Twitter/X as a platform for CEOs of major companies.
+
+标签: Elon Musk, Sam Altman, Twitter, public feud, scamming, space datacenters, AI, Apple, tech CEOs, social media</description>
+      <guid isPermaLink="false">https://x.com/sama/status/2075982617976230043#sha256:ccf8b19de5f5db42</guid>
+      <category>Elon Musk</category>
+      <category>Sam Altman</category>
+      <category>Twitter</category>
+      <category>public feud</category>
+      <category>scamming</category>
+      <category>space datacenters</category>
       <category>AI</category>
-      <category>smart glasses</category>
-      <category>Vision Pro</category>
-      <category>recruiting</category>
-      <category>Bloomberg</category>
-      <pubDate>Sun, 12 Jul 2026 02:02:17 +0800</pubDate>
+      <category>Apple</category>
+      <category>tech CEOs</category>
+      <category>social media</category>
+      <pubDate>Mon, 13 Jul 2026 01:45:57 +0800</pubDate>
     </item>
     <item>
-      <title>★ Exactly Like Om Malik 摘要</title>
-      <link>https://daringfireball.net/2026/07/exactly_like_om_malik</link>
-      <description>A collection of tributes to tech journalist Om Malik, who recently passed away. Fred Vogelstein recounts how Om inspired him to start a newsletter about overlooked tech innovation. Joanna Stern, Casey Newton, Jim Nielsen, and others share personal stories of Om's generosity, mentorship, and persistence. Jason Hiner's book excerpt describes Om's relentless job pursuit at Forbes, where he left daily voicemails and faxes until hired. Andrew Sasaki recalls Om's thoughtful reply to a stranger, signing off with 'Exactly Like Om Malik.' The piece highlights Om's impact on tech journalism and his warm, determined character.
+      <title>Posterior mean 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/07/12/posterior-mean/</link>
+      <description>The article explains how Bayesian posterior means are weighted averages of prior means and data means, with weights determined by precision. Three conjugate models illustrate this: normal-normal (precision = reciprocal of variance), beta-binomial (precision = effective sample size), and gamma-Poisson (precision = effective time). In each case, the posterior mean formula reflects a compromise between prior belief and new evidence, where the weight measures confidence in each source. The common thread is that these models belong to the exponential family, where precision corresponds to the multiplicative factor on the sufficient statistic in the posterior kernel.
 
-标签: Om Malik, tech journalism, tribute, mentorship, persistence, GigaOm, Forbes, blogging, tech industry, obituary</description>
-      <guid isPermaLink="false">https://daringfireball.net/2026/07/exactly_like_om_malik#sha256:a7982f6d36f8f2a7</guid>
-      <category>Om Malik</category>
-      <category>tech journalism</category>
-      <category>tribute</category>
-      <category>mentorship</category>
-      <category>persistence</category>
-      <category>GigaOm</category>
-      <category>Forbes</category>
-      <category>blogging</category>
-      <category>tech industry</category>
-      <category>obituary</category>
-      <pubDate>Sun, 12 Jul 2026 03:43:35 +0800</pubDate>
+标签: Bayesian statistics, posterior mean, conjugate prior, normal-normal model, beta-binomial model, gamma-Poisson model, exponential family, precision, prior distribution, data analysis</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/07/12/posterior-mean/#sha256:b80243ac979a0b13</guid>
+      <category>Bayesian statistics</category>
+      <category>posterior mean</category>
+      <category>conjugate prior</category>
+      <category>normal-normal model</category>
+      <category>beta-binomial model</category>
+      <category>gamma-Poisson model</category>
+      <category>exponential family</category>
+      <category>precision</category>
+      <category>prior distribution</category>
+      <category>data analysis</category>
+      <pubDate>Mon, 13 Jul 2026 01:48:14 +0800</pubDate>
     </item>
     <item>
-      <title>Progress on Gilbreath’s conjecture 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/07/11/progress-on-gilbreaths-conjecture/</link>
-      <description>Gilbreath's conjecture, a simple yet notoriously difficult problem about prime numbers, has seen new progress via a random model developed by Terence Tao and coauthors. The model mimics the conjecture's behavior and is more amenable to analysis, providing heuristic plausibility. However, Tao notes that making the heuristics rigorous remains far beyond current mathematical techniques. The conjecture, which Paul Erdős speculated might take 200 years to prove, continues to resist solution due to its unusual nature.
+      <title>TwoMillionKit: Use Private Cloud Compute in MacOS 27 Foundation Models Without an Entitlement 摘要</title>
+      <link>https://github.com/insidegui/TwoMillionKit</link>
+      <description>Guilherme Rambo created TwoMillionKit, a Swift package that allows Mac apps to use Apple's Private Cloud Compute model via the `fm` command-line tool in macOS 27, bypassing Apple's entitlement requirement. The tool works only for non-sandboxed apps distributed outside the Mac App Store. It is a workaround for Apple's current limitation restricting PCC access to small developers with fewer than two million first-time App Store downloads. Rambo warns to use it sparingly and at own risk.
 
-标签: mathematics, number theory, Gilbreath conjecture, prime numbers, Terence Tao, random model, open problem, conjecture, heuristics</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/07/11/progress-on-gilbreaths-conjecture/#sha256:5442f3d329ad10c5</guid>
-      <category>mathematics</category>
-      <category>number theory</category>
-      <category>Gilbreath conjecture</category>
-      <category>prime numbers</category>
-      <category>Terence Tao</category>
-      <category>random model</category>
-      <category>open problem</category>
-      <category>conjecture</category>
-      <category>heuristics</category>
-      <pubDate>Sun, 12 Jul 2026 05:30:11 +0800</pubDate>
+标签: Apple, macOS, Private Cloud Compute, Swift, command-line, AI, inference, entitlement, workaround, TwoMillionKit</description>
+      <guid isPermaLink="false">https://github.com/insidegui/TwoMillionKit#sha256:d412df84d1e50ea6</guid>
+      <category>Apple</category>
+      <category>macOS</category>
+      <category>Private Cloud Compute</category>
+      <category>Swift</category>
+      <category>command-line</category>
+      <category>AI</category>
+      <category>inference</category>
+      <category>entitlement</category>
+      <category>workaround</category>
+      <category>TwoMillionKit</category>
+      <pubDate>Mon, 13 Jul 2026 02:04:05 +0800</pubDate>
     </item>
     <item>
-      <title>Benedict Evans on the New ‘Super App’ ChatGPT 摘要</title>
-      <link>https://www.threads.com/@benedictevans/post/Dano_uvDr8F</link>
-      <description>Benedict Evans criticizes the new ChatGPT 'super app' as a confusing, disorganized mess, reflecting OpenAI's internal chaos. He contrasts it with the focused old app, noting UI issues like unclear distinctions between projects, tasks, and chats, and a 'Setup' dickbar that persists for non-Slack/Google Drive users. Evans argues the app has a polished veneer but lacks coherence, attributing this to OpenAI's senior executives being consumed by FOMO over Anthropic and prioritizing AI research over product design.
+      <title>Posterior variance 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/07/12/posterior-variance/</link>
+      <description>This article explores how posterior variance behaves in Bayesian models, specifically for beta-binomial, normal-normal, and Poisson-gamma models. While additional data generally reduces posterior variance, exceptions exist: in the beta-binomial model, unexpected data can increase variance, though precision always increases. The Poisson-gamma model is particularly interesting because posterior variance increases each time an event is observed (k increases) but decreases quadratically with observation time (t). The author illustrates this with a simulation using a gamma(1,1) prior on λ, showing the variance dynamics over time.
 
-标签: ChatGPT, OpenAI, UI/UX, product design, app review, software quality, organizational culture, tech criticism</description>
-      <guid isPermaLink="false">https://www.threads.com/@benedictevans/post/Dano_uvDr8F#sha256:0d053c6931bc4317</guid>
-      <category>ChatGPT</category>
-      <category>OpenAI</category>
-      <category>UI/UX</category>
-      <category>product design</category>
-      <category>app review</category>
-      <category>software quality</category>
-      <category>organizational culture</category>
-      <category>tech criticism</category>
-      <pubDate>Sun, 12 Jul 2026 06:16:21 +0800</pubDate>
+标签: Bayesian statistics, posterior variance, beta-binomial, normal-normal, Poisson-gamma, precision, prior distribution, posterior distribution, statistical modeling, data analysis</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/07/12/posterior-variance/#sha256:5f2d2131aa0c52ea</guid>
+      <category>Bayesian statistics</category>
+      <category>posterior variance</category>
+      <category>beta-binomial</category>
+      <category>normal-normal</category>
+      <category>Poisson-gamma</category>
+      <category>precision</category>
+      <category>prior distribution</category>
+      <category>posterior distribution</category>
+      <category>statistical modeling</category>
+      <category>data analysis</category>
+      <pubDate>Mon, 13 Jul 2026 03:26:29 +0800</pubDate>
     </item>
     <item>
-      <title>OpenAI Help Center Describes What Is Wrong With the New ChatGPT 摘要</title>
-      <link>https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex</link>
-      <description>OpenAI's Help Center describes the availability of Work and Codex features in ChatGPT. Work is accessible on web, mobile, and desktop app for eligible paid plans, with cloud-based conversations on web/mobile and local file support on desktop. Codex is exclusive to the desktop app, working with local development tools, and can be accessed remotely via mobile but does not sync as chat history. The author criticizes this fragmented experience as indicative of deeper issues with the new ChatGPT 'super' app.
+      <title>‘Every Frame Perfect’ 摘要</title>
+      <link>https://tonsky.me/blog/every-frame-perfect/</link>
+      <description>Nikita Prokopov advocates for a 'every frame perfect' approach to UI design, arguing that every visible state of an app should be explainable. This builds user trust, as polished UI signals careful code craftsmanship. Practical implications include avoiding white flashes, partial content, layout shifts, internal inconsistencies, and janky animations. Even if users don't notice frame-by-frame, the discipline prevents corner-cutting elsewhere.
 
-标签: OpenAI, ChatGPT, Codex, Work, desktop app, mobile app, cloud, local files, fragmentation, user experience</description>
-      <guid isPermaLink="false">https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex#sha256:664bab1089d347eb</guid>
-      <category>OpenAI</category>
-      <category>ChatGPT</category>
-      <category>Codex</category>
-      <category>Work</category>
-      <category>desktop app</category>
-      <category>mobile app</category>
-      <category>cloud</category>
-      <category>local files</category>
-      <category>fragmentation</category>
+标签: UI, UX, design, craftsmanship, animation, quality, frontend, user experience, polish, development</description>
+      <guid isPermaLink="false">https://tonsky.me/blog/every-frame-perfect/#sha256:b248006eda34ea9a</guid>
+      <category>UI</category>
+      <category>UX</category>
+      <category>design</category>
+      <category>craftsmanship</category>
+      <category>animation</category>
+      <category>quality</category>
+      <category>frontend</category>
       <category>user experience</category>
-      <pubDate>Sun, 12 Jul 2026 06:24:20 +0800</pubDate>
+      <category>polish</category>
+      <category>development</category>
+      <pubDate>Mon, 13 Jul 2026 03:48:09 +0800</pubDate>
     </item>
     <item>
-      <title>Can Someone Explain to Me How to Get ‘ChatGPT Classic’? 摘要</title>
-      <link>https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app</link>
-      <description>John Gruber criticizes OpenAI's confusing upgrade process from the old ChatGPT Mac app to the new 'super' app. The Help Center suggests a prompt to download the new app, but Gruber never saw it. Manually downloading the disk image and running it while the old app is running fails; only by quitting the old app first does the new one replace it, moving the old to Trash without creating a 'ChatGPT Classic' app. He notes the Help document's hedging language ('may install alongside') reflects confusion. For a billion-user app, this poor user experience is unacceptable.
+      <title>How UIs Degrade Over Time 摘要</title>
+      <link>https://grumpy.website/1723</link>
+      <description>The article discusses the degradation of user interface design over time, using Windows and MacOS alerts as examples. It notes that system UI chrome, which once improved in clarity, is now declining in quality across platforms. The author finds this trend inexplicable, highlighting a broader issue of UI degradation in modern operating systems.
 
-标签: ChatGPT, OpenAI, Mac app, software update, user experience, app migration, desktop app, confusion, bug</description>
-      <guid isPermaLink="false">https://help.openai.com/en/articles/20001276-moving-to-the-new-chatgpt-desktop-app#sha256:ec01659a8b800327</guid>
-      <category>ChatGPT</category>
+标签: UI, UX, design, Windows, MacOS, degradation, user interface, operating systems, clarity</description>
+      <guid isPermaLink="false">https://grumpy.website/1723#sha256:76af296b33b28326</guid>
+      <category>UI</category>
+      <category>UX</category>
+      <category>design</category>
+      <category>Windows</category>
+      <category>MacOS</category>
+      <category>degradation</category>
+      <category>user interface</category>
+      <category>operating systems</category>
+      <category>clarity</category>
+      <pubDate>Mon, 13 Jul 2026 03:51:16 +0800</pubDate>
+    </item>
+    <item>
+      <title>sqlite-utils 4.1.1 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything</link>
+      <description>sqlite-utils 4.1.1 released. The `table.transform()` method now raises a `TransactionError` if called during an open transaction with `PRAGMA foreign_keys` enabled and the table is referenced by foreign keys with destructive `ON DELETE` actions (CASCADE, SET NULL, SET DEFAULT), preventing silent data loss. Additionally, the CLI and Python API documentation now cross-reference each other for easier navigation.
+
+标签: sqlite, sqlite-utils, python, database, release, bug-fix, documentation, transactions, foreign-keys</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything#sha256:6a7788cc8fee82f5</guid>
+      <category>sqlite</category>
+      <category>sqlite-utils</category>
+      <category>python</category>
+      <category>database</category>
+      <category>release</category>
+      <category>bug-fix</category>
+      <category>documentation</category>
+      <category>transactions</category>
+      <category>foreign-keys</category>
+      <pubDate>Mon, 13 Jul 2026 04:55:30 +0800</pubDate>
+    </item>
+    <item>
+      <title>Paulo Andrade: ‘A WWDC 27 Update on Building a Mac-Assed App With SwiftUI’ 摘要</title>
+      <link>https://pfandrade.me/blog/swiftui-mac-assed-wwdc27-update/</link>
+      <description>Paulo Andrade's previous post on building a Mac-assed SwiftUI app gained significant traction, being mentioned on Mastodon, iOS Dev Weekly, Swift Blog Carnival, and by John Gruber on Daring Fireball. Apple engineers reached out, leading to email exchanges and radar filings. After WWDC 27, Andrade acknowledges progress but maintains that SwiftUI, now seven years old, still doesn't make it easy to create great Mac apps.
+
+标签: SwiftUI, macOS, app development, Apple, WWDC, Daring Fireball, Mac-assed, UI framework, developer experience</description>
+      <guid isPermaLink="false">https://pfandrade.me/blog/swiftui-mac-assed-wwdc27-update/#sha256:ddfa7ce4199e12ac</guid>
+      <category>SwiftUI</category>
+      <category>macOS</category>
+      <category>app development</category>
+      <category>Apple</category>
+      <category>WWDC</category>
+      <category>Daring Fireball</category>
+      <category>Mac-assed</category>
+      <category>UI framework</category>
+      <category>developer experience</category>
+      <pubDate>Mon, 13 Jul 2026 05:18:24 +0800</pubDate>
+    </item>
+    <item>
+      <title>Fable gets another bump 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/12/bump/#atom-everything</link>
+      <description>Anthropic has again extended the availability of Claude Fable 5 on paid plans through July 19, citing compute constraints and the need to assess demand. Users can use up to half their weekly limit on Fable 5, then switch models or use credits. Meanwhile, OpenAI has removed the 5-hour usage limit for GPT-5.6 Sol on Plus, Business, and Pro plans, and is improving efficiency to reduce usage consumption. OpenAI has reached 6 million active users. The author argues Anthropic should make Fable permanently available to avoid losing users to OpenAI due to access uncertainty.
+
+标签: Anthropic, OpenAI, Claude, GPT, AI models, pricing, compute constraints, usage limits, generative AI, LLMs</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/12/bump/#atom-everything#sha256:c0c39ae048df7d50</guid>
+      <category>Anthropic</category>
       <category>OpenAI</category>
-      <category>Mac app</category>
-      <category>software update</category>
-      <category>user experience</category>
-      <category>app migration</category>
-      <category>desktop app</category>
-      <category>confusion</category>
-      <category>bug</category>
-      <pubDate>Sun, 12 Jul 2026 06:38:39 +0800</pubDate>
+      <category>Claude</category>
+      <category>GPT</category>
+      <category>AI models</category>
+      <category>pricing</category>
+      <category>compute constraints</category>
+      <category>usage limits</category>
+      <category>generative AI</category>
+      <category>LLMs</category>
+      <pubDate>Mon, 13 Jul 2026 05:20:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>WorkOS Pipes 摘要</title>
+      <link>https://workos.com/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link>
+      <description>WorkOS Pipes is a service that simplifies third-party integrations by providing a single API call to connect with over 100 providers like GitHub, Slack, Salesforce, and Google Drive. It handles OAuth flows, token refresh, and credential storage, allowing developers to focus on product code instead of integration infrastructure. The service is sponsored by WorkOS and featured on Daring Fireball.
+
+标签: WorkOS, API, OAuth, integration, developer tools, SaaS, authentication, productivity</description>
+      <guid isPermaLink="false">https://workos.com/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026#sha256:865390c4f3b5de1d</guid>
+      <category>WorkOS</category>
+      <category>API</category>
+      <category>OAuth</category>
+      <category>integration</category>
+      <category>developer tools</category>
+      <category>SaaS</category>
+      <category>authentication</category>
+      <category>productivity</category>
+      <pubDate>Mon, 13 Jul 2026 06:17:54 +0800</pubDate>
     </item>
   </channel>
 </rss>
