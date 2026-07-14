@@ -8,45 +8,144 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Jul 2026 07:58:21 +0800</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 07:58:21 +0800</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 07:57:59 +0800</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 07:57:59 +0800</pubDate>
     <item>
-      <title>datasette code-frequency chart on GitHub 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything</link>
-      <description>Simon Willison explores the impact of coding agents and advanced AI models on his productivity by analyzing the GitHub code frequency chart for his Datasette project. The chart shows sporadic bursts of activity from 2018 to 2026, with the largest spike in 2026 (37,022 additions, -9,528 deletions) coinciding with models like Opus 4.8, GPT-5.5, Fable 5, and GPT-5.6 Sol. This suggests that AI-assisted programming significantly boosts code output, especially in later years.
-
-标签: datasette, github, ai, generative-ai, llms, ai-assisted-programming, coding-agents, productivity, open-source, code-frequency</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything#sha256:6e0864decf69d01c</guid>
-      <category>datasette</category>
-      <category>github</category>
-      <category>ai</category>
-      <category>generative-ai</category>
-      <category>llms</category>
-      <category>ai-assisted-programming</category>
-      <category>coding-agents</category>
-      <category>productivity</category>
-      <category>open-source</category>
-      <category>code-frequency</category>
-      <pubDate>Tue, 14 Jul 2026 05:45:27 +0800</pubDate>
+      <title>I'm still alive 摘要</title>
+      <link>https://buttondown.com/hillelwayne/archive/im-still-alive/</link>
+      <description>暂无摘要</description>
+      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/im-still-alive/#sha256:cb63936f969eede0</guid>
+      <pubDate>Wed, 15 Jul 2026 00:15:07 +0800</pubDate>
     </item>
     <item>
-      <title>DOOMQL 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/13/doomql/#atom-everything</link>
-      <description>DOOMQL is a Doom-like game built by Peter Gostev using GPT-5.6 Sol, where SQLite serves as the game engine for movement, collision, enemies, combat, and rendering. It runs as a Python terminal script and uses a recursive CTE to implement a full ray tracer in SQL. Simon Willison extended it by creating a Datasette App that displays the game screen and a tactical map, refreshing every second via SQL queries on the underlying SQLite database.
+      <title>datasette 1.0a37 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/14/datasette/#atom-everything</link>
+      <description>Datasette 1.0a37 is a minor release focusing on performance and documentation improvements to the permissions system. It also reverts a cosmetic API change that was causing nearly all existing plugin test suites to break, ensuring backward compatibility.
 
-标签: games, sql, sqlite, ai, datasette, generative-ai, llms, ai-assisted-programming, gpt, datasette-apps</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/13/doomql/#atom-everything#sha256:13398c056f9c68d1</guid>
-      <category>games</category>
-      <category>sql</category>
-      <category>sqlite</category>
-      <category>ai</category>
+标签: datasette, release, performance, documentation, permissions, API, backward compatibility, plugins, testing, open-source</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/datasette/#atom-everything#sha256:77be5f5069ce5fdf</guid>
       <category>datasette</category>
-      <category>generative-ai</category>
+      <category>release</category>
+      <category>performance</category>
+      <category>documentation</category>
+      <category>permissions</category>
+      <category>API</category>
+      <category>backward compatibility</category>
+      <category>plugins</category>
+      <category>testing</category>
+      <category>open-source</category>
+      <pubDate>Wed, 15 Jul 2026 00:31:41 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Armin Ronacher 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything</link>
+      <description>Armin Ronacher argues that the shared language of a software project is not English or Python but a common understanding of concepts, boundaries, invariants, ownership, and system shape. This language lives in documentation, code, reviews, conversations, and arguments. Before AI agents, friction in coordination (e.g., reading code, asking questions) helped synchronize understanding among team members. While some friction was waste, some was essential for transferring knowledge and ensuring agreement. The rise of coding agents may reduce this friction, potentially undermining the shared understanding that holds software projects together.
+
+标签: ai, software-engineering, llms, coding-agents, ai-assisted-programming, generative-ai, agentic-engineering, team-collaboration, shared-understanding, friction</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything#sha256:214d655f17d4b43b</guid>
+      <category>ai</category>
+      <category>software-engineering</category>
       <category>llms</category>
+      <category>coding-agents</category>
       <category>ai-assisted-programming</category>
-      <category>gpt</category>
-      <category>datasette-apps</category>
-      <pubDate>Tue, 14 Jul 2026 06:34:41 +0800</pubDate>
+      <category>generative-ai</category>
+      <category>agentic-engineering</category>
+      <category>team-collaboration</category>
+      <category>shared-understanding</category>
+      <category>friction</category>
+      <pubDate>Wed, 15 Jul 2026 02:04:23 +0800</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Patches a Record 570 Security Flaws 摘要</title>
+      <link>https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/</link>
+      <description>Microsoft's July 2026 Patch Tuesday fixes a record 570+ vulnerabilities, nearly triple last month's count, with AI accelerating discovery. 60 bugs are critical, including three zero-days under active exploitation (two privilege escalation flaws in Active Directory Federation Services and SharePoint, and a BitLocker bypass). A critical Copilot RCE (CVSS 9.6) allows code execution via crafted prompts. Experts warn Microsoft's exploitability index lags behind AI-driven attacks, as Anthropic's AI produced exploits for 13 of 14 flaws rated 'less likely.' Other vendors (Adobe, Cisco, Google) also increase patch frequency due to AI.
+
+标签: Microsoft, Patch Tuesday, security, zero-day, AI, vulnerability, Windows, Copilot, BitLocker, exploitability</description>
+      <guid isPermaLink="false">https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/#sha256:ddf7cd945425ce34</guid>
+      <category>Microsoft</category>
+      <category>Patch Tuesday</category>
+      <category>security</category>
+      <category>zero-day</category>
+      <category>AI</category>
+      <category>vulnerability</category>
+      <category>Windows</category>
+      <category>Copilot</category>
+      <category>BitLocker</category>
+      <category>exploitability</category>
+      <pubDate>Wed, 15 Jul 2026 03:22:42 +0800</pubDate>
+    </item>
+    <item>
+      <title>lobste.rs is now running on SQLite 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything</link>
+      <description>Lobste.rs, a community link-aggregation site, has migrated its database from MariaDB to SQLite after years of planning. Originally targeting PostgreSQL, the team switched to SQLite last year. The migration, completed this weekend, resulted in reduced CPU and memory usage, improved site responsiveness, and halved VPS costs by eliminating the separate MariaDB server. The Rails application now runs on a single VPS with a 3.8GB primary SQLite database, plus separate cache, queue, and rate-limiting databases. The migration PR added 735 lines and removed 593 lines across 30 commits. This serves as a case study for using SQLite in production at scale.
+
+标签: SQLite, Lobsters, database migration, Rails, MariaDB, ops, performance, case study, web development, open source</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything#sha256:bc6878e2d5c0425d</guid>
+      <category>SQLite</category>
+      <category>Lobsters</category>
+      <category>database migration</category>
+      <category>Rails</category>
+      <category>MariaDB</category>
+      <category>ops</category>
+      <category>performance</category>
+      <category>case study</category>
+      <category>web development</category>
+      <category>open source</category>
+      <pubDate>Wed, 15 Jul 2026 03:44:11 +0800</pubDate>
+    </item>
+    <item>
+      <title>simonw/pedalican 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything</link>
+      <description>Simon Willison accidentally discovered Codex Desktop's 'pet' feature, a customizable animated assistant reminiscent of Clippy. He created a custom pet named Pedalican, a pelican riding a bicycle, using GPT-5.6 Sol and gpt-image-2 to generate sprite assets. The process involved iterative image generation for animation frames, with all steps documented in a GitHub repository. The underlying implementation is open source via OpenAI's hatch-pet and imagegen skills. This demonstrates a practical use of AI image generation for creating game-ready sprites.
+
+标签: AI, Codex, gpt-image-2, image generation, prompt engineering, sprites, animation, open source, GPT-5.6, creative coding</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything#sha256:2455a34189ca1695</guid>
+      <category>AI</category>
+      <category>Codex</category>
+      <category>gpt-image-2</category>
+      <category>image generation</category>
+      <category>prompt engineering</category>
+      <category>sprites</category>
+      <category>animation</category>
+      <category>open source</category>
+      <category>GPT-5.6</category>
+      <category>creative coding</category>
+      <pubDate>Wed, 15 Jul 2026 06:29:45 +0800</pubDate>
+    </item>
+    <item>
+      <title>They Prefer the App 摘要</title>
+      <link>https://idiallo.com/blog/they-prefer-the-app</link>
+      <description>The author argues that many mobile apps, especially those for schools and information display, are unnecessary and could be replaced by simple websites. Apps often block basic web features like copy-paste and linking, require constant updates, and are primarily designed for data harvesting. Despite the web's capabilities, most people prefer apps, viewing websites as mere previews. The author feels part of a minority who recognize that many apps are just oversized wrappers around websites, but acknowledges that the majority happily download apps for tasks the web handles better.
+
+标签: web vs apps, mobile apps, privacy, user experience, progressive web apps, technology criticism, digital habits, data harvesting</description>
+      <guid isPermaLink="false">https://idiallo.com/blog/they-prefer-the-app#sha256:8836da1ce2029738</guid>
+      <category>web vs apps</category>
+      <category>mobile apps</category>
+      <category>privacy</category>
+      <category>user experience</category>
+      <category>progressive web apps</category>
+      <category>technology criticism</category>
+      <category>digital habits</category>
+      <category>data harvesting</category>
+      <pubDate>Wed, 15 Jul 2026 06:35:36 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting GitHub Changeling 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything</link>
+      <description>GitHub's Dependabot now defaults to a three-day cooldown before opening version update pull requests, waiting until a new release has been available on its registry for at least three days. This change requires no configuration and aims to reduce noise and potential issues from prematurely updating to unstable releases. The feature is part of a broader trend toward dependency cooldowns in the packaging ecosystem, enhancing security and stability by allowing time for community feedback before automatic updates.
+
+标签: dependabot, github, dependency-cooldowns, packaging, security, version-updates, devops, automation, software-supply-chain</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything#sha256:b565b4ca46edce13</guid>
+      <category>dependabot</category>
+      <category>github</category>
+      <category>dependency-cooldowns</category>
+      <category>packaging</category>
+      <category>security</category>
+      <category>version-updates</category>
+      <category>devops</category>
+      <category>automation</category>
+      <category>software-supply-chain</category>
+      <pubDate>Wed, 15 Jul 2026 06:43:35 +0800</pubDate>
     </item>
   </channel>
 </rss>
