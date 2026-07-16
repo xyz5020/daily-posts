@@ -8,144 +8,100 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 15 Jul 2026 07:57:59 +0800</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 07:57:59 +0800</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 08:02:51 +0800</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 08:02:51 +0800</pubDate>
     <item>
-      <title>I'm still alive 摘要</title>
-      <link>https://buttondown.com/hillelwayne/archive/im-still-alive/</link>
-      <description>暂无摘要</description>
-      <guid isPermaLink="false">https://buttondown.com/hillelwayne/archive/im-still-alive/#sha256:cb63936f969eede0</guid>
-      <pubDate>Wed, 15 Jul 2026 00:15:07 +0800</pubDate>
-    </item>
-    <item>
-      <title>datasette 1.0a37 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/14/datasette/#atom-everything</link>
-      <description>Datasette 1.0a37 is a minor release focusing on performance and documentation improvements to the permissions system. It also reverts a cosmetic API change that was causing nearly all existing plugin test suites to break, ensuring backward compatibility.
+      <title>The OpenAI Bubble 摘要</title>
+      <link>https://www.wheresyoured.at/the-openai-bubble/</link>
+      <description>This article argues that the AI bubble is fundamentally an OpenAI bubble, with the company's survival underpinning trillions in capital expenditure. OpenAI plans to burn over $852 billion by 2030, accounting for the majority of hyperscaler RPOs and global AI compute spend. The author contends that without OpenAI's collapse—akin to Lehman Brothers—the industry remains in a state of cult-like psychosis, justifying massive capital misallocation. The piece traces OpenAI's role in reviving a struggling tech industry post-2022, with ChatGPT's success enabling hyperscalers to justify unprecedented GPU spending and infrastructure buildouts.
 
-标签: datasette, release, performance, documentation, permissions, API, backward compatibility, plugins, testing, open-source</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/datasette/#atom-everything#sha256:77be5f5069ce5fdf</guid>
-      <category>datasette</category>
-      <category>release</category>
-      <category>performance</category>
-      <category>documentation</category>
-      <category>permissions</category>
-      <category>API</category>
-      <category>backward compatibility</category>
-      <category>plugins</category>
-      <category>testing</category>
-      <category>open-source</category>
-      <pubDate>Wed, 15 Jul 2026 00:31:41 +0800</pubDate>
-    </item>
-    <item>
-      <title>Quoting Armin Ronacher 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything</link>
-      <description>Armin Ronacher argues that the shared language of a software project is not English or Python but a common understanding of concepts, boundaries, invariants, ownership, and system shape. This language lives in documentation, code, reviews, conversations, and arguments. Before AI agents, friction in coordination (e.g., reading code, asking questions) helped synchronize understanding among team members. While some friction was waste, some was essential for transferring knowledge and ensuring agreement. The rise of coding agents may reduce this friction, potentially undermining the shared understanding that holds software projects together.
-
-标签: ai, software-engineering, llms, coding-agents, ai-assisted-programming, generative-ai, agentic-engineering, team-collaboration, shared-understanding, friction</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything#sha256:214d655f17d4b43b</guid>
-      <category>ai</category>
-      <category>software-engineering</category>
-      <category>llms</category>
-      <category>coding-agents</category>
-      <category>ai-assisted-programming</category>
-      <category>generative-ai</category>
-      <category>agentic-engineering</category>
-      <category>team-collaboration</category>
-      <category>shared-understanding</category>
-      <category>friction</category>
-      <pubDate>Wed, 15 Jul 2026 02:04:23 +0800</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Patches a Record 570 Security Flaws 摘要</title>
-      <link>https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/</link>
-      <description>Microsoft's July 2026 Patch Tuesday fixes a record 570+ vulnerabilities, nearly triple last month's count, with AI accelerating discovery. 60 bugs are critical, including three zero-days under active exploitation (two privilege escalation flaws in Active Directory Federation Services and SharePoint, and a BitLocker bypass). A critical Copilot RCE (CVSS 9.6) allows code execution via crafted prompts. Experts warn Microsoft's exploitability index lags behind AI-driven attacks, as Anthropic's AI produced exploits for 13 of 14 flaws rated 'less likely.' Other vendors (Adobe, Cisco, Google) also increase patch frequency due to AI.
-
-标签: Microsoft, Patch Tuesday, security, zero-day, AI, vulnerability, Windows, Copilot, BitLocker, exploitability</description>
-      <guid isPermaLink="false">https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/#sha256:ddf7cd945425ce34</guid>
-      <category>Microsoft</category>
-      <category>Patch Tuesday</category>
-      <category>security</category>
-      <category>zero-day</category>
+标签: AI, OpenAI, AI bubble, capital expenditure, tech industry, Sam Altman, NVIDIA, hyperscalers, ChatGPT, investment</description>
+      <guid isPermaLink="false">https://www.wheresyoured.at/the-openai-bubble/#sha256:7fce34f2bebcfbf5</guid>
       <category>AI</category>
-      <category>vulnerability</category>
-      <category>Windows</category>
-      <category>Copilot</category>
-      <category>BitLocker</category>
-      <category>exploitability</category>
-      <pubDate>Wed, 15 Jul 2026 03:22:42 +0800</pubDate>
+      <category>OpenAI</category>
+      <category>AI bubble</category>
+      <category>capital expenditure</category>
+      <category>tech industry</category>
+      <category>Sam Altman</category>
+      <category>NVIDIA</category>
+      <category>hyperscalers</category>
+      <category>ChatGPT</category>
+      <category>investment</category>
+      <pubDate>Thu, 16 Jul 2026 00:55:56 +0800</pubDate>
     </item>
     <item>
-      <title>lobste.rs is now running on SQLite 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything</link>
-      <description>Lobste.rs, a community link-aggregation site, has migrated its database from MariaDB to SQLite after years of planning. Originally targeting PostgreSQL, the team switched to SQLite last year. The migration, completed this weekend, resulted in reduced CPU and memory usage, improved site responsiveness, and halved VPS costs by eliminating the separate MariaDB server. The Rails application now runs on a single VPS with a 3.8GB primary SQLite database, plus separate cache, queue, and rate-limiting databases. The migration PR added 735 lines and removed 593 lines across 30 commits. This serves as a case study for using SQLite in production at scale.
+      <title>Apple Intelligence OK’d to Launch in China, Using AI Models from Baidu and Alibaba 摘要</title>
+      <link>https://www.scmp.com/tech/policy/article/3360685/china-approves-apple-intelligence-phones-alibaba-baidu-emerging-partners</link>
+      <description>Chinese regulators have granted Apple a license to launch Apple Intelligence in China, with Alibaba's Qwen model and Baidu's AI serving as technical partners. The Cyberspace Administration of China published the notice on Wednesday, also approving six other smartphone-based AI services from Samsung and Huawei. Alibaba confirmed its model will be integrated into iOS, iPadOS, macOS, and visionOS for Chinese users, enabling text and image generation. Baidu is also collaborating with Apple on AI features. The approval covers the initial Apple Intelligence announced two years ago, but it remains unclear if it extends to the recently announced Siri AI.
 
-标签: SQLite, Lobsters, database migration, Rails, MariaDB, ops, performance, case study, web development, open source</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything#sha256:bc6878e2d5c0425d</guid>
-      <category>SQLite</category>
-      <category>Lobsters</category>
-      <category>database migration</category>
-      <category>Rails</category>
-      <category>MariaDB</category>
-      <category>ops</category>
-      <category>performance</category>
-      <category>case study</category>
-      <category>web development</category>
-      <category>open source</category>
-      <pubDate>Wed, 15 Jul 2026 03:44:11 +0800</pubDate>
-    </item>
-    <item>
-      <title>simonw/pedalican 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything</link>
-      <description>Simon Willison accidentally discovered Codex Desktop's 'pet' feature, a customizable animated assistant reminiscent of Clippy. He created a custom pet named Pedalican, a pelican riding a bicycle, using GPT-5.6 Sol and gpt-image-2 to generate sprite assets. The process involved iterative image generation for animation frames, with all steps documented in a GitHub repository. The underlying implementation is open source via OpenAI's hatch-pet and imagegen skills. This demonstrates a practical use of AI image generation for creating game-ready sprites.
-
-标签: AI, Codex, gpt-image-2, image generation, prompt engineering, sprites, animation, open source, GPT-5.6, creative coding</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything#sha256:2455a34189ca1695</guid>
+标签: Apple, Apple Intelligence, China, AI, Alibaba, Baidu, regulation, smartphone, LLM, technology</description>
+      <guid isPermaLink="false">https://www.scmp.com/tech/policy/article/3360685/china-approves-apple-intelligence-phones-alibaba-baidu-emerging-partners#sha256:5e737a2b09eeabcc</guid>
+      <category>Apple</category>
+      <category>Apple Intelligence</category>
+      <category>China</category>
       <category>AI</category>
-      <category>Codex</category>
-      <category>gpt-image-2</category>
-      <category>image generation</category>
-      <category>prompt engineering</category>
-      <category>sprites</category>
-      <category>animation</category>
-      <category>open source</category>
-      <category>GPT-5.6</category>
-      <category>creative coding</category>
-      <pubDate>Wed, 15 Jul 2026 06:29:45 +0800</pubDate>
+      <category>Alibaba</category>
+      <category>Baidu</category>
+      <category>regulation</category>
+      <category>smartphone</category>
+      <category>LLM</category>
+      <category>technology</category>
+      <pubDate>Thu, 16 Jul 2026 06:35:18 +0800</pubDate>
     </item>
     <item>
-      <title>They Prefer the App 摘要</title>
-      <link>https://idiallo.com/blog/they-prefer-the-app</link>
-      <description>The author argues that many mobile apps, especially those for schools and information display, are unnecessary and could be replaced by simple websites. Apps often block basic web features like copy-paste and linking, require constant updates, and are primarily designed for data harvesting. Despite the web's capabilities, most people prefer apps, viewing websites as mere previews. The author feels part of a minority who recognize that many apps are just oversized wrappers around websites, but acknowledges that the majority happily download apps for tasks the web handles better.
+      <title>Apple Updates Advertising Services Policy With New Rules for Ads in Maps 摘要</title>
+      <link>https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/</link>
+      <description>Apple published a new Advertising Services policy effective July 14, 2026, outlining rules for ads on Apple Maps. The policy prohibits home services businesses (plumbing, electrical, locksmith, HVAC, pest control, roofing, general contracting) and also bans deceptive, profane, political, weapon, violence, controlled substance, and defamatory ads. Apple's initial approach positions Maps ads as curated and navigation-focused rather than an extension of web search, though it may expand categories later. Critics argue the easiest way to avoid scammy ads is not to sell them in Maps at all.
 
-标签: web vs apps, mobile apps, privacy, user experience, progressive web apps, technology criticism, digital habits, data harvesting</description>
-      <guid isPermaLink="false">https://idiallo.com/blog/they-prefer-the-app#sha256:8836da1ce2029738</guid>
-      <category>web vs apps</category>
-      <category>mobile apps</category>
+标签: Apple, Apple Maps, advertising, policy, home services, scams, tech news, regulation</description>
+      <guid isPermaLink="false">https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/#sha256:6f54c236f3c3da5d</guid>
+      <category>Apple</category>
+      <category>Apple Maps</category>
+      <category>advertising</category>
+      <category>policy</category>
+      <category>home services</category>
+      <category>scams</category>
+      <category>tech news</category>
+      <category>regulation</category>
+      <pubDate>Thu, 16 Jul 2026 06:48:20 +0800</pubDate>
+    </item>
+    <item>
+      <title>Eric Seufert: ‘Did Apple Just Signal a Third-Party Expansion of Apple Ads?’ 摘要</title>
+      <link>https://mobiledevmemo.com/did-apple-just-signal-a-third-party-expansion-of-apple-ads/</link>
+      <description>Eric Seufert analyzes Apple's updated language in its advertising terms, which now includes 'other properties' beyond Apple-owned services. This broad phrasing suggests Apple may expand its advertising business to third-party surfaces, such as smart TVs and streaming devices. Seufert notes this expansion would explain why Apple did not update its AdAttributionKit (AAK) at WWDC 2026, as a third-party ad network would require a different attribution framework. The move could significantly increase Apple's advertising revenue and market reach.
+
+标签: Apple, advertising, privacy, attribution, AdAttributionKit, WWDC, third-party, expansion, mobile, tech</description>
+      <guid isPermaLink="false">https://mobiledevmemo.com/did-apple-just-signal-a-third-party-expansion-of-apple-ads/#sha256:4f1646d5e848ce71</guid>
+      <category>Apple</category>
+      <category>advertising</category>
       <category>privacy</category>
-      <category>user experience</category>
-      <category>progressive web apps</category>
-      <category>technology criticism</category>
-      <category>digital habits</category>
-      <category>data harvesting</category>
-      <pubDate>Wed, 15 Jul 2026 06:35:36 +0800</pubDate>
+      <category>attribution</category>
+      <category>AdAttributionKit</category>
+      <category>WWDC</category>
+      <category>third-party</category>
+      <category>expansion</category>
+      <category>mobile</category>
+      <category>tech</category>
+      <pubDate>Thu, 16 Jul 2026 06:52:22 +0800</pubDate>
     </item>
     <item>
-      <title>Quoting GitHub Changeling 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything</link>
-      <description>GitHub's Dependabot now defaults to a three-day cooldown before opening version update pull requests, waiting until a new release has been available on its registry for at least three days. This change requires no configuration and aims to reduce noise and potential issues from prematurely updating to unstable releases. The feature is part of a broader trend toward dependency cooldowns in the packaging ecosystem, enhancing security and stability by allowing time for community feedback before automatic updates.
+      <title>Gurman on OpenAI’s Upcoming Hardware Product: ‘Movable, Screenless Speaker Built as AI Companion’ 摘要</title>
+      <link>https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA2MjAxMywiZXhwIjoxNzg0NjY2ODEzLCJhcnRpY2xlSWQiOiJUSTYwSllUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.DfRN0afk0TFIaHFw9zEKYjehnfMsZfKC7gPoVos8WPI&amp;leadSource=article-gifting</link>
+      <description>Bloomberg's Mark Gurman reports that OpenAI's upcoming hardware product is a movable, screenless speaker designed as an AI companion with a humanlike personality. It incorporates moving mechanical elements to feel alive, uses personal data like emails to understand users, and has a rechargeable battery for portability across rooms. The goal is to create a physical manifestation of ChatGPT. However, commentator John Gruber criticizes the design, arguing that if it can move, it should be autonomous like Star Wars droids, and that a device requiring manual carrying is not a true companion.
 
-标签: dependabot, github, dependency-cooldowns, packaging, security, version-updates, devops, automation, software-supply-chain</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything#sha256:b565b4ca46edce13</guid>
-      <category>dependabot</category>
-      <category>github</category>
-      <category>dependency-cooldowns</category>
-      <category>packaging</category>
-      <category>security</category>
-      <category>version-updates</category>
-      <category>devops</category>
-      <category>automation</category>
-      <category>software-supply-chain</category>
-      <pubDate>Wed, 15 Jul 2026 06:43:35 +0800</pubDate>
+标签: OpenAI, hardware, AI companion, smart speaker, ChatGPT, robotics, product design, Bloomberg, Gurman, Gruber</description>
+      <guid isPermaLink="false">https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA2MjAxMywiZXhwIjoxNzg0NjY2ODEzLCJhcnRpY2xlSWQiOiJUSTYwSllUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.DfRN0afk0TFIaHFw9zEKYjehnfMsZfKC7gPoVos8WPI&amp;leadSource=article-gifting#sha256:e912995ed9579ca1</guid>
+      <category>OpenAI</category>
+      <category>hardware</category>
+      <category>AI companion</category>
+      <category>smart speaker</category>
+      <category>ChatGPT</category>
+      <category>robotics</category>
+      <category>product design</category>
+      <category>Bloomberg</category>
+      <category>Gurman</category>
+      <category>Gruber</category>
+      <pubDate>Thu, 16 Jul 2026 07:02:54 +0800</pubDate>
     </item>
   </channel>
 </rss>
