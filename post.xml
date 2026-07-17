@@ -8,100 +8,174 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Jul 2026 08:02:51 +0800</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 08:02:51 +0800</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 08:03:57 +0800</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 08:03:57 +0800</pubDate>
     <item>
-      <title>The OpenAI Bubble 摘要</title>
-      <link>https://www.wheresyoured.at/the-openai-bubble/</link>
-      <description>This article argues that the AI bubble is fundamentally an OpenAI bubble, with the company's survival underpinning trillions in capital expenditure. OpenAI plans to burn over $852 billion by 2030, accounting for the majority of hyperscaler RPOs and global AI compute spend. The author contends that without OpenAI's collapse—akin to Lehman Brothers—the industry remains in a state of cult-like psychosis, justifying massive capital misallocation. The piece traces OpenAI's role in reviving a struggling tech industry post-2022, with ChatGPT's success enabling hyperscalers to justify unprecedented GPU spending and infrastructure buildouts.
+      <title>OpenAI Releases Codex Micro, a Stupid $230 Hardware Keypad 摘要</title>
+      <link>https://openai.com/supply/co-lab/work-louder/</link>
+      <description>OpenAI, after announcing a focus on core product and avoiding distractions, has released a $230 hardware keypad called Codex Micro for use with their Codex tool. This follows their earlier purchase of the TBPN YouTube show for hundreds of millions. Critics, including Quinn Nelson, mock the product as unnecessary since laptops already have built-in keyboards and trackpads. The keypad is seen as another distraction from OpenAI's stated goal of simplifying and refocusing their user experience.
 
-标签: AI, OpenAI, AI bubble, capital expenditure, tech industry, Sam Altman, NVIDIA, hyperscalers, ChatGPT, investment</description>
-      <guid isPermaLink="false">https://www.wheresyoured.at/the-openai-bubble/#sha256:7fce34f2bebcfbf5</guid>
-      <category>AI</category>
-      <category>OpenAI</category>
-      <category>AI bubble</category>
-      <category>capital expenditure</category>
-      <category>tech industry</category>
-      <category>Sam Altman</category>
-      <category>NVIDIA</category>
-      <category>hyperscalers</category>
-      <category>ChatGPT</category>
-      <category>investment</category>
-      <pubDate>Thu, 16 Jul 2026 00:55:56 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Intelligence OK’d to Launch in China, Using AI Models from Baidu and Alibaba 摘要</title>
-      <link>https://www.scmp.com/tech/policy/article/3360685/china-approves-apple-intelligence-phones-alibaba-baidu-emerging-partners</link>
-      <description>Chinese regulators have granted Apple a license to launch Apple Intelligence in China, with Alibaba's Qwen model and Baidu's AI serving as technical partners. The Cyberspace Administration of China published the notice on Wednesday, also approving six other smartphone-based AI services from Samsung and Huawei. Alibaba confirmed its model will be integrated into iOS, iPadOS, macOS, and visionOS for Chinese users, enabling text and image generation. Baidu is also collaborating with Apple on AI features. The approval covers the initial Apple Intelligence announced two years ago, but it remains unclear if it extends to the recently announced Siri AI.
-
-标签: Apple, Apple Intelligence, China, AI, Alibaba, Baidu, regulation, smartphone, LLM, technology</description>
-      <guid isPermaLink="false">https://www.scmp.com/tech/policy/article/3360685/china-approves-apple-intelligence-phones-alibaba-baidu-emerging-partners#sha256:5e737a2b09eeabcc</guid>
-      <category>Apple</category>
-      <category>Apple Intelligence</category>
-      <category>China</category>
-      <category>AI</category>
-      <category>Alibaba</category>
-      <category>Baidu</category>
-      <category>regulation</category>
-      <category>smartphone</category>
-      <category>LLM</category>
-      <category>technology</category>
-      <pubDate>Thu, 16 Jul 2026 06:35:18 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Updates Advertising Services Policy With New Rules for Ads in Maps 摘要</title>
-      <link>https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/</link>
-      <description>Apple published a new Advertising Services policy effective July 14, 2026, outlining rules for ads on Apple Maps. The policy prohibits home services businesses (plumbing, electrical, locksmith, HVAC, pest control, roofing, general contracting) and also bans deceptive, profane, political, weapon, violence, controlled substance, and defamatory ads. Apple's initial approach positions Maps ads as curated and navigation-focused rather than an extension of web search, though it may expand categories later. Critics argue the easiest way to avoid scammy ads is not to sell them in Maps at all.
-
-标签: Apple, Apple Maps, advertising, policy, home services, scams, tech news, regulation</description>
-      <guid isPermaLink="false">https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/#sha256:6f54c236f3c3da5d</guid>
-      <category>Apple</category>
-      <category>Apple Maps</category>
-      <category>advertising</category>
-      <category>policy</category>
-      <category>home services</category>
-      <category>scams</category>
-      <category>tech news</category>
-      <category>regulation</category>
-      <pubDate>Thu, 16 Jul 2026 06:48:20 +0800</pubDate>
-    </item>
-    <item>
-      <title>Eric Seufert: ‘Did Apple Just Signal a Third-Party Expansion of Apple Ads?’ 摘要</title>
-      <link>https://mobiledevmemo.com/did-apple-just-signal-a-third-party-expansion-of-apple-ads/</link>
-      <description>Eric Seufert analyzes Apple's updated language in its advertising terms, which now includes 'other properties' beyond Apple-owned services. This broad phrasing suggests Apple may expand its advertising business to third-party surfaces, such as smart TVs and streaming devices. Seufert notes this expansion would explain why Apple did not update its AdAttributionKit (AAK) at WWDC 2026, as a third-party ad network would require a different attribution framework. The move could significantly increase Apple's advertising revenue and market reach.
-
-标签: Apple, advertising, privacy, attribution, AdAttributionKit, WWDC, third-party, expansion, mobile, tech</description>
-      <guid isPermaLink="false">https://mobiledevmemo.com/did-apple-just-signal-a-third-party-expansion-of-apple-ads/#sha256:4f1646d5e848ce71</guid>
-      <category>Apple</category>
-      <category>advertising</category>
-      <category>privacy</category>
-      <category>attribution</category>
-      <category>AdAttributionKit</category>
-      <category>WWDC</category>
-      <category>third-party</category>
-      <category>expansion</category>
-      <category>mobile</category>
-      <category>tech</category>
-      <pubDate>Thu, 16 Jul 2026 06:52:22 +0800</pubDate>
-    </item>
-    <item>
-      <title>Gurman on OpenAI’s Upcoming Hardware Product: ‘Movable, Screenless Speaker Built as AI Companion’ 摘要</title>
-      <link>https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA2MjAxMywiZXhwIjoxNzg0NjY2ODEzLCJhcnRpY2xlSWQiOiJUSTYwSllUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.DfRN0afk0TFIaHFw9zEKYjehnfMsZfKC7gPoVos8WPI&amp;leadSource=article-gifting</link>
-      <description>Bloomberg's Mark Gurman reports that OpenAI's upcoming hardware product is a movable, screenless speaker designed as an AI companion with a humanlike personality. It incorporates moving mechanical elements to feel alive, uses personal data like emails to understand users, and has a rechargeable battery for portability across rooms. The goal is to create a physical manifestation of ChatGPT. However, commentator John Gruber criticizes the design, arguing that if it can move, it should be autonomous like Star Wars droids, and that a device requiring manual carrying is not a true companion.
-
-标签: OpenAI, hardware, AI companion, smart speaker, ChatGPT, robotics, product design, Bloomberg, Gurman, Gruber</description>
-      <guid isPermaLink="false">https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4NDA2MjAxMywiZXhwIjoxNzg0NjY2ODEzLCJhcnRpY2xlSWQiOiJUSTYwSllUOU5KTFMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.DfRN0afk0TFIaHFw9zEKYjehnfMsZfKC7gPoVos8WPI&amp;leadSource=article-gifting#sha256:e912995ed9579ca1</guid>
+标签: OpenAI, hardware, keypad, Codex, product launch, criticism, distraction, superapp, tech news, absurdity</description>
+      <guid isPermaLink="false">https://openai.com/supply/co-lab/work-louder/#sha256:180eb85f52672717</guid>
       <category>OpenAI</category>
       <category>hardware</category>
-      <category>AI companion</category>
-      <category>smart speaker</category>
-      <category>ChatGPT</category>
-      <category>robotics</category>
-      <category>product design</category>
+      <category>keypad</category>
+      <category>Codex</category>
+      <category>product launch</category>
+      <category>criticism</category>
+      <category>distraction</category>
+      <category>superapp</category>
+      <category>tech news</category>
+      <category>absurdity</category>
+      <pubDate>Fri, 17 Jul 2026 01:45:59 +0800</pubDate>
+    </item>
+    <item>
+      <title>Quoting Thibault Sottiaux 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything</link>
+      <description>Thibault Sottiaux reports that GPT-5.6's Codex agent has been unexpectedly deleting files in certain scenarios. The issue occurs when full access mode is enabled without sandboxing or auto review, the model attempts to override the $HOME environment variable to define a temporary directory, and then mistakenly deletes $HOME instead. This highlights risks of giving AI coding agents unrestricted file system access.
+
+标签: codex, coding-agents, generative-ai, ai, llms, safety, file-deletion, bug, gpt-5.6, sandboxing</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything#sha256:980462f23469029b</guid>
+      <category>codex</category>
+      <category>coding-agents</category>
+      <category>generative-ai</category>
+      <category>ai</category>
+      <category>llms</category>
+      <category>safety</category>
+      <category>file-deletion</category>
+      <category>bug</category>
+      <category>gpt-5.6</category>
+      <category>sandboxing</category>
+      <pubDate>Fri, 17 Jul 2026 01:45:59 +0800</pubDate>
+    </item>
+    <item>
+      <title>Louie Mantia: ‘The Shape of Apps’ 摘要</title>
+      <link>https://parakeet.co/blog/the-shape-of-apps/</link>
+      <description>Louie Mantia discusses the squircle mandate for Mac app icons, arguing that while it improves mediocre icons, it also restricts great ones, pushing them toward mediocrity. He prefers Apple allowing designers to poke outside the squircle boundary, noting that some favorite icons did that, but least-favorite ones ignored the shape entirely. Despite the loss, he acknowledges multiple ways to design within the squircle. The piece defends Apple's direction in unifying app icon design.
+
+标签: app icons, squircle, Apple, design, Mac, iOS, UI, icon design, controversy, platform design</description>
+      <guid isPermaLink="false">https://parakeet.co/blog/the-shape-of-apps/#sha256:e391c32f5ed59d2c</guid>
+      <category>app icons</category>
+      <category>squircle</category>
+      <category>Apple</category>
+      <category>design</category>
+      <category>Mac</category>
+      <category>iOS</category>
+      <category>UI</category>
+      <category>icon design</category>
+      <category>controversy</category>
+      <category>platform design</category>
+      <pubDate>Fri, 17 Jul 2026 02:07:28 +0800</pubDate>
+    </item>
+    <item>
+      <title>Pluralistic: Deranged billionaires and their syndromes (16 Jul 2026) 摘要</title>
+      <link>https://pluralistic.net/2026/07/16/lucky-orifices/</link>
+      <description>The article critiques how billionaires and neoclassical economists rationalize monopoly power through theories like 'consumer welfare,' 'revealed preferences,' and 'meritocracy.' It argues that successful capitalists often become rentiers who use captured institutions to defend their wealth, contradicting market ideals. The author links leftist and pro-market critiques of monopoly, emphasizing that without competitive pressure, profits become rents. The piece also touches on regulatory capture, the fallacy of revealed preferences under coercion, and the Puritan roots of meritocracy as a justification for inequality.
+
+标签: billionaires, monopoly, neoclassical economics, regulatory capture, meritocracy, antitrust, market theory, political economy, inequality, capitalism</description>
+      <guid isPermaLink="false">https://pluralistic.net/2026/07/16/lucky-orifices/#sha256:ac9203e0ea4539a8</guid>
+      <category>billionaires</category>
+      <category>monopoly</category>
+      <category>neoclassical economics</category>
+      <category>regulatory capture</category>
+      <category>meritocracy</category>
+      <category>antitrust</category>
+      <category>market theory</category>
+      <category>political economy</category>
+      <category>inequality</category>
+      <category>capitalism</category>
+      <pubDate>Fri, 17 Jul 2026 02:13:07 +0800</pubDate>
+    </item>
+    <item>
+      <title>Lawyer for Apple Mixed Up Two OpenAI Employees’ Names, Sent One Email to the Wrong Guy, Back in February 摘要</title>
+      <link>https://www.nbcnews.com/tech/apple/apple-openai-lawsuit-suit-trade-product-hardware-email-sam-altman-rcna587376</link>
+      <description>Apple's lawsuit against OpenAI alleges trade secret theft and claims OpenAI never responded to concerns raised in February. However, NBC News reviewed emails showing OpenAI did respond, but communications stalled after Apple's outside counsel, Gabriel Gross, mistakenly emailed an OpenAI employee named Chang instead of Wang, confusing the two. Gross apologized, but OpenAI's general counsel asked Apple to remove him from the case, which Apple declined. OpenAI claims the issue was resolved after Gross's apology, but the author argues this does not refute Apple's claim of no substantive response to their initial letter.
+
+标签: Apple, OpenAI, lawsuit, trade secrets, legal, email mix-up, NBC News, corporate dispute</description>
+      <guid isPermaLink="false">https://www.nbcnews.com/tech/apple/apple-openai-lawsuit-suit-trade-product-hardware-email-sam-altman-rcna587376#sha256:ebfee6971dddba2c</guid>
+      <category>Apple</category>
+      <category>OpenAI</category>
+      <category>lawsuit</category>
+      <category>trade secrets</category>
+      <category>legal</category>
+      <category>email mix-up</category>
+      <category>NBC News</category>
+      <category>corporate dispute</category>
+      <pubDate>Fri, 17 Jul 2026 03:34:13 +0800</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Takes a Second Crack at a Response to Apple’s Trade Secret Theft Lawsuit 摘要</title>
+      <link>https://www.bloomberg.com/news/articles/2026-07-14/openai-says-it-s-not-aware-of-any-evidence-that-apple-lawsuit-has-merit</link>
+      <description>OpenAI responded to a trade secret theft lawsuit from Apple, stating they are unaware of any evidence supporting the complaint's merit. The phrasing 'not aware of any evidence' is noted as a curious and weaker defense than outright denial. This follows a previous similar response, suggesting a pattern in OpenAI's legal strategy.
+
+标签: OpenAI, Apple, lawsuit, trade secrets, legal, response, Bloomberg, tech</description>
+      <guid isPermaLink="false">https://www.bloomberg.com/news/articles/2026-07-14/openai-says-it-s-not-aware-of-any-evidence-that-apple-lawsuit-has-merit#sha256:a63d58792bfa5eb0</guid>
+      <category>OpenAI</category>
+      <category>Apple</category>
+      <category>lawsuit</category>
+      <category>trade secrets</category>
+      <category>legal</category>
+      <category>response</category>
       <category>Bloomberg</category>
-      <category>Gurman</category>
-      <category>Gruber</category>
-      <pubDate>Thu, 16 Jul 2026 07:02:54 +0800</pubDate>
+      <category>tech</category>
+      <pubDate>Fri, 17 Jul 2026 03:44:47 +0800</pubDate>
+    </item>
+    <item>
+      <title>Kimi K3, and what we can still learn from the pelican benchmark 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything</link>
+      <description>Moonshot AI released Kimi K3, a 2.8 trillion parameter model (rounded to 3T), claiming it as the first open 3T-class model. It outperforms Claude Opus 4.8 and GPT-5.5 on self-reported benchmarks but trails Claude Fable 5 and GPT-5.6 Sol. Pricing is $3/M input and $15/M output tokens, making it the most expensive Chinese AI model. The model excels in frontend code generation and long-horizon knowledge tasks. Simon Willison tested it via OpenRouter, generating an SVG of a pelican riding a bicycle, costing $0.25. He notes the model's heavy reasoning token usage and hidden system prompt, while praising its vision capabilities.
+
+标签: AI, LLM, Moonshot AI, Kimi K3, model release, benchmarks, pricing, open weights, reasoning, vision</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything#sha256:7e49ed0653cffe06</guid>
+      <category>AI</category>
+      <category>LLM</category>
+      <category>Moonshot AI</category>
+      <category>Kimi K3</category>
+      <category>model release</category>
+      <category>benchmarks</category>
+      <category>pricing</category>
+      <category>open weights</category>
+      <category>reasoning</category>
+      <category>vision</category>
+      <pubDate>Fri, 17 Jul 2026 04:19:30 +0800</pubDate>
+    </item>
+    <item>
+      <title>Dithering: ‘Apple Sues OpenAI’ 摘要</title>
+      <link>https://dithering.passport.online/member/episode/apple-sues-open-ai</link>
+      <description>John Gruber promotes a free episode of the Dithering podcast, where he and Ben Thompson discuss Apple's lawsuit against OpenAI. Gruber offers a unique perspective on the case, differing from mainstream commentary. The episode is available for free on the web, though not via RSS. He encourages subscriptions to Dithering ($7/month or $70/year, or included with Stratechery Plus), which releases two 15-minute episodes weekly.
+
+标签: Apple, OpenAI, lawsuit, podcast, Dithering, John Gruber, Ben Thompson, Stratechery, tech news, AI</description>
+      <guid isPermaLink="false">https://dithering.passport.online/member/episode/apple-sues-open-ai#sha256:14089a2d2de96a9b</guid>
+      <category>Apple</category>
+      <category>OpenAI</category>
+      <category>lawsuit</category>
+      <category>podcast</category>
+      <category>Dithering</category>
+      <category>John Gruber</category>
+      <category>Ben Thompson</category>
+      <category>Stratechery</category>
+      <category>tech news</category>
+      <category>AI</category>
+      <pubDate>Fri, 17 Jul 2026 07:28:09 +0800</pubDate>
+    </item>
+    <item>
+      <title>Firefox in WebAssembly 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything</link>
+      <description>Puter compiled Firefox to WebAssembly, enabling the entire browser to run inside another browser. The project used Firefox/Gecko for its strong single-process support and cost an estimated $25,000 in Claude Opus and Fable tokens via a Claude Max subscription. Traffic is proxied through Puter's server using the Wisp protocol over WebSocket, supporting end-to-end encryption. The demo loads a 233MB gecko.wasm and 18MB chrome-assets.tar.zst. The source code is available on GitHub, and a similar project compiles WebKit to WASM.
+
+标签: Firefox, WebAssembly, browser, WASM, Puter, Claude, AI-assisted programming, WebSocket, Wisp protocol, end-to-end encryption</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything#sha256:4d7427a1bc35af63</guid>
+      <category>Firefox</category>
+      <category>WebAssembly</category>
+      <category>browser</category>
+      <category>WASM</category>
+      <category>Puter</category>
+      <category>Claude</category>
+      <category>AI-assisted programming</category>
+      <category>WebSocket</category>
+      <category>Wisp protocol</category>
+      <category>end-to-end encryption</category>
+      <pubDate>Fri, 17 Jul 2026 07:34:16 +0800</pubDate>
     </item>
   </channel>
 </rss>
