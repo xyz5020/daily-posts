@@ -8,228 +8,83 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Jul 2026 07:57:26 +0800</lastBuildDate>
-    <pubDate>Sat, 18 Jul 2026 07:57:26 +0800</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2026 07:58:33 +0800</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2026 07:58:33 +0800</pubDate>
     <item>
-      <title>Visualizing Medical Code Hierarchy 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/07/17/visualizing-medical-code-hierarchy/</link>
-      <description>This post visualizes the distribution of HCPCS and ICD-10 medical codes by their starting letter using treemaps created with Python's squarify library. The treemaps show the number of codes beginning with each letter, with square sizes proportional to code counts. For HCPCS, codes starting with G, J, L, A, and E are most common, while R and U are omitted due to small counts. For ICD-10, S, T, M, V, and H dominate, with U omitted. The code used to generate the treemaps is provided, differing only in the data dictionary for each code set.
+      <title>SQLite Query Explainer 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything</link>
+      <description>Simon Willison built an interactive SQLite query explainer tool that runs SQLite in Python via Pyodide in Web Assembly in the browser. Inspired by Julia Evans' admission of difficulty reading query plans, the tool adds explanatory layers to EXPLAIN and EXPLAIN QUERY PLAN results. Willison cautions that he cannot fully verify the explanations himself but finds them plausible. The tool is available on his website and was built using Fable.
 
-标签: Python, squarify, treemap, HCPCS, ICD-10, medical codes, data visualization, matplotlib, healthcare, coding</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/07/17/visualizing-medical-code-hierarchy/#sha256:ccc87334bb0ff371</guid>
-      <category>Python</category>
-      <category>squarify</category>
-      <category>treemap</category>
-      <category>HCPCS</category>
-      <category>ICD-10</category>
-      <category>medical codes</category>
-      <category>data visualization</category>
-      <category>matplotlib</category>
-      <category>healthcare</category>
-      <category>coding</category>
-      <pubDate>Sat, 18 Jul 2026 00:12:31 +0800</pubDate>
-    </item>
-    <item>
-      <title>Happy iCal Day 摘要</title>
-      <link>https://www.threads.com/@joannastern/post/Da5rgIvjrLM</link>
-      <description>Joanna Stern explains why the calendar emoji (📅) is correct today, July 17, which is iCal Day. The date references the original iCal announcement by Apple in 2002. The post also notes the tear-off calendar emoji (📆) is appropriate as well.
-
-标签: emoji, calendar, iCal, Apple, technology, history, anniversary</description>
-      <guid isPermaLink="false">https://www.threads.com/@joannastern/post/Da5rgIvjrLM#sha256:6ec62a56ce30d83a</guid>
-      <category>emoji</category>
-      <category>calendar</category>
-      <category>iCal</category>
-      <category>Apple</category>
-      <category>technology</category>
-      <category>history</category>
-      <category>anniversary</category>
-      <pubDate>Sat, 18 Jul 2026 00:55:59 +0800</pubDate>
-    </item>
-    <item>
-      <title>ArtfulType: Markdown Writing App for the 68K Macintosh 摘要</title>
-      <link>https://github.com/ActionRetro/ArtfulType</link>
-      <description>Sean Malseed created ArtfulType, a Markdown editor for the original 68K Macintosh, written in C using the Retro68 compiler. The app features a full-screen, distraction-free mode, which the author criticizes as un-Mac-like, preferring windowed interfaces like BBEdit. BBEdit, originally used for Markdown, won't run on early Macs with limited memory or older System versions. The author acknowledges the retro appeal but questions the practicality of using a Mac that can't run System 6.
-
-标签: Markdown, Macintosh, retro computing, editor, BBEdit, 68K, Retro68, C programming, distraction-free, vintage software</description>
-      <guid isPermaLink="false">https://github.com/ActionRetro/ArtfulType#sha256:deda15241af0e970</guid>
-      <category>Markdown</category>
-      <category>Macintosh</category>
-      <category>retro computing</category>
-      <category>editor</category>
-      <category>BBEdit</category>
-      <category>68K</category>
-      <category>Retro68</category>
-      <category>C programming</category>
-      <category>distraction-free</category>
-      <category>vintage software</category>
-      <pubDate>Sat, 18 Jul 2026 01:05:20 +0800</pubDate>
-    </item>
-    <item>
-      <title>BBEdit 16 摘要</title>
-      <link>https://www.barebones.com/products/bbedit/bbedit16.html</link>
-      <description>BBEdit 16 was released just before WWDC, featuring expanded Shortcuts support, text search in images, W3C HTML syntax checker, and vi keyboard emulation. New licenses cost $60, upgrades from v15 are $30, and from older versions $40. A Mac App Store subscription is available for $5/month or $50/year. The release notes are thoroughly documented.
-
-标签: BBEdit, text editor, macOS, Shortcuts, HTML, vi emulation, software update, pricing</description>
-      <guid isPermaLink="false">https://www.barebones.com/products/bbedit/bbedit16.html#sha256:59b438068c2a341f</guid>
-      <category>BBEdit</category>
-      <category>text editor</category>
-      <category>macOS</category>
-      <category>Shortcuts</category>
-      <category>HTML</category>
-      <category>vi emulation</category>
-      <category>software update</category>
-      <category>pricing</category>
-      <pubDate>Sat, 18 Jul 2026 01:31:11 +0800</pubDate>
-    </item>
-    <item>
-      <title>Linus Torvalds: ‘AI Is a Tool, Just Like Other Tools We Use. And It’s Clearly a Useful One.’ 摘要</title>
-      <link>https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/</link>
-      <description>Linus Torvalds, the top-level maintainer of Linux, firmly states that Linux is not an anti-AI project. He acknowledges that some people dislike AI, but he is willing to put his foot down on this issue. Torvalds views AI as a tool, similar to other tools used in development, and asserts that its usefulness is no longer in question, unlike a year ago. He suggests that those who disagree can fork the project or walk away. Torvalds also notes that while there are other questions about AI, such as its economic impact, its utility is now undeniable.
-
-标签: Linus Torvalds, Linux, AI, open source, technology, development, tools, maintainer, controversy, opinion</description>
-      <guid isPermaLink="false">https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/#sha256:9fb0ba1a1c8356b4</guid>
-      <category>Linus Torvalds</category>
-      <category>Linux</category>
-      <category>AI</category>
-      <category>open source</category>
-      <category>technology</category>
-      <category>development</category>
+标签: sqlite, sql, tools, query-plan, pyodide, webassembly, browser, julia-evans, simon-willison, fable</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything#sha256:858d7c1615b19574</guid>
+      <category>sqlite</category>
+      <category>sql</category>
       <category>tools</category>
-      <category>maintainer</category>
-      <category>controversy</category>
-      <category>opinion</category>
-      <pubDate>Sat, 18 Jul 2026 02:13:16 +0800</pubDate>
+      <category>query-plan</category>
+      <category>pyodide</category>
+      <category>webassembly</category>
+      <category>browser</category>
+      <category>julia-evans</category>
+      <category>simon-willison</category>
+      <category>fable</category>
+      <pubDate>Sun, 19 Jul 2026 01:19:10 +0800</pubDate>
     </item>
     <item>
-      <title>OpenAI Starts Cleaning Up the Utter Mess It Made of ChatGPT 摘要</title>
-      <link>https://x.com/thsottiaux/status/2077928427936710901</link>
-      <description>OpenAI's engineering lead Thibault Sottiaux announced updates to the new ChatGPT desktop app, including visible conversation history in the sidebar, sync across platforms, and easier switching between Chat and Work modes. However, the rollout has been heavily criticized. The new app is a 1.5 GB Electron-based monstrosity, and the update process is confusing: the old app's update button may do nothing if the new app was installed, requiring manual installation of 'ChatGPT Classic'. The situation is compared to the New Coke fiasco.
+      <title>Make It Work vs. Make It Good 摘要</title>
+      <link>https://blog.jim-nielsen.com/2026/make-it-work-make-it-good/</link>
+      <description>The author describes an internal conflict between wanting to be a designer and a developer. Making something 'work' is easier and often receives more praise for its novelty, while making something 'good' requires nuanced, multi-disciplinary effort that is often met with ambivalence because good design appears obvious in hindsight. The article uses the example of making a website responsive: getting it to work is simple and applauded, but making it a truly good experience across devices, accessibility, and performance is much harder. The author concludes that 'make it work' is the first 90% of the work, and 'make it good' is the other 90%.
 
-标签: OpenAI, ChatGPT, desktop app, software update, Electron, UI/UX, criticism, bloatware, sync, product management</description>
-      <guid isPermaLink="false">https://x.com/thsottiaux/status/2077928427936710901#sha256:d6a46d61e89e9497</guid>
-      <category>OpenAI</category>
-      <category>ChatGPT</category>
-      <category>desktop app</category>
-      <category>software update</category>
-      <category>Electron</category>
-      <category>UI/UX</category>
-      <category>criticism</category>
-      <category>bloatware</category>
-      <category>sync</category>
-      <category>product management</category>
-      <pubDate>Sat, 18 Jul 2026 03:10:43 +0800</pubDate>
-    </item>
-    <item>
-      <title>MG Siegler: ‘OpenAI Makes ChatGPT ChatGPT Again’ 摘要</title>
-      <link>https://spyglass.org/chatgpt-brings-back-chatgpt/</link>
-      <description>MG Siegler criticizes OpenAI's rollout of merging Codex into ChatGPT, arguing the new app is bloated and confusing. He notes that while OpenAI quickly fixed some issues, the fundamental problem remains: renaming Codex to 'ChatGPT' and adding complexity alienates the core user base who loved ChatGPT's simplicity. The author agrees, calling the decision a 'colossal fuck-up' and suggesting OpenAI should revert to separate apps or rename Codex to 'ChatGPT Codex' instead. He blames AI researchers making product decisions without understanding user needs, comparing it to replacing Apple's Messages app with Xcode renamed 'Messages'.
-
-标签: OpenAI, ChatGPT, Codex, product design, user experience, tech criticism, app redesign, AI products, branding, software bloat</description>
-      <guid isPermaLink="false">https://spyglass.org/chatgpt-brings-back-chatgpt/#sha256:d5b03d3d3ffe1c8b</guid>
-      <category>OpenAI</category>
-      <category>ChatGPT</category>
-      <category>Codex</category>
-      <category>product design</category>
+标签: design, development, craft, quality, user experience, web development, responsive design, perception, effort, taste</description>
+      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/make-it-work-make-it-good/#sha256:d25601e7dc78563f</guid>
+      <category>design</category>
+      <category>development</category>
+      <category>craft</category>
+      <category>quality</category>
       <category>user experience</category>
-      <category>tech criticism</category>
-      <category>app redesign</category>
-      <category>AI products</category>
-      <category>branding</category>
-      <category>software bloat</category>
-      <pubDate>Sat, 18 Jul 2026 03:48:53 +0800</pubDate>
+      <category>web development</category>
+      <category>responsive design</category>
+      <category>perception</category>
+      <category>effort</category>
+      <category>taste</category>
+      <pubDate>Sun, 19 Jul 2026 03:00:00 +0800</pubDate>
     </item>
     <item>
-      <title>OpenAI’s Product Shake-Up Put the Complexifiers in Charge 摘要</title>
-      <link>https://www.wired.com/story/openai-reorg-greg-brockman-product/</link>
-      <description>OpenAI has reorganized its product teams, merging ChatGPT, Codex, and the developer API under a single core product group led by Codex head Thibault Sottiaux. The author criticizes this move, arguing that Codex is sprawling and confusing, and that putting its leaders in charge has injected ChatGPT with the same lack of focus. They contrast this with ChatGPT's earlier clarity and coherence, and criticize the trend of complex AI products like Claude, which have multiple overlapping features. The author concludes that these products only appear coherent but are actually poorly integrated.
+      <title>What's the deal with all the random weekly quota resets for agents lately? 摘要</title>
+      <link>https://minimaxir.com/2026/07/agent-quota-reset/</link>
+      <description>Subscription-based coding agents like Claude Code and Codex impose 5-hour and weekly quotas to prevent server overload and discourage binge usage. Recently, Anthropic and OpenAI have been frequently resetting weekly quotas, especially after releasing Fable 5 and GPT-5.6 Sol. OpenAI reset Codex quotas six times in two weeks, plus banked resets. While intended as a gift, these unpredictable resets cause annoyance for power users who try to fully utilize their quota, leading to wasted quota and disrupted plans. The surge may aim to prevent users from switching to competitors like Grok 4.5 or Muse Spark 1.1. However, frequent resets could devalue quotas and incentivize downgrading plans.
 
-标签: OpenAI, ChatGPT, Codex, product management, AI agents, Anthropic, Claude, software complexity, tech criticism, organizational change</description>
-      <guid isPermaLink="false">https://www.wired.com/story/openai-reorg-greg-brockman-product/#sha256:71c1c3a83709f959</guid>
-      <category>OpenAI</category>
-      <category>ChatGPT</category>
+标签: coding agents, quota resets, Claude Code, Codex, OpenAI, Anthropic, GPT-5.6, Fable 5, LLM competition, power users</description>
+      <guid isPermaLink="false">https://minimaxir.com/2026/07/agent-quota-reset/#sha256:a3fafc6810a62185</guid>
+      <category>coding agents</category>
+      <category>quota resets</category>
+      <category>Claude Code</category>
       <category>Codex</category>
-      <category>product management</category>
-      <category>AI agents</category>
+      <category>OpenAI</category>
       <category>Anthropic</category>
-      <category>Claude</category>
-      <category>software complexity</category>
-      <category>tech criticism</category>
-      <category>organizational change</category>
-      <pubDate>Sat, 18 Jul 2026 04:27:53 +0800</pubDate>
+      <category>GPT-5.6</category>
+      <category>Fable 5</category>
+      <category>LLM competition</category>
+      <category>power users</category>
+      <pubDate>Sun, 19 Jul 2026 03:00:00 +0800</pubDate>
     </item>
     <item>
-      <title>The Terminus 摘要</title>
-      <link>https://feed.tedium.co/link/15204/17382177/terminus-road-ending-history</link>
-      <description>The article explores the anticlimactic nature of highway termini, contrasting them with the ancient Roman reverence for boundaries embodied by the god Terminus. It discusses how major U.S. highways like Interstate 64 often end unceremoniously, while Romans celebrated boundary markers with festivals and sacrifices. The piece highlights the historical and cultural significance of termini, noting that the word 'terminus' originates from a Roman god who protected borders. It also lists notable U.S. highway endpoints, such as Route 66 in Santa Monica and U.S. 1 in Key West, emphasizing how some cities celebrate their termini while others do not.
+      <title>Apple Sends Letters to Dozens of Former Employees Now at OpenAI 摘要</title>
+      <link>https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166?syn-25a6b1a6=1</link>
+      <description>Apple has sent personal legal letters to about 40 former employees now working at OpenAI, demanding they preserve documents and meet with Apple's lawyers. This aggressive tactic follows Apple's recent lawsuit accusing OpenAI and two employees of stealing secret hardware plans. Apple and OpenAI declined to comment. The move highlights Apple's aggressive legal strategy in protecting its trade secrets.
 
-标签: highways, terminus, Roman mythology, U.S. roads, history, infrastructure, boundaries, culture, travel, geography</description>
-      <guid isPermaLink="false">https://feed.tedium.co/link/15204/17382177/terminus-road-ending-history#sha256:262a4ee4ad9ff791</guid>
-      <category>highways</category>
-      <category>terminus</category>
-      <category>Roman mythology</category>
-      <category>U.S. roads</category>
-      <category>history</category>
-      <category>infrastructure</category>
-      <category>boundaries</category>
-      <category>culture</category>
-      <category>travel</category>
-      <category>geography</category>
-      <pubDate>Sat, 18 Jul 2026 04:41:40 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Raises Prices for Apple Music and Apple One Subscriptions 摘要</title>
-      <link>https://9to5mac.com/2026/07/17/apple-raises-prices-for-apple-music-and-apple-one-subscriptions/</link>
-      <description>Apple has raised prices for Apple Music and Apple One subscriptions. Apple Music Individual increases from $10.99 to $11.99, Family from $16.99 to $19.99, and Student from $5.99 to $6.99. Apple One Individual remains at $19.95, while Family rises from $25.95 to $27.95 and Premier from $37.95 to $39.95. The changes take effect immediately for new subscribers and will apply to existing subscribers on their next billing cycle.
-
-标签: Apple, Apple Music, Apple One, price increase, subscription, streaming, music, tech news</description>
-      <guid isPermaLink="false">https://9to5mac.com/2026/07/17/apple-raises-prices-for-apple-music-and-apple-one-subscriptions/#sha256:b50e3984d6de9093</guid>
+标签: Apple, OpenAI, lawsuit, trade secrets, legal, hardware, employees, tech, corporate espionage, litigation</description>
+      <guid isPermaLink="false">https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166?syn-25a6b1a6=1#sha256:a3821805d0f3eb5c</guid>
       <category>Apple</category>
-      <category>Apple Music</category>
-      <category>Apple One</category>
-      <category>price increase</category>
-      <category>subscription</category>
-      <category>streaming</category>
-      <category>music</category>
-      <category>tech news</category>
-      <pubDate>Sat, 18 Jul 2026 05:08:39 +0800</pubDate>
-    </item>
-    <item>
-      <title>Roblox Set to Introduce AI Game-Building Feature, Including on iOS 摘要</title>
-      <link>https://about.roblox.com/newsroom/2026/07/build-without-limits-on-roblox</link>
-      <description>Roblox announces Build, a mobile-first creation tab, and AI-powered tools in Studio, enabling users to delegate game development tasks. The feature will be tested on July 28. The author criticizes Apple for allowing Roblox's AI-assisted game generation on iOS while banning similar AI coding apps like Bitrig, Replit, and Vibecode, suggesting Apple's inconsistent policy favors large platforms.
-
-标签: Roblox, AI, game development, iOS, Apple, App Store, mobile creation, developer tools, policy, inconsistency</description>
-      <guid isPermaLink="false">https://about.roblox.com/newsroom/2026/07/build-without-limits-on-roblox#sha256:e10c92b5e3248dea</guid>
-      <category>Roblox</category>
-      <category>AI</category>
-      <category>game development</category>
-      <category>iOS</category>
-      <category>Apple</category>
-      <category>App Store</category>
-      <category>mobile creation</category>
-      <category>developer tools</category>
-      <category>policy</category>
-      <category>inconsistency</category>
-      <pubDate>Sat, 18 Jul 2026 05:20:04 +0800</pubDate>
-    </item>
-    <item>
-      <title>Google Runs Out of Appeals, Must Pay Record $4.7 Billion EU Antitrust Fine 摘要</title>
-      <link>https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html</link>
-      <description>The European Court of Justice upheld a €4.1 billion ($4.67 billion) fine against Google for abusing Android's dominance to favor its own apps through pre-installation deals. Google had appealed the 2018 European Commission ruling but now has no further recourse. The fine represents about 3% of Google's $132 billion profit in 2025, but would have been 15% of its $31 billion profit in 2018. By delaying appeals as profits grew fivefold, Google effectively reduced the relative financial impact.
-
-标签: Google, EU, antitrust, fine, Android, European Commission, European Court of Justice, competition law, tech regulation, legal</description>
-      <guid isPermaLink="false">https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html#sha256:620e70a7a9951486</guid>
-      <category>Google</category>
-      <category>EU</category>
-      <category>antitrust</category>
-      <category>fine</category>
-      <category>Android</category>
-      <category>European Commission</category>
-      <category>European Court of Justice</category>
-      <category>competition law</category>
-      <category>tech regulation</category>
+      <category>OpenAI</category>
+      <category>lawsuit</category>
+      <category>trade secrets</category>
       <category>legal</category>
-      <pubDate>Sat, 18 Jul 2026 07:47:16 +0800</pubDate>
+      <category>hardware</category>
+      <category>employees</category>
+      <category>tech</category>
+      <category>corporate espionage</category>
+      <category>litigation</category>
+      <pubDate>Sun, 19 Jul 2026 06:47:59 +0800</pubDate>
     </item>
   </channel>
 </rss>
