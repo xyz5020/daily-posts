@@ -8,83 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Jul 2026 07:58:33 +0800</lastBuildDate>
-    <pubDate>Sun, 19 Jul 2026 07:58:33 +0800</pubDate>
+    <lastBuildDate>Mon, 20 Jul 2026 10:54:58 +0800</lastBuildDate>
+    <pubDate>Mon, 20 Jul 2026 10:54:58 +0800</pubDate>
     <item>
-      <title>SQLite Query Explainer 摘要</title>
-      <link>https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything</link>
-      <description>Simon Willison built an interactive SQLite query explainer tool that runs SQLite in Python via Pyodide in Web Assembly in the browser. Inspired by Julia Evans' admission of difficulty reading query plans, the tool adds explanatory layers to EXPLAIN and EXPLAIN QUERY PLAN results. Willison cautions that he cannot fully verify the explanations himself but finds them plausible. The tool is available on his website and was built using Fable.
+      <title>Sum of low squares 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/07/19/sum-of-low-squares/</link>
+      <description>For an odd prime p, half the numbers from 1 to p-1 are quadratic residues (squares). If p ≡ 3 mod 4, define the signature as the sum of low squares (residues less than p/2) modulo p. Surprisingly, the signature uniquely determines p: given signature s, p is the largest prime factor of 16s+1, or equivalently p = (16s+1)/m where m is the smallest in {3,7,11,15} that yields a prime. This result, from a 1998 Mathematics Magazine article, can be used as a parlor trick to recover the prime from its signature.
 
-标签: sqlite, sql, tools, query-plan, pyodide, webassembly, browser, julia-evans, simon-willison, fable</description>
-      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything#sha256:858d7c1615b19574</guid>
-      <category>sqlite</category>
-      <category>sql</category>
-      <category>tools</category>
-      <category>query-plan</category>
-      <category>pyodide</category>
-      <category>webassembly</category>
-      <category>browser</category>
-      <category>julia-evans</category>
-      <category>simon-willison</category>
-      <category>fable</category>
-      <pubDate>Sun, 19 Jul 2026 01:19:10 +0800</pubDate>
+标签: quadratic residues, number theory, prime numbers, signature, modular arithmetic, mathematics, parlor trick, low squares, inverse signature</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/07/19/sum-of-low-squares/#sha256:6689e76fd481bd62</guid>
+      <category>quadratic residues</category>
+      <category>number theory</category>
+      <category>prime numbers</category>
+      <category>signature</category>
+      <category>modular arithmetic</category>
+      <category>mathematics</category>
+      <category>parlor trick</category>
+      <category>low squares</category>
+      <category>inverse signature</category>
+      <pubDate>Mon, 20 Jul 2026 00:41:48 +0800</pubDate>
     </item>
     <item>
-      <title>Make It Work vs. Make It Good 摘要</title>
-      <link>https://blog.jim-nielsen.com/2026/make-it-work-make-it-good/</link>
-      <description>The author describes an internal conflict between wanting to be a designer and a developer. Making something 'work' is easier and often receives more praise for its novelty, while making something 'good' requires nuanced, multi-disciplinary effort that is often met with ambivalence because good design appears obvious in hindsight. The article uses the example of making a website responsive: getting it to work is simple and applauded, but making it a truly good experience across devices, accessibility, and performance is much harder. The author concludes that 'make it work' is the first 90% of the work, and 'make it good' is the other 90%.
+      <title>9to5Mac Uncovers Dozens of Disguised Gambling Apps on the App Store in Brazil 摘要</title>
+      <link>https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/</link>
+      <description>9to5Mac reports that Brazilian App Store users are finding poorly made games with AI-generated animal icons ranking high in categories like Navigation, Travel, and Weather. These are 'jacket apps' that hide gambling platforms, only revealing them when accessed from a Brazilian IP address. Over 60 such apps were found. The article argues that while App Store review cannot catch all disguised scams, Apple should focus on preventing the most popular scams from succeeding, citing 'PotatoPlot Puzzle'—a game that became the top weather app in Brazil—as an inexcusable failure.
 
-标签: design, development, craft, quality, user experience, web development, responsive design, perception, effort, taste</description>
-      <guid isPermaLink="false">https://blog.jim-nielsen.com/2026/make-it-work-make-it-good/#sha256:d25601e7dc78563f</guid>
-      <category>design</category>
-      <category>development</category>
-      <category>craft</category>
-      <category>quality</category>
-      <category>user experience</category>
-      <category>web development</category>
-      <category>responsive design</category>
-      <category>perception</category>
-      <category>effort</category>
-      <category>taste</category>
-      <pubDate>Sun, 19 Jul 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>What's the deal with all the random weekly quota resets for agents lately? 摘要</title>
-      <link>https://minimaxir.com/2026/07/agent-quota-reset/</link>
-      <description>Subscription-based coding agents like Claude Code and Codex impose 5-hour and weekly quotas to prevent server overload and discourage binge usage. Recently, Anthropic and OpenAI have been frequently resetting weekly quotas, especially after releasing Fable 5 and GPT-5.6 Sol. OpenAI reset Codex quotas six times in two weeks, plus banked resets. While intended as a gift, these unpredictable resets cause annoyance for power users who try to fully utilize their quota, leading to wasted quota and disrupted plans. The surge may aim to prevent users from switching to competitors like Grok 4.5 or Muse Spark 1.1. However, frequent resets could devalue quotas and incentivize downgrading plans.
-
-标签: coding agents, quota resets, Claude Code, Codex, OpenAI, Anthropic, GPT-5.6, Fable 5, LLM competition, power users</description>
-      <guid isPermaLink="false">https://minimaxir.com/2026/07/agent-quota-reset/#sha256:a3fafc6810a62185</guid>
-      <category>coding agents</category>
-      <category>quota resets</category>
-      <category>Claude Code</category>
-      <category>Codex</category>
-      <category>OpenAI</category>
-      <category>Anthropic</category>
-      <category>GPT-5.6</category>
-      <category>Fable 5</category>
-      <category>LLM competition</category>
-      <category>power users</category>
-      <pubDate>Sun, 19 Jul 2026 03:00:00 +0800</pubDate>
-    </item>
-    <item>
-      <title>Apple Sends Letters to Dozens of Former Employees Now at OpenAI 摘要</title>
-      <link>https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166?syn-25a6b1a6=1</link>
-      <description>Apple has sent personal legal letters to about 40 former employees now working at OpenAI, demanding they preserve documents and meet with Apple's lawyers. This aggressive tactic follows Apple's recent lawsuit accusing OpenAI and two employees of stealing secret hardware plans. Apple and OpenAI declined to comment. The move highlights Apple's aggressive legal strategy in protecting its trade secrets.
-
-标签: Apple, OpenAI, lawsuit, trade secrets, legal, hardware, employees, tech, corporate espionage, litigation</description>
-      <guid isPermaLink="false">https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166?syn-25a6b1a6=1#sha256:a3821805d0f3eb5c</guid>
+标签: App Store, scam, gambling, Brazil, AI-generated, jacket apps, Apple, review, fraud, mobile</description>
+      <guid isPermaLink="false">https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/#sha256:ab954d6964065607</guid>
+      <category>App Store</category>
+      <category>scam</category>
+      <category>gambling</category>
+      <category>Brazil</category>
+      <category>AI-generated</category>
+      <category>jacket apps</category>
       <category>Apple</category>
-      <category>OpenAI</category>
-      <category>lawsuit</category>
-      <category>trade secrets</category>
-      <category>legal</category>
-      <category>hardware</category>
-      <category>employees</category>
-      <category>tech</category>
-      <category>corporate espionage</category>
-      <category>litigation</category>
-      <pubDate>Sun, 19 Jul 2026 06:47:59 +0800</pubDate>
+      <category>review</category>
+      <category>fraud</category>
+      <category>mobile</category>
+      <pubDate>Mon, 20 Jul 2026 01:18:57 +0800</pubDate>
+    </item>
+    <item>
+      <title>Fitting a regular expression to a list of words 摘要</title>
+      <link>https://www.johndcook.com/blog/2026/07/19/fitting-a-regex/</link>
+      <description>The article discusses techniques for creating efficient regular expressions from a list of words. It contrasts grep's -f flag for word lists with ripgrep's single-regex approach, which can fail on large lists due to size limits. The Python package trieregex uses a trie structure to compress common prefixes, producing shorter regexes than brute-force alternation. However, it does not optimize for common suffixes. The author applies this to HCPCS medical codes, achieving a 5:2 compression ratio and demonstrating ripgrep's 1000x speedup over grep for searching these codes.
+
+标签: regex, grep, ripgrep, trieregex, optimization, Python, HCPCS, ICD-10, text processing, performance</description>
+      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/07/19/fitting-a-regex/#sha256:ec801635db245b9b</guid>
+      <category>regex</category>
+      <category>grep</category>
+      <category>ripgrep</category>
+      <category>trieregex</category>
+      <category>optimization</category>
+      <category>Python</category>
+      <category>HCPCS</category>
+      <category>ICD-10</category>
+      <category>text processing</category>
+      <category>performance</category>
+      <pubDate>Mon, 20 Jul 2026 03:30:17 +0800</pubDate>
+    </item>
+    <item>
+      <title>Paper 摘要</title>
+      <link>https://paper.design/?utm_source=df</link>
+      <description>Paper is a professional design tool where every layer is real HTML and CSS, bridging design and code. It supports bidirectional workflows: code to design and design to code. AI agents can connect via MCP to read and edit designs, and Paper Snapshot captures live sites as editable layers. This reduces handoffs and abstraction layers, allowing designers to focus on craft and decisions.
+
+标签: design, code, HTML, CSS, AI, MCP, tool, productivity, web, development</description>
+      <guid isPermaLink="false">https://paper.design/?utm_source=df#sha256:1bb7a6f7185b372b</guid>
+      <category>design</category>
+      <category>code</category>
+      <category>HTML</category>
+      <category>CSS</category>
+      <category>AI</category>
+      <category>MCP</category>
+      <category>tool</category>
+      <category>productivity</category>
+      <category>web</category>
+      <category>development</category>
+      <pubDate>Mon, 20 Jul 2026 06:31:11 +0800</pubDate>
     </item>
   </channel>
 </rss>
