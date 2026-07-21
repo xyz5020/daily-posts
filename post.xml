@@ -8,82 +8,102 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Jul 2026 10:54:58 +0800</lastBuildDate>
-    <pubDate>Mon, 20 Jul 2026 10:54:58 +0800</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2026 08:01:00 +0800</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2026 08:01:00 +0800</pubDate>
     <item>
-      <title>Sum of low squares 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/07/19/sum-of-low-squares/</link>
-      <description>For an odd prime p, half the numbers from 1 to p-1 are quadratic residues (squares). If p ≡ 3 mod 4, define the signature as the sum of low squares (residues less than p/2) modulo p. Surprisingly, the signature uniquely determines p: given signature s, p is the largest prime factor of 16s+1, or equivalently p = (16s+1)/m where m is the smallest in {3,7,11,15} that yields a prime. This result, from a 1998 Mathematics Magazine article, can be used as a parlor trick to recover the prime from its signature.
+      <title>‘Who’s Afraid of Chinese Models?’ 摘要</title>
+      <link>https://stratechery.com/2026/whos-afraid-of-chinese-models/</link>
+      <description>Ben Thompson argues that U.S. open-weight model makers are disadvantaged because they must follow frontier labs' terms of service, making them worse than Chinese alternatives that ignore such restrictions. He questions why distillation is considered bad, noting that LLMs themselves are distillations of internet knowledge. Thompson proposes U.S. legislation to classify training data collection as fair use and bar terms of service forbidding distillation, enabling innovation without dependence on China. Chinese models like Kimi K3 benefit from distillation, staying 6–9 months behind U.S. frontier labs, but Thompson suggests frontier labs should not complain since their own models are built on distilled public knowledge.
 
-标签: quadratic residues, number theory, prime numbers, signature, modular arithmetic, mathematics, parlor trick, low squares, inverse signature</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/07/19/sum-of-low-squares/#sha256:6689e76fd481bd62</guid>
-      <category>quadratic residues</category>
-      <category>number theory</category>
-      <category>prime numbers</category>
-      <category>signature</category>
-      <category>modular arithmetic</category>
-      <category>mathematics</category>
-      <category>parlor trick</category>
-      <category>low squares</category>
-      <category>inverse signature</category>
-      <pubDate>Mon, 20 Jul 2026 00:41:48 +0800</pubDate>
-    </item>
-    <item>
-      <title>9to5Mac Uncovers Dozens of Disguised Gambling Apps on the App Store in Brazil 摘要</title>
-      <link>https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/</link>
-      <description>9to5Mac reports that Brazilian App Store users are finding poorly made games with AI-generated animal icons ranking high in categories like Navigation, Travel, and Weather. These are 'jacket apps' that hide gambling platforms, only revealing them when accessed from a Brazilian IP address. Over 60 such apps were found. The article argues that while App Store review cannot catch all disguised scams, Apple should focus on preventing the most popular scams from succeeding, citing 'PotatoPlot Puzzle'—a game that became the top weather app in Brazil—as an inexcusable failure.
-
-标签: App Store, scam, gambling, Brazil, AI-generated, jacket apps, Apple, review, fraud, mobile</description>
-      <guid isPermaLink="false">https://9to5mac.com/2026/07/17/investigation-reveals-dozens-of-disguised-gambling-apps-on-the-app-store-in-brazil/#sha256:ab954d6964065607</guid>
-      <category>App Store</category>
-      <category>scam</category>
-      <category>gambling</category>
-      <category>Brazil</category>
-      <category>AI-generated</category>
-      <category>jacket apps</category>
-      <category>Apple</category>
-      <category>review</category>
-      <category>fraud</category>
-      <category>mobile</category>
-      <pubDate>Mon, 20 Jul 2026 01:18:57 +0800</pubDate>
-    </item>
-    <item>
-      <title>Fitting a regular expression to a list of words 摘要</title>
-      <link>https://www.johndcook.com/blog/2026/07/19/fitting-a-regex/</link>
-      <description>The article discusses techniques for creating efficient regular expressions from a list of words. It contrasts grep's -f flag for word lists with ripgrep's single-regex approach, which can fail on large lists due to size limits. The Python package trieregex uses a trie structure to compress common prefixes, producing shorter regexes than brute-force alternation. However, it does not optimize for common suffixes. The author applies this to HCPCS medical codes, achieving a 5:2 compression ratio and demonstrating ripgrep's 1000x speedup over grep for searching these codes.
-
-标签: regex, grep, ripgrep, trieregex, optimization, Python, HCPCS, ICD-10, text processing, performance</description>
-      <guid isPermaLink="false">https://www.johndcook.com/blog/2026/07/19/fitting-a-regex/#sha256:ec801635db245b9b</guid>
-      <category>regex</category>
-      <category>grep</category>
-      <category>ripgrep</category>
-      <category>trieregex</category>
-      <category>optimization</category>
-      <category>Python</category>
-      <category>HCPCS</category>
-      <category>ICD-10</category>
-      <category>text processing</category>
-      <category>performance</category>
-      <pubDate>Mon, 20 Jul 2026 03:30:17 +0800</pubDate>
-    </item>
-    <item>
-      <title>Paper 摘要</title>
-      <link>https://paper.design/?utm_source=df</link>
-      <description>Paper is a professional design tool where every layer is real HTML and CSS, bridging design and code. It supports bidirectional workflows: code to design and design to code. AI agents can connect via MCP to read and edit designs, and Paper Snapshot captures live sites as editable layers. This reduces handoffs and abstraction layers, allowing designers to focus on craft and decisions.
-
-标签: design, code, HTML, CSS, AI, MCP, tool, productivity, web, development</description>
-      <guid isPermaLink="false">https://paper.design/?utm_source=df#sha256:1bb7a6f7185b372b</guid>
-      <category>design</category>
-      <category>code</category>
-      <category>HTML</category>
-      <category>CSS</category>
+标签: AI, LLM, distillation, open-weight models, Chinese AI, copyright, fair use, regulation, innovation, Stratechery</description>
+      <guid isPermaLink="false">https://stratechery.com/2026/whos-afraid-of-chinese-models/#sha256:d3f9d7a4d7e9aed0</guid>
       <category>AI</category>
+      <category>LLM</category>
+      <category>distillation</category>
+      <category>open-weight models</category>
+      <category>Chinese AI</category>
+      <category>copyright</category>
+      <category>fair use</category>
+      <category>regulation</category>
+      <category>innovation</category>
+      <category>Stratechery</category>
+      <pubDate>Tue, 21 Jul 2026 00:27:36 +0800</pubDate>
+    </item>
+    <item>
+      <title>Who’s Afraid of Chinese Models? 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything</link>
+      <description>Ben Thompson proposes a US law making training data collection fair use and barring terms of service that forbid distillation, arguing this would help US open models compete with Chinese counterparts. He suggests Alibaba's release of Qwen 3.8 Max (2.4T parameters) as open weights may have been influenced by Xi Jinping's speech encouraging open source. The article also notes Qwen 3.8 Max's impressive image generation, including a pelican riding a bicycle, with humorous reasoning trace notes.
+
+标签: AI, open source, distillation, copyright, Qwen, Chinese AI, policy, LLM, generative AI, ethics</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything#sha256:0229c34f1a05592d</guid>
+      <category>AI</category>
+      <category>open source</category>
+      <category>distillation</category>
+      <category>copyright</category>
+      <category>Qwen</category>
+      <category>Chinese AI</category>
+      <category>policy</category>
+      <category>LLM</category>
+      <category>generative AI</category>
+      <category>ethics</category>
+      <pubDate>Tue, 21 Jul 2026 01:09:19 +0800</pubDate>
+    </item>
+    <item>
+      <title>Reverse-engineering is cheap now 摘要</title>
+      <link>https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything</link>
+      <description>Coding agents are reducing the cost of writing code, making it feasible to reverse-engineer and automate home devices. Previously, the effort and maintenance burden of undocumented APIs made such projects unattractive. With agents, the cost of trying and failing is lower, and the psychological weight of future maintenance is reduced, changing the ROI equation for hobbyist automation.
+
+标签: reverse-engineering, coding-agents, ai-assisted-programming, generative-ai, ai, llms, automation, home-automation, cost-reduction, maintenance</description>
+      <guid isPermaLink="false">https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything#sha256:fdfcc9beabdbb88e</guid>
+      <category>reverse-engineering</category>
+      <category>coding-agents</category>
+      <category>ai-assisted-programming</category>
+      <category>generative-ai</category>
+      <category>ai</category>
+      <category>llms</category>
+      <category>automation</category>
+      <category>home-automation</category>
+      <category>cost-reduction</category>
+      <category>maintenance</category>
+      <pubDate>Tue, 21 Jul 2026 03:24:05 +0800</pubDate>
+    </item>
+    <item>
+      <title>Expensive Is Just a Brand Now 摘要</title>
+      <link>https://idiallo.com/blog/expensive-is-just-branding</link>
+      <description>The article challenges the traditional belief that higher price guarantees better quality. It argues that in the past, price correlated with quality due to better materials and construction, but today many premium brands manufacture in the same factories as cheap alternatives, with price reflecting brand power, marketing, and exclusivity rather than durability. The author advises consumers to judge products individually and seek reviews or 'cheap alternatives' instead of relying on price as a quality signal.
+
+标签: consumerism, branding, quality, price, marketing, manufacturing, value, economics, retail, product durability</description>
+      <guid isPermaLink="false">https://idiallo.com/blog/expensive-is-just-branding#sha256:5ed8b861f5e60fa2</guid>
+      <category>consumerism</category>
+      <category>branding</category>
+      <category>quality</category>
+      <category>price</category>
+      <category>marketing</category>
+      <category>manufacturing</category>
+      <category>value</category>
+      <category>economics</category>
+      <category>retail</category>
+      <category>product durability</category>
+      <pubDate>Tue, 21 Jul 2026 07:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>[Sponsor] WorkOS MCP: Manage Your Auth Platform From Any AI Agent 摘要</title>
+      <link>https://workos.com/blog/management-mcp-server?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026</link>
+      <description>WorkOS has launched an MCP (Model Context Protocol) server that allows AI agents to perform administrative tasks on its auth platform, such as debugging SSO, managing users, adjusting policies, and configuring branding. Previously, these tasks required a human-driven UI. The MCP server provides agents with the same access as a dashboard login, supporting hundreds of discoverable operations. Connection is done via OAuth with scoped tokens, eliminating the need for a master API key. Users can even ask an agent to match a login page from a screenshot, enabling automation of previously manual configuration tasks.
+
+标签: WorkOS, MCP, AI agents, authentication, SSO, devops, API, automation, configuration, OAuth</description>
+      <guid isPermaLink="false">https://workos.com/blog/management-mcp-server?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q32026#sha256:6061e984b852bc03</guid>
+      <category>WorkOS</category>
       <category>MCP</category>
-      <category>tool</category>
-      <category>productivity</category>
-      <category>web</category>
-      <category>development</category>
-      <pubDate>Mon, 20 Jul 2026 06:31:11 +0800</pubDate>
+      <category>AI agents</category>
+      <category>authentication</category>
+      <category>SSO</category>
+      <category>devops</category>
+      <category>API</category>
+      <category>automation</category>
+      <category>configuration</category>
+      <category>OAuth</category>
+      <pubDate>Tue, 21 Jul 2026 07:13:48 +0800</pubDate>
     </item>
   </channel>
 </rss>
